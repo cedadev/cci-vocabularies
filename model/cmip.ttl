@@ -1,0 +1,80 @@
+#
+# The Concept scheme for CMIP, taken from the values provided by Martin Juckes
+#
+
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix cmip: <http://localhost/cmip> .
+@prefix foaf: <http://xmlns.com/foaf/spec/> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+
+
+#
+# Concept Scheme
+#
+
+cmip:cmipConceptScheme a skos:ConceptScheme ;
+	skos:prefLabel "A SKOS Concept Scheme for CMIP"@en ;
+	skos:definition "Concepts used within CMIP"@en ;
+	skos:hasTopConcept cmip:atmos ;
+	skos:hasTopConcept cmip:land ;
+	skos:hasTopConcept cmip:ocean ;
+	dc:creator [ foaf:name "Antony Wilson" ] ;
+	dc:date "2015-08-20 08:30:00.0" .
+
+
+#
+# Top concepts
+#
+
+cmip:atmos a skos:Concept ;
+	skos:inScheme cmip:cmipConceptScheme ;
+	skos:prefLabel "atmospheric"@en ;
+	skos:definition ""@en ;
+	dc:date "2015-08-20 08:30:00.0" .
+
+cmip:land a skos:Concept ;
+	skos:inScheme cmip:cmipConceptScheme ;
+	skos:prefLabel "land"@en ;
+	skos:definition ""@en ;
+	dc:date "2015-08-20 08:30:00.0" .
+
+cmip:ocean a skos:Concept ;
+	skos:inScheme cmip:cmipConceptScheme ;
+	skos:prefLabel "oceanic"@en ;
+	skos:definition ""@en ;
+	dc:date "2015-08-20 08:30:00.0" .
+
+
+#
+# Other concepts
+#
+
+cmip:atmosChem a skos:Concept ;
+	skos:inScheme cmip:cmipConceptScheme ;
+	skos:prefLabel "atmospheric chemistry"@en ;
+	skos:definition ""@en ;
+	dc:date "2015-08-20 08:30:00.0" .
+
+cmip:aerosol a skos:Concept ;
+	skos:inScheme cmip:cmipConceptScheme ;
+	skos:prefLabel "aerosol"@en ;
+	skos:definition ""@en ;
+	dc:date "2015-08-20 08:30:00.0" .
+
+cmip:seaIce a skos:Concept ;
+	skos:inScheme cmip:cmipConceptScheme ;
+	skos:prefLabel "sea ice"@en ;
+	skos:definition ""@en ;
+	dc:date "2015-08-20 08:30:00.0" .
+
+cmip:ocnBgchem a skos:Concept ;
+	skos:inScheme cmip:cmipConceptScheme ;
+	skos:prefLabel "ocean bio-geochemistry"@en ;
+	skos:definition ""@en ;
+	dc:date "2015-08-20 08:30:00.0" .
+
+cmip:landIce a skos:Concept ;
+	skos:inScheme cmip:cmipConceptScheme ;
+	skos:prefLabel "land ice"@en ;
+	skos:definition ""@en ;
+	dc:date "2015-08-20 08:30:00.0" .
