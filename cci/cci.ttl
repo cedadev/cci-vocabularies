@@ -1,0 +1,841 @@
+#
+# The Concept scheme for Clmate Change Initiative (CCI) for ESA
+# The original list can be found at: http://cci.esa.int/page_dswg.php
+#
+
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix cci: <http://localhost/cci> .
+@prefix foaf: <http://xmlns.com/foaf/spec/> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+
+
+#
+# Concept Scheme
+#
+
+cci:cciConceptScheme a skos:ConceptScheme ;
+    skos:prefLabel "A SKOS Concept Scheme for CCI"@en ;
+    skos:definition "Concepts used within CCI"@en ;
+    skos:hasTopConcept cci:platform ;
+    skos:hasTopConcept cci:sensor ;
+    dc:creator [ foaf:name "William Tucker" ] ;
+    dc:date "2015-08-20 13:00:00.0" .
+
+
+#
+# Top concepts
+#
+
+cci:platform a skos:Concept ;
+    skos:inScheme cci:cciConceptScheme ;
+    skos:prefLabel "platform"@en ;
+    skos:definition ""@en ;
+    dc:date "2015-08-20 13:00:00.0" .
+
+cci:sensor a skos:Concept ;
+    skos:inScheme cci:cciConceptScheme ;
+    skos:prefLabel "sensor"@en ;
+    skos:definition ""@en ;
+    dc:date "2015-08-20 13:00:00.0" .
+
+
+#
+# platform concepts
+#
+
+cci:alos a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "ALOS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:aqua a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "Aqua"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:aura a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "Aura"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:coriolis a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "Coriolis"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:dmsp a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "DMSP"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:envisat a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "Envisat"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:envisat a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "ENVISAT"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:ers-1 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "ERS-1"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:ers-2 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "ERS-2"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:fengyun-3b a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "Fengyun-3B"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:gcom-w1 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "GCOM-W1"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:gfo a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "GFO"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:goes a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "GOES"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:gosat a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "GOSAT"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:icesat a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "ICESat"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:jason-1 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "Jason-1"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:jason-2 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "Jason-2"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:landsat a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "Landsat"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:metopa a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "MetOpA"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:msg1 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "MSG1"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:msg2 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "MSG2"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:mtsat1r a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "MTSAT1R"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:nimbus-7 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "Nimbus-7"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:noaa-10 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "NOAA-10"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:noaa-11 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "NOAA-11"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:noaa-12 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "NOAA-12"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:noaa-13 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "NOAA-13"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:noaa-14 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "NOAA-14"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:noaa-15 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "NOAA-15"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:noaa-16 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "NOAA-16"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:noaa-17 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "NOAA-17"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:noaa-18 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "NOAA-18"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:noaa-19 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "NOAA-19"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:odin a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "ODIN"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:orbview-2 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "Orbview-2"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:orbview-2/seastar a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "Orbview-2/SeaStar"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:parasol a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "PARASOL"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:scisat a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "SCISAT"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:spot-4 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "SPOT-4"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:spot-5 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "SPOT-5"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:terra a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "Terra"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:topex/poseidon a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "Topex/Poseidon"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:trmm a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "TRMM"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:nimbus a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "NIMBUS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:metop-a a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "METOP-A"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+
+#
+# sensor concepts
+#
+
+cci:palsar a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "PALSAR"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:amsre a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "AMSRE"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:modis a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "MODIS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:omi a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "OMI"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:windsat a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "WindSat"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:ssm/i a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "SSM/I"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:ssmi/s a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "SSMI/S"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:aatsr a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "AATSR"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:asar a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "ASAR"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:gomos a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "GOMOS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:meris-frs a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "MERIS-FRS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:meris-rr a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "MERIS-RR"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:meris a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "MERIS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:mipas a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "MIPAS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:ra-2 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "RA-2"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:sciamachy a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "SCIAMACHY"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:ami-ws a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "AMI-WS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:atsr a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "ATSR"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:atsr-1 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "ATSR-1"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:atsr-2 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "ATSR-2"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:ra a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "RA"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:ami-ws a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "AMI-WS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:atsr a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "ATSR"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:gome a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "GOME"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:ra a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "RA"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:mwri a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "MWRI"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:amsr2 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "AMSR2"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:gfo a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "GFO"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:goes_imager a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "GOES_Imager"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:tanso-cai a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "TANSO-CAI"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:tanso-fts a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "TANSO-FTS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:glas a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "GLAS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:poseidon-2 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "Poseidon-2"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:poseidon-3 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "Poseidon-3"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:etm+ a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "ETM+"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:tm a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "TM"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:mss a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "MSS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:oli a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "OLI"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:tirs a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "TIRS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:airs a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "AIRS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:amsu a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "AMSU"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:ascat a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "ASCAT"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:avhrr a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "AVHRR"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:avhrr_gac a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "AVHRR_GAC"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:gome-2 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "GOME-2"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:iasi a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "IASI"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:seviri a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "SEVIRI"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:seviri a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "SEVIRI"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:jami a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "JAMI"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:smmr a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "SMMR"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:avhrr a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "AVHRR"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:avhrr_gac a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "AVHRR_GAC"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:avhrr_lac a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "AVHRR_LAC"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:avhrr_hrpt a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "AVHRR_HRPT"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:osiris a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "OSIRIS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:smr a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "SMR"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:seawifs a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "SeaWiFS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:polder a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "POLDER"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:ace a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "ACE"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:ace-fts a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "ACE-FTS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:vegetation a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "VEGETATION"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:hrs a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "HRS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:modis a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "MODIS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:sar-x a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "SAR-X"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:aster a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "ASTER"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:poseidon-1 a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "Poseidon-1"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:tmi a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "TMI"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
+cci:ssmis a skos:Concept ;
+skos:inScheme cci:cciConceptScheme ;
+skos:prefLabel "SSMIS"@en ;
+skos:transitiveBroader cci:platform ;
+skos:definition ""@en ;
+dc:date "2015-08-20 13:00:00.0" .
+
