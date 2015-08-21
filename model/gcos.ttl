@@ -1,0 +1,96 @@
+#
+# The Concept scheme for Global Climate Observing System (GCOS),
+# taken from the values provided by Martin Juckes. See also
+# https://www.wmo.int/pages/prog/gcos/index.php?name=EssentialClimateVariables
+#
+
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix gcos: <http://localhost/gcos> .
+@prefix foaf: <http://xmlns.com/foaf/spec/> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+
+
+#
+# Concept Scheme
+#
+
+gcos:gcosConceptScheme a skos:ConceptScheme ;
+	skos:prefLabel "A SKOS Concept Scheme for GCOS"@en ;
+	skos:definition "Concepts used within GCOS"@en ;
+	skos:hasTopConcept gcos:atmospheric ;
+	skos:hasTopConcept gcos:terrestrial ;
+	skos:hasTopConcept gcos:oceanic ;
+	dc:creator [ foaf:name "Antony Wilson" ] ;
+	dc:date "2015-08-20 08:30:00.0" .
+
+
+#
+# Top concepts
+#
+
+gcos:atmospheric a skos:Concept ;
+	skos:inScheme gcos:gcosConceptScheme ;
+	skos:prefLabel "atmospheric"@en ;
+	skos:definition ""@en ;
+	dc:date "2015-08-20 08:30:00.0" .
+
+gcos:terrestrial a skos:Concept ;
+	skos:inScheme gcos:gcosConceptScheme ;
+	skos:prefLabel "terrestrial"@en ;
+	skos:definition ""@en ;
+	dc:date "2015-08-20 08:30:00.0" .
+
+gcos:oceanic a skos:Concept ;
+	skos:inScheme gcos:gcosConceptScheme ;
+	skos:prefLabel "oceanic"@en ;
+	skos:definition ""@en ;
+	dc:date "2015-08-20 08:30:00.0" .
+
+
+#
+# Atmospheric concepts
+#
+
+gcos:atmosphericSurface a skos:Concept ;
+	skos:inScheme gcos:gcosConceptScheme ;
+	skos:prefLabel "atmospheric surface"@en ;
+	skos:transitiveBroader gcos:atmospheric ;
+	skos:comment "Implicit hierarchy in GCOS usage"@en ;
+	skos:definition "Including measurements at standardized, but globally varying heights in close proximity to the surface"@en ;
+	dc:date "2015-08-20 08:30:00.0" .
+
+gcos:atmosphericUpperair a skos:Concept ;
+	skos:inScheme gcos:gcosConceptScheme ;
+	skos:prefLabel "atmospheric upper-air"@en ;
+	skos:transitiveBroader gcos:atmospheric ;
+	skos:comment "Implicit hierarchy in GCOS usage"@en ;
+	skos:definition "Up to the stratopause"@en ;
+	dc:date "2015-08-20 08:30:00.0" .
+
+gcos:atmosphericComposition a skos:Concept ;
+	skos:inScheme gcos:gcosConceptScheme ;
+	skos:prefLabel "atmospheric composition"@en ;
+	skos:transitiveBroader gcos:atmospheric ;
+	skos:comment "Implicit hierarchy in GCOS usage"@en ;
+	skos:definition ""@en ;
+	dc:date "2015-08-20 08:30:00.0" .
+
+#
+# Oceanic concepts
+#
+
+gcos:oceanicSurface a skos:Concept ;
+	skos:inScheme gcos:gcosConceptScheme ;
+	skos:prefLabel "oceanic surface"@en ;
+	skos:transitiveBroader gcos:oceanic ;
+	skos:comment "Implicit hierarchy in GCOS usage"@en ;
+	skos:definition ""@en ;
+	dc:date "2015-08-20 08:30:00.0" .
+	
+gcos:oceanicSubsurface a skos:Concept ;
+	skos:inScheme gcos:gcosConceptScheme ;
+	skos:prefLabel "oceanic sub-surface"@en ;
+	skos:transitiveBroader gcos:oceanic ;
+	skos:comment "Implicit hierarchy in GCOS usage"@en ;
+	skos:definition "Including measurements within the surface mixed layer, usually within the upper 15m"@en ;
+	dc:date "2015-08-20 08:30:00.0" .
