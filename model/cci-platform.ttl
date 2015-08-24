@@ -4,2343 +4,2343 @@
 
 cci:alos a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "alos"@en ;
+    skos:prefLabel "ALOS"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057642" .
+    dc:date "2015-08-24 15:52:19.785094" .
 
 cci:aqua a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "aqua"@en ;
+    skos:prefLabel "Aqua"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057695" .
+    dc:date "2015-08-24 15:52:19.785175" .
 
 cci:aura a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "aura"@en ;
+    skos:prefLabel "Aura"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057711" .
+    dc:date "2015-08-24 15:52:19.785192" .
 
 cci:coriolis a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "coriolis"@en ;
+    skos:prefLabel "Coriolis"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057723" .
+    dc:date "2015-08-24 15:52:19.785204" .
 
 cci:dmsp a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "dmsp"@en ;
+    skos:prefLabel "DMSP"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057735" .
+    dc:date "2015-08-24 15:52:19.785216" .
 
 cci:envisat a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "envisat"@en ;
+    skos:prefLabel "Envisat"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057747" .
+    dc:date "2015-08-24 15:52:19.785228" .
 
 cci:envisat a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "envisat"@en ;
+    skos:prefLabel "ENVISAT"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057759" .
+    dc:date "2015-08-24 15:52:19.785239" .
 
 cci:ers-1 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "ers-1"@en ;
+    skos:prefLabel "ERS-1"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057770" .
+    dc:date "2015-08-24 15:52:19.785250" .
 
 cci:ers-2 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "ers-2"@en ;
+    skos:prefLabel "ERS-2"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057782" .
+    dc:date "2015-08-24 15:52:19.785261" .
 
 cci:fengyun-3b a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "fengyun-3b"@en ;
+    skos:prefLabel "Fengyun-3B"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057793" .
+    dc:date "2015-08-24 15:52:19.785272" .
 
 cci:gcom-w1 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "gcom-w1"@en ;
+    skos:prefLabel "GCOM-W1"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057805" .
+    dc:date "2015-08-24 15:52:19.785283" .
 
 cci:gfo a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "gfo"@en ;
+    skos:prefLabel "GFO"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057817" .
+    dc:date "2015-08-24 15:52:19.785295" .
 
 cci:goes a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "goes"@en ;
+    skos:prefLabel "GOES"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057830" .
+    dc:date "2015-08-24 15:52:19.785307" .
 
 cci:gosat a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "gosat"@en ;
+    skos:prefLabel "GOSAT"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057842" .
+    dc:date "2015-08-24 15:52:19.785318" .
 
 cci:icesat a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "icesat"@en ;
+    skos:prefLabel "ICESat"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057855" .
+    dc:date "2015-08-24 15:52:19.785331" .
 
 cci:jason-1 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "jason-1"@en ;
+    skos:prefLabel "Jason-1"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057866" .
+    dc:date "2015-08-24 15:52:19.785342" .
 
 cci:jason-2 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "jason-2"@en ;
+    skos:prefLabel "Jason-2"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057877" .
+    dc:date "2015-08-24 15:52:19.785386" .
 
 cci:landsat a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "landsat"@en ;
+    skos:prefLabel "Landsat"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057889" .
+    dc:date "2015-08-24 15:52:19.785413" .
 
 cci:metopa a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "metopa"@en ;
+    skos:prefLabel "MetOpA"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057902" .
+    dc:date "2015-08-24 15:52:19.785425" .
 
 cci:msg1 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "msg1"@en ;
+    skos:prefLabel "MSG1"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057914" .
+    dc:date "2015-08-24 15:52:19.785437" .
 
 cci:msg2 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "msg2"@en ;
+    skos:prefLabel "MSG2"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057925" .
+    dc:date "2015-08-24 15:52:19.785447" .
 
 cci:mtsat1r a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "mtsat1r"@en ;
+    skos:prefLabel "MTSAT1R"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057938" .
+    dc:date "2015-08-24 15:52:19.785458" .
 
 cci:nimbus-7 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "nimbus-7"@en ;
+    skos:prefLabel "Nimbus-7"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057950" .
+    dc:date "2015-08-24 15:52:19.785469" .
 
 cci:noaa-10 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "noaa-10"@en ;
+    skos:prefLabel "NOAA-10"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057961" .
+    dc:date "2015-08-24 15:52:19.785482" .
 
 cci:noaa-11 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "noaa-11"@en ;
+    skos:prefLabel "NOAA-11"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057972" .
+    dc:date "2015-08-24 15:52:19.785493" .
 
 cci:noaa-12 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "noaa-12"@en ;
+    skos:prefLabel "NOAA-12"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057983" .
+    dc:date "2015-08-24 15:52:19.785504" .
 
 cci:noaa-13 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "noaa-13"@en ;
+    skos:prefLabel "NOAA-13"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.057994" .
+    dc:date "2015-08-24 15:52:19.785515" .
 
 cci:noaa-14 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "noaa-14"@en ;
+    skos:prefLabel "NOAA-14"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.058005" .
+    dc:date "2015-08-24 15:52:19.785526" .
 
 cci:noaa-15 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "noaa-15"@en ;
+    skos:prefLabel "NOAA-15"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.058018" .
+    dc:date "2015-08-24 15:52:19.785538" .
 
 cci:noaa-16 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "noaa-16"@en ;
+    skos:prefLabel "NOAA-16"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.058029" .
+    dc:date "2015-08-24 15:52:19.785554" .
 
 cci:noaa-17 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "noaa-17"@en ;
+    skos:prefLabel "NOAA-17"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.058042" .
+    dc:date "2015-08-24 15:52:19.785566" .
 
 cci:noaa-18 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "noaa-18"@en ;
+    skos:prefLabel "NOAA-18"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.058054" .
+    dc:date "2015-08-24 15:52:19.785577" .
 
 cci:noaa-19 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "noaa-19"@en ;
+    skos:prefLabel "NOAA-19"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.064151" .
+    dc:date "2015-08-24 15:52:19.785588" .
 
 cci:odin a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "odin"@en ;
+    skos:prefLabel "ODIN"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.064191" .
+    dc:date "2015-08-24 15:52:19.785599" .
 
 cci:orbview-2 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "orbview-2"@en ;
+    skos:prefLabel "Orbview-2"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.064206" .
+    dc:date "2015-08-24 15:52:19.785610" .
 
 cci:orbview-2 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "orbview-2"@en ;
-    skos:altLabel "seastar"@en ;
+    skos:prefLabel "Orbview-2"@en ;
+    skos:altLabel "SeaStar"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.064222" .
+    dc:date "2015-08-24 15:52:19.785623" .
 
 cci:parasol a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "parasol"@en ;
+    skos:prefLabel "PARASOL"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.064243" .
+    dc:date "2015-08-24 15:52:19.785636" .
 
 cci:scisat a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "scisat"@en ;
+    skos:prefLabel "SCISAT"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.064281" .
+    dc:date "2015-08-24 15:52:19.785648" .
 
 cci:spot-4 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "spot-4"@en ;
+    skos:prefLabel "SPOT-4"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.064294" .
+    dc:date "2015-08-24 15:52:19.785658" .
 
 cci:spot-5 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "spot-5"@en ;
+    skos:prefLabel "SPOT-5"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.064307" .
+    dc:date "2015-08-24 15:52:19.785669" .
 
 cci:terra a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "terra"@en ;
+    skos:prefLabel "Terra"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.064319" .
+    dc:date "2015-08-24 15:52:19.785680" .
 
 cci:topex a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "topex"@en ;
-    skos:altLabel "poseidon"@en ;
+    skos:prefLabel "Topex"@en ;
+    skos:altLabel "Poseidon"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.064332" .
+    dc:date "2015-08-24 15:52:19.785692" .
 
 cci:trmm a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "trmm"@en ;
+    skos:prefLabel "TRMM"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.064347" .
+    dc:date "2015-08-24 15:52:19.785705" .
 
 cci:nimbus a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "nimbus"@en ;
+    skos:prefLabel "NIMBUS"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.064359" .
+    dc:date "2015-08-24 15:52:19.785716" .
 
 cci:metop-a a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
-    skos:prefLabel "metop-a"@en ;
+    skos:prefLabel "METOP-A"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:09:13.064371" .
+    dc:date "2015-08-24 15:52:19.785727" .
 
 
 #
 # platform disjunctions
 #
 
-cci:alos rdfs:subClassOf cci:platform
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:alos rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:aqua rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:aqua rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:aura rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:aura rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:coriolis rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:coriolis rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:dmsp rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:dmsp rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:envisat rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:envisat rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:envisat rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:envisat rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:ers-1 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:ers-1 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:ers-2 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:ers-2 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:fengyun-3b rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:fengyun-3b rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:gcom-w1 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:gcom-w1 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:gfo rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:gfo rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:goes rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:goes rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:gosat rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:gosat rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:icesat rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:icesat rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:jason-1 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:jason-1 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:jason-2 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:jason-2 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:landsat rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:landsat rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:metopa rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:metopa rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:msg1 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:msg1 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:msg2 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:msg2 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:mtsat1r rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:mtsat1r rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:nimbus-7 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:nimbus-7 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:noaa-10 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:noaa-10 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:noaa-11 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:noaa-11 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:noaa-12 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:noaa-12 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:noaa-13 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:noaa-13 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:noaa-14 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:noaa-14 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:noaa-15 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:noaa-15 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:noaa-16 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:noaa-16 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:noaa-17 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:noaa-17 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:noaa-18 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:noaa-18 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:noaa-19 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:noaa-19 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:odin rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:odin rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:orbview-2 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:orbview-2 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:orbview-2 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:orbview-2 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:parasol rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:parasol rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:scisat rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:scisat rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:spot-4 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:spot-4 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:spot-5 rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:spot-5 rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:terra rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:terra rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:topex rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:topex rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:trmm rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:nimbus
-    owl:disjointWith cci:metop-a
+cci:trmm rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:nimbus ;
+    owl:disjointWith cci:metop-a .
 
-cci:nimbus rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:metop-a
+cci:nimbus rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:metop-a .
 
-cci:metop-a rdfs:subClassOf cci:platform
-    owl:disjointWith cci:alos
-    owl:disjointWith cci:aqua
-    owl:disjointWith cci:aura
-    owl:disjointWith cci:coriolis
-    owl:disjointWith cci:dmsp
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:envisat
-    owl:disjointWith cci:ers-1
-    owl:disjointWith cci:ers-2
-    owl:disjointWith cci:fengyun-3b
-    owl:disjointWith cci:gcom-w1
-    owl:disjointWith cci:gfo
-    owl:disjointWith cci:goes
-    owl:disjointWith cci:gosat
-    owl:disjointWith cci:icesat
-    owl:disjointWith cci:jason-1
-    owl:disjointWith cci:jason-2
-    owl:disjointWith cci:landsat
-    owl:disjointWith cci:metopa
-    owl:disjointWith cci:msg1
-    owl:disjointWith cci:msg2
-    owl:disjointWith cci:mtsat1r
-    owl:disjointWith cci:nimbus-7
-    owl:disjointWith cci:noaa-10
-    owl:disjointWith cci:noaa-11
-    owl:disjointWith cci:noaa-12
-    owl:disjointWith cci:noaa-13
-    owl:disjointWith cci:noaa-14
-    owl:disjointWith cci:noaa-15
-    owl:disjointWith cci:noaa-16
-    owl:disjointWith cci:noaa-17
-    owl:disjointWith cci:noaa-18
-    owl:disjointWith cci:noaa-19
-    owl:disjointWith cci:odin
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:orbview-2
-    owl:disjointWith cci:parasol
-    owl:disjointWith cci:scisat
-    owl:disjointWith cci:spot-4
-    owl:disjointWith cci:spot-5
-    owl:disjointWith cci:terra
-    owl:disjointWith cci:topex
-    owl:disjointWith cci:trmm
-    owl:disjointWith cci:nimbus
+cci:metop-a rdfs:subClassOf cci:platform ;
+    owl:disjointWith cci:alos ;
+    owl:disjointWith cci:aqua ;
+    owl:disjointWith cci:aura ;
+    owl:disjointWith cci:coriolis ;
+    owl:disjointWith cci:dmsp ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:envisat ;
+    owl:disjointWith cci:ers-1 ;
+    owl:disjointWith cci:ers-2 ;
+    owl:disjointWith cci:fengyun-3b ;
+    owl:disjointWith cci:gcom-w1 ;
+    owl:disjointWith cci:gfo ;
+    owl:disjointWith cci:goes ;
+    owl:disjointWith cci:gosat ;
+    owl:disjointWith cci:icesat ;
+    owl:disjointWith cci:jason-1 ;
+    owl:disjointWith cci:jason-2 ;
+    owl:disjointWith cci:landsat ;
+    owl:disjointWith cci:metopa ;
+    owl:disjointWith cci:msg1 ;
+    owl:disjointWith cci:msg2 ;
+    owl:disjointWith cci:mtsat1r ;
+    owl:disjointWith cci:nimbus-7 ;
+    owl:disjointWith cci:noaa-10 ;
+    owl:disjointWith cci:noaa-11 ;
+    owl:disjointWith cci:noaa-12 ;
+    owl:disjointWith cci:noaa-13 ;
+    owl:disjointWith cci:noaa-14 ;
+    owl:disjointWith cci:noaa-15 ;
+    owl:disjointWith cci:noaa-16 ;
+    owl:disjointWith cci:noaa-17 ;
+    owl:disjointWith cci:noaa-18 ;
+    owl:disjointWith cci:noaa-19 ;
+    owl:disjointWith cci:odin ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:orbview-2 ;
+    owl:disjointWith cci:parasol ;
+    owl:disjointWith cci:scisat ;
+    owl:disjointWith cci:spot-4 ;
+    owl:disjointWith cci:spot-5 ;
+    owl:disjointWith cci:terra ;
+    owl:disjointWith cci:topex ;
+    owl:disjointWith cci:trmm ;
+    owl:disjointWith cci:nimbus .
