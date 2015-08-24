@@ -1,3 +1,10 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix cci: <http://localhost/cci> .
+@prefix foaf: <http://xmlns.com/foaf/spec/> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
 #
 # platform concepts
 #
@@ -6,273 +13,273 @@ cci:alos a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "ALOS"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785094" .
+    dc:date "2015-08-24 16:04:42.424653" .
 
 cci:aqua a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "Aqua"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785175" .
+    dc:date "2015-08-24 16:04:42.424709" .
 
 cci:aura a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "Aura"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785192" .
+    dc:date "2015-08-24 16:04:42.424725" .
 
 cci:coriolis a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "Coriolis"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785204" .
+    dc:date "2015-08-24 16:04:42.424738" .
 
 cci:dmsp a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "DMSP"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785216" .
+    dc:date "2015-08-24 16:04:42.424749" .
 
 cci:envisat a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "Envisat"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785228" .
+    dc:date "2015-08-24 16:04:42.424760" .
 
 cci:envisat a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "ENVISAT"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785239" .
+    dc:date "2015-08-24 16:04:42.424771" .
 
 cci:ers-1 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "ERS-1"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785250" .
+    dc:date "2015-08-24 16:04:42.424782" .
 
 cci:ers-2 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "ERS-2"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785261" .
+    dc:date "2015-08-24 16:04:42.424793" .
 
 cci:fengyun-3b a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "Fengyun-3B"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785272" .
+    dc:date "2015-08-24 16:04:42.424804" .
 
 cci:gcom-w1 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "GCOM-W1"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785283" .
+    dc:date "2015-08-24 16:04:42.424814" .
 
 cci:gfo a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "GFO"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785295" .
+    dc:date "2015-08-24 16:04:42.424825" .
 
 cci:goes a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "GOES"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785307" .
+    dc:date "2015-08-24 16:04:42.424836" .
 
 cci:gosat a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "GOSAT"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785318" .
+    dc:date "2015-08-24 16:04:42.424847" .
 
 cci:icesat a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "ICESat"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785331" .
+    dc:date "2015-08-24 16:04:42.424858" .
 
 cci:jason-1 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "Jason-1"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785342" .
+    dc:date "2015-08-24 16:04:42.424869" .
 
 cci:jason-2 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "Jason-2"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785386" .
+    dc:date "2015-08-24 16:04:42.424879" .
 
 cci:landsat a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "Landsat"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785413" .
+    dc:date "2015-08-24 16:04:42.424890" .
 
 cci:metopa a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "MetOpA"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785425" .
+    dc:date "2015-08-24 16:04:42.424901" .
 
 cci:msg1 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "MSG1"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785437" .
+    dc:date "2015-08-24 16:04:42.424912" .
 
 cci:msg2 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "MSG2"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785447" .
+    dc:date "2015-08-24 16:04:42.424922" .
 
 cci:mtsat1r a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "MTSAT1R"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785458" .
+    dc:date "2015-08-24 16:04:42.424933" .
 
 cci:nimbus-7 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "Nimbus-7"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785469" .
+    dc:date "2015-08-24 16:04:42.424944" .
 
 cci:noaa-10 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "NOAA-10"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785482" .
+    dc:date "2015-08-24 16:04:42.424988" .
 
 cci:noaa-11 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "NOAA-11"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785493" .
+    dc:date "2015-08-24 16:04:42.425003" .
 
 cci:noaa-12 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "NOAA-12"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785504" .
+    dc:date "2015-08-24 16:04:42.425014" .
 
 cci:noaa-13 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "NOAA-13"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785515" .
+    dc:date "2015-08-24 16:04:42.425026" .
 
 cci:noaa-14 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "NOAA-14"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785526" .
+    dc:date "2015-08-24 16:04:42.425037" .
 
 cci:noaa-15 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "NOAA-15"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785538" .
+    dc:date "2015-08-24 16:04:42.425048" .
 
 cci:noaa-16 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "NOAA-16"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785554" .
+    dc:date "2015-08-24 16:04:42.425075" .
 
 cci:noaa-17 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "NOAA-17"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785566" .
+    dc:date "2015-08-24 16:04:42.425087" .
 
 cci:noaa-18 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "NOAA-18"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785577" .
+    dc:date "2015-08-24 16:04:42.425099" .
 
 cci:noaa-19 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "NOAA-19"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785588" .
+    dc:date "2015-08-24 16:04:42.425110" .
 
 cci:odin a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "ODIN"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785599" .
+    dc:date "2015-08-24 16:04:42.425121" .
 
 cci:orbview-2 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "Orbview-2"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785610" .
+    dc:date "2015-08-24 16:04:42.425133" .
 
 cci:orbview-2 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "Orbview-2"@en ;
     skos:altLabel "SeaStar"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785623" .
+    dc:date "2015-08-24 16:04:42.425146" .
 
 cci:parasol a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "PARASOL"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785636" .
+    dc:date "2015-08-24 16:04:42.425159" .
 
 cci:scisat a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "SCISAT"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785648" .
+    dc:date "2015-08-24 16:04:42.425171" .
 
 cci:spot-4 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "SPOT-4"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785658" .
+    dc:date "2015-08-24 16:04:42.425182" .
 
 cci:spot-5 a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "SPOT-5"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785669" .
+    dc:date "2015-08-24 16:04:42.425193" .
 
 cci:terra a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "Terra"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785680" .
+    dc:date "2015-08-24 16:04:42.425205" .
 
 cci:topex a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "Topex"@en ;
     skos:altLabel "Poseidon"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785692" .
+    dc:date "2015-08-24 16:04:42.425218" .
 
 cci:trmm a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "TRMM"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785705" .
+    dc:date "2015-08-24 16:04:42.425230" .
 
 cci:nimbus a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "NIMBUS"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785716" .
+    dc:date "2015-08-24 16:04:42.425241" .
 
 cci:metop-a a skos:Concept ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "METOP-A"@en ;
     skos:definition ""@en ;
-    dc:date "2015-08-24 15:52:19.785727" .
+    dc:date "2015-08-24 16:04:42.425252" .
 
 
 #
