@@ -1,0 +1,22 @@
+URI#Pref Label#has transitiveBroader#Definition
+atmospheric#atmospheric##
+terrestrial#terrestrial##
+oceanic#oceanic##
+atmosphericSurface#atmospheric surface#atmospheric#Including measurements at standardized, but globally varying heights in close proximity to the surface
+atmosphericUpperair#atmospheric upper-air#atmospheric#Up to the stratopause
+atmosphericComposition#atmospheric composition#atmospheric#
+oceanicSurface#oceanic surface#oceanic#
+oceanicSubsurface#oceanic sub-surface#oceanic#Including measurements within the surface mixed layer, usually within the upper 15m
+atmosphericUpperairCloudProperties#atmospheric upper-air cloud properties#atmosphericUpperair#
+atmosphericCompositionOzoneAndAerosols#atmospheric composition ozone and aerosols#atmosphericComposition#
+atmosphericCompositionCarbonDioxideMethane#atmospheric composition carbon dioxide, methane#atmosphericComposition#
+atmosphericCompositionOzoneAndAerosols#atmospheric composition ozone and aerosols#atmosphericComposition#
+oceanicSurfaceColour#oceanic surface colour#oceanicSurface#
+oceanicSurfaceSeaLevel#oceanic surface sea level#oceanicSurface#
+oceanicSurfaceSeasurfaceTemperature#oceanic surface seasurface temperature#oceanicSurface#
+oceanicSurfaceSeaIce#oceanic surface sea ice#oceanicSurface#
+terrestrialFireDisturbance#terrestrial fire disturbance#terrestrial#
+terrestrialGlaciersAndIceCaps#terrestrial glaciers and ice caps#terrestrial#
+terrestrialLandCover#terrestria land cover#terrestrial#
+terrestrialSoilMoisture#terrestrial soil moisture#terrestrial#
+terrestrialIceSheets#terrestrial ice sheets#terrestrial#
