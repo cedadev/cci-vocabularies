@@ -1,0 +1,177 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix cci: <http://localhost/cci> .
+@prefix foaf: <http://xmlns.com/foaf/spec/> .
+@prefix gcos: <http://localhost/gcos> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+
+cci:aerosolProperties a skos:Concept ;
+    skos:broadMatch gcos:atmosphericCompositionOzoneAndAerosols ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0763/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+cci:cloudProperties a skos:Concept ;
+    skos:closeMatch gcos:atmosphericUpperairCloudProperties ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/BBAD2149/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/BBAD2159/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/BBAD2158/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CF12N184/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0745/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0746/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/72YUKQJR/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0025/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0704/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0018/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+cci:fire a skos:Concept ;
+    skos:narrowMatch gcos:terrestrialFireDisturbance ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CEDABECC/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/GACJJFFJ/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+cci:greenhouseGases a skos:Concept ;
+    skos:narrowMatch gcos:atmosphericCompositionCarbonDioxideMethane ;
+    dc:date "2015-09-02 16:29:16" .
+
+cci:glaciers a skos:Concept ;
+    skos:broadMatch gcos:terrestrialGlaciersAndIceCaps ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0576/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+cci:landCover a skos:Concept ;
+    skos:closeMatch gcos:terrestrialLandCover ;
+    dc:date "2015-09-02 16:29:16" .
+
+cci:oceanColour a skos:Concept ;
+    skos:closeMatch gcos:oceanicSurfaceColour ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFV13N26/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0062/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CF14N7/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0065/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0064/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+cci:ozone a skos:Concept ;
+    skos:broadMatch gcos:atmosphericCompositionOzoneAndAerosols ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/IDDFFADF/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0513/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CF12N499/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/IFDIAFIF/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+cci:seaLevel a skos:Concept ;
+    skos:closeMatch gcos:oceanicSurfaceSeaLevel ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/ZSDAR2KM/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/EJ5JLPG7/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/SHGEIZRR/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0375/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0632/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/XRCBF7SB/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/RQ2Q233Z/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+cci:seaSurfaceTemperature a skos:Concept ;
+    skos:closeMatch gcos:oceanicSurfaceSeasurfaceTemperature ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFV9N2/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+cci:soilMoisture a skos:Concept ;
+    skos:closeMatch gcos:terrestrialSoilMoisture ;
+    dc:date "2015-09-02 16:29:16" .
+
+cci:iceSheets  a skos:Concept ;
+    skos:closeMatch gcos:terrestrialIceSheets ;
+    dc:date "2015-09-02 16:29:16" .
+
+cci:seaIce a skos:Concept ;
+    skos:closeMatch gcos:oceanicSurfaceSeaIce ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0424/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+gcos:atmosphericCompositionOzoneAndAerosols a skos:Concept ;
+    skos:broadMatch cci:aerosolProperties ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0763/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+gcos:atmosphericUpperairCloudProperties a skos:Concept ;
+    skos:closeMatch cci:cloudProperties ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/BBAD2149/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/BBAD2159/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/BBAD2158/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CF12N184/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0745/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0746/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/72YUKQJR/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0025/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0704/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0018/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+gcos:terrestrialFireDisturbance a skos:Concept ;
+    skos:narrowMatch cci:fire ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CEDABECC/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/GACJJFFJ/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+gcos:atmosphericCompositionCarbonDioxideMethane a skos:Concept ;
+    skos:narrowMatch cci:greenhouseGases ;
+    dc:date "2015-09-02 16:29:16" .
+
+gcos:terrestrialGlaciersAndIceCaps a skos:Concept ;
+    skos:broadMatch cci:glaciers ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0576/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+gcos:terrestrialLandCover a skos:Concept ;
+    skos:closeMatch cci:landCover ;
+    dc:date "2015-09-02 16:29:16" .
+
+gcos:oceanicSurfaceColour a skos:Concept ;
+    skos:closeMatch cci:oceanColour ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFV13N26/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0062/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CF14N7/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0065/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0064/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+gcos:atmosphericCompositionOzoneAndAerosols a skos:Concept ;
+    skos:broadMatch cci:ozone ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/IDDFFADF/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0513/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CF12N499/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/IFDIAFIF/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+gcos:oceanicSurfaceSeaLevel a skos:Concept ;
+    skos:closeMatch cci:seaLevel ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/ZSDAR2KM/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/EJ5JLPG7/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/SHGEIZRR/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0375/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0632/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/XRCBF7SB/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/RQ2Q233Z/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+gcos:oceanicSurfaceSeasurfaceTemperature a skos:Concept ;
+    skos:closeMatch cci:seaSurfaceTemperature ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/> ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFV9N2/> ;
+    dc:date "2015-09-02 16:29:16" .
+
+gcos:terrestrialSoilMoisture a skos:Concept ;
+    skos:closeMatch cci:soilMoisture ;
+    dc:date "2015-09-02 16:29:16" .
+
+gcos:terrestrialIceSheets a skos:Concept ;
+    skos:closeMatch cci:iceSheets  ;
+    dc:date "2015-09-02 16:29:16" .
+
+gcos:oceanicSurfaceSeaIce a skos:Concept ;
+    skos:closeMatch cci:seaIce ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0424/> ;
+    dc:date "2015-09-02 16:29:16" .
+
