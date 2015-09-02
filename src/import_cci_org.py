@@ -9,6 +9,7 @@ f = open('../model/cci-org.ttl', 'w')
 f.write('@prefix dc: <http://purl.org/dc/terms/> .\n')
 f.write('@prefix cci: <http://localhost/cci> .\n')
 f.write('@prefix foaf: <http://xmlns.com/foaf/spec/> .\n')
+f.write('@prefix owl: <http://www.w3.org/2002/07/owl#> .\n')
 f.write('@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n')
 f.write('@prefix skos: <http://www.w3.org/2008/05/skos#> .\n\n\n')
 
