@@ -23,7 +23,7 @@ f.write('@prefix skos: <http://www.w3.org/2008/05/skos#> .\n\n\n')
 f.write('#\n')
 f.write('# concept scheme\n')
 f.write('#\n\n')
-f.write('cci:cciConceptScheme a skos:ConceptScheme ;\n')
+f.write('cci:drsConceptScheme a skos:ConceptScheme ;\n')
 f.write('    skos:hasTopConcept cci:ecvConceptScheme .\n\n\n')
 
 f.write('cci:ecvConceptScheme a skos:ConceptScheme, skos:Concept, owl:Class ;\n')

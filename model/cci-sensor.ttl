@@ -9,7 +9,7 @@
 # concept scheme
 #
 
-cci:cciConceptScheme a skos:ConceptScheme ;
+cci:drsConceptScheme a skos:ConceptScheme ;
     skos:hasTopConcept cci:sensorConceptScheme .
 
 cci:sensorConceptScheme a skos:ConceptScheme, skos:Concept, owl:Class ;
