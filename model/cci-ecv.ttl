@@ -10,18 +10,14 @@
 #
 
 cci:cciConceptScheme a skos:ConceptScheme ;
-    skos:hasTopConcept cci:ecv .
+    skos:hasTopConcept cci:ecvConceptScheme .
 
 
-#
-# top concepts
-#
-
-cci:ecv a skos:Concept, owl:Class ;
+cci:ecvConceptScheme a skos:ConceptScheme, skos:Concept, owl:Class ;
     skos:inScheme cci:cciConceptScheme ;
     skos:prefLabel "ecv"@en ;
     skos:altLabel "essential climate variable"@en ;
-    dc:date "2015-09-02 16:40:01" .
+    dc:date "2015-09-04 16:40:09" .
 
 
 #
@@ -29,67 +25,67 @@ cci:ecv a skos:Concept, owl:Class ;
 #
 
 cci:aerosolProperties a skos:Concept ;
-    skos:inScheme cci:cciConceptScheme ;
+    skos:inScheme cci:ecvConceptScheme ;
     skos:prefLabel "aerosol properties"@en ;
-    dc:date "2015-09-02 16:40:01" .
+    dc:date "2015-09-04 16:40:09" .
 
 cci:cloudProperties a skos:Concept ;
-    skos:inScheme cci:cciConceptScheme ;
+    skos:inScheme cci:ecvConceptScheme ;
     skos:prefLabel "cloud properties"@en ;
-    dc:date "2015-09-02 16:40:01" .
+    dc:date "2015-09-04 16:40:09" .
 
 cci:fire a skos:Concept ;
-    skos:inScheme cci:cciConceptScheme ;
+    skos:inScheme cci:ecvConceptScheme ;
     skos:prefLabel "fire"@en ;
-    dc:date "2015-09-02 16:40:01" .
+    dc:date "2015-09-04 16:40:09" .
 
 cci:greenhouseGases a skos:Concept ;
-    skos:inScheme cci:cciConceptScheme ;
+    skos:inScheme cci:ecvConceptScheme ;
     skos:prefLabel "greenhouse gases"@en ;
-    dc:date "2015-09-02 16:40:01" .
+    dc:date "2015-09-04 16:40:09" .
 
 cci:glaciers a skos:Concept ;
-    skos:inScheme cci:cciConceptScheme ;
+    skos:inScheme cci:ecvConceptScheme ;
     skos:prefLabel "glaciers"@en ;
-    dc:date "2015-09-02 16:40:01" .
+    dc:date "2015-09-04 16:40:09" .
 
 cci:landCover a skos:Concept ;
-    skos:inScheme cci:cciConceptScheme ;
+    skos:inScheme cci:ecvConceptScheme ;
     skos:prefLabel "land cover"@en ;
-    dc:date "2015-09-02 16:40:01" .
+    dc:date "2015-09-04 16:40:09" .
 
 cci:oceanColour a skos:Concept ;
-    skos:inScheme cci:cciConceptScheme ;
+    skos:inScheme cci:ecvConceptScheme ;
     skos:prefLabel "ocean colour"@en ;
-    dc:date "2015-09-02 16:40:01" .
+    dc:date "2015-09-04 16:40:09" .
 
 cci:ozone a skos:Concept ;
-    skos:inScheme cci:cciConceptScheme ;
+    skos:inScheme cci:ecvConceptScheme ;
     skos:prefLabel "ozone"@en ;
-    dc:date "2015-09-02 16:40:01" .
+    dc:date "2015-09-04 16:40:09" .
 
 cci:seaLevel a skos:Concept ;
-    skos:inScheme cci:cciConceptScheme ;
+    skos:inScheme cci:ecvConceptScheme ;
     skos:prefLabel "sea level"@en ;
-    dc:date "2015-09-02 16:40:01" .
+    dc:date "2015-09-04 16:40:09" .
 
 cci:seaSurfaceTemperature a skos:Concept ;
-    skos:inScheme cci:cciConceptScheme ;
+    skos:inScheme cci:ecvConceptScheme ;
     skos:prefLabel "sea surface temperature"@en ;
-    dc:date "2015-09-02 16:40:01" .
+    dc:date "2015-09-04 16:40:09" .
 
 cci:soilMoisture a skos:Concept ;
-    skos:inScheme cci:cciConceptScheme ;
+    skos:inScheme cci:ecvConceptScheme ;
     skos:prefLabel "soil moissture"@en ;
-    dc:date "2015-09-02 16:40:01" .
+    dc:date "2015-09-04 16:40:09" .
 
 cci:iceSheets  a skos:Concept ;
-    skos:inScheme cci:cciConceptScheme ;
+    skos:inScheme cci:ecvConceptScheme ;
     skos:prefLabel "ice sheets "@en ;
-    dc:date "2015-09-02 16:40:01" .
+    dc:date "2015-09-04 16:40:09" .
 
 cci:seaIce a skos:Concept ;
-    skos:inScheme cci:cciConceptScheme ;
+    skos:inScheme cci:ecvConceptScheme ;
     skos:prefLabel "sea ice"@en ;
-    dc:date "2015-09-02 16:40:01" .
+    dc:date "2015-09-04 16:40:09" .
 

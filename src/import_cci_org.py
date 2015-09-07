@@ -2,6 +2,12 @@ import csv
 from _sqlite3 import Row
 from datetime import datetime
 
+# columns in spreadsheet
+CCI_URI = 0
+CCI_LABEL = 1
+CCI_ALT_LABEL = 2
+CCI_SEE_ALSO = 3
+
 DATE = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 # cci-org.ttl
@@ -18,13 +24,9 @@ f.write('#\n')
 f.write('# concept scheme\n')
 f.write('#\n\n')
 f.write('cci:cciConceptScheme a skos:ConceptScheme ;\n')
-f.write('    skos:hasTopConcept cci:org .\n\n\n')
+f.write('    skos:hasTopConcept cci:orgConceptScheme .\n\n\n')
 
-# top concepts
-f.write('#\n')
-f.write('# top concepts\n')
-f.write('#\n\n')
-f.write('cci:org a skos:Concept, owl:Class ;\n')
+f.write('cci:orgConceptScheme a skos:ConceptScheme, skos:Concept, owl:Class ;\n')
 f.write('    skos:inScheme cci:cciConceptScheme ;\n')
 f.write('    skos:prefLabel "org"@en ;\n')
 f.write('    skos:altLabel "organisation"@en ;\n')
@@ -45,12 +47,12 @@ with open('../data/cci-org.csv', 'rb') as csvfile:
         if (count < 2):
             continue
                 
-        f.write('cci:org%s a skos:Concept ;\n' % count)
-        f.write('    skos:inScheme cci:cciConceptScheme ;\n')
-        f.write('    skos:prefLabel "%s"@en ;\n' % row[0])
-        if len(row) > 1 and not (row[1] == ''):
-            f.write('    skos:altLabel "%s"@en ;\n' % row[1])
-        if len(row) > 2 and not (row[2] == ''):
-            f.write('    rdfs:seeAlso <http://isni.org/isni/%s> ;\n' % row[2])
+        f.write('cci:%s a skos:Concept ;\n' % row[CCI_URI])
+        f.write('    skos:inScheme cci:orgConceptScheme ;\n')
+        f.write('    skos:prefLabel "%s"@en ;\n' % row[CCI_LABEL])
+        if len(row) > CCI_ALT_LABEL and not (row[CCI_ALT_LABEL] == ''):
+            f.write('    skos:altLabel "%s"@en ;\n' % row[CCI_ALT_LABEL])
+        if len(row) > CCI_SEE_ALSO and not (row[CCI_SEE_ALSO] == ''):
+            f.write('    rdfs:seeAlso <http://isni.org/isni/%s> ;\n' % row[CCI_SEE_ALSO])
         f.write('    dc:date "%s" .\n\n' % DATE)
 f.close()

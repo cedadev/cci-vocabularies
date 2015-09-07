@@ -24,13 +24,9 @@ f.write('#\n')
 f.write('# concept scheme\n')
 f.write('#\n\n')
 f.write('cci:cciConceptScheme a skos:ConceptScheme ;\n')
-f.write('    skos:hasTopConcept cci:ecv .\n\n\n')
+f.write('    skos:hasTopConcept cci:ecvConceptScheme .\n\n\n')
 
-# top concepts
-f.write('#\n')
-f.write('# top concepts\n')
-f.write('#\n\n')
-f.write('cci:ecv a skos:Concept, owl:Class ;\n')
+f.write('cci:ecvConceptScheme a skos:ConceptScheme, skos:Concept, owl:Class ;\n')
 f.write('    skos:inScheme cci:cciConceptScheme ;\n')
 f.write('    skos:prefLabel "ecv"@en ;\n')
 f.write('    skos:altLabel "essential climate variable"@en ;\n')
@@ -52,7 +48,7 @@ with open('../data/cci-ecv.csv', 'rb') as csvfile:
             continue
         
         f.write('cci:%s a skos:Concept ;\n' % row[CCI])
-        f.write('    skos:inScheme cci:cciConceptScheme ;\n')
+        f.write('    skos:inScheme cci:ecvConceptScheme ;\n')
         f.write('    skos:prefLabel "%s"@en ;\n' % row[CCI_LABEL])
         if row[CCI_REL] != '':
             f.write('    skos:transitiveBroader cci:%s ;\n' % row[CCI_REL])
