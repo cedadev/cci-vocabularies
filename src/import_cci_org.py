@@ -53,6 +53,6 @@ with open('../data/cci-org.csv', 'rb') as csvfile:
         if len(row) > CCI_ALT_LABEL and not (row[CCI_ALT_LABEL] == ''):
             f.write('    skos:altLabel "%s"@en ;\n' % row[CCI_ALT_LABEL])
         if len(row) > CCI_SEE_ALSO and not (row[CCI_SEE_ALSO] == ''):
-            f.write('    rdfs:seeAlso <http://isni.org/isni/%s> ;\n' % row[CCI_SEE_ALSO])
+            f.write('    rdfs:seeAlso <http://isni.org/isni/%s> ;\n' % row[CCI_SEE_ALSO].strip())
         f.write('    dc:date "%s" .\n\n' % DATE)
 f.close()
