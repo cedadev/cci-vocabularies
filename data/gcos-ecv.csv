@@ -1,22 +1,21 @@
-URI#Pref Label#has transitiveBroader#Definition
-atmospheric#atmospheric##
-terrestrial#terrestrial##
-oceanic#oceanic##
-atmosphericSurface#atmospheric surface#atmospheric#Including measurements at standardized, but globally varying heights in close proximity to the surface
-atmosphericUpperair#atmospheric upper-air#atmospheric#Up to the stratopause
-atmosphericComposition#atmospheric composition#atmospheric#
-oceanicSurface#oceanic surface#oceanic#
-oceanicSubsurface#oceanic sub-surface#oceanic#Including measurements within the surface mixed layer, usually within the upper 15m
-atmosphericUpperairCloudProperties#atmospheric upper-air cloud properties#atmosphericUpperair#
-atmosphericCompositionOzoneAndAerosols#atmospheric composition ozone and aerosols#atmosphericComposition#
-atmosphericCompositionCarbonDioxideMethane#atmospheric composition carbon dioxide, methane#atmosphericComposition#
-atmosphericCompositionOzoneAndAerosols#atmospheric composition ozone and aerosols#atmosphericComposition#
-oceanicSurfaceColour#oceanic surface colour#oceanicSurface#
-oceanicSurfaceSeaLevel#oceanic surface sea level#oceanicSurface#
-oceanicSurfaceSeasurfaceTemperature#oceanic surface seasurface temperature#oceanicSurface#
-oceanicSurfaceSeaIce#oceanic surface sea ice#oceanicSurface#
-terrestrialFireDisturbance#terrestrial fire disturbance#terrestrial#
-terrestrialGlaciersAndIceCaps#terrestrial glaciers and ice caps#terrestrial#
-terrestrialLandCover#terrestria land cover#terrestrial#
-terrestrialSoilMoisture#terrestrial soil moisture#terrestrial#
-terrestrialIceSheets#terrestrial ice sheets#terrestrial#
+URI,Pref Label,has transitiveBroader,Definition
+atmospheric,atmospheric,,GCOS Essential Climate Variable domain
+terrestrial,terrestrial,,GCOS Essential Climate Variable domain
+oceanic,oceanic,,GCOS Essential Climate Variable domain
+atmosphericSurface,atmospheric surface,atmospheric,"GCOS Essential Climate Variable sub-domain: Including measurements at standardized, but globally varying heights in close proximity to the surface"
+atmosphericUpperair,atmospheric upper-air,atmospheric,GCOS Essential Climate Variable sub-domain: Up to the stratopause
+atmosphericComposition,atmospheric composition,atmospheric,GCOS Essential Climate Variable sub-domain:
+oceanicSurface,oceanic surface,oceanic,GCOS Essential Climate Variable sub-domain
+oceanicSubsurface,oceanic sub-surface,oceanic,"GCOS Essential Climate Variable sub-domain: Including measurements within the surface mixed layer, usually within the upper 15m"
+atmosphericUpperairCloudProperties,atmospheric upper-air cloud properties,atmosphericUpperair,GCOS Essential Climate Variable
+atmosphericCompositionOzoneAndAerosols,atmospheric composition ozone and aerosols,atmosphericComposition,GCOS Essential Climate Variable
+atmosphericCompositionCarbonDioxideMethane,"atmospheric composition carbon dioxide, methane",atmosphericComposition,GCOS Essential Climate Variable
+oceanicSurfaceColour,oceanic surface colour,oceanicSurface,GCOS Essential Climate Variable 
+oceanicSurfaceSeaLevel,oceanic surface sea level,oceanicSurface,GCOS Essential Climate Variable 
+oceanicSurfaceSeasurfaceTemperature,oceanic surface sea surface temperature,oceanicSurface,GCOS Essential Climate Variable 
+oceanicSurfaceSeaIce,oceanic surface sea ice,oceanicSurface,GCOS Essential Climate Variable 
+terrestrialFireDisturbance,terrestrial fire disturbance,terrestrial,GCOS Essential Climate Variable 
+terrestrialGlaciersAndIceCaps,terrestrial glaciers and ice caps,terrestrial,GCOS Essential Climate Variable 
+terrestrialLandCover,terrestrial land cover,terrestrial,GCOS Essential Climate Variable 
+terrestrialSoilMoisture,terrestrial soil moisture,terrestrial,GCOS Essential Climate Variable 
+terrestrialIceSheets,terrestrial ice sheets,terrestrial,GCOS Essential Climate Variable 
