@@ -1,74 +1,75 @@
-URI#Organisation#Abbreviation#ISNI Reference#notes on ISNI search
-org1#Aristotle University of Thessalonikii#AUTH##
-org2#Atmospheric, Oceanic and Planetary Physics, University of Oxford###
-org3#Belgian Institute for Space Aeronomy#BIRA#0000000122893389#1 entry
-org4#Brockmann Consult GmbH#BC##
-org5#Centre National de la Recherche Scientific#CNRS#0000000121129282#
-org6#Centre National d'Etudes Spatiales#CNES##2 entries
-org7#Chalmers University of Technology, GÃ¶teberg, Sweden#CHA#0000000107756028#
-org8#Collecte Localisation Satellites#CLS#0000000106573633#1 entry
-org9#Department of Geography, University of Zurich#GIUZ#0000000419370650#this is for the university
-org10#Department of Geosciences, University of Oslo#GUIO#0000000406109007#? think this is correct
-org11#Deutscher Wetterdienst#DWD#0000000123217956#1 entry
-org12#Deutsches Zentrum fuer Luft- und Raumfahrt#DLR##
-org13#DTU Space#DTU-S#000000040618578X#1 entry
-org14#Environmental Earth Observation#ENVEO##
-org15#European Space Agency#ESA#0000000406236946#1 entry
-org16#Finnish Meteorological Institute#FMI#0000000122538678#1 entry
-org17#Freie Universitaet Berlin#FUB#0000000091164836#
-org18#Gamma Remote Sensing#Gamma##
-org19#The Geological Survey of Denmark and Greenland#GEUS##
-org20#GMV#GMV#0000000106814708#1 entry
-org21#Helmholtz-Zentrum Geesthacht#HZG##
-org22#HYGEOS,Â Euratechnologies###
-org23#ICARE###
-org24#Institut fÃ¼r Meterologie und Klimaforschung, KIT and Instituto de Astrofisca de Andalucia, Granada#IMKIAA##
-org25#Institut fÃ¼r Meterologie und Klimaforschung, KIT, Karlsruhe#IMK##
-org26#Institute for Atmospheric and Climate Science#IAC##
-org27#Institute for Environment and Sustainability#IES-JRC##
-org28#Institute of Environmental Physics#IUP##
-org29#Instituto de Astrofisca de Andalucia, Granada#IAA#0000000417937043#
-org30#Instituto Nacional de Investigacion y Tecnologia Agraria y Alimentaria#INIA##
-org31#Instituto Superior de Agronomia#ISA##
-org32#International Centre for Integrated Mountain Development#ICIMOD##
-org33#Juelich Forschungszentrum###
-org34#Kommission fuer Erdmessung und Glaziologie#KEG##
-org35#Laboratoire Atmospheres, Milieux, Observations Spatiales#LATMOS##
-org36#Laboratoire d'Etudes en Geodesie et Oceanographie Spatiales#LEGOS##
-org37#Laboratoire d'Optique AtmosphÃ©rique#LOA##
-org38#Laboratoire des Sciences du Climat et L'Environement#LSCE##
-org39#Max-Planck Institute for Meteorology#MPI-M##
-org40#Met Office Hadley Centre#MOHC##
-org41#Meteo Swiss###
-org42#Nansen Environmental and Remote Sensing Center#NERSC##
-org43#National Snow and Ice Data Center#NSIDC##
-org44#Netherlands Institute for Space Research#SRON##
-org45#Norwegian Institute for Air Research#NILU##
-org46#Norwegian Meteorological Institute#MetNo##
-org47#Norwegian Water Resources and Energy Directorate#NVE##
-org48#Paul-Scherrer-Institut#PSI##
-org49#Plymouth Marine Laboratory#PML##
-org50#Royal Meteorological Institute of Belgium#RMIB##
-org51#Royal Netherlands Meteorological Institute#KNMI##
-org52#Rutherford Appleton Laboratory#RAL#0000000122375485#
-org53#School of Earth and Environment, University of Leeds#SEEL##
-org54#School of Geographical Sciences, University of Bristol#SGS##
-org55#Science [&] Technology AS#S[&]T##
-org56#Swansea University###
-org57#Swiss Federal Laboratories for Material Testing and Research#EMPA##
-org58#Universite Catholique de Louvain#UCL##
-org59#University of Alcala de Henares#UAH##
-org60#University of Athens#NKUA##
-org61#University of Bremen##0000000122974381#1 entry
-org62#University of Cambridge##0000000121885934#1 entry
-org63#University of Edinburgh###
-org64#University of Jena#UJENA##
-org65#University of Leicester##0000000419368411#1 entry
-org66#University of Leeds#UL##
-org67#University of Saskatchewan, Canada#SASK##
-org68#University of York#UoY#0000000419369668#1 entry
-org69#University of Zurich#UZH#0000000419370650#1 entry
-org70#Vienna University of Technology#TU Wien##2 entries
-org71#VU University Amsterdam#VUA##2 entries
-org72#Wageningen University##0000000122848633#1 entry
-org73#World Glacier Monitoring Service#WGMS##
+URI,Organisation,Abbreviation,ISNI Reference,notes on ISNI search,Ruth's Queries
+org1,Aristotle University of Thessalonikii,AUTH,0000000121525373,,
+org2,"Atmospheric, Oceanic and Planetary Physics, University of Oxford",AOPP,0000000419368948,Oxford University ISNI not AOPP,? Abbreviation AOPP added by Ruth - not on CCI list
+org3,Belgian Institute for Space Aeronomy,BIRA,0000000122893389,1 entry,
+org4,Brockmann Consult GmbH,BC,,Not listed,
+org5,Centre National de la Recherche Scientific,CNRS,0000000121129282,,
+org6,Centre National d'Etudes Spatiales,CNES,0000000121584330,3 entries; entry 2 selected here as a google search of this bring up CNES,
+org7,"Chalmers University of Technology, Göteberg, Sweden",CHA,0000000122425235,,ISNI search changed from 0000000107756028 as this is Building Service Engineering
+org8,Collecte Localisation Satellites,CLS,0000000106573633,1 entry,
+org9,"Department of Geography, University of Zurich",GIUZ,0000000419370650,this is for the university,
+org10,"Department of Geosciences, University of Oslo",GUIO,0000000406109007,"? think this is correct, RP agrees",0000 0004 1936 8921 is the university of Oslo
+org11,Deutscher Wetterdienst,DWD,0000000123217956,1 entry,
+org12,Deutsches Zentrum fuer Luft- und Raumfahrt,DLR,0000000089837915,"Mulitple entries, this one seems to be main",
+org13,DTU Space,DTU-S,000000040618578X,1 entry,
+org14,Environmental Earth Observation,ENVEO,, ,Not sure what this ?
+org15,European Space Agency,ESA,0000000406236946,1 entry,
+org16,Finnish Meteorological Institute,FMI,0000000122538678,1 entry,
+org17,Freie Universitaet Berlin,FUB,0000000091164836,,
+org18,Gamma Remote Sensing,Gamma,,Not listed,
+org19,The Geological Survey of Denmark and Greenland,GEUS,,Not listed,
+org20,GMV,GMV,0000000106814708,1 entry,
+org21,Helmholtz-Zentrum Geesthacht,HZG,0000000446732899,,Helmholtz Centre Geesthacht Centre for Materials and Coastal Research Climate Service Center
+org22,"HYGEOS, Euratechnologies",,,,
+org23,ICARE,,0000000404050603,,
+org24,"Institut für Meterologie und Klimaforschung, KIT and Instituto de Astrofisca de Andalucia, Granada",IMKIAA,,,
+org25,"Institut für Meterologie und Klimaforschung, KIT, Karlsruhe",IMK,,,
+org26,Institute for Atmospheric and Climate Science,IAC,,,
+org27,Institute for Environment and Sustainability,IES-JRC,,,
+org28,Institute of Environmental Physics,IUP,,,
+org29,"Instituto de Astrofisca de Andalucia, Granada",IAA,0000000417937043,,
+org30,Instituto Nacional de Investigacion y Tecnologia Agraria y Alimentaria,INIA,000000012300669X,,
+org31,Instituto Superior de Agronomia,ISA,0000000122154586,,
+org32,International Centre for Integrated Mountain Development,ICIMOD,0000000403820442,2 entries,
+org33,Juelich Forschungszentrum,,,Not listed,
+org34,Kommission fuer Erdmessung und Glaziologie,KEG,,Not listed,
+org35,"Laboratoire Atmospheres, Milieux, Observations Spatiales",LATMOS,0000000104563087,,
+org36,Laboratoire d'Etudes en Geodesie et Oceanographie Spatiales,LEGOS,,,"0000 0004 0384 4620, Laboratoire d'études en Géophysique et océanographie spatiales, Laboratory of Geophysics and Oceanography Space Studies, LEGOS - SAME THING??"
+org37,Laboratoire d'Optique Atmosphérique,LOA,0000000403683740,,
+org38,Laboratoire des Sciences du Climat et L'Environement,LSCE,0000000105849722,,
+org39,Max-Planck Institute for Meteorology,MPI-M,,Not listed,
+org40,Met Office Hadley Centre,MOHC,0000000405133830,"Met Office general, not Hadley Centre specific",
+org41,Meteo Swiss,,0000000120343615,,
+org42,Nansen Environmental and Remote Sensing Center,NERSC,0000000122289878,,
+org43,National Snow and Ice Data Center,NSIDC,000000012204386X,,
+org44,Netherlands Institute for Space Research,SRON,,,
+org45,Norwegian Institute for Air Research,NILU,0000000098886866,,
+org46,Norwegian Meteorological Institute,MetNo,0000000102261499,,
+org47,Norwegian Water Resources and Energy Directorate,NVE,0000000122367549,,
+org48,Paul-Scherrer-Institut,PSI,0000000110907501,,
+org49,Plymouth Marine Laboratory,PML,0000000121062153,,
+org50,Royal Meteorological Institute of Belgium,RMIB,0000000110892733,,
+org51,Royal Netherlands Meteorological Institute,KNMI,0000000417979868,,
+org52,Rutherford Appleton Laboratory,RAL,0000000122375485,,
+org53,"School of Earth and Environment, University of Leeds",SEEL,0000000446804119,,
+org54,"School of Geographical Sciences, University of Bristol",SGS,0000000403720564,,
+org55,Science [&] Technology AS,S[&]T,,more information required,
+org56,Swansea University,,0000000106588800,,
+org57,Swiss Federal Laboratories for Material Testing and Research,EMPA,0000000123313059,2 entries,
+org58,Universite Catholique de Louvain,UCL,0000000123232283,3 entries (this is final entry 1970 -),
+org59,University of Alcala de Henares,UAH,0000000419370239,,
+org60,University of Athens,NKUA,0000000121663573,2 entries,
+org61,University of Bremen,,0000000122974381,1 entry,
+org62,University of Cambridge,,0000000121885934,1 entry,
+org63,University of Edinburgh,,,,
+org64,University of Jena,UJENA,0000000119424776,,
+org65,University of Leicester,,0000000419368411,1 entry,
+org66,University of Leeds,UL,0000000419368403,,
+org67,"University of Saskatchewan, Canada",SASK,0000000419369246,2 entries,
+org68,University of York,UoY,0000000419369668,1 entry,
+org69,University of Zurich,UZH,0000000419370650,1 entry,
+org70,Vienna University of Technology,TU Wien,0000000419370669,2 entries,
+org71,VU University Amsterdam,VUA,0000000417549227,2 entries,
+org72,Wageningen University,,0000000122848633,1 entry,
+org73,World Glacier Monitoring Service,WGMS,0000000109421088,1 entry,
+,,,,,
