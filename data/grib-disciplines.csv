@@ -1,0 +1,7 @@
+URI,Pref Label,Alt Label,Description
+gribMeteorology,grib meteorology,,
+gribOceanography,grib oceanography,,
+gribHydrology,grib hydrology,,
+gribLandSurface,grib land surface,,
+gribSpaceWeather,grib space weather,,
+gribOtherSpace,grib other space,,
