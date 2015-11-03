@@ -1,0 +1,9 @@
+CMIP URI,CMIP has <relationship> GRIB,GRIB URI
+cmipAtmos,closeMatch,gribMeteorology
+cmipOcean,closeMatch,gribOceanography
+cmipLand,closeMatch,gribLandSurface
+cmipAtmosChem,broadMatch,gribMeteorology
+cmipAerosol,broadMatch,gribMeteorology
+cmipSeaIce,broadMatch,gribOceanography
+cmipOcnBgchem,broadMatch,gribOceanography
+cmipLandIce,broadMatch,gribLandSurface
