@@ -4,20 +4,19 @@ from datetime import datetime
 
 
 # columns in spreadsheet
-CCI_URI = 0
-CCI_LABEL = 1
-CCI_ALT_LABEL = 2
-CCI_SEE_ALSO = 3
+URI = 0
+LABEL = 1
+ALT_LABEL = 2
+DEF = 3
 
-IN_FILE = '../data/cci-org.csv'
-OUT_FILE = '../model/cci-org.ttl'
-CLASS = 'Organisation'
+IN_FILE = '../data/cci-platforms.csv'
+OUT_FILE = '../model/cci-platform.ttl'
+CLASS = 'Platform'
 CONCEPT_SCHEME = '%sConceptScheme' % CLASS
 CONCEPT_SCHEME_LABEL = CLASS
 
 DATE = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
-# cci-org.ttl
 f = open(OUT_FILE, 'w')
 f.write('@prefix dc: <http://purl.org/dc/terms/> .\n')
 f.write('@prefix cci: <http://localhost/cci#> .\n')
@@ -34,8 +33,8 @@ f.write('    skos:hasTopConcept cci:%s .\n\n\n' % CONCEPT_SCHEME)
 
 f.write('cci:%s a skos:ConceptScheme, skos:Concept ;\n' % CONCEPT_SCHEME)
 f.write('    skos:inScheme cci:DRSConceptScheme ;\n')
-f.write('    skos:prefLabel "org"@en ;\n')
-f.write('    skos:altLabel "organisation"@en ;\n')
+f.write('    skos:prefLabel "platform"@en ;\n')
+# f.write('    skos:altLabel ""@en ;\n')
 # f.write('    skos:definition ""@en ;\n')
 f.write('    dc:date "%s" .\n\n\n' % DATE)
 
@@ -44,9 +43,9 @@ f.write('    rdfs:subClassOf cci:DRS ;\n')
 f.write('    rdfs:label "%s"@en ;\n' % CONCEPT_SCHEME_LABEL)
 f.write('    dc:date "%s" .\n\n\n' % DATE)
 
-# org concepts
+# concepts
 f.write('#\n')
-f.write('# org concepts\n')
+f.write('# platform concepts\n')
 f.write('#\n\n')
 
 count = 0
@@ -58,13 +57,14 @@ with open(IN_FILE, 'rb') as csvfile:
         if (count < 2):
             continue
 
-        f.write('cci:%s a skos:Concept ;\n' % row[CCI_URI])
+        f.write('cci:%s a skos:Concept ;\n' % row[URI].strip())
         f.write('    rdfs:subClassOf cci:%s ;\n' % CLASS)
         f.write('    skos:inScheme cci:%s ;\n' % CONCEPT_SCHEME)
-        f.write('    skos:prefLabel "%s"@en ;\n' % row[CCI_LABEL])
-        if len(row) > CCI_ALT_LABEL and not (row[CCI_ALT_LABEL] == ''):
-            f.write('    skos:altLabel "%s"@en ;\n' % row[CCI_ALT_LABEL])
-        if len(row) > CCI_SEE_ALSO and not (row[CCI_SEE_ALSO] == ''):
-            f.write('    rdfs:seeAlso <http://isni.org/isni/%s> ;\n' % row[CCI_SEE_ALSO].strip())
+        f.write('    skos:prefLabel "%s"@en ;\n' % row[LABEL].strip())
+        if row[ALT_LABEL] != '':
+            f.write('    skos:altLabel "%s" ;\n' % row[ALT_LABEL].strip())
+        if len(row) > DEF and not (row[DEF] == ''):
+            f.write('    skos:definition "%s"@en ;\n' % row[DEF].strip())
         f.write('    dc:date "%s" .\n\n' % DATE)
+
 f.close()
