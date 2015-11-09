@@ -1,0 +1,67 @@
+URI#Pref Label#Alt Label#Definition
+palsar#PALSAR##Phased Array type L-band Synthetic Aperture Radar
+amsre#AMSRE##Advanced Microwave Scanning Radiometer for Earth Observation from Space
+modis_aqua#MODIS##Moderate Resolution Imaging Spectroradiometer
+omi#OMI##Ozone Monitoring Instrument
+windSat#WindSat##Polarimetric microwave radiometer
+ssmI#SSM/I##Special Sensor Microwave Imager
+ssmiS#SSMI/S##Special Sensor Microwave Imager Sounder
+aatsr#AATSR##Advanced Along-Track Scanning Radiometer
+asar#ASAR##Advanced Synthetic Aperture Radar
+gomos#GOMOS##Global Ozone Monitoring by Occultation of Stars
+meris#MERIS##Medium-Spectral Resolution, Imaging Spectrometer 
+merisFRS#MERIS-FRS##Medium-Spectral Resolution, Imaging Spectrometer Full Resolution Swath
+merisRR#MERIS-RR##Medium-Spectral Resolution, Imaging Spectrometer Reduced Resolution
+mipas#MIPAS##Michelson Interferometer for Passive Atmospheric Sounding
+ra2#RA-2##Radar Altimeter
+sciamachy#SCIAMACHY##SCanning Imaging Absorption spectroMeter for AtmosphericCHartographY
+amiWsErs1#AMI-WS (ERS1)##Active Microwave Instrument - Windscat 
+atsrErs1#ATSR (ERS1)##Along Track Scanning Radiometer
+raErs1#RA (ERS1)##Radar Altimeter
+amiWsErs2#AMI-WS (ERS2)##Active Microwave Instrument - Windscat 
+atsrErs2#ATSR (ERS2)##Along Track Scanning Radiometer
+gome#GOME ##Global Monitoring of Atmospheric Ozone
+raErs2#RA (ERS2)##Radar Altimeter
+mwri#MWRI##Micro-Wave Radiation Imager
+amsr2#AMSR2##Advanced Microwave Scanning Radiometer
+gfo#GFO##Geosat Follow-On
+goesImager#GOES_Imager##
+tanso#TANSO##Thermal And Near-infrared Sensor for carbon Observation
+tansoCai#TANSO-CAI##Thermal And Near-infrared Sensor for carbon Observation Cloud and Aerosol Imager
+tansoFts#TANSO-FTS##Thermal And Near-infrared Sensor for carbon Observation Fourier Transform Spectrometer
+glas#GLAS##Geoscience Laser Altimeter System 
+poseidon2#Poseidon-2##
+poseidon3#Poseidon-3##
+etmPlus#ETM+##Enhanced Thematic Mapper Plus 
+tm#TM##Thematic Mapper 
+mss#MSS##
+oli#OLI##Operational Land Image
+tirs#TIRS##Thermal Infrared Sensor
+airs#AIRS##Atmospheric Infrared Sounder
+amsu#AMSU##Advanced microwave sounding unit
+ascat#ASCAT##Advanced SCATterometer
+avhrr#AVHRR##Advanced Very High Resolution Radiometer
+avhrrGac#AVHRR_GAC##Advanced Very High Resolution Radiometer Global Area Coverage
+gome2#GOME-2##Global Monitoring of Atmospheric Ozone 2
+iasi#IASI##Infrared Atmospheric Sounding Interferometer
+seviri_msg1#SEVIRI##Spinning Enhanced Visible and Infrared Imager
+seviri_msg2#SEVIRI##Spinning Enhanced Visible and Infrared Imager
+jami#JAMI##Japanese Advanced Meteorological Imager
+smmr#SMMR##Scanning Multichannel Microwave Radiometer
+avhrr#AVHRR##Advanced Very High Resolution Radiometer
+avhrrGac#AVHRR_GAC##Advanced Very High Resolution Radiometer Global Area Coverage
+avhrrLac#AVHRR_LAC##Advanced Very High Resolution Radiometer Local Area Coverage
+avhrrHrpt#AVHRR_HRPT##Advanced Very High Resolution Radiometer High Resolution Picture Transmission
+osiris#OSIRIS##Optical Spectrograph andInfraRed Imager System
+smr#SMR##Sub-Millimetre Radiometer
+seaWiFs#SeaWiFS##
+polder#POLDER##POLarization and Directionality of the Earth's Reflectances
+ace#ACE##Advanced Composition Explorer
+aceFts#ACE-FTS##Advanced Composition Explorer Fourier Transform Spectrometer
+vegetation#VEGETATION##
+hrs#HRS##High-Resolution Stereoscope
+modis#MODIS##Moderate Resolution Imaging Spectroradiometer
+sarX#SAR-X##Synthetic Aperture Radar X-band
+aster#ASTER##Advanced Spaceborne Thermal Emission and Reflection Radiometer
+posedion1#Poseidon-1##
+tmi#TMI##TRMM Microwave Imager

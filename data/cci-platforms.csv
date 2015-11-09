@@ -1,0 +1,33 @@
+URI#Pref Label#Alt Label#Definition
+alos#ALOS##Advanced Land Observation Satellite
+aqua#Aqua##NASA A-Train  Earth Observing System Satellite
+aura#Aura##NASA atmospheric composition Satellite
+coriolis#Coriolis##US Naval Research Laboratory Satellite
+dmsp#DMSP##US Defense Meteorological Satellite Program
+envisat#Envisat##ESA Environmental Satellite
+ers1#ERS-1##ESA European Remote Sensing Satellite 1
+ers2#ERS-2##ESA European Remote Sensing Satellite 2 
+fengyun3B#Fengyun-3B##Chinese 'Wind and Cloud' Satellite
+gcomW1#GCOM-W1##NASA A-Train Global Change Observation Mission Satellite
+gfo#GFO##US Geosat Follow-On Satellite 
+goes#GOES##USA NESDIS Geostationary Operational Environmental Satellite system
+gosat#GOSAT##JMA Greenhouse gases Observing SATellite 
+icesat#ICESat##NASA Ice, Cloud,and land Elevation Satellite
+jason1#Jason-1#jason#NASA/CNES Satellite oceanography mission 
+jason2#Jason-2##NASA Ocean Surface Topography Mission
+landsat#Landsat##NASA/USGS Satellite imagery of Earth
+metOpA#MetOpA##ESA Meteorological operational satellite - A
+msg1#MSG1##ESA Meteosat Second Generation Satellite 1
+msg3#MSG2##ESA Meteosat Second Generation Satellite 2
+mtsat1R#MTSAT1R#Himawari 6#JMA Meteorological Satellite
+nimbus7#Nimbus-7##NASA Research-and-development satellite
+noaa#NOAA-##NOAA Environmental satellites
+odin#ODIN##OHB Sweeden Astrophysics and Aeronomy satellite
+orbview2#Orbview-2#SeaStar#OIC USA Ocean Imaging satellite
+parasol#PARASOL##CNES Polarization & Anisotropy of Reflectances for Atmospheric Sciences coupled with Observations from a Lidar
+scisat#SCISAT##CSA Science Satellite
+spot4#SPOT-4##CNES Satellite Pour l'Observation de la Terre 4
+spot5#SPOT-5##CNES Satellite Pour l'Observation de la Terre 5
+terra#Terra##NASA Earth Observing System Satellite
+topexPoseidon#Topex/Poseidon##CNES/NASA Ocean surface topography satellite
+trmm#TRMM##NASA Tropical Rainfall Measuring Mission
