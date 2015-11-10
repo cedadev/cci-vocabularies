@@ -32,7 +32,7 @@ gosat,hasInstrument,tansoFts
 icesat,hasInstrument,glas
 jason1,hasInstrument,poseidon2
 jason2,hasInstrument,poseidon3
-landsat,hasInstrument,etm+
+landsat,hasInstrument,etmplus
 landsat,hasInstrument,tm
 landsat,hasInstrument,mss
 landsat,hasInstrument,oli
