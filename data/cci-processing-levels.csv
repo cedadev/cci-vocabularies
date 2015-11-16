@@ -1,13 +1,13 @@
-URI#Pref Label#Alt Label#has transitiveBroader#Definition
-level0#L0#Level 0##Unprocessed instrument and payload data at full resolution. CCI does not make recommendations regarding formats or content for data at this processing level.
-level1A#L1A#Level 1A##Reconstructed unprocessed instrument data at full resolution, time referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters, computed and appended, but not applied, to L0 data.
-level1B#L1B#Level 1B##Level 1A data that have been processed to sensor units.
-level1C#L1C#Level 1C##Level 1b data that have been further processed, eg by correcting radiances or by mapping onto a spatial grid, prior to deriving geophysical variables from the data.
-level2#L2#Level 2##Retrieved environmental variables at the same resolution and location as the level 1 source
-level2Preprocessed#L2P#Level 2 Pre-processing##Geophysical variables derived from Level 1 source data at the same resolution and location as the level 1 data, typically in a satellite projection with geographic information. These data form the fundamental basis for higher level CCI products.
-level3#L3#Level 3##Level 2 variables mapped on a defined grid with reduced requirements for ancillary data. Three types of L3 products are defined:
-level3U#L3U#Level 3U##Uncollated (L3U): L2 data granules remapped to a space grid without combining any observations from overlapping orbits.
-level3C#L3C#Level 3C##Collated (L3C): Observations combined from a single instrument into a space-time grid.
-level3S#L3S#Level 3S##Super-collated (L3S): observations combined from multiple instruments into a space-time grid.
-level4#L4#Level 4##Data sets created from the analysis of lower level data that result in gridded, gap-free products.
-indicator#IND#Indicator##Indicators derived from satellite data.
+URI#Pref Label#Alt Label#Definition#has transitiveBroader
+level0#L0#Level 0#Unprocessed instrument and payload data at full resolution. CCI does not make recommendations regarding formats or content for data at this processing level.#
+level1A#L1A#Level 1A#Reconstructed unprocessed instrument data at full resolution, time referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters, computed and appended, but not applied, to L0 data.#
+level1B#L1B#Level 1B#Level 1A data that have been processed to sensor units.#
+level1C#L1C#Level 1C#Level 1b data that have been further processed, eg by correcting radiances or by mapping onto a spatial grid, prior to deriving geophysical variables from the data.#
+level2#L2#Level 2#Retrieved environmental variables at the same resolution and location as the level 1 source#
+level2Preprocessed#L2P#Level 2 Pre-processing#Geophysical variables derived from Level 1 source data at the same resolution and location as the level 1 data, typically in a satellite projection with geographic information. These data form the fundamental basis for higher level CCI products.#
+level3#L3#Level 3#Level 2 variables mapped on a defined grid with reduced requirements for ancillary data. Three types of L3 products are defined:#
+level3U#L3U#Level 3U#Uncollated (L3U): L2 data granules remapped to a space grid without combining any observations from overlapping orbits.#
+level3C#L3C#Level 3C#Collated (L3C): Observations combined from a single instrument into a space-time grid.#
+level3S#L3S#Level 3S#Super-collated (L3S): observations combined from multiple instruments into a space-time grid.#
+level4#L4#Level 4#Data sets created from the analysis of lower level data that result in gridded, gap-free products.#
+indicator#IND#Indicator#Indicators derived from satellite data.#
