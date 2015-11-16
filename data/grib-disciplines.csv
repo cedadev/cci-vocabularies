@@ -1,7 +1,7 @@
 URI,Pref Label,Alt Label,Description
-gribMeteorology,grib meteorology,,
-gribOceanography,grib oceanography,,
-gribHydrology,grib hydrology,,
-gribLandSurface,grib land surface,,
-gribSpaceWeather,grib space weather,,
-gribOtherSpace,grib other space,,
+gribMeteorology,grib meteorology,,GRIB Discipline: Meteorology
+gribOceanography,grib oceanography,,GRIB Discipline: Oceanography
+gribHydrology,grib hydrology,,GRIB Discipline: Hydrology
+gribLandSurface,grib land surface,,GRIB Discipline: Land Surface
+gribSpaceWeather,grib space weather,,GRIB Discipline: Space Weather
+gribOtherSpace,grib other space,,GRIB Discipline: Other Space
