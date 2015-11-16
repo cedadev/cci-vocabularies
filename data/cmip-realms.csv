@@ -1,9 +1,9 @@
 URI,Pref Label,Alt Label,Description
-cmipAtmos,cmip atmos,,
-cmipOcean,cmip ocean,,
-cmipLand,cmip land,,
-cmipAtmosChem,cmip atmosChem,,
-cmipAerosol,cmip aerosol,,
-cmipSeaIce,cmip seaIce,,
-cmipOcnBgchem,cmip ocnBgchem,,
-cmipLandIce,cmip landIce,,
+cmipAtmos,cmip atmos,,CMIP5 modelling realm: Atmosphere
+cmipOcean,cmip ocean,,CMIP5 modelling realm: Ocean
+cmipLand,cmip land,,CMIP5 modelling realm: Land
+cmipAtmosChem,cmip atmosChem,,CMIP5 modelling realm: Atmospheric Chemistry
+cmipAerosol,cmip aerosol,,CMIP5 modelling realm: Aerosol
+cmipSeaIce,cmip seaIce,,CMIP5 modelling realm: Sea ice
+cmipOcnBgchem,cmip ocnBgchem,,CMIP5 modelling realm: Ocean Biogeochemistry
+cmipLandIce,cmip landIce,,CMIP5 modelling realm: Land ice
