@@ -1,0 +1,12 @@
+CMIP URI,CMIP has <relationship> GCOS,GCOS URI
+cmipAtmos,broadMatch,atmospheric
+cmipOcean,broadMatch,oceanic
+cmipLand,broadMatch,terrestrial
+cmipAtmosChem,relatedMatch,atmosphericComposition
+cmipAerosol,relatedMatch,atmosphericComposition
+cmipSeaIce,broadMatch,oceanicSurface
+cmipSeaIce,closeMatch,oceanicSurfaceSeaIce
+cmipOcnBgchem,broadMatch,oceanic
+cmipLandIce,broadMatch,terrestral
+cmipLandIce,narrowMatch,terrestrialIceSheets
+cmipLandIce,narrowMatch,terrestrialGlaciersAndIceCaps
