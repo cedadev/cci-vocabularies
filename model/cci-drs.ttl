@@ -1,14 +1,13 @@
-@prefix dc: <http://purl.org/dc/terms/> .
-@prefix cci: <http://localhost/cci> .
-@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix cci: <http://localhost/cci#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 
 #
-# concept scheme
+# top class
 #
 
-cci:drsConceptScheme a skos:ConceptScheme ;
+cci:DRS a owl:Class ;
     skos:prefLabel "DRS"@en ;
     skos:altLabel "Directory Reference Syntax"@en ;
     skos:definition "The CCI DRS (Directory Reference Syntax) is a set of key parameters to classify CCI ECV datasets and enable users to discover them."@en ;
-    dc:date "2015-09-07 09:40:00.000000" .
