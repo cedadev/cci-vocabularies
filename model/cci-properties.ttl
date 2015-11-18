@@ -1,0 +1,25 @@
+@prefix cci: <http://localhost/cci#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+#
+# object properties
+#
+
+cci:hasPlatform a owl:ObjectProperty;
+	skos:definition "A relationship between CCI Sensors and Platforms"@en ;
+	rdfs:subPropertyOf skos:related ;
+	rdfs:label "has platform"@en ;
+	rdfs:domain cci:Sensor ;
+	rdfs:range cci:Platform ;
+	owl:inverseOf cci:hasSensor .
+
+cci:hasSensor a owl:ObjectProperty;
+	skos:definition "A relationship between CCI Platforms and Sensors"@en ;
+	rdfs:subPropertyOf skos:related ;
+	rdfs:label "has sensor"@en ;
+	rdfs:domain cci:Platform ;
+	rdfs:range cci:Sensor ;
+	owl:inverseOf cci:hasPlatform .
