@@ -1,5 +1,9 @@
 import csv
 
+from rdflib.namespace import SKOS
+
+from settings import CCI_NAME_SPACE
+
 
 # columns in spreadsheet
 CCI_URI = 0
@@ -9,8 +13,8 @@ CF_URI = 2
 def write_ttl(in_file_name, out_file_name):   
     out_file = '../model/%s' % out_file_name
     f = open(out_file, 'w')
-    f.write('@prefix cci: <http://localhost/cci#> .\n')
-    f.write('@prefix skos: <http://www.w3.org/2004/02/skos/core#> .\n\n')
+    f.write('@prefix cci: <%s> .\n' % CCI_NAME_SPACE)
+    f.write('@prefix skos: <%s> .\n\n\n' % SKOS)
     
     count = 0
     in_file = '../data/%s' % in_file_name

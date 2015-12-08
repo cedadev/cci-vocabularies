@@ -1,15 +1,15 @@
-'''
-Created on 16 Nov 2015
-
-@author: wilsona
-'''
-
-from generate_ttl import gcos_concept, gcos_mapping_gcos_cci, scheme
+from generate_ttl import concept, scheme, mapping
+from settings import  CCI, CMIP, GCOS, MAPPING_1, MAPPING_2, SKOS
 
 
-gcos_concept.write_ttl('gcos-ecv.csv', 'gcos-ecv.ttl', 'ECV', 'Essential Climate Variable')
+def generate():
+    concept.write_ttl('gcos-ecv.csv', 'gcos-ecv.ttl', 'ECV', 'Essential Climate Variable', GCOS)
+    
+    scheme.write_ttl('gcos-schemes.csv', 'gcos-schemes.ttl', GCOS)
+    
+    mapping.write_ttl('cci-gcos-mapping.csv', 'gcos-cci-mapping.ttl', MAPPING_1, GCOS, CCI, SKOS)
+    mapping.write_ttl('cmip-gcos-mapping.csv', 'gcos-cmip-mapping.ttl', MAPPING_2, CMIP, GCOS, SKOS)
 
-scheme.write_ttl('gcos-schemes.csv', 'gcos-schemes.ttl', 'gcos')
 
-gcos_mapping_gcos_cci.write_ttl('cci-gcos-mapping.csv', 'gcos-cci-mapping.ttl')
-
+if __name__ == "__main__":
+    generate()
