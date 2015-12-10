@@ -1,9 +1,10 @@
-from generate_ttl import glossary, scheme
+from generate_ttl import concept, scheme
 from settings import  GLOSSARY
 
 
 def generate():
-    glossary.write_ttl('ipcc-glossary.csv', 'glossary-ipcc.ttl', 'IPCCGlossary', 'IPCC Glossary', GLOSSARY)
+    concept.write_ttl('ipcc-glossary.csv', 'glossary-ipcc.ttl', 'IPCCGlossary', 'IPCC', GLOSSARY)
+
     scheme.write_ttl('glossary-schemes.csv', 'glossary-schemes.ttl', GLOSSARY)
 
 
