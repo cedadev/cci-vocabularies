@@ -3,7 +3,7 @@ from datetime import datetime
 
 from rdflib.namespace import DC, OWL, RDFS, SKOS
 
-from settings import NAME_SPACE, NAME_SPACE_MAP
+from settings import NAME_SPACE, NAME_SPACE_MAP, CSV_DIRECTORY
 
 
 # columns in spreadsheet
@@ -32,7 +32,7 @@ def write_ttl(in_file_name, out_file_name, ontology_name):
     f.write('@prefix skos: <%s> .\n\n\n' % SKOS)
     
     count = 0
-    in_file = '../data/%s' % in_file_name
+    in_file = '%s%s' % (CSV_DIRECTORY, in_file_name)
     with open(in_file, 'rb') as csvfile:
         cvsreader = csv.reader(csvfile, delimiter=';', quotechar='|')
         for row in cvsreader:

@@ -2,7 +2,7 @@ import csv
 
 from rdflib.namespace import SKOS
 
-from settings import MAPPING_1, MAPPING_2, MAPPING_BOTH, NAME_SPACE_MAP
+from settings import MAPPING_1, MAPPING_2, MAPPING_BOTH, NAME_SPACE_MAP, CSV_DIRECTORY
 
 
 # columns in spreadsheet
@@ -20,9 +20,9 @@ def write_ttl(in_file_name, out_file_name, mapping, uri_1_prefix, uri_2_prefix, 
     f.write('@prefix skos: <%s> .\n\n\n' % SKOS)
     
     count = 0
-    in_file = '../data/%s' % in_file_name
+    in_file = '%s%s' % (CSV_DIRECTORY, in_file_name)
     with open(in_file, 'rb') as csvfile:
-        csvreader = csv.reader(csvfile, delimiter='#', quotechar='|')
+        csvreader = csv.reader(csvfile, delimiter=';', quotechar='"')
         for row in csvreader:
             count = count + 1
             if (count < 2):

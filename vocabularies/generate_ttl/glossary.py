@@ -2,7 +2,7 @@ import csv
 
 from rdflib.namespace import OWL, RDF, RDFS, SKOS
 
-from settings import CITO, NAME_SPACE_MAP
+from settings import CITO, NAME_SPACE_MAP, CSV_DIRECTORY
 
 
 # columns in spreadsheet
@@ -98,7 +98,7 @@ def _get_display_name(name):
 def _parse_file(in_file_name):
     # dict, key= display name, value = list of lines
     count = 0
-    in_file = '../data/%s' % in_file_name
+    in_file = '%s%s' % (CSV_DIRECTORY, in_file_name)
 
     with open(in_file, 'rb') as csvfile:
         cvsreader = csv.reader(csvfile, delimiter='$', quotechar='"')

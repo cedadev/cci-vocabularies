@@ -20,7 +20,6 @@ PREFIX skos: <%s>
 
 SPARQL_URI = 'http://%s/%s' % (SPARQL_HOST_NAME, 'sparql')
 
-NO_SUP = ['see also', 'creator', 'contributor']
 HAS_PLATFORM = '%shasPlatform' % CCI_NAME_SPACE
 HAS_SENSOR = '%shasSensor' % CCI_NAME_SPACE
 RELATED = '%srelated' % SKOS
@@ -50,13 +49,32 @@ class TripleStore(object):
 
 
 def get_classes(graph_name):
+    """
+    Get the lists of classes that are not also concepts.
+    """
     statement = PREFIX + "SELECT Distinct ?subject WHERE {?subject rdf:type owl:Class} ORDER BY ASC(?subject)"
-    return get_search_results(graph_name, statement)
+    classes = get_search_results(graph_name, statement)
+    non_concept_classes = []
+    for _class in classes:
+        statement = PREFIX + "SELECT Distinct ?subject WHERE {<" + _class.subject.decode() + "> rdf:type skos:Concept}"
+        results = get_search_results(graph_name, statement)
+        if len(results) == 0:
+            non_concept_classes.append(_class)
+    return non_concept_classes
 
 
 def get_concepts(graph_name):
     statement = PREFIX + "SELECT Distinct ?subject WHERE {?subject rdf:type skos:Concept} ORDER BY ASC(?subject)"
     return get_search_results(graph_name, statement)
+
+
+def get_concepts_in_scheme(graph_name, uri):
+    statement = PREFIX + "SELECT Distinct ?subject WHERE {?subject skos:inScheme <" + uri + ">} ORDER BY ASC(?subject)"
+    subs = get_search_results(graph_name, statement)
+    result = []
+    for sub in subs:
+        result.append(sub.subject.decode())
+    return result
 
 
 def get_concept_schemes(graph_name):
@@ -308,28 +326,31 @@ def write_entities(ontology_name, results, _id, title):
             continue
         label = get_label(ontology_name, result.subject)
         FILE.write('<div id="%s" class="entity">\n' % link)
-#         FILE.write('<a name="%s"></a>\n' % result.subject)
         if result.subject.decode() in OBJECT_PROPERTIES:
             FILE.write('<h3>%s<sup title="object property" class="type-op">op</sup>'
                        % label)
         else:
-            FILE.write('<h3>%s<sup title="class" class="type-c">c</sup>' % label)        
+            FILE.write('<h3>%s' % label)        
         FILE.write('<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#%s">%s ToC</a></span></h3>\n'
                    % (_id, title))
         FILE.write('<p><strong>IRI:</strong> %s</p>\n' % result.subject)
 
         altLabels = []
         hasTopConcepts = []
+        topConceptOf = []
         inverseOf = []
         inSchemes = []
         sub_class_of = []
         sensors = []
         platforms = []
+        broader = []
+        narrower = []
         broadMatch = []
         closeMatch = []
         narrowMatch = []
         relatedMatch = []
-        transitiveBroader = []
+        broaderTransitive = []
+        narrowerTransitive = []
         seeAlso = []
         _range = []
         domain = []
@@ -359,10 +380,16 @@ def write_entities(ontology_name, results, _id, title):
                 inSchemes.append(res.o.decode())
             elif res.p == SKOS.altLabel:
                 altLabels.append(res.o.decode())
+            elif res.p == SKOS.broader:
+                broader.append(res.o.decode())
+            elif res.p == SKOS.narrower:
+                narrower.append(res.o.decode())
             elif res.p == SKOS.broadMatch:
                 broadMatch.append(res.o.decode())
-            elif res.p == SKOS.transitiveBroader:
-                transitiveBroader.append(res.o.decode())
+            elif res.p == SKOS.broaderTransitive:
+                broaderTransitive.append(res.o.decode())
+            elif res.p == SKOS.narrowerTransitive:
+                narrowerTransitive.append(res.o.decode())
             elif res.p == SKOS.closeMatch:
                 closeMatch.append(res.o.decode())
             elif res.p == SKOS.narrowMatch:
@@ -371,6 +398,8 @@ def write_entities(ontology_name, results, _id, title):
                 relatedMatch.append(res.o.decode())
             elif res.p == SKOS.hasTopConcept:
                 hasTopConcepts.append(res.o.decode())
+            elif res.p == SKOS.topConceptOf:
+                topConceptOf.append(res.o.decode())
             elif res.p == RDFS.seeAlso:
                 seeAlso.append(res.o.decode())
             elif res.p == RDFS.range:
@@ -417,8 +446,12 @@ def write_entities(ontology_name, results, _id, title):
         write_literals(contributor, "contributor")
         write_list(ontology_name, rdf_type, "type")
         write_literals(altLabels, "has alternative label")
-        write_list(ontology_name, inSchemes, "is in scheme")
         write_list(ontology_name, hasTopConcepts, "has top concepts")
+        write_list(ontology_name, topConceptOf, "is top concept in scheme")
+        write_list(ontology_name, inSchemes, "is in scheme")
+#         if _id == 'conceptschemes':
+#             has_concept = get_concepts_in_scheme(ontology_name, result.subject)
+#             write_list(ontology_name, has_concept, "has concepts")
         write_list(ontology_name, sub_class_of, "has super-classes")
         write_list(ontology_name, has_sub_class, "has sub-classes")
         write_list(ontology_name, subPropertyOf, "has super-properties")
@@ -432,9 +465,13 @@ def write_entities(ontology_name, results, _id, title):
         write_list(ontology_name, inverseOf, "is inverse of")
         write_list(ontology_name, sensors, "has sensors")
         write_list(ontology_name, platforms, "has platform")
+        write_list(ontology_name, broader, "has broader")
+        write_list(ontology_name, narrower, "has narrower")
         write_list(ontology_name, broadMatch, "has broader match")
-        write_list(ontology_name, transitiveBroader,
-                   "has transitive broader match")
+        write_list(ontology_name, broaderTransitive,
+                   "has broader transitive")
+        write_list(ontology_name, narrowerTransitive,
+                   "has narrower transitive")
         write_list(ontology_name, closeMatch, "has close match")
         write_list(ontology_name, relatedMatch, "has related match")
         write_list(ontology_name, narrowMatch, "has narrower match")
@@ -464,12 +501,8 @@ def write_list(ontology_name, uris, name):
                 FILE.write(', ')
             write_link(ontology_name, uri)
             
-            if name in NO_SUP:
-                pass
-            elif uri in OBJECT_PROPERTIES:
+            if uri in OBJECT_PROPERTIES:
                 FILE.write('<sup title="object property" class="type-op">op</sup>\n')
-            else:
-                FILE.write('<sup title="class" class="type-c">c</sup>\n')
             
         FILE.write('</dd>\n')
 
@@ -554,7 +587,8 @@ def generate():
         ONTOLOGY_BASE_URI = ('%s' % (NAME_SPACE_MAP[ontology]))
         ONTOLOGY_TTL_URI = ('http://%s/%s/%s-content/%s-ontology.ttl' % 
                             (SPARQL_HOST_NAME, ontology, ontology, ontology))
-        file_name = ('../html/%s.html') % ontology
+        print ONTOLOGY_TTL_URI
+        file_name = ('%s%s.html') % (HTML_DIRECTORY, ontology)
         FILE = codecs.open(file_name, encoding='utf-8', mode='w')
     
         do_stuff(ontology)
