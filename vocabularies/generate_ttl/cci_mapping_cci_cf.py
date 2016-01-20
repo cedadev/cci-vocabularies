@@ -19,7 +19,7 @@ def write_ttl(in_file_name, out_file_name):
     count = 0
     in_file = '%s%s' % (CSV_DIRECTORY, in_file_name)
     with open(in_file, 'rb') as csvfile:
-        csvreader = csv.reader(csvfile, delimiter=';', quotechar='"')
+        csvreader = csv.reader(csvfile, delimiter='`', quotechar='"')
         for row in csvreader:
             count = count + 1
             if (count < 2):
