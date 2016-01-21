@@ -1,4 +1,5 @@
 import codecs
+import csv
 
 from rdflib import Graph, URIRef
 from rdflib.namespace import DC, OWL, RDF, RDFS, SKOS
@@ -7,7 +8,7 @@ from rdflib.plugins.stores.sparqlstore import SPARQLUpdateStore
 from settings import ONTOLOGIES, SPARQL_HOST_NAME, SPARQL_UPDATE, \
     SPARQL_QUERY, SPARQL_DATASET, HTML_DIRECTORY, CITO, \
     CCI_NAME_SPACE, CMIP_NAME_SPACE, GCOS_NAME_SPACE, GRIB_NAME_SPACE, \
-    CCI, CMIP, GCOS, GRIB, GLOSSARY, NAME_SPACE_MAP
+    CCI, CMIP, GCOS, GRIB, GLOSSARY, NAME_SPACE_MAP, CSV_DIRECTORY
 
 
 PREFIX = """
@@ -31,6 +32,7 @@ ONTOLOGY_TTL_URI = None
 
 GRAPH_STORE = {}
 
+
 class TripleStore(object):
     __store = None
 
@@ -52,11 +54,13 @@ def get_classes(graph_name):
     """
     Get the lists of classes that are not also concepts.
     """
-    statement = PREFIX + "SELECT Distinct ?subject WHERE {?subject rdf:type owl:Class} ORDER BY ASC(?subject)"
+    statement = (PREFIX +
+                 "SELECT Distinct ?subject WHERE {?subject rdf:type owl:Class} ORDER BY ASC(?subject)")
     classes = get_search_results(graph_name, statement)
     non_concept_classes = []
     for _class in classes:
-        statement = PREFIX + "SELECT Distinct ?subject WHERE {<" + _class.subject.decode() + "> rdf:type skos:Concept}"
+        statement = (PREFIX + "SELECT Distinct ?subject WHERE {<" +
+                     _class.subject.decode() + "> rdf:type skos:Concept}")
         results = get_search_results(graph_name, statement)
         if len(results) == 0:
             non_concept_classes.append(_class)
@@ -64,12 +68,15 @@ def get_classes(graph_name):
 
 
 def get_concepts(graph_name):
-    statement = PREFIX + "SELECT Distinct ?subject WHERE {?subject rdf:type skos:Concept} ORDER BY ASC(?subject)"
+    statement = (PREFIX +
+                 "SELECT Distinct ?subject WHERE {?subject rdf:type skos:Concept} ORDER BY ASC(?subject)")
     return get_search_results(graph_name, statement)
 
 
 def get_concepts_in_scheme(graph_name, uri):
-    statement = PREFIX + "SELECT Distinct ?subject WHERE {?subject skos:inScheme <" + uri + ">} ORDER BY ASC(?subject)"
+    statement = (PREFIX +
+                 "SELECT Distinct ?subject WHERE {?subject skos:inScheme <" +
+                 uri + ">} ORDER BY ASC(?subject)")
     subs = get_search_results(graph_name, statement)
     result = []
     for sub in subs:
@@ -78,27 +85,33 @@ def get_concepts_in_scheme(graph_name, uri):
 
 
 def get_concept_schemes(graph_name):
-    statement = PREFIX + "SELECT Distinct ?subject WHERE {?subject rdf:type skos:ConceptScheme} ORDER BY ASC(?subject)"
+    statement = (PREFIX +
+                 "SELECT Distinct ?subject WHERE {?subject rdf:type skos:ConceptScheme} ORDER BY ASC(?subject)")
     return get_search_results(graph_name, statement)
 
 
 def get_ontology(graph_name):
-    statement = PREFIX + "SELECT Distinct ?subject WHERE {?subject rdf:type owl:Ontology} ORDER BY ASC(?subject)"
+    statement = (PREFIX +
+                 "SELECT Distinct ?subject WHERE {?subject rdf:type owl:Ontology} ORDER BY ASC(?subject)")
     return get_search_results(graph_name, statement)
 
 
 def get_properties(graph_name):
-    statement = PREFIX + "SELECT Distinct ?subject WHERE {?subject rdf:type owl:ObjectProperty} ORDER BY ASC(?subject)"
+    statement = (PREFIX +
+                 "SELECT Distinct ?subject WHERE {?subject rdf:type owl:ObjectProperty} ORDER BY ASC(?subject)")
     return get_search_results(graph_name, statement)
 
 
 def get_resources(graph_name, uri):
-    statement = PREFIX + "SELECT ?p ?o WHERE {<" + uri + "> ?p ?o}"
+    statement = (PREFIX +
+                 "SELECT ?p ?o WHERE {<" + uri + "> ?p ?o} ORDER BY ASC(?o)")
     return get_search_results(graph_name, statement)
 
 
 def get_sub_classes(graph_name, uri):
-    statement = PREFIX + "SELECT Distinct ?subject WHERE {?subject rdfs:subClassOf <" + uri + ">} ORDER BY ASC(?subject)"
+    statement = (PREFIX +
+                 "SELECT Distinct ?subject WHERE {?subject rdfs:subClassOf <" +
+                 uri + ">} ORDER BY ASC(?subject)")
     subs = get_search_results(graph_name, statement)
     result = []
     for sub in subs:
@@ -107,16 +120,18 @@ def get_sub_classes(graph_name, uri):
 
 
 def get_label(graph_name, uri):
-    statement = PREFIX + "SELECT ?label WHERE {<" + uri + "> skos:prefLabel ?label}"
+    statement = (PREFIX + "SELECT ?label WHERE {<" + uri +
+                 "> skos:prefLabel ?label}")
     results = get_search_results(graph_name, statement)
     for resource in results:
         if resource.label != "None":
             return resource.label
-    statement = PREFIX + "SELECT ?label WHERE {<" + uri + "> rdfs:label ?label}"
+    statement = (PREFIX + "SELECT ?label WHERE {<" + uri +
+                 "> rdfs:label ?label}")
     results = get_search_results(graph_name, statement)
     for resource in results:
         if resource.label:
-            return resource.label    
+            return resource.label
     print "get_label - no label found for %s, using uri" % uri
     return uri
 
@@ -166,13 +181,17 @@ def write_head(ontology_name, found_classes, found_properties):
                 contributors.append(res.o.decode())
 
     FILE.write('<?xml version="1.0" encoding="utf-8"?>\n')
-    FILE.write('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n')
+    FILE.write(
+        '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n')
     FILE.write('<html xmlns="http://www.w3.org/1999/xhtml">\n')
     FILE.write('<head>\n')
-    FILE.write('<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />\n')
+    FILE.write(
+        '<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />\n')
     FILE.write('<title>%s</title>\n' % title)
-    FILE.write('<link href="%s.css" rel="stylesheet" type="text/css" />\n' % ontology_name)
-    FILE.write('<link href="cci.css" rel="stylesheet" type="text/css" />\n')  # TDDO remove
+    FILE.write('<link href="%s.css" rel="stylesheet" type="text/css" />\n' %
+               ontology_name)
+    # TDDO remove
+    FILE.write('<link href="cci.css" rel="stylesheet" type="text/css" />\n')
     FILE.write('</head>\n')
 
     FILE.write('<body>\n')
@@ -181,7 +200,8 @@ def write_head(ontology_name, found_classes, found_properties):
 
     FILE.write('<dl>\n')
     FILE.write('<dt>IRI:</dt>\n')
-    FILE.write('<dd><a href="%s">%s</a></dd>\n' % (ONTOLOGY_BASE_URI, ONTOLOGY_BASE_URI))
+    FILE.write('<dd><a href="%s">%s</a></dd>\n' %
+               (ONTOLOGY_BASE_URI, ONTOLOGY_BASE_URI))
     FILE.write('</dl>\n')
 
     FILE.write('<dl>\n')
@@ -210,7 +230,8 @@ def write_head(ontology_name, found_classes, found_properties):
 
     FILE.write('<dl>\n')
     FILE.write('<dt>Other visualisations:</dt>\n')
-    FILE.write('<dd><a href="%s">Ontology source</a></dd>\n' % ONTOLOGY_TTL_URI)
+    FILE.write('<dd><a href="%s">Ontology source</a></dd>\n' %
+               ONTOLOGY_TTL_URI)
     FILE.write('<dd><a href="%s">SPARQL endpoint</a>, dataset:%s, graph:%s</dd>\n'
                % (SPARQL_URI, SPARQL_DATASET, ontology_name))
     FILE.write('</dl>\n')
@@ -228,7 +249,8 @@ def write_head(ontology_name, found_classes, found_properties):
     FILE.write('<h2>Table of Content</h2>\n')
     FILE.write('<ol>\n')
     FILE.write('<li><a href="#introduction">Introduction</a></li>\n')
-    FILE.write('<li><a href="#crossReference">Cross reference for Classes and Properties</a></li>\n')
+    FILE.write(
+        '<li><a href="#crossReference">Cross reference for Classes and Properties</a></li>\n')
     FILE.write('<ul>\n')
 
     if found_classes:
@@ -238,9 +260,11 @@ def write_head(ontology_name, found_classes, found_properties):
     FILE.write('<li><a href="#concepts">Concepts</a></li>\n')
 
     if found_properties:
-        FILE.write('<li><a href="#objectproperties">Object Properties</a></li>\n')
+        FILE.write(
+            '<li><a href="#objectproperties">Object Properties</a></li>\n')
 
-    FILE.write('<li><a href="#namespacedeclarations">Namespace Declarations</a></li>\n')
+    FILE.write(
+        '<li><a href="#namespacedeclarations">Namespace Declarations</a></li>\n')
     FILE.write('</ul>\n')
     FILE.write('<li><a href="#acknowledgements">Acknowledgements</a></li>\n')
     FILE.write('</ol>\n')
@@ -252,8 +276,10 @@ def write_head(ontology_name, found_classes, found_properties):
     FILE.write('</div>\n')
 
     FILE.write('<div id="crossReference">\n')
-    FILE.write('<h2>2. Cross Reference for Classes and Properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>\n')
-    FILE.write('This section provides details for each class and property defined by the Ontology.\n')
+    FILE.write(
+        '<h2>2. Cross Reference for Classes and Properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>\n')
+    FILE.write(
+        'This section provides details for each class and property defined by the Ontology.\n')
 
 
 def write_contents_table(ontology_name, results):
@@ -270,9 +296,28 @@ def write_contents_table(ontology_name, results):
     FILE.write('</ul>\n')
 
 
+def write_acknowledgements(ontology_name):
+    in_file_name = '%s-schemes.csv' % ontology_name
+    count = 0
+    in_file = '%s%s' % (CSV_DIRECTORY, in_file_name)
+    with open(in_file, 'rb') as csvfile:
+        cvsreader = csv.reader(csvfile, delimiter='`', quotechar='|')
+        for row in cvsreader:
+            count = count + 1
+            if (count < 2):
+                continue
+            if row[12] != '':
+                FILE.write('<div id="acknowledgements">\n')
+                FILE.write(
+                    '<h2>3. Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>\n')
+                FILE.write(row[12])
+                FILE.write('</div>\n')
+
+
 def write_namespace(ontology_name):
     FILE.write('<div id="namespacedeclarations">\n')
-    FILE.write('<h2>Namespace Declarations <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>\n')
+    FILE.write(
+        '<h2>Namespace Declarations <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>\n')
     FILE.write('<dl>\n')
     FILE.write('<dt><em>default namespace</em></dt>\n')
     FILE.write('<dd>%s</dd>\n' % (NAME_SPACE_MAP[ontology_name]))
@@ -304,6 +349,7 @@ def write_namespace(ontology_name):
     FILE.write('<dt>skos</dt>\n')
     FILE.write('<dd>%s</dd>' % SKOS)
 
+
 def write_link(ontology_name, uri):
     local = True
     try:
@@ -330,7 +376,7 @@ def write_entities(ontology_name, results, _id, title):
             FILE.write('<h3>%s<sup title="object property" class="type-op">op</sup>'
                        % label)
         else:
-            FILE.write('<h3>%s' % label)        
+            FILE.write('<h3>%s' % label)
         FILE.write('<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#%s">%s ToC</a></span></h3>\n'
                    % (_id, title))
         FILE.write('<p><strong>IRI:</strong> %s</p>\n' % result.subject)
@@ -360,12 +406,13 @@ def write_entities(ontology_name, results, _id, title):
         creator = []
         member = []
         citesAsSourceDocument = []
+        isDefinedBy = []
 
         date = None
         definition = None
         description = None
         version = None
-        
+
         resources = get_resources(ontology_name, result.subject)
         for res in resources:
             if res.p == URIRef(ONTOLOGY_BASE_URI + 'hasSensor'):
@@ -410,6 +457,8 @@ def write_entities(ontology_name, results, _id, title):
                 sub_class_of.append(res.o.decode())
             elif res.p == RDFS.subPropertyOf:
                 subPropertyOf.append(res.o.decode())
+            elif res.p == RDFS.isDefinedBy:
+                isDefinedBy.append(res.o.decode())
             elif res.p == RDF.type:
                 rdf_type.append(res.o.decode())
             elif res.p == RDFS.member:
@@ -420,9 +469,9 @@ def write_entities(ontology_name, results, _id, title):
                 creator.append(res.o.decode())
             elif res.p == DC.description:
                 description = res.o
-            elif  res.p == DC.date:
+            elif res.p == DC.date:
                 date = res.o.decode()
-            elif  res.p == URIRef(CITO + 'citesAsSourceDocument'):
+            elif res.p == URIRef(CITO + 'citesAsSourceDocument'):
                 citesAsSourceDocument.append(res.o.decode())
             elif res.p == SKOS.definition:
                 definition = res.o
@@ -436,10 +485,10 @@ def write_entities(ontology_name, results, _id, title):
         has_sub_class = get_sub_classes(ontology_name, result.subject)
 
         write_comment(definition)
-        
+
         FILE.write('<div class="description">\n')
         write_comment(description)
-        
+
         FILE.write('<dl>\n')
         write_literals(version, "version")
         write_literals(creator, "creator")
@@ -452,6 +501,7 @@ def write_entities(ontology_name, results, _id, title):
 #         if _id == 'conceptschemes':
 #             has_concept = get_concepts_in_scheme(ontology_name, result.subject)
 #             write_list(ontology_name, has_concept, "has concepts")
+        write_list(ontology_name, isDefinedBy, "is defined by")
         write_list(ontology_name, sub_class_of, "has super-classes")
         write_list(ontology_name, has_sub_class, "has sub-classes")
         write_list(ontology_name, subPropertyOf, "has super-properties")
@@ -475,7 +525,8 @@ def write_entities(ontology_name, results, _id, title):
         write_list(ontology_name, closeMatch, "has close match")
         write_list(ontology_name, relatedMatch, "has related match")
         write_list(ontology_name, narrowMatch, "has narrower match")
-        write_list(ontology_name, citesAsSourceDocument, "citesAsSourceDocument")
+        write_list(ontology_name, citesAsSourceDocument,
+                   "cites as source document")
         write_list(ontology_name, seeAlso, "see also")
         write_literals(date, "date")
 
@@ -500,10 +551,11 @@ def write_list(ontology_name, uris, name):
             else:
                 FILE.write(', ')
             write_link(ontology_name, uri)
-            
+
             if uri in OBJECT_PROPERTIES:
-                FILE.write('<sup title="object property" class="type-op">op</sup>\n')
-            
+                FILE.write(
+                    '<sup title="object property" class="type-op">op</sup>\n')
+
         FILE.write('</dd>\n')
 
 
@@ -520,7 +572,7 @@ def write_literals(uris, name):
             if first:
                 first = False
             else:
-                FILE.write(', ')               
+                FILE.write(', ')
             FILE.write(uri)
     else:
         FILE.write(uris)
@@ -542,14 +594,14 @@ def do_stuff(ontology_name):
         found_properties = False
 
     write_head(ontology_name, found_classes, found_properties)
-    
+
     if found_classes > 0:
         FILE.write('<div id="classes">\n')
         FILE.write('<h2>2.1. Classes</h2>\n')
         write_contents_table(ontology_name, classes)
         write_entities(ontology_name, classes, 'classes', 'Classes')
         FILE.write('</div>\n')
-     
+
     concepts_schemes = get_concept_schemes(ontology_name)
     FILE.write('<div id="conceptschemes">\n')
     FILE.write('<h2>2.2. Concept Schemes</h2>\n')
@@ -557,14 +609,14 @@ def do_stuff(ontology_name):
     write_entities(ontology_name, concepts_schemes, 'conceptschemes',
                    'Concept Schemes')
     FILE.write('</div>\n')
-       
+
     concepts = get_concepts(ontology_name)
     FILE.write('<div id="concepts">\n')
     FILE.write('<h2>2.3. Concepts</h2>\n')
     write_contents_table(ontology_name, concepts)
     write_entities(ontology_name, concepts, 'concepts', 'Concepts')
     FILE.write('</div>\n')
-    
+
     if found_properties:
         FILE.write('<div id="objectproperties">\n')
         FILE.write('<h2>2.4. Object Properties</h2>\n')
@@ -575,6 +627,8 @@ def do_stuff(ontology_name):
 
     write_namespace(ontology_name)
 
+    write_acknowledgements(ontology_name)
+
     FILE.write('</div>\n')
     FILE.write('</body>\n')
 
@@ -582,19 +636,17 @@ def do_stuff(ontology_name):
 def generate():
     for ontology in ONTOLOGIES:
         global PREFIX, ONTOLOGY_BASE_URI, ONTOLOGY_TTL_URI, FILE
-        PREFIX = ('PREFIX %s:   <%s> %s' % 
+        PREFIX = ('PREFIX %s:   <%s> %s' %
                   (ontology, NAME_SPACE_MAP[ontology], PREFIX))
         ONTOLOGY_BASE_URI = ('%s' % (NAME_SPACE_MAP[ontology]))
-        ONTOLOGY_TTL_URI = ('http://%s/%s/%s-content/%s-ontology.ttl' % 
+        ONTOLOGY_TTL_URI = ('http://%s/%s/%s-content/%s-ontology.ttl' %
                             (SPARQL_HOST_NAME, ontology, ontology, ontology))
         print ONTOLOGY_TTL_URI
         file_name = ('%s%s.html') % (HTML_DIRECTORY, ontology)
         FILE = codecs.open(file_name, encoding='utf-8', mode='w')
-    
+
         do_stuff(ontology)
 
 
 if __name__ == "__main__":
     generate()
-
-
