@@ -3,12 +3,11 @@ import csv
 
 from rdflib import Graph, URIRef
 from rdflib.namespace import DC, OWL, RDF, RDFS, SKOS
-from rdflib.plugins.stores.sparqlstore import SPARQLUpdateStore
 
-from settings import ONTOLOGIES, SPARQL_HOST_NAME, SPARQL_UPDATE, \
-    SPARQL_QUERY, SPARQL_DATASET, HTML_DIRECTORY, CITO, \
-    CCI_NAME_SPACE, CMIP_NAME_SPACE, GCOS_NAME_SPACE, GRIB_NAME_SPACE, \
-    CCI, CMIP, GCOS, GRIB, GLOSSARY, NAME_SPACE_MAP, CSV_DIRECTORY
+from settings import ONTOLOGIES, SPARQL_HOST_NAME, SPARQL_DATASET, \
+    HTML_DIRECTORY, CITO, CMIP_NAME_SPACE, GCOS_NAME_SPACE, \
+    GRIB_NAME_SPACE, CCI, CMIP, GCOS, GRIB, GLOSSARY, NAME_SPACE_MAP, \
+    CSV_DIRECTORY, ONTOLOGY_MAP
 
 
 PREFIX = """
@@ -21,33 +20,16 @@ PREFIX skos: <%s>
 
 SPARQL_URI = 'http://%s/%s' % (SPARQL_HOST_NAME, 'sparql')
 
-HAS_PLATFORM = '%shasPlatform' % CCI_NAME_SPACE
-HAS_SENSOR = '%shasSensor' % CCI_NAME_SPACE
+HAS_PLATFORM = '%shasPlatform' % ONTOLOGY_MAP[CCI]
+HAS_SENSOR = '%shasSensor' % [CCI]
 RELATED = '%srelated' % SKOS
 OBJECT_PROPERTIES = [HAS_PLATFORM, HAS_SENSOR, RELATED]
 
 FILE = None
 ONTOLOGY_BASE_URI = None
-ONTOLOGY_TTL_URI = None
+FILE_BASE_URI = None
 
 GRAPH_STORE = {}
-
-
-class TripleStore(object):
-    __store = None
-
-    @classmethod
-    def __init_store(self):
-        store = SPARQLUpdateStore(queryEndpoint=SPARQL_QUERY,
-                                  update_endpoint=SPARQL_UPDATE,
-                                  postAsEncoded=False)
-        TripleStore.__store = store
-
-    @classmethod
-    def get_store(self):
-        if TripleStore.__store is None:
-            TripleStore.__init_store()
-        return TripleStore.__store
 
 
 def get_classes(graph_name):
@@ -69,14 +51,14 @@ def get_classes(graph_name):
 
 def get_concepts(graph_name):
     statement = (PREFIX +
-                 "SELECT Distinct ?subject WHERE {?subject rdf:type skos:Concept} ORDER BY ASC(?subject)")
+                 "SELECT Distinct ?subject WHERE {?subject rdf:type skos:Concept . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)")
     return get_search_results(graph_name, statement)
 
 
 def get_concepts_in_scheme(graph_name, uri):
     statement = (PREFIX +
                  "SELECT Distinct ?subject WHERE {?subject skos:inScheme <" +
-                 uri + ">} ORDER BY ASC(?subject)")
+                 uri + "> . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)")
     subs = get_search_results(graph_name, statement)
     result = []
     for sub in subs:
@@ -86,7 +68,7 @@ def get_concepts_in_scheme(graph_name, uri):
 
 def get_concept_schemes(graph_name):
     statement = (PREFIX +
-                 "SELECT Distinct ?subject WHERE {?subject rdf:type skos:ConceptScheme} ORDER BY ASC(?subject)")
+                 "SELECT Distinct ?subject WHERE {?subject rdf:type skos:ConceptScheme . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)")
     return get_search_results(graph_name, statement)
 
 
@@ -98,7 +80,7 @@ def get_ontology(graph_name):
 
 def get_properties(graph_name):
     statement = (PREFIX +
-                 "SELECT Distinct ?subject WHERE {?subject rdf:type owl:ObjectProperty} ORDER BY ASC(?subject)")
+                 "SELECT Distinct ?subject WHERE {?subject rdf:type owl:ObjectProperty . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)")
     return get_search_results(graph_name, statement)
 
 
@@ -111,7 +93,7 @@ def get_resources(graph_name, uri):
 def get_sub_classes(graph_name, uri):
     statement = (PREFIX +
                  "SELECT Distinct ?subject WHERE {?subject rdfs:subClassOf <" +
-                 uri + ">} ORDER BY ASC(?subject)")
+                 uri + "> . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)")
     subs = get_search_results(graph_name, statement)
     result = []
     for sub in subs:
@@ -141,7 +123,8 @@ def get_search_results(graph_name, statement):
         graph = GRAPH_STORE[graph_name]
     except KeyError:
         graph = Graph()
-        source = "%s%s-ontology.ttl" % (HTML_DIRECTORY, graph_name)
+        source = "%s%s/%s-content/%s-ontology.ttl" % (
+            HTML_DIRECTORY, graph_name, graph_name, graph_name)
         graph.parse(source=source, format='n3')
         GRAPH_STORE[graph_name] = graph
     return graph.query(statement)
@@ -188,10 +171,8 @@ def write_head(ontology_name, found_classes, found_properties):
     FILE.write(
         '<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />\n')
     FILE.write('<title>%s</title>\n' % title)
-    FILE.write('<link href="%s.css" rel="stylesheet" type="text/css" />\n' %
-               ontology_name)
-    # TDDO remove
-    FILE.write('<link href="cci.css" rel="stylesheet" type="text/css" />\n')
+    FILE.write(
+        '<link href="../../vocab.css" rel="stylesheet" type="text/css" />\n')
     FILE.write('</head>\n')
 
     FILE.write('<body>\n')
@@ -230,8 +211,10 @@ def write_head(ontology_name, found_classes, found_properties):
 
     FILE.write('<dl>\n')
     FILE.write('<dt>Other visualisations:</dt>\n')
-    FILE.write('<dd><a href="%s">Ontology source</a></dd>\n' %
-               ONTOLOGY_TTL_URI)
+    FILE.write('<dd>Ontology source ')
+    FILE.write('<a href="%s.json">json</a>, ' % FILE_BASE_URI)
+    FILE.write('<a href="%s.rdf">rdf</a>, ' % FILE_BASE_URI)
+    FILE.write('<a href="%s.ttl">ttl</a></dd>\n' % FILE_BASE_URI)
     FILE.write('<dd><a href="%s">SPARQL endpoint</a>, dataset:%s, graph:%s</dd>\n'
                % (SPARQL_URI, SPARQL_DATASET, ontology_name))
     FILE.write('</dl>\n')
@@ -297,7 +280,7 @@ def write_contents_table(ontology_name, results):
 
 
 def write_acknowledgements(ontology_name):
-    in_file_name = '%s-schemes.csv' % ontology_name
+    in_file_name = '%s-ontology.csv' % ontology_name
     count = 0
     in_file = '%s%s' % (CSV_DIRECTORY, in_file_name)
     with open(in_file, 'rb') as csvfile:
@@ -306,11 +289,11 @@ def write_acknowledgements(ontology_name):
             count = count + 1
             if (count < 2):
                 continue
-            if row[12] != '':
+            if row[10] != '':
                 FILE.write('<div id="acknowledgements">\n')
                 FILE.write(
                     '<h2>3. Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>\n')
-                FILE.write(row[12])
+                FILE.write(row[10])
                 FILE.write('</div>\n')
 
 
@@ -635,14 +618,15 @@ def do_stuff(ontology_name):
 
 def generate():
     for ontology in ONTOLOGIES:
-        global PREFIX, ONTOLOGY_BASE_URI, ONTOLOGY_TTL_URI, FILE
+        global PREFIX, ONTOLOGY_BASE_URI, FILE_BASE_URI, FILE
         PREFIX = ('PREFIX %s:   <%s> %s' %
                   (ontology, NAME_SPACE_MAP[ontology], PREFIX))
         ONTOLOGY_BASE_URI = ('%s' % (NAME_SPACE_MAP[ontology]))
-        ONTOLOGY_TTL_URI = ('http://%s/%s/%s-content/%s-ontology.ttl' %
-                            (SPARQL_HOST_NAME, ontology, ontology, ontology))
-        print ONTOLOGY_TTL_URI
-        file_name = ('%s%s.html') % (HTML_DIRECTORY, ontology)
+        FILE_BASE_URI = ('http://%s/%s/%s-content/%s-ontology' %
+                         (SPARQL_HOST_NAME, ontology, ontology, ontology))
+        print FILE_BASE_URI
+        file_name = (
+            '%s/%s/%s-content/index.html') % (HTML_DIRECTORY, ontology, ontology)
         FILE = codecs.open(file_name, encoding='utf-8', mode='w')
 
         do_stuff(ontology)
