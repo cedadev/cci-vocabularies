@@ -5,7 +5,7 @@ from rdflib import Graph
 from rdflib.namespace import DC, OWL, RDF, SKOS
 
 from settings import CCI, CMIP, GCOS, \
-    GRIB, HTML_DIRECTORY, MODEL_DIRECTORY, \
+    GRIB, HTML_DIRECTORY, MODEL_DIRECTORY, NERC, \
     ONTOLOGIES, CITO, GLOSSARY, ONTOLOGY_MAP, SCHEME_MAP, COLLECTION_MAP
 
 
@@ -13,7 +13,8 @@ def _get_graph(ontology_name, is_ontology):
     graph = Graph()
     graph.bind(ontology_name, ONTOLOGY_MAP[ontology_name])
     graph.bind('%s-scheme' % ontology_name, '%s/' % SCHEME_MAP[ontology_name])
-    graph.bind('%s-collection' % ontology_name, '%s' % COLLECTION_MAP[ontology_name])
+    graph.bind('%s-collection' % ontology_name, '%s' %
+               COLLECTION_MAP[ontology_name])
     graph.bind("skos", SKOS)
 
     if is_ontology:
@@ -22,6 +23,7 @@ def _get_graph(ontology_name, is_ontology):
 
     if ontology_name == CCI and is_ontology:
         graph.bind(GCOS, ONTOLOGY_MAP[GCOS])
+        graph.bind(NERC, ONTOLOGY_MAP[NERC])
 
     if ontology_name == CMIP:
         graph.bind(GCOS, ONTOLOGY_MAP[GCOS])
@@ -103,7 +105,6 @@ def generate():
 
         for _file in os.listdir(MODEL_DIRECTORY):
             if _file.endswith(".ttl") and _file.startswith(ontology):
-                #                 print _file
                 graph_from_file = _get_graph_from_file(_file, ontology)
                 for res in graph_from_file:
                     graph.add(res)

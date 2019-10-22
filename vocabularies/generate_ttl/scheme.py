@@ -3,7 +3,7 @@ from datetime import datetime
 
 from rdflib.namespace import DC, OWL, RDFS, SKOS
 
-from settings import SCHEME_MAP, CSV_DIRECTORY, COLLECTION_MAP
+from vocabularies.settings import SCHEME_MAP, CSV_DIRECTORY, ONTOLOGY_MAP
 
 
 # columns in spreadsheet
@@ -45,12 +45,20 @@ def _write_concept_scheme(ontology_name, row):
     out_file = '../model/%s' % out_file_name
     f = open(out_file, 'w')
     # prefixes
+    f.write('@prefix %s_ontology: <%s> .\n' %
+            (ontology_name, ONTOLOGY_MAP[ontology_name]))
     f.write('@prefix %s: <%s/%s> .\n' %
             (prefix, SCHEME_MAP[ontology_name], uri))
     f.write('@prefix dc: <%s> .\n' % DC)
     f.write('@prefix owl: <%s> .\n' % OWL)
     f.write('@prefix rdfs: <%s> .\n' % RDFS)
     f.write('@prefix skos: <%s> .\n\n\n' % SKOS)
+
+    # add to top scheme
+    f.write('%s_ontology: a skos:ConceptScheme ;\n' %
+            (ontology_name))
+    f.write('    skos:hasTopConcept %s: .\n\n' %
+            (prefix))
 
     # concept scheme
     f.write('%s: a skos:ConceptScheme ;\n' %

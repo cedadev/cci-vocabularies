@@ -2,8 +2,7 @@ MAPPING_1 = 1
 MAPPING_2 = 2
 MAPPING_BOTH = 3
 
-# SPARQL_HOST_NAME = 'vm110.nubes.stfc.ac.uk'
-SPARQL_HOST_NAME = 'vocab-test.ceda.ac.uk'
+SPARQL_HOST_NAME = 'vocab.ceda.ac.uk'
 SPARQL_PORT = '3030'
 
 
@@ -14,6 +13,8 @@ SPARQL_UPDATE = 'http://%s:%s/%s/%s' % (
 SPARQL_QUERY = 'http://%s/%s' % (SPARQL_HOST_NAME, 'sparql')
 SPARQL_GRAPH = 'http://%s/%s/data' % (SPARQL_HOST_NAME, SPARQL_DATASET)
 
+NERC_SERVER = 'http://vocab.nerc.ac.uk/collection'
+
 CCI = 'cci'
 C4I = 'climate4impact'
 CMIP = 'cmip'
@@ -21,6 +22,7 @@ GCOS = 'gcos'
 GRIB = 'grib'
 SKOS = 'skos'
 GLOSSARY = 'glossary'
+NERC = 'nerc'
 
 ONTOLOGIES = [CCI, C4I, CMIP, GCOS, GRIB, GLOSSARY]
 ONTOLOGIES = [CCI, C4I, CMIP, GCOS, GRIB]
@@ -64,6 +66,7 @@ ONTOLOGY_MAP[C4I] = C4I_ONTOLOGY
 ONTOLOGY_MAP[CMIP] = CMIP_ONTOLOGY
 ONTOLOGY_MAP[GCOS] = GCOS_ONTOLOGY
 ONTOLOGY_MAP[GRIB] = GRIB_ONTOLOGY
+ONTOLOGY_MAP[NERC] = NERC_SERVER
 
 CCI_SCHEME = '%s/scheme/%s' % (NAME_SPACE, CCI)
 C4I_SCHEME = '%s/scheme/%s' % (NAME_SPACE, C4I)

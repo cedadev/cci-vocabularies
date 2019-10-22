@@ -19,9 +19,6 @@ def generate():
     cci_mapping_cci_cf.write_ttl('cci-cfparameters.csv', 'cci-cf-mapping.ttl')
     mapping.write_ttl('cci-gcos-mapping.csv', 'cci-gcos-mapping.ttl',
                       MAPPING_2, GCOS, 'ecv/', CCI, 'ecv/', SKOS)
-    mapping.write_ttl('cci-dataType-ecv-mapping.csv',
-                      'cci-dataType-ecv-mapping.ttl', MAPPING_BOTH, CCI,
-                      'dataType/', CCI, 'ecv/', SKOS)
     mapping.write_ttl('cci-platform-sensor-mapping.csv',
                       'cci-platform-sensor-mapping.ttl', MAPPING_BOTH, CCI,
                       'platform/', CCI, 'sensor/', CCI)
@@ -31,8 +28,9 @@ def generate():
     mapping.write_ttl('cci-platform-group-mapping.csv',
                       'cci-platform-group-mapping.ttl', MAPPING_BOTH, CCI,
                       'platformGrp/', CCI, 'platformProg/', SKOS)
-#     mapping.write_ttl('cci-sensor-mapping.csv', 'cci-sensor-mapping.ttl',
-#                       MAPPING_BOTH, CCI, 'sensor/', CCI, 'sensor/', SKOS)
+    mapping.write_ttl('cci-proclev-mapping.csv',
+                      'cci-proclev-mapping.ttl', MAPPING_BOTH, CCI,
+                      'procLev/', CCI, 'procLev/', SKOS)
 
 
 if __name__ == "__main__":
