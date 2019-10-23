@@ -5,15 +5,27 @@ from rdflib import Graph
 from rdflib.namespace import DC, OWL, SKOS
 from rdflib.plugins.stores.sparqlstore import SPARQLUpdateStore
 
-from settings import CCI, CCI_SCHEME, CMIP, CMIP_SCHEME, GCOS, \
-    GCOS_SCHEME, GRIB, GRIB_SCHEME, SCHEME_MAP, \
-    HTML_DIRECTORY, ONTOLOGIES, SPARQL_GRAPH, SPARQL_QUERY, \
-    SPARQL_UPDATE
+from settings import (
+    CCI,
+    CCI_SCHEME,
+    CMIP,
+    CMIP_SCHEME,
+    GCOS,
+    GCOS_SCHEME,
+    GRIB,
+    GRIB_SCHEME,
+    SCHEME_MAP,
+    HTML_DIRECTORY,
+    ONTOLOGIES,
+    SPARQL_GRAPH,
+    SPARQL_QUERY,
+    SPARQL_UPDATE,
+)
 
 
 def _delete_graph(ontology_name):
     store = _get_store()
-    graph_iri = '%s/%s' % (SPARQL_GRAPH, ontology_name)
+    graph_iri = "%s/%s" % (SPARQL_GRAPH, ontology_name)
     print("graph:" + graph_iri)
     graph = Graph(store=store, identifier=graph_iri)
     store.remove_graph(graph)
@@ -21,7 +33,7 @@ def _delete_graph(ontology_name):
 
 def _get_graph(ontology_name):
     store = _get_store()
-    graph_iri = '%s/%s' % (SPARQL_GRAPH, ontology_name)
+    graph_iri = "%s/%s" % (SPARQL_GRAPH, ontology_name)
     graph = Graph(store=store, identifier=graph_iri)
     graph.bind(ontology_name, "%s" % (SCHEME_MAP[ontology_name]))
     graph.bind("dc", DC)
@@ -46,14 +58,14 @@ def _get_graph(ontology_name):
 
 def _get_graph_from_file(_file):
     graph = Graph()
-    graph.parse(source=_file, format='n3')
+    graph.parse(source=_file, format="n3")
     return graph
 
 
 def _get_store():
-    store = SPARQLUpdateStore(queryEndpoint=SPARQL_QUERY,
-                              update_endpoint=SPARQL_UPDATE,
-                              postAsEncoded=False)
+    store = SPARQLUpdateStore(
+        queryEndpoint=SPARQL_QUERY, update_endpoint=SPARQL_UPDATE, postAsEncoded=False
+    )
     print("update:" + SPARQL_UPDATE)
     return store
 
@@ -61,8 +73,13 @@ def _get_store():
 def _recreate_graph(ontology):
     _delete_graph(ontology)
     new_graph = _get_graph(ontology)
-    _file = os.path.join(HTML_DIRECTORY, "ontology", ontology,  ontology + "-content",
-                         ontology +"-ontology.ttl")
+    _file = os.path.join(
+        HTML_DIRECTORY,
+        "ontology",
+        ontology,
+        ontology + "-content",
+        ontology + "-ontology.ttl",
+    )
     print("%s Processing file %s" % (time.strftime("%H:%M:%S"), _file))
     graph_from_file = _get_graph_from_file(_file)
     for res in graph_from_file:

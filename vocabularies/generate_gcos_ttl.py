@@ -15,16 +15,56 @@ def generate():
 
     scheme.write_ttl(GCOS)
 
-    mapping.write_ttl('gcos-ecv-domain-mapping.csv', 'gcos-ecv-domain-mapping.ttl',
-                      MAPPING_BOTH, GCOS, 'ecv/', GCOS, 'domain/', SKOS)
-    mapping.write_ttl('gcos-domain-mapping.csv', 'gcos-domain-mapping.ttl',
-                      MAPPING_BOTH, GCOS, 'domain/', GCOS, 'domain/', SKOS)
-    mapping.write_ttl('cci-gcos-mapping.csv', 'gcos-cci-mapping.ttl',
-                      MAPPING_1, GCOS, 'ecv/', CCI, 'ecv/', SKOS)
-    mapping.write_ttl('cmip-gcos-domain-mapping.csv', 'gcos-cmip-domain-mapping.ttl',
-                      MAPPING_2, CMIP, '', GCOS, 'domain/', SKOS)
-    mapping.write_ttl('cmip-gcos-ecv-mapping.csv', 'gcos-cmip-ecv-mapping.ttl',
-                      MAPPING_2, CMIP, '', GCOS, 'ecv/', SKOS)
+    mapping.write_ttl(
+        "gcos-ecv-domain-mapping.csv",
+        "gcos-ecv-domain-mapping.ttl",
+        MAPPING_BOTH,
+        GCOS,
+        "ecv/",
+        GCOS,
+        "domain/",
+        SKOS,
+    )
+    mapping.write_ttl(
+        "gcos-domain-mapping.csv",
+        "gcos-domain-mapping.ttl",
+        MAPPING_BOTH,
+        GCOS,
+        "domain/",
+        GCOS,
+        "domain/",
+        SKOS,
+    )
+    mapping.write_ttl(
+        "cci-gcos-mapping.csv",
+        "gcos-cci-mapping.ttl",
+        MAPPING_1,
+        GCOS,
+        "ecv/",
+        CCI,
+        "ecv/",
+        SKOS,
+    )
+    mapping.write_ttl(
+        "cmip-gcos-domain-mapping.csv",
+        "gcos-cmip-domain-mapping.ttl",
+        MAPPING_2,
+        CMIP,
+        "",
+        GCOS,
+        "domain/",
+        SKOS,
+    )
+    mapping.write_ttl(
+        "cmip-gcos-ecv-mapping.csv",
+        "gcos-cmip-ecv-mapping.ttl",
+        MAPPING_2,
+        CMIP,
+        "",
+        GCOS,
+        "ecv/",
+        SKOS,
+    )
 
 
 if __name__ == "__main__":

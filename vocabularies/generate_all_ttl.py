@@ -20,6 +20,7 @@ def generate():
         generate_grib_ttl.generate()
     if GLOSSARY in ONTOLOGIES:
         import generate_glossary_ttl
+
         generate_glossary_ttl.generate()
 
 

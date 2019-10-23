@@ -28,20 +28,19 @@ SEE_ALSO = 9
 
 
 def write_ttl(ontology_name):
-    date = datetime.now().strftime('%Y-%m-%d')
+    date = datetime.now().strftime("%Y-%m-%d")
     # write out the top concepts
-    out_file_name = '%s-ontology.ttl' % ontology_name
-    out_file = os.path.join('..', 'model', out_file_name)
-    f = open(out_file, 'w')
+    out_file_name = "%s-ontology.ttl" % ontology_name
+    out_file = os.path.join("..", "model", out_file_name)
+    f = open(out_file, "w")
     # prefixes
-    f.write('@prefix %s: <%s> .\n' %
-            (ontology_name, ONTOLOGY_MAP[ontology_name]))
+    f.write("@prefix %s: <%s> .\n" % (ontology_name, ONTOLOGY_MAP[ontology_name]))
 
-    f.write('@prefix dc: <%s> .\n' % DC)
-    f.write('@prefix owl: <%s> .\n' % OWL)
-    f.write('@prefix rdf: <%s> .\n' % RDF)
-    f.write('@prefix rdfs: <%s> .\n' % RDFS)
-    f.write('@prefix skos: <%s> .\n\n\n' % SKOS)
+    f.write("@prefix dc: <%s> .\n" % DC)
+    f.write("@prefix owl: <%s> .\n" % OWL)
+    f.write("@prefix rdf: <%s> .\n" % RDF)
+    f.write("@prefix rdfs: <%s> .\n" % RDFS)
+    f.write("@prefix skos: <%s> .\n\n\n" % SKOS)
 
     _write_ontology(ontology_name, date, f)
     _write_classes(ontology_name, f)
@@ -49,79 +48,78 @@ def write_ttl(ontology_name):
 
 
 def _write_ontology(ontology_name, date, f):
-    in_file_name = '%s-ontology.csv' % ontology_name
+    in_file_name = "%s-ontology.csv" % ontology_name
     in_file = os.path.join(CSV_DIRECTORY, in_file_name)
     count = 0
 
     # ontology
-    f.write('#\n')
-    f.write('# ontology\n')
-    f.write('#\n\n')
+    f.write("#\n")
+    f.write("# ontology\n")
+    f.write("#\n\n")
 
-    with open(in_file, 'rb') as csvfile:
-        cvsreader = csv.reader(csvfile, delimiter='`', quotechar='"')
+    with open(in_file, "rb") as csvfile:
+        cvsreader = csv.reader(csvfile, delimiter="`", quotechar='"')
         for row in cvsreader:
             count = count + 1
-            if (count < 2):
+            if count < 2:
                 # header
                 continue
-            f.write('<%s> a owl:Ontology ;\n' %
-                    (ONTOLOGY_MAP[ontology_name]))
+            f.write("<%s> a owl:Ontology ;\n" % (ONTOLOGY_MAP[ontology_name]))
             f.write('    dc:title "%s" ;\n' % row[TITLE])
             f.write('    dc:rights "%s"@en ;\n' % row[RIGHTS])
             f.write('    dc:publisher "%s"@en ;\n' % row[PUBLISHER])
-            f.write('    rdfs:comment \"%s\" ;\n' % _parse(row[DEF]))
-            f.write('    rdfs:label \"%s\" ;\n' % _parse(row[LABEL]))
+            f.write('    rdfs:comment "%s" ;\n' % _parse(row[DEF]))
+            f.write('    rdfs:label "%s" ;\n' % _parse(row[LABEL]))
 
             # ontology
-            creators = row[CREATOR].split(', ')
+            creators = row[CREATOR].split(", ")
             for creator in creators:
                 f.write('    dc:creator "%s" ;\n' % creator)
             if row[CONTRIBUTOR]:
-                contributors = row[CONTRIBUTOR].split(', ')
+                contributors = row[CONTRIBUTOR].split(", ")
                 for contributor in contributors:
                     f.write('    dc:contributor "%s" ;\n' % contributor)
             f.write('    owl:versionInfo "%s";\n' % row[VERSION])
             f.write('    dc:date "%s" ;\n' % date)
 
             if len(row) > SEE_ALSO and row[SEE_ALSO]:
-                see_also = row[SEE_ALSO].split(', ')
+                see_also = row[SEE_ALSO].split(", ")
                 for also in see_also:
-                    f.write('    rdfs:seeAlso <%s> ;\n' % also)
-            f.write('    dc:description \"%s\" ;\n' % _parse(row[DESC]))
-            f.write('    .\n\n')
+                    f.write("    rdfs:seeAlso <%s> ;\n" % also)
+            f.write('    dc:description "%s" ;\n' % _parse(row[DESC]))
+            f.write("    .\n\n")
             return
 
 
 def _write_classes(ontology_name, f):
-    in_file_name = '%s-schemes.csv' % ontology_name
+    in_file_name = "%s-schemes.csv" % ontology_name
     in_file = os.path.join(CSV_DIRECTORY, in_file_name)
     count = 0
 
     # classes
-    f.write('#\n')
-    f.write('# classes\n')
-    f.write('#\n\n')
+    f.write("#\n")
+    f.write("# classes\n")
+    f.write("#\n\n")
 
-    with open(in_file, 'rb') as csvfile:
-        cvsreader = csv.reader(csvfile, delimiter='`', quotechar='"')
+    with open(in_file, "rb") as csvfile:
+        cvsreader = csv.reader(csvfile, delimiter="`", quotechar='"')
         for row in cvsreader:
             count = count + 1
-            if (count < 2) or row[C_URI].strip() == '':
+            if (count < 2) or row[C_URI].strip() == "":
                 # header
                 continue
-            f.write('<%s%s> a owl:Class ;\n' %
-                    (ONTOLOGY_MAP[ontology_name], row[C_URI]))
-            f.write('    rdfs:isDefinedBy <%s> ;\n' %
-                    (ONTOLOGY_MAP[ontology_name]))
-            f.write('    rdfs:label \"%s\" ;\n' % _parse(row[C_LABEL]))
+            f.write(
+                "<%s%s> a owl:Class ;\n" % (ONTOLOGY_MAP[ontology_name], row[C_URI])
+            )
+            f.write("    rdfs:isDefinedBy <%s> ;\n" % (ONTOLOGY_MAP[ontology_name]))
+            f.write('    rdfs:label "%s" ;\n' % _parse(row[C_LABEL]))
             if len(row) > C_SEE_ALSO and row[C_SEE_ALSO]:
-                see_also = row[C_SEE_ALSO].split(', ')
+                see_also = row[C_SEE_ALSO].split(", ")
                 for also in see_also:
-                    f.write('    rdfs:seeAlso <%s> ;\n' % also)
-            f.write('    dc:description \"%s\" ;\n' % _parse(row[C_DEF]))
-            f.write('    .\n\n')
+                    f.write("    rdfs:seeAlso <%s> ;\n" % also)
+            f.write('    dc:description "%s" ;\n' % _parse(row[C_DEF]))
+            f.write("    .\n\n")
 
 
 def _parse(obj):
-    return obj.replace('"', '%22')
+    return obj.replace('"', "%22")

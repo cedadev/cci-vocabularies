@@ -5,21 +5,33 @@ from xml.sax._exceptions import SAXParseException
 from rdflib import Graph, URIRef
 from rdflib.namespace import DC, OWL, RDF, RDFS, SKOS
 
-from settings import SPARQL_HOST_NAME, \
-    HTML_DIRECTORY, CITO, CMIP_ONTOLOGY, GCOS_ONTOLOGY, \
-    GRIB_ONTOLOGY, CCI, CMIP, GCOS, GRIB, GLOSSARY, \
-    CSV_DIRECTORY, ONTOLOGY_MAP, NERC
+from settings import (
+    SPARQL_HOST_NAME,
+    HTML_DIRECTORY,
+    CITO,
+    CMIP_ONTOLOGY,
+    GCOS_ONTOLOGY,
+    GRIB_ONTOLOGY,
+    CCI,
+    CMIP,
+    GCOS,
+    GRIB,
+    GLOSSARY,
+    CSV_DIRECTORY,
+    ONTOLOGY_MAP,
+    NERC,
+)
 
 
-HAS_PLATFORM = '%shasPlatform' % ONTOLOGY_MAP[CCI]
-HAS_SENSOR = '%shasSensor' % ONTOLOGY_MAP[CCI]
-RELATED = '%srelated' % SKOS
+HAS_PLATFORM = "%shasPlatform" % ONTOLOGY_MAP[CCI]
+HAS_SENSOR = "%shasSensor" % ONTOLOGY_MAP[CCI]
+RELATED = "%srelated" % SKOS
 OBJECT_PROPERTIES = [HAS_PLATFORM, HAS_SENSOR, RELATED]
 
-TYPES = ['ontology', 'scheme', 'collection']
+TYPES = ["ontology", "scheme", "collection"]
 
 
-class Helper():
+class Helper:
     GRAPH_STORE = {}
     FILE = None
     BASE_URI = None
@@ -32,7 +44,7 @@ class Helper():
         graph = Graph()
         source = "http://vocab.nerc.ac.uk/collection/L22/current/"
         try:
-            graph.parse(location=source, format='application/rdf+xml')
+            graph.parse(location=source, format="application/rdf+xml")
         except SAXParseException as ex:
             print("ERROR loading NERC vocab from ", source)
             print("ERROR: " + ex)
@@ -40,8 +52,9 @@ class Helper():
         self.GRAPH_STORE[NERC] = graph
 
     def get_alt_label(self, graph_name, uri):
-        statement = (self.PREFIX + "SELECT ?label WHERE {<" + uri +
-                     "> skos:altLabel ?label}")
+        statement = (
+            self.PREFIX + "SELECT ?label WHERE {<" + uri + "> skos:altLabel ?label}"
+        )
         results = self.get_search_results(graph_name, statement)
         for resource in results:
             if resource.label != "None":
@@ -53,33 +66,47 @@ class Helper():
         """
         Get the lists of classes that are not also concepts.
         """
-        statement = (self.PREFIX +
-                     "SELECT Distinct ?subject WHERE {?subject rdf:type owl:Class} ORDER BY ASC(?subject)")
+        statement = (
+            self.PREFIX
+            + "SELECT Distinct ?subject WHERE {?subject rdf:type owl:Class} ORDER BY ASC(?subject)"
+        )
         classes = self.get_search_results(graph_name, statement)
         non_concept_classes = []
         for _class in classes:
-            statement = (self.PREFIX + "SELECT Distinct ?subject WHERE {<" +
-                         _class.subject.decode() + "> rdf:type skos:Concept}")
+            statement = (
+                self.PREFIX
+                + "SELECT Distinct ?subject WHERE {<"
+                + _class.subject.decode()
+                + "> rdf:type skos:Concept}"
+            )
             results = self.get_search_results(graph_name, statement)
             if len(results) == 0:
                 non_concept_classes.append(_class)
         return non_concept_classes
 
     def get_concepts(self, graph_name):
-        statement = (self.PREFIX +
-                     "SELECT Distinct ?subject WHERE {?subject rdf:type skos:Concept . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)")
+        statement = (
+            self.PREFIX
+            + "SELECT Distinct ?subject WHERE {?subject rdf:type skos:Concept . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)"
+        )
         return self.get_search_results(graph_name, statement)
 
     def get_concepts_in_scheme(self, graph_name, uri):
-        statement = (self.PREFIX +
-                     "SELECT Distinct ?subject WHERE {?subject skos:inScheme <" +
-                     uri + "> . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)")
+        statement = (
+            self.PREFIX
+            + "SELECT Distinct ?subject WHERE {?subject skos:inScheme <"
+            + uri
+            + "> . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)"
+        )
         return self.get_search_results(graph_name, statement)
 
     def get_individuals_in_class(self, graph_name, uri):
-        statement = (self.PREFIX +
-                     "SELECT Distinct ?subject WHERE {?subject rdf:type <" +
-                     uri + "> . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)")
+        statement = (
+            self.PREFIX
+            + "SELECT Distinct ?subject WHERE {?subject rdf:type <"
+            + uri
+            + "> . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)"
+        )
         subs = self.get_search_results(graph_name, statement)
         result = []
         for sub in subs:
@@ -87,9 +114,12 @@ class Helper():
         return result
 
     def get_external_individuals_in_class(self, graph_name, uri):
-        statement = (self.PREFIX +
-                     'SELECT Distinct ?subject WHERE {?subject rdf:type <' +
-                     uri + '>  FILTER regex(str(?subject), "^http://vocab.nerc.ac.uk", "i")}')
+        statement = (
+            self.PREFIX
+            + "SELECT Distinct ?subject WHERE {?subject rdf:type <"
+            + uri
+            + '>  FILTER regex(str(?subject), "^http://vocab.nerc.ac.uk", "i")}'
+        )
         subs = self.get_search_results(graph_name, statement)
         result = []
         for sub in subs:
@@ -97,14 +127,16 @@ class Helper():
         return result
 
     def get_label(self, graph_name, uri):
-        statement = (self.PREFIX + "SELECT ?label WHERE {<" + uri +
-                     "> skos:prefLabel ?label}")
+        statement = (
+            self.PREFIX + "SELECT ?label WHERE {<" + uri + "> skos:prefLabel ?label}"
+        )
         results = self.get_search_results(graph_name, statement)
         for resource in results:
             if resource.label != "None":
                 return resource.label
-        statement = (self.PREFIX + "SELECT ?label WHERE {<" + uri +
-                     "> rdfs:label ?label}")
+        statement = (
+            self.PREFIX + "SELECT ?label WHERE {<" + uri + "> rdfs:label ?label}"
+        )
         results = self.get_search_results(graph_name, statement)
         for resource in results:
             if resource.label:
@@ -113,34 +145,46 @@ class Helper():
         return uri
 
     def get_members(self, graph_name, uri):
-        statement = ("%s SELECT Distinct ?subject WHERE {<%s> <%s> ?subject . ?subject <%s> ?label} ORDER BY ASC(?label)" % (
-            self.PREFIX, uri, SKOS.member, SKOS.prefLabel))
+        statement = (
+            "%s SELECT Distinct ?subject WHERE {<%s> <%s> ?subject . ?subject <%s> ?label} ORDER BY ASC(?label)"
+            % (self.PREFIX, uri, SKOS.member, SKOS.prefLabel)
+        )
         return self.get_search_results(graph_name, statement)
 
     def get_nerc_members(self, graph_name, uri):
-        statement = ('%s SELECT Distinct ?subject WHERE {<%s> <%s> ?subject FILTER regex(str(?subject), "^http://vocab.nerc.ac.uk", "i")}' % (
-            self.PREFIX, uri, SKOS.member))
+        statement = (
+            '%s SELECT Distinct ?subject WHERE {<%s> <%s> ?subject FILTER regex(str(?subject), "^http://vocab.nerc.ac.uk", "i")}'
+            % (self.PREFIX, uri, SKOS.member)
+        )
         return self.get_search_results(graph_name, statement)
 
     def get_ontology(self, graph_name):
-        statement = (self.PREFIX +
-                     "SELECT Distinct ?subject WHERE {?subject rdf:type owl:Ontology} ORDER BY ASC(?subject)")
+        statement = (
+            self.PREFIX
+            + "SELECT Distinct ?subject WHERE {?subject rdf:type owl:Ontology} ORDER BY ASC(?subject)"
+        )
         return self.get_search_results(graph_name, statement)
 
     def get_properties(self, graph_name):
-        statement = (self.PREFIX +
-                     "SELECT Distinct ?subject WHERE {?subject rdf:type owl:ObjectProperty . ?subject rdfs:label ?label} ORDER BY ASC(?label)")
+        statement = (
+            self.PREFIX
+            + "SELECT Distinct ?subject WHERE {?subject rdf:type owl:ObjectProperty . ?subject rdfs:label ?label} ORDER BY ASC(?label)"
+        )
         return self.get_search_results(graph_name, statement)
 
     def get_resources(self, graph_name, uri):
-        statement = (self.PREFIX +
-                     "SELECT ?p ?o WHERE {<" + uri + "> ?p ?o} ORDER BY ASC(?o)")
+        statement = (
+            self.PREFIX + "SELECT ?p ?o WHERE {<" + uri + "> ?p ?o} ORDER BY ASC(?o)"
+        )
         return self.get_search_results(graph_name, statement)
 
     def get_sub_classes(self, graph_name, uri):
-        statement = (self.PREFIX +
-                     "SELECT Distinct ?subject WHERE {?subject rdfs:subClassOf <" +
-                     uri + "> . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)")
+        statement = (
+            self.PREFIX
+            + "SELECT Distinct ?subject WHERE {?subject rdfs:subClassOf <"
+            + uri
+            + "> . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)"
+        )
         subs = self.get_search_results(graph_name, statement)
         result = []
         for sub in subs:
@@ -156,76 +200,82 @@ class Helper():
             graph = self.GRAPH_STORE[graph_name]
         except KeyError:
             graph = Graph()
-            source = os.path.join(HTML_DIRECTORY, "ontology",
-                                  graph_name, graph_name +"-content",
-                                  graph_name + "-ontology.ttl")
-            graph.parse(source=source, format='n3')
+            source = os.path.join(
+                HTML_DIRECTORY,
+                "ontology",
+                graph_name,
+                graph_name + "-content",
+                graph_name + "-ontology.ttl",
+            )
+            graph.parse(source=source, format="n3")
             self.GRAPH_STORE[graph_name] = graph
         return graph
 
     def write_contents_table(self, ontology_name, results, additional_results=[]):
         self.FILE.write('<ul class="hlist">\n')
         for resource in results:
-            self.FILE.write('<li>')
+            self.FILE.write("<li>")
             self.write_link(ontology_name, resource.subject)
-            self.FILE.write('</li>\n')
+            self.FILE.write("</li>\n")
         for resource in additional_results:
-            self.FILE.write('<li>')
+            self.FILE.write("<li>")
             self.write_link(ontology_name, resource.subject)
-            self.FILE.write('</li>\n')
-        self.FILE.write('</ul>\n')
+            self.FILE.write("</li>\n")
+        self.FILE.write("</ul>\n")
 
     def write_acknowledgements(self, ontology_name):
-        in_file_name = '%s-ontology.csv' % ontology_name
+        in_file_name = "%s-ontology.csv" % ontology_name
         count = 0
         in_file = os.path.join(CSV_DIRECTORY, in_file_name)
-        with open(in_file, 'rb') as csvfile:
-            cvsreader = csv.reader(csvfile, delimiter='`', quotechar='|')
+        with open(in_file, "rb") as csvfile:
+            cvsreader = csv.reader(csvfile, delimiter="`", quotechar="|")
             for row in cvsreader:
                 count = count + 1
-                if (count < 2):
+                if count < 2:
                     continue
-                if row[10] != '':
+                if row[10] != "":
                     self.FILE.write('<div id="acknowledgements">\n')
                     self.FILE.write(
-                        '<h2>Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>\n')
+                        '<h2>Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>\n'
+                    )
                     self.FILE.write(row[10])
-                    self.FILE.write('</div>\n')
+                    self.FILE.write("</div>\n")
 
     def write_namespace(self, ontology_name):
         self.FILE.write('<div id="namespacedeclarations">\n')
         self.FILE.write(
-            '<h2>Namespace Declarations <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>\n')
-        self.FILE.write('<dl>\n')
-        self.FILE.write('<dt><em>default namespace</em></dt>\n')
-        self.FILE.write('<dd>%s</dd>\n' % (ONTOLOGY_MAP[ontology_name]))
+            '<h2>Namespace Declarations <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>\n'
+        )
+        self.FILE.write("<dl>\n")
+        self.FILE.write("<dt><em>default namespace</em></dt>\n")
+        self.FILE.write("<dd>%s</dd>\n" % (ONTOLOGY_MAP[ontology_name]))
         if ontology_name == GLOSSARY:
-            self.FILE.write('<dt>cito</dt>\n')
-            self.FILE.write('<dd>%s</dd>' % CITO)
-    #     if ontology_name == CCI:
-    #         self.FILE.write('<dt>%s</dt>\n' % GCOS)
-    #         self.FILE.write('<dd>%s</dd>\n' % (GCOS_ONTOLOGY))
+            self.FILE.write("<dt>cito</dt>\n")
+            self.FILE.write("<dd>%s</dd>" % CITO)
+        #     if ontology_name == CCI:
+        #         self.FILE.write('<dt>%s</dt>\n' % GCOS)
+        #         self.FILE.write('<dd>%s</dd>\n' % (GCOS_ONTOLOGY))
         if ontology_name == CMIP:
-            self.FILE.write('<dt>%s</dt>\n' % GCOS)
-            self.FILE.write('<dd>%s</dd>\n' % (GCOS_ONTOLOGY))
-            self.FILE.write('<dt>%s</dt>\n' % GRIB)
-            self.FILE.write('<dd>%s</dd>\n' % (GRIB_ONTOLOGY))
+            self.FILE.write("<dt>%s</dt>\n" % GCOS)
+            self.FILE.write("<dd>%s</dd>\n" % (GCOS_ONTOLOGY))
+            self.FILE.write("<dt>%s</dt>\n" % GRIB)
+            self.FILE.write("<dd>%s</dd>\n" % (GRIB_ONTOLOGY))
         if ontology_name == GRIB:
-            self.FILE.write('<dt>%s</dt>\n' % CMIP)
-            self.FILE.write('<dd>%s</dd>\n' % (CMIP_ONTOLOGY))
+            self.FILE.write("<dt>%s</dt>\n" % CMIP)
+            self.FILE.write("<dd>%s</dd>\n" % (CMIP_ONTOLOGY))
         if ontology_name == GCOS:
-            self.FILE.write('<dt>%s</dt>\n' % CMIP)
-            self.FILE.write('<dd>%s</dd>\n' % (CMIP_ONTOLOGY))
-        self.FILE.write('<dt>dc</dt>\n')
-        self.FILE.write('<dd>%s</dd>' % DC)
-        self.FILE.write('<dt>owl</dt>\n')
-        self.FILE.write('<dd>%s</dd>' % OWL)
-        self.FILE.write('<dt>rdf</dt>\n')
-        self.FILE.write('<dd>%s</dd>' % RDF)
-        self.FILE.write('<dt>rdfs</dt>\n')
-        self.FILE.write('<dd>%s</dd>' % RDFS)
-        self.FILE.write('<dt>skos</dt>\n')
-        self.FILE.write('<dd>%s</dd>' % SKOS)
+            self.FILE.write("<dt>%s</dt>\n" % CMIP)
+            self.FILE.write("<dd>%s</dd>\n" % (CMIP_ONTOLOGY))
+        self.FILE.write("<dt>dc</dt>\n")
+        self.FILE.write("<dd>%s</dd>" % DC)
+        self.FILE.write("<dt>owl</dt>\n")
+        self.FILE.write("<dd>%s</dd>" % OWL)
+        self.FILE.write("<dt>rdf</dt>\n")
+        self.FILE.write("<dd>%s</dd>" % RDF)
+        self.FILE.write("<dt>rdfs</dt>\n")
+        self.FILE.write("<dd>%s</dd>" % RDFS)
+        self.FILE.write("<dt>skos</dt>\n")
+        self.FILE.write("<dd>%s</dd>" % SKOS)
 
     def write_entities(self, ontology_name, results, _id, title, additional_results=[]):
         if additional_results != []:
@@ -239,10 +289,10 @@ class Helper():
         try:
             link = result.subject.split(self.BASE_URI)[1]
             try:
-                link = link.split('/')[1]
-            except(IndexError):
+                link = link.split("/")[1]
+            except (IndexError):
                 pass
-        except(IndexError):
+        except (IndexError):
             link = result.subject
         if NERC in result.subject:
             label = self.get_alt_label(NERC, result.subject)
@@ -250,20 +300,26 @@ class Helper():
             label = self.get_label(ontology_name, result.subject)
         self.FILE.write('<div id="%s" class="entity">\n' % link)
         if result.subject.decode() in OBJECT_PROPERTIES:
-            self.FILE.write('<h3>%s<sup title="object property" class="type-op">op</sup>'
-                            % label)
+            self.FILE.write(
+                '<h3>%s<sup title="object property" class="type-op">op</sup>' % label
+            )
         else:
-            self.FILE.write('<h3>%s' % label)
-        self.FILE.write('<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#%s">%s ToC</a></span></h3>\n'
-                        % (_id, title))
+            self.FILE.write("<h3>%s" % label)
+        self.FILE.write(
+            '<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#%s">%s ToC</a></span></h3>\n'
+            % (_id, title)
+        )
 
         if SPARQL_HOST_NAME not in result.subject:
             self.FILE.write(
                 '<p><strong>IRI:</strong> <a href="{uri}">{uri}</a></p>\n'.format(
-                    uri=result.subject))
+                    uri=result.subject
+                )
+            )
         else:
             self.FILE.write(
-                '<p><strong>IRI:</strong> {uri}</p>\n'.format(uri=result.subject))
+                "<p><strong>IRI:</strong> {uri}</p>\n".format(uri=result.subject)
+            )
 
         altLabels = []
         hasTopConcepts = []
@@ -300,9 +356,9 @@ class Helper():
 
         resources = self.get_resources(ontology_name, result.subject)
         for res in resources:
-            if res.p == URIRef(self.ONTOLOGY_URI + 'hasSensor'):
+            if res.p == URIRef(self.ONTOLOGY_URI + "hasSensor"):
                 sensors.append(res.o.decode())
-            elif res.p == URIRef(self.ONTOLOGY_URI + 'hasPlatform'):
+            elif res.p == URIRef(self.ONTOLOGY_URI + "hasPlatform"):
                 platforms.append(res.o.decode())
             elif res.p == OWL.inverseOf:
                 inverseOf.append(res.o.decode())
@@ -353,11 +409,11 @@ class Helper():
             elif res.p == DC.creator:
                 creator.append(res.o.decode())
             elif res.p == DC.description:
-                if _id != 'conceptschemes':
+                if _id != "conceptschemes":
                     description = res.o
             elif res.p == DC.date:
                 date = res.o.decode()
-            elif res.p == URIRef(CITO + 'citesAsSourceDocument'):
+            elif res.p == URIRef(CITO + "citesAsSourceDocument"):
                 citesAsSourceDocument.append(res.o.decode())
             elif res.p == SKOS.definition:
                 definition = res.o
@@ -387,30 +443,27 @@ class Helper():
         self.FILE.write('<div class="description">\n')
         self.write_comment(description)
 
-        self.FILE.write('<dl>\n')
+        self.FILE.write("<dl>\n")
         self.write_literals(version, "version")
         self.write_literals(creator, "creator")
         self.write_literals(contributor, "contributor")
         self.write_list(ontology_name, rdf_type, "type")
         self.write_literals(altLabels, "has alternative label")
         self.write_list(ontology_name, hasTopConcepts, "has top concepts")
-        self.write_list(
-            ontology_name, topConceptOf, "is top concept in scheme")
+        self.write_list(ontology_name, topConceptOf, "is top concept in scheme")
         self.write_list(ontology_name, inSchemes, "is in scheme")
-        if _id == 'classes':
-            class_members = self.get_individuals_in_class(
-                ontology_name, result.subject)
+        if _id == "classes":
+            class_members = self.get_individuals_in_class(ontology_name, result.subject)
             nerc_members = self.get_external_individuals_in_class(
-                ontology_name, result.subject)
+                ontology_name, result.subject
+            )
             class_members.extend(nerc_members)
             self.write_list(ontology_name, class_members, "has members")
         self.write_list(ontology_name, isDefinedBy, "is defined by")
         self.write_list(ontology_name, sub_class_of, "has super-classes")
         self.write_list(ontology_name, has_sub_class, "has sub-classes")
-        self.write_list(
-            ontology_name, subPropertyOf, "has super-properties")
-        self.write_list(
-            ontology_name, collection_member, "has members")
+        self.write_list(ontology_name, subPropertyOf, "has super-properties")
+        self.write_list(ontology_name, collection_member, "has members")
         self.write_list(ontology_name, member, "has members")
         if result.subject.decode() in OBJECT_PROPERTIES:
             self.write_list(ontology_name, _range, "has range")
@@ -424,38 +477,37 @@ class Helper():
         self.write_list(ontology_name, broader, "has broader")
         self.write_list(ontology_name, narrower, "has narrower")
         self.write_list(ontology_name, broadMatch, "has broader match")
-        self.write_list(ontology_name, broaderTransitive,
-                        "has broader transitive")
-        self.write_list(ontology_name, narrowerTransitive,
-                        "has narrower transitive")
+        self.write_list(ontology_name, broaderTransitive, "has broader transitive")
+        self.write_list(ontology_name, narrowerTransitive, "has narrower transitive")
         self.write_list(ontology_name, closeMatch, "has close match")
         self.write_list(ontology_name, relatedMatch, "has related match")
         self.write_list(ontology_name, narrowMatch, "has narrower match")
-        self.write_list(ontology_name, citesAsSourceDocument,
-                        "cites as source document")
+        self.write_list(
+            ontology_name, citesAsSourceDocument, "cites as source document"
+        )
         self.write_list(ontology_name, seeAlso, "see also")
         self.write_literals(date, "date")
 
-        self.FILE.write('</dl>\n')
-        self.FILE.write('</div></div>\n')
+        self.FILE.write("</dl>\n")
+        self.FILE.write("</div></div>\n")
 
     def write_comment(self, comment):
         if comment is not None:
             self.FILE.write('<div class="comment">\n')
             self.FILE.write('<span class="markdown">%s</span>' % comment)
-            self.FILE.write('</div>')
+            self.FILE.write("</div>")
 
     def write_link(self, ontology_name, uri):
         local = True
-        link = ''
+        link = ""
         try:
             link = uri.split(self.BASE_URI)[1]
             # may need to split
             try:
-                link = link.split('/')[1]
-            except(IndexError):
+                link = link.split("/")[1]
+            except (IndexError):
                 pass
-        except(IndexError):
+        except (IndexError):
             link = uri
 
         if SPARQL_HOST_NAME in uri and ontology_name in uri:
@@ -463,10 +515,10 @@ class Helper():
 
             if self.TYPE is None:
                 print("ERROR TYPE not set")
-            elif self.TYPE == 'ontology':
-                if 'scheme' in uri:
+            elif self.TYPE == "ontology":
+                if "scheme" in uri:
                     local = False
-            elif self.TYPE == 'collection' or self.TYPE == 'scheme':
+            elif self.TYPE == "collection" or self.TYPE == "scheme":
                 if self.BASE_URI not in uri:
                     local = False
 
@@ -478,28 +530,27 @@ class Helper():
             label = uri
 
         if local:
-            self.FILE.write('<a href="#%s" title="%s">%s</a>' %
-                            (link, uri, label))
+            self.FILE.write('<a href="#%s" title="%s">%s</a>' % (link, uri, label))
         else:
-            self.FILE.write('<a href="%s" title="%s">%s</a>' %
-                            (uri, uri, label))
+            self.FILE.write('<a href="%s" title="%s">%s</a>' % (uri, uri, label))
 
     def write_list(self, ontology_name, uris, name):
         if len(uris) > 0:
-            self.FILE.write('<dt>%s</dt>\n<dd>\n' % name)
+            self.FILE.write("<dt>%s</dt>\n<dd>\n" % name)
             first = True
             for uri in uris:
                 if first:
                     first = False
                 else:
-                    self.FILE.write(', ')
+                    self.FILE.write(", ")
                 self.write_link(ontology_name, uri)
 
                 if uri in OBJECT_PROPERTIES:
                     self.FILE.write(
-                        '<sup title="object property" class="type-op">op</sup>\n')
+                        '<sup title="object property" class="type-op">op</sup>\n'
+                    )
 
-            self.FILE.write('</dd>\n')
+            self.FILE.write("</dd>\n")
 
     def write_literals(self, uris, name):
         if uris is None:
@@ -507,16 +558,16 @@ class Helper():
         if type(uris) == list and len(uris) == 0:
             return
 
-        self.FILE.write('<dt>%s</dt>\n<dd>\n' % name)
+        self.FILE.write("<dt>%s</dt>\n<dd>\n" % name)
         if type(uris) == list:
             first = True
             for uri in uris:
                 if first:
                     first = False
                 else:
-                    self.FILE.write(', ')
+                    self.FILE.write(", ")
                 self.FILE.write(uri)
         else:
             self.FILE.write(uris)
 
-        self.FILE.write('</dd>\n')
+        self.FILE.write("</dd>\n")

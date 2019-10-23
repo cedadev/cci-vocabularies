@@ -4,41 +4,45 @@ MAPPING_1 = 1
 MAPPING_2 = 2
 MAPPING_BOTH = 3
 
-SPARQL_HOST_NAME = 'vocab.ceda.ac.uk'
-SPARQL_PORT = '3030'
+SPARQL_HOST_NAME = "vocab.ceda.ac.uk"
+SPARQL_PORT = "3030"
 
 
-SPARQL_DATASET = 'vocab'
+SPARQL_DATASET = "vocab"
 
-SPARQL_UPDATE = 'http://%s:%s/%s/%s' % (
-    SPARQL_HOST_NAME, SPARQL_PORT, SPARQL_DATASET, 'update')
-SPARQL_QUERY = 'http://%s/%s' % (SPARQL_HOST_NAME, 'sparql')
-SPARQL_GRAPH = 'http://%s/%s/data' % (SPARQL_HOST_NAME, SPARQL_DATASET)
+SPARQL_UPDATE = "http://%s:%s/%s/%s" % (
+    SPARQL_HOST_NAME,
+    SPARQL_PORT,
+    SPARQL_DATASET,
+    "update",
+)
+SPARQL_QUERY = "http://%s/%s" % (SPARQL_HOST_NAME, "sparql")
+SPARQL_GRAPH = "http://%s/%s/data" % (SPARQL_HOST_NAME, SPARQL_DATASET)
 
-NERC_SERVER = 'http://vocab.nerc.ac.uk/collection'
+NERC_SERVER = "http://vocab.nerc.ac.uk/collection"
 
-CCI = 'cci'
-C4I = 'climate4impact'
-CMIP = 'cmip'
-GCOS = 'gcos'
-GRIB = 'grib'
-SKOS = 'skos'
-GLOSSARY = 'glossary'
-NERC = 'nerc'
+CCI = "cci"
+C4I = "climate4impact"
+CMIP = "cmip"
+GCOS = "gcos"
+GRIB = "grib"
+SKOS = "skos"
+GLOSSARY = "glossary"
+NERC = "nerc"
 
 ONTOLOGIES = [CCI, C4I, CMIP, GCOS, GRIB, GLOSSARY]
 ONTOLOGIES = [CCI, C4I, CMIP, GCOS, GRIB]
 ONTOLOGIES = [CCI]
 
 DISPLAY_NAME_MAP = {}
-DISPLAY_NAME_MAP[CCI] = 'CCI'
-DISPLAY_NAME_MAP[C4I] = 'Climate 4 Impact'
-DISPLAY_NAME_MAP[CMIP] = 'CMIP'
-DISPLAY_NAME_MAP[GCOS] = 'GCOS'
-DISPLAY_NAME_MAP[GRIB] = 'GRIB'
-DISPLAY_NAME_MAP[GLOSSARY] = 'Glossary'
+DISPLAY_NAME_MAP[CCI] = "CCI"
+DISPLAY_NAME_MAP[C4I] = "Climate 4 Impact"
+DISPLAY_NAME_MAP[CMIP] = "CMIP"
+DISPLAY_NAME_MAP[GCOS] = "GCOS"
+DISPLAY_NAME_MAP[GRIB] = "GRIB"
+DISPLAY_NAME_MAP[GLOSSARY] = "Glossary"
 
-NAME_SPACE = 'http://%s' % SPARQL_HOST_NAME
+NAME_SPACE = "http://%s" % SPARQL_HOST_NAME
 
 # CCI_NAME_SPACE = '%s/%s#' % (NAME_SPACE, CCI)
 # C4I_NAME_SPACE = '%s/%s#' % (NAME_SPACE, C4I)
@@ -56,11 +60,11 @@ NAME_SPACE = 'http://%s' % SPARQL_HOST_NAME
 # NAME_SPACE_MAP[GLOSSARY] = GLOSSARY_NAME_SPACE
 
 
-CCI_ONTOLOGY = '%s/ontology/%s#' % (NAME_SPACE, CCI)
-C4I_ONTOLOGY = '%s/ontology/%s#' % (NAME_SPACE, C4I)
-CMIP_ONTOLOGY = '%s/ontology/%s#' % (NAME_SPACE, CMIP)
-GCOS_ONTOLOGY = '%s/ontology/%s#' % (NAME_SPACE, GCOS)
-GRIB_ONTOLOGY = '%s/ontology/%s#' % (NAME_SPACE, GRIB)
+CCI_ONTOLOGY = "%s/ontology/%s#" % (NAME_SPACE, CCI)
+C4I_ONTOLOGY = "%s/ontology/%s#" % (NAME_SPACE, C4I)
+CMIP_ONTOLOGY = "%s/ontology/%s#" % (NAME_SPACE, CMIP)
+GCOS_ONTOLOGY = "%s/ontology/%s#" % (NAME_SPACE, GCOS)
+GRIB_ONTOLOGY = "%s/ontology/%s#" % (NAME_SPACE, GRIB)
 
 ONTOLOGY_MAP = {}
 ONTOLOGY_MAP[CCI] = CCI_ONTOLOGY
@@ -70,12 +74,12 @@ ONTOLOGY_MAP[GCOS] = GCOS_ONTOLOGY
 ONTOLOGY_MAP[GRIB] = GRIB_ONTOLOGY
 ONTOLOGY_MAP[NERC] = NERC_SERVER
 
-CCI_SCHEME = '%s/scheme/%s' % (NAME_SPACE, CCI)
-C4I_SCHEME = '%s/scheme/%s' % (NAME_SPACE, C4I)
-CMIP_SCHEME = '%s/scheme/%s' % (NAME_SPACE, CMIP)
-GCOS_SCHEME = '%s/scheme/%s' % (NAME_SPACE, GCOS)
-GRIB_SCHEME = '%s/scheme/%s' % (NAME_SPACE, GRIB)
-GLOSSARY_SCHEME = '%s/scheme/%s' % (NAME_SPACE, GLOSSARY)
+CCI_SCHEME = "%s/scheme/%s" % (NAME_SPACE, CCI)
+C4I_SCHEME = "%s/scheme/%s" % (NAME_SPACE, C4I)
+CMIP_SCHEME = "%s/scheme/%s" % (NAME_SPACE, CMIP)
+GCOS_SCHEME = "%s/scheme/%s" % (NAME_SPACE, GCOS)
+GRIB_SCHEME = "%s/scheme/%s" % (NAME_SPACE, GRIB)
+GLOSSARY_SCHEME = "%s/scheme/%s" % (NAME_SPACE, GLOSSARY)
 
 SCHEME_MAP = {}
 SCHEME_MAP[CCI] = CCI_SCHEME
@@ -86,12 +90,12 @@ SCHEME_MAP[GRIB] = GRIB_SCHEME
 SCHEME_MAP[GLOSSARY] = GLOSSARY_SCHEME
 
 
-CCI_COLLECTION = '%s/collection/%s/' % (NAME_SPACE, CCI)
-C4I_COLLECTION = '%s/collection/%s/' % (NAME_SPACE, C4I)
-CMIP_COLLECTION = '%s/collection/%s/' % (NAME_SPACE, CMIP)
-GCOS_COLLECTION = '%s/collection/%s/' % (NAME_SPACE, GCOS)
-GRIB_COLLECTION = '%s/collection/%s/' % (NAME_SPACE, GRIB)
-GLOSSARY_COLLECTION = '%s/collection/%s' % (NAME_SPACE, GLOSSARY)
+CCI_COLLECTION = "%s/collection/%s/" % (NAME_SPACE, CCI)
+C4I_COLLECTION = "%s/collection/%s/" % (NAME_SPACE, C4I)
+CMIP_COLLECTION = "%s/collection/%s/" % (NAME_SPACE, CMIP)
+GCOS_COLLECTION = "%s/collection/%s/" % (NAME_SPACE, GCOS)
+GRIB_COLLECTION = "%s/collection/%s/" % (NAME_SPACE, GRIB)
+GLOSSARY_COLLECTION = "%s/collection/%s" % (NAME_SPACE, GLOSSARY)
 
 COLLECTION_MAP = {}
 COLLECTION_MAP[CCI] = CCI_COLLECTION
@@ -101,9 +105,9 @@ COLLECTION_MAP[GCOS] = GCOS_COLLECTION
 COLLECTION_MAP[GRIB] = GRIB_COLLECTION
 COLLECTION_MAP[GLOSSARY] = GLOSSARY_COLLECTION
 
-CSV_DIRECTORY = os.path.join('..', 'csv')
-DATA_DIRECTORY = os.path.join('..', 'data')
-HTML_DIRECTORY = os.path.join('..', 'html')
-MODEL_DIRECTORY = os.path.join('..', 'model')
+CSV_DIRECTORY = os.path.join("..", "csv")
+DATA_DIRECTORY = os.path.join("..", "data")
+HTML_DIRECTORY = os.path.join("..", "html")
+MODEL_DIRECTORY = os.path.join("..", "model")
 
 CITO = "http://purl.org/spar/cito/"

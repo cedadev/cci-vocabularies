@@ -16,7 +16,15 @@ def generate():
     scheme.write_ttl(GRIB)
 
     mapping.write_ttl(
-        'cmip-grib-mapping.csv', 'grib-cmip-mapping.ttl', MAPPING_2, CMIP, 'Realms/', GRIB, 'Discipline/', SKOS)
+        "cmip-grib-mapping.csv",
+        "grib-cmip-mapping.ttl",
+        MAPPING_2,
+        CMIP,
+        "Realms/",
+        GRIB,
+        "Discipline/",
+        SKOS,
+    )
 
 
 if __name__ == "__main__":
