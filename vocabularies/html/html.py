@@ -1,9 +1,11 @@
 import csv
+import os
+from xml.sax._exceptions import SAXParseException
 
 from rdflib import Graph, URIRef
 from rdflib.namespace import DC, OWL, RDF, RDFS, SKOS
 
-from vocabularies.settings import SPARQL_HOST_NAME, \
+from settings import SPARQL_HOST_NAME, \
     HTML_DIRECTORY, CITO, CMIP_ONTOLOGY, GCOS_ONTOLOGY, \
     GRIB_ONTOLOGY, CCI, CMIP, GCOS, GRIB, GLOSSARY, \
     CSV_DIRECTORY, ONTOLOGY_MAP, NERC
@@ -29,7 +31,12 @@ class Helper():
     def __init__(self):
         graph = Graph()
         source = "http://vocab.nerc.ac.uk/collection/L22/current/"
-        graph.parse(location=source, format='application/rdf+xml')
+        try:
+            graph.parse(location=source, format='application/rdf+xml')
+        except SAXParseException as ex:
+            print("ERROR loading NERC vocab from ", source)
+            print("ERROR: " + ex)
+            exit()
         self.GRAPH_STORE[NERC] = graph
 
     def get_alt_label(self, graph_name, uri):
@@ -39,7 +46,7 @@ class Helper():
         for resource in results:
             if resource.label != "None":
                 return resource.label
-        print "get_label - no label found for %s, using uri" % uri
+        print("get_label - no label found for %s, using uri" % uri)
         return uri
 
     def get_classes(self, graph_name):
@@ -102,7 +109,7 @@ class Helper():
         for resource in results:
             if resource.label:
                 return resource.label
-        print "get_label - no label found for %s, using uri" % uri
+        print("get_label - no label found for %s, using uri" % uri)
         return uri
 
     def get_members(self, graph_name, uri):
@@ -149,8 +156,9 @@ class Helper():
             graph = self.GRAPH_STORE[graph_name]
         except KeyError:
             graph = Graph()
-            source = "%sontology/%s/%s-content/%s-ontology.ttl" % (
-                HTML_DIRECTORY, graph_name, graph_name, graph_name)
+            source = os.path.join(HTML_DIRECTORY, "ontology",
+                                  graph_name, graph_name +"-content",
+                                  graph_name + "-ontology.ttl")
             graph.parse(source=source, format='n3')
             self.GRAPH_STORE[graph_name] = graph
         return graph
@@ -170,7 +178,7 @@ class Helper():
     def write_acknowledgements(self, ontology_name):
         in_file_name = '%s-ontology.csv' % ontology_name
         count = 0
-        in_file = '%s%s' % (CSV_DIRECTORY, in_file_name)
+        in_file = os.path.join(CSV_DIRECTORY, in_file_name)
         with open(in_file, 'rb') as csvfile:
             cvsreader = csv.reader(csvfile, delimiter='`', quotechar='|')
             for row in cvsreader:
@@ -370,7 +378,7 @@ class Helper():
             elif res.p == RDFS.label:
                 pass
             else:
-                print "write_entities - ignoring %s %s" % (res.p, res.o)
+                print("write_entities - ignoring %s %s" % (res.p, res.o))
 
         has_sub_class = self.get_sub_classes(ontology_name, result.subject)
 
@@ -432,7 +440,7 @@ class Helper():
         self.FILE.write('</div></div>\n')
 
     def write_comment(self, comment):
-        if comment != None:
+        if comment is not None:
             self.FILE.write('<div class="comment">\n')
             self.FILE.write('<span class="markdown">%s</span>' % comment)
             self.FILE.write('</div>')
@@ -453,8 +461,8 @@ class Helper():
         if SPARQL_HOST_NAME in uri and ontology_name in uri:
             label = self.get_label(ontology_name, uri)
 
-            if self.TYPE == None:
-                print "ERROR TYPE not set"
+            if self.TYPE is None:
+                print("ERROR TYPE not set")
             elif self.TYPE == 'ontology':
                 if 'scheme' in uri:
                     local = False
@@ -494,7 +502,7 @@ class Helper():
             self.FILE.write('</dd>\n')
 
     def write_literals(self, uris, name):
-        if uris == None:
+        if uris is None:
             return
         if type(uris) == list and len(uris) == 0:
             return

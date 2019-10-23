@@ -4,7 +4,7 @@ import os
 
 from rdflib.namespace import DC, OWL, RDFS, SKOS
 
-from vocabularies.settings import CSV_DIRECTORY, COLLECTION_MAP
+from settings import CSV_DIRECTORY, COLLECTION_MAP
 
 
 # columns in spreadsheet
@@ -37,7 +37,7 @@ def _write_collection(ontology_name, row):
     out_file_name = '%s.ttl' % prefix
 
     date = datetime.now().strftime('%Y-%m-%d')
-    out_file = '../model/%s' % out_file_name
+    out_file = os.path.join('..', 'model', out_file_name)
     f = open(out_file, 'w')
     # prefixes
     f.write('@prefix %s: <%s%s> .\n' %

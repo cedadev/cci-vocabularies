@@ -3,7 +3,7 @@ import os
 
 from rdflib.namespace import SKOS
 
-from vocabularies.settings import MAPPING_1, MAPPING_2, MAPPING_BOTH, \
+from settings import MAPPING_1, MAPPING_2, MAPPING_BOTH, \
     COLLECTION_MAP, CSV_DIRECTORY, ONTOLOGY_MAP
 
 
@@ -16,7 +16,7 @@ REL_2 = 3
 
 def write_ttl(in_file_name, out_file_name, mapping, uri_1_prefix, uri_1_sufix,
               uri_2_prefix, uri_2_sufix, predicate_prefix):
-    out_file = '../model/%s' % out_file_name
+    out_file = os.path.join('..', 'model', out_file_name)
     f = open(out_file, 'w')
     f.write('@prefix mapa: <%s%s> .\n' % (
             COLLECTION_MAP[uri_1_prefix], uri_1_sufix))

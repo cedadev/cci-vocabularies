@@ -1,4 +1,5 @@
 import codecs
+import os
 
 from rdflib.namespace import DC, OWL, RDF, RDFS, SKOS
 
@@ -204,9 +205,8 @@ def generate():
         HELPER.BASE_URI = ONTOLOGY_BASE_URI
         FILE_BASE_URI = ('http://%s/ontology/%s/%s-content/%s-ontology' %
                          (SPARQL_HOST_NAME, ontology, ontology, ontology))
-        file_name = (
-            '%sontology/%s/%s-content/index.html') % (HTML_DIRECTORY, ontology,
-                                                      ontology)
+        file_name = os.path.join(HTML_DIRECTORY, 'ontology', ontology,
+                                 ontology + '-content', 'index.html')
         FILE = codecs.open(file_name, encoding='utf-8', mode='w')
         HELPER.FILE = FILE
         HELPER.ONTOLOGY_URI = ('%s' % (ONTOLOGY_MAP[ontology]))

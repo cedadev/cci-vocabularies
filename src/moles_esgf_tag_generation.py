@@ -99,7 +99,7 @@ GRAPH = None
 
 def get_graph():
     global GRAPH
-    if GRAPH == None:
+    if GRAPH is None:
         store = SPARQLStore(endpoint=SPARQL_QUERY)
         GRAPH = ConjunctiveGraph(store=store)
     return GRAPH
@@ -187,10 +187,10 @@ def scan_net_cdf_file(fpath, ds):
         return drs, tags
 
     if VERBOSE:
-        print "GLOBAL ATTRS for %s: " % fpath
+        print("GLOBAL ATTRS for %s: " % fpath)
     for global_attr in nc.ncattrs():
         if VERBOSE:
-            print global_attr, "=", nc.getncattr(global_attr)
+            print(global_attr, "=", nc.getncattr(global_attr))
 
         if global_attr.lower() in know_attr:
             attr = nc.getncattr(global_attr)
@@ -243,7 +243,7 @@ def scan_net_cdf_file(fpath, ds):
             none_found = False
             for bit in bits:
                 term = get_term_uri(global_attr, bit.strip())
-                if term != None:
+                if term is not None:
                     drs[attr_mapping[global_attr.lower()]] = get_pref_label(
                         term)
                     if term_count == 0:
@@ -267,18 +267,18 @@ def scan_net_cdf_file(fpath, ds):
             tags['product_version'] = nc.getncattr(global_attr)
 
     if VERBOSE:
-        print "VARIABLES..."
+        print("VARIABLES...")
         for (var_id, var) in nc.variables.items():
-            print var_id, var
-            print "\tVARIABLE ATTRIBUTES (%s)" % var_id
+            print(var_id, var)
+            print("\tVARIABLE ATTRIBUTES (%s)" % var_id)
         for attr in var.ncattrs():
-            print "\t", attr, "=", var.getncattr(attr)
+            print("\t", attr, "=", var.getncattr(attr))
     return drs, tags
 
 
 def parse_file_name(ds, fpath):
     """
-    Extract data from the file name. 
+    Extract data from the file name.
 
     The file name comes in two different formats. The values are '-' delimited. 
     Form 1
@@ -346,22 +346,22 @@ def process_form_1(ds, form):
     csv_rec = {}
     try:
         term = get_term_uri('processing_level', form[3].split('_')[0], ds)
-        if term != None:
+        if term is not None:
             csv_rec['level'] = term
         term = get_term_uri('ecv', form[3].split('_')[1], ds)
-        if term != None:
+        if term is not None:
             csv_rec['ecv_id'] = term
     except(KeyError):
         pass
     try:
         term = get_term_uri('data_type', form[4], ds)
-        if term != None:
+        if term is not None:
             csv_rec['variable'] = term
     except(KeyError):
         pass
     try:
         term = get_term_uri('product', form[5], ds)
-        if term != None:
+        if term is not None:
             csv_rec['product_id'] = term
     except(KeyError):
         pass
@@ -372,25 +372,25 @@ def process_form_2(ds, form):
     csv_rec = {}
     try:
         term = get_term_uri('processing_level', form[3], ds)
-        if term != None:
+        if term is not None:
             csv_rec['level'] = term
     except(KeyError):
         pass
     try:
         term = get_term_uri('ecv', form[2], ds)
-        if term != None:
+        if term is not None:
             csv_rec['ecv_id'] = term
     except(KeyError):
         pass
     try:
         term = get_term_uri('data_type', form[4], ds)
-        if term != None:
+        if term is not None:
             csv_rec['variable'] = term
     except(KeyError):
         pass
     try:
         term = get_term_uri('product', form[5], ds)
-        if term != None:
+        if term is not None:
             csv_rec['product_id'] = term
     except(KeyError):
         pass
@@ -418,7 +418,7 @@ def process_datasets(datasets):
     # loop through the datasets pulling out data from file names and from
     # within net cdf files
     ds_len = len(datasets)
-    print "Processing %s datasets" % ds_len
+    print("Processing %s datasets" % ds_len)
     drs = {}
     count = 0
     for ds in datasets:
@@ -426,7 +426,7 @@ def process_datasets(datasets):
         tags_ds = {}
         # get a list of files
         nc_files = get_nc_files(ds)
-        print "Dataset %s of %s Processing %s files from %s" % (count, ds_len, len(nc_files), ds)
+        print("Dataset %s of %s Processing %s files from %s" % (count, ds_len, len(nc_files), ds))
         for fpath in nc_files:
             drs_ds = {}
 
@@ -454,13 +454,13 @@ def process_datasets(datasets):
     write_json(drs)
 
     if len(NOT_FOUND) > 0:
-        print "\nNOT IN VOCAB, SUMMARY:\n"
+        print("\nNOT IN VOCAB, SUMMARY:\n")
     for nf in sorted(NOT_FOUND):
-        print nf
+        print(nf)
     if len(NOT_FOUND_FULL) > 0:
-        print "\nNOT IN VOCAB, DETAIL:\n"
+        print("\nNOT IN VOCAB, DETAIL:\n")
     for nf in sorted(NOT_FOUND_FULL):
-        print nf
+        print(nf)
 
 
 def generate_ds_id(ds, drs):
@@ -543,8 +543,9 @@ def close_files():
     FILE_DRS.close()
     FILE_ERROR.close()
 
+
 if __name__ == "__main__":
-    print "\n\n\n\n\n%s STARTED" % (time.strftime("%H:%M:%S"))
+    print("\n\n\n\n\n%s STARTED" % (time.strftime("%H:%M:%S")))
 
     attr_mapping = {'time_coverage_resolution': 'freq', 'institution': 'institution',
                     'platform': 'platform_id', 'sensor': 'sensor_id'}
@@ -766,4 +767,4 @@ if __name__ == "__main__":
 
     close_files()
 
-    print "%s FINISHED\n\n" % (time.strftime("%H:%M:%S"))
+    print("%s FINISHED\n\n" % (time.strftime("%H:%M:%S")))

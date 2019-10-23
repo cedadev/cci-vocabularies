@@ -1,4 +1,5 @@
 import codecs
+import os
 from urlparse import urlparse
 
 from rdflib.namespace import DC, OWL, RDF, RDFS, SKOS
@@ -253,10 +254,10 @@ def generate():
             FILE_BASE_URI = ('http://%s/scheme/%s/%s-content/%s' %
                              (SPARQL_HOST_NAME, ontology, ontology,
                               scheme_name))
-            file_name = (
-                '%sscheme/%s/%s-content/%s.html') % (HTML_DIRECTORY, ontology,
-                                                     ontology, scheme_name)
-            print 'Writing %s' % file_name
+            file_name = os.path.join(HTML_DIRECTORY, 'scheme', ontology,
+                                     ontology + '-content',
+                                     scheme_name+'.html')
+            print('Writing %s' % file_name)
             FILE = codecs.open(file_name, encoding='utf-8', mode='w')
             HELPER.FILE = FILE
             do_stuff(ontology)

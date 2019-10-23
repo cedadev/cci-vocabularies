@@ -43,18 +43,18 @@ def _read_file(file_name):
             if (count < 2):
                 continue
             if row[URI] in URIS.keys():
-                print 'ERROR: Duplicate URI      - %s : %s : %s' % (URIS[row[URI]], file_name, row[URI])
+                print('ERROR: Duplicate URI      - %s : %s : %s' % (URIS[row[URI]], file_name, row[URI]))
             else:
                 URIS[row[URI]] = file_name
 
             # if it is from the NERC vocab we only have the URI
             if row[LABEL] in LABELS.keys() and 'http://vocab.nerc' not in row[URI]:
-                print 'WARNING: Duplicate Label    - %s : %s : %s' % (LABELS[row[LABEL]], file_name, row[LABEL])
+                print('WARNING: Duplicate Label    - %s : %s : %s' % (LABELS[row[LABEL]], file_name, row[LABEL]))
             else:
                 LABELS[row[LABEL]] = file_name
 
             if row[ALT_LABEL] in ALT_LABELS.keys() and row[ALT_LABEL] != '':
-                print 'WARNING: Duplicate AltLabel - %s : %s : %s' % (ALT_LABELS[row[ALT_LABEL]], file_name, row[ALT_LABEL])
+                print('WARNING: Duplicate AltLabel - %s : %s : %s' % (ALT_LABELS[row[ALT_LABEL]], file_name, row[ALT_LABEL]))
             else:
                 ALT_LABELS[row[ALT_LABEL]] = file_name
 

@@ -1,9 +1,10 @@
 import csv
 from datetime import datetime
+import os
 
 from rdflib.namespace import DC, OWL, RDF, RDFS, SKOS
 
-from vocabularies.settings import CSV_DIRECTORY, ONTOLOGY_MAP
+from settings import CSV_DIRECTORY, ONTOLOGY_MAP
 
 
 # columns in spreadsheet
@@ -30,7 +31,7 @@ def write_ttl(ontology_name):
     date = datetime.now().strftime('%Y-%m-%d')
     # write out the top concepts
     out_file_name = '%s-ontology.ttl' % ontology_name
-    out_file = '../model/%s' % out_file_name
+    out_file = os.path.join('..', 'model', out_file_name)
     f = open(out_file, 'w')
     # prefixes
     f.write('@prefix %s: <%s> .\n' %
@@ -49,7 +50,7 @@ def write_ttl(ontology_name):
 
 def _write_ontology(ontology_name, date, f):
     in_file_name = '%s-ontology.csv' % ontology_name
-    in_file = '%s%s' % (CSV_DIRECTORY, in_file_name)
+    in_file = os.path.join(CSV_DIRECTORY, in_file_name)
     count = 0
 
     # ontology
@@ -94,7 +95,7 @@ def _write_ontology(ontology_name, date, f):
 
 def _write_classes(ontology_name, f):
     in_file_name = '%s-schemes.csv' % ontology_name
-    in_file = '%s%s' % (CSV_DIRECTORY, in_file_name)
+    in_file = os.path.join(CSV_DIRECTORY, in_file_name)
     count = 0
 
     # classes

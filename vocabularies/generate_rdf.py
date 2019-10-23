@@ -43,36 +43,35 @@ def _get_graph(ontology_name, is_ontology):
 
 def _get_graph_from_file(_file, ontology):
     graph = Graph()
-    source = "%s%s" % (MODEL_DIRECTORY, _file)
+    source = os.path.join(MODEL_DIRECTORY, _file)
     graph.parse(source=source, format='n3')
     return graph
 
 
 def _write_ontology(graph, ontology):
-    _dir = ('%s/ontology/%s/%s-content') % (HTML_DIRECTORY, ontology, ontology)
+    _dir = os.path.join(HTML_DIRECTORY, 'ontology', ontology, ontology + '-content')
 
     json = graph.serialize(format='json-ld')
-    file_name = ('%s/%s-ontology.json') % (_dir, ontology)
+    file_name = os.path.join(_dir, ontology + '-ontology.json')
     ontology_file = open(file_name, mode='w')
     ontology_file.write(json)
     ontology_file.close()
 
     turtle = graph.serialize(format='turtle')
-    file_name = ('%s/%s-ontology.ttl') % (_dir, ontology)
+    file_name = os.path.join(_dir, ontology + '-ontology.ttl')
     ontology_file = open(file_name, mode='w')
     ontology_file.write(turtle)
     ontology_file.close()
 
     rdf = graph.serialize(format='xml')
-    file_name = ('%s/%s-ontology.rdf') % (_dir, ontology)
+    file_name = os.path.join(_dir, ontology + '-ontology.rdf')
     ontology_file = open(file_name, mode='w')
     ontology_file.write(rdf)
     ontology_file.close()
 
 
 def _write_files(graph, _type, ontology, name):
-    _dir = '%s%s/%s/%s-content/%s' % (
-        HTML_DIRECTORY, _type, ontology, ontology, name)
+    _dir = os.path.join(HTML_DIRECTORY, _type, ontology, ontology + '-content', name)
 
     json = graph.serialize(format='json-ld')
     file_name = ('%s.json') % (_dir)

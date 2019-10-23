@@ -3,7 +3,7 @@ import os
 
 from rdflib.namespace import OWL, RDF, RDFS, SKOS
 
-from vocabularies.settings import SCHEME_MAP, GLOSSARY, CITO, CSV_DIRECTORY, \
+from settings import SCHEME_MAP, GLOSSARY, CITO, CSV_DIRECTORY, \
     COLLECTION_MAP, ONTOLOGY_MAP
 
 
@@ -52,7 +52,7 @@ def _write_concepts(file_name, ontology_name, concept_scheme_name):
     """
     in_file_name = '%s.csv' % file_name
     out_file_name = '%s.ttl' % file_name
-    out_file = '../model/%s' % out_file_name
+    out_file = os.path.join('..', 'model', out_file_name)
     f = open(out_file, 'w')
     prefix_ontology = '%s_ontology' % (ontology_name)
     prefix_scheme = '%s_%s_scheme' % (ontology_name, concept_scheme_name)
@@ -83,7 +83,7 @@ def _write_concepts(file_name, ontology_name, concept_scheme_name):
     count = 0
     check_hierarchy = False
     in_file = os.path.join(CSV_DIRECTORY, in_file_name)
-    print "_write_concepts {}".format(in_file_name)
+    print("_write_concepts {}".format(in_file_name))
     with open(in_file, 'rb') as csvfile:
         cvsreader = csv.reader(csvfile, delimiter='`', quotechar='"')
         for row in cvsreader:
@@ -92,10 +92,10 @@ def _write_concepts(file_name, ontology_name, concept_scheme_name):
                 # header
                 if len(row) > HIERARCHY and row[HIERARCHY] == 'Hierarchy Level':
                     check_hierarchy = True
-                    print "check_hierarchy = True"
+                    print("check_hierarchy = True")
                 continue
 #             if len(row[URI].strip()) > 8:
-#                 print ("ERROR: URI fragment too long for NERC: %s:%s:%s" %
+#                 print("ERROR: URI fragment too long for NERC: %s:%s:%s" %
 #                        (ontology_name, concept_scheme_name, row[URI].strip()))
             if 'http' in row[URI]:
                 _write_remote_concept(f, row, prefix_collection, prefix_scheme,
@@ -147,7 +147,6 @@ def _write_remote_concept(f, row, prefix_collection, prefix_scheme,
         # this is top of any hierarchy if present
         f.write('%s: skos:hasTopConcept <%s> .\n\n' % (
             prefix_scheme, uri))
-
 
 
 def _write_local_concept(f, row, prefix_collection, prefix_concept,

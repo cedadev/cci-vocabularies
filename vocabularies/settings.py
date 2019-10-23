@@ -1,3 +1,5 @@
+import os
+
 MAPPING_1 = 1
 MAPPING_2 = 2
 MAPPING_BOTH = 3
@@ -99,10 +101,9 @@ COLLECTION_MAP[GCOS] = GCOS_COLLECTION
 COLLECTION_MAP[GRIB] = GRIB_COLLECTION
 COLLECTION_MAP[GLOSSARY] = GLOSSARY_COLLECTION
 
-
-CSV_DIRECTORY = '../csv/'
-DATA_DIRECTORY = '../data/'
-HTML_DIRECTORY = '../html/'
-MODEL_DIRECTORY = '../model/'
+CSV_DIRECTORY = os.path.join('..', 'csv')
+DATA_DIRECTORY = os.path.join('..', 'data')
+HTML_DIRECTORY = os.path.join('..', 'html')
+MODEL_DIRECTORY = os.path.join('..', 'model')
 
 CITO = "http://purl.org/spar/cito/"

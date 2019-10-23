@@ -1,3 +1,4 @@
+import os
 import time
 
 from rdflib import Graph
@@ -13,7 +14,7 @@ from settings import CCI, CCI_SCHEME, CMIP, CMIP_SCHEME, GCOS, \
 def _delete_graph(ontology_name):
     store = _get_store()
     graph_iri = '%s/%s' % (SPARQL_GRAPH, ontology_name)
-    print "graph:" + graph_iri
+    print("graph:" + graph_iri)
     graph = Graph(store=store, identifier=graph_iri)
     store.remove_graph(graph)
 
@@ -53,15 +54,15 @@ def _get_store():
     store = SPARQLUpdateStore(queryEndpoint=SPARQL_QUERY,
                               update_endpoint=SPARQL_UPDATE,
                               postAsEncoded=False)
-    print "update:" + SPARQL_UPDATE
+    print("update:" + SPARQL_UPDATE)
     return store
 
 
 def _recreate_graph(ontology):
     _delete_graph(ontology)
     new_graph = _get_graph(ontology)
-    _file = "%sontology/%s/%s-content/%s-ontology.ttl" % (
-        HTML_DIRECTORY, ontology, ontology, ontology)
+    _file = os.path.join(HTML_DIRECTORY, "ontology", ontology,  ontology + "-content",
+                         ontology +"-ontology.ttl")
     print("%s Processing file %s" % (time.strftime("%H:%M:%S"), _file))
     graph_from_file = _get_graph_from_file(_file)
     for res in graph_from_file:
@@ -72,7 +73,7 @@ def _recreate_graph(ontology):
 def deploy():
     for ontology in ONTOLOGIES:
         _recreate_graph(ontology)
-    print "finished deploying rdf"
+    print("finished deploying rdf")
 
 
 if __name__ == "__main__":

@@ -1,4 +1,5 @@
 import csv
+import os
 
 from rdflib.namespace import OWL, RDF, RDFS, SKOS
 
@@ -21,9 +22,9 @@ LINKS = 'links'
 
 def write_ttl(in_file_name, out_file_name, class_name, class_label, prefix):
     concept_scheme = '%sConceptScheme' % class_name
-    out_file = '../model/%s' % out_file_name
+    out_file = os.path.join('..', 'model', out_file_name)
     f = open(out_file, 'w')
-    f.write('@prefix %s: <%s> .\n' % 
+    f.write('@prefix %s: <%s> .\n' %
             (prefix, NAME_SPACE_MAP[prefix]))
     f.write('@prefix cito: <%s> .\n' % CITO)
     f.write('@prefix owl: <%s> .\n' % OWL)
@@ -41,7 +42,7 @@ def write_ttl(in_file_name, out_file_name, class_name, class_label, prefix):
     f.write('#\n')
     f.write('# concepts\n')
     f.write('#\n\n')
-    
+
     glossary = _parse_file(in_file_name)
     for key in glossary.keys():
         for line in glossary[key]:
@@ -66,7 +67,7 @@ def write_ttl(in_file_name, out_file_name, class_name, class_label, prefix):
             elif citation == 'WGI (AR4)':
                 f.write('    cito:citesAsSourceDocument <http://www.ipcc.ch/>;\n') # TODO find ref
             elif citation:
-                print 'unknown citation %s' % citation
+                print('unknown citation %s' % citation)
             try:
                 links = line[LINKS]
                 keys = links.keys()
@@ -111,7 +112,7 @@ def _parse_file(in_file_name):
                 continue
             if row[GLOSSARY_NAME].strip() != '':
                 # found new line
-                if line != None:
+                if line is not None:
                     # add old line to glossary
                     line[LINKS] = links
                     try:
