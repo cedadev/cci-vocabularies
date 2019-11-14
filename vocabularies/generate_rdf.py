@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 from urlparse import urlparse
 
@@ -54,8 +55,9 @@ def _get_graph(ontology_name, is_ontology):
 
 def _get_graph_from_file(_file, ontology):
     graph = Graph()
+    print (_file)
     source = os.path.join(MODEL_DIRECTORY, _file)
-    graph.parse(source=source, format="n3")
+    graph.parse(source=source, format="n3",encoding='utf-8')
     return graph
 
 
