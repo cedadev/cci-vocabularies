@@ -214,7 +214,8 @@ def _write_local_concept(
         elif ontology_name == GLOSSARY:
             pass
         elif not (row[SEE_ALSO].startswith("?")):
-            f.write("    rdfs:seeAlso <%s> ;\n" % row[SEE_ALSO].strip())
+            for also in row[SEE_ALSO].strip().split(" "):
+                f.write("    rdfs:seeAlso <%s> ;\n" % also)
     if ontology_name == GLOSSARY and len(row) > CITES and not (row[CITES] == ""):
         f.write("    cito:citesAsSourceDocument <%s>;\n" % row[CITES].strip())
     if not check_hierarchy or (
