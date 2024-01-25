@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
-from urlparse import urlparse
+from urllib.parse import urlparse
 
 from rdflib import Graph
 from rdflib.namespace import DC, OWL, RDF, SKOS
@@ -66,19 +66,19 @@ def _write_ontology(graph, ontology):
 
     json = graph.serialize(format="json-ld")
     file_name = os.path.join(_dir, ontology + "-ontology.json")
-    ontology_file = open(file_name, mode="w")
+    ontology_file = open(file_name, mode="w",encoding='utf-8')
     ontology_file.write(json)
     ontology_file.close()
 
     turtle = graph.serialize(format="turtle")
     file_name = os.path.join(_dir, ontology + "-ontology.ttl")
-    ontology_file = open(file_name, mode="w")
+    ontology_file = open(file_name, mode="w",encoding='utf-8')
     ontology_file.write(turtle)
     ontology_file.close()
 
     rdf = graph.serialize(format="xml")
     file_name = os.path.join(_dir, ontology + "-ontology.rdf")
-    ontology_file = open(file_name, mode="w")
+    ontology_file = open(file_name, mode="w",encoding='utf-8')
     ontology_file.write(rdf)
     ontology_file.close()
 
@@ -88,19 +88,19 @@ def _write_files(graph, _type, ontology, name):
 
     json = graph.serialize(format="json-ld")
     file_name = ("%s.json") % (_dir)
-    collection_file = open(file_name, mode="w")
+    collection_file = open(file_name, mode="w",encoding='utf-8')
     collection_file.write(json)
     collection_file.close()
 
     turtle = graph.serialize(format="turtle")
     file_name = ("%s.ttl") % (_dir)
-    collection_file = open(file_name, mode="w")
+    collection_file = open(file_name, mode="w",encoding='utf-8')
     collection_file.write(turtle)
     collection_file.close()
 
     rdf = graph.serialize(format="xml")
     file_name = ("%s.rdf") % (_dir)
-    collection_file = open(file_name, mode="w")
+    collection_file = open(file_name, mode="w",encoding='utf-8')
     collection_file.write(rdf)
     collection_file.close()
 

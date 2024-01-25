@@ -44,7 +44,7 @@ def write_ttl(
 
     count = 0
     in_file = os.path.join(CSV_DIRECTORY, in_file_name)
-    with open(in_file, "rb") as csvfile:
+    with open(in_file, "r",newline="",encoding="utf-8") as csvfile:
         csvreader = csv.reader(csvfile, delimiter="`", quotechar='"')
         for row in csvreader:
             count = count + 1

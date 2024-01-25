@@ -21,7 +21,8 @@ def _vailidate_ontology(ontology_name):
     ALT_LABELS = {}
     in_file = os.path.join(CSV_DIRECTORY, "{}-schemes.csv".format(ontology_name))
     count = 0
-    with open(in_file, "rb") as csvfile:
+    #with open(in_file, "rb") as csvfile:
+    with open(in_file,"r",newline='',encoding='utf8') as csvfile:
         cvsreader = csv.reader(csvfile, delimiter="`", quotechar='"')
         for row in cvsreader:
             count = count + 1
@@ -34,7 +35,8 @@ def _vailidate_ontology(ontology_name):
 
 def _read_file(file_name):
     in_file = os.path.join(CSV_DIRECTORY, "{}.csv".format(file_name))
-    with open(in_file, "rb") as csvfile:
+    #with open(in_file, "rb") as csvfile:
+    with open(in_file,"r",newline="",encoding="utf8") as csvfile:
         cvsreader = csv.reader(csvfile, delimiter="`", quotechar='"')
         count = 0
         for row in cvsreader:

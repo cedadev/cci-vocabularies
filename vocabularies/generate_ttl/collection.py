@@ -21,7 +21,7 @@ PUBLISHER = 7
 def write_ttl(ontology_name):
     in_file = os.path.join(CSV_DIRECTORY, "{}-collections.csv".format(ontology_name))
     count = 0
-    with open(in_file, "rb") as csvfile:
+    with open(in_file, "r",newline="",encoding="utf-8") as csvfile:
         cvsreader = csv.reader(csvfile, delimiter="`", quotechar='"')
         for row in cvsreader:
             count = count + 1

@@ -34,7 +34,7 @@ def write_ttl(ontology_name):
 """
     in_file = os.path.join(CSV_DIRECTORY, "{}-schemes.csv".format(ontology_name))
     count = 0
-    with open(in_file, "rb") as csvfile:
+    with open(in_file, "r",newline="",encoding="utf-8") as csvfile:
         cvsreader = csv.reader(csvfile, delimiter="`", quotechar='"')
         for row in cvsreader:
             count = count + 1
@@ -58,7 +58,7 @@ def _write_concepts(file_name, ontology_name, concept_scheme_name):
     in_file_name = "%s.csv" % file_name
     out_file_name = "%s.ttl" % file_name
     out_file = os.path.join("..", "model", out_file_name)
-    f = open(out_file, "w")
+    f = open(out_file, "w",encoding="utf-8")
     prefix_ontology = "%s_ontology" % (ontology_name)
     prefix_scheme = "%s_%s_scheme" % (ontology_name, concept_scheme_name)
     prefix_collection = "%s_%s_coll" % (ontology_name, concept_scheme_name)
@@ -94,7 +94,7 @@ def _write_concepts(file_name, ontology_name, concept_scheme_name):
     check_hierarchy = False
     in_file = os.path.join(CSV_DIRECTORY, in_file_name)
     print("_write_concepts {}".format(in_file_name))
-    with open(in_file, "rb") as csvfile:
+    with open(in_file, "r",newline="",encoding='utf-8') as csvfile:
         cvsreader = csv.reader(csvfile, delimiter="`", quotechar='"')
         for row in cvsreader:
             count = count + 1

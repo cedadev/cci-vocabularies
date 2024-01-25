@@ -23,7 +23,7 @@ LINKS = "links"
 def write_ttl(in_file_name, out_file_name, class_name, class_label, prefix):
     concept_scheme = "%sConceptScheme" % class_name
     out_file = os.path.join("..", "model", out_file_name)
-    f = open(out_file, "w")
+    f = open(out_file, "w",encoding='utf-8')
     f.write("@prefix %s: <%s> .\n" % (prefix, NAME_SPACE_MAP[prefix]))
     f.write("@prefix cito: <%s> .\n" % CITO)
     f.write("@prefix owl: <%s> .\n" % OWL)

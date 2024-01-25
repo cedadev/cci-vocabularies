@@ -3,7 +3,7 @@ import os
 
 from rdflib.namespace import DC, OWL, RDF, RDFS, SKOS
 
-from html.html import Helper
+from htmlx.html import Helper
 from settings import (
     ONTOLOGIES,
     SPARQL_HOST_NAME,
@@ -66,9 +66,9 @@ def write_head(ontology_name, found_classes, found_properties):
             if res.p == RDFS.comment:
                 abstract = res.o
             if res.p == DC.creator:
-                creators.append(res.o.decode())
+                creators.append(res.o)
             if res.p == DC.contributor:
-                contributors.append(res.o.decode())
+                contributors.append(res.o)
 
     FILE.write('<?xml version="1.0" encoding="utf-8"?>\n')
     FILE.write(

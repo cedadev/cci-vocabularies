@@ -28,7 +28,7 @@ def write_ttl(ontology_name):
     # write out the data for each top concept
     in_file = os.path.join(CSV_DIRECTORY, ontology_name + "-schemes.csv")
     count = 0
-    with open(in_file, "rb") as csvfile:
+    with open(in_file, "r",newline="",encoding="utf-8") as csvfile:
         cvsreader = csv.reader(csvfile, delimiter="`", quotechar='"')
         for row in cvsreader:
             count = count + 1
@@ -44,7 +44,7 @@ def _write_concept_scheme(ontology_name, row):
 
     date = datetime.now().strftime("%Y-%m-%d")
     out_file = os.path.join("..", "model", out_file_name)
-    f = open(out_file, "w")
+    f = open(out_file, "w",encoding='utf-8')
     # prefixes
     f.write(
         "@prefix %s_ontology: <%s> .\n" % (ontology_name, ONTOLOGY_MAP[ontology_name])

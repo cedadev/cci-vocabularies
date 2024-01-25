@@ -19,7 +19,7 @@ def generate():
         print(CSV_DIRECTORY)
         for _file in os.listdir(os.path.join(DATA_DIRECTORY, ontology)):
             if _file.endswith(".ods") and _file.startswith(ontology):
-                print _file
+                print (_file)
                 cmd = (
                     '%s --headless --convert-to csv:"Text - txt - csv'
                     ' (StarCalc)":"96,,76,1" --outdir %s %s'

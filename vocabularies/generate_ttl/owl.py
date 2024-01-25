@@ -32,7 +32,8 @@ def write_ttl(ontology_name):
     # write out the top concepts
     out_file_name = "%s-ontology.ttl" % ontology_name
     out_file = os.path.join("..", "model", out_file_name)
-    f = open(out_file, "w")
+    print(out_file)
+    f = open(out_file, "w", encoding='utf-8')
     # prefixes
     f.write("@prefix %s: <%s> .\n" % (ontology_name, ONTOLOGY_MAP[ontology_name]))
 
@@ -57,7 +58,7 @@ def _write_ontology(ontology_name, date, f):
     f.write("# ontology\n")
     f.write("#\n\n")
 
-    with open(in_file, "rb") as csvfile:
+    with open(in_file, "r",newline="",encoding="utf-8") as csvfile:
         cvsreader = csv.reader(csvfile, delimiter="`", quotechar='"')
         for row in cvsreader:
             count = count + 1
@@ -101,7 +102,7 @@ def _write_classes(ontology_name, f):
     f.write("# classes\n")
     f.write("#\n\n")
 
-    with open(in_file, "rb") as csvfile:
+    with open(in_file, "r",newline="",encoding="utf-8") as csvfile:
         cvsreader = csv.reader(csvfile, delimiter="`", quotechar='"')
         for row in cvsreader:
             count = count + 1
