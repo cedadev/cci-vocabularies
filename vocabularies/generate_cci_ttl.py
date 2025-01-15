@@ -1,10 +1,10 @@
-from generate_ttl import cci_mapping_cci_cf
-from generate_ttl import collection
-from generate_ttl import concept
-from generate_ttl import mapping
-from generate_ttl import owl
-from generate_ttl import scheme
-from settings import CCI, GCOS, MAPPING_2, MAPPING_BOTH, SKOS
+from vocabularies.generate_ttl import cci_mapping_cci_cf
+from vocabularies.generate_ttl import collection
+from vocabularies.generate_ttl import concept
+from vocabularies.generate_ttl import mapping
+from vocabularies.generate_ttl import owl
+from vocabularies.generate_ttl import scheme
+from vocabularies.settings import CCI, GCOS, MAPPING_2, MAPPING_BOTH, SKOS
 
 
 def generate():

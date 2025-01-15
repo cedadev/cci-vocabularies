@@ -5,7 +5,7 @@ from rdflib import Graph
 from rdflib.namespace import DC, OWL, SKOS
 from rdflib.plugins.stores.sparqlstore import SPARQLUpdateStore
 
-from settings import (
+from vocabularies.settings import (
     CCI,
     CCI_SCHEME,
     CMIP,

@@ -1,39 +1,28 @@
-import os,subprocess
+import os
+from pathlib import Path
 
-from settings import CSV_DIRECTORY, DATA_DIRECTORY, ONTOLOGIES
-
-import platform
+import pandas as pd
+from vocabularies.settings import CSV_DIRECTORY, DATA_DIRECTORY, ONTOLOGIES
 
 
 def generate():
-    if platform.system() == "Linux":
-        soffice = "soffice"
-    elif platform.system() == "Darwin":
-        soffice = "/Applications/LibreOffice.app/Contents/MacOS/soffice"
-    else:
-        #soffice = '"C:\Program Files (x86)\OpenOffice 4\program\soffice.exe"'
-        soffice = '"C:\Program Files\LibreOffice\program\soffice.exe"'
-
     for ontology in ONTOLOGIES:
-        print(DATA_DIRECTORY)
-        print(CSV_DIRECTORY)
+        # if needed, create a new directory
+        Path(CSV_DIRECTORY).mkdir(parents=True, exist_ok=True)
         for _file in os.listdir(os.path.join(DATA_DIRECTORY, ontology)):
-            if _file.endswith(".ods") and _file.startswith(ontology):
-                print _file
-                cmd = (
-                    '%s --headless --convert-to csv:"Text - txt - csv'
-                    ' (StarCalc)":"96,,76,1" --outdir %s %s'
-                    % (
-                        soffice,
-                        CSV_DIRECTORY,
-                        os.path.join(DATA_DIRECTORY, ontology, _file),
-                    )
+            if _file.endswith(".xlsx") and _file.startswith(ontology):
+                # read in xlsx file
+                read_file = pd.read_excel(os.path.join(DATA_DIRECTORY, ontology, _file))
+                out_file = _file.split(".xlsx")[0] + ".csv"
+
+                # export to csv file
+                read_file.to_csv(
+                    os.path.join(CSV_DIRECTORY, out_file),
+                    index=None,
+                    header=True,
+                    sep="`",
                 )
-                #os.system(cmd)
-                subprocess.call(cmd)
 
-
-                
 
 if __name__ == "__main__":
     generate()

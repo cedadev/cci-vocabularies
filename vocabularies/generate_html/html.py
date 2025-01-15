@@ -5,7 +5,7 @@ from xml.sax._exceptions import SAXParseException
 from rdflib import Graph, URIRef
 from rdflib.namespace import DC, OWL, RDF, RDFS, SKOS
 
-from settings import (
+from vocabularies.settings import (
     SPARQL_HOST_NAME,
     HTML_DIRECTORY,
     CITO,
@@ -23,9 +23,9 @@ from settings import (
 )
 
 
-HAS_PLATFORM = "%shasPlatform" % ONTOLOGY_MAP[CCI]
-HAS_SENSOR = "%shasSensor" % ONTOLOGY_MAP[CCI]
-RELATED = "%srelated" % SKOS
+HAS_PLATFORM = f"{ONTOLOGY_MAP[CCI]}hasPlatform"
+HAS_SENSOR = f"{ONTOLOGY_MAP[CCI]}hasSensor"
+RELATED = f"{SKOS}related"
 OBJECT_PROPERTIES = [HAS_PLATFORM, HAS_SENSOR, RELATED]
 
 TYPES = ["ontology", "scheme", "collection"]
@@ -42,24 +42,24 @@ class Helper:
 
     def __init__(self):
         graph = Graph()
-        source = "http://vocab.nerc.ac.uk/collection/L22/current/"
+        source = "http://vocab.nerc.ac.uk/collection/P07/current/"
         try:
             graph.parse(location=source, format="application/rdf+xml")
         except SAXParseException as ex:
-            print("ERROR loading NERC vocab from ", source)
-            print("ERROR: " + ex)
-            exit()
+            print(f"ERROR loading NERC vocab from {source}")
+            print(f"ERROR: {ex}")
         self.GRAPH_STORE[NERC] = graph
 
     def get_alt_label(self, graph_name, uri):
+        print(f"Get alt label for {uri}")
         statement = (
-            self.PREFIX + "SELECT ?label WHERE {<" + uri + "> skos:altLabel ?label}"
+            f"{self.PREFIX} SELECT ?label WHERE {{<{uri}> skos:altLabel ?label}}"
         )
         results = self.get_search_results(graph_name, statement)
         for resource in results:
             if resource.label != "None":
                 return resource.label
-        print("get_label - no label found for %s, using uri" % uri)
+        print(f"get_label - no label found for {uri}, using uri")
         return uri
 
     def get_classes(self, graph_name):
@@ -67,128 +67,86 @@ class Helper:
         Get the lists of classes that are not also concepts.
         """
         statement = (
-            self.PREFIX
-            + "SELECT Distinct ?subject WHERE {?subject rdf:type owl:Class} ORDER BY ASC(?subject)"
+            f"{self.PREFIX} SELECT Distinct ?subject WHERE "
+            "{{?subject rdf:type owl:Class}} ORDER BY ASC(?subject)"
         )
         classes = self.get_search_results(graph_name, statement)
         non_concept_classes = []
         for _class in classes:
-            statement = (
-                self.PREFIX
-                + "SELECT Distinct ?subject WHERE {<"
-                + _class.subject.decode()
-                + "> rdf:type skos:Concept}"
-            )
+            statement = f"{self.PREFIX} SELECT Distinct ?subject WHERE {{<{_class.subject}> rdf:type skos:Concept}}"
             results = self.get_search_results(graph_name, statement)
             if len(results) == 0:
                 non_concept_classes.append(_class)
         return non_concept_classes
 
     def get_concepts(self, graph_name):
-        statement = (
-            self.PREFIX
-            + "SELECT Distinct ?subject WHERE {?subject rdf:type skos:Concept . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)"
-        )
+        statement = f"{self.PREFIX} SELECT Distinct ?subject WHERE {{?subject rdf:type skos:Concept . ?subject skos:prefLabel ?label}} ORDER BY ASC(?label)"
         return self.get_search_results(graph_name, statement)
 
     def get_concepts_in_scheme(self, graph_name, uri):
-        statement = (
-            self.PREFIX
-            + "SELECT Distinct ?subject WHERE {?subject skos:inScheme <"
-            + uri
-            + "> . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)"
-        )
+        statement = f"{self.PREFIX} SELECT Distinct ?subject WHERE {{?subject skos:inScheme <{uri}> . ?subject skos:prefLabel ?label}} ORDER BY ASC(?label)"
         return self.get_search_results(graph_name, statement)
 
     def get_individuals_in_class(self, graph_name, uri):
-        statement = (
-            self.PREFIX
-            + "SELECT Distinct ?subject WHERE {?subject rdf:type <"
-            + uri
-            + "> . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)"
-        )
+        statement = f"{self.PREFIX} SELECT Distinct ?subject WHERE {{?subject rdf:type <{uri}> . ?subject skos:prefLabel ?label}} ORDER BY ASC(?label)"
         subs = self.get_search_results(graph_name, statement)
         result = []
         for sub in subs:
-            result.append(sub.subject.decode())
+            result.append(sub.subject)
         return result
 
     def get_external_individuals_in_class(self, graph_name, uri):
-        statement = (
-            self.PREFIX
-            + "SELECT Distinct ?subject WHERE {?subject rdf:type <"
-            + uri
-            + '>  FILTER regex(str(?subject), "^http://vocab.nerc.ac.uk", "i")}'
-        )
+        statement = f'{self.PREFIX} SELECT Distinct ?subject WHERE {{?subject rdf:type <{uri}> FILTER regex(str(?subject), "^http://vocab.nerc.ac.uk", "i")}}'
         subs = self.get_search_results(graph_name, statement)
         result = []
         for sub in subs:
-            result.append(sub.subject.decode())
+            result.append(sub.subject)
         return result
 
     def get_label(self, graph_name, uri):
         statement = (
-            self.PREFIX + "SELECT ?label WHERE {<" + uri + "> skos:prefLabel ?label}"
+            f"{self.PREFIX} SELECT ?label WHERE {{<{uri}> skos:prefLabel ?label}}"
         )
         results = self.get_search_results(graph_name, statement)
         for resource in results:
             if resource.label != "None":
                 return resource.label
-        statement = (
-            self.PREFIX + "SELECT ?label WHERE {<" + uri + "> rdfs:label ?label}"
-        )
+        statement = f"{self.PREFIX} SELECT ?label WHERE {{<{uri}> rdfs:label ?label}}"
         results = self.get_search_results(graph_name, statement)
         for resource in results:
             if resource.label:
                 return resource.label
-        print("get_label - no label found for %s, using uri" % uri)
+        print(f"get_label - no label found for {uri}, using uri")
         return uri
 
     def get_members(self, graph_name, uri):
-        statement = (
-            "%s SELECT Distinct ?subject WHERE {<%s> <%s> ?subject . ?subject <%s> ?label} ORDER BY ASC(?label)"
-            % (self.PREFIX, uri, SKOS.member, SKOS.prefLabel)
-        )
+        statement = f"{self.PREFIX} SELECT Distinct ?subject WHERE {{<{uri}> <{SKOS.member}> ?subject . ?subject <{SKOS.prefLabel}> ?label}} ORDER BY ASC(?label)"
         return self.get_search_results(graph_name, statement)
 
     def get_nerc_members(self, graph_name, uri):
-        statement = (
-            '%s SELECT Distinct ?subject WHERE {<%s> <%s> ?subject FILTER regex(str(?subject), "^http://vocab.nerc.ac.uk", "i")}'
-            % (self.PREFIX, uri, SKOS.member)
-        )
+        statement = f'{self.PREFIX} SELECT Distinct ?subject WHERE {{<{uri}> <{SKOS.member}> ?subject FILTER regex(str(?subject), "^http://vocab.nerc.ac.uk", "i")}}'
         return self.get_search_results(graph_name, statement)
 
     def get_ontology(self, graph_name):
-        statement = (
-            self.PREFIX
-            + "SELECT Distinct ?subject WHERE {?subject rdf:type owl:Ontology} ORDER BY ASC(?subject)"
-        )
+        statement = f"{self.PREFIX} SELECT Distinct ?subject WHERE {{?subject rdf:type owl:Ontology}} ORDER BY ASC(?subject)"
         return self.get_search_results(graph_name, statement)
 
     def get_properties(self, graph_name):
-        statement = (
-            self.PREFIX
-            + "SELECT Distinct ?subject WHERE {?subject rdf:type owl:ObjectProperty . ?subject rdfs:label ?label} ORDER BY ASC(?label)"
-        )
+        statement = f"{self.PREFIX} SELECT Distinct ?subject WHERE {{?subject rdf:type owl:ObjectProperty . ?subject rdfs:label ?label}} ORDER BY ASC(?label)"
         return self.get_search_results(graph_name, statement)
 
     def get_resources(self, graph_name, uri):
         statement = (
-            self.PREFIX + "SELECT ?p ?o WHERE {<" + uri + "> ?p ?o} ORDER BY ASC(?o)"
+            f"{self.PREFIX} SELECT ?p ?o WHERE {{<{uri}> ?p ?o}} ORDER BY ASC(?o)"
         )
         return self.get_search_results(graph_name, statement)
 
     def get_sub_classes(self, graph_name, uri):
-        statement = (
-            self.PREFIX
-            + "SELECT Distinct ?subject WHERE {?subject rdfs:subClassOf <"
-            + uri
-            + "> . ?subject skos:prefLabel ?label} ORDER BY ASC(?label)"
-        )
+        statement = f"{self.PREFIX} SELECT Distinct ?subject WHERE {{?subject rdfs:subClassOf <{uri}> . ?subject skos:prefLabel ?label}} ORDER BY ASC(?label)"
         subs = self.get_search_results(graph_name, statement)
         result = []
         for sub in subs:
-            result.append(sub.subject.decode())
+            result.append(sub.subject)
         return result
 
     def get_search_results(self, graph_name, statement):
@@ -211,7 +169,9 @@ class Helper:
             self.GRAPH_STORE[graph_name] = graph
         return graph
 
-    def write_contents_table(self, ontology_name, results, additional_results=[]):
+    def write_contents_table(self, ontology_name, results, additional_results=None):
+        if additional_results is None:
+            additional_results = []
         self.FILE.write('<ul class="hlist">\n')
         for resource in results:
             self.FILE.write("<li>")
@@ -227,7 +187,7 @@ class Helper:
         in_file_name = "%s-ontology.csv" % ontology_name
         count = 0
         in_file = os.path.join(CSV_DIRECTORY, in_file_name)
-        with open(in_file, "rb") as csvfile:
+        with open(in_file, "r", encoding="utf-8") as csvfile:
             cvsreader = csv.reader(csvfile, delimiter="`", quotechar="|")
             for row in cvsreader:
                 count = count + 1
@@ -277,9 +237,11 @@ class Helper:
         self.FILE.write("<dt>skos</dt>\n")
         self.FILE.write("<dd>%s</dd>" % SKOS)
 
-    def write_entities(self, ontology_name, results, _id, title, additional_results=[]):
-        if additional_results != []:
-            pass
+    def write_entities(
+        self, ontology_name, results, _id, title, additional_results=None
+    ):
+        if additional_results is None:
+            additional_results = []
         for result in results:
             self._write_entity(result, ontology_name, _id, title)
         for result in additional_results:
@@ -290,16 +252,16 @@ class Helper:
             link = result.subject.split(self.BASE_URI)[1]
             try:
                 link = link.split("/")[1]
-            except (IndexError):
+            except IndexError:
                 pass
-        except (IndexError):
+        except IndexError:
             link = result.subject
         if NERC in result.subject:
             label = self.get_alt_label(NERC, result.subject)
         else:
             label = self.get_label(ontology_name, result.subject)
         self.FILE.write('<div id="%s" class="entity">\n' % link)
-        if result.subject.decode() in OBJECT_PROPERTIES:
+        if result.subject in OBJECT_PROPERTIES:
             self.FILE.write(
                 '<h3>%s<sup title="object property" class="type-op">op</sup>' % label
             )
@@ -357,64 +319,64 @@ class Helper:
         resources = self.get_resources(ontology_name, result.subject)
         for res in resources:
             if res.p == URIRef(self.ONTOLOGY_URI + "hasSensor"):
-                sensors.append(res.o.decode())
+                sensors.append(res.o)
             elif res.p == URIRef(self.ONTOLOGY_URI + "hasPlatform"):
-                platforms.append(res.o.decode())
+                platforms.append(res.o)
             elif res.p == OWL.inverseOf:
-                inverseOf.append(res.o.decode())
+                inverseOf.append(res.o)
             elif res.p == OWL.versionInfo:
                 version = res.o
             elif res.p == SKOS.inScheme:
-                inSchemes.append(res.o.decode())
+                inSchemes.append(res.o)
             elif res.p == SKOS.altLabel:
-                altLabels.append(res.o.decode())
+                altLabels.append(res.o)
             elif res.p == SKOS.broader:
-                broader.append(res.o.decode())
+                broader.append(res.o)
             elif res.p == SKOS.narrower:
-                narrower.append(res.o.decode())
+                narrower.append(res.o)
             elif res.p == SKOS.broadMatch:
-                broadMatch.append(res.o.decode())
+                broadMatch.append(res.o)
             elif res.p == SKOS.broaderTransitive:
-                broaderTransitive.append(res.o.decode())
+                broaderTransitive.append(res.o)
             elif res.p == SKOS.narrowerTransitive:
-                narrowerTransitive.append(res.o.decode())
+                narrowerTransitive.append(res.o)
             elif res.p == SKOS.closeMatch:
-                closeMatch.append(res.o.decode())
+                closeMatch.append(res.o)
             elif res.p == SKOS.narrowMatch:
-                narrowMatch.append(res.o.decode())
+                narrowMatch.append(res.o)
             elif res.p == SKOS.relatedMatch:
-                relatedMatch.append(res.o.decode())
+                relatedMatch.append(res.o)
             elif res.p == SKOS.hasTopConcept:
-                hasTopConcepts.append(res.o.decode())
+                hasTopConcepts.append(res.o)
             elif res.p == SKOS.topConceptOf:
-                topConceptOf.append(res.o.decode())
+                topConceptOf.append(res.o)
             elif res.p == RDFS.seeAlso:
-                seeAlso.append(res.o.decode())
+                seeAlso.append(res.o)
             elif res.p == RDFS.range:
-                _range.append(res.o.decode())
+                _range.append(res.o)
             elif res.p == RDFS.domain:
-                domain.append(res.o.decode())
+                domain.append(res.o)
             elif res.p == RDFS.subClassOf:
-                sub_class_of.append(res.o.decode())
+                sub_class_of.append(res.o)
             elif res.p == RDFS.subPropertyOf:
-                subPropertyOf.append(res.o.decode())
+                subPropertyOf.append(res.o)
             elif res.p == RDFS.isDefinedBy:
-                isDefinedBy.append(res.o.decode())
+                isDefinedBy.append(res.o)
             elif res.p == RDF.type:
-                rdf_type.append(res.o.decode())
+                rdf_type.append(res.o)
             elif res.p == RDFS.member:
-                member.append(res.o.decode())
+                member.append(res.o)
             elif res.p == DC.contributor:
-                contributor.append(res.o.decode())
+                contributor.append(res.o)
             elif res.p == DC.creator:
-                creator.append(res.o.decode())
+                creator.append(res.o)
             elif res.p == DC.description:
                 if _id != "conceptschemes":
                     description = res.o
             elif res.p == DC.date:
-                date = res.o.decode()
+                date = res.o
             elif res.p == URIRef(CITO + "citesAsSourceDocument"):
-                citesAsSourceDocument.append(res.o.decode())
+                citesAsSourceDocument.append(res.o)
             elif res.p == SKOS.definition:
                 definition = res.o
             elif res.p == DC.publisher:
@@ -426,7 +388,7 @@ class Helper:
             elif res.p == RDFS.comment:
                 pass
             elif res.p == SKOS.member:
-                collection_member.append(res.o.decode())
+                collection_member.append(res.o)
             elif res.p == SKOS.prefLabel:
                 pass
             elif res.p == SKOS.scopeNote:
@@ -465,7 +427,7 @@ class Helper:
         self.write_list(ontology_name, subPropertyOf, "has super-properties")
         self.write_list(ontology_name, collection_member, "has members")
         self.write_list(ontology_name, member, "has members")
-        if result.subject.decode() in OBJECT_PROPERTIES:
+        if result.subject in OBJECT_PROPERTIES:
             self.write_list(ontology_name, _range, "has range")
             self.write_list(ontology_name, domain, "has domain")
         else:
@@ -505,9 +467,9 @@ class Helper:
             # may need to split
             try:
                 link = link.split("/")[1]
-            except (IndexError):
+            except IndexError:
                 pass
-        except (IndexError):
+        except IndexError:
             link = uri
 
         if SPARQL_HOST_NAME in uri and ontology_name in uri:
@@ -518,7 +480,7 @@ class Helper:
             elif self.TYPE == "ontology":
                 if "scheme" in uri:
                     local = False
-            elif self.TYPE == "collection" or self.TYPE == "scheme":
+            elif self.TYPE in ["collection", "scheme"]:
                 if self.BASE_URI not in uri:
                     local = False
 

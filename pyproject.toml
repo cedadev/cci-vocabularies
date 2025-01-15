@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cci-vocabularies"
+dynamic = ["version"]
+dependencies = [
+  "openpyxl",
+  "pandas",
+  "rdflib-jsonld",
+]
+
+[project.scripts]
+cci-vocab = "vocabularies.all:main"
+
+[tool.setuptools]
+packages = ["vocabularies"]

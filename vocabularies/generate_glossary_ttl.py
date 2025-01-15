@@ -1,5 +1,5 @@
-from generate_ttl import concept, mapping, scheme
-from settings import GLOSSARY, MAPPING_1, SKOS
+from vocabularies.generate_ttl import concept, mapping, scheme
+from vocabularies.settings import GLOSSARY, MAPPING_1, SKOS
 
 
 def generate():
@@ -12,7 +12,9 @@ def generate():
         "glossary-ipcc-mappings.ttl",
         MAPPING_1,
         GLOSSARY,
+        "",
         GLOSSARY,
+        "",
         SKOS,
     )
 

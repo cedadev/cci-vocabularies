@@ -1,8 +1,8 @@
-from generate_ttl import collection
-from generate_ttl import concept
-from generate_ttl import owl
-from generate_ttl import scheme
-from settings import C4I
+from vocabularies.generate_ttl import collection
+from vocabularies.generate_ttl import concept
+from vocabularies.generate_ttl import owl
+from vocabularies.generate_ttl import scheme
+from vocabularies.settings import C4I
 
 
 def generate():

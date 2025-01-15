@@ -3,8 +3,7 @@ import os
 
 from rdflib.namespace import DC, OWL, RDF, RDFS, SKOS
 
-from html.html import Helper
-from settings import (
+from vocabularies.settings import (
     ONTOLOGIES,
     SPARQL_HOST_NAME,
     SPARQL_DATASET,
@@ -13,6 +12,7 @@ from settings import (
     SPARQL_GRAPH,
     SPARQL_QUERY,
 )
+from vocabularies.generate_html.html import Helper
 
 
 PREFIX = """
@@ -32,6 +32,7 @@ PREFIX skos: <%s>
 FILE = None
 ONTOLOGY_BASE_URI = None
 FILE_BASE_URI = None
+HELPER = None
 
 GRAPH_STORE = {}
 
@@ -66,9 +67,9 @@ def write_head(ontology_name, found_classes, found_properties):
             if res.p == RDFS.comment:
                 abstract = res.o
             if res.p == DC.creator:
-                creators.append(res.o.decode())
+                creators.append(res.o)
             if res.p == DC.contributor:
-                contributors.append(res.o.decode())
+                contributors.append(res.o)
 
     FILE.write('<?xml version="1.0" encoding="utf-8"?>\n')
     FILE.write(
