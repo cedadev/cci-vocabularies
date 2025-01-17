@@ -30,7 +30,7 @@ jobs:
       run: |
         cd widoco        
         java -jar ./widoco.jar \
-        -ontFile ../html/ontology/cci/cci-content\cci-ontology.ttl \
+        -ontFile ../html/ontology/cci/cci-content/cci-ontology.ttl \
         -oops \
         -webVowl \
         -includeAnnotationProperties \
