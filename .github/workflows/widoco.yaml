@@ -41,10 +41,13 @@ jobs:
         -excludeIntroduction
         cd ..
 
-    - name: Publish on Github Pages
-      uses: crazy-max/ghaction-github-pages@v2.3.0
-      with:
-        build_dir: widoco/doc 
-        publish_dir: target/site
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
+		      -  name: Publish documentation to repo
+         run: |-
+            mkdir -p docs/widoco/
+            cp -RT widoco/doc/* docs/widoco/
+            cd docs/widoco/
+            git config --local user.name "github-actions[bot]"
+            git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "Documentation update"
+            git push
