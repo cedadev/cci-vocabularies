@@ -1,4 +1,6 @@
 /.project
+/.pydevproject
+/.settings
 /cci_vocabularies.egg-info/
 /csv/
 /model/
@@ -90,4 +92,7 @@ html/scheme/cci/cci-content/sensor.html
 html/scheme/cci/cci-content/sensor.json
 html/scheme/cci/cci-content/sensor.rdf
 html/scheme/cci/cci-content/sensor.ttl
-*/*pyc
+/*.pyc
+*/*.pyc
+.DS_Store
+*/.DS_Store
