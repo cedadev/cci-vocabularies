@@ -34,19 +34,18 @@ def write_ttl(
     out_file = os.path.join(MODEL_DIRECTORY, out_file_name)
     with open(out_file, "w", encoding="utf-8") as ttl_writer:
         ttl_writer.write(
-            "@prefix mapa: <%s%s> .\n" % (COLLECTION_MAP[uri_1_prefix], uri_1_sufix)
+            f"@prefix mapa: <{COLLECTION_MAP[uri_1_prefix]}{uri_1_sufix}> .\n"
         )
         ttl_writer.write(
-            "@prefix mapb: <%s%s> .\n" % (COLLECTION_MAP[uri_2_prefix], uri_2_sufix)
+            f"@prefix mapb: <{COLLECTION_MAP[uri_2_prefix]}{uri_2_sufix}> .\n"
         )
         try:
             ttl_writer.write(
-                "@prefix %s: <%s> .\n"
-                % (predicate_prefix, ONTOLOGY_MAP[predicate_prefix])
+                f"@prefix {predicate_prefix}: <{ONTOLOGY_MAP[predicate_prefix]}> .\n"
             )
         except KeyError:
             pass
-        ttl_writer.write("@prefix skos: <%s> .\n\n\n" % SKOS)
+        ttl_writer.write(f"@prefix skos: <{SKOS}> .\n\n\n")
 
         count = 0
         in_file = os.path.join(CSV_DIRECTORY, in_file_name)
@@ -60,18 +59,16 @@ def write_ttl(
                 url_2 = _get_url("mapb", row[URI_2])
                 if mapping in [MAPPING_1, MAPPING_BOTH] and row[REL_1] != "":
                     ttl_writer.write(
-                        "%s %s:%s %s .\n\n"
-                        % (url_1, predicate_prefix, row[REL_1].strip(), url_2)
+                        f"{url_1} {predicate_prefix}:{row[REL_1].strip()} {url_2} .\n\n"
                     )
                 if mapping in [MAPPING_2, MAPPING_BOTH] and row[REL_2] != "":
                     ttl_writer.write(
-                        "%s %s:%s %s .\n\n"
-                        % (url_2, predicate_prefix, row[REL_2].strip(), url_1)
+                        f"{url_2} {predicate_prefix}:{row[REL_2].strip()} {url_1} .\n\n"
                     )
 
 
 def _get_url(mapping, url):
     url = url.strip()
     if "http" in url:
-        return "<{}>".format(url)
-    return "{mapping}:{url}".format(mapping=mapping, url=url)
+        return f"<{url}>"
+    return f"{mapping}:{url}"

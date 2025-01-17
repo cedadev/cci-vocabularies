@@ -33,7 +33,7 @@ def write_ttl(ontology_name):
 
     @param ontology_name (str): the ontology name
     """
-    in_file = os.path.join(CSV_DIRECTORY, "{}-schemes.csv".format(ontology_name))
+    in_file = os.path.join(CSV_DIRECTORY, f"{ontology_name}-schemes.csv")
     count = 0
     with open(in_file, "r", encoding="utf-8") as csvfile:
         cvsreader = csv.reader(csvfile, delimiter="`", quotechar='"')
@@ -42,7 +42,7 @@ def write_ttl(ontology_name):
             if count < 2:
                 continue
             concept_scheme_uri = row[URI].strip()
-            file_name = "%s-%s" % (ontology_name, concept_scheme_uri.lower())
+            file_name = f"{ontology_name}-{concept_scheme_uri.lower()}"
             _write_concepts(file_name, ontology_name, concept_scheme_uri)
 
 
@@ -56,37 +56,34 @@ def _write_concepts(file_name, ontology_name, concept_scheme_name):
     @param ontology_name (str): the name of the ontology
     @param concept_scheme_name (str): the name of the concept scheme
     """
-    in_file_name = "%s.csv" % file_name
-    out_file_name = "%s.ttl" % file_name
+    in_file_name = f"{file_name}.csv"
+    out_file_name = f"{file_name}.ttl"
     out_file = os.path.join(MODEL_DIRECTORY, out_file_name)
     with open(out_file, "w", encoding="utf-8") as ttl_writer:
-        prefix_ontology = "%s_ontology" % (ontology_name)
-        prefix_scheme = "%s_%s_scheme" % (ontology_name, concept_scheme_name)
-        prefix_collection = "%s_%s_coll" % (ontology_name, concept_scheme_name)
-        prefix_concept = "%s_%s_concept" % (ontology_name, concept_scheme_name)
+        prefix_ontology = f"{ontology_name}_ontology"
+        prefix_scheme = f"{ontology_name}_{concept_scheme_name}_scheme"
+        prefix_collection = f"{ontology_name}_{concept_scheme_name}_coll"
+        prefix_concept = f"{ontology_name}_{concept_scheme_name}_concept"
         ttl_writer.write(
-            "@prefix %s: <%s%s/> .\n"
-            % (prefix_concept, COLLECTION_MAP[ontology_name], concept_scheme_name)
+            f"@prefix {prefix_concept}: <{COLLECTION_MAP[ontology_name]}{concept_scheme_name}/> .\n"
         )
         ttl_writer.write(
-            "@prefix %s: <%s> .\n" % (prefix_ontology, ONTOLOGY_MAP[ontology_name])
+            f"@prefix {prefix_ontology}: <{ONTOLOGY_MAP[ontology_name]}> .\n"
         )
         ttl_writer.write(
-            "@prefix %s: <%s%s> .\n"
-            % (prefix_collection, COLLECTION_MAP[ontology_name], concept_scheme_name)
+            f"@prefix {prefix_collection}: <{COLLECTION_MAP[ontology_name]}{concept_scheme_name}> .\n"
         )
         ttl_writer.write(
-            "@prefix %s: <%s/%s> .\n"
-            % (prefix_scheme, SCHEME_MAP[ontology_name], concept_scheme_name)
+            f"@prefix {prefix_scheme}: <{SCHEME_MAP[ontology_name]}/{concept_scheme_name}> .\n"
         )
 
         if ontology_name == GLOSSARY:
-            ttl_writer.write("@prefix cito: <%s> .\n" % CITO)
+            ttl_writer.write(f"@prefix cito: <{CITO}> .\n")
 
-        ttl_writer.write("@prefix owl: <%s> .\n" % OWL)
-        ttl_writer.write("@prefix rdf: <%s> .\n" % RDF)
-        ttl_writer.write("@prefix rdfs: <%s> .\n" % RDFS)
-        ttl_writer.write("@prefix skos: <%s> .\n\n\n" % SKOS)
+        ttl_writer.write(f"@prefix owl: <{OWL}> .\n")
+        ttl_writer.write(f"@prefix rdf: <{RDF}> .\n")
+        ttl_writer.write(f"@prefix rdfs: <{RDFS}> .\n")
+        ttl_writer.write(f"@prefix skos: <{SKOS}> .\n\n\n")
 
         # concepts
         ttl_writer.write("#\n")
@@ -144,12 +141,8 @@ def _write_remote_concept(
 ):
     uri = row[URI].strip()
 
-    f.write(
-        "<{uri}> a skos:Concept, {ontology}:{scheme};\n".format(
-            uri=uri, ontology=prefix_ontology, scheme=concept_scheme_name
-        )
-    )
-    f.write("    skos:inScheme %s: ;\n" % (prefix_scheme))
+    f.write(f"<{uri}> a skos:Concept, {prefix_ontology}:{concept_scheme_name};\n")
+    f.write(f"    skos:inScheme {prefix_scheme}: ;\n")
 
     #     f.write('<{uri}> skos:inScheme {scheme}: ;\n'.format(uri=uri,
     #                                                          scheme=prefix_scheme))
@@ -157,27 +150,27 @@ def _write_remote_concept(
         check_hierarchy and len(row) > HIERARCHY and row[HIERARCHY] == "1"
     ):
         # this is top of any hierarchy if present
-        f.write("    skos:topConceptOf %s: ;\n" % (prefix_scheme))
+        f.write(f"    skos:topConceptOf {prefix_scheme}: ;\n")
 
     if len(row) > SEE_ALSO and not row[SEE_ALSO] == "":
         if concept_scheme_name == "org":
             f.write(
-                "    rdfs:seeAlso <http://isni.org/isni/%s> ;\n" % row[SEE_ALSO].strip()
+                f"    rdfs:seeAlso <http://isni.org/isni/{row[SEE_ALSO].strip()}> ;\n"
             )
         elif not row[SEE_ALSO].startswith("?"):
             for also in row[SEE_ALSO].strip().split(" "):
-                f.write("    rdfs:seeAlso <%s> ;\n" % also)
+                f.write(f"    rdfs:seeAlso <{also}> ;\n")
     f.write(".\n\n")
 
     # add to collection
-    f.write("%s: skos:member <%s> .\n\n" % (prefix_collection, uri))
+    f.write(f"{prefix_collection}: skos:member <{uri}> .\n\n")
 
     # add line to concept scheme
     if not check_hierarchy or (
         check_hierarchy and len(row) > HIERARCHY and row[HIERARCHY] == "1"
     ):
         # this is top of any hierarchy if present
-        f.write("%s: skos:hasTopConcept <%s> .\n\n" % (prefix_scheme, uri))
+        f.write(f"{prefix_scheme}: skos:hasTopConcept <{uri}> .\n\n")
 
 
 def _write_local_concept(
@@ -192,43 +185,41 @@ def _write_local_concept(
     check_hierarchy,
 ):
     f.write(
-        "%s:%s a skos:Concept, %s:%s;\n"
-        % (prefix_concept, row[URI].strip(), prefix_ontology, concept_scheme_name)
+        f"{prefix_concept}:{row[URI].strip()} a skos:Concept, {prefix_ontology}:{concept_scheme_name};\n"
     )
-    f.write("    skos:inScheme %s: ;\n" % (prefix_scheme))
-    f.write('    skos:prefLabel "%s"@en ;\n' % row[LABEL].strip())
+    f.write(f"    skos:inScheme {prefix_scheme}: ;\n")
+    f.write(f'    skos:prefLabel "{row[LABEL].strip()}"@en ;\n')
     if row[ALT_LABEL] != "":
-        f.write('    skos:altLabel "%s"@en ;\n' % row[ALT_LABEL].strip())
+        f.write(f'    skos:altLabel "{row[ALT_LABEL].strip()}"@en ;\n')
     if len(row) > DEF and not row[DEF] == "":
-        f.write('    skos:definition "%s"@en ;\n' % row[DEF].strip())
+        f.write(f'    skos:definition "{row[DEF].strip()}"@en ;\n')
 
     # needed for geonetwork
     if len(row) > DEF and not row[DEF] == "":
-        f.write('    skos:scopeNote "%s"@en ;\n' % row[DEF].strip())
+        f.write(f'    skos:scopeNote "{row[DEF].strip()}"@en ;\n')
 
     if len(row) > SEE_ALSO and not row[SEE_ALSO] == "":
         if concept_scheme_name == "org":
             f.write(
-                "    rdfs:seeAlso <http://isni.org/isni/%s> ;\n" % row[SEE_ALSO].strip()
+                f"    rdfs:seeAlso <http://isni.org/isni/{row[SEE_ALSO].strip()}> ;\n"
             )
         elif ontology_name == GLOSSARY:
             pass
         elif not row[SEE_ALSO].startswith("?"):
             for also in row[SEE_ALSO].strip().split(" "):
-                f.write("    rdfs:seeAlso <%s> ;\n" % also)
+                f.write(f"    rdfs:seeAlso <{also}> ;\n")
     if ontology_name == GLOSSARY and len(row) > CITES and not row[CITES] == "":
-        f.write("    cito:citesAsSourceDocument <%s>;\n" % row[CITES].strip())
+        f.write(f"    cito:citesAsSourceDocument <{row[CITES].strip()}>;\n")
     if not check_hierarchy or (
         check_hierarchy and len(row) > HIERARCHY and row[HIERARCHY] == "1"
     ):
         # this is top of any hierarchy if present
-        f.write("    skos:topConceptOf %s: ;\n" % (prefix_scheme))
+        f.write(f"    skos:topConceptOf {prefix_scheme}: ;\n")
     f.write(".\n\n")
 
     # add to collection
     f.write(
-        "%s: skos:member %s:%s .\n\n"
-        % (prefix_collection, prefix_concept, row[URI].strip())
+        f"{prefix_collection}: skos:member {prefix_concept}:{row[URI].strip()} .\n\n"
     )
 
     # add line to concept scheme
@@ -237,6 +228,5 @@ def _write_local_concept(
     ):
         # this is top of any hierarchy if present
         f.write(
-            "%s: skos:hasTopConcept %s:%s .\n\n"
-            % (prefix_scheme, prefix_concept, row[URI].strip())
+            f"{prefix_scheme}: skos:hasTopConcept {prefix_concept}:{row[URI].strip()} .\n\n"
         )

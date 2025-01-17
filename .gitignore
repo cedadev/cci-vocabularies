@@ -90,3 +90,4 @@ html/scheme/cci/cci-content/sensor.html
 html/scheme/cci/cci-content/sensor.json
 html/scheme/cci/cci-content/sensor.rdf
 html/scheme/cci/cci-content/sensor.ttl
+*/*pyc

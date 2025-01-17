@@ -21,21 +21,21 @@ LINKS = "links"
 
 
 def write_ttl(in_file_name, out_file_name, class_name, class_label, prefix):
-    concept_scheme = "%sConceptScheme" % class_name
+    concept_scheme = f"{class_name}ConceptScheme"
     out_file = os.path.join(MODEL_DIRECTORY, out_file_name)
     with open(out_file, "w", encoding="utf-8") as ttl_writer:
-        ttl_writer.write("@prefix %s: <%s> .\n" % (prefix, NAME_SPACE_MAP[prefix]))
-        ttl_writer.write("@prefix cito: <%s> .\n" % CITO)
-        ttl_writer.write("@prefix owl: <%s> .\n" % OWL)
-        ttl_writer.write("@prefix rdf: <%s> .\n" % RDF)
-        ttl_writer.write("@prefix rdfs: <%s> .\n" % RDFS)
-        ttl_writer.write("@prefix skos: <%s> .\n\n\n" % SKOS)
+        ttl_writer.write(f"@prefix {prefix}: <{NAME_SPACE_MAP[prefix]}> .\n")
+        ttl_writer.write(f"@prefix cito: <{CITO}> .\n")
+        ttl_writer.write(f"@prefix owl: <{OWL}> .\n")
+        ttl_writer.write(f"@prefix rdf: <{RDF}> .\n")
+        ttl_writer.write(f"@prefix rdfs: <{RDFS}> .\n")
+        ttl_writer.write(f"@prefix skos: <{SKOS}> .\n\n\n")
 
         # concept scheme
         ttl_writer.write("#\n")
         ttl_writer.write("# concept scheme\n")
         ttl_writer.write("#\n\n")
-        ttl_writer.write("%s:%s a skos:ConceptScheme .\n" % (prefix, concept_scheme))
+        ttl_writer.write(f"{prefix}:{concept_scheme} a skos:ConceptScheme .\n")
 
         # concepts
         ttl_writer.write("#\n")
@@ -46,16 +46,14 @@ def write_ttl(in_file_name, out_file_name, class_name, class_label, prefix):
         for key in glossary.keys():
             for line in glossary[key]:
                 ttl_writer.write(
-                    "%s:%s a skos:Concept ;\n" % (prefix, line[ALT_LABEL])
+                    f"{prefix}:{line[ALT_LABEL]} a skos:Concept ;\n"
                 )  # TODO what to use as uri?
-                ttl_writer.write(
-                    "    skos:inScheme %s:%s ;\n" % (prefix, concept_scheme)
-                )
-                ttl_writer.write('    skos:prefLabel "%s"@en ;\n' % line[LABEL])
+                ttl_writer.write(f"    skos:inScheme {prefix}:{concept_scheme} ;\n")
+                ttl_writer.write(f'    skos:prefLabel "{line[LABEL]}"@en ;\n')
                 if line[ALT_LABEL] != "":
-                    ttl_writer.write('    skos:altLabel "%s" ;\n' % line[ALT_LABEL])
+                    ttl_writer.write(f'    skos:altLabel "{line[ALT_LABEL]}" ;\n')
                 if line[DEF] != "":
-                    ttl_writer.write('    skos:definition "%s"@en ;\n' % line[DEF])
+                    ttl_writer.write(f'    skos:definition "{line[DEF]}"@en ;\n')
 
                 try:
                     citation = line[IPCC]
@@ -78,18 +76,17 @@ def write_ttl(in_file_name, out_file_name, class_name, class_label, prefix):
                         "    cito:citesAsSourceDocument <http://www.ipcc.ch/>;\n"
                     )  # TODO find ref
                 elif citation:
-                    print("unknown citation %s" % citation)
+                    print(f"unknown citation {citation}")
                 try:
                     links = line[LINKS]
                     keys = links.keys()
                     sorted_keys = sorted(keys)
                     for key in sorted_keys:
                         if key.startswith("http"):
-                            ttl_writer.write("    rdfs:seeAlso <%s> ;\n" % key)
+                            ttl_writer.write(f"    rdfs:seeAlso <{key}> ;\n")
                         elif key:
                             ttl_writer.write(
-                                "    rdfs:seeAlso %s:%s ;\n"
-                                % (prefix, key.split("#")[1])
+                                f'    rdfs:seeAlso {prefix}:{key.split("#")[1]} ;\n'
                             )
                 except KeyError:
                     pass
@@ -104,15 +101,15 @@ def _get_display_name(name):
             if tmp == "":
                 tmp = letter
             else:
-                tmp = "%s-%s" % (tmp, letter.capitalize())
+                tmp = f"{tmp}-{letter.capitalize()}"
         name_letter = tmp
-    return "Glossary %s" % name_letter
+    return f"Glossary {name_letter}"
 
 
 def _parse_file(in_file_name):
     # dict, key= display name, value = list of lines
     count = 0
-    in_file = "%s%s" % (CSV_DIRECTORY, in_file_name)
+    in_file = f"{CSV_DIRECTORY}{in_file_name}"
 
     with open(in_file, "r", encoding="utf-8") as csvfile:
         cvsreader = csv.reader(csvfile, delimiter="$", quotechar='"')

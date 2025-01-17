@@ -165,16 +165,10 @@ def write_head(ontology_name, found_classes, found_properties):
 
 def do_stuff(ontology_name):
     classes = HELPER.get_classes(ontology_name)
-    if len(classes) > 0:
-        found_classes = True
-    else:
-        found_classes = False
+    found_classes = bool(len(classes) > 0)
 
     properties = HELPER.get_properties(ontology_name)
-    if len(properties) > 0:
-        found_properties = True
-    else:
-        found_properties = False
+    found_properties = bool(len(properties) > 0)
 
     write_head(ontology_name, found_classes, found_properties)
 

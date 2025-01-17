@@ -51,7 +51,6 @@ class Helper:
         self.GRAPH_STORE[NERC] = graph
 
     def get_alt_label(self, graph_name, uri):
-        print(f"Get alt label for {uri}")
         statement = (
             f"{self.PREFIX} SELECT ?label WHERE {{<{uri}> skos:altLabel ?label}}"
         )
@@ -184,7 +183,7 @@ class Helper:
         self.FILE.write("</ul>\n")
 
     def write_acknowledgements(self, ontology_name):
-        in_file_name = "%s-ontology.csv" % ontology_name
+        in_file_name = f"{ontology_name}-ontology.csv"
         count = 0
         in_file = os.path.join(CSV_DIRECTORY, in_file_name)
         with open(in_file, "r", encoding="utf-8") as csvfile:
@@ -208,34 +207,34 @@ class Helper:
         )
         self.FILE.write("<dl>\n")
         self.FILE.write("<dt><em>default namespace</em></dt>\n")
-        self.FILE.write("<dd>%s</dd>\n" % (ONTOLOGY_MAP[ontology_name]))
+        self.FILE.write(f"<dd>{ONTOLOGY_MAP[ontology_name]}</dd>\n")
         if ontology_name == GLOSSARY:
             self.FILE.write("<dt>cito</dt>\n")
-            self.FILE.write("<dd>%s</dd>" % CITO)
+            self.FILE.write(f"<dd>{CITO}</dd>")
         #     if ontology_name == CCI:
         #         self.FILE.write('<dt>%s</dt>\n' % GCOS)
         #         self.FILE.write('<dd>%s</dd>\n' % (GCOS_ONTOLOGY))
         if ontology_name == CMIP:
-            self.FILE.write("<dt>%s</dt>\n" % GCOS)
-            self.FILE.write("<dd>%s</dd>\n" % (GCOS_ONTOLOGY))
-            self.FILE.write("<dt>%s</dt>\n" % GRIB)
-            self.FILE.write("<dd>%s</dd>\n" % (GRIB_ONTOLOGY))
+            self.FILE.write(f"<dt>{GCOS}</dt>\n")
+            self.FILE.write(f"<dd>{GCOS_ONTOLOGY}</dd>\n")
+            self.FILE.write(f"<dt>{GRIB}</dt>\n")
+            self.FILE.write(f"<dd>{GRIB_ONTOLOGY}</dd>\n")
         if ontology_name == GRIB:
-            self.FILE.write("<dt>%s</dt>\n" % CMIP)
-            self.FILE.write("<dd>%s</dd>\n" % (CMIP_ONTOLOGY))
+            self.FILE.write(f"<dt>{CMIP}</dt>\n")
+            self.FILE.write(f"<dd>{CMIP_ONTOLOGY}</dd>\n")
         if ontology_name == GCOS:
-            self.FILE.write("<dt>%s</dt>\n" % CMIP)
-            self.FILE.write("<dd>%s</dd>\n" % (CMIP_ONTOLOGY))
+            self.FILE.write(f"<dt>{CMIP}</dt>\n")
+            self.FILE.write(f"<dd>{CMIP_ONTOLOGY}</dd>\n")
         self.FILE.write("<dt>dc</dt>\n")
-        self.FILE.write("<dd>%s</dd>" % DC)
+        self.FILE.write(f"<dd>{DC}</dd>")
         self.FILE.write("<dt>owl</dt>\n")
-        self.FILE.write("<dd>%s</dd>" % OWL)
+        self.FILE.write(f"<dd>{OWL}</dd>")
         self.FILE.write("<dt>rdf</dt>\n")
-        self.FILE.write("<dd>%s</dd>" % RDF)
+        self.FILE.write(f"<dd>{RDF}</dd>")
         self.FILE.write("<dt>rdfs</dt>\n")
-        self.FILE.write("<dd>%s</dd>" % RDFS)
+        self.FILE.write(f"<dd>{RDFS}</dd>")
         self.FILE.write("<dt>skos</dt>\n")
-        self.FILE.write("<dd>%s</dd>" % SKOS)
+        self.FILE.write(f"<dd>{SKOS}</dd>")
 
     def write_entities(
         self, ontology_name, results, _id, title, additional_results=None
@@ -260,28 +259,23 @@ class Helper:
             label = self.get_alt_label(NERC, result.subject)
         else:
             label = self.get_label(ontology_name, result.subject)
-        self.FILE.write('<div id="%s" class="entity">\n' % link)
+        self.FILE.write(f'<div id="{link}" class="entity">\n')
         if result.subject in OBJECT_PROPERTIES:
             self.FILE.write(
-                '<h3>%s<sup title="object property" class="type-op">op</sup>' % label
+                f'<h3>{label}<sup title="object property" class="type-op">op</sup>'
             )
         else:
-            self.FILE.write("<h3>%s" % label)
+            self.FILE.write(f"<h3>{label}")
         self.FILE.write(
-            '<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#%s">%s ToC</a></span></h3>\n'
-            % (_id, title)
+            f'<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#{_id}">{title} ToC</a></span></h3>\n'
         )
 
         if SPARQL_HOST_NAME not in result.subject:
             self.FILE.write(
-                '<p><strong>IRI:</strong> <a href="{uri}">{uri}</a></p>\n'.format(
-                    uri=result.subject
-                )
+                f'<p><strong>IRI:</strong> <a href="{result.subject}">{result.subject}</a></p>\n'
             )
         else:
-            self.FILE.write(
-                "<p><strong>IRI:</strong> {uri}</p>\n".format(uri=result.subject)
-            )
+            self.FILE.write(f"<p><strong>IRI:</strong> {result.subject}</p>\n")
 
         altLabels = []
         hasTopConcepts = []
@@ -396,7 +390,7 @@ class Helper:
             elif res.p == RDFS.label:
                 pass
             else:
-                print("write_entities - ignoring %s %s" % (res.p, res.o))
+                print(f"write_entities - ignoring {res.p} {res.o}")
 
         has_sub_class = self.get_sub_classes(ontology_name, result.subject)
 
@@ -456,7 +450,7 @@ class Helper:
     def write_comment(self, comment):
         if comment is not None:
             self.FILE.write('<div class="comment">\n')
-            self.FILE.write('<span class="markdown">%s</span>' % comment)
+            self.FILE.write(f'<span class="markdown">{comment}</span>')
             self.FILE.write("</div>")
 
     def write_link(self, ontology_name, uri):
@@ -492,13 +486,13 @@ class Helper:
             label = uri
 
         if local:
-            self.FILE.write('<a href="#%s" title="%s">%s</a>' % (link, uri, label))
+            self.FILE.write(f'<a href="#{link}" title="{uri}">{label}</a>')
         else:
-            self.FILE.write('<a href="%s" title="%s">%s</a>' % (uri, uri, label))
+            self.FILE.write(f'<a href="{uri}" title="{uri}">{label}</a>')
 
     def write_list(self, ontology_name, uris, name):
         if len(uris) > 0:
-            self.FILE.write("<dt>%s</dt>\n<dd>\n" % name)
+            self.FILE.write(f"<dt>{name}</dt>\n<dd>\n")
             first = True
             for uri in uris:
                 if first:
@@ -517,11 +511,11 @@ class Helper:
     def write_literals(self, uris, name):
         if uris is None:
             return
-        if type(uris) == list and len(uris) == 0:
+        if isinstance(uris, list) and len(uris) == 0:
             return
 
-        self.FILE.write("<dt>%s</dt>\n<dd>\n" % name)
-        if type(uris) == list:
+        self.FILE.write(f"<dt>{name}</dt>\n<dd>\n")
+        if isinstance(uris, list):
             first = True
             for uri in uris:
                 if first:
