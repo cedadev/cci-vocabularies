@@ -4,7 +4,12 @@ import os
 
 from rdflib.namespace import DC, OWL, RDFS, SKOS
 
-from settings import SCHEME_MAP, CSV_DIRECTORY, ONTOLOGY_MAP
+from vocabularies.settings import (
+    SCHEME_MAP,
+    CSV_DIRECTORY,
+    MODEL_DIRECTORY,
+    ONTOLOGY_MAP,
+)
 
 
 # columns in spreadsheet
@@ -28,7 +33,7 @@ def write_ttl(ontology_name):
     # write out the data for each top concept
     in_file = os.path.join(CSV_DIRECTORY, ontology_name + "-schemes.csv")
     count = 0
-    with open(in_file, "rb") as csvfile:
+    with open(in_file, "r", encoding="utf-8") as csvfile:
         cvsreader = csv.reader(csvfile, delimiter="`", quotechar='"')
         for row in cvsreader:
             count = count + 1
@@ -39,51 +44,50 @@ def write_ttl(ontology_name):
 
 def _write_concept_scheme(ontology_name, row):
     uri = row[URI].strip()
-    prefix = "%s-%s" % (ontology_name, uri)
-    out_file_name = "%s-scheme.ttl" % prefix
+    prefix = f"{ontology_name}-{uri}"
+    out_file_name = f"{prefix}-scheme.ttl"
 
     date = datetime.now().strftime("%Y-%m-%d")
-    out_file = os.path.join("..", "model", out_file_name)
-    f = open(out_file, "w")
-    # prefixes
-    f.write(
-        "@prefix %s_ontology: <%s> .\n" % (ontology_name, ONTOLOGY_MAP[ontology_name])
-    )
-    f.write("@prefix %s: <%s/%s> .\n" % (prefix, SCHEME_MAP[ontology_name], uri))
-    f.write("@prefix dc: <%s> .\n" % DC)
-    f.write("@prefix owl: <%s> .\n" % OWL)
-    f.write("@prefix rdfs: <%s> .\n" % RDFS)
-    f.write("@prefix skos: <%s> .\n\n\n" % SKOS)
+    out_file = os.path.join(MODEL_DIRECTORY, out_file_name)
+    with open(out_file, "w", encoding="utf-8") as ttl_writer:
+        # prefixes
+        ttl_writer.write(
+            f"@prefix {ontology_name}_ontology: <{ONTOLOGY_MAP[ontology_name]}> .\n"
+        )
+        ttl_writer.write(f"@prefix {prefix}: <{SCHEME_MAP[ontology_name]}/{uri}> .\n")
+        ttl_writer.write(f"@prefix dc: <{DC}> .\n")
+        ttl_writer.write(f"@prefix owl: <{OWL}> .\n")
+        ttl_writer.write(f"@prefix rdfs: <{RDFS}> .\n")
+        ttl_writer.write(f"@prefix skos: <{SKOS}> .\n\n\n")
 
-    # add to top scheme
-    f.write("%s_ontology: a skos:ConceptScheme ;\n" % (ontology_name))
-    f.write("    skos:hasTopConcept %s: .\n\n" % (prefix))
+        # add to top scheme
+        ttl_writer.write(f"{ontology_name}_ontology: a skos:ConceptScheme ;\n")
+        ttl_writer.write(f"    skos:hasTopConcept {prefix}: .\n\n")
 
-    # concept scheme
-    f.write("%s: a skos:ConceptScheme ;\n" % (prefix))
-    f.write('    skos:prefLabel "%s"@en ;\n' % row[PREF_LABEL])
-    f.write('    skos:definition "%s"@en ;\n' % _parse(row[DEF]))
-    f.write('    dc:title "%s" ;\n' % row[PREF_LABEL])
-    f.write('    dc:rights "%s"@en ;\n' % row[RIGHTS])
-    f.write('    dc:publisher "%s"@en ;\n' % row[PUBLISHER])
-    f.write('    rdfs:comment "%s" ;\n' % _parse(row[ABSTRACT]))
-    creators = row[CREATOR].split(", ")
-    for creator in creators:
-        f.write('    dc:creator "%s" ;\n' % creator)
-    if row[CONTRIBUTOR]:
-        contributors = row[CONTRIBUTOR].split(", ")
-        for contributor in contributors:
-            f.write('    dc:contributor "%s" ;\n' % contributor)
-    f.write('    owl:versionInfo "%s";\n' % row[VERSION])
-    f.write('    dc:date "%s" ;\n' % date)
+        # concept scheme
+        ttl_writer.write(f"{prefix}: a skos:ConceptScheme ;\n")
+        ttl_writer.write(f'    skos:prefLabel "{row[PREF_LABEL]}"@en ;\n')
+        ttl_writer.write(f'    skos:definition "{_parse(row[DEF])}"@en ;\n')
+        ttl_writer.write(f'    dc:title "{row[PREF_LABEL]}" ;\n')
+        ttl_writer.write(f'    dc:rights "{row[RIGHTS]}"@en ;\n')
+        ttl_writer.write(f'    dc:publisher "{row[PUBLISHER]}"@en ;\n')
+        ttl_writer.write(f'    rdfs:comment "{_parse(row[ABSTRACT])}" ;\n')
+        creators = row[CREATOR].split(", ")
+        for creator in creators:
+            ttl_writer.write(f'    dc:creator "{creator}" ;\n')
+        if row[CONTRIBUTOR]:
+            contributors = row[CONTRIBUTOR].split(", ")
+            for contributor in contributors:
+                ttl_writer.write(f'    dc:contributor "{contributor}" ;\n')
+        ttl_writer.write(f'    owl:versionInfo "{row[VERSION]}";\n')
+        ttl_writer.write(f'    dc:date "{date}" ;\n')
 
-    if row[SEE_ALSO]:
-        see_also = row[SEE_ALSO].split(", ")
-        for also in see_also:
-            f.write("    rdfs:seeAlso <%s> ;\n" % also)
-    f.write('    dc:description "%s" ;\n' % _parse(row[DESC]))
-    f.write("    .\n\n")
-    f.close()
+        if row[SEE_ALSO]:
+            see_also = row[SEE_ALSO].split(", ")
+            for also in see_also:
+                ttl_writer.write(f"    rdfs:seeAlso <{also}> ;\n")
+        ttl_writer.write(f'    dc:description "{_parse(row[DESC])}" ;\n')
+        ttl_writer.write("    .\n\n")
 
 
 def _parse(obj):

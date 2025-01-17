@@ -3,7 +3,7 @@ import os
 
 from rdflib.namespace import OWL, RDF, RDFS, SKOS
 
-from settings import CITO, NAME_SPACE_MAP, CSV_DIRECTORY
+from vocabularies.settings import CITO, NAME_SPACE_MAP, CSV_DIRECTORY, MODEL_DIRECTORY
 
 
 # columns in spreadsheet
@@ -21,77 +21,76 @@ LINKS = "links"
 
 
 def write_ttl(in_file_name, out_file_name, class_name, class_label, prefix):
-    concept_scheme = "%sConceptScheme" % class_name
-    out_file = os.path.join("..", "model", out_file_name)
-    f = open(out_file, "w")
-    f.write("@prefix %s: <%s> .\n" % (prefix, NAME_SPACE_MAP[prefix]))
-    f.write("@prefix cito: <%s> .\n" % CITO)
-    f.write("@prefix owl: <%s> .\n" % OWL)
-    f.write("@prefix rdf: <%s> .\n" % RDF)
-    f.write("@prefix rdfs: <%s> .\n" % RDFS)
-    f.write("@prefix skos: <%s> .\n\n\n" % SKOS)
+    concept_scheme = f"{class_name}ConceptScheme"
+    out_file = os.path.join(MODEL_DIRECTORY, out_file_name)
+    with open(out_file, "w", encoding="utf-8") as ttl_writer:
+        ttl_writer.write(f"@prefix {prefix}: <{NAME_SPACE_MAP[prefix]}> .\n")
+        ttl_writer.write(f"@prefix cito: <{CITO}> .\n")
+        ttl_writer.write(f"@prefix owl: <{OWL}> .\n")
+        ttl_writer.write(f"@prefix rdf: <{RDF}> .\n")
+        ttl_writer.write(f"@prefix rdfs: <{RDFS}> .\n")
+        ttl_writer.write(f"@prefix skos: <{SKOS}> .\n\n\n")
 
-    # concept scheme
-    f.write("#\n")
-    f.write("# concept scheme\n")
-    f.write("#\n\n")
-    f.write("%s:%s a skos:ConceptScheme .\n" % (prefix, concept_scheme))
+        # concept scheme
+        ttl_writer.write("#\n")
+        ttl_writer.write("# concept scheme\n")
+        ttl_writer.write("#\n\n")
+        ttl_writer.write(f"{prefix}:{concept_scheme} a skos:ConceptScheme .\n")
 
-    # concepts
-    f.write("#\n")
-    f.write("# concepts\n")
-    f.write("#\n\n")
+        # concepts
+        ttl_writer.write("#\n")
+        ttl_writer.write("# concepts\n")
+        ttl_writer.write("#\n\n")
 
-    glossary = _parse_file(in_file_name)
-    for key in glossary.keys():
-        for line in glossary[key]:
-            f.write(
-                "%s:%s a skos:Concept ;\n" % (prefix, line[ALT_LABEL])
-            )  # TODO what to use as uri?
-            f.write("    skos:inScheme %s:%s ;\n" % (prefix, concept_scheme))
-            f.write('    skos:prefLabel "%s"@en ;\n' % line[LABEL])
-            if line[ALT_LABEL] != "":
-                f.write('    skos:altLabel "%s" ;\n' % line[ALT_LABEL])
-            if line[DEF] != "":
-                f.write('    skos:definition "%s"@en ;\n' % line[DEF])
+        glossary = _parse_file(in_file_name)
+        for key in glossary.keys():
+            for line in glossary[key]:
+                ttl_writer.write(
+                    f"{prefix}:{line[ALT_LABEL]} a skos:Concept ;\n"
+                )  # TODO what to use as uri?
+                ttl_writer.write(f"    skos:inScheme {prefix}:{concept_scheme} ;\n")
+                ttl_writer.write(f'    skos:prefLabel "{line[LABEL]}"@en ;\n')
+                if line[ALT_LABEL] != "":
+                    ttl_writer.write(f'    skos:altLabel "{line[ALT_LABEL]}" ;\n')
+                if line[DEF] != "":
+                    ttl_writer.write(f'    skos:definition "{line[DEF]}"@en ;\n')
 
-            try:
-                citation = line[IPCC]
-            except KeyError:
-                citation = None
-            if citation == "WGI":
-                f.write(
-                    "    cito:citesAsSourceDocument <http://www.ipcc.ch/pdf/glossary/ar4-wg1.pdf>;\n"
-                )
-            elif citation == "WGII":
-                f.write(
-                    "    cito:citesAsSourceDocument <http://www.ipcc.ch/pdf/glossary/ar4-wg2.pdf>;\n"
-                )
-            elif citation == "WGIII":
-                f.write(
-                    "    cito:citesAsSourceDocument <http://www.ipcc.ch/pdf/glossary/ar4-wg3.pdf>;\n"
-                )
-            elif citation == "WGI (AR4)":
-                f.write(
-                    "    cito:citesAsSourceDocument <http://www.ipcc.ch/>;\n"
-                )  # TODO find ref
-            elif citation:
-                print("unknown citation %s" % citation)
-            try:
-                links = line[LINKS]
-                keys = links.keys()
-                sorted_keys = sorted(keys)
-                for key in sorted_keys:
-                    if key.startswith("http"):
-                        f.write("    rdfs:seeAlso <%s> ;\n" % key)
-                    elif key:
-                        f.write(
-                            "    rdfs:seeAlso %s:%s ;\n" % (prefix, key.split("#")[1])
-                        )
-            except KeyError:
-                pass
-            f.write(".\n\n")
-    f.close()
+                try:
+                    citation = line[IPCC]
+                except KeyError:
+                    citation = None
+                if citation == "WGI":
+                    ttl_writer.write(
+                        "    cito:citesAsSourceDocument <http://www.ipcc.ch/pdf/glossary/ar4-wg1.pdf>;\n"
+                    )
+                elif citation == "WGII":
+                    ttl_writer.write(
+                        "    cito:citesAsSourceDocument <http://www.ipcc.ch/pdf/glossary/ar4-wg2.pdf>;\n"
+                    )
+                elif citation == "WGIII":
+                    ttl_writer.write(
+                        "    cito:citesAsSourceDocument <http://www.ipcc.ch/pdf/glossary/ar4-wg3.pdf>;\n"
+                    )
+                elif citation == "WGI (AR4)":
+                    ttl_writer.write(
+                        "    cito:citesAsSourceDocument <http://www.ipcc.ch/>;\n"
+                    )  # TODO find ref
+                elif citation:
+                    print(f"unknown citation {citation}")
+                try:
+                    links = line[LINKS]
+                    keys = links.keys()
+                    sorted_keys = sorted(keys)
+                    for key in sorted_keys:
+                        if key.startswith("http"):
+                            ttl_writer.write(f"    rdfs:seeAlso <{key}> ;\n")
+                        elif key:
+                            ttl_writer.write(
+                                f'    rdfs:seeAlso {prefix}:{key.split("#")[1]} ;\n'
+                            )
+                except KeyError:
+                    pass
+                ttl_writer.write(".\n\n")
 
 
 def _get_display_name(name):
@@ -102,17 +101,17 @@ def _get_display_name(name):
             if tmp == "":
                 tmp = letter
             else:
-                tmp = "%s-%s" % (tmp, letter.capitalize())
+                tmp = f"{tmp}-{letter.capitalize()}"
         name_letter = tmp
-    return "Glossary %s" % name_letter
+    return f"Glossary {name_letter}"
 
 
 def _parse_file(in_file_name):
     # dict, key= display name, value = list of lines
     count = 0
-    in_file = "%s%s" % (CSV_DIRECTORY, in_file_name)
+    in_file = f"{CSV_DIRECTORY}{in_file_name}"
 
-    with open(in_file, "rb") as csvfile:
+    with open(in_file, "r", encoding="utf-8") as csvfile:
         cvsreader = csv.reader(csvfile, delimiter="$", quotechar='"')
         glossary = {}
         line = None

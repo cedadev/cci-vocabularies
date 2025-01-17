@@ -1,5 +1,6 @@
 import os
 
+
 MAPPING_1 = 1
 MAPPING_2 = 2
 MAPPING_BOTH = 3
@@ -51,7 +52,7 @@ NAME_SPACE = "http://%s" % SPARQL_HOST_NAME
 # GRIB_NAME_SPACE = '%s/%s#' % (NAME_SPACE, GRIB)
 # GLOSSARY_NAME_SPACE = '%s/%s#' % (NAME_SPACE, GLOSSARY)
 
-# NAME_SPACE_MAP = {}
+NAME_SPACE_MAP = {}
 # NAME_SPACE_MAP[CCI] = CCI_NAME_SPACE
 # NAME_SPACE_MAP[C4I] = C4I_NAME_SPACE
 # NAME_SPACE_MAP[CMIP] = CMIP_NAME_SPACE
@@ -105,9 +106,10 @@ COLLECTION_MAP[GCOS] = GCOS_COLLECTION
 COLLECTION_MAP[GRIB] = GRIB_COLLECTION
 COLLECTION_MAP[GLOSSARY] = GLOSSARY_COLLECTION
 
-CSV_DIRECTORY = os.path.join("..", "csv")
-DATA_DIRECTORY = os.path.join("..", "data")
-HTML_DIRECTORY = os.path.join("..", "html")
-MODEL_DIRECTORY = os.path.join("..", "model")
+BASE_PATH = os.path.abspath(os.path.dirname(__file__))
+CSV_DIRECTORY = os.path.join(BASE_PATH, "..", "csv")
+DATA_DIRECTORY = os.path.join(BASE_PATH, "..", "data")
+HTML_DIRECTORY = os.path.join(BASE_PATH, "..", "html")
+MODEL_DIRECTORY = os.path.join(BASE_PATH, "..", "model")
 
 CITO = "http://purl.org/spar/cito/"

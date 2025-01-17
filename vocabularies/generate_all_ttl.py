@@ -1,10 +1,9 @@
-import generate_cci_ttl
-import generate_climate4impact_ttl
-import generate_cmip_ttl
-import generate_gcos_ttl
-import generate_grib_ttl
-
-from settings import ONTOLOGIES, CCI, C4I, CMIP, GCOS, GRIB, GLOSSARY
+from vocabularies import generate_cci_ttl
+from vocabularies import generate_climate4impact_ttl
+from vocabularies import generate_cmip_ttl
+from vocabularies import generate_gcos_ttl
+from vocabularies import generate_grib_ttl
+from vocabularies.settings import ONTOLOGIES, CCI, C4I, CMIP, GCOS, GRIB, GLOSSARY
 
 
 def generate():
@@ -19,7 +18,7 @@ def generate():
     if GRIB in ONTOLOGIES:
         generate_grib_ttl.generate()
     if GLOSSARY in ONTOLOGIES:
-        import generate_glossary_ttl
+        from vocabularies import generate_glossary_ttl
 
         generate_glossary_ttl.generate()
 

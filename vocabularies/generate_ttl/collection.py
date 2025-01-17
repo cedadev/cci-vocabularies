@@ -1,10 +1,11 @@
 import csv
 from datetime import datetime
 import os
+from pathlib import Path
 
 from rdflib.namespace import DC, OWL, RDFS, SKOS
 
-from settings import CSV_DIRECTORY, COLLECTION_MAP
+from vocabularies.settings import CSV_DIRECTORY, COLLECTION_MAP, MODEL_DIRECTORY
 
 
 # columns in spreadsheet
@@ -19,9 +20,11 @@ PUBLISHER = 7
 
 
 def write_ttl(ontology_name):
-    in_file = os.path.join(CSV_DIRECTORY, "{}-collections.csv".format(ontology_name))
+    # if needed, create a new directory
+    Path(MODEL_DIRECTORY).mkdir(parents=True, exist_ok=True)
+    in_file = os.path.join(CSV_DIRECTORY, f"{ontology_name}-collections.csv")
     count = 0
-    with open(in_file, "rb") as csvfile:
+    with open(in_file, "r", encoding="utf-8") as csvfile:
         cvsreader = csv.reader(csvfile, delimiter="`", quotechar='"')
         for row in cvsreader:
             count = count + 1
@@ -32,34 +35,37 @@ def write_ttl(ontology_name):
 
 def _write_collection(ontology_name, row):
     uri = row[URI].strip()
-    prefix = "%s-%s-collection" % (ontology_name, uri)
-    out_file_name = "%s.ttl" % prefix
+    prefix = f"{ontology_name}-{uri}-collection"
+    out_file_name = f"{prefix}.ttl"
 
     date = datetime.now().strftime("%Y-%m-%d")
-    out_file = os.path.join("..", "model", out_file_name)
-    f = open(out_file, "w")
-    # prefixes
-    f.write("@prefix %s: <%s%s> .\n" % (prefix, COLLECTION_MAP[ontology_name], uri))
-    f.write("@prefix dc: <%s> .\n" % DC)
-    f.write("@prefix owl: <%s> .\n" % OWL)
-    f.write("@prefix rdfs: <%s> .\n" % RDFS)
-    f.write("@prefix skos: <%s> .\n\n\n" % SKOS)
+    out_file = os.path.join(MODEL_DIRECTORY, out_file_name)
+    with open(out_file, "w", encoding="utf-8") as ttl_writer:
+        # prefixes
+        ttl_writer.write(
+            f"@prefix {prefix}: <{COLLECTION_MAP[ontology_name]}{uri}> .\n"
+        )
+        ttl_writer.write(f"@prefix dc: <{DC}> .\n")
+        ttl_writer.write(f"@prefix owl: <{OWL}> .\n")
+        ttl_writer.write(f"@prefix rdfs: <{RDFS}> .\n")
+        ttl_writer.write(f"@prefix skos: <{SKOS}> .\n\n\n")
 
-    # collection
-    f.write("<%s%s> a skos:Collection ;\n" % (COLLECTION_MAP[ontology_name], uri))
-    f.write('    skos:prefLabel "%s"@en ;\n' % row[PREF_LABEL])
-    f.write('    skos:definition "%s"@en ;\n' % _parse(row[DESC]))
-    f.write('    dc:title "%s" ;\n' % row[PREF_LABEL])
-    f.write('    dc:publisher "%s"@en ;\n' % row[PUBLISHER])
-    f.write('    rdfs:comment "%s" ;\n' % _parse(row[ABSTRACT]))
-    creators = row[CREATOR].split(", ")
-    for creator in creators:
-        f.write('    dc:creator "%s" ;\n' % creator)
-    f.write('    owl:versionInfo "%s";\n' % row[VERSION])
-    f.write('    dc:date "%s" ;\n' % date)
-    f.write('    dc:description "%s" ;\n' % _parse(row[DESC]))
-    f.write("    .\n\n")
-    f.close()
+        # collection
+        ttl_writer.write(
+            f"<{COLLECTION_MAP[ontology_name]}{uri}> a skos:Collection ;\n"
+        )
+        ttl_writer.write(f'    skos:prefLabel "{row[PREF_LABEL]}"@en ;\n')
+        ttl_writer.write(f'    skos:definition "{_parse(row[DESC])}"@en ;\n')
+        ttl_writer.write(f'    dc:title "{row[PREF_LABEL]}" ;\n')
+        ttl_writer.write(f'    dc:publisher "{row[PUBLISHER]}"@en ;\n')
+        ttl_writer.write(f'    rdfs:comment "{_parse(row[ABSTRACT])}" ;\n')
+        creators = row[CREATOR].split(", ")
+        for creator in creators:
+            ttl_writer.write(f'    dc:creator "{creator}" ;\n')
+        ttl_writer.write(f'    owl:versionInfo "{row[VERSION]}";\n')
+        ttl_writer.write(f'    dc:date "{date}" ;\n')
+        ttl_writer.write(f'    dc:description "{_parse(row[DESC])}" ;\n')
+        ttl_writer.write("    .\n\n")
 
 
 def _parse(obj):
