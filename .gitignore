@@ -7,7 +7,6 @@
 /venv/
 html/collection/cci/cci-content/dataType.html
 html/collection/cci/cci-content/dataType.json
-html/collection/cci/cci-content/dataType.ttl
 html/collection/cci/cci-content/ecv.html
 html/collection/cci/cci-content/ecv.json
 html/collection/cci/cci-content/ecv.rdf
@@ -58,7 +57,6 @@ html/scheme/cci/cci-content/cci.ttl
 html/scheme/cci/cci-content/dataType.html
 html/scheme/cci/cci-content/dataType.json
 html/scheme/cci/cci-content/dataType.rdf
-html/scheme/cci/cci-content/dataType.ttl
 html/scheme/cci/cci-content/ecv.html
 html/scheme/cci/cci-content/ecv.json
 html/scheme/cci/cci-content/ecv.rdf

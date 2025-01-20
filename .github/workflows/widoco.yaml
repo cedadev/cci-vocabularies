@@ -26,15 +26,45 @@ jobs:
     - name: Download widoco
       run: mkdir widoco && wget -O widoco/widoco.jar https://github.com/dgarijo/Widoco/releases/download/v1.4.14/widoco-1.4.14-jar-with-dependencies.jar
   
-    - name: Compile documentation
+    - name: Compile ontology documentation
       run: |
-        cd widoco        
+        cd widoco
         java -jar ./widoco.jar \
         -ontFile ../html/ontology/cci/cci-content/cci-ontology.ttl \
         -oops \
         -webVowl \
         -includeAnnotationProperties \
-        -outFolder doc/ \
+        -outFolder doc/ontology/ \
+        -rewriteAll \
+        -includeImportedOntologies \
+        -uniteSections \
+        -excludeIntroduction
+        cd ..
+ 
+    - name: Compile collection documentation
+      run: |
+        cd widoco      
+        java -jar ./widoco.jar \
+        -ontFile ../html/collection/cci/cci-content/dataType.ttl \
+        -oops \
+        -webVowl \
+        -includeAnnotationProperties \
+        -outFolder doc/collection/ \
+        -rewriteAll \
+        -includeImportedOntologies \
+        -uniteSections \
+        -excludeIntroduction
+        cd ..
+
+    - name: Compile scheme documentation
+      run: |
+        cd widoco      
+        java -jar ./widoco.jar \
+        -ontFile ../html/scheme/cci/cci-content/dataType.ttl \
+        -oops \
+        -webVowl \
+        -includeAnnotationProperties \
+        -outFolder doc/scheme/ \
         -rewriteAll \
         -includeImportedOntologies \
         -uniteSections \
@@ -44,7 +74,7 @@ jobs:
     -  name: Publish documentation to repo
        run: |
           mkdir -p docs/widoco/
-          cp -R widoco/doc/* docs/widoco/
+          cp -R widoco/doc/* docs/
           cd docs/widoco/
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
