@@ -26,3 +26,8 @@ The order of the columns is meaningful.
 * **Column C** - the **alternative label**.
 * **Column D** - a **definition** of the concept.
 
+### Updates to the Spreadsheets
+
+When a new concept is added or an existing concept updated then the corresponding version numbers should be updated.
+
+For example if a new ECV is added to `cci-ecv.xlsx` then the version numbers should be updated in `cci-collections.xlsx`, `cci-schemes.xlsx` and `cci-ontology.xlsx`
