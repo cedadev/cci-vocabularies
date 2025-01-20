@@ -1,0 +1,1237 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/rights
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#altLabel
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#hasTopConcept
+<http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#scopeNote
+<http://www.w3.org/2004/02/skos/core#scopeNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#topConceptOf
+<http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://vocab.ceda.ac.uk/ontology/cci#dataType
+<http://vocab.ceda.ac.uk/ontology/cci#dataType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/aerosol> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai> <http://www.w3.org/2004/02/skos/core#altLabel> "AAI"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai> <http://www.w3.org/2004/02/skos/core#definition> "absorbing aerosol index"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai> <http://www.w3.org/2004/02/skos/core#prefLabel> "absorbing aerosol index"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai> <http://www.w3.org/2004/02/skos/core#scopeNote> "absorbing aerosol index"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/ocean-colour/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg> <http://www.w3.org/2004/02/skos/core#altLabel> "ADG"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg> <http://www.w3.org/2004/02/skos/core#definition> "absorption by coloured dissolved organic matter"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg> <http://www.w3.org/2004/02/skos/core#prefLabel> "absorption by coloured dissolved organic matter"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg> <http://www.w3.org/2004/02/skos/core#scopeNote> "absorption by coloured dissolved organic matter"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-level/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt> <http://www.w3.org/2004/02/skos/core#altLabel> "ADT"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt> <http://www.w3.org/2004/02/skos/core#definition> "absolute dynamic topography"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt> <http://www.w3.org/2004/02/skos/core#prefLabel> "absolute dynamic topography"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt> <http://www.w3.org/2004/02/skos/core#scopeNote> "absolute dynamic topography"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/aerosol> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd> <http://www.w3.org/2004/02/skos/core#altLabel> "AER_PRODUCTS"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd> <http://www.w3.org/2004/02/skos/core#definition> "multiple aerosol products"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd> <http://www.w3.org/2004/02/skos/core#prefLabel> "multiple aerosol products"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd> <http://www.w3.org/2004/02/skos/core#scopeNote> "multiple aerosol products"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/aerosol> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex> <http://www.w3.org/2004/02/skos/core#altLabel> "AEX"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex> <http://www.w3.org/2004/02/skos/core#definition> "stratospheric aerosol extinction profile"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex> <http://www.w3.org/2004/02/skos/core#prefLabel> "stratospheric aerosol extinction profile"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex> <http://www.w3.org/2004/02/skos/core#scopeNote> "stratospheric aerosol extinction profile"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/biomass> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb> <http://www.w3.org/2004/02/skos/core#altLabel> "AGB"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb> <http://www.w3.org/2004/02/skos/core#definition> "above-ground biomass"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb> <http://www.w3.org/2004/02/skos/core#prefLabel> "above-ground biomass"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb> <http://www.w3.org/2004/02/skos/core#scopeNote> "above-ground biomass"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/land-cover/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb> <http://www.w3.org/2004/02/skos/core#altLabel> "Alb"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb> <http://www.w3.org/2004/02/skos/core#definition> "condition albedo"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb> <http://www.w3.org/2004/02/skos/core#prefLabel> "condition albedo"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb> <http://www.w3.org/2004/02/skos/core#scopeNote> "condition albedo"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all> <http://www.w3.org/2004/02/skos/core#altLabel> "ALL"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all> <http://www.w3.org/2004/02/skos/core#definition> "all"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all> <http://www.w3.org/2004/02/skos/core#prefLabel> "all"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all> <http://www.w3.org/2004/02/skos/core#scopeNote> "all"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/permafrost> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt> <http://www.w3.org/2004/02/skos/core#altLabel> "ALT"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt> <http://www.w3.org/2004/02/skos/core#definition> "active layer thickness"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt> <http://www.w3.org/2004/02/skos/core#prefLabel> "active layer thickness"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt> <http://www.w3.org/2004/02/skos/core#scopeNote> "active layer thickness"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/aerosol> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod> <http://www.w3.org/2004/02/skos/core#altLabel> "AOD"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod> <http://www.w3.org/2004/02/skos/core#definition> "aerosol optical depth"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod> <http://www.w3.org/2004/02/skos/core#prefLabel> "aerosol optical depth"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod> <http://www.w3.org/2004/02/skos/core#scopeNote> "aerosol optical depth"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/ocean-colour/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph> <http://www.w3.org/2004/02/skos/core#altLabel> "APH"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph> <http://www.w3.org/2004/02/skos/core#definition> "absorption by phytoplankton"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph> <http://www.w3.org/2004/02/skos/core#prefLabel> "absorption by phytoplankton"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph> <http://www.w3.org/2004/02/skos/core#scopeNote> "absorption by phytoplankton"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/ocean-colour/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot> <http://www.w3.org/2004/02/skos/core#altLabel> "ATOT"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot> <http://www.w3.org/2004/02/skos/core#definition> "total absorption"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot> <http://www.w3.org/2004/02/skos/core#prefLabel> "total absorption"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot> <http://www.w3.org/2004/02/skos/core#scopeNote> "total absorption"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/aerosol> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty> <http://www.w3.org/2004/02/skos/core#altLabel> "ATY"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty> <http://www.w3.org/2004/02/skos/core#definition> "aerosol type"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty> <http://www.w3.org/2004/02/skos/core#prefLabel> "aerosol type"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty> <http://www.w3.org/2004/02/skos/core#scopeNote> "aerosol type"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/fire> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/land-cover/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> <http://www.w3.org/2004/02/skos/core#altLabel> "BA"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> <http://www.w3.org/2004/02/skos/core#definition> "burned area"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> <http://www.w3.org/2004/02/skos/core#definition> "condition fire (burned area)"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> <http://www.w3.org/2004/02/skos/core#prefLabel> "burned area"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> <http://www.w3.org/2004/02/skos/core#prefLabel> "condition fire (burned area)"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> <http://www.w3.org/2004/02/skos/core#scopeNote> "burned area"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> <http://www.w3.org/2004/02/skos/core#scopeNote> "condition fire (burned area)"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/ocean-colour/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb> <http://www.w3.org/2004/02/skos/core#altLabel> "BB"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb> <http://www.w3.org/2004/02/skos/core#definition> "total backscattering"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb> <http://www.w3.org/2004/02/skos/core#prefLabel> "total backscattering"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb> <http://www.w3.org/2004/02/skos/core#scopeNote> "total backscattering"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/cloud> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer> <http://www.w3.org/2004/02/skos/core#altLabel> "CER"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer> <http://www.w3.org/2004/02/skos/core#definition> "cloud effective radius"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer> <http://www.w3.org/2004/02/skos/core#prefLabel> "cloud effective radius"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer> <http://www.w3.org/2004/02/skos/core#scopeNote> "cloud effective radius"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/cloud> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc> <http://www.w3.org/2004/02/skos/core#altLabel> "CFC"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc> <http://www.w3.org/2004/02/skos/core#definition> "cloud cover"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc> <http://www.w3.org/2004/02/skos/core#prefLabel> "cloud cover"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc> <http://www.w3.org/2004/02/skos/core#scopeNote> "cloud cover"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.esa-icesheets-cci.org/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl> <http://www.w3.org/2004/02/skos/core#altLabel> "CFL"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl> <http://www.w3.org/2004/02/skos/core#definition> "glacier calving front location"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl> <http://www.w3.org/2004/02/skos/core#prefLabel> "glacier calving front location"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl> <http://www.w3.org/2004/02/skos/core#scopeNote> "glacier calving front location"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/ghgs> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4> <http://www.w3.org/2004/02/skos/core#altLabel> "CH4"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4> <http://www.w3.org/2004/02/skos/core#definition> "column-averaged dry air mole fraction of CH4"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4> <http://www.w3.org/2004/02/skos/core#prefLabel> "column-averaged dry air mole fraction of CH4"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4> <http://www.w3.org/2004/02/skos/core#scopeNote> "column-averaged dry air mole fraction of CH4"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/ocean-colour/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA> <http://www.w3.org/2004/02/skos/core#altLabel> "CHLOR_A"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA> <http://www.w3.org/2004/02/skos/core#definition> "phytoplankton chlorophyll-a concentration"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA> <http://www.w3.org/2004/02/skos/core#prefLabel> "phytoplankton chlorophyll-a concentration"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA> <http://www.w3.org/2004/02/skos/core#scopeNote> "phytoplankton chlorophyll-a concentration"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/cloud> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd> <http://www.w3.org/2004/02/skos/core#altLabel> "CLD_PRODUCTS"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd> <http://www.w3.org/2004/02/skos/core#definition> "multiple cloud products"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd> <http://www.w3.org/2004/02/skos/core#prefLabel> "multiple cloud products"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd> <http://www.w3.org/2004/02/skos/core#scopeNote> "multiple cloud products"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/ghgs> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2> <http://www.w3.org/2004/02/skos/core#altLabel> "CO2"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2> <http://www.w3.org/2004/02/skos/core#definition> "column-averaged dry air mole fraction of CO2"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2> <http://www.w3.org/2004/02/skos/core#prefLabel> "column-averaged dry air mole fraction of CO2"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2> <http://www.w3.org/2004/02/skos/core#scopeNote> "column-averaged dry air mole fraction of CO2"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/cloud> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot> <http://www.w3.org/2004/02/skos/core#altLabel> "COT"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot> <http://www.w3.org/2004/02/skos/core#definition> "cloud optical thickness"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot> <http://www.w3.org/2004/02/skos/core#prefLabel> "cloud optical thickness"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot> <http://www.w3.org/2004/02/skos/core#scopeNote> "cloud optical thickness"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/cloud> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth> <http://www.w3.org/2004/02/skos/core#altLabel> "CTH"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth> <http://www.w3.org/2004/02/skos/core#definition> "cloud top height"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth> <http://www.w3.org/2004/02/skos/core#prefLabel> "cloud top height"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth> <http://www.w3.org/2004/02/skos/core#scopeNote> "cloud top height"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/cloud> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp> <http://www.w3.org/2004/02/skos/core#altLabel> "CTP"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp> <http://www.w3.org/2004/02/skos/core#definition> "cloud top pressure"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp> <http://www.w3.org/2004/02/skos/core#prefLabel> "cloud top pressure"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp> <http://www.w3.org/2004/02/skos/core#scopeNote> "cloud top pressure"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/cloud> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt> <http://www.w3.org/2004/02/skos/core#altLabel> "CTT"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt> <http://www.w3.org/2004/02/skos/core#definition> "cloud top temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt> <http://www.w3.org/2004/02/skos/core#prefLabel> "cloud top temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt> <http://www.w3.org/2004/02/skos/core#scopeNote> "cloud top temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/glaciers> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga> <http://www.w3.org/2004/02/skos/core#altLabel> "GA"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga> <http://www.w3.org/2004/02/skos/core#definition> "glacier area"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga> <http://www.w3.org/2004/02/skos/core#prefLabel> "glacier area"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga> <http://www.w3.org/2004/02/skos/core#scopeNote> "glacier area"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.esa-icesheets-cci.org/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll> <http://www.w3.org/2004/02/skos/core#altLabel> "GLL"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll> <http://www.w3.org/2004/02/skos/core#definition> "glacier grounding line location"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll> <http://www.w3.org/2004/02/skos/core#prefLabel> "glacier grounding line location"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll> <http://www.w3.org/2004/02/skos/core#scopeNote> "glacier grounding line location"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.esa-icesheets-cci.org/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb> <http://www.w3.org/2004/02/skos/core#altLabel> "GMB"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb> <http://www.w3.org/2004/02/skos/core#definition> "gravimetric mass balance"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb> <http://www.w3.org/2004/02/skos/core#prefLabel> "gravimetric mass balance"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb> <http://www.w3.org/2004/02/skos/core#scopeNote> "gravimetric mass balance"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/permafrost> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd> <http://www.w3.org/2004/02/skos/core#altLabel> "GTD"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd> <http://www.w3.org/2004/02/skos/core#definition> "ground temperature at a certain depth"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd> <http://www.w3.org/2004/02/skos/core#prefLabel> "ground temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd> <http://www.w3.org/2004/02/skos/core#scopeNote> "ground temperature at a certain depth"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/ocean-colour/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop> <http://www.w3.org/2004/02/skos/core#altLabel> "IOP"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop> <http://www.w3.org/2004/02/skos/core#definition> "inherent optical properties"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop> <http://www.w3.org/2004/02/skos/core#prefLabel> "inherent optical properties"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop> <http://www.w3.org/2004/02/skos/core#scopeNote> "inherent optical properties"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.esa-icesheets-cci.org/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv> <http://www.w3.org/2004/02/skos/core#altLabel> "IV"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv> <http://www.w3.org/2004/02/skos/core#definition> "ice sheet velocity"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv> <http://www.w3.org/2004/02/skos/core#prefLabel> "ice sheet velocity"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv> <http://www.w3.org/2004/02/skos/core#scopeNote> "ice sheet velocity"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/cloud> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp> <http://www.w3.org/2004/02/skos/core#altLabel> "IWP"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp> <http://www.w3.org/2004/02/skos/core#definition> "cloud ice water path"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp> <http://www.w3.org/2004/02/skos/core#prefLabel> "cloud ice water path"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp> <http://www.w3.org/2004/02/skos/core#scopeNote> "cloud ice water path"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/cloud> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch> <http://www.w3.org/2004/02/skos/core#altLabel> "JCH"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch> <http://www.w3.org/2004/02/skos/core#definition> "joint cloud physical properties"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch> <http://www.w3.org/2004/02/skos/core#prefLabel> "joint cloud physical properties"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch> <http://www.w3.org/2004/02/skos/core#scopeNote> "joint cloud physical properties"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/ocean-colour/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490> <http://www.w3.org/2004/02/skos/core#altLabel> "K_490"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490> <http://www.w3.org/2004/02/skos/core#definition> "spectral attenuation coefficient for downwelling irradiance"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490> <http://www.w3.org/2004/02/skos/core#prefLabel> "spectral attenuation coefficient for downwelling irradiance"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490> <http://www.w3.org/2004/02/skos/core#scopeNote> "spectral attenuation coefficient for downwelling irradiance"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/land-cover/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai> <http://www.w3.org/2004/02/skos/core#altLabel> "LAI"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai> <http://www.w3.org/2004/02/skos/core#definition> "leaf area Index"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai> <http://www.w3.org/2004/02/skos/core#prefLabel> "leaf area Index"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai> <http://www.w3.org/2004/02/skos/core#scopeNote> "leaf area Index"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/high-resolution-land-cover> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange> <http://www.w3.org/2004/02/skos/core#altLabel> "CHANGE"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange> <http://www.w3.org/2004/02/skos/core#definition> "land cover change uncertainty maps"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange> <http://www.w3.org/2004/02/skos/core#prefLabel> "land cover change"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange> <http://www.w3.org/2004/02/skos/core#scopeNote> "land cover change uncertainty maps"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/land-cover/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs> <http://www.w3.org/2004/02/skos/core#altLabel> "LCCS"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs> <http://www.w3.org/2004/02/skos/core#definition> "land cover classification system"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs> <http://www.w3.org/2004/02/skos/core#prefLabel> "land cover classification system"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs> <http://www.w3.org/2004/02/skos/core#scopeNote> "land cover classification system"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/lakes> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds> <http://www.w3.org/2004/02/skos/core#altLabel> "LK_PRODUCTS"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds> <http://www.w3.org/2004/02/skos/core#definition> "multiple lake products"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds> <http://www.w3.org/2004/02/skos/core#prefLabel> "multiple lake products"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds> <http://www.w3.org/2004/02/skos/core#scopeNote> "multiple lake products"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/ozone> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp> <http://www.w3.org/2004/02/skos/core#altLabel> "LP"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp> <http://www.w3.org/2004/02/skos/core#definition> "ozone limb profile"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp> <http://www.w3.org/2004/02/skos/core#prefLabel> "ozone limb profile"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp> <http://www.w3.org/2004/02/skos/core#scopeNote> "ozone limb profile"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/land-surface-temperature> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst> <http://www.w3.org/2004/02/skos/core#altLabel> "LST"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst> <http://www.w3.org/2004/02/skos/core#definition> "land surface temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst> <http://www.w3.org/2004/02/skos/core#prefLabel> "land surface temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst> <http://www.w3.org/2004/02/skos/core#scopeNote> "land surface temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/cloud> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp> <http://www.w3.org/2004/02/skos/core#altLabel> "LWP"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp> <http://www.w3.org/2004/02/skos/core#definition> "cloud liquid water path"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp> <http://www.w3.org/2004/02/skos/core#prefLabel> "cloud liquid water path"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp> <http://www.w3.org/2004/02/skos/core#scopeNote> "cloud liquid water path"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/land-cover/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map> <http://www.w3.org/2004/02/skos/core#altLabel> "Map"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map> <http://www.w3.org/2004/02/skos/core#definition> "land cover map"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map> <http://www.w3.org/2004/02/skos/core#prefLabel> "land cover map"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map> <http://www.w3.org/2004/02/skos/core#scopeNote> "land cover map"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-level/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl> <http://www.w3.org/2004/02/skos/core#altLabel> "MSL"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl> <http://www.w3.org/2004/02/skos/core#definition> "mean sea level"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl> <http://www.w3.org/2004/02/skos/core#prefLabel> "mean sea level"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl> <http://www.w3.org/2004/02/skos/core#scopeNote> "mean sea level"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-level/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla> <http://www.w3.org/2004/02/skos/core#altLabel> "MSLA"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla> <http://www.w3.org/2004/02/skos/core#definition> "maps of sea level anomalies"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla> <http://www.w3.org/2004/02/skos/core#prefLabel> "maps of sea level anomalies"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla> <http://www.w3.org/2004/02/skos/core#scopeNote> "maps of sea level anomalies"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-level/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph> <http://www.w3.org/2004/02/skos/core#altLabel> "MSLAMPH"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph> <http://www.w3.org/2004/02/skos/core#definition> "mean sea level amplitude and phase"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph> <http://www.w3.org/2004/02/skos/core#prefLabel> "mean sea level amplitude and phase"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph> <http://www.w3.org/2004/02/skos/core#scopeNote> "mean sea level amplitude and phase"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-level/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr> <http://www.w3.org/2004/02/skos/core#altLabel> "MSLTR"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr> <http://www.w3.org/2004/02/skos/core#definition> "mean sea level trends"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr> <http://www.w3.org/2004/02/skos/core#prefLabel> "mean sea level trends"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr> <http://www.w3.org/2004/02/skos/core#scopeNote> "mean sea level trends"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/land-cover/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi> <http://www.w3.org/2004/02/skos/core#altLabel> "NDVI"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi> <http://www.w3.org/2004/02/skos/core#definition> "condition normalised difference vegetation index"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi> <http://www.w3.org/2004/02/skos/core#prefLabel> "condition normalised difference vegetation index"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi> <http://www.w3.org/2004/02/skos/core#scopeNote> "condition normalised difference vegetation index"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/ocean-colour/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw> <http://www.w3.org/2004/02/skos/core#altLabel> "NLW"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw> <http://www.w3.org/2004/02/skos/core#definition> "normalised water leaving radiance"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw> <http://www.w3.org/2004/02/skos/core#prefLabel> "normalised water leaving radiance"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw> <http://www.w3.org/2004/02/skos/core#scopeNote> "normalised water leaving radiance"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/ozone> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np> <http://www.w3.org/2004/02/skos/core#altLabel> "NP"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np> <http://www.w3.org/2004/02/skos/core#definition> "ozone nadir profile"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np> <http://www.w3.org/2004/02/skos/core#prefLabel> "ozone nadir profile"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np> <http://www.w3.org/2004/02/skos/core#scopeNote> "ozone nadir profile"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/ocean-colour/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd> <http://www.w3.org/2004/02/skos/core#altLabel> "OC_PRODUCTS"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd> <http://www.w3.org/2004/02/skos/core#definition> "multiple products (chla, nlw, IOPs, etc)"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd> <http://www.w3.org/2004/02/skos/core#prefLabel> "multiple products (chla, nlw, IOPs, etc)"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd> <http://www.w3.org/2004/02/skos/core#scopeNote> "multiple products (chla, nlw, IOPs, etc)"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/permafrost> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr> <http://www.w3.org/2004/02/skos/core#altLabel> "PFR"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr> <http://www.w3.org/2004/02/skos/core#definition> "permafrost extent (fraction)"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr> <http://www.w3.org/2004/02/skos/core#prefLabel> "permafrost extent"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr> <http://www.w3.org/2004/02/skos/core#scopeNote> "permafrost extent (fraction)"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/land-cover> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft> <http://www.w3.org/2004/02/skos/core#altLabel> "PFT"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft> <http://www.w3.org/2004/02/skos/core#definition> "plant functional types"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft> <http://www.w3.org/2004/02/skos/core#prefLabel> "plant functional types"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft> <http://www.w3.org/2004/02/skos/core#scopeNote> "plant functional types"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/ocean-colour/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs> <http://www.w3.org/2004/02/skos/core#altLabel> "RRS"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs> <http://www.w3.org/2004/02/skos/core#definition> "remote sensing reflectance"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs> <http://www.w3.org/2004/02/skos/core#prefLabel> "remote sensing reflectance"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs> <http://www.w3.org/2004/02/skos/core#scopeNote> "remote sensing reflectance"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/snow> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg> <http://www.w3.org/2004/02/skos/core#altLabel> "SCFG"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg> <http://www.w3.org/2004/02/skos/core#definition> "snow cover fraction - snow on ground"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg> <http://www.w3.org/2004/02/skos/core#prefLabel> "snow cover fraction - snow on ground"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg> <http://www.w3.org/2004/02/skos/core#scopeNote> "snow cover fraction - snow on ground"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/snow> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv> <http://www.w3.org/2004/02/skos/core#altLabel> "SCFV"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv> <http://www.w3.org/2004/02/skos/core#definition> "snow cover fraction  - viewable"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv> <http://www.w3.org/2004/02/skos/core#prefLabel> "snow cover fraction - viewable"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv> <http://www.w3.org/2004/02/skos/core#scopeNote> "snow cover fraction  - viewable"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.esa-icesheets-cci.org/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec> <http://www.w3.org/2004/02/skos/core#altLabel> "SEC"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec> <http://www.w3.org/2004/02/skos/core#definition> "ice sheet surface elevation change"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec> <http://www.w3.org/2004/02/skos/core#prefLabel> "ice sheet surface elevation change"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec> <http://www.w3.org/2004/02/skos/core#scopeNote> "ice sheet surface elevation change"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-ice/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic> <http://www.w3.org/2004/02/skos/core#altLabel> "SICONC"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic> <http://www.w3.org/2004/02/skos/core#definition> "sea ice concentration"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic> <http://www.w3.org/2004/02/skos/core#prefLabel> "sea ice concentration"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic> <http://www.w3.org/2004/02/skos/core#scopeNote> "sea ice concentration"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-ice/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie> <http://www.w3.org/2004/02/skos/core#altLabel> "SIEXTENT"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie> <http://www.w3.org/2004/02/skos/core#definition> "sea ice extent"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie> <http://www.w3.org/2004/02/skos/core#prefLabel> "sea ice extent"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie> <http://www.w3.org/2004/02/skos/core#scopeNote> "sea ice extent"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-ice/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit> <http://www.w3.org/2004/02/skos/core#altLabel> "SITHICK"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit> <http://www.w3.org/2004/02/skos/core#definition> "sea ice thickness"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit> <http://www.w3.org/2004/02/skos/core#prefLabel> "sea ice thickness"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit> <http://www.w3.org/2004/02/skos/core#scopeNote> "sea ice thickness"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-level/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla> <http://www.w3.org/2004/02/skos/core#altLabel> "SLA"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla> <http://www.w3.org/2004/02/skos/core#definition> "sea level anomaly"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla> <http://www.w3.org/2004/02/skos/core#prefLabel> "sea level anomaly"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla> <http://www.w3.org/2004/02/skos/core#scopeNote> "sea level anomaly"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/land-cover/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow> <http://www.w3.org/2004/02/skos/core#altLabel> "Snow"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow> <http://www.w3.org/2004/02/skos/core#definition> "condition snow"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow> <http://www.w3.org/2004/02/skos/core#prefLabel> "condition snow"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow> <http://www.w3.org/2004/02/skos/core#scopeNote> "condition snow"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/land-cover/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr> <http://www.w3.org/2004/02/skos/core#altLabel> "SR"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr> <http://www.w3.org/2004/02/skos/core#definition> "surface reflectance"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr> <http://www.w3.org/2004/02/skos/core#prefLabel> "surface reflectance"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr> <http://www.w3.org/2004/02/skos/core#scopeNote> "surface reflectance"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-level/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh> <http://www.w3.org/2004/02/skos/core#altLabel> "SSH"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh> <http://www.w3.org/2004/02/skos/core#definition> "corrected sea surface height"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh> <http://www.w3.org/2004/02/skos/core#prefLabel> "corrected sea surface height"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh> <http://www.w3.org/2004/02/skos/core#scopeNote> "corrected sea surface height"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/soil-moisture/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms> <http://www.w3.org/2004/02/skos/core#altLabel> "SSMS"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms> <http://www.w3.org/2004/02/skos/core#definition> "surface soil moisture degree of saturation absolute"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms> <http://www.w3.org/2004/02/skos/core#prefLabel> "surface soil moisture degree of saturation absolute"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms> <http://www.w3.org/2004/02/skos/core#scopeNote> "surface soil moisture degree of saturation absolute"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/soil-moisture/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa> <http://www.w3.org/2004/02/skos/core#altLabel> "SSMSA"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa> <http://www.w3.org/2004/02/skos/core#definition> "surface soil moisture degree of saturation anomalies"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa> <http://www.w3.org/2004/02/skos/core#prefLabel> "surface soil moisture degree of saturation anomalies"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa> <http://www.w3.org/2004/02/skos/core#scopeNote> "surface soil moisture degree of saturation anomalies"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/soil-moisture/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv> <http://www.w3.org/2004/02/skos/core#altLabel> "SSMV"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv> <http://www.w3.org/2004/02/skos/core#definition> "surface soil moisture volumetric absolutes"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv> <http://www.w3.org/2004/02/skos/core#prefLabel> "surface soil moisture volumetric absolutes"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv> <http://www.w3.org/2004/02/skos/core#scopeNote> "surface soil moisture volumetric absolutes"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/soil-moisture/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva> <http://www.w3.org/2004/02/skos/core#altLabel> "SSMVA"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva> <http://www.w3.org/2004/02/skos/core#definition> "surface soil moisture volumetric anomalies"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva> <http://www.w3.org/2004/02/skos/core#prefLabel> "surface soil moisture volumetric anomalies"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva> <http://www.w3.org/2004/02/skos/core#scopeNote> "surface soil moisture volumetric anomalies"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-surface-salinity> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss> <http://www.w3.org/2004/02/skos/core#altLabel> "SSS"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss> <http://www.w3.org/2004/02/skos/core#definition> "sea surface salinity"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss> <http://www.w3.org/2004/02/skos/core#prefLabel> "sea surface salinity"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss> <http://www.w3.org/2004/02/skos/core#scopeNote> "sea surface salinity"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-surface-temperature/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth> <http://www.w3.org/2004/02/skos/core#altLabel> "SSTdepth"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth> <http://www.w3.org/2004/02/skos/core#definition> "sea water temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth> <http://www.w3.org/2004/02/skos/core#prefLabel> "sea water temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth> <http://www.w3.org/2004/02/skos/core#scopeNote> "sea water temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-surface-temperature/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd> <http://www.w3.org/2004/02/skos/core#altLabel> "SSTfnd"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd> <http://www.w3.org/2004/02/skos/core#definition> "sea surface foundation temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd> <http://www.w3.org/2004/02/skos/core#prefLabel> "sea surface foundation temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd> <http://www.w3.org/2004/02/skos/core#scopeNote> "sea surface foundation temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-surface-temperature/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt> <http://www.w3.org/2004/02/skos/core#altLabel> "SSTint"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt> <http://www.w3.org/2004/02/skos/core#definition> "sea surface temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt> <http://www.w3.org/2004/02/skos/core#prefLabel> "sea surface temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt> <http://www.w3.org/2004/02/skos/core#scopeNote> "sea surface temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-surface-temperature/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin> <http://www.w3.org/2004/02/skos/core#altLabel> "SSTskin"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin> <http://www.w3.org/2004/02/skos/core#definition> "sea surface skin temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin> <http://www.w3.org/2004/02/skos/core#prefLabel> "sea surface skin temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin> <http://www.w3.org/2004/02/skos/core#scopeNote> "sea surface skin temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-surface-temperature/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk> <http://www.w3.org/2004/02/skos/core#altLabel> "SSTsubskin"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk> <http://www.w3.org/2004/02/skos/core#definition> "sea surface subskin temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk> <http://www.w3.org/2004/02/skos/core#prefLabel> "sea surface subskin temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk> <http://www.w3.org/2004/02/skos/core#scopeNote> "sea surface subskin temperature"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/snow> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe> <http://www.w3.org/2004/02/skos/core#altLabel> "SWE"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe> <http://www.w3.org/2004/02/skos/core#definition> "snow water equivalent"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe> <http://www.w3.org/2004/02/skos/core#prefLabel> "snow water equivalent"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe> <http://www.w3.org/2004/02/skos/core#scopeNote> "snow water equivalent"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/sea-state/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh> <http://www.w3.org/2004/02/skos/core#altLabel> "SWH"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh> <http://www.w3.org/2004/02/skos/core#definition> "significant wave height"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh> <http://www.w3.org/2004/02/skos/core#prefLabel> "significant wave height"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh> <http://www.w3.org/2004/02/skos/core#scopeNote> "significant wave height"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/soil-moisture/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis> <http://www.w3.org/2004/02/skos/core#altLabel> "SWIS"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis> <http://www.w3.org/2004/02/skos/core#definition> "soil water index degree of saturation absolute"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis> <http://www.w3.org/2004/02/skos/core#prefLabel> "soil water index degree of saturation absolute"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis> <http://www.w3.org/2004/02/skos/core#scopeNote> "soil water index degree of saturation absolute"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/soil-moisture/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa> <http://www.w3.org/2004/02/skos/core#altLabel> "SWISA"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa> <http://www.w3.org/2004/02/skos/core#definition> "soil water index degree of saturation anomalie"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa> <http://www.w3.org/2004/02/skos/core#prefLabel> "soil water index degree of saturation anomalie"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa> <http://www.w3.org/2004/02/skos/core#scopeNote> "soil water index degree of saturation anomalie"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/soil-moisture/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv> <http://www.w3.org/2004/02/skos/core#altLabel> "SWIV"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv> <http://www.w3.org/2004/02/skos/core#definition> "soil water index volumetric absolute"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv> <http://www.w3.org/2004/02/skos/core#prefLabel> "soil water index volumetric absolute"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv> <http://www.w3.org/2004/02/skos/core#scopeNote> "soil water index volumetric absolute"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/soil-moisture/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva> <http://www.w3.org/2004/02/skos/core#altLabel> "SWIVA"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva> <http://www.w3.org/2004/02/skos/core#definition> "soil water index volumetric anomalies"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva> <http://www.w3.org/2004/02/skos/core#prefLabel> "soil water index volumetric anomalies"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva> <http://www.w3.org/2004/02/skos/core#scopeNote> "soil water index volumetric anomalies"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/ozone> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc> <http://www.w3.org/2004/02/skos/core#altLabel> "TC"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc> <http://www.w3.org/2004/02/skos/core#definition> "ozone total column"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc> <http://www.w3.org/2004/02/skos/core#prefLabel> "ozone total column"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc> <http://www.w3.org/2004/02/skos/core#scopeNote> "ozone total column"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/water-vapour> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv> <http://www.w3.org/2004/02/skos/core#altLabel> "TCWV"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv> <http://www.w3.org/2004/02/skos/core#definition> "total column water vapour"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv> <http://www.w3.org/2004/02/skos/core#prefLabel> "total column water vapour"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv> <http://www.w3.org/2004/02/skos/core#scopeNote> "total column water vapour"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/high-resolution-land-cover> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert> <http://www.w3.org/2004/02/skos/core#altLabel> "UNCERT"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert> <http://www.w3.org/2004/02/skos/core#definition> "land cover uncertainty maps"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert> <http://www.w3.org/2004/02/skos/core#prefLabel> "uncertainty"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert> <http://www.w3.org/2004/02/skos/core#scopeNote> "land cover uncertainty maps"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified> <http://www.w3.org/2004/02/skos/core#altLabel> "UNSPECIFIED"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified> <http://www.w3.org/2004/02/skos/core#definition> "unspecified"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified> <http://www.w3.org/2004/02/skos/core#prefLabel> "unspecified"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified> <http://www.w3.org/2004/02/skos/core#scopeNote> "unspecified"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/ocean-colour/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v> <http://www.w3.org/2004/02/skos/core#altLabel> "v"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v> <http://www.w3.org/2004/02/skos/core#definition> "backscattering by particulate matter"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v> <http://www.w3.org/2004/02/skos/core#prefLabel> "backscattering by particulate matter"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v> <http://www.w3.org/2004/02/skos/core#scopeNote> "backscattering by particulate matter"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/en/projects/vegetation-parameters/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp> <http://www.w3.org/2004/02/skos/core#altLabel> "VP_PRODUCTS"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp> <http://www.w3.org/2004/02/skos/core#definition> "vegetation parameters"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp> <http://www.w3.org/2004/02/skos/core#prefLabel> "vegetation parameters"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp> <http://www.w3.org/2004/02/skos/core#scopeNote> "vegetation parameters"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/projects/land-cover/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb> <http://www.w3.org/2004/02/skos/core#altLabel> "WB"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb> <http://www.w3.org/2004/02/skos/core#definition> "condition water (water bodies)"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb> <http://www.w3.org/2004/02/skos/core#prefLabel> "condition water (water bodies)"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb> <http://www.w3.org/2004/02/skos/core#scopeNote> "condition water (water bodies)"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.ceda.ac.uk/ontology/cci#dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://climate.esa.int/en/projects/river-discharge/> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> <http://www.w3.org/2004/02/skos/core#altLabel> "WL"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> <http://www.w3.org/2004/02/skos/core#definition> "water level"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> <http://www.w3.org/2004/02/skos/core#prefLabel> "water level"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> <http://www.w3.org/2004/02/skos/core#scopeNote> "water level"@en .
+<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+# 
+# http://vocab.ceda.ac.uk/scheme/cci/dataType
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://purl.org/dc/elements/1.1/date> "2025-01-20" .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programs</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://purl.org/dc/elements/1.1/publisher> "STFC"@en .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://purl.org/dc/elements/1.1/rights> "This work is licensed under a BSD license."@en .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://purl.org/dc/elements/1.1/title> "Geophysical Quantity" .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2000/01/rdf-schema#comment> "This concept scheme represents the data types used by the CCI project" .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#definition> "The main data type in a data set used by the ESA Climate Change Initiative (CCI)."@en .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> .
+<http://vocab.ceda.ac.uk/scheme/cci/dataType> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geophysical Quantity"@en .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

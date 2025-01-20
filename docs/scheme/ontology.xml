@@ -1,0 +1,1771 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#scopeNote -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/ontology/cci#dataType -->
+
+
+    <Class rdf:about="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+
+    <Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+
+    <Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/aerosol"/>
+        <skos:altLabel xml:lang="en">AAI</skos:altLabel>
+        <skos:definition xml:lang="en">absorbing aerosol index</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">absorbing aerosol index</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">absorbing aerosol index</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/ocean-colour/"/>
+        <skos:altLabel xml:lang="en">ADG</skos:altLabel>
+        <skos:definition xml:lang="en">absorption by coloured dissolved organic matter</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">absorption by coloured dissolved organic matter</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">absorption by coloured dissolved organic matter</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-level/"/>
+        <skos:altLabel xml:lang="en">ADT</skos:altLabel>
+        <skos:definition xml:lang="en">absolute dynamic topography</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">absolute dynamic topography</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">absolute dynamic topography</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/aerosol"/>
+        <skos:altLabel xml:lang="en">AER_PRODUCTS</skos:altLabel>
+        <skos:definition xml:lang="en">multiple aerosol products</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">multiple aerosol products</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">multiple aerosol products</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/aerosol"/>
+        <skos:altLabel xml:lang="en">AEX</skos:altLabel>
+        <skos:definition xml:lang="en">stratospheric aerosol extinction profile</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">stratospheric aerosol extinction profile</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">stratospheric aerosol extinction profile</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/biomass"/>
+        <skos:altLabel xml:lang="en">AGB</skos:altLabel>
+        <skos:definition xml:lang="en">above-ground biomass</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">above-ground biomass</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">above-ground biomass</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/land-cover/"/>
+        <skos:altLabel xml:lang="en">Alb</skos:altLabel>
+        <skos:definition xml:lang="en">condition albedo</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">condition albedo</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">condition albedo</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="en">ALL</skos:altLabel>
+        <skos:definition xml:lang="en">all</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">all</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">all</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/permafrost"/>
+        <skos:altLabel xml:lang="en">ALT</skos:altLabel>
+        <skos:definition xml:lang="en">active layer thickness</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">active layer thickness</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">active layer thickness</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/aerosol"/>
+        <skos:altLabel xml:lang="en">AOD</skos:altLabel>
+        <skos:definition xml:lang="en">aerosol optical depth</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">aerosol optical depth</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">aerosol optical depth</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/ocean-colour/"/>
+        <skos:altLabel xml:lang="en">APH</skos:altLabel>
+        <skos:definition xml:lang="en">absorption by phytoplankton</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">absorption by phytoplankton</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">absorption by phytoplankton</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/ocean-colour/"/>
+        <skos:altLabel xml:lang="en">ATOT</skos:altLabel>
+        <skos:definition xml:lang="en">total absorption</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">total absorption</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">total absorption</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/aerosol"/>
+        <skos:altLabel xml:lang="en">ATY</skos:altLabel>
+        <skos:definition xml:lang="en">aerosol type</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">aerosol type</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">aerosol type</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/fire"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/land-cover/"/>
+        <skos:altLabel xml:lang="en">BA</skos:altLabel>
+        <skos:definition xml:lang="en">burned area</skos:definition>
+        <skos:definition xml:lang="en">condition fire (burned area)</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">burned area</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">condition fire (burned area)</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">burned area</skos:scopeNote>
+        <skos:scopeNote xml:lang="en">condition fire (burned area)</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/ocean-colour/"/>
+        <skos:altLabel xml:lang="en">BB</skos:altLabel>
+        <skos:definition xml:lang="en">total backscattering</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">total backscattering</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">total backscattering</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/cloud"/>
+        <skos:altLabel xml:lang="en">CER</skos:altLabel>
+        <skos:definition xml:lang="en">cloud effective radius</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">cloud effective radius</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">cloud effective radius</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/cloud"/>
+        <skos:altLabel xml:lang="en">CFC</skos:altLabel>
+        <skos:definition xml:lang="en">cloud cover</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">cloud cover</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">cloud cover</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="http://www.esa-icesheets-cci.org/"/>
+        <skos:altLabel xml:lang="en">CFL</skos:altLabel>
+        <skos:definition xml:lang="en">glacier calving front location</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">glacier calving front location</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">glacier calving front location</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4 -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/ghgs"/>
+        <skos:altLabel xml:lang="en">CH4</skos:altLabel>
+        <skos:definition xml:lang="en">column-averaged dry air mole fraction of CH4</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">column-averaged dry air mole fraction of CH4</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">column-averaged dry air mole fraction of CH4</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/ocean-colour/"/>
+        <skos:altLabel xml:lang="en">CHLOR_A</skos:altLabel>
+        <skos:definition xml:lang="en">phytoplankton chlorophyll-a concentration</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">phytoplankton chlorophyll-a concentration</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">phytoplankton chlorophyll-a concentration</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/cloud"/>
+        <skos:altLabel xml:lang="en">CLD_PRODUCTS</skos:altLabel>
+        <skos:definition xml:lang="en">multiple cloud products</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">multiple cloud products</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">multiple cloud products</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2 -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/ghgs"/>
+        <skos:altLabel xml:lang="en">CO2</skos:altLabel>
+        <skos:definition xml:lang="en">column-averaged dry air mole fraction of CO2</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">column-averaged dry air mole fraction of CO2</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">column-averaged dry air mole fraction of CO2</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/cloud"/>
+        <skos:altLabel xml:lang="en">COT</skos:altLabel>
+        <skos:definition xml:lang="en">cloud optical thickness</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">cloud optical thickness</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">cloud optical thickness</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/cloud"/>
+        <skos:altLabel xml:lang="en">CTH</skos:altLabel>
+        <skos:definition xml:lang="en">cloud top height</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">cloud top height</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">cloud top height</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/cloud"/>
+        <skos:altLabel xml:lang="en">CTP</skos:altLabel>
+        <skos:definition xml:lang="en">cloud top pressure</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">cloud top pressure</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">cloud top pressure</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/cloud"/>
+        <skos:altLabel xml:lang="en">CTT</skos:altLabel>
+        <skos:definition xml:lang="en">cloud top temperature</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">cloud top temperature</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">cloud top temperature</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/glaciers"/>
+        <skos:altLabel xml:lang="en">GA</skos:altLabel>
+        <skos:definition xml:lang="en">glacier area</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">glacier area</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">glacier area</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="http://www.esa-icesheets-cci.org/"/>
+        <skos:altLabel xml:lang="en">GLL</skos:altLabel>
+        <skos:definition xml:lang="en">glacier grounding line location</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">glacier grounding line location</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">glacier grounding line location</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="http://www.esa-icesheets-cci.org/"/>
+        <skos:altLabel xml:lang="en">GMB</skos:altLabel>
+        <skos:definition xml:lang="en">gravimetric mass balance</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">gravimetric mass balance</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">gravimetric mass balance</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/permafrost"/>
+        <skos:altLabel xml:lang="en">GTD</skos:altLabel>
+        <skos:definition xml:lang="en">ground temperature at a certain depth</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">ground temperature</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">ground temperature at a certain depth</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/ocean-colour/"/>
+        <skos:altLabel xml:lang="en">IOP</skos:altLabel>
+        <skos:definition xml:lang="en">inherent optical properties</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">inherent optical properties</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">inherent optical properties</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="http://www.esa-icesheets-cci.org/"/>
+        <skos:altLabel xml:lang="en">IV</skos:altLabel>
+        <skos:definition xml:lang="en">ice sheet velocity</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">ice sheet velocity</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">ice sheet velocity</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/cloud"/>
+        <skos:altLabel xml:lang="en">IWP</skos:altLabel>
+        <skos:definition xml:lang="en">cloud ice water path</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">cloud ice water path</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">cloud ice water path</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/cloud"/>
+        <skos:altLabel xml:lang="en">JCH</skos:altLabel>
+        <skos:definition xml:lang="en">joint cloud physical properties</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">joint cloud physical properties</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">joint cloud physical properties</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490 -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/ocean-colour/"/>
+        <skos:altLabel xml:lang="en">K_490</skos:altLabel>
+        <skos:definition xml:lang="en">spectral attenuation coefficient for downwelling irradiance</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">spectral attenuation coefficient for downwelling irradiance</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">spectral attenuation coefficient for downwelling irradiance</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/land-cover/"/>
+        <skos:altLabel xml:lang="en">LAI</skos:altLabel>
+        <skos:definition xml:lang="en">leaf area Index</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">leaf area Index</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">leaf area Index</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/high-resolution-land-cover"/>
+        <skos:altLabel xml:lang="en">CHANGE</skos:altLabel>
+        <skos:definition xml:lang="en">land cover change uncertainty maps</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">land cover change</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">land cover change uncertainty maps</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/land-cover/"/>
+        <skos:altLabel xml:lang="en">LCCS</skos:altLabel>
+        <skos:definition xml:lang="en">land cover classification system</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">land cover classification system</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">land cover classification system</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/lakes"/>
+        <skos:altLabel xml:lang="en">LK_PRODUCTS</skos:altLabel>
+        <skos:definition xml:lang="en">multiple lake products</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">multiple lake products</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">multiple lake products</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/ozone"/>
+        <skos:altLabel xml:lang="en">LP</skos:altLabel>
+        <skos:definition xml:lang="en">ozone limb profile</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">ozone limb profile</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">ozone limb profile</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/land-surface-temperature"/>
+        <skos:altLabel xml:lang="en">LST</skos:altLabel>
+        <skos:definition xml:lang="en">land surface temperature</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">land surface temperature</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">land surface temperature</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/cloud"/>
+        <skos:altLabel xml:lang="en">LWP</skos:altLabel>
+        <skos:definition xml:lang="en">cloud liquid water path</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">cloud liquid water path</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">cloud liquid water path</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/land-cover/"/>
+        <skos:altLabel xml:lang="en">Map</skos:altLabel>
+        <skos:definition xml:lang="en">land cover map</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">land cover map</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">land cover map</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-level/"/>
+        <skos:altLabel xml:lang="en">MSL</skos:altLabel>
+        <skos:definition xml:lang="en">mean sea level</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">mean sea level</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">mean sea level</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-level/"/>
+        <skos:altLabel xml:lang="en">MSLA</skos:altLabel>
+        <skos:definition xml:lang="en">maps of sea level anomalies</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">maps of sea level anomalies</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">maps of sea level anomalies</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-level/"/>
+        <skos:altLabel xml:lang="en">MSLAMPH</skos:altLabel>
+        <skos:definition xml:lang="en">mean sea level amplitude and phase</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">mean sea level amplitude and phase</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">mean sea level amplitude and phase</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-level/"/>
+        <skos:altLabel xml:lang="en">MSLTR</skos:altLabel>
+        <skos:definition xml:lang="en">mean sea level trends</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">mean sea level trends</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">mean sea level trends</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/land-cover/"/>
+        <skos:altLabel xml:lang="en">NDVI</skos:altLabel>
+        <skos:definition xml:lang="en">condition normalised difference vegetation index</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">condition normalised difference vegetation index</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">condition normalised difference vegetation index</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/ocean-colour/"/>
+        <skos:altLabel xml:lang="en">NLW</skos:altLabel>
+        <skos:definition xml:lang="en">normalised water leaving radiance</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">normalised water leaving radiance</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">normalised water leaving radiance</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/ozone"/>
+        <skos:altLabel xml:lang="en">NP</skos:altLabel>
+        <skos:definition xml:lang="en">ozone nadir profile</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">ozone nadir profile</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">ozone nadir profile</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/ocean-colour/"/>
+        <skos:altLabel xml:lang="en">OC_PRODUCTS</skos:altLabel>
+        <skos:definition xml:lang="en">multiple products (chla, nlw, IOPs, etc)</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">multiple products (chla, nlw, IOPs, etc)</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">multiple products (chla, nlw, IOPs, etc)</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/permafrost"/>
+        <skos:altLabel xml:lang="en">PFR</skos:altLabel>
+        <skos:definition xml:lang="en">permafrost extent (fraction)</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">permafrost extent</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">permafrost extent (fraction)</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/land-cover"/>
+        <skos:altLabel xml:lang="en">PFT</skos:altLabel>
+        <skos:definition xml:lang="en">plant functional types</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">plant functional types</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">plant functional types</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/ocean-colour/"/>
+        <skos:altLabel xml:lang="en">RRS</skos:altLabel>
+        <skos:definition xml:lang="en">remote sensing reflectance</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">remote sensing reflectance</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">remote sensing reflectance</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/snow"/>
+        <skos:altLabel xml:lang="en">SCFG</skos:altLabel>
+        <skos:definition xml:lang="en">snow cover fraction - snow on ground</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">snow cover fraction - snow on ground</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">snow cover fraction - snow on ground</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/snow"/>
+        <skos:altLabel xml:lang="en">SCFV</skos:altLabel>
+        <skos:definition xml:lang="en">snow cover fraction  - viewable</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">snow cover fraction - viewable</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">snow cover fraction  - viewable</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="http://www.esa-icesheets-cci.org/"/>
+        <skos:altLabel xml:lang="en">SEC</skos:altLabel>
+        <skos:definition xml:lang="en">ice sheet surface elevation change</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">ice sheet surface elevation change</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">ice sheet surface elevation change</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-ice/"/>
+        <skos:altLabel xml:lang="en">SICONC</skos:altLabel>
+        <skos:definition xml:lang="en">sea ice concentration</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">sea ice concentration</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">sea ice concentration</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-ice/"/>
+        <skos:altLabel xml:lang="en">SIEXTENT</skos:altLabel>
+        <skos:definition xml:lang="en">sea ice extent</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">sea ice extent</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">sea ice extent</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-ice/"/>
+        <skos:altLabel xml:lang="en">SITHICK</skos:altLabel>
+        <skos:definition xml:lang="en">sea ice thickness</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">sea ice thickness</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">sea ice thickness</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-level/"/>
+        <skos:altLabel xml:lang="en">SLA</skos:altLabel>
+        <skos:definition xml:lang="en">sea level anomaly</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">sea level anomaly</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">sea level anomaly</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/land-cover/"/>
+        <skos:altLabel xml:lang="en">Snow</skos:altLabel>
+        <skos:definition xml:lang="en">condition snow</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">condition snow</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">condition snow</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/land-cover/"/>
+        <skos:altLabel xml:lang="en">SR</skos:altLabel>
+        <skos:definition xml:lang="en">surface reflectance</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">surface reflectance</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">surface reflectance</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-level/"/>
+        <skos:altLabel xml:lang="en">SSH</skos:altLabel>
+        <skos:definition xml:lang="en">corrected sea surface height</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">corrected sea surface height</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">corrected sea surface height</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/soil-moisture/"/>
+        <skos:altLabel xml:lang="en">SSMS</skos:altLabel>
+        <skos:definition xml:lang="en">surface soil moisture degree of saturation absolute</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">surface soil moisture degree of saturation absolute</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">surface soil moisture degree of saturation absolute</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/soil-moisture/"/>
+        <skos:altLabel xml:lang="en">SSMSA</skos:altLabel>
+        <skos:definition xml:lang="en">surface soil moisture degree of saturation anomalies</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">surface soil moisture degree of saturation anomalies</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">surface soil moisture degree of saturation anomalies</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/soil-moisture/"/>
+        <skos:altLabel xml:lang="en">SSMV</skos:altLabel>
+        <skos:definition xml:lang="en">surface soil moisture volumetric absolutes</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">surface soil moisture volumetric absolutes</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">surface soil moisture volumetric absolutes</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/soil-moisture/"/>
+        <skos:altLabel xml:lang="en">SSMVA</skos:altLabel>
+        <skos:definition xml:lang="en">surface soil moisture volumetric anomalies</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">surface soil moisture volumetric anomalies</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">surface soil moisture volumetric anomalies</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-surface-salinity"/>
+        <skos:altLabel xml:lang="en">SSS</skos:altLabel>
+        <skos:definition xml:lang="en">sea surface salinity</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">sea surface salinity</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">sea surface salinity</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-surface-temperature/"/>
+        <skos:altLabel xml:lang="en">SSTdepth</skos:altLabel>
+        <skos:definition xml:lang="en">sea water temperature</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">sea water temperature</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">sea water temperature</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-surface-temperature/"/>
+        <skos:altLabel xml:lang="en">SSTfnd</skos:altLabel>
+        <skos:definition xml:lang="en">sea surface foundation temperature</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">sea surface foundation temperature</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">sea surface foundation temperature</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-surface-temperature/"/>
+        <skos:altLabel xml:lang="en">SSTint</skos:altLabel>
+        <skos:definition xml:lang="en">sea surface temperature</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">sea surface temperature</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">sea surface temperature</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-surface-temperature/"/>
+        <skos:altLabel xml:lang="en">SSTskin</skos:altLabel>
+        <skos:definition xml:lang="en">sea surface skin temperature</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">sea surface skin temperature</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">sea surface skin temperature</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-surface-temperature/"/>
+        <skos:altLabel xml:lang="en">SSTsubskin</skos:altLabel>
+        <skos:definition xml:lang="en">sea surface subskin temperature</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">sea surface subskin temperature</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">sea surface subskin temperature</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/snow"/>
+        <skos:altLabel xml:lang="en">SWE</skos:altLabel>
+        <skos:definition xml:lang="en">snow water equivalent</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">snow water equivalent</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">snow water equivalent</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/sea-state/"/>
+        <skos:altLabel xml:lang="en">SWH</skos:altLabel>
+        <skos:definition xml:lang="en">significant wave height</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">significant wave height</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">significant wave height</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/soil-moisture/"/>
+        <skos:altLabel xml:lang="en">SWIS</skos:altLabel>
+        <skos:definition xml:lang="en">soil water index degree of saturation absolute</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">soil water index degree of saturation absolute</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">soil water index degree of saturation absolute</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/soil-moisture/"/>
+        <skos:altLabel xml:lang="en">SWISA</skos:altLabel>
+        <skos:definition xml:lang="en">soil water index degree of saturation anomalie</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">soil water index degree of saturation anomalie</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">soil water index degree of saturation anomalie</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/soil-moisture/"/>
+        <skos:altLabel xml:lang="en">SWIV</skos:altLabel>
+        <skos:definition xml:lang="en">soil water index volumetric absolute</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">soil water index volumetric absolute</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">soil water index volumetric absolute</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/soil-moisture/"/>
+        <skos:altLabel xml:lang="en">SWIVA</skos:altLabel>
+        <skos:definition xml:lang="en">soil water index volumetric anomalies</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">soil water index volumetric anomalies</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">soil water index volumetric anomalies</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/ozone"/>
+        <skos:altLabel xml:lang="en">TC</skos:altLabel>
+        <skos:definition xml:lang="en">ozone total column</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">ozone total column</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">ozone total column</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/water-vapour"/>
+        <skos:altLabel xml:lang="en">TCWV</skos:altLabel>
+        <skos:definition xml:lang="en">total column water vapour</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">total column water vapour</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">total column water vapour</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/high-resolution-land-cover"/>
+        <skos:altLabel xml:lang="en">UNCERT</skos:altLabel>
+        <skos:definition xml:lang="en">land cover uncertainty maps</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">uncertainty</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">land cover uncertainty maps</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:altLabel xml:lang="en">UNSPECIFIED</skos:altLabel>
+        <skos:definition xml:lang="en">unspecified</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">unspecified</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">unspecified</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/ocean-colour/"/>
+        <skos:altLabel xml:lang="en">v</skos:altLabel>
+        <skos:definition xml:lang="en">backscattering by particulate matter</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">backscattering by particulate matter</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">backscattering by particulate matter</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/en/projects/vegetation-parameters/"/>
+        <skos:altLabel xml:lang="en">VP_PRODUCTS</skos:altLabel>
+        <skos:definition xml:lang="en">vegetation parameters</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">vegetation parameters</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">vegetation parameters</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/projects/land-cover/"/>
+        <skos:altLabel xml:lang="en">WB</skos:altLabel>
+        <skos:definition xml:lang="en">condition water (water bodies)</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">condition water (water bodies)</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">condition water (water bodies)</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl">
+        <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#dataType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:seeAlso rdf:resource="https://climate.esa.int/en/projects/river-discharge/"/>
+        <skos:altLabel xml:lang="en">WL</skos:altLabel>
+        <skos:definition xml:lang="en">water level</skos:definition>
+        <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+        <skos:prefLabel xml:lang="en">water level</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">water level</skos:scopeNote>
+        <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://vocab.ceda.ac.uk/scheme/cci/dataType -->
+
+
+    <NamedIndividual rdf:about="http://vocab.ceda.ac.uk/scheme/cci/dataType">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <dc:creator>Science and Technology Facilities Council</dc:creator>
+        <dc:date>2025-01-20</dc:date>
+        <dc:description>&lt;p&gt;The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: &lt;a href=../dataType&gt;data type&lt;/a&gt;, &lt;a href=..//ecv&gt;ecv&lt;/a&gt;, &lt;a href=../scheme/cci/freq&gt;frequency&lt;/a&gt;, &lt;a href=../org&gt;institutes&lt;/a&gt;, &lt;a href=../platform&gt;platforms&lt;/a&gt;, &lt;a href=../platformGrp&gt;platform groups&lt;/a&gt;, &lt;a href=../platformProg&gt;platform programs&lt;/a&gt;, &lt;a href=../procLev&gt;processing levels&lt;/a&gt;, &lt;a href=../product&gt;products&lt;/a&gt;, &lt;a href=../project&gt;projects&lt;/a&gt;, and &lt;a href=../sensor&gt;sensors&lt;/a&gt;. The use of a concept scheme allows easy navigation up and down the tree.&lt;/p&gt;&lt;h5&gt;SKOS Navigation Down the Concept Scheme&lt;/h5&gt;&lt;img src=conceptSchemeDown.svg /&gt;&lt;h5&gt;SKOS Navigation Up the Concept Scheme&lt;/h5&gt;&lt;img src=conceptSchemeUp.svg /&gt;&lt;p&gt;As well as being concepts the the concepts are also named individuals of the &lt;a href=../../../ontology/cci&gt;CCI Ontology&lt;/a&gt; classes.&lt;h5&gt;OWL Classes&lt;/h5&gt;&lt;img src=classes.svg /&gt;&lt;p&gt;&lt;/p&gt;</dc:description>
+        <dc:publisher xml:lang="en">STFC</dc:publisher>
+        <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
+        <dc:title>Geophysical Quantity</dc:title>
+        <rdfs:comment>This concept scheme represents the data types used by the CCI project</rdfs:comment>
+        <versionInfo>0.0.1</versionInfo>
+        <skos:definition xml:lang="en">The main data type in a data set used by the ESA Climate Change Initiative (CCI).</skos:definition>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb"/>
+        <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl"/>
+        <skos:prefLabel xml:lang="en">Geophysical Quantity</skos:prefLabel>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+
