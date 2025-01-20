@@ -64,9 +64,6 @@ def _get_graph_from_file(_file):
 def _write_ontology(graph, ontology):
     _dir = os.path.join(HTML_DIRECTORY, "ontology", ontology, ontology + "-content")
 
-    # if needed, create a new directory
-    Path(_dir).mkdir(parents=True, exist_ok=True)
-
     json = graph.serialize(format="json-ld")
     file_name = os.path.join(_dir, ontology + "-ontology.json")
     with open(file_name, mode="w", encoding="utf-8") as ontology_file:
@@ -85,9 +82,6 @@ def _write_ontology(graph, ontology):
 
 def _write_files(graph, _type, ontology, name):
     _dir = os.path.join(HTML_DIRECTORY, _type, ontology, ontology + "-content", name)
-
-    # if needed, create a new directory
-    Path(_dir).mkdir(parents=True, exist_ok=True)
 
     json = graph.serialize(format="json-ld")
     file_name = ("%s.json") % (_dir)
