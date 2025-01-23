@@ -8183,8 +8183,8 @@ cci: a owl:Ontology,
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
     dc:title "The CCI Ontology" ;
-    dct:description "dct:description The Example ontology is used to provide an example for ontology annotations in OWL."@en .
-    dct:abstract "dct:abstract The abstract should explain a little more about the scope and goals of the ontology."@en .
+    dct:description "dct:description The Example ontology is used to provide an example for ontology annotations in OWL."@en ;
+    dct:abstract "dct:abstract The abstract should explain a little more about the scope and goals of the ontology."@en ;
     rdfs:comment "rdfs:comment This ontology represents the Directory Reference Scheme (DRS) used by the ESA Climate Change Initiative <a href=http://cci.esa.int/>CCI project</a>." ;
     owl:versionInfo "0.0.1" ;
     skos:hasTopConcept cci-scheme:dataType,
