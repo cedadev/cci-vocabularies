@@ -63,27 +63,7 @@
         "hasTopConcept" : [ {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -93,157 +73,12 @@
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -253,17 +88,92 @@
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -278,77 +188,7 @@
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -358,17 +198,27 @@
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -378,7 +228,132 @@
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
           "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -393,92 +368,12 @@
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasTopConcept",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -488,7 +383,97 @@
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
           "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw",
           "type" : "iri"
         }, {
           "identifier" : "hasTopConcept",
@@ -498,7 +483,22 @@
         }, {
           "identifier" : "hasTopConcept",
           "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasTopConcept",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd",
           "type" : "iri"
         } ],
         "definition" : [ {
@@ -602,16 +602,16 @@
           "value" : "sea surface skin temperature",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "sea surface skin temperature",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "SSTskin",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "sea surface skin temperature",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -652,16 +652,16 @@
           "value" : "total backscattering",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "total backscattering",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "BB",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "total backscattering",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -857,6 +857,12 @@
           "value" : "burned area",
           "type" : "label"
         } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "BA",
+          "type" : "label"
+        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
@@ -868,12 +874,6 @@
           "value" : "burned area",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "BA",
-          "type" : "label"
-        } ],
         "topConceptOf" : [ {
           "identifier" : "topConceptOf",
           "language" : "undefined",
@@ -883,12 +883,12 @@
         "seeAlso" : [ {
           "identifier" : "seeAlso",
           "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/land-cover/",
+          "value" : "https://climate.esa.int/projects/fire",
           "type" : "iri"
         }, {
           "identifier" : "seeAlso",
           "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/fire",
+          "value" : "https://climate.esa.int/projects/land-cover/",
           "type" : "iri"
         } ],
         "scopeNote" : [ {
@@ -907,56 +907,6 @@
         "IRI-based" : "dtype_ba"
       }
     }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "above-ground biomass",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "AGB",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "above-ground biomass",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/biomass",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "above-ground biomass",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_agb"
-      }
-    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -972,16 +922,16 @@
           "value" : "surface soil moisture degree of saturation absolute",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "surface soil moisture degree of saturation absolute",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "SSMS",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "surface soil moisture degree of saturation absolute",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -1007,6 +957,56 @@
         "IRI-based" : "dtype_ssms"
       }
     }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "above-ground biomass",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "above-ground biomass",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "AGB",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "https://climate.esa.int/projects/biomass",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "above-ground biomass",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_agb"
+      }
+    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -1022,16 +1022,16 @@
           "value" : "soil water index volumetric absolute",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SWIV",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "soil water index volumetric absolute",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SWIV",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -1072,16 +1072,16 @@
           "value" : "snow cover fraction - snow on ground",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "snow cover fraction - snow on ground",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "SCFG",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "snow cover fraction - snow on ground",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -1172,16 +1172,16 @@
           "value" : "vegetation parameters",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "VP_PRODUCTS",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "vegetation parameters",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "VP_PRODUCTS",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -1307,6 +1307,56 @@
         "IRI-based" : "dtype_iwp"
       }
     }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "soil water index degree of saturation absolute",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SWIS",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "soil water index degree of saturation absolute",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "https://climate.esa.int/projects/soil-moisture/",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "soil water index degree of saturation absolute",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_swis"
+      }
+    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -1372,16 +1422,16 @@
           "value" : "significant wave height",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "significant wave height",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "SWH",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "significant wave height",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -1407,56 +1457,6 @@
         "IRI-based" : "dtype_swh"
       }
     }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "soil water index degree of saturation absolute",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "soil water index degree of saturation absolute",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SWIS",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/soil-moisture/",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "soil water index degree of saturation absolute",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_swis"
-      }
-    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -1472,16 +1472,16 @@
           "value" : "glacier calving front location",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "CFL",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "glacier calving front location",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "CFL",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -1672,16 +1672,16 @@
           "value" : "snow cover fraction - viewable",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SCFV",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "snow cover fraction  - viewable",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SCFV",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -1772,16 +1772,16 @@
           "value" : "surface soil moisture degree of saturation anomalies",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SSMSA",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "surface soil moisture degree of saturation anomalies",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SSMSA",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -1805,56 +1805,6 @@
       },
       "labels" : {
         "IRI-based" : "dtype_ssmsa"
-      }
-    }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "surface reflectance",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SR",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "surface reflectance",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/land-cover/",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "surface reflectance",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_sr"
       }
     }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi",
@@ -1905,6 +1855,56 @@
       },
       "labels" : {
         "IRI-based" : "dtype_ndvi"
+      }
+    }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "surface reflectance",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SR",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "surface reflectance",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "https://climate.esa.int/projects/land-cover/",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "surface reflectance",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_sr"
       }
     }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map",
@@ -2007,6 +2007,56 @@
         "IRI-based" : "dtype_sit"
       }
     }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "cloud cover",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "cloud cover",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "CFC",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "https://climate.esa.int/projects/cloud",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "cloud cover",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_cfc"
+      }
+    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -2022,16 +2072,16 @@
           "value" : "glacier area",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "GA",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "glacier area",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "GA",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -2072,16 +2122,16 @@
           "value" : "sea surface temperature",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "sea surface temperature",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "SSTint",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "sea surface temperature",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -2105,56 +2155,6 @@
       },
       "labels" : {
         "IRI-based" : "dtype_sstInt"
-      }
-    }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "cloud cover",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "CFC",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "cloud cover",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/cloud",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "cloud cover",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_cfc"
       }
     }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl",
@@ -2307,56 +2307,6 @@
         "IRI-based" : "dtype_aai"
       }
     }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "soil water index degree of saturation anomalie",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "soil water index degree of saturation anomalie",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SWISA",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/soil-moisture/",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "soil water index degree of saturation anomalie",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_swisa"
-      }
-    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -2407,7 +2357,7 @@
         "IRI-based" : "dtype_sstSubsk"
       }
     }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst",
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
         "inScheme" : [ {
@@ -2419,19 +2369,19 @@
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
-          "value" : "land surface temperature",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "LST",
+          "value" : "soil water index degree of saturation anomalie",
           "type" : "label"
         } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
-          "value" : "land surface temperature",
+          "value" : "soil water index degree of saturation anomalie",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SWISA",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -2443,18 +2393,18 @@
         "seeAlso" : [ {
           "identifier" : "seeAlso",
           "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/land-surface-temperature",
+          "value" : "https://climate.esa.int/projects/soil-moisture/",
           "type" : "iri"
         } ],
         "scopeNote" : [ {
           "identifier" : "scopeNote",
           "language" : "en",
-          "value" : "land surface temperature",
+          "value" : "soil water index degree of saturation anomalie",
           "type" : "label"
         } ]
       },
       "labels" : {
-        "IRI-based" : "dtype_lst"
+        "IRI-based" : "dtype_swisa"
       }
     }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic",
@@ -2472,16 +2422,16 @@
           "value" : "sea ice concentration",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "sea ice concentration",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "SICONC",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "sea ice concentration",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -2507,7 +2457,7 @@
         "IRI-based" : "dtype_sic"
       }
     }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch",
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
         "inScheme" : [ {
@@ -2519,19 +2469,19 @@
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
-          "value" : "joint cloud physical properties",
+          "value" : "land surface temperature",
           "type" : "label"
         } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
-          "value" : "joint cloud physical properties",
+          "value" : "land surface temperature",
           "type" : "label"
         } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "JCH",
+          "value" : "LST",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -2543,18 +2493,18 @@
         "seeAlso" : [ {
           "identifier" : "seeAlso",
           "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/cloud",
+          "value" : "https://climate.esa.int/projects/land-surface-temperature",
           "type" : "iri"
         } ],
         "scopeNote" : [ {
           "identifier" : "scopeNote",
           "language" : "en",
-          "value" : "joint cloud physical properties",
+          "value" : "land surface temperature",
           "type" : "label"
         } ]
       },
       "labels" : {
-        "IRI-based" : "dtype_jch"
+        "IRI-based" : "dtype_lst"
       }
     }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie",
@@ -2572,16 +2522,16 @@
           "value" : "sea ice extent",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SIEXTENT",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "sea ice extent",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SIEXTENT",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -2607,7 +2557,7 @@
         "IRI-based" : "dtype_sie"
       }
     }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec",
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
         "inScheme" : [ {
@@ -2619,19 +2569,19 @@
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
-          "value" : "ice sheet surface elevation change",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "ice sheet surface elevation change",
+          "value" : "joint cloud physical properties",
           "type" : "label"
         } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "SEC",
+          "value" : "JCH",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "joint cloud physical properties",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -2643,18 +2593,18 @@
         "seeAlso" : [ {
           "identifier" : "seeAlso",
           "language" : "undefined",
-          "value" : "http://www.esa-icesheets-cci.org/",
+          "value" : "https://climate.esa.int/projects/cloud",
           "type" : "iri"
         } ],
         "scopeNote" : [ {
           "identifier" : "scopeNote",
           "language" : "en",
-          "value" : "ice sheet surface elevation change",
+          "value" : "joint cloud physical properties",
           "type" : "label"
         } ]
       },
       "labels" : {
-        "IRI-based" : "dtype_sec"
+        "IRI-based" : "dtype_jch"
       }
     }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow",
@@ -2672,16 +2622,16 @@
           "value" : "condition snow",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "condition snow",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "Snow",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "condition snow",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -2722,16 +2672,16 @@
           "value" : "condition water (water bodies)",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "WB",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "condition water (water bodies)",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "WB",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -2757,6 +2707,56 @@
         "IRI-based" : "dtype_wb"
       }
     }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "ice sheet surface elevation change",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SEC",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "ice sheet surface elevation change",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "http://www.esa-icesheets-cci.org/",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "ice sheet surface elevation change",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_sec"
+      }
+    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -2772,16 +2772,16 @@
           "value" : "cloud effective radius",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "CER",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "cloud effective radius",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "CER",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -2972,16 +2972,16 @@
           "value" : "surface soil moisture volumetric anomalies",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SSMVA",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "surface soil moisture volumetric anomalies",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SSMVA",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -3022,16 +3022,16 @@
           "value" : "multiple aerosol products",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "AER_PRODUCTS",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "multiple aerosol products",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "AER_PRODUCTS",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -3107,56 +3107,6 @@
         "IRI-based" : "dtype_lcchange"
       }
     }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "permafrost extent",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "PFR",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "permafrost extent (fraction)",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/permafrost",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "permafrost extent (fraction)",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_pfr"
-      }
-    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -3207,6 +3157,56 @@
         "IRI-based" : "dtype_gmb"
       }
     }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "permafrost extent",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "permafrost extent (fraction)",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "PFR",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "https://climate.esa.int/projects/permafrost",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "permafrost extent (fraction)",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_pfr"
+      }
+    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -3222,16 +3222,16 @@
           "value" : "plant functional types",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "plant functional types",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "PFT",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "plant functional types",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -3372,16 +3372,16 @@
           "value" : "multiple products (chla, nlw, IOPs, etc)",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "OC_PRODUCTS",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "multiple products (chla, nlw, IOPs, etc)",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "OC_PRODUCTS",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -3422,16 +3422,16 @@
           "value" : "glacier grounding line location",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "glacier grounding line location",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "GLL",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "glacier grounding line location",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -3507,56 +3507,6 @@
         "IRI-based" : "dtype_aty"
       }
     }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "soil water index volumetric anomalies",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "soil water index volumetric anomalies",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SWIVA",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/soil-moisture/",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "soil water index volumetric anomalies",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_swiva"
-      }
-    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -3605,6 +3555,56 @@
       },
       "labels" : {
         "IRI-based" : "dtype_alt"
+      }
+    }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "soil water index volumetric anomalies",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SWIVA",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "soil water index volumetric anomalies",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "https://climate.esa.int/projects/soil-moisture/",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "soil water index volumetric anomalies",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_swiva"
       }
     }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla",
@@ -3672,16 +3672,16 @@
           "value" : "unspecified",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "unspecified",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "UNSPECIFIED",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "unspecified",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -3816,16 +3816,16 @@
           "value" : "remote sensing reflectance",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "RRS",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "remote sensing reflectance",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "RRS",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -3866,16 +3866,16 @@
           "value" : "condition albedo",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "Alb",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "condition albedo",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "Alb",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -3966,16 +3966,16 @@
           "value" : "ground temperature",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "ground temperature at a certain depth",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "GTD",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "ground temperature at a certain depth",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -4016,16 +4016,16 @@
           "value" : "land cover classification system",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "LCCS",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "land cover classification system",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "LCCS",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -4066,16 +4066,16 @@
           "value" : "absorption by phytoplankton",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "APH",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "absorption by phytoplankton",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "APH",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -4116,16 +4116,16 @@
           "value" : "cloud top pressure",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "cloud top pressure",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "CTP",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "cloud top pressure",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -4310,16 +4310,16 @@
           "value" : "absorption by coloured dissolved organic matter",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "ADG",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "absorption by coloured dissolved organic matter",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "ADG",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -4510,16 +4510,16 @@
           "value" : "corrected sea surface height",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SSH",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "corrected sea surface height",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SSH",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -4560,16 +4560,16 @@
           "value" : "inherent optical properties",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "inherent optical properties",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "IOP",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "inherent optical properties",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -4593,56 +4593,6 @@
       },
       "labels" : {
         "IRI-based" : "dtype_iop"
-      }
-    }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "mean sea level amplitude and phase",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "MSLAMPH",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "mean sea level amplitude and phase",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/sea-level/",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "mean sea level amplitude and phase",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_mslamph"
       }
     }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd",
@@ -4695,6 +4645,56 @@
         "IRI-based" : "dtype_sstFnd"
       }
     }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "mean sea level amplitude and phase",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "MSLAMPH",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "mean sea level amplitude and phase",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "https://climate.esa.int/projects/sea-level/",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "mean sea level amplitude and phase",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_mslamph"
+      }
+    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -4710,16 +4710,16 @@
           "value" : "multiple lake products",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "LK_PRODUCTS",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "multiple lake products",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "LK_PRODUCTS",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -4845,6 +4845,56 @@
         "IRI-based" : "dtype_lp"
       }
     }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "leaf area Index",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "leaf area Index",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "LAI",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "https://climate.esa.int/projects/land-cover/",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "leaf area Index",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_lai"
+      }
+    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -4893,56 +4943,6 @@
       },
       "labels" : {
         "IRI-based" : "dtype_cldProd"
-      }
-    }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "leaf area Index",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "LAI",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "leaf area Index",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/land-cover/",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "leaf area Index",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_lai"
       }
     } ],
     "attributes" : [ "external" ],
@@ -5020,16 +5020,16 @@
           "value" : "sea surface skin temperature",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "sea surface skin temperature",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "SSTskin",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "sea surface skin temperature",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -5053,6 +5053,56 @@
       },
       "labels" : {
         "IRI-based" : "dtype_sstSkin"
+      }
+    }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "total backscattering",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "BB",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "total backscattering",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "https://climate.esa.int/projects/ocean-colour/",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "total backscattering",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_bb"
       }
     }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod",
@@ -5103,56 +5153,6 @@
       },
       "labels" : {
         "IRI-based" : "dtype_aod"
-      }
-    }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "total backscattering",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "total backscattering",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "BB",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/ocean-colour/",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "total backscattering",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_bb"
       }
     }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw",
@@ -5275,6 +5275,12 @@
           "value" : "burned area",
           "type" : "label"
         } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "BA",
+          "type" : "label"
+        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
@@ -5286,12 +5292,6 @@
           "value" : "burned area",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "BA",
-          "type" : "label"
-        } ],
         "topConceptOf" : [ {
           "identifier" : "topConceptOf",
           "language" : "undefined",
@@ -5301,12 +5301,12 @@
         "seeAlso" : [ {
           "identifier" : "seeAlso",
           "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/land-cover/",
+          "value" : "https://climate.esa.int/projects/fire",
           "type" : "iri"
         }, {
           "identifier" : "seeAlso",
           "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/fire",
+          "value" : "https://climate.esa.int/projects/land-cover/",
           "type" : "iri"
         } ],
         "scopeNote" : [ {
@@ -5325,56 +5325,6 @@
         "IRI-based" : "dtype_ba"
       }
     }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "surface soil moisture degree of saturation absolute",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "surface soil moisture degree of saturation absolute",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SSMS",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/soil-moisture/",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "surface soil moisture degree of saturation absolute",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_ssms"
-      }
-    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -5390,16 +5340,16 @@
           "value" : "above-ground biomass",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "AGB",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "above-ground biomass",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "AGB",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -5425,6 +5375,56 @@
         "IRI-based" : "dtype_agb"
       }
     }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "surface soil moisture degree of saturation absolute",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SSMS",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "surface soil moisture degree of saturation absolute",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "https://climate.esa.int/projects/soil-moisture/",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "surface soil moisture degree of saturation absolute",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_ssms"
+      }
+    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -5440,16 +5440,16 @@
           "value" : "soil water index volumetric absolute",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SWIV",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "soil water index volumetric absolute",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SWIV",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -5490,16 +5490,16 @@
           "value" : "snow cover fraction - snow on ground",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "snow cover fraction - snow on ground",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "SCFG",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "snow cover fraction - snow on ground",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -5590,16 +5590,16 @@
           "value" : "vegetation parameters",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "VP_PRODUCTS",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "vegetation parameters",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "VP_PRODUCTS",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -5740,16 +5740,16 @@
           "value" : "soil water index degree of saturation absolute",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "soil water index degree of saturation absolute",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "SWIS",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "soil water index degree of saturation absolute",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -5773,56 +5773,6 @@
       },
       "labels" : {
         "IRI-based" : "dtype_swis"
-      }
-    }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "significant wave height",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "significant wave height",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SWH",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/sea-state/",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "significant wave height",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_swh"
       }
     }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v",
@@ -5875,6 +5825,56 @@
         "IRI-based" : "dtype_v"
       }
     }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "significant wave height",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SWH",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "significant wave height",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "https://climate.esa.int/projects/sea-state/",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "significant wave height",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_swh"
+      }
+    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -5890,16 +5890,16 @@
           "value" : "glacier calving front location",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "CFL",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "glacier calving front location",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "CFL",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -6090,16 +6090,16 @@
           "value" : "snow cover fraction - viewable",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SCFV",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "snow cover fraction  - viewable",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SCFV",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -6190,16 +6190,16 @@
           "value" : "surface soil moisture degree of saturation anomalies",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SSMSA",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "surface soil moisture degree of saturation anomalies",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SSMSA",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -6223,56 +6223,6 @@
       },
       "labels" : {
         "IRI-based" : "dtype_ssmsa"
-      }
-    }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "surface reflectance",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SR",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "surface reflectance",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/land-cover/",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "surface reflectance",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_sr"
       }
     }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi",
@@ -6323,6 +6273,56 @@
       },
       "labels" : {
         "IRI-based" : "dtype_ndvi"
+      }
+    }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "surface reflectance",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SR",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "surface reflectance",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "https://climate.esa.int/projects/land-cover/",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "surface reflectance",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_sr"
       }
     }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map",
@@ -6425,7 +6425,7 @@
         "IRI-based" : "dtype_sit"
       }
     }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc",
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
         "inScheme" : [ {
@@ -6437,19 +6437,19 @@
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
-          "value" : "cloud cover",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "CFC",
+          "value" : "glacier area",
           "type" : "label"
         } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
-          "value" : "cloud cover",
+          "value" : "glacier area",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "GA",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -6461,18 +6461,18 @@
         "seeAlso" : [ {
           "identifier" : "seeAlso",
           "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/cloud",
+          "value" : "https://climate.esa.int/projects/glaciers",
           "type" : "iri"
         } ],
         "scopeNote" : [ {
           "identifier" : "scopeNote",
           "language" : "en",
-          "value" : "cloud cover",
+          "value" : "glacier area",
           "type" : "label"
         } ]
       },
       "labels" : {
-        "IRI-based" : "dtype_cfc"
+        "IRI-based" : "dtype_ga"
       }
     }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt",
@@ -6490,16 +6490,16 @@
           "value" : "sea surface temperature",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "sea surface temperature",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "SSTint",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "sea surface temperature",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -6525,7 +6525,7 @@
         "IRI-based" : "dtype_sstInt"
       }
     }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga",
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
         "inScheme" : [ {
@@ -6537,19 +6537,19 @@
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
-          "value" : "glacier area",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "GA",
+          "value" : "cloud cover",
           "type" : "label"
         } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
-          "value" : "glacier area",
+          "value" : "cloud cover",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "CFC",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -6561,18 +6561,18 @@
         "seeAlso" : [ {
           "identifier" : "seeAlso",
           "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/glaciers",
+          "value" : "https://climate.esa.int/projects/cloud",
           "type" : "iri"
         } ],
         "scopeNote" : [ {
           "identifier" : "scopeNote",
           "language" : "en",
-          "value" : "glacier area",
+          "value" : "cloud cover",
           "type" : "label"
         } ]
       },
       "labels" : {
-        "IRI-based" : "dtype_ga"
+        "IRI-based" : "dtype_cfc"
       }
     }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl",
@@ -6825,56 +6825,6 @@
         "IRI-based" : "dtype_sstSubsk"
       }
     }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "land surface temperature",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "LST",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "land surface temperature",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/land-surface-temperature",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "land surface temperature",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_lst"
-      }
-    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -6890,16 +6840,16 @@
           "value" : "sea ice concentration",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "sea ice concentration",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "SICONC",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "sea ice concentration",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -6925,7 +6875,7 @@
         "IRI-based" : "dtype_sic"
       }
     }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch",
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
         "inScheme" : [ {
@@ -6937,19 +6887,19 @@
         "prefLabel" : [ {
           "identifier" : "prefLabel",
           "language" : "en",
-          "value" : "joint cloud physical properties",
+          "value" : "land surface temperature",
           "type" : "label"
         } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
-          "value" : "joint cloud physical properties",
+          "value" : "land surface temperature",
           "type" : "label"
         } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
-          "value" : "JCH",
+          "value" : "LST",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -6961,18 +6911,18 @@
         "seeAlso" : [ {
           "identifier" : "seeAlso",
           "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/cloud",
+          "value" : "https://climate.esa.int/projects/land-surface-temperature",
           "type" : "iri"
         } ],
         "scopeNote" : [ {
           "identifier" : "scopeNote",
           "language" : "en",
-          "value" : "joint cloud physical properties",
+          "value" : "land surface temperature",
           "type" : "label"
         } ]
       },
       "labels" : {
-        "IRI-based" : "dtype_jch"
+        "IRI-based" : "dtype_lst"
       }
     }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie",
@@ -6990,16 +6940,16 @@
           "value" : "sea ice extent",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SIEXTENT",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "sea ice extent",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SIEXTENT",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -7025,6 +6975,56 @@
         "IRI-based" : "dtype_sie"
       }
     }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "joint cloud physical properties",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "JCH",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "joint cloud physical properties",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "https://climate.esa.int/projects/cloud",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "joint cloud physical properties",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_jch"
+      }
+    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -7040,16 +7040,16 @@
           "value" : "condition snow",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "condition snow",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "Snow",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "condition snow",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -7075,56 +7075,6 @@
         "IRI-based" : "dtype_snow"
       }
     }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "ice sheet surface elevation change",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "ice sheet surface elevation change",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SEC",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "http://www.esa-icesheets-cci.org/",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "ice sheet surface elevation change",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_sec"
-      }
-    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -7140,16 +7090,16 @@
           "value" : "condition water (water bodies)",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "WB",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "condition water (water bodies)",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "WB",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -7175,6 +7125,56 @@
         "IRI-based" : "dtype_wb"
       }
     }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "ice sheet surface elevation change",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SEC",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "ice sheet surface elevation change",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "http://www.esa-icesheets-cci.org/",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "ice sheet surface elevation change",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_sec"
+      }
+    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -7190,16 +7190,16 @@
           "value" : "cloud effective radius",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "CER",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "cloud effective radius",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "CER",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -7390,16 +7390,16 @@
           "value" : "surface soil moisture volumetric anomalies",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SSMVA",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "surface soil moisture volumetric anomalies",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SSMVA",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -7440,16 +7440,16 @@
           "value" : "multiple aerosol products",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "AER_PRODUCTS",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "multiple aerosol products",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "AER_PRODUCTS",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -7540,16 +7540,16 @@
           "value" : "permafrost extent",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "PFR",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "permafrost extent (fraction)",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "PFR",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -7640,16 +7640,16 @@
           "value" : "plant functional types",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "plant functional types",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "PFT",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "plant functional types",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -7790,16 +7790,16 @@
           "value" : "glacier grounding line location",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "glacier grounding line location",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "GLL",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "glacier grounding line location",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -7840,16 +7840,16 @@
           "value" : "multiple products (chla, nlw, IOPs, etc)",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "OC_PRODUCTS",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "multiple products (chla, nlw, IOPs, etc)",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "OC_PRODUCTS",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -7925,56 +7925,6 @@
         "IRI-based" : "dtype_aty"
       }
     }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "soil water index volumetric anomalies",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "soil water index volumetric anomalies",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SWIVA",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/soil-moisture/",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "soil water index volumetric anomalies",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_swiva"
-      }
-    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -8025,6 +7975,56 @@
         "IRI-based" : "dtype_alt"
       }
     }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "soil water index volumetric anomalies",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SWIVA",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "soil water index volumetric anomalies",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "https://climate.esa.int/projects/soil-moisture/",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "soil water index volumetric anomalies",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_swiva"
+      }
+    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -8040,16 +8040,16 @@
           "value" : "unspecified",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "unspecified",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "UNSPECIFIED",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "unspecified",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -8234,16 +8234,16 @@
           "value" : "remote sensing reflectance",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "RRS",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "remote sensing reflectance",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "RRS",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -8334,16 +8334,16 @@
           "value" : "ground temperature",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "ground temperature at a certain depth",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "GTD",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "ground temperature at a certain depth",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -8384,16 +8384,16 @@
           "value" : "condition albedo",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "Alb",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "condition albedo",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "Alb",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -8434,16 +8434,16 @@
           "value" : "land cover classification system",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "LCCS",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "land cover classification system",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "LCCS",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -8484,16 +8484,16 @@
           "value" : "absorption by phytoplankton",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "APH",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "absorption by phytoplankton",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "APH",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -8534,16 +8534,16 @@
           "value" : "cloud top pressure",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "cloud top pressure",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "CTP",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "cloud top pressure",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -8728,16 +8728,16 @@
           "value" : "absorption by coloured dissolved organic matter",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "ADG",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "absorption by coloured dissolved organic matter",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "ADG",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -8928,16 +8928,16 @@
           "value" : "corrected sea surface height",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "SSH",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "corrected sea surface height",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "SSH",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -8978,16 +8978,16 @@
           "value" : "inherent optical properties",
           "type" : "label"
         } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "inherent optical properties",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "en",
           "value" : "IOP",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "inherent optical properties",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -9128,16 +9128,16 @@
           "value" : "multiple lake products",
           "type" : "label"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "LK_PRODUCTS",
-          "type" : "label"
-        } ],
         "definition" : [ {
           "identifier" : "definition",
           "language" : "en",
           "value" : "multiple lake products",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "LK_PRODUCTS",
           "type" : "label"
         } ],
         "topConceptOf" : [ {
@@ -9263,6 +9263,56 @@
         "IRI-based" : "dtype_lp"
       }
     }, {
+      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai",
+      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
+      "annotations" : {
+        "inScheme" : [ {
+          "identifier" : "inScheme",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "prefLabel" : [ {
+          "identifier" : "prefLabel",
+          "language" : "en",
+          "value" : "leaf area Index",
+          "type" : "label"
+        } ],
+        "definition" : [ {
+          "identifier" : "definition",
+          "language" : "en",
+          "value" : "leaf area Index",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "en",
+          "value" : "LAI",
+          "type" : "label"
+        } ],
+        "topConceptOf" : [ {
+          "identifier" : "topConceptOf",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+          "type" : "iri"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "https://climate.esa.int/projects/land-cover/",
+          "type" : "iri"
+        } ],
+        "scopeNote" : [ {
+          "identifier" : "scopeNote",
+          "language" : "en",
+          "value" : "leaf area Index",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "dtype_lai"
+      }
+    }, {
       "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd",
       "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
       "annotations" : {
@@ -9311,56 +9361,6 @@
       },
       "labels" : {
         "IRI-based" : "dtype_cldProd"
-      }
-    }, {
-      "iri" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai",
-      "baseIri" : "http://vocab.ceda.ac.uk/collection/cci/dataType",
-      "annotations" : {
-        "inScheme" : [ {
-          "identifier" : "inScheme",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "prefLabel" : [ {
-          "identifier" : "prefLabel",
-          "language" : "en",
-          "value" : "leaf area Index",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "en",
-          "value" : "LAI",
-          "type" : "label"
-        } ],
-        "definition" : [ {
-          "identifier" : "definition",
-          "language" : "en",
-          "value" : "leaf area Index",
-          "type" : "label"
-        } ],
-        "topConceptOf" : [ {
-          "identifier" : "topConceptOf",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/scheme/cci/dataType",
-          "type" : "iri"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "https://climate.esa.int/projects/land-cover/",
-          "type" : "iri"
-        } ],
-        "scopeNote" : [ {
-          "identifier" : "scopeNote",
-          "language" : "en",
-          "value" : "leaf area Index",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "dtype_lai"
       }
     } ],
     "attributes" : [ "external" ],

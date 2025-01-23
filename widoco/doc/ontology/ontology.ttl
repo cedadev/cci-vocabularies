@@ -8,11 +8,13 @@
 
 <http://vocab.ceda.ac.uk/ontology/cci#> rdf:type owl:Ontology ;
                                          <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                         <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
-                                         <http://purl.org/dc/elements/1.1/description> "<h4>OWL Classes</h4>There are currently 11 classes in the ontology, each of which represents an entry in the DRS as well a two object properties to link sensors and platforms.<h5>OWL Classes</h5><p><img src=classes.svg><p></p><h4>Concept Schemes</h4><p>The named individuals of each class are also represented as concepts in SKOS concept schemes: <a href=../../../scheme/cci/dataType>data type</a>, <a href=../../../scheme/cci/ecv>ecv</a>, <a href=../../../scheme/cci/freq>frequency</a>, <a href=../../../scheme/cci/org>institutes</a>, <a href=../../../scheme/cci/platform>platforms</a>, <a href=../../../scheme/cci/platformGrp>platform groups</a>, <a href=../../../scheme/cci/platformProg>platform programs</a>, <a href=../../../scheme/cci/procLev>processing levels</a>, <a href=../../../scheme/cci/product>products</a>, <a href=../../../scheme/cci/project>projects</a>, and <a href=../../../scheme/cci/sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree as well as providing relationships to concepts from other DRS. As well as relationships between sensors and platforms, each ECV concept is related to one or more data type concepts.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=../../../scheme/cci/conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=../../../scheme/cci/conceptSchemeUp.svg /><h4>Collections</h4><p>The named individuals of each class are also represented as members in SKOS collections: <a href=../../../collection/cci/dataType>data type</a>, <a href=../../../collection/cci/ecv>ecv</a>, <a href=../../../collection/cci/freq>frequency</a>, <a href=../../../collection/cci/org>institutes</a>, <a href=../../../collection/cci/platform>platforms</a>, <a href=../../../scheme/cci/platformGrp>platform groups</a>, <a href=../../../scheme/cci/platformProg>platform programs</a>, <a href=../../../collection/cci/procLev>processing levels</a>, <a href=../../../collection/cci/product>products</a>, <a href=../../../collection/cci/project>projects</a>, and <a href=../../../collection/cci/sensor>sensors</a>. As well as relationships between sensors and platforms, each ECV concept is related to one or more data type concepts.</p><h5>SKOS Collections</h5><img src=../../../collection/cci/collection.svg />" ;
+                                         <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
+                                         <http://purl.org/dc/elements/1.1/description> "<h4>OWL Classes</h4>There are currently eight classes in the ontology, each of which represents an entry in the DRS as well a two object properties to link sensors and platforms.<h5>OWL Classes</h5><p><img src=classes.svg><p></p><h4>Concept Schemes</h4><p>The named individuals of each class are also represented as concepts in SKOS concept schemes: <a href=../../../scheme/cci/dataType>data type</a>, <a href=../../../scheme/cci/ecv>ecv</a>, <a href=../../../scheme/cci/freq>frequency</a>, <a href=../../../scheme/cci/org>institutes</a>, <a href=../../../scheme/cci/platform>platforms</a>, <a href=../../../scheme/cci/procLev>processing levels</a>, <a href=../../../scheme/cci/product>products</a>, and <a href=../../../scheme/cci/sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree as well as providing relationships to concepts from other DRS. As well as relationships between sensors and platforms, each ECV concept is related to one or more data type concepts.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=../../../scheme/cci/conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=../../../scheme/cci/conceptSchemeUp.svg /><h4>Collections</h4><p>The named individuals of each class are also represented as members in SKOS collections: <a href=../../../collection/cci/dataType>data type</a>, <a href=../../../collection/cci/ecv>ecv</a>, <a href=../../../collection/cci/freq>frequency</a>, <a href=../../../collection/cci/org>institutes</a>, <a href=../../../collection/cci/platform>platforms</a>, <a href=../../../collection/cci/procLev>processing levels</a>, <a href=../../../collection/cci/product>products</a>, and <a href=../../../collection/cci/sensor>sensors</a>. As well as relationships between sensors and platforms, each ECV concept is related to one or more data type concepts.</p><h5>SKOS Collections</h5><img src=../../../collection/cci/collection.svg />" ;
                                          <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                          <http://purl.org/dc/elements/1.1/rights> "This work is licensed under a BSD license."@en ;
                                          <http://purl.org/dc/elements/1.1/title> "The CCI Ontology" ;
+                                         <http://purl.org/vocab/vann/preferredNamespacePrefix> "cci" ;
+                                         <http://purl.org/vocab/vann/preferredNamespaceUri> "http://vocab.ceda.ac.uk/ontology/cci#" ;
                                          rdfs:comment "This ontology represents the Directory Reference Scheme (DRS) used by the ESA Climate Change Initiative <a href=http://cci.esa.int/>CCI project</a>." ;
                                          rdfs:label "CCI Ontology" ;
                                          owl:versionInfo "0.0.1" ;
@@ -54,6 +56,14 @@
 
 ###  http://purl.org/dc/elements/1.1/title
 <http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
 
 
 ###  http://vocab.ceda.ac.uk/ontology/cci#hasPlatform
@@ -217,7 +227,7 @@
 <http://vocab.ceda.ac.uk/collection/cci/dataType> rdf:type owl:NamedIndividual ,
                                                            <http://www.w3.org/2004/02/skos/core#Collection> ;
                                                   <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                                  <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
+                                                  <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
                                                   <http://purl.org/dc/elements/1.1/description> "The main data type in a data set used by the ESA Climate Change Initiative (CCI)." ;
                                                   <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                                   <http://purl.org/dc/elements/1.1/title> "Geophysical Quantity" ;
@@ -319,7 +329,7 @@
 <http://vocab.ceda.ac.uk/collection/cci/ecv> rdf:type owl:NamedIndividual ,
                                                       <http://www.w3.org/2004/02/skos/core#Collection> ;
                                              <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                             <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
+                                             <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
                                              <http://purl.org/dc/elements/1.1/description> "The Essential Climate Variable (ECVs) in the ESA Climate Change Initiative (CCI)." ;
                                              <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                              <http://purl.org/dc/elements/1.1/title> "ECV" ;
@@ -356,7 +366,7 @@
 <http://vocab.ceda.ac.uk/collection/cci/freq> rdf:type owl:NamedIndividual ,
                                                        <http://www.w3.org/2004/02/skos/core#Collection> ;
                                               <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                              <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
+                                              <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
                                               <http://purl.org/dc/elements/1.1/description> "Temporal frequencies of data from the ESA Climate Change Initiative (CCI)." ;
                                               <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                               <http://purl.org/dc/elements/1.1/title> "Frequency" ;
@@ -387,7 +397,7 @@
 <http://vocab.ceda.ac.uk/collection/cci/org> rdf:type owl:NamedIndividual ,
                                                       <http://www.w3.org/2004/02/skos/core#Collection> ;
                                              <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                             <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
+                                             <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
                                              <http://purl.org/dc/elements/1.1/description> "Organisations (institutions) that are involved in production of data for the ESA Climate Change Initiative (CCI)." ;
                                              <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                              <http://purl.org/dc/elements/1.1/title> "Institute" ;
@@ -508,7 +518,7 @@
 <http://vocab.ceda.ac.uk/collection/cci/platform> rdf:type owl:NamedIndividual ,
                                                            <http://www.w3.org/2004/02/skos/core#Collection> ;
                                                   <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                                  <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
+                                                  <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
                                                   <http://purl.org/dc/elements/1.1/description> "The platforms that have been used in the collection of data for the ESA Climate Change Initiative (CCI)." ;
                                                   <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                                   <http://purl.org/dc/elements/1.1/title> "Platform" ;
@@ -691,7 +701,7 @@
 <http://vocab.ceda.ac.uk/collection/cci/platformGrp> rdf:type owl:NamedIndividual ,
                                                               <http://www.w3.org/2004/02/skos/core#Collection> ;
                                                      <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                                     <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
+                                                     <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
                                                      <http://purl.org/dc/elements/1.1/description> "The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI)." ;
                                                      <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                                      <http://purl.org/dc/elements/1.1/title> "Platform Group" ;
@@ -708,7 +718,7 @@
 <http://vocab.ceda.ac.uk/collection/cci/platformProg> rdf:type owl:NamedIndividual ,
                                                                <http://www.w3.org/2004/02/skos/core#Collection> ;
                                                       <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                                      <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
+                                                      <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
                                                       <http://purl.org/dc/elements/1.1/description> "The platform programmes that have been used in the collection of data for the ESA Climate Change Initiative (CCI)." ;
                                                       <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                                       <http://purl.org/dc/elements/1.1/title> "Platform Programme" ;
@@ -775,7 +785,7 @@
 <http://vocab.ceda.ac.uk/collection/cci/procLev> rdf:type owl:NamedIndividual ,
                                                           <http://www.w3.org/2004/02/skos/core#Collection> ;
                                                  <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                                 <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
+                                                 <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
                                                  <http://purl.org/dc/elements/1.1/description> "The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI)." ;
                                                  <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                                  <http://purl.org/dc/elements/1.1/title> "Processing Level" ;
@@ -803,7 +813,7 @@
 <http://vocab.ceda.ac.uk/collection/cci/product> rdf:type owl:NamedIndividual ,
                                                           <http://www.w3.org/2004/02/skos/core#Collection> ;
                                                  <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                                 <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
+                                                 <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
                                                  <http://purl.org/dc/elements/1.1/description> "The different products that are produced within the ESA Climate Change Initiative (CCI)." ;
                                                  <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                                  <http://purl.org/dc/elements/1.1/title> "Product String" ;
@@ -1009,7 +1019,7 @@
 <http://vocab.ceda.ac.uk/collection/cci/project> rdf:type owl:NamedIndividual ,
                                                           <http://www.w3.org/2004/02/skos/core#Collection> ;
                                                  <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                                 <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
+                                                 <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
                                                  <http://purl.org/dc/elements/1.1/description> "The different projects that are produced within the ESA Climate Change Initiative (CCI)." ;
                                                  <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                                  <http://purl.org/dc/elements/1.1/title> "Project" ;
@@ -1046,7 +1056,7 @@
 <http://vocab.ceda.ac.uk/collection/cci/sensor> rdf:type owl:NamedIndividual ,
                                                          <http://www.w3.org/2004/02/skos/core#Collection> ;
                                                 <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                                <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
+                                                <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
                                                 <http://purl.org/dc/elements/1.1/description> "The sensors that have been used in the collection of the data for the ESA Climate Change Initiative (CCI)." ;
                                                 <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                                 <http://purl.org/dc/elements/1.1/title> "Sensor" ;
@@ -10866,8 +10876,8 @@
 <http://vocab.ceda.ac.uk/scheme/cci/dataType> rdf:type owl:NamedIndividual ,
                                                        <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
                                               <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                              <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
-                                              <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programs</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
+                                              <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
+                                              <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
                                               <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                               <http://purl.org/dc/elements/1.1/rights> "This work is licensed under a BSD license."@en ;
                                               <http://purl.org/dc/elements/1.1/title> "Geophysical Quantity" ;
@@ -10969,8 +10979,8 @@
 <http://vocab.ceda.ac.uk/scheme/cci/ecv> rdf:type owl:NamedIndividual ,
                                                   <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
                                          <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                         <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
-                                         <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programs</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
+                                         <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
+                                         <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
                                          <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                          <http://purl.org/dc/elements/1.1/rights> "This work is licensed under a BSD license."@en ;
                                          <http://purl.org/dc/elements/1.1/title> "ECV" ;
@@ -11007,8 +11017,8 @@
 <http://vocab.ceda.ac.uk/scheme/cci/freq> rdf:type owl:NamedIndividual ,
                                                    <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
                                           <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                          <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
-                                          <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programs</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
+                                          <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
+                                          <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
                                           <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                           <http://purl.org/dc/elements/1.1/rights> "This work is licensed under a BSD license."@en ;
                                           <http://purl.org/dc/elements/1.1/title> "Frequency" ;
@@ -11039,8 +11049,8 @@
 <http://vocab.ceda.ac.uk/scheme/cci/org> rdf:type owl:NamedIndividual ,
                                                   <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
                                          <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                         <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
-                                         <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programs</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
+                                         <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
+                                         <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
                                          <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                          <http://purl.org/dc/elements/1.1/rights> "This work is licensed under a BSD license."@en ;
                                          <http://purl.org/dc/elements/1.1/title> "Institute" ;
@@ -11161,8 +11171,8 @@
 <http://vocab.ceda.ac.uk/scheme/cci/platform> rdf:type owl:NamedIndividual ,
                                                        <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
                                               <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                              <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
-                                              <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programs</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
+                                              <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
+                                              <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
                                               <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                               <http://purl.org/dc/elements/1.1/rights> "This work is licensed under a BSD license."@en ;
                                               <http://purl.org/dc/elements/1.1/title> "Platform" ;
@@ -11345,8 +11355,8 @@
 <http://vocab.ceda.ac.uk/scheme/cci/platformGrp> rdf:type owl:NamedIndividual ,
                                                           <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
                                                  <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                                 <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
-                                                 <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programs</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
+                                                 <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
+                                                 <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
                                                  <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                                  <http://purl.org/dc/elements/1.1/rights> "This work is licensed under a BSD license."@en ;
                                                  <http://purl.org/dc/elements/1.1/title> "Platform Group" ;
@@ -11363,8 +11373,8 @@
 <http://vocab.ceda.ac.uk/scheme/cci/platformProg> rdf:type owl:NamedIndividual ,
                                                            <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
                                                   <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                                  <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
-                                                  <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programs</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
+                                                  <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
+                                                  <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
                                                   <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                                   <http://purl.org/dc/elements/1.1/rights> "This work is licensed under a BSD license."@en ;
                                                   <http://purl.org/dc/elements/1.1/title> "Platform Programme" ;
@@ -11431,8 +11441,8 @@
 <http://vocab.ceda.ac.uk/scheme/cci/procLev> rdf:type owl:NamedIndividual ,
                                                       <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
                                              <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                             <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
-                                             <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programs</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
+                                             <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
+                                             <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
                                              <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                              <http://purl.org/dc/elements/1.1/rights> "This work is licensed under a BSD license."@en ;
                                              <http://purl.org/dc/elements/1.1/title> "Processing Level" ;
@@ -11460,8 +11470,8 @@
 <http://vocab.ceda.ac.uk/scheme/cci/product> rdf:type owl:NamedIndividual ,
                                                       <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
                                              <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                             <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
-                                             <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programs</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
+                                             <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
+                                             <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
                                              <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                              <http://purl.org/dc/elements/1.1/rights> "This work is licensed under a BSD license."@en ;
                                              <http://purl.org/dc/elements/1.1/title> "Product" ;
@@ -11667,8 +11677,8 @@
 <http://vocab.ceda.ac.uk/scheme/cci/project> rdf:type owl:NamedIndividual ,
                                                       <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
                                              <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                             <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
-                                             <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programs</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
+                                             <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
+                                             <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
                                              <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                              <http://purl.org/dc/elements/1.1/rights> "This work is licensed under a BSD license."@en ;
                                              <http://purl.org/dc/elements/1.1/title> "Project" ;
@@ -11705,8 +11715,8 @@
 <http://vocab.ceda.ac.uk/scheme/cci/sensor> rdf:type owl:NamedIndividual ,
                                                      <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
                                             <http://purl.org/dc/elements/1.1/creator> "Science and Technology Facilities Council" ;
-                                            <http://purl.org/dc/elements/1.1/date> "2025-01-20" ;
-                                            <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programs</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
+                                            <http://purl.org/dc/elements/1.1/date> "2025-01-23" ;
+                                            <http://purl.org/dc/elements/1.1/description> "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently eight concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=conceptSchemeUp.svg /><p>As well as being concepts the the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.<h5>OWL Classes</h5><img src=classes.svg /><p></p>" ;
                                             <http://purl.org/dc/elements/1.1/publisher> "STFC"@en ;
                                             <http://purl.org/dc/elements/1.1/rights> "This work is licensed under a BSD license."@en ;
                                             <http://purl.org/dc/elements/1.1/title> "Sensor" ;
