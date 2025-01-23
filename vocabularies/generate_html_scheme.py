@@ -172,7 +172,6 @@ def write_head(ontology_name, found_classes, found_properties):
         FILE.write('<li><a href="#classes">Classes</a></li>\n')
 
     FILE.write('<li><a href="#conceptschemes">Concept Schemes</a></li>\n')
-    FILE.write('<li><a href="#concepts">Concepts</a></li>\n')
 
     if found_properties:
         FILE.write('<li><a href="#objectproperties">Object Properties</a></li>\n')
