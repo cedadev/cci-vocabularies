@@ -17,7 +17,13 @@ python3 -m venv venv
 pip install git+https://github.com/cedadev/cci-vocabularies.git
 ```
 
-## Running the Script
+## Update a Vocabulary
+
+The vocabularies are generated from a series of `xlsx` files that can be found in the 
+[data](data/) directory. See the [README.md](data/README.md) in the [data](data/) directory
+for more information.
+
+## Generating the Vocabularies
 
 Ensure the virtual environment has been activated.
 
@@ -33,10 +39,11 @@ cci-vocab
 
 ## Updating the Server
 
-To update the triple store on the sterver you must call the script with the `--deploy` flag.
+To update the triple store on the server you must call the script with the `--deploy` flag.
 
 ```
 cci-vocab --deploy
 ```
 
-To update the static pages use the `vocab_upload.sh` script, but first update the value of `html_dir` in the script.
+To update the static pages use the `vocab_upload.sh` script, but first ensure that the value
+of `html_dir` in the script is set to the correct value.
