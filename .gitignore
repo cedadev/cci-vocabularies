@@ -94,5 +94,7 @@ html/scheme/cci/cci-content/sensor.rdf
 html/scheme/cci/cci-content/sensor.ttl
 /*.pyc
 */*.pyc
+__pycache__/
 .DS_Store
 */.DS_Store
+*/*.bkp
