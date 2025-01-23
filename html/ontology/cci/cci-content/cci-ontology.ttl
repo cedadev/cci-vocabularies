@@ -5858,7 +5858,7 @@ cci-collection:sensor a skos:Collection ;
 cci:platformGrp a owl:Class ;
     rdfs:label "Platform Group" ;
     dc:description "The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI). A group consists of a number of <a href=#platformPrg>programmes</a>" ;
-    rdfs:isDefinedBy cci: .
+    rdfs:isDefinedBy <http://vocab.ceda.ac.uk/ontology/cci#> .
 
 <http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3D> a cci:platform,
         skos:Concept ;
@@ -8174,7 +8174,7 @@ cci-scheme:platformGrp a skos:ConceptScheme ;
 cci: a owl:Ontology,
         skos:ConceptScheme ;
     rdfs:label "CCI Ontology" ;
-    vann:preferredNamespaceUri "http://vocab.ceda.ac.uk/ontology/cci#" ;
+    vann:preferredNamespaceUri <http://vocab.ceda.ac.uk/ontology/cci#> ;
     vann:preferredNamespacePrefix "cci" ;
     dc:creator "Science and Technology Facilities Council" ;
     dc:date "2025-01-23" ;
@@ -8320,22 +8320,22 @@ cci: a owl:Ontology,
 cci:procLev a owl:Class ;
     rdfs:label "Processing Level" ;
     dc:description "The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI)." ;
-    rdfs:isDefinedBy cci: .
+    rdfs:isDefinedBy <http://vocab.ceda.ac.uk/ontology/cci#> .
 
 cci:freq a owl:Class ;
     rdfs:label "Frequency" ;
     dc:description "Temporal frequencies of data from the ESA Climate Change Initiative (CCI)." ;
-    rdfs:isDefinedBy cci: .
+    rdfs:isDefinedBy <http://vocab.ceda.ac.uk/ontology/cci#> .
 
 cci:ecv a owl:Class ;
     rdfs:label "ECV" ;
     dc:description "The Essential Climate Variable (ECVs) in the ESA Climate Change Initiative (<a href=http://cci.esa.int/> CCI </a>)." ;
-    rdfs:isDefinedBy cci: .
+    rdfs:isDefinedBy <http://vocab.ceda.ac.uk/ontology/cci#> .
 
 cci:project a owl:Class ;
     rdfs:label "Project" ;
     dc:description "The different projects within the ESA Climate Change Initiative (CCI)." ;
-    rdfs:isDefinedBy cci: .
+    rdfs:isDefinedBy <http://vocab.ceda.ac.uk/ontology/cci#> .
 
 cci-scheme:procLev a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
@@ -8465,22 +8465,22 @@ cci-scheme:project a skos:ConceptScheme ;
 cci:platformProg a owl:Class ;
     rdfs:label "Platform Programme" ;
     dc:description "The platform programmes that have been used in the collection of data for the ESA Climate Change Initiative (CCI). A programme consists of a number of <a href=#platform>platforms</a>" ;
-    rdfs:isDefinedBy cci: .
+    rdfs:isDefinedBy <http://vocab.ceda.ac.uk/ontology/cci#> .
 
 cci:dataType a owl:Class ;
     rdfs:label "Geophysical Quantity" ;
     dc:description "The main data type in a data set used by the ESA Climate Change Initiative (CCI)." ;
-    rdfs:isDefinedBy cci: .
+    rdfs:isDefinedBy <http://vocab.ceda.ac.uk/ontology/cci#> .
 
 cci:sensor a owl:Class ;
     rdfs:label "Sensor" ;
     dc:description "The sensors that have been used in the collection of the data for the ESA Climate Change Initiative (CCI)." ;
-    rdfs:isDefinedBy cci: .
+    rdfs:isDefinedBy <http://vocab.ceda.ac.uk/ontology/cci#> .
 
 cci:org a owl:Class ;
     rdfs:label "Institute" ;
     dc:description "Organisations (institutions) that are involved in production of data for the ESA Climate Change Initiative (CCI)." ;
-    rdfs:isDefinedBy cci: .
+    rdfs:isDefinedBy <http://vocab.ceda.ac.uk/ontology/cci#> .
 
 cci-scheme:platformProg a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
@@ -8550,7 +8550,7 @@ cci-scheme:platformProg a skos:ConceptScheme ;
 cci:platform a owl:Class ;
     rdfs:label "Platform" ;
     dc:description "The platforms that have been used in the collection of data for the ESA Climate Change Initiative (CCI)." ;
-    rdfs:isDefinedBy cci: .
+    rdfs:isDefinedBy <http://vocab.ceda.ac.uk/ontology/cci#> .
 
 cci-scheme:dataType a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
@@ -8760,7 +8760,7 @@ cci-scheme:sensor a skos:ConceptScheme ;
 cci:product a owl:Class ;
     rdfs:label "Product" ;
     dc:description "The different products that are produced within the ESA Climate Change Initiative (CCI)." ;
-    rdfs:isDefinedBy cci: .
+    rdfs:isDefinedBy <http://vocab.ceda.ac.uk/ontology/cci#> .
 
 cci-scheme:org a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
