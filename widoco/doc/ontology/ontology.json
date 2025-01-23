@@ -21220,7 +21220,7 @@
     "@value" : "cci"
   } ],
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
-    "@value" : "http://vocab.ceda.ac.uk/ontology/cci#"
+    "@id" : "http://vocab.ceda.ac.uk/ontology/cci#"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "This ontology represents the Directory Reference Scheme (DRS) used by the ESA Climate Change Initiative <a href=http://cci.esa.int/>CCI project</a>."

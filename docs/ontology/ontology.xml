@@ -18,7 +18,7 @@
         <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
         <dc:title>The CCI Ontology</dc:title>
         <vann:preferredNamespacePrefix>cci</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri>http://vocab.ceda.ac.uk/ontology/cci#</vann:preferredNamespaceUri>
+        <vann:preferredNamespaceUri rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#"/>
         <rdfs:comment>This ontology represents the Directory Reference Scheme (DRS) used by the ESA Climate Change Initiative &lt;a href=http://cci.esa.int/&gt;CCI project&lt;/a&gt;.</rdfs:comment>
         <rdfs:label>CCI Ontology</rdfs:label>
         <owl:versionInfo>0.0.1</owl:versionInfo>

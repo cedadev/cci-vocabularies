@@ -14,7 +14,7 @@
                                          <http://purl.org/dc/elements/1.1/rights> "This work is licensed under a BSD license."@en ;
                                          <http://purl.org/dc/elements/1.1/title> "The CCI Ontology" ;
                                          <http://purl.org/vocab/vann/preferredNamespacePrefix> "cci" ;
-                                         <http://purl.org/vocab/vann/preferredNamespaceUri> "http://vocab.ceda.ac.uk/ontology/cci#" ;
+                                         <http://purl.org/vocab/vann/preferredNamespaceUri> <http://vocab.ceda.ac.uk/ontology/cci#> ;
                                          rdfs:comment "This ontology represents the Directory Reference Scheme (DRS) used by the ESA Climate Change Initiative <a href=http://cci.esa.int/>CCI project</a>." ;
                                          rdfs:label "CCI Ontology" ;
                                          owl:versionInfo "0.0.1" ;

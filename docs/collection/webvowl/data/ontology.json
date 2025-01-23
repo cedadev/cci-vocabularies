@@ -45,127 +45,7 @@
         "member" : [ {
           "identifier" : "member",
           "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex",
           "type" : "iri"
         }, {
           "identifier" : "member",
@@ -175,232 +55,7 @@
         }, {
           "identifier" : "member",
           "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA",
           "type" : "iri"
         }, {
           "identifier" : "member",
@@ -410,62 +65,7 @@
         }, {
           "identifier" : "member",
           "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all",
-          "type" : "iri"
-        }, {
-          "identifier" : "member",
-          "language" : "undefined",
-          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4",
           "type" : "iri"
         }, {
           "identifier" : "member",
@@ -475,12 +75,412 @@
         }, {
           "identifier" : "member",
           "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
           "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph",
           "type" : "iri"
         }, {
           "identifier" : "member",
           "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
           "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt",
+          "type" : "iri"
+        }, {
+          "identifier" : "member",
+          "language" : "undefined",
+          "value" : "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms",
           "type" : "iri"
         } ],
         "publisher" : [ {
