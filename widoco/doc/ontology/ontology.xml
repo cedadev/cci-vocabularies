@@ -9,17 +9,20 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:vann="http://purl.org/vocab/vann/">
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://vocab.ceda.ac.uk/ontology/cci#">
         <dc:creator>Science and Technology Facilities Council</dc:creator>
         <dc:date>2025-01-23</dc:date>
-        <dc:description>&lt;h4&gt;OWL Classes&lt;/h4&gt;There are currently eight classes in the ontology, each of which represents an entry in the DRS as well a two object properties to link sensors and platforms.&lt;h5&gt;OWL Classes&lt;/h5&gt;&lt;p&gt;&lt;img src=classes.svg&gt;&lt;p&gt;&lt;/p&gt;&lt;h4&gt;Concept Schemes&lt;/h4&gt;&lt;p&gt;The named individuals of each class are also represented as concepts in SKOS concept schemes: &lt;a href=../../../scheme/cci/dataType&gt;data type&lt;/a&gt;, &lt;a href=../../../scheme/cci/ecv&gt;ecv&lt;/a&gt;, &lt;a href=../../../scheme/cci/freq&gt;frequency&lt;/a&gt;, &lt;a href=../../../scheme/cci/org&gt;institutes&lt;/a&gt;, &lt;a href=../../../scheme/cci/platform&gt;platforms&lt;/a&gt;, &lt;a href=../../../scheme/cci/procLev&gt;processing levels&lt;/a&gt;, &lt;a href=../../../scheme/cci/product&gt;products&lt;/a&gt;, and &lt;a href=../../../scheme/cci/sensor&gt;sensors&lt;/a&gt;. The use of a concept scheme allows easy navigation up and down the tree as well as providing relationships to concepts from other DRS. As well as relationships between sensors and platforms, each ECV concept is related to one or more data type concepts.&lt;/p&gt;&lt;h5&gt;SKOS Navigation Down the Concept Scheme&lt;/h5&gt;&lt;img src=../../../scheme/cci/conceptSchemeDown.svg /&gt;&lt;h5&gt;SKOS Navigation Up the Concept Scheme&lt;/h5&gt;&lt;img src=../../../scheme/cci/conceptSchemeUp.svg /&gt;&lt;h4&gt;Collections&lt;/h4&gt;&lt;p&gt;The named individuals of each class are also represented as members in SKOS collections: &lt;a href=../../../collection/cci/dataType&gt;data type&lt;/a&gt;, &lt;a href=../../../collection/cci/ecv&gt;ecv&lt;/a&gt;, &lt;a href=../../../collection/cci/freq&gt;frequency&lt;/a&gt;, &lt;a href=../../../collection/cci/org&gt;institutes&lt;/a&gt;, &lt;a href=../../../collection/cci/platform&gt;platforms&lt;/a&gt;, &lt;a href=../../../collection/cci/procLev&gt;processing levels&lt;/a&gt;, &lt;a href=../../../collection/cci/product&gt;products&lt;/a&gt;, and &lt;a href=../../../collection/cci/sensor&gt;sensors&lt;/a&gt;. As well as relationships between sensors and platforms, each ECV concept is related to one or more data type concepts.&lt;/p&gt;&lt;h5&gt;SKOS Collections&lt;/h5&gt;&lt;img src=../../../collection/cci/collection.svg /&gt;</dc:description>
+        <dc:description>dc:description &lt;h4&gt;OWL Classes&lt;/h4&gt;There are currently eight classes in the ontology, each of which represents an entry in the DRS as well a two object properties to link sensors and platforms.&lt;h5&gt;OWL Classes&lt;/h5&gt;&lt;p&gt;&lt;img src=classes.svg&gt;&lt;p&gt;&lt;/p&gt;&lt;h4&gt;Concept Schemes&lt;/h4&gt;&lt;p&gt;The named individuals of each class are also represented as concepts in SKOS concept schemes: &lt;a href=../../../scheme/cci/dataType&gt;data type&lt;/a&gt;, &lt;a href=../../../scheme/cci/ecv&gt;ecv&lt;/a&gt;, &lt;a href=../../../scheme/cci/freq&gt;frequency&lt;/a&gt;, &lt;a href=../../../scheme/cci/org&gt;institutes&lt;/a&gt;, &lt;a href=../../../scheme/cci/platform&gt;platforms&lt;/a&gt;, &lt;a href=../../../scheme/cci/procLev&gt;processing levels&lt;/a&gt;, &lt;a href=../../../scheme/cci/product&gt;products&lt;/a&gt;, and &lt;a href=../../../scheme/cci/sensor&gt;sensors&lt;/a&gt;. The use of a concept scheme allows easy navigation up and down the tree as well as providing relationships to concepts from other DRS. As well as relationships between sensors and platforms, each ECV concept is related to one or more data type concepts.&lt;/p&gt;&lt;h5&gt;SKOS Navigation Down the Concept Scheme&lt;/h5&gt;&lt;img src=../../../scheme/cci/conceptSchemeDown.svg /&gt;&lt;h5&gt;SKOS Navigation Up the Concept Scheme&lt;/h5&gt;&lt;img src=../../../scheme/cci/conceptSchemeUp.svg /&gt;&lt;h4&gt;Collections&lt;/h4&gt;&lt;p&gt;The named individuals of each class are also represented as members in SKOS collections: &lt;a href=../../../collection/cci/dataType&gt;data type&lt;/a&gt;, &lt;a href=../../../collection/cci/ecv&gt;ecv&lt;/a&gt;, &lt;a href=../../../collection/cci/freq&gt;frequency&lt;/a&gt;, &lt;a href=../../../collection/cci/org&gt;institutes&lt;/a&gt;, &lt;a href=../../../collection/cci/platform&gt;platforms&lt;/a&gt;, &lt;a href=../../../collection/cci/procLev&gt;processing levels&lt;/a&gt;, &lt;a href=../../../collection/cci/product&gt;products&lt;/a&gt;, and &lt;a href=../../../collection/cci/sensor&gt;sensors&lt;/a&gt;. As well as relationships between sensors and platforms, each ECV concept is related to one or more data type concepts.&lt;/p&gt;&lt;h5&gt;SKOS Collections&lt;/h5&gt;&lt;img src=../../../collection/cci/collection.svg /&gt;</dc:description>
         <dc:publisher xml:lang="en">STFC</dc:publisher>
         <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
         <dc:title>The CCI Ontology</dc:title>
+        <terms:abstract xml:lang="en">dct:abstract The abstract should explain a little more about the scope and goals of the ontology.</terms:abstract>
+        <terms:description xml:lang="en">dct:description The Example ontology is used to provide an example for ontology annotations in OWL.</terms:description>
         <vann:preferredNamespacePrefix>cci</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#"/>
-        <rdfs:comment>This ontology represents the Directory Reference Scheme (DRS) used by the ESA Climate Change Initiative &lt;a href=http://cci.esa.int/&gt;CCI project&lt;/a&gt;.</rdfs:comment>
+        <rdfs:comment>rdfs:comment This ontology represents the Directory Reference Scheme (DRS) used by the ESA Climate Change Initiative &lt;a href=http://cci.esa.int/&gt;CCI project&lt;/a&gt;.</rdfs:comment>
         <rdfs:label>CCI Ontology</rdfs:label>
         <owl:versionInfo>0.0.1</owl:versionInfo>
         <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/dataType"/>
@@ -88,6 +91,20 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/abstract -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
     
 
 
