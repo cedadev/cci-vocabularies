@@ -15,4 +15,4 @@ dependencies = [
 cci-vocab = "vocabularies.all:main"
 
 [tool.setuptools]
-packages = ["vocabularies"]
+packages = ["vocabularies", "vocabularies.generate_html", "vocabularies.generate_ttl"]
