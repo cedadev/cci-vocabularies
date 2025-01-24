@@ -31,9 +31,9 @@ def _generate(deploy):
 
     if deploy is True:
         print(f"{time.strftime('%H:%M:%S')} deploy_rdf")
+        deploy_rdf.deploy()
 
-
-#     deploy_rdf.deploy()
+    print("\nUse the `vocab_upload.sh` script to update the web pages on the Vocab Server\n")
 
 
 def _parse_command_line(argv):
