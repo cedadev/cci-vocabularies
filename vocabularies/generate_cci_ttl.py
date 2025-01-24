@@ -28,6 +28,16 @@ def generate():
         SKOS,
     )
     mapping.write_ttl(
+        "cci-dataType-ecv-mapping.csv",
+        "cci-dataType-ecv-mapping.ttl",
+        MAPPING_BOTH,
+        CCI,
+        "dataType/",
+        CCI,
+        "ecv/",
+        SKOS,
+    )
+    mapping.write_ttl(
         "cci-platform-sensor-mapping.csv",
         "cci-platform-sensor-mapping.ttl",
         MAPPING_BOTH,
