@@ -14,7 +14,8 @@ It is recommended to install the code in a virtual environment.
 ```
 python3 -m venv venv
 . venv/bin/activate
-pip install git+https://github.com/cedadev/cci-vocabularies.git
+git clone https://github.com/cedadev/cci-vocabularies.git
+pip install -e cci-vocabularies
 ```
 
 ## Update a Vocabulary
