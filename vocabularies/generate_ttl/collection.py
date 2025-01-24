@@ -17,6 +17,7 @@ ABSTRACT = 4
 DESC = 5
 VERSION = 6
 PUBLISHER = 7
+RIGHTS = 8
 
 
 def write_ttl(ontology_name):
@@ -57,6 +58,7 @@ def _write_collection(ontology_name, row):
         ttl_writer.write(f'    skos:prefLabel "{row[PREF_LABEL]}"@en ;\n')
         ttl_writer.write(f'    skos:definition "{_parse(row[DESC])}"@en ;\n')
         ttl_writer.write(f'    dc:title "{row[PREF_LABEL]}" ;\n')
+        ttl_writer.write(f'    dc:rights "{row[RIGHTS]}"@en ;\n')
         ttl_writer.write(f'    dc:publisher "{row[PUBLISHER]}"@en ;\n')
         ttl_writer.write(f'    rdfs:comment "{_parse(row[ABSTRACT])}" ;\n')
         creators = row[CREATOR].split(", ")
