@@ -106,7 +106,7 @@ COLLECTION_MAP[GCOS] = GCOS_COLLECTION
 COLLECTION_MAP[GRIB] = GRIB_COLLECTION
 COLLECTION_MAP[GLOSSARY] = GLOSSARY_COLLECTION
 
-BASE_PATH = os.path.abspath(os.path.dirname(__file__))
+BASE_PATH = os.environ.get('DEPLOY_PATH') or os.path.abspath(os.path.dirname(__file__))
 CSV_DIRECTORY = os.path.join(BASE_PATH, "..", "csv")
 DATA_DIRECTORY = os.path.join(BASE_PATH, "..", "data")
 HTML_DIRECTORY = os.path.join(BASE_PATH, "..", "html")
