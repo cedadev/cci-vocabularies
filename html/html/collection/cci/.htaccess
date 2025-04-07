@@ -1,0 +1,92 @@
+# Turn off MultiViews
+Options -MultiViews
+
+# Directive to ensure *.rdf files served as appropriate content type,
+# if not present in main apache config
+AddType application/rdf+xml .rdf
+AddType application/rdf+xml .owl
+AddType application/json .json
+AddType text/turtle .ttl #<---Add if you have a ttl serialization of the file
+
+# Rewrite engine setup
+RewriteEngine On
+RewriteBase /collection/cci
+
+# Rewrite rule to serve HTML content from the vocabulary URI if requested
+RewriteCond %{HTTP_ACCEPT} !application/rdf\+xml.*(text/html|application/xhtml\+xml)
+RewriteCond %{HTTP_ACCEPT} text/html [OR]
+RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Mozilla/.*
+RewriteRule ^cci$ cci-content/index.html [R=303]
+RewriteRule ^$ cci-content/index.html [R=303]
+RewriteRule ^collection.svg$ cci-content/collection.svg [R=303]
+RewriteRule ^dataType cci-content/dataType.html [R=303]
+RewriteRule ^ecv cci-content/ecv.html [R=303]
+RewriteRule ^freq cci-content/freq.html [R=303]
+RewriteRule ^org cci-content/org.html [R=303]
+RewriteRule ^platformGrp cci-content/platformGrp.html [R=303]
+RewriteRule ^platformProg cci-content/platformProg.html [R=303]
+RewriteRule ^platform cci-content/platform.html [R=303]
+RewriteRule ^procLev cci-content/procLev.html [R=303]
+RewriteRule ^product cci-content/product.html [R=303]
+RewriteRule ^project cci-content/project.html [R=303]
+RewriteRule ^sensor cci-content/sensor.html [R=303]
+
+# Rewrite rule to serve json content from the vocabulary URI if requested
+RewriteCond %{HTTP_ACCEPT} application/json [OR]
+RewriteCond %{HTTP_ACCEPT} application/json-ld
+RewriteRule ^dataType cci-content/dataType.json [R=303]
+RewriteRule ^ecv cci-content/ecv.json [R=303]
+RewriteRule ^freq cci-content/freq.json [R=303]
+RewriteRule ^org cci-content/org.json [R=303]
+RewriteRule ^platformGrp cci-content/platformGrp.json [R=303]
+RewriteRule ^platformProg cci-content/platformProg.json [R=303]
+RewriteRule ^platform cci-content/platform.json [R=303]
+RewriteRule ^procLev cci-content/procLev.json [R=303]
+RewriteRule ^product cci-content/product.json [R=303]
+RewriteRule ^project cci-content/project.json [R=303]
+RewriteRule ^sensor cci-content/sensor.json [R=303]
+
+# Rewrite rule to serve RDF/XML content from the vocabulary URI if requested
+RewriteCond %{HTTP_ACCEPT} application/rdf\+xml
+RewriteRule ^dataType cci-content/dataType.rdf [R=303]
+RewriteRule ^ecv cci-content/ecv.rdf [R=303]
+RewriteRule ^freq cci-content/freq.rdf [R=303]
+RewriteRule ^org cci-content/org.rdf [R=303]
+RewriteRule ^platformGrp cci-content/platformGrp.rdf [R=303]
+RewriteRule ^platformProg cci-content/platformProg.rdf [R=303]
+RewriteRule ^platform cci-content/platform.rdf [R=303]
+RewriteRule ^procLev cci-content/procLev.rdf [R=303]
+RewriteRule ^product cci-content/product.rdf [R=303]
+RewriteRule ^project cci-content/project.rdf [R=303]
+RewriteRule ^sensor cci-content/sensor.rdf [R=303]
+
+# Rewrite rule to serve turtle content from the vocabulary URI if requested
+RewriteCond %{HTTP_ACCEPT} text/turtle
+RewriteRule ^dataType cci-content/dataType.ttl [R=303]
+RewriteRule ^ecv cci-content/ecv.ttl [R=303]
+RewriteRule ^freq cci-content/freq.ttl [R=303]
+RewriteRule ^org cci-content/org.ttl [R=303]
+RewriteRule ^platformGrp cci-content/platformGrp.ttl [R=303]
+RewriteRule ^platformProg cci-content/platformProg.ttl [R=303]
+RewriteRule ^platform cci-content/platform.ttl [R=303]
+RewriteRule ^procLev cci-content/procLev.ttl [R=303]
+RewriteRule ^product cci-content/product.ttl [R=303]
+RewriteRule ^project cci-content/project.ttl [R=303]
+RewriteRule ^sensor cci-content/sensor.ttl [R=303]
+
+# Choose the default response
+# ---------------------------
+
+# Rewrite rule to serve the RDF/XML content from the vocabulary URI by default
+RewriteRule ^dataType cci-content/dataType.json [R=303]
+RewriteRule ^ecv cci-content/ecv.json [R=303]
+RewriteRule ^freq cci-content/freq.json [R=303]
+RewriteRule ^org cci-content/org.json [R=303]
+RewriteRule ^platformGrp cci-content/platformGrp.json [R=303]
+RewriteRule ^platformProg cci-content/platformProg.json [R=303]
+RewriteRule ^platform cci-content/platform.json [R=303]
+RewriteRule ^procLev cci-content/procLev.json [R=303]
+RewriteRule ^product cci-content/product.json [R=303]
+RewriteRule ^project cci-content/project.json [R=303]
+RewriteRule ^sensor cci-content/sensor.json [R=303]
