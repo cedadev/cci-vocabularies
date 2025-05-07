@@ -1,0 +1,20 @@
+@prefix cci-dataType-collection: <http://vocab.ceda.ac.uk/collection/cci/dataType> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+<http://vocab.ceda.ac.uk/collection/cci/dataType> a skos:Collection ;
+    skos:prefLabel "Geophysical Quantity"@en ;
+    skos:definition "The main data type in a data set used by the ESA Climate Change Initiative (CCI)."@en ;
+    dc:title "Geophysical Quantity" ;
+    dc:rights "This work is licensed under a BSD license."@en ;
+    dc:publisher "STFC"@en ;
+    rdfs:comment "This collection represents the data types used by the CCI project" ;
+    dc:creator "Science and Technology Facilities Council" ;
+    owl:versionInfo "0.0.1";
+    dc:date "2025-04-07" ;
+    dc:description "The main data type in a data set used by the ESA Climate Change Initiative (CCI)." ;
+    .
+

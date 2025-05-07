@@ -1,0 +1,1235 @@
+@prefix cci_sensor_concept: <http://vocab.ceda.ac.uk/collection/cci/sensor/> .
+@prefix cci_ontology: <http://vocab.ceda.ac.uk/ontology/cci#> .
+@prefix cci_sensor_coll: <http://vocab.ceda.ac.uk/collection/cci/sensor> .
+@prefix cci_sensor_scheme: <http://vocab.ceda.ac.uk/scheme/cci/sensor> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+#
+# concepts
+#
+
+cci_sensor_concept:sens_aatsr a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "AATSR"@en ;
+    skos:definition "Advanced Along-Track Scanning Radiometer"@en ;
+    skos:scopeNote "Advanced Along-Track Scanning Radiometer"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/2> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_aatsr .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_aatsr .
+
+cci_sensor_concept:sens_aceFts a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "ACE-FTS"@en ;
+    skos:definition "Advanced Composition Explorer Fourier Transform Spectrometer"@en ;
+    skos:scopeNote "Advanced Composition Explorer Fourier Transform Spectrometer"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/6> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_aceFts .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_aceFts .
+
+cci_sensor_concept:sens_airs a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "AIRS"@en ;
+    skos:definition "Atmospheric Infra-Red Sounder"@en ;
+    skos:scopeNote "Atmospheric Infra-Red Sounder"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/16> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_airs .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_airs .
+
+cci_sensor_concept:sens_amisar a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "AMI-SAR"@en ;
+    skos:definition "Active Microwave Instrument - Synthetic Aperture Antenna"@en ;
+    skos:scopeNote "Active Microwave Instrument - Synthetic Aperture Antenna"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/23> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_amisar .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_amisar .
+
+cci_sensor_concept:sens_amiscat a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "AMI-SCAT"@en ;
+    skos:altLabel "AMI-WS"@en ;
+    skos:definition "Active Microwave Instrument – Scatterometer"@en ;
+    skos:scopeNote "Active Microwave Instrument – Scatterometer"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/24> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_amiscat .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_amiscat .
+
+cci_sensor_concept:sens_amsr2 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "AMSR2"@en ;
+    skos:definition "Advanced Microwave Scanning Radiometer"@en ;
+    skos:scopeNote "Advanced Microwave Scanning Radiometer"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/28> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_amsr2 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_amsr2 .
+
+cci_sensor_concept:sens_amsre a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "AMSRE"@en ;
+    skos:definition "Advanced Microwave Scanning Radiometer for Earth Observation from Space"@en ;
+    skos:scopeNote "Advanced Microwave Scanning Radiometer for Earth Observation from Space"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/29> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_amsre .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_amsre .
+
+cci_sensor_concept:sens_amsua a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "AMSU-A"@en ;
+    skos:definition "Advanced microwave sounding unit – A"@en ;
+    skos:scopeNote "Advanced microwave sounding unit – A"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/30> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_amsua .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_amsua .
+
+cci_sensor_concept:sens_amsub a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "AMSU-B"@en ;
+    skos:definition "Advanced microwave sounding unit – B"@en ;
+    skos:scopeNote "Advanced microwave sounding unit – B"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/33> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_amsub .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_amsub .
+
+cci_sensor_concept:sens_asar a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "ASAR"@en ;
+    skos:definition "Advanced Synthetic Aperture Radar"@en ;
+    skos:scopeNote "Advanced Synthetic Aperture Radar"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/44> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_asar .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_asar .
+
+cci_sensor_concept:sens_ascat a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "ASCAT"@en ;
+    skos:definition "Advanced SCATterometer"@en ;
+    skos:scopeNote "Advanced SCATterometer"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/47> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_ascat .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_ascat .
+
+cci_sensor_concept:sens_aster a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "ASTER"@en ;
+    skos:definition "Advanced Spaceborne Thermal Emission and Reflection Radiometer"@en ;
+    skos:scopeNote "Advanced Spaceborne Thermal Emission and Reflection Radiometer"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/50> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_aster .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_aster .
+
+cci_sensor_concept:sens_atsr a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "ATSR"@en ;
+    skos:definition "Along Track Scanning Radiometer"@en ;
+    skos:scopeNote "Along Track Scanning Radiometer"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/55> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_atsr .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_atsr .
+
+cci_sensor_concept:sens_atsr2 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "ATSR-2"@en ;
+    skos:definition "Along Track Scanning Radiometer – 2"@en ;
+    skos:scopeNote "Along Track Scanning Radiometer – 2"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/56> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_atsr2 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_atsr2 .
+
+cci_sensor_concept:sens_avhrr a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "AVHRR"@en ;
+    skos:definition "Advanced Very High Resolution Radiometer"@en ;
+    skos:scopeNote "Advanced Very High Resolution Radiometer"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/60> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_avhrr .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_avhrr .
+
+cci_sensor_concept:sens_avhrr2 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "AVHRR-2"@en ;
+    skos:definition "Advanced Very High Resolution Radiometer / 2"@en ;
+    skos:scopeNote "Advanced Very High Resolution Radiometer / 2"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/61> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_avhrr2 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_avhrr2 .
+
+cci_sensor_concept:sens_avhrr3 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "AVHRR-3"@en ;
+    skos:definition "Advanced Very High Resolution Radiometer / 3"@en ;
+    skos:scopeNote "Advanced Very High Resolution Radiometer / 3"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/62> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_avhrr3 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_avhrr3 .
+
+cci_sensor_concept:sens_etmplus a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "ETM+"@en ;
+    skos:definition "Enhanced Thematic Mapper Plus"@en ;
+    skos:scopeNote "Enhanced Thematic Mapper Plus"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/136> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_etmplus .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_etmplus .
+
+cci_sensor_concept:sens_gfora a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "GFO-RA"@en ;
+    skos:definition "Geosat Follow-On"@en ;
+    skos:scopeNote "Geosat Follow-On"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/154> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_gfora .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_gfora .
+
+cci_sensor_concept:sens_glas a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "GLAS"@en ;
+    skos:definition "Geoscience Laser Altimeter System"@en ;
+    skos:scopeNote "Geoscience Laser Altimeter System"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/155> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_glas .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_glas .
+
+cci_sensor_concept:sens_goesImager811 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "GOES-Imager-8-11"@en ;
+    skos:definition "GOES IMAGER (8-11)"@en ;
+    skos:scopeNote "GOES IMAGER (8-11)"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/217> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_goesImager811 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_goesImager811 .
+
+cci_sensor_concept:sens_goesImager1215 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "GOES-Imager-12-15"@en ;
+    skos:definition "GOES IMAGER (12-15)"@en ;
+    skos:scopeNote "GOES IMAGER (12-15)"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/879> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_goesImager1215 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_goesImager1215 .
+
+cci_sensor_concept:sens_gome a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "GOME"@en ;
+    skos:definition "Global Monitoring of Atmospheric Ozone"@en ;
+    skos:scopeNote "Global Monitoring of Atmospheric Ozone"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/166> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_gome .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_gome .
+
+cci_sensor_concept:sens_gome2 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "GOME-2"@en ;
+    skos:definition "Global Monitoring of Atmospheric Ozone 2"@en ;
+    skos:scopeNote "Global Monitoring of Atmospheric Ozone 2"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/167> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_gome2 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_gome2 .
+
+cci_sensor_concept:sens_gomos a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "GOMOS"@en ;
+    skos:definition "Global Ozone Monitoring by Occultation of Stars"@en ;
+    skos:scopeNote "Global Ozone Monitoring by Occultation of Stars"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/168> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_gomos .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_gomos .
+
+cci_sensor_concept:sens_hrs a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "HRS"@en ;
+    skos:definition "High-Resolution Stereoscope"@en ;
+    skos:scopeNote "High-Resolution Stereoscope"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/193> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_hrs .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_hrs .
+
+cci_sensor_concept:sens_iasi a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "IASI"@en ;
+    skos:definition "Infra-Red Atmospheric Sounding Interferometer"@en ;
+    skos:scopeNote "Infra-Red Atmospheric Sounding Interferometer"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/207> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_iasi .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_iasi .
+
+cci_sensor_concept:sens_jami a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "JAMI"@en ;
+    skos:definition "Japanese Advanced Meteorological Imager"@en ;
+    skos:scopeNote "Japanese Advanced Meteorological Imager"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/236> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_jami .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_jami .
+
+cci_sensor_concept:sens_meris a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "MERIS"@en ;
+    skos:definition "Medium-Spectral Resolution, Imaging Spectrometer"@en ;
+    skos:scopeNote "Medium-Spectral Resolution, Imaging Spectrometer"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/277> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_meris .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_meris .
+
+cci_sensor_concept:sens_mipas a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "MIPAS"@en ;
+    skos:definition "Michelson Interferometer for Passive Atmospheric Sounding"@en ;
+    skos:scopeNote "Michelson Interferometer for Passive Atmospheric Sounding"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/286> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_mipas .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_mipas .
+
+cci_sensor_concept:sens_modis a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "MODIS"@en ;
+    skos:definition "Moderate Resolution Imaging Spectroradiometer"@en ;
+    skos:scopeNote "Moderate Resolution Imaging Spectroradiometer"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/296> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_modis .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_modis .
+
+cci_sensor_concept:sens_mss a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "MSS"@en ;
+    skos:definition "Multi-Spectral Scanner"@en ;
+    skos:scopeNote "Multi-Spectral Scanner"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/316> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_mss .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_mss .
+
+cci_sensor_concept:sens_mwri a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "MWRI"@en ;
+    skos:definition "Micro-Wave Radiation Imager"@en ;
+    skos:scopeNote "Micro-Wave Radiation Imager"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/350> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_mwri .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_mwri .
+
+cci_sensor_concept:sens_oli a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "OLI"@en ;
+    skos:definition "Operational Land Image"@en ;
+    skos:scopeNote "Operational Land Image"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/375> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_oli .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_oli .
+
+cci_sensor_concept:sens_omi a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "OMI"@en ;
+    skos:definition "Ozone Monitoring Instrument"@en ;
+    skos:scopeNote "Ozone Monitoring Instrument"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/377> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_omi .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_omi .
+
+cci_sensor_concept:sens_osiris a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "OSIRIS"@en ;
+    skos:definition "Optical Spectrograph and Infra-Red Imager System"@en ;
+    skos:scopeNote "Optical Spectrograph and Infra-Red Imager System"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/383> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_osiris .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_osiris .
+
+cci_sensor_concept:sens_palsar a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "PALSAR"@en ;
+    skos:definition "Phased Array type L-band Synthetic Aperture Radar"@en ;
+    skos:scopeNote "Phased Array type L-band Synthetic Aperture Radar"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/387> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_palsar .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_palsar .
+
+cci_sensor_concept:sens_polder a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "POLDER"@en ;
+    skos:definition "POLarization and Directionality of the Earth's Reflectances"@en ;
+    skos:scopeNote "POLarization and Directionality of the Earth's Reflectances"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/405> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_polder .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_polder .
+
+cci_sensor_concept:sens_ssalt a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SSALT"@en ;
+    skos:altLabel "Poseidon-1"@en ;
+    skos:definition "Single-frequency Solid-state Altimeter"@en ;
+    skos:scopeNote "Single-frequency Solid-state Altimeter"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/531> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_ssalt .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_ssalt .
+
+cci_sensor_concept:sens_poseidon2 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "Poseidon-2"@en ;
+    skos:definition "Poseidon 2"@en ;
+    skos:scopeNote "Poseidon 2"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/406> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_poseidon2 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_poseidon2 .
+
+cci_sensor_concept:sens_poseidon3 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "Poseidon-3"@en ;
+    skos:definition "Poseidon 3"@en ;
+    skos:scopeNote "Poseidon 3"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/407> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_poseidon3 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_poseidon3 .
+
+cci_sensor_concept:sens_ra a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "RA"@en ;
+    skos:definition "Radar Altimeter"@en ;
+    skos:scopeNote "Radar Altimeter"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/415> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_ra .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_ra .
+
+cci_sensor_concept:sens_ra2 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "RA-2"@en ;
+    skos:definition "Radar Altimeter"@en ;
+    skos:scopeNote "Radar Altimeter"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/416> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_ra2 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_ra2 .
+
+cci_sensor_concept:sens_sarX a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SAR-X"@en ;
+    skos:definition "Synthetic Aperture Radar X-band"@en ;
+    skos:scopeNote "Synthetic Aperture Radar X-band"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/459> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_sarX .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_sarX .
+
+cci_sensor_concept:sens_sciamachy a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SCIAMACHY"@en ;
+    skos:definition "SCanning Imaging Absorption spectroMeter for AtmosphericCHartographY"@en ;
+    skos:scopeNote "SCanning Imaging Absorption spectroMeter for AtmosphericCHartographY"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/477> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/478> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_sciamachy .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_sciamachy .
+
+cci_sensor_concept:sens_seaWiFs a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SeaWiFS"@en ;
+    skos:definition "Sea-viewing Wide Field-of-view Sensor"@en ;
+    skos:scopeNote "Sea-viewing Wide Field-of-view Sensor"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/481> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_seaWiFs .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_seaWiFs .
+
+cci_sensor_concept:sens_seviri a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SEVIRI"@en ;
+    skos:definition "Spinning Enhanced Visible and Infrared Imager"@en ;
+    skos:scopeNote "Spinning Enhanced Visible and Infrared Imager"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/503> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_seviri .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_seviri .
+
+cci_sensor_concept:sens_smmr a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SMMR"@en ;
+    skos:definition "Scanning Multichannel Microwave Radiometer"@en ;
+    skos:scopeNote "Scanning Multichannel Microwave Radiometer"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/522> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_smmr .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_smmr .
+
+cci_sensor_concept:sens_smr a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SMR"@en ;
+    skos:definition "Sub-Millimetre Radiometer"@en ;
+    skos:scopeNote "Sub-Millimetre Radiometer"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/524> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_smr .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_smr .
+
+cci_sensor_concept:sens_ssmI a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SSM/I"@en ;
+    skos:altLabel "SSMI"@en ;
+    skos:definition "Special Sensor Microwave Imager"@en ;
+    skos:scopeNote "Special Sensor Microwave Imager"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/533> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_ssmI .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_ssmI .
+
+cci_sensor_concept:sens_ssmiS a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SSMI/S"@en ;
+    skos:altLabel "SSMIS"@en ;
+    skos:definition "Special Sensor Microwave Imager Sounder"@en ;
+    skos:scopeNote "Special Sensor Microwave Imager Sounder"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/536> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_ssmiS .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_ssmiS .
+
+cci_sensor_concept:sens_tansoCai a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "TANSO-CAI"@en ;
+    skos:definition "Thermal And Near-infrared Sensor for carbon Observation Cloud and Aerosol Imager"@en ;
+    skos:scopeNote "Thermal And Near-infrared Sensor for carbon Observation Cloud and Aerosol Imager"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/553> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_tansoCai .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_tansoCai .
+
+cci_sensor_concept:sens_tansoFts a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "TANSO-FTS"@en ;
+    skos:definition "Thermal And Near-infrared Sensor for carbon Observation Fourier Transform Spectrometer"@en ;
+    skos:scopeNote "Thermal And Near-infrared Sensor for carbon Observation Fourier Transform Spectrometer"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/554> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_tansoFts .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_tansoFts .
+
+cci_sensor_concept:sens_tirs a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "TIRS"@en ;
+    skos:definition "Thermal Infrared Sensor"@en ;
+    skos:scopeNote "Thermal Infrared Sensor"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/567> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_tirs .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_tirs .
+
+cci_sensor_concept:sens_tm a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "TM"@en ;
+    skos:definition "Thematic Mapper"@en ;
+    skos:scopeNote "Thematic Mapper"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/568> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_tm .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_tm .
+
+cci_sensor_concept:sens_tmi a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "TMI"@en ;
+    skos:definition "TRMM Microwave Imager"@en ;
+    skos:scopeNote "TRMM Microwave Imager"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/569> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_tmi .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_tmi .
+
+cci_sensor_concept:sens_vegetation a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "VEGETATION"@en ;
+    skos:altLabel "Végétation"@en ;
+    skos:definition "Vegetation observation"@en ;
+    skos:scopeNote "Vegetation observation"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/594> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_vegetation .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_vegetation .
+
+cci_sensor_concept:sens_windSat a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "WindSat"@en ;
+    skos:definition "Polarimetric microwave radiometer"@en ;
+    skos:scopeNote "Polarimetric microwave radiometer"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/623> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_windSat .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_windSat .
+
+cci_sensor_concept:sens_altika a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "AltiKa"@en ;
+    skos:definition "CNES Ka-band Altimeter"@en ;
+    skos:scopeNote "CNES Ka-band Altimeter"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/21> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_altika .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_altika .
+
+cci_sensor_concept:sens_viirs a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "VIIRS"@en ;
+    skos:definition "Visible/Infrared Imager Radiometer Suite"@en ;
+    skos:scopeNote "Visible/Infrared Imager Radiometer Suite"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/604> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_viirs .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_viirs .
+
+cci_sensor_concept:sens_siral a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SIRAL"@en ;
+    skos:definition "SAR Interferometer Radar Altimeter"@en ;
+    skos:scopeNote "SAR Interferometer Radar Altimeter"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/509> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_siral .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_siral .
+
+cci_sensor_concept:sens_miras a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "MIRAS"@en ;
+    skos:definition "Microwave Imaging Radiometer using Aperture Synthesis"@en ;
+    skos:scopeNote "Microwave Imaging Radiometer using Aperture Synthesis"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/287> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_miras .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_miras .
+
+cci_sensor_concept:sens_mviri a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "MVIRI"@en ;
+    skos:definition "Meteosat Visible Infra-red Imager"@en ;
+    skos:scopeNote "Meteosat Visible Infra-red Imager"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/337> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_mviri .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_mviri .
+
+cci_sensor_concept:sens_hirs a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "HIRS"@en ;
+    skos:definition "High-Resolution Infra-Red Sounder"@en ;
+    skos:scopeNote "High-Resolution Infra-Red Sounder"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/181> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_hirs .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_hirs .
+
+cci_sensor_concept:sens_hirs2 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "HIRS/2"@en ;
+    skos:definition "High-Resolution Infra-Red Sounder / 2"@en ;
+    skos:scopeNote "High-Resolution Infra-Red Sounder / 2"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/182> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_hirs2 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_hirs2 .
+
+cci_sensor_concept:sens_hirs3 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "HIRS/3"@en ;
+    skos:definition "High-Resolution Infra-Red Sounder / 3"@en ;
+    skos:scopeNote "High-Resolution Infra-Red Sounder / 3"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/183> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_hirs3 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_hirs3 .
+
+cci_sensor_concept:sens_hirs4 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "HIRS/4"@en ;
+    skos:definition "High-Resolution Infra-Red Sounder /4"@en ;
+    skos:scopeNote "High-Resolution Infra-Red Sounder /4"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/184> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_hirs4 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_hirs4 .
+
+cci_sensor_concept:sens_sarcS1 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SAR-C (Sentinel-1)"@en ;
+    skos:definition "Synthetic Aperture Radar (C-band)"@en ;
+    skos:scopeNote "Synthetic Aperture Radar (C-band)"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/450> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_sarcS1 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_sarcS1 .
+
+cci_sensor_concept:sens_vegetationP a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "Végétation-P"@en ;
+    skos:altLabel "Vegetation-P"@en ;
+    skos:definition "Végétation for PROBA"@en ;
+    skos:scopeNote "Végétation for PROBA"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/961> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_vegetationP .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_vegetationP .
+
+cci_sensor_concept:sens_msi a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "MSI (Sentinel-2)"@en ;
+    skos:altLabel "MSI"@en ;
+    skos:definition "Multi-Spectral Instrument (Sentinel-2)"@en ;
+    skos:scopeNote "Multi-Spectral Instrument (Sentinel-2)"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/312> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_msi .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_msi .
+
+cci_sensor_concept:sens_smap a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SMAP"@en ;
+    skos:definition "Soil Moisture Active-Passive (intended as payload)"@en ;
+    skos:scopeNote "Soil Moisture Active-Passive (intended as payload)"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/521> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_smap .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_smap .
+
+cci_sensor_concept:sens_palsar2 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "PALSAR-2"@en ;
+    skos:definition "Phased Array type L-band Synthetic Aperture Radar – 2"@en ;
+    skos:scopeNote "Phased Array type L-band Synthetic Aperture Radar – 2"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/388> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_palsar2 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_palsar2 .
+
+cci_sensor_concept:sens_poseidon3b a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "Poseidon-3B"@en ;
+    skos:definition "Poseidon 3b"@en ;
+    skos:scopeNote "Poseidon 3b"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/408> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_poseidon3b .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_poseidon3b .
+
+cci_sensor_concept:sens_sarRadarSat2 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SAR (RadarSat-2)"@en ;
+    skos:definition "Synthetic Aperture Radar (C-band)"@en ;
+    skos:scopeNote "Synthetic Aperture Radar (C-band)"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/445> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_sarRadarSat2 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_sarRadarSat2 .
+
+cci_sensor_concept:sens_aquarius a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "Aquarius"@en ;
+    skos:definition "Aquarius"@en ;
+    skos:scopeNote "Aquarius"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/41> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_aquarius .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_aquarius .
+
+cci_sensor_concept:sens_toms a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "TOMS"@en ;
+    skos:definition "Total Ozone Mapping Spectrometer"@en ;
+    skos:scopeNote "Total Ozone Mapping Spectrometer"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/571> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_toms .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_toms .
+
+cci_sensor_concept:sens_nra a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "NRA"@en ;
+    skos:altLabel "TOPEX"@en ;
+    skos:definition "NASA Radar Altimeter"@en ;
+    skos:scopeNote "NASA Radar Altimeter"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/1016> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_nra .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_nra .
+
+cci_sensor_concept:sens_grace a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "GRACE instrument"@en ;
+    skos:altLabel "GRACE"@en ;
+    skos:definition "GRACE instrument"@en ;
+    skos:scopeNote "GRACE instrument"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/469> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/269> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_grace .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_grace .
+
+cci_sensor_concept:sens_tropomi a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "TROPOMI"@en ;
+    skos:definition "Tropospheric Monitoring Instrument"@en ;
+    skos:scopeNote "Tropospheric Monitoring Instrument"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/586> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_tropomi .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_tropomi .
+
+cci_sensor_concept:sens_oco a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "OCO"@en ;
+    skos:definition "Orbiting Carbon Observatory"@en ;
+    skos:scopeNote "Orbiting Carbon Observatory"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/368> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_oco .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_oco .
+
+cci_sensor_concept:sens_sral a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SRAL"@en ;
+    skos:definition "Synthetic Aperture Radar Altimeter"@en ;
+    skos:scopeNote "Synthetic Aperture Radar Altimeter"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/530> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_sral .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_sral .
+
+cci_sensor_concept:sens_olci a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "OLCI"@en ;
+    skos:definition "Ocean and Land Colour Imager"@en ;
+    skos:scopeNote "Ocean and Land Colour Imager"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/374> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_olci .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_olci .
+
+cci_sensor_concept:sens_slstr a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SLSTR"@en ;
+    skos:definition "Sea and Land Surface Temperature Radiometer"@en ;
+    skos:scopeNote "Sea and Land Surface Temperature Radiometer"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/518> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_slstr .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_slstr .
+
+cci_sensor_concept:sens_unspecified a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "Unspecified"@en ;
+    skos:definition "Unspecified sensor"@en ;
+    skos:scopeNote "Unspecified sensor"@en ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_unspecified .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_unspecified .
+
+cci_sensor_concept:sens_sar2000 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SAR-2000"@en ;
+    skos:definition "Synthetic Aperture Radar 2000 (X-band)"@en ;
+    skos:scopeNote "Synthetic Aperture Radar 2000 (X-band)"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/447> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_sar2000 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_sar2000 .
+
+cci_sensor_concept:sens_gmi a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "GMI"@en ;
+    skos:altLabel "GMI (core)"@en ;
+    skos:definition "GPM Microwave Imager"@en ;
+    skos:scopeNote "GPM Microwave Imager"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/gmi_core> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_gmi .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_gmi .
+
+cci_sensor_concept:sens_virr a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "VIRR"@en ;
+    skos:altLabel "VIRR (FY-3)"@en ;
+    skos:definition "Visible and Infra-Red Radiometer"@en ;
+    skos:scopeNote "Visible and Infra-Red Radiometer"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/virr_fy_3> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_virr .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_virr .
+
+cci_sensor_concept:sens_imagerMtsat2 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "IMAGER (MTSAT-2)"@en ;
+    skos:definition "MTSAT-2 Imager"@en ;
+    skos:scopeNote "MTSAT-2 Imager"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/imager_mtsat_2> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_imagerMtsat2 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_imagerMtsat2 .
+
+cci_sensor_concept:sens_abi a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "ABI"@en ;
+    skos:definition "Advanced Baseline Imager"@en ;
+    skos:scopeNote "Advanced Baseline Imager"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/abi> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_abi .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_abi .
+
+cci_sensor_concept:sens_esmrNim5 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "ESMR (Nimbus-5)"@en ;
+    skos:definition "Electrically Scanning Microwave Radiometer (Nimbus-6)"@en ;
+    skos:scopeNote "Electrically Scanning Microwave Radiometer (Nimbus-6)"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/esmr_nimbus_5> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_esmrNim5 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_esmrNim5 .
+
+cci_sensor_concept:sens_esmrNim6 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "ESMR (Nimbus-6)"@en ;
+    skos:definition "Electrically Scanning Microwave Radiometer (Nimbus-5)"@en ;
+    skos:scopeNote "Electrically Scanning Microwave Radiometer (Nimbus-5)"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/esmr_nimbus_6> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_esmrNim6 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_esmrNim6 .
+
+cci_sensor_concept:sens_tansoFts2 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "TANSO-FTS-2"@en ;
+    skos:definition "Thermal And Near infrared Sensor for carbon Observations - Fourier Transform Spectrometer / 2"@en ;
+    skos:scopeNote "Thermal And Near infrared Sensor for carbon Observations - Fourier Transform Spectrometer / 2"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/tanso_fts_2> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_tansoFts2 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_tansoFts2 .
+
+cci_sensor_concept:sens_poseidon4 a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "Poseidon-4"@en ;
+    skos:definition "Poseidon-4"@en ;
+    skos:scopeNote "Poseidon-4"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/poseidon_4> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_poseidon4 .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_poseidon4 .
+

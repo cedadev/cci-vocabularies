@@ -1,0 +1,1258 @@
+@prefix cci_dataType_concept: <http://vocab.ceda.ac.uk/collection/cci/dataType/> .
+@prefix cci_ontology: <http://vocab.ceda.ac.uk/ontology/cci#> .
+@prefix cci_dataType_coll: <http://vocab.ceda.ac.uk/collection/cci/dataType> .
+@prefix cci_dataType_scheme: <http://vocab.ceda.ac.uk/scheme/cci/dataType> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+#
+# concepts
+#
+
+cci_dataType_concept:dtype_aod a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "aerosol optical depth"@en ;
+    skos:altLabel "AOD"@en ;
+    skos:definition "aerosol optical depth"@en ;
+    skos:scopeNote "aerosol optical depth"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/aerosol> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_aod .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_aod .
+
+cci_dataType_concept:dtype_aai a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "absorbing aerosol index"@en ;
+    skos:altLabel "AAI"@en ;
+    skos:definition "absorbing aerosol index"@en ;
+    skos:scopeNote "absorbing aerosol index"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/aerosol> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_aai .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_aai .
+
+cci_dataType_concept:dtype_aex a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "stratospheric aerosol extinction profile"@en ;
+    skos:altLabel "AEX"@en ;
+    skos:definition "stratospheric aerosol extinction profile"@en ;
+    skos:scopeNote "stratospheric aerosol extinction profile"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/aerosol> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_aex .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_aex .
+
+cci_dataType_concept:dtype_aty a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "aerosol type"@en ;
+    skos:altLabel "ATY"@en ;
+    skos:definition "aerosol type"@en ;
+    skos:scopeNote "aerosol type"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/aerosol> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_aty .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_aty .
+
+cci_dataType_concept:dtype_aerProd a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "multiple aerosol products"@en ;
+    skos:altLabel "AER_PRODUCTS"@en ;
+    skos:definition "multiple aerosol products"@en ;
+    skos:scopeNote "multiple aerosol products"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/aerosol> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_aerProd .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_aerProd .
+
+cci_dataType_concept:dtype_cfc a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "cloud cover"@en ;
+    skos:altLabel "CFC"@en ;
+    skos:definition "cloud cover"@en ;
+    skos:scopeNote "cloud cover"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_cfc .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_cfc .
+
+cci_dataType_concept:dtype_ctp a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "cloud top pressure"@en ;
+    skos:altLabel "CTP"@en ;
+    skos:definition "cloud top pressure"@en ;
+    skos:scopeNote "cloud top pressure"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_ctp .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_ctp .
+
+cci_dataType_concept:dtype_cth a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "cloud top height"@en ;
+    skos:altLabel "CTH"@en ;
+    skos:definition "cloud top height"@en ;
+    skos:scopeNote "cloud top height"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_cth .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_cth .
+
+cci_dataType_concept:dtype_ctt a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "cloud top temperature"@en ;
+    skos:altLabel "CTT"@en ;
+    skos:definition "cloud top temperature"@en ;
+    skos:scopeNote "cloud top temperature"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_ctt .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_ctt .
+
+cci_dataType_concept:dtype_cot a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "cloud optical thickness"@en ;
+    skos:altLabel "COT"@en ;
+    skos:definition "cloud optical thickness"@en ;
+    skos:scopeNote "cloud optical thickness"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_cot .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_cot .
+
+cci_dataType_concept:dtype_cer a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "cloud effective radius"@en ;
+    skos:altLabel "CER"@en ;
+    skos:definition "cloud effective radius"@en ;
+    skos:scopeNote "cloud effective radius"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_cer .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_cer .
+
+cci_dataType_concept:dtype_lwp a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "cloud liquid water path"@en ;
+    skos:altLabel "LWP"@en ;
+    skos:definition "cloud liquid water path"@en ;
+    skos:scopeNote "cloud liquid water path"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_lwp .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_lwp .
+
+cci_dataType_concept:dtype_iwp a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "cloud ice water path"@en ;
+    skos:altLabel "IWP"@en ;
+    skos:definition "cloud ice water path"@en ;
+    skos:scopeNote "cloud ice water path"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_iwp .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_iwp .
+
+cci_dataType_concept:dtype_jch a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "joint cloud physical properties"@en ;
+    skos:altLabel "JCH"@en ;
+    skos:definition "joint cloud physical properties"@en ;
+    skos:scopeNote "joint cloud physical properties"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_jch .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_jch .
+
+cci_dataType_concept:dtype_cldProd a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "multiple cloud products"@en ;
+    skos:altLabel "CLD_PRODUCTS"@en ;
+    skos:definition "multiple cloud products"@en ;
+    skos:scopeNote "multiple cloud products"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_cldProd .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_cldProd .
+
+cci_dataType_concept:dtype_ba a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "burned area"@en ;
+    skos:altLabel "BA"@en ;
+    skos:definition "burned area"@en ;
+    skos:scopeNote "burned area"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/fire> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_ba .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_ba .
+
+cci_dataType_concept:dtype_co2 a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "column-averaged dry air mole fraction of CO2"@en ;
+    skos:altLabel "CO2"@en ;
+    skos:definition "column-averaged dry air mole fraction of CO2"@en ;
+    skos:scopeNote "column-averaged dry air mole fraction of CO2"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/ghgs> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_co2 .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_co2 .
+
+cci_dataType_concept:dtype_ch4 a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "column-averaged dry air mole fraction of CH4"@en ;
+    skos:altLabel "CH4"@en ;
+    skos:definition "column-averaged dry air mole fraction of CH4"@en ;
+    skos:scopeNote "column-averaged dry air mole fraction of CH4"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/ghgs> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_ch4 .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_ch4 .
+
+cci_dataType_concept:dtype_ga a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "glacier area"@en ;
+    skos:altLabel "GA"@en ;
+    skos:definition "glacier area"@en ;
+    skos:scopeNote "glacier area"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/glaciers> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_ga .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_ga .
+
+cci_dataType_concept:dtype_sec a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "ice sheet surface elevation change"@en ;
+    skos:altLabel "SEC"@en ;
+    skos:definition "ice sheet surface elevation change"@en ;
+    skos:scopeNote "ice sheet surface elevation change"@en ;
+    rdfs:seeAlso <http://www.esa-icesheets-cci.org/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_sec .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_sec .
+
+cci_dataType_concept:dtype_iv a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "ice sheet velocity"@en ;
+    skos:altLabel "IV"@en ;
+    skos:definition "ice sheet velocity"@en ;
+    skos:scopeNote "ice sheet velocity"@en ;
+    rdfs:seeAlso <http://www.esa-icesheets-cci.org/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_iv .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_iv .
+
+cci_dataType_concept:dtype_cfl a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "glacier calving front location"@en ;
+    skos:altLabel "CFL"@en ;
+    skos:definition "glacier calving front location"@en ;
+    skos:scopeNote "glacier calving front location"@en ;
+    rdfs:seeAlso <http://www.esa-icesheets-cci.org/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_cfl .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_cfl .
+
+cci_dataType_concept:dtype_gll a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "glacier grounding line location"@en ;
+    skos:altLabel "GLL"@en ;
+    skos:definition "glacier grounding line location"@en ;
+    skos:scopeNote "glacier grounding line location"@en ;
+    rdfs:seeAlso <http://www.esa-icesheets-cci.org/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_gll .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_gll .
+
+cci_dataType_concept:dtype_map a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "land cover map"@en ;
+    skos:altLabel "Map"@en ;
+    skos:definition "land cover map"@en ;
+    skos:scopeNote "land cover map"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_map .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_map .
+
+cci_dataType_concept:dtype_lccs a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "land cover classification system"@en ;
+    skos:altLabel "LCCS"@en ;
+    skos:definition "land cover classification system"@en ;
+    skos:scopeNote "land cover classification system"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_lccs .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_lccs .
+
+cci_dataType_concept:dtype_ba a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "condition fire (burned area)"@en ;
+    skos:altLabel "BA"@en ;
+    skos:definition "condition fire (burned area)"@en ;
+    skos:scopeNote "condition fire (burned area)"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_ba .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_ba .
+
+cci_dataType_concept:dtype_wb a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "condition water (water bodies)"@en ;
+    skos:altLabel "WB"@en ;
+    skos:definition "condition water (water bodies)"@en ;
+    skos:scopeNote "condition water (water bodies)"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_wb .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_wb .
+
+cci_dataType_concept:dtype_snow a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "condition snow"@en ;
+    skos:altLabel "Snow"@en ;
+    skos:definition "condition snow"@en ;
+    skos:scopeNote "condition snow"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_snow .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_snow .
+
+cci_dataType_concept:dtype_ndvi a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "condition normalised difference vegetation index"@en ;
+    skos:altLabel "NDVI"@en ;
+    skos:definition "condition normalised difference vegetation index"@en ;
+    skos:scopeNote "condition normalised difference vegetation index"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_ndvi .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_ndvi .
+
+cci_dataType_concept:dtype_alb a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "condition albedo"@en ;
+    skos:altLabel "Alb"@en ;
+    skos:definition "condition albedo"@en ;
+    skos:scopeNote "condition albedo"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_alb .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_alb .
+
+cci_dataType_concept:dtype_lai a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "leaf area Index"@en ;
+    skos:altLabel "LAI"@en ;
+    skos:definition "leaf area Index"@en ;
+    skos:scopeNote "leaf area Index"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_lai .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_lai .
+
+cci_dataType_concept:dtype_sr a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "surface reflectance"@en ;
+    skos:altLabel "SR"@en ;
+    skos:definition "surface reflectance"@en ;
+    skos:scopeNote "surface reflectance"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_sr .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_sr .
+
+cci_dataType_concept:dtype_ocProd a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "multiple products (chla, nlw, IOPs, etc)"@en ;
+    skos:altLabel "OC_PRODUCTS"@en ;
+    skos:definition "multiple products (chla, nlw, IOPs, etc)"@en ;
+    skos:scopeNote "multiple products (chla, nlw, IOPs, etc)"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_ocProd .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_ocProd .
+
+cci_dataType_concept:dtype_chlorA a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "phytoplankton chlorophyll-a concentration"@en ;
+    skos:altLabel "CHLOR_A"@en ;
+    skos:definition "phytoplankton chlorophyll-a concentration"@en ;
+    skos:scopeNote "phytoplankton chlorophyll-a concentration"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_chlorA .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_chlorA .
+
+cci_dataType_concept:dtype_nlw a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "normalised water leaving radiance"@en ;
+    skos:altLabel "NLW"@en ;
+    skos:definition "normalised water leaving radiance"@en ;
+    skos:scopeNote "normalised water leaving radiance"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_nlw .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_nlw .
+
+cci_dataType_concept:dtype_rrs a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "remote sensing reflectance"@en ;
+    skos:altLabel "RRS"@en ;
+    skos:definition "remote sensing reflectance"@en ;
+    skos:scopeNote "remote sensing reflectance"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_rrs .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_rrs .
+
+cci_dataType_concept:dtype_k_490 a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "spectral attenuation coefficient for downwelling irradiance"@en ;
+    skos:altLabel "K_490"@en ;
+    skos:definition "spectral attenuation coefficient for downwelling irradiance"@en ;
+    skos:scopeNote "spectral attenuation coefficient for downwelling irradiance"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_k_490 .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_k_490 .
+
+cci_dataType_concept:dtype_atot a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "total absorption"@en ;
+    skos:altLabel "ATOT"@en ;
+    skos:definition "total absorption"@en ;
+    skos:scopeNote "total absorption"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_atot .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_atot .
+
+cci_dataType_concept:dtype_bb a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "total backscattering"@en ;
+    skos:altLabel "BB"@en ;
+    skos:definition "total backscattering"@en ;
+    skos:scopeNote "total backscattering"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_bb .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_bb .
+
+cci_dataType_concept:dtype_adg a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "absorption by coloured dissolved organic matter"@en ;
+    skos:altLabel "ADG"@en ;
+    skos:definition "absorption by coloured dissolved organic matter"@en ;
+    skos:scopeNote "absorption by coloured dissolved organic matter"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_adg .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_adg .
+
+cci_dataType_concept:dtype_v a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "backscattering by particulate matter"@en ;
+    skos:altLabel "v"@en ;
+    skos:definition "backscattering by particulate matter"@en ;
+    skos:scopeNote "backscattering by particulate matter"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_v .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_v .
+
+cci_dataType_concept:dtype_aph a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "absorption by phytoplankton"@en ;
+    skos:altLabel "APH"@en ;
+    skos:definition "absorption by phytoplankton"@en ;
+    skos:scopeNote "absorption by phytoplankton"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_aph .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_aph .
+
+cci_dataType_concept:dtype_iop a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "inherent optical properties"@en ;
+    skos:altLabel "IOP"@en ;
+    skos:definition "inherent optical properties"@en ;
+    skos:scopeNote "inherent optical properties"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_iop .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_iop .
+
+cci_dataType_concept:dtype_tc a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "ozone total column"@en ;
+    skos:altLabel "TC"@en ;
+    skos:definition "ozone total column"@en ;
+    skos:scopeNote "ozone total column"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/ozone> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_tc .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_tc .
+
+cci_dataType_concept:dtype_np a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "ozone nadir profile"@en ;
+    skos:altLabel "NP"@en ;
+    skos:definition "ozone nadir profile"@en ;
+    skos:scopeNote "ozone nadir profile"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/ozone> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_np .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_np .
+
+cci_dataType_concept:dtype_lp a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "ozone limb profile"@en ;
+    skos:altLabel "LP"@en ;
+    skos:definition "ozone limb profile"@en ;
+    skos:scopeNote "ozone limb profile"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/ozone> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_lp .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_lp .
+
+cci_dataType_concept:dtype_sic a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "sea ice concentration"@en ;
+    skos:altLabel "SICONC"@en ;
+    skos:definition "sea ice concentration"@en ;
+    skos:scopeNote "sea ice concentration"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-ice/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_sic .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_sic .
+
+cci_dataType_concept:dtype_sit a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "sea ice thickness"@en ;
+    skos:altLabel "SITHICK"@en ;
+    skos:definition "sea ice thickness"@en ;
+    skos:scopeNote "sea ice thickness"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-ice/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_sit .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_sit .
+
+cci_dataType_concept:dtype_sie a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "sea ice extent"@en ;
+    skos:altLabel "SIEXTENT"@en ;
+    skos:definition "sea ice extent"@en ;
+    skos:scopeNote "sea ice extent"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-ice/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_sie .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_sie .
+
+cci_dataType_concept:dtype_ssh a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "corrected sea surface height"@en ;
+    skos:altLabel "SSH"@en ;
+    skos:definition "corrected sea surface height"@en ;
+    skos:scopeNote "corrected sea surface height"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-level/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_ssh .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_ssh .
+
+cci_dataType_concept:dtype_sla a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "sea level anomaly"@en ;
+    skos:altLabel "SLA"@en ;
+    skos:definition "sea level anomaly"@en ;
+    skos:scopeNote "sea level anomaly"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-level/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_sla .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_sla .
+
+cci_dataType_concept:dtype_adt a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "absolute dynamic topography"@en ;
+    skos:altLabel "ADT"@en ;
+    skos:definition "absolute dynamic topography"@en ;
+    skos:scopeNote "absolute dynamic topography"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-level/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_adt .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_adt .
+
+cci_dataType_concept:dtype_msla a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "maps of sea level anomalies"@en ;
+    skos:altLabel "MSLA"@en ;
+    skos:definition "maps of sea level anomalies"@en ;
+    skos:scopeNote "maps of sea level anomalies"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-level/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_msla .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_msla .
+
+cci_dataType_concept:dtype_msl a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "mean sea level"@en ;
+    skos:altLabel "MSL"@en ;
+    skos:definition "mean sea level"@en ;
+    skos:scopeNote "mean sea level"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-level/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_msl .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_msl .
+
+cci_dataType_concept:dtype_msltr a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "mean sea level trends"@en ;
+    skos:altLabel "MSLTR"@en ;
+    skos:definition "mean sea level trends"@en ;
+    skos:scopeNote "mean sea level trends"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-level/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_msltr .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_msltr .
+
+cci_dataType_concept:dtype_mslamph a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "mean sea level amplitude and phase"@en ;
+    skos:altLabel "MSLAMPH"@en ;
+    skos:definition "mean sea level amplitude and phase"@en ;
+    skos:scopeNote "mean sea level amplitude and phase"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-level/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_mslamph .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_mslamph .
+
+cci_dataType_concept:dtype_sstInt a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "sea surface temperature"@en ;
+    skos:altLabel "SSTint"@en ;
+    skos:definition "sea surface temperature"@en ;
+    skos:scopeNote "sea surface temperature"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-surface-temperature/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_sstInt .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_sstInt .
+
+cci_dataType_concept:dtype_sstSkin a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "sea surface skin temperature"@en ;
+    skos:altLabel "SSTskin"@en ;
+    skos:definition "sea surface skin temperature"@en ;
+    skos:scopeNote "sea surface skin temperature"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-surface-temperature/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_sstSkin .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_sstSkin .
+
+cci_dataType_concept:dtype_sstSubsk a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "sea surface subskin temperature"@en ;
+    skos:altLabel "SSTsubskin"@en ;
+    skos:definition "sea surface subskin temperature"@en ;
+    skos:scopeNote "sea surface subskin temperature"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-surface-temperature/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_sstSubsk .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_sstSubsk .
+
+cci_dataType_concept:dtype_sstDepth a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "sea water temperature"@en ;
+    skos:altLabel "SSTdepth"@en ;
+    skos:definition "sea water temperature"@en ;
+    skos:scopeNote "sea water temperature"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-surface-temperature/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_sstDepth .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_sstDepth .
+
+cci_dataType_concept:dtype_sstFnd a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "sea surface foundation temperature"@en ;
+    skos:altLabel "SSTfnd"@en ;
+    skos:definition "sea surface foundation temperature"@en ;
+    skos:scopeNote "sea surface foundation temperature"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-surface-temperature/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_sstFnd .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_sstFnd .
+
+cci_dataType_concept:dtype_ssmv a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "surface soil moisture volumetric absolutes"@en ;
+    skos:altLabel "SSMV"@en ;
+    skos:definition "surface soil moisture volumetric absolutes"@en ;
+    skos:scopeNote "surface soil moisture volumetric absolutes"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/soil-moisture/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_ssmv .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_ssmv .
+
+cci_dataType_concept:dtype_ssmva a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "surface soil moisture volumetric anomalies"@en ;
+    skos:altLabel "SSMVA"@en ;
+    skos:definition "surface soil moisture volumetric anomalies"@en ;
+    skos:scopeNote "surface soil moisture volumetric anomalies"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/soil-moisture/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_ssmva .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_ssmva .
+
+cci_dataType_concept:dtype_ssms a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "surface soil moisture degree of saturation absolute"@en ;
+    skos:altLabel "SSMS"@en ;
+    skos:definition "surface soil moisture degree of saturation absolute"@en ;
+    skos:scopeNote "surface soil moisture degree of saturation absolute"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/soil-moisture/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_ssms .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_ssms .
+
+cci_dataType_concept:dtype_ssmsa a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "surface soil moisture degree of saturation anomalies"@en ;
+    skos:altLabel "SSMSA"@en ;
+    skos:definition "surface soil moisture degree of saturation anomalies"@en ;
+    skos:scopeNote "surface soil moisture degree of saturation anomalies"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/soil-moisture/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_ssmsa .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_ssmsa .
+
+cci_dataType_concept:dtype_swiv a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "soil water index volumetric absolute"@en ;
+    skos:altLabel "SWIV"@en ;
+    skos:definition "soil water index volumetric absolute"@en ;
+    skos:scopeNote "soil water index volumetric absolute"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/soil-moisture/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_swiv .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_swiv .
+
+cci_dataType_concept:dtype_swiva a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "soil water index volumetric anomalies"@en ;
+    skos:altLabel "SWIVA"@en ;
+    skos:definition "soil water index volumetric anomalies"@en ;
+    skos:scopeNote "soil water index volumetric anomalies"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/soil-moisture/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_swiva .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_swiva .
+
+cci_dataType_concept:dtype_swis a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "soil water index degree of saturation absolute"@en ;
+    skos:altLabel "SWIS"@en ;
+    skos:definition "soil water index degree of saturation absolute"@en ;
+    skos:scopeNote "soil water index degree of saturation absolute"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/soil-moisture/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_swis .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_swis .
+
+cci_dataType_concept:dtype_swisa a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "soil water index degree of saturation anomalie"@en ;
+    skos:altLabel "SWISA"@en ;
+    skos:definition "soil water index degree of saturation anomalie"@en ;
+    skos:scopeNote "soil water index degree of saturation anomalie"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/soil-moisture/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_swisa .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_swisa .
+
+cci_dataType_concept:dtype_gmb a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "gravimetric mass balance"@en ;
+    skos:altLabel "GMB"@en ;
+    skos:definition "gravimetric mass balance"@en ;
+    skos:scopeNote "gravimetric mass balance"@en ;
+    rdfs:seeAlso <http://www.esa-icesheets-cci.org/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_gmb .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_gmb .
+
+cci_dataType_concept:dtype_all a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "all"@en ;
+    skos:altLabel "ALL"@en ;
+    skos:definition "all"@en ;
+    skos:scopeNote "all"@en ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_all .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_all .
+
+cci_dataType_concept:dtype_lkProds a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "multiple lake products"@en ;
+    skos:altLabel "LK_PRODUCTS"@en ;
+    skos:definition "multiple lake products"@en ;
+    skos:scopeNote "multiple lake products"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/lakes> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_lkProds .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_lkProds .
+
+cci_dataType_concept:dtype_sss a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "sea surface salinity"@en ;
+    skos:altLabel "SSS"@en ;
+    skos:definition "sea surface salinity"@en ;
+    skos:scopeNote "sea surface salinity"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-surface-salinity> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_sss .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_sss .
+
+cci_dataType_concept:dtype_swh a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "significant wave height"@en ;
+    skos:altLabel "SWH"@en ;
+    skos:definition "significant wave height"@en ;
+    skos:scopeNote "significant wave height"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-state/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_swh .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_swh .
+
+cci_dataType_concept:dtype_unspecified a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "unspecified"@en ;
+    skos:altLabel "UNSPECIFIED"@en ;
+    skos:definition "unspecified"@en ;
+    skos:scopeNote "unspecified"@en ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_unspecified .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_unspecified .
+
+cci_dataType_concept:dtype_gtd a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "ground temperature"@en ;
+    skos:altLabel "GTD"@en ;
+    skos:definition "ground temperature at a certain depth"@en ;
+    skos:scopeNote "ground temperature at a certain depth"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/permafrost> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_gtd .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_gtd .
+
+cci_dataType_concept:dtype_pfr a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "permafrost extent"@en ;
+    skos:altLabel "PFR"@en ;
+    skos:definition "permafrost extent (fraction)"@en ;
+    skos:scopeNote "permafrost extent (fraction)"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/permafrost> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_pfr .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_pfr .
+
+cci_dataType_concept:dtype_agb a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "above-ground biomass"@en ;
+    skos:altLabel "AGB"@en ;
+    skos:definition "above-ground biomass"@en ;
+    skos:scopeNote "above-ground biomass"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/biomass> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_agb .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_agb .
+
+cci_dataType_concept:dtype_alt a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "active layer thickness"@en ;
+    skos:altLabel "ALT"@en ;
+    skos:definition "active layer thickness"@en ;
+    skos:scopeNote "active layer thickness"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/permafrost> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_alt .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_alt .
+
+cci_dataType_concept:dtype_swe a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "snow water equivalent"@en ;
+    skos:altLabel "SWE"@en ;
+    skos:definition "snow water equivalent"@en ;
+    skos:scopeNote "snow water equivalent"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/snow> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_swe .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_swe .
+
+cci_dataType_concept:dtype_scfv a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "snow cover fraction - viewable"@en ;
+    skos:altLabel "SCFV"@en ;
+    skos:definition "snow cover fraction  - viewable"@en ;
+    skos:scopeNote "snow cover fraction  - viewable"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/snow> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_scfv .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_scfv .
+
+cci_dataType_concept:dtype_scfg a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "snow cover fraction - snow on ground"@en ;
+    skos:altLabel "SCFG"@en ;
+    skos:definition "snow cover fraction - snow on ground"@en ;
+    skos:scopeNote "snow cover fraction - snow on ground"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/snow> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_scfg .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_scfg .
+
+cci_dataType_concept:dtype_tcwv a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "total column water vapour"@en ;
+    skos:altLabel "TCWV"@en ;
+    skos:definition "total column water vapour"@en ;
+    skos:scopeNote "total column water vapour"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/water-vapour> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_tcwv .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_tcwv .
+
+cci_dataType_concept:dtype_lst a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "land surface temperature"@en ;
+    skos:altLabel "LST"@en ;
+    skos:definition "land surface temperature"@en ;
+    skos:scopeNote "land surface temperature"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/land-surface-temperature> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_lst .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_lst .
+
+cci_dataType_concept:dtype_pft a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "plant functional types"@en ;
+    skos:altLabel "PFT"@en ;
+    skos:definition "plant functional types"@en ;
+    skos:scopeNote "plant functional types"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/land-cover> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_pft .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_pft .
+
+cci_dataType_concept:dtype_vp a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "vegetation parameters"@en ;
+    skos:altLabel "VP_PRODUCTS"@en ;
+    skos:definition "vegetation parameters"@en ;
+    skos:scopeNote "vegetation parameters"@en ;
+    rdfs:seeAlso <https://climate.esa.int/en/projects/vegetation-parameters/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_vp .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_vp .
+
+cci_dataType_concept:dtype_uncert a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "uncertainty"@en ;
+    skos:altLabel "UNCERT"@en ;
+    skos:definition "land cover uncertainty maps"@en ;
+    skos:scopeNote "land cover uncertainty maps"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/high-resolution-land-cover> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_uncert .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_uncert .
+
+cci_dataType_concept:dtype_wl a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "water level"@en ;
+    skos:altLabel "WL"@en ;
+    skos:definition "water level"@en ;
+    skos:scopeNote "water level"@en ;
+    rdfs:seeAlso <https://climate.esa.int/en/projects/river-discharge/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_wl .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_wl .
+
+cci_dataType_concept:dtype_lcchange a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "land cover change"@en ;
+    skos:altLabel "CHANGE"@en ;
+    skos:definition "land cover change uncertainty maps"@en ;
+    skos:scopeNote "land cover change uncertainty maps"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/high-resolution-land-cover> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_lcchange .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_lcchange .
+

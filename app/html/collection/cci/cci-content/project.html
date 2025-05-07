@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>The CCI Project Collection</title>
+<link href="../../../vocab.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="head">
+<h1>The CCI Project Collection</h1>
+<dl>
+<dt>IRI:</dt>
+<dd><a href="http://vocab.ceda.ac.uk/collection/cci/project">http://vocab.ceda.ac.uk/collection/cci/project</a></dd>
+</dl>
+<dl>
+<dt>Date:</dt>
+<dd>2025-04-07</dd>
+<dt>Current Version:</dt>
+<dd>0.0.1</dd>
+</dl>
+<dl>
+<dt>Authors:</dt>
+<dd>Science and Technology Facilities Council</dd>
+</dl>
+<dl>
+<dt>Publisher:</dt>
+<dd>STFC</dd>
+</dl>
+<dl>
+<dt>Other visualisations:</dt>
+<dd>Collection source <a href="http://vocab.ceda.ac.uk/collection/cci/cci-content/project.json">json</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/cci-content/project.rdf">rdf</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/cci-content/project.ttl">ttl</a></dd>
+<dd><a href="http://vocab.ceda.ac.uk/sparql">SPARQL endpoint</a>, dataset:vocab, graph:http://vocab.ceda.ac.uk/vocab/data/cci</dd>
+</dl>
+<div class="copyright">
+<span class="markdown">This work is licensed under a BSD license.</span>
+</div>
+<hr />
+
+<h2>Abstract</h2>
+<span class="markdown">This collection represents the projects within the CCI project</span>
+<div id="introduction">
+<h2>Introduction</h2>
+<span class="markdown">The different projects within the ESA Climate Change Initiative (CCI).</span>
+</div>
+<div id="toc">
+<div id="members">
+<h2>Collection Members</h2>
+<ul class="hlist">
+<li><a href="#cciproject_biomass" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_biomass">above-ground biomass</a></li>
+<li><a href="#cciproject_aerosol" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_aerosol">aerosol</a></li>
+<li><a href="#cciproject_cloud" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_cloud">cloud</a></li>
+<li><a href="#cciproject_fire" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_fire">fire</a></li>
+<li><a href="#cciproject_glaciers" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_glaciers">glaciers</a></li>
+<li><a href="#cciproject_ghg" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ghg">greenhouse gases</a></li>
+<li><a href="#cciproject_iceSheet" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_iceSheet">ice sheets</a></li>
+<li><a href="#cciproject_lakes" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_lakes">lakes</a></li>
+<li><a href="#cciproject_landCov" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_landCov">land cover</a></li>
+<li><a href="#cciproject_landSurfTemp" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_landSurfTemp">land surface temperature</a></li>
+<li><a href="#cciproject_oceanCol" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol">ocean colour</a></li>
+<li><a href="#cciproject_ozone" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone">ozone</a></li>
+<li><a href="#cciproject_permafrost" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost">permafrost</a></li>
+<li><a href="#cciproject_riverDischarge" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge">river discharge</a></li>
+<li><a href="#cciproject_seaIce" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaIce">sea ice</a></li>
+<li><a href="#cciproject_seaLevel" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel">sea level</a></li>
+<li><a href="#cciproject_seaState" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaState">sea state</a></li>
+<li><a href="#cciproject_salinity" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity">sea surface salinity</a></li>
+<li><a href="#cciproject_sst" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_sst">sea surface temperature</a></li>
+<li><a href="#cciproject_snow" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow">snow</a></li>
+<li><a href="#cciproject_soilMst" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst">soil moisture</a></li>
+<li><a href="#cciproject_vegParam" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_vegParam">vegetation parameters</a></li>
+<li><a href="#cciproject_waterVapour" title="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_waterVapour">water vapour</a></li>
+</ul>
+<div id="cciproject_biomass" class="entity">
+<h3>above-ground biomass<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_biomass</p>
+<div class="comment">
+<span class="markdown">Above-ground biomass climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+BIOMASS</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_aerosol" class="entity">
+<h3>aerosol<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_aerosol</p>
+<div class="comment">
+<span class="markdown">Aerosol properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+AEROSOL</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_cloud" class="entity">
+<h3>cloud<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_cloud</p>
+<div class="comment">
+<span class="markdown">Cloud properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+CLOUD</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_fire" class="entity">
+<h3>fire<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_fire</p>
+<div class="comment">
+<span class="markdown">Fire disturbance (burned area) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+FIRE</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_glaciers" class="entity">
+<h3>glaciers<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_glaciers</p>
+<div class="comment">
+<span class="markdown">Glacier inventory climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+GLACIERS</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_ghg" class="entity">
+<h3>greenhouse gases<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ghg</p>
+<div class="comment">
+<span class="markdown">Greenhouse gasses (carbon dioxide and methane) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+GHG</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_iceSheet" class="entity">
+<h3>ice sheets<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_iceSheet</p>
+<div class="comment">
+<span class="markdown">Ice sheets climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+ICESHEETS</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_lakes" class="entity">
+<h3>lakes<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_lakes</p>
+<div class="comment">
+<span class="markdown">Lakes climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+LAKES</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_landCov" class="entity">
+<h3>land cover<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_landCov</p>
+<div class="comment">
+<span class="markdown">Land cover climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+LC</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_landSurfTemp" class="entity">
+<h3>land surface temperature<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_landSurfTemp</p>
+<div class="comment">
+<span class="markdown">Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+LST</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_oceanCol" class="entity">
+<h3>ocean colour<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol</p>
+<div class="comment">
+<span class="markdown">Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+OC</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_ozone" class="entity">
+<h3>ozone<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone</p>
+<div class="comment">
+<span class="markdown">Ozone climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+OZONE</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_permafrost" class="entity">
+<h3>permafrost<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost</p>
+<div class="comment">
+<span class="markdown">Permafrost climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+PERMAFROST</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_riverDischarge" class="entity">
+<h3>river discharge<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge</p>
+<div class="comment">
+<span class="markdown">River discharge climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+RD</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_seaIce" class="entity">
+<h3>sea ice<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaIce</p>
+<div class="comment">
+<span class="markdown">Sea ice climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+SEAICE</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_seaLevel" class="entity">
+<h3>sea level<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel</p>
+<div class="comment">
+<span class="markdown">Sea level climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+SEALEVEL</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_seaState" class="entity">
+<h3>sea state<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaState</p>
+<div class="comment">
+<span class="markdown">Sea state climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+SEASTATE</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_salinity" class="entity">
+<h3>sea surface salinity<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity</p>
+<div class="comment">
+<span class="markdown">Sea Surface Salinity climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+SEASURFACESALINITY</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_sst" class="entity">
+<h3>sea surface temperature<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_sst</p>
+<div class="comment">
+<span class="markdown">Sea surface temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+SST</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_snow" class="entity">
+<h3>snow<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow</p>
+<div class="comment">
+<span class="markdown">Snow climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+SNOW</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_soilMst" class="entity">
+<h3>soil moisture<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst</p>
+<div class="comment">
+<span class="markdown">Soil moisture climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+SOILMOISTURE</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_vegParam" class="entity">
+<h3>vegetation parameters<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_vegParam</p>
+<div class="comment">
+<span class="markdown">Vegetation Parameters climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+VEGETATION</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+<div id="cciproject_waterVapour" class="entity">
+<h3>water vapour<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/project/cciproject_waterVapour</p>
+<div class="comment">
+<span class="markdown">Water vapour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#project" title="http://vocab.ceda.ac.uk/ontology/cci#project">Project</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+WATERVAPOUR</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/project" title="http://vocab.ceda.ac.uk/scheme/cci/project">Project</a></dd>
+</dl>
+</div></div>
+</div>
+</div>
+</body>
