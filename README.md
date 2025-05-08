@@ -32,19 +32,26 @@ Ensure the virtual environment has been activated.
 . venv/bin/activate
 ```
 
-The call the script.
+Set the following parameters: (from inside the `cci-vocabularies` repo)
+
+```
+export BASE_PATH=$PWD/vocabularies
+export DEPLOY_PATH=$PWD/app
+```
+
+Then run the command to generate all vocab server content.
 
 ```
 cci-vocab
 ```
 
-## Updating the Server
-
-To update the triple store on the server you must call the script with the `--deploy` flag.
+All app files should now be committed to the main repository, simply perform:
 
 ```
-cci-vocab --deploy
+git add $DEPLOY_PATH
+git commit -m "Update message for what has changed with source files"
 ```
 
-To update the static pages use the `vocab_upload.sh` script, but first ensure that the value
-of `html_dir` in the script is set to the correct value.
+## Updating the Vocab Server
+
+Redeploy the vocab server application via Gitlab (to either the rancher cluster or OTC) with the new commit hash from your new version, which should be inserted into the Dockerfile as the new image version.
