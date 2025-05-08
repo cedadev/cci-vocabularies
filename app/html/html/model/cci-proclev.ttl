@@ -1,0 +1,201 @@
+@prefix cci_procLev_concept: <http://vocab.ceda.ac.uk/collection/cci/procLev/> .
+@prefix cci_ontology: <http://vocab.ceda.ac.uk/ontology/cci#> .
+@prefix cci_procLev_coll: <http://vocab.ceda.ac.uk/collection/cci/procLev> .
+@prefix cci_procLev_scheme: <http://vocab.ceda.ac.uk/scheme/cci/procLev> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+#
+# concepts
+#
+
+cci_procLev_concept:proc_level0 a skos:Concept, cci_ontology:procLev;
+    skos:inScheme cci_procLev_scheme: ;
+    skos:prefLabel "Level 0"@en ;
+    skos:altLabel "L0"@en ;
+    skos:definition "Unprocessed instrument and payload data at full resolution. CCI does not make recommendations regarding formats or content for data at this processing level."@en ;
+    skos:scopeNote "Unprocessed instrument and payload data at full resolution. CCI does not make recommendations regarding formats or content for data at this processing level."@en ;
+    rdfs:seeAlso <https://www.ghrsst.org/> ;
+    skos:topConceptOf cci_procLev_scheme: ;
+.
+
+cci_procLev_coll: skos:member cci_procLev_concept:proc_level0 .
+
+cci_procLev_scheme: skos:hasTopConcept cci_procLev_concept:proc_level0 .
+
+cci_procLev_concept:proc_level1 a skos:Concept, cci_ontology:procLev;
+    skos:inScheme cci_procLev_scheme: ;
+    skos:prefLabel "Level 1"@en ;
+    skos:altLabel "L1"@en ;
+    skos:topConceptOf cci_procLev_scheme: ;
+.
+
+cci_procLev_coll: skos:member cci_procLev_concept:proc_level1 .
+
+cci_procLev_scheme: skos:hasTopConcept cci_procLev_concept:proc_level1 .
+
+cci_procLev_concept:proc_level1A a skos:Concept, cci_ontology:procLev;
+    skos:inScheme cci_procLev_scheme: ;
+    skos:prefLabel "Level 1A"@en ;
+    skos:altLabel "L1A"@en ;
+    skos:definition "Reconstructed unprocessed instrument data at full resolution, time referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters, computed and appended, but not applied, to L0 data."@en ;
+    skos:scopeNote "Reconstructed unprocessed instrument data at full resolution, time referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters, computed and appended, but not applied, to L0 data."@en ;
+    rdfs:seeAlso <https://www.ghrsst.org/> ;
+    skos:topConceptOf cci_procLev_scheme: ;
+.
+
+cci_procLev_coll: skos:member cci_procLev_concept:proc_level1A .
+
+cci_procLev_scheme: skos:hasTopConcept cci_procLev_concept:proc_level1A .
+
+cci_procLev_concept:proc_level1B a skos:Concept, cci_ontology:procLev;
+    skos:inScheme cci_procLev_scheme: ;
+    skos:prefLabel "Level 1B"@en ;
+    skos:altLabel "L1B"@en ;
+    skos:definition "Level 1A data that have been processed to sensor units."@en ;
+    skos:scopeNote "Level 1A data that have been processed to sensor units."@en ;
+    rdfs:seeAlso <https://www.ghrsst.org/> ;
+    skos:topConceptOf cci_procLev_scheme: ;
+.
+
+cci_procLev_coll: skos:member cci_procLev_concept:proc_level1B .
+
+cci_procLev_scheme: skos:hasTopConcept cci_procLev_concept:proc_level1B .
+
+cci_procLev_concept:proc_level1C a skos:Concept, cci_ontology:procLev;
+    skos:inScheme cci_procLev_scheme: ;
+    skos:prefLabel "Level 1C"@en ;
+    skos:altLabel "L1C"@en ;
+    skos:definition "Level 1b data that have been further processed, e.g. by correcting radiances or by mapping onto a spatial grid, prior to deriving geophysical variables from the data."@en ;
+    skos:scopeNote "Level 1b data that have been further processed, e.g. by correcting radiances or by mapping onto a spatial grid, prior to deriving geophysical variables from the data."@en ;
+    skos:topConceptOf cci_procLev_scheme: ;
+.
+
+cci_procLev_coll: skos:member cci_procLev_concept:proc_level1C .
+
+cci_procLev_scheme: skos:hasTopConcept cci_procLev_concept:proc_level1C .
+
+cci_procLev_concept:proc_level2 a skos:Concept, cci_ontology:procLev;
+    skos:inScheme cci_procLev_scheme: ;
+    skos:prefLabel "Level 2"@en ;
+    skos:altLabel "L2"@en ;
+    skos:definition "Retrieved environmental variables at the same resolution and location as the level 1 source"@en ;
+    skos:scopeNote "Retrieved environmental variables at the same resolution and location as the level 1 source"@en ;
+    rdfs:seeAlso <http://wiki.ieee-earth.org/@api/deki/files/7/=Handbook_0802.pdf> ;
+    skos:topConceptOf cci_procLev_scheme: ;
+.
+
+cci_procLev_coll: skos:member cci_procLev_concept:proc_level2 .
+
+cci_procLev_scheme: skos:hasTopConcept cci_procLev_concept:proc_level2 .
+
+cci_procLev_concept:proc_level2P a skos:Concept, cci_ontology:procLev;
+    skos:inScheme cci_procLev_scheme: ;
+    skos:prefLabel "Level 2 Pre-processing"@en ;
+    skos:altLabel "L2P"@en ;
+    skos:definition "Geophysical variables derived from Level 1 source data at the same resolution and location as the level 1 data, typically in a satellite projection with geographic information. These data form the fundamental basis for higher level CCI products."@en ;
+    skos:scopeNote "Geophysical variables derived from Level 1 source data at the same resolution and location as the level 1 data, typically in a satellite projection with geographic information. These data form the fundamental basis for higher level CCI products."@en ;
+    rdfs:seeAlso <https://www.ghrsst.org/> ;
+    skos:topConceptOf cci_procLev_scheme: ;
+.
+
+cci_procLev_coll: skos:member cci_procLev_concept:proc_level2P .
+
+cci_procLev_scheme: skos:hasTopConcept cci_procLev_concept:proc_level2P .
+
+cci_procLev_concept:proc_level3 a skos:Concept, cci_ontology:procLev;
+    skos:inScheme cci_procLev_scheme: ;
+    skos:prefLabel "Level 3"@en ;
+    skos:altLabel "L3"@en ;
+    skos:definition "Level 2 variables mapped on a defined grid with reduced requirements for ancillary data. Three types of L3 products are defined."@en ;
+    skos:scopeNote "Level 2 variables mapped on a defined grid with reduced requirements for ancillary data. Three types of L3 products are defined."@en ;
+    rdfs:seeAlso <https://www.ghrsst.org/> ;
+    skos:topConceptOf cci_procLev_scheme: ;
+.
+
+cci_procLev_coll: skos:member cci_procLev_concept:proc_level3 .
+
+cci_procLev_scheme: skos:hasTopConcept cci_procLev_concept:proc_level3 .
+
+cci_procLev_concept:proc_level3U a skos:Concept, cci_ontology:procLev;
+    skos:inScheme cci_procLev_scheme: ;
+    skos:prefLabel "Level 3U"@en ;
+    skos:altLabel "L3U"@en ;
+    skos:definition "Uncollated (L3U): L2 data granules remapped to a space grid without combining any observations from overlapping orbits."@en ;
+    skos:scopeNote "Uncollated (L3U): L2 data granules remapped to a space grid without combining any observations from overlapping orbits."@en ;
+    skos:topConceptOf cci_procLev_scheme: ;
+.
+
+cci_procLev_coll: skos:member cci_procLev_concept:proc_level3U .
+
+cci_procLev_scheme: skos:hasTopConcept cci_procLev_concept:proc_level3U .
+
+cci_procLev_concept:proc_level3C a skos:Concept, cci_ontology:procLev;
+    skos:inScheme cci_procLev_scheme: ;
+    skos:prefLabel "Level 3C"@en ;
+    skos:altLabel "L3C"@en ;
+    skos:definition "Collated (L3C): Observations combined from a single instrument into a space-time grid."@en ;
+    skos:scopeNote "Collated (L3C): Observations combined from a single instrument into a space-time grid."@en ;
+    skos:topConceptOf cci_procLev_scheme: ;
+.
+
+cci_procLev_coll: skos:member cci_procLev_concept:proc_level3C .
+
+cci_procLev_scheme: skos:hasTopConcept cci_procLev_concept:proc_level3C .
+
+cci_procLev_concept:proc_level3S a skos:Concept, cci_ontology:procLev;
+    skos:inScheme cci_procLev_scheme: ;
+    skos:prefLabel "Level 3S"@en ;
+    skos:altLabel "L3S"@en ;
+    skos:definition "Super-collated (L3S): observations combined from multiple instruments into a space-time grid."@en ;
+    skos:scopeNote "Super-collated (L3S): observations combined from multiple instruments into a space-time grid."@en ;
+    skos:topConceptOf cci_procLev_scheme: ;
+.
+
+cci_procLev_coll: skos:member cci_procLev_concept:proc_level3S .
+
+cci_procLev_scheme: skos:hasTopConcept cci_procLev_concept:proc_level3S .
+
+cci_procLev_concept:proc_level4 a skos:Concept, cci_ontology:procLev;
+    skos:inScheme cci_procLev_scheme: ;
+    skos:prefLabel "Level 4"@en ;
+    skos:altLabel "L4"@en ;
+    skos:definition "Data sets created from the analysis of lower level data that result in gridded, gap-free products."@en ;
+    skos:scopeNote "Data sets created from the analysis of lower level data that result in gridded, gap-free products."@en ;
+    rdfs:seeAlso <https://www.ghrsst.org/> ;
+    skos:topConceptOf cci_procLev_scheme: ;
+.
+
+cci_procLev_coll: skos:member cci_procLev_concept:proc_level4 .
+
+cci_procLev_scheme: skos:hasTopConcept cci_procLev_concept:proc_level4 .
+
+cci_procLev_concept:proc_ind a skos:Concept, cci_ontology:procLev;
+    skos:inScheme cci_procLev_scheme: ;
+    skos:prefLabel "Indicator"@en ;
+    skos:altLabel "IND"@en ;
+    skos:definition "Indicators derived from satellite data."@en ;
+    skos:scopeNote "Indicators derived from satellite data."@en ;
+    skos:topConceptOf cci_procLev_scheme: ;
+.
+
+cci_procLev_coll: skos:member cci_procLev_concept:proc_ind .
+
+cci_procLev_scheme: skos:hasTopConcept cci_procLev_concept:proc_ind .
+
+cci_procLev_concept:proc_unspecified a skos:Concept, cci_ontology:procLev;
+    skos:inScheme cci_procLev_scheme: ;
+    skos:prefLabel "Unspecified"@en ;
+    skos:altLabel "Unspecified"@en ;
+    skos:definition "Unspecified"@en ;
+    skos:scopeNote "Unspecified"@en ;
+    skos:topConceptOf cci_procLev_scheme: ;
+.
+
+cci_procLev_coll: skos:member cci_procLev_concept:proc_unspecified .
+
+cci_procLev_scheme: skos:hasTopConcept cci_procLev_concept:proc_unspecified .
+

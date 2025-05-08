@@ -1,101 +1,9 @@
 [
   {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes",
-    "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#platformGrp",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA NESDIS Geostationary Operational Environmental Satellite system"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_1st"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_3rd"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_2nd"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "GOES"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA NESDIS Geostationary Operational Environmental Satellite system"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa",
-    "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#platformGrp",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA NOAA Environmental satellite programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_3rd"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "NOAA"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA NOAA Environmental satellite programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
-      }
-    ]
-  },
-  {
     "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp",
     "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#platformGrp",
-      "http://www.w3.org/2004/02/skos/core#Concept"
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#platformGrp"
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
@@ -110,13 +18,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2"
+      },
+      {
         "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D1"
       },
       {
         "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -138,6 +46,98 @@
     ]
   },
   {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#platformGrp"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA NOAA Environmental satellite programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_3rd"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "NOAA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA NOAA Environmental satellite programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#platformGrp"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA NESDIS Geostationary Operational Environmental Satellite system"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_2nd"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_3rd"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_1st"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "GOES"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA NESDIS Geostationary Operational Environmental Satellite system"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+      }
+    ]
+  },
+  {
     "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -149,7 +149,7 @@
     ],
     "http://purl.org/dc/elements/1.1/date": [
       {
-        "@value": "2025-04-07"
+        "@value": "2025-05-08"
       }
     ],
     "http://purl.org/dc/elements/1.1/description": [
@@ -195,10 +195,10 @@
         "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [

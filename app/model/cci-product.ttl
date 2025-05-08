@@ -2099,3 +2099,23 @@ cci_product_coll: skos:member cci_product_concept:prod_AvhrrTirosN .
 
 cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_AvhrrTirosN .
 
+cci_product_concept:prod_nimEsmrLCorNH a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "NIMBUS5_ESMR_EASE2_LDTPcorrected_NH"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_nimEsmrLCorNH .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_nimEsmrLCorNH .
+
+cci_product_concept:prod_nimEsmrLCorSH a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "NIMBUS5_ESMR_EASE2_LDTPcorrected_SH"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_nimEsmrLCorSH .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_nimEsmrLCorSH .
+

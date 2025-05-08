@@ -1,0 +1,20 @@
+@prefix cci-procLev-collection: <http://vocab.ceda.ac.uk/collection/cci/procLev> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+<http://vocab.ceda.ac.uk/collection/cci/procLev> a skos:Collection ;
+    skos:prefLabel "Processing Level"@en ;
+    skos:definition "The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI)."@en ;
+    dc:title "Processing Level" ;
+    dc:rights "This work is licensed under a BSD license."@en ;
+    dc:publisher "STFC"@en ;
+    rdfs:comment "This collection represents the processing levels used by the CCI project" ;
+    dc:creator "Science and Technology Facilities Council" ;
+    owl:versionInfo "0.0.1";
+    dc:date "2025-04-07" ;
+    dc:description "The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI)." ;
+    .
+

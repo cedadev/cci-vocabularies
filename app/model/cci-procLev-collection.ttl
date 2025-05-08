@@ -14,7 +14,7 @@
     rdfs:comment "This collection represents the processing levels used by the CCI project" ;
     dc:creator "Science and Technology Facilities Council" ;
     owl:versionInfo "0.0.1";
-    dc:date "2025-04-07" ;
+    dc:date "2025-05-08" ;
     dc:description "The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI)." ;
     .
 

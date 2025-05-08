@@ -8,54 +8,54 @@
 >
   <rdf:Description rdf:about="http://vocab.ceda.ac.uk/scheme/cci/platformGrp">
     <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"/>
-    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"/>
     <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"/>
-    <skos:prefLabel xml:lang="en">Platform Group</skos:prefLabel>
-    <dc:date>2025-04-07</dc:date>
-    <dc:publisher xml:lang="en">STFC</dc:publisher>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dc:title>Platform Group</dc:title>
-    <dc:creator>Science and Technology Facilities Council</dc:creator>
-    <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"/>
+    <dc:date>2025-05-08</dc:date>
     <dc:description>&lt;p&gt;The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: &lt;a href=../dataType&gt;data type&lt;/a&gt;, &lt;a href=..//ecv&gt;ecv&lt;/a&gt;, &lt;a href=../scheme/cci/freq&gt;frequency&lt;/a&gt;, &lt;a href=../org&gt;institutes&lt;/a&gt;, &lt;a href=../platform&gt;platforms&lt;/a&gt;, &lt;a href=../platformGrp&gt;platform groups&lt;/a&gt;, &lt;a href=../platformProg&gt;platform programmes&lt;/a&gt;, &lt;a href=../procLev&gt;processing levels&lt;/a&gt;, &lt;a href=../product&gt;products&lt;/a&gt;, &lt;a href=../project&gt;projects&lt;/a&gt;,  and &lt;a href=../sensor&gt;sensors&lt;/a&gt;. The use of a concept scheme allows easy navigation up and down the tree.&lt;/p&gt;&lt;p&gt;As well as being concepts, all of the concepts are also named individuals of the &lt;a href=../../../ontology/cci&gt;CCI Ontology&lt;/a&gt; classes.&lt;/p&gt;</dc:description>
-    <skos:definition xml:lang="en">The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI). A group consists of a number of &lt;a href=#platformPrg&gt;programmes&lt;/a&gt;</skos:definition>
+    <dc:title>Platform Group</dc:title>
+    <skos:prefLabel xml:lang="en">Platform Group</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dc:creator>Science and Technology Facilities Council</dc:creator>
     <rdfs:comment>This concept scheme represents the platforms used by the CCI project</rdfs:comment>
     <owl:versionInfo>0.0.1</owl:versionInfo>
+    <skos:definition xml:lang="en">The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI). A group consists of a number of &lt;a href=#platformPrg&gt;programmes&lt;/a&gt;</skos:definition>
+    <dc:publisher xml:lang="en">STFC</dc:publisher>
+    <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp">
-    <skos:scopeNote xml:lang="en">US Defense Meteorological Satellite Program</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">DMSP</skos:prefLabel>
-    <skos:definition xml:lang="en">US Defense Meteorological Satellite Program</skos:definition>
-    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/platformGrp"/>
-    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#platformGrp"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#platformGrp"/>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/platformGrp"/>
     <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/platformGrp"/>
+    <skos:definition xml:lang="en">US Defense Meteorological Satellite Program</skos:definition>
+    <skos:prefLabel xml:lang="en">DMSP</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">US Defense Meteorological Satellite Program</skos:scopeNote>
+    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2"/>
     <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D1"/>
     <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3"/>
-    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes">
-    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#platformGrp"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="en">NASA NESDIS Geostationary Operational Environmental Satellite system</skos:definition>
-    <skos:scopeNote xml:lang="en">NASA NESDIS Geostationary Operational Environmental Satellite system</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/platformGrp"/>
-    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/platformGrp"/>
-    <skos:prefLabel xml:lang="en">GOES</skos:prefLabel>
-    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_1st"/>
-    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_3rd"/>
-    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_2nd"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa">
-    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/platformGrp"/>
-    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#platformGrp"/>
+    <skos:prefLabel xml:lang="en">NOAA</skos:prefLabel>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#platformGrp"/>
+    <skos:definition xml:lang="en">NASA NOAA Environmental satellite programme</skos:definition>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/platformGrp"/>
     <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/platformGrp"/>
     <skos:scopeNote xml:lang="en">NASA NOAA Environmental satellite programme</skos:scopeNote>
-    <skos:definition xml:lang="en">NASA NOAA Environmental satellite programme</skos:definition>
-    <skos:prefLabel xml:lang="en">NOAA</skos:prefLabel>
     <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_3rd"/>
-    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th"/>
     <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th"/>
+    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes">
+    <skos:prefLabel xml:lang="en">GOES</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">NASA NESDIS Geostationary Operational Environmental Satellite system</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#platformGrp"/>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/platformGrp"/>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/platformGrp"/>
+    <skos:definition xml:lang="en">NASA NESDIS Geostationary Operational Environmental Satellite system</skos:definition>
+    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_2nd"/>
+    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_3rd"/>
+    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_1st"/>
   </rdf:Description>
 </rdf:RDF>

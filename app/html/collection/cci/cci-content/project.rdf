@@ -7,39 +7,39 @@
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
   <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/project">
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_iceSheet"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_cloud"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_vegParam"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol"/>
     <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_aerosol"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_glaciers"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_lakes"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ghg"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_biomass"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_sst"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_landSurfTemp"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_waterVapour"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol"/>
     <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_fire"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_landCov"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaState"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ghg"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_glaciers"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_vegParam"/>
     <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaIce"/>
-    <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
-    <dc:publisher xml:lang="en">STFC</dc:publisher>
-    <rdfs:comment>This collection represents the projects within the CCI project</rdfs:comment>
-    <dc:title>Project</dc:title>
-    <skos:prefLabel xml:lang="en">Project</skos:prefLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-    <skos:definition xml:lang="en">The different projects within the ESA Climate Change Initiative (CCI).</skos:definition>
-    <dc:description>The different projects within the ESA Climate Change Initiative (CCI).</dc:description>
-    <dc:date>2025-04-07</dc:date>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_waterVapour"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_biomass"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaState"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_sst"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_iceSheet"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_lakes"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_cloud"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_landSurfTemp"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_landCov"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst"/>
     <owl:versionInfo>0.0.1</owl:versionInfo>
+    <rdfs:comment>This collection represents the projects within the CCI project</rdfs:comment>
+    <skos:definition xml:lang="en">The different projects within the ESA Climate Change Initiative (CCI).</skos:definition>
+    <dc:title>Project</dc:title>
+    <dc:publisher xml:lang="en">STFC</dc:publisher>
+    <dc:description>The different projects within the ESA Climate Change Initiative (CCI).</dc:description>
+    <skos:prefLabel xml:lang="en">Project</skos:prefLabel>
+    <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
+    <dc:date>2025-05-08</dc:date>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
     <dc:creator>Science and Technology Facilities Council</dc:creator>
   </rdf:Description>
 </rdf:RDF>

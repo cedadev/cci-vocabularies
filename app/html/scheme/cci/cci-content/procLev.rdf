@@ -6,190 +6,190 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level0">
-    <skos:definition xml:lang="en">Unprocessed instrument and payload data at full resolution. CCI does not make recommendations regarding formats or content for data at this processing level.</skos:definition>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C">
     <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
     <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:altLabel xml:lang="en">L0</skos:altLabel>
-    <skos:prefLabel xml:lang="en">Level 0</skos:prefLabel>
-    <rdfs:seeAlso rdf:resource="https://www.ghrsst.org/"/>
-    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
+    <skos:scopeNote xml:lang="en">Collated (L3C): Observations combined from a single instrument into a space-time grid.</skos:scopeNote>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:scopeNote xml:lang="en">Unprocessed instrument and payload data at full resolution. CCI does not make recommendations regarding formats or content for data at this processing level.</skos:scopeNote>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
+    <skos:definition xml:lang="en">Collated (L3C): Observations combined from a single instrument into a space-time grid.</skos:definition>
+    <skos:prefLabel xml:lang="en">Level 3C</skos:prefLabel>
+    <skos:altLabel xml:lang="en">L3C</skos:altLabel>
+    <skos:broader rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
-    <skos:altLabel xml:lang="en">L3U</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">Uncollated (L3U): L2 data granules remapped to a space grid without combining any observations from overlapping orbits.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <skos:prefLabel xml:lang="en">Level 3U</skos:prefLabel>
     <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
     <skos:definition xml:lang="en">Uncollated (L3U): L2 data granules remapped to a space grid without combining any observations from overlapping orbits.</skos:definition>
-    <skos:prefLabel xml:lang="en">Level 3U</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:scopeNote xml:lang="en">Uncollated (L3U): L2 data granules remapped to a space grid without combining any observations from overlapping orbits.</skos:scopeNote>
+    <skos:altLabel xml:lang="en">L3U</skos:altLabel>
     <skos:broader rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2">
-    <skos:prefLabel xml:lang="en">Level 2</skos:prefLabel>
-    <skos:definition xml:lang="en">Retrieved environmental variables at the same resolution and location as the level 1 source</skos:definition>
-    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="en">L2</skos:altLabel>
-    <rdfs:seeAlso rdf:resource="http://wiki.ieee-earth.org/@api/deki/files/7/=Handbook_0802.pdf"/>
-    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:scopeNote xml:lang="en">Retrieved environmental variables at the same resolution and location as the level 1 source</skos:scopeNote>
-    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1">
-    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="en">Level 1</skos:prefLabel>
-    <skos:altLabel xml:lang="en">L1</skos:altLabel>
-    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B"/>
-    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A"/>
-    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A">
-    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:prefLabel xml:lang="en">Level 1A</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">Reconstructed unprocessed instrument data at full resolution, time referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters, computed and appended, but not applied, to L0 data.</skos:scopeNote>
-    <skos:definition xml:lang="en">Reconstructed unprocessed instrument data at full resolution, time referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters, computed and appended, but not applied, to L0 data.</skos:definition>
-    <rdfs:seeAlso rdf:resource="https://www.ghrsst.org/"/>
-    <skos:altLabel xml:lang="en">L1A</skos:altLabel>
-    <skos:broader rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
-    <skos:definition xml:lang="en">Level 2 variables mapped on a defined grid with reduced requirements for ancillary data. Three types of L3 products are defined.</skos:definition>
-    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:altLabel xml:lang="en">L3</skos:altLabel>
-    <skos:scopeNote xml:lang="en">Level 2 variables mapped on a defined grid with reduced requirements for ancillary data. Three types of L3 products are defined.</skos:scopeNote>
-    <rdfs:seeAlso rdf:resource="https://www.ghrsst.org/"/>
-    <skos:prefLabel xml:lang="en">Level 3</skos:prefLabel>
-    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C"/>
-    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S"/>
-    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C">
-    <skos:altLabel xml:lang="en">L3C</skos:altLabel>
-    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:scopeNote xml:lang="en">Collated (L3C): Observations combined from a single instrument into a space-time grid.</skos:scopeNote>
-    <skos:definition xml:lang="en">Collated (L3C): Observations combined from a single instrument into a space-time grid.</skos:definition>
-    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:prefLabel xml:lang="en">Level 3C</skos:prefLabel>
-    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:broader rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C">
-    <skos:scopeNote xml:lang="en">Level 1b data that have been further processed, e.g. by correcting radiances or by mapping onto a spatial grid, prior to deriving geophysical variables from the data.</skos:scopeNote>
-    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="en">L1C</skos:altLabel>
-    <skos:prefLabel xml:lang="en">Level 1C</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:definition xml:lang="en">Level 1b data that have been further processed, e.g. by correcting radiances or by mapping onto a spatial grid, prior to deriving geophysical variables from the data.</skos:definition>
-    <skos:broader rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.ceda.ac.uk/scheme/cci/procLev">
+    <skos:definition xml:lang="en">The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI).</skos:definition>
     <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
-    <dc:publisher xml:lang="en">STFC</dc:publisher>
+    <owl:versionInfo>0.0.1</owl:versionInfo>
     <dc:title>Processing Level</dc:title>
     <skos:prefLabel xml:lang="en">Processing Level</skos:prefLabel>
+    <dc:creator>Science and Technology Facilities Council</dc:creator>
     <dc:description>&lt;p&gt;The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: &lt;a href=../dataType&gt;data type&lt;/a&gt;, &lt;a href=..//ecv&gt;ecv&lt;/a&gt;, &lt;a href=../scheme/cci/freq&gt;frequency&lt;/a&gt;, &lt;a href=../org&gt;institutes&lt;/a&gt;, &lt;a href=../platform&gt;platforms&lt;/a&gt;, &lt;a href=../platformGrp&gt;platform groups&lt;/a&gt;, &lt;a href=../platformProg&gt;platform programmes&lt;/a&gt;, &lt;a href=../procLev&gt;processing levels&lt;/a&gt;, &lt;a href=../product&gt;products&lt;/a&gt;, &lt;a href=../project&gt;projects&lt;/a&gt;,  and &lt;a href=../sensor&gt;sensors&lt;/a&gt;. The use of a concept scheme allows easy navigation up and down the tree.&lt;/p&gt;&lt;p&gt;As well as being concepts, all of the concepts are also named individuals of the &lt;a href=../../../ontology/cci&gt;CCI Ontology&lt;/a&gt; classes.&lt;/p&gt;</dc:description>
     <rdfs:comment>This concept scheme represents the processing levels used by the CCI project</rdfs:comment>
-    <dc:date>2025-04-07</dc:date>
-    <skos:definition xml:lang="en">The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI).</skos:definition>
-    <owl:versionInfo>0.0.1</owl:versionInfo>
+    <dc:date>2025-05-08</dc:date>
+    <dc:publisher xml:lang="en">STFC</dc:publisher>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <dc:creator>Science and Technology Facilities Council</dc:creator>
-    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S"/>
-    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P"/>
-    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A"/>
-    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C"/>
-    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"/>
     <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C"/>
-    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_unspecified"/>
-    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level4"/>
-    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2"/>
-    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U"/>
-    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level0"/>
-    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B"/>
     <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_ind"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level4"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_unspecified"/>
     <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level0"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S">
-    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="en">L3S</skos:altLabel>
-    <skos:scopeNote xml:lang="en">Super-collated (L3S): observations combined from multiple instruments into a space-time grid.</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">Level 3S</skos:prefLabel>
-    <skos:definition xml:lang="en">Super-collated (L3S): observations combined from multiple instruments into a space-time grid.</skos:definition>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
+    <skos:definition xml:lang="en">Reconstructed unprocessed instrument data at full resolution, time referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters, computed and appended, but not applied, to L0 data.</skos:definition>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
     <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:broader rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"/>
+    <rdfs:seeAlso rdf:resource="https://www.ghrsst.org/"/>
+    <skos:prefLabel xml:lang="en">Level 1A</skos:prefLabel>
+    <skos:altLabel xml:lang="en">L1A</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Reconstructed unprocessed instrument data at full resolution, time referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters, computed and appended, but not applied, to L0 data.</skos:scopeNote>
+    <skos:broader rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B">
-    <skos:scopeNote xml:lang="en">Level 1A data that have been processed to sensor units.</skos:scopeNote>
-    <rdfs:seeAlso rdf:resource="https://www.ghrsst.org/"/>
-    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="en">L1B</skos:altLabel>
     <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
     <skos:prefLabel xml:lang="en">Level 1B</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <skos:altLabel xml:lang="en">L1B</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Level 1A data that have been processed to sensor units.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
+    <rdfs:seeAlso rdf:resource="https://www.ghrsst.org/"/>
     <skos:definition xml:lang="en">Level 1A data that have been processed to sensor units.</skos:definition>
     <skos:broader rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_unspecified">
-    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
-    <skos:definition xml:lang="en">Unspecified</skos:definition>
-    <skos:altLabel xml:lang="en">Unspecified</skos:altLabel>
-    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:scopeNote xml:lang="en">Unspecified</skos:scopeNote>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C">
     <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
+    <skos:altLabel xml:lang="en">L1C</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Level 1C</skos:prefLabel>
+    <skos:definition xml:lang="en">Level 1b data that have been further processed, e.g. by correcting radiances or by mapping onto a spatial grid, prior to deriving geophysical variables from the data.</skos:definition>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <skos:scopeNote xml:lang="en">Level 1b data that have been further processed, e.g. by correcting radiances or by mapping onto a spatial grid, prior to deriving geophysical variables from the data.</skos:scopeNote>
+    <skos:broader rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P">
-    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:prefLabel xml:lang="en">Level 2 Pre-processing</skos:prefLabel>
-    <rdfs:seeAlso rdf:resource="https://www.ghrsst.org/"/>
-    <skos:definition xml:lang="en">Geophysical variables derived from Level 1 source data at the same resolution and location as the level 1 data, typically in a satellite projection with geographic information. These data form the fundamental basis for higher level CCI products.</skos:definition>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S">
+    <skos:scopeNote xml:lang="en">Super-collated (L3S): observations combined from multiple instruments into a space-time grid.</skos:scopeNote>
     <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:scopeNote xml:lang="en">Geophysical variables derived from Level 1 source data at the same resolution and location as the level 1 data, typically in a satellite projection with geographic information. These data form the fundamental basis for higher level CCI products.</skos:scopeNote>
-    <skos:altLabel xml:lang="en">L2P</skos:altLabel>
-    <skos:broader rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2"/>
+    <skos:definition xml:lang="en">Super-collated (L3S): observations combined from multiple instruments into a space-time grid.</skos:definition>
+    <skos:altLabel xml:lang="en">L3S</skos:altLabel>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <skos:prefLabel xml:lang="en">Level 3S</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
+    <skos:broader rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3">
+    <skos:prefLabel xml:lang="en">Level 3</skos:prefLabel>
+    <skos:definition xml:lang="en">Level 2 variables mapped on a defined grid with reduced requirements for ancillary data. Three types of L3 products are defined.</skos:definition>
+    <rdfs:seeAlso rdf:resource="https://www.ghrsst.org/"/>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
+    <skos:scopeNote xml:lang="en">Level 2 variables mapped on a defined grid with reduced requirements for ancillary data. Three types of L3 products are defined.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <skos:altLabel xml:lang="en">L3</skos:altLabel>
+    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U"/>
+    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S"/>
+    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level4">
-    <skos:prefLabel xml:lang="en">Level 4</skos:prefLabel>
-    <rdfs:seeAlso rdf:resource="https://www.ghrsst.org/"/>
-    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="en">L4</skos:altLabel>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
     <skos:definition xml:lang="en">Data sets created from the analysis of lower level data that result in gridded, gap-free products.</skos:definition>
     <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
-    <skos:scopeNote xml:lang="en">Data sets created from the analysis of lower level data that result in gridded, gap-free products.</skos:scopeNote>
+    <rdfs:seeAlso rdf:resource="https://www.ghrsst.org/"/>
+    <skos:altLabel xml:lang="en">L4</skos:altLabel>
     <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <skos:scopeNote xml:lang="en">Data sets created from the analysis of lower level data that result in gridded, gap-free products.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">Level 4</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1">
+    <skos:altLabel xml:lang="en">L1</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Level 1</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C"/>
+    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A"/>
+    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_ind">
-    <skos:altLabel xml:lang="en">IND</skos:altLabel>
-    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
+    <skos:altLabel xml:lang="en">IND</skos:altLabel>
     <skos:scopeNote xml:lang="en">Indicators derived from satellite data.</skos:scopeNote>
-    <skos:definition xml:lang="en">Indicators derived from satellite data.</skos:definition>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
     <skos:prefLabel xml:lang="en">Indicator</skos:prefLabel>
+    <skos:definition xml:lang="en">Indicators derived from satellite data.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P">
+    <skos:definition xml:lang="en">Geophysical variables derived from Level 1 source data at the same resolution and location as the level 1 data, typically in a satellite projection with geographic information. These data form the fundamental basis for higher level CCI products.</skos:definition>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
+    <skos:prefLabel xml:lang="en">Level 2 Pre-processing</skos:prefLabel>
+    <rdfs:seeAlso rdf:resource="https://www.ghrsst.org/"/>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <skos:altLabel xml:lang="en">L2P</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Geophysical variables derived from Level 1 source data at the same resolution and location as the level 1 data, typically in a satellite projection with geographic information. These data form the fundamental basis for higher level CCI products.</skos:scopeNote>
+    <skos:broader rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2">
     <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
     <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <skos:scopeNote xml:lang="en">Retrieved environmental variables at the same resolution and location as the level 1 source</skos:scopeNote>
+    <skos:altLabel xml:lang="en">L2</skos:altLabel>
+    <rdfs:seeAlso rdf:resource="http://wiki.ieee-earth.org/@api/deki/files/7/=Handbook_0802.pdf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
+    <skos:definition xml:lang="en">Retrieved environmental variables at the same resolution and location as the level 1 source</skos:definition>
+    <skos:prefLabel xml:lang="en">Level 2</skos:prefLabel>
+    <skos:narrower rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_unspecified">
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
+    <skos:scopeNote xml:lang="en">Unspecified</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <skos:definition xml:lang="en">Unspecified</skos:definition>
+    <skos:prefLabel xml:lang="en">Unspecified</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Unspecified</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level0">
+    <skos:scopeNote xml:lang="en">Unprocessed instrument and payload data at full resolution. CCI does not make recommendations regarding formats or content for data at this processing level.</skos:scopeNote>
+    <skos:definition xml:lang="en">Unprocessed instrument and payload data at full resolution. CCI does not make recommendations regarding formats or content for data at this processing level.</skos:definition>
+    <rdfs:seeAlso rdf:resource="https://www.ghrsst.org/"/>
+    <skos:prefLabel xml:lang="en">Level 0</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#procLev"/>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/procLev"/>
+    <skos:altLabel xml:lang="en">L0</skos:altLabel>
   </rdf:Description>
 </rdf:RDF>
