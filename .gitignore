@@ -41,6 +41,10 @@ html/collection/cci/cci-content/product.html
 html/collection/cci/cci-content/product.json
 html/collection/cci/cci-content/product.rdf
 html/collection/cci/cci-content/product.ttl
+html/collection/cci/cci-content/project.html
+html/collection/cci/cci-content/project.json
+html/collection/cci/cci-content/project.rdf
+html/collection/cci/cci-content/project.ttl
 html/collection/cci/cci-content/sensor.html
 html/collection/cci/cci-content/sensor.json
 html/collection/cci/cci-content/sensor.rdf
@@ -88,6 +92,10 @@ html/scheme/cci/cci-content/product.html
 html/scheme/cci/cci-content/product.json
 html/scheme/cci/cci-content/product.rdf
 html/scheme/cci/cci-content/product.ttl
+html/scheme/cci/cci-content/project.html
+html/scheme/cci/cci-content/project.json
+html/scheme/cci/cci-content/project.rdf
+html/scheme/cci/cci-content/project.ttl
 html/scheme/cci/cci-content/sensor.html
 html/scheme/cci/cci-content/sensor.json
 html/scheme/cci/cci-content/sensor.rdf
