@@ -1,0 +1,1153 @@
+@prefix cci: <http://vocab.ceda.ac.uk/ontology/cci#> .
+@prefix cci-scheme: <http://vocab.ceda.ac.uk/scheme/cci/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aatsr> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/2> ;
+    skos:definition "Advanced Along-Track Scanning Radiometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "AATSR"@en ;
+    skos:scopeNote "Advanced Along-Track Scanning Radiometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_abi> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_16>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_17> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/abi> ;
+    skos:definition "Advanced Baseline Imager"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "ABI"@en ;
+    skos:scopeNote "Advanced Baseline Imager"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aceFts> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_scisat> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/6> ;
+    skos:definition "Advanced Composition Explorer Fourier Transform Spectrometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "ACE-FTS"@en ;
+    skos:scopeNote "Advanced Composition Explorer Fourier Transform Spectrometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_airs> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/16> ;
+    skos:definition "Atmospheric Infra-Red Sounder"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "AIRS"@en ;
+    skos:scopeNote "Atmospheric Infra-Red Sounder"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_altika> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_saral> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/21> ;
+    skos:definition "CNES Ka-band Altimeter"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "AltiKa"@en ;
+    skos:scopeNote "CNES Ka-band Altimeter"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amisar> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/23> ;
+    skos:definition "Active Microwave Instrument - Synthetic Aperture Antenna"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "AMI-SAR"@en ;
+    skos:scopeNote "Active Microwave Instrument - Synthetic Aperture Antenna"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amiscat> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/24> ;
+    skos:altLabel "AMI-WS"@en ;
+    skos:definition "Active Microwave Instrument – Scatterometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "AMI-SCAT"@en ;
+    skos:scopeNote "Active Microwave Instrument – Scatterometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsr2> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW3> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/28> ;
+    skos:definition "Advanced Microwave Scanning Radiometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "AMSR2"@en ;
+    skos:scopeNote "Advanced Microwave Scanning Radiometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsre> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/29> ;
+    skos:definition "Advanced Microwave Scanning Radiometer for Earth Observation from Space"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "AMSRE"@en ;
+    skos:scopeNote "Advanced Microwave Scanning Radiometer for Earth Observation from Space"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsua> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/30> ;
+    skos:definition "Advanced microwave sounding unit – A"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "AMSU-A"@en ;
+    skos:scopeNote "Advanced microwave sounding unit – A"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsub> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/33> ;
+    skos:definition "Advanced microwave sounding unit – B"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "AMSU-B"@en ;
+    skos:scopeNote "Advanced microwave sounding unit – B"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aquarius> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sac_d> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/41> ;
+    skos:definition "Aquarius"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "Aquarius"@en ;
+    skos:scopeNote "Aquarius"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_asar> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/44> ;
+    skos:definition "Advanced Synthetic Aperture Radar"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "ASAR"@en ;
+    skos:scopeNote "Advanced Synthetic Aperture Radar"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ascat> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/47> ;
+    skos:definition "Advanced SCATterometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "ASCAT"@en ;
+    skos:scopeNote "Advanced SCATterometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aster> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_terra> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/50> ;
+    skos:definition "Advanced Spaceborne Thermal Emission and Reflection Radiometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "ASTER"@en ;
+    skos:scopeNote "Advanced Spaceborne Thermal Emission and Reflection Radiometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_atsr> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/55> ;
+    skos:definition "Along Track Scanning Radiometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "ATSR"@en ;
+    skos:scopeNote "Along Track Scanning Radiometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_atsr2> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/56> ;
+    skos:definition "Along Track Scanning Radiometer – 2"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "ATSR-2"@en ;
+    skos:scopeNote "Along Track Scanning Radiometer – 2"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_10>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_6>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_8> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/60> ;
+    skos:definition "Advanced Very High Resolution Radiometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "AVHRR"@en ;
+    skos:scopeNote "Advanced Very High Resolution Radiometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr2> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_11>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_12>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_13>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_14>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_7>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_9> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/61> ;
+    skos:definition "Advanced Very High Resolution Radiometer / 2"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "AVHRR-2"@en ;
+    skos:scopeNote "Advanced Very High Resolution Radiometer / 2"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr3> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/62> ;
+    skos:definition "Advanced Very High Resolution Radiometer / 3"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "AVHRR-3"@en ;
+    skos:scopeNote "Advanced Very High Resolution Radiometer / 3"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_esmrNim5> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus5> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/esmr_nimbus_5> ;
+    skos:definition "Electrically Scanning Microwave Radiometer (Nimbus-6)"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "ESMR (Nimbus-5)"@en ;
+    skos:scopeNote "Electrically Scanning Microwave Radiometer (Nimbus-6)"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_esmrNim6> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus6> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/esmr_nimbus_6> ;
+    skos:definition "Electrically Scanning Microwave Radiometer (Nimbus-5)"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "ESMR (Nimbus-6)"@en ;
+    skos:scopeNote "Electrically Scanning Microwave Radiometer (Nimbus-5)"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_etmplus> a cci:sensor,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/136> ;
+    skos:definition "Enhanced Thematic Mapper Plus"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "ETM+"@en ;
+    skos:scopeNote "Enhanced Thematic Mapper Plus"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gfora> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gfo> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/154> ;
+    skos:definition "Geosat Follow-On"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "GFO-RA"@en ;
+    skos:scopeNote "Geosat Follow-On"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_glas> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/155> ;
+    skos:definition "Geoscience Laser Altimeter System"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "GLAS"@en ;
+    skos:scopeNote "Geoscience Laser Altimeter System"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gmi> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gpm> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/gmi_core> ;
+    skos:altLabel "GMI (core)"@en ;
+    skos:definition "GPM Microwave Imager"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "GMI"@en ;
+    skos:scopeNote "GPM Microwave Imager"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_goesImager1215> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_12>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_12_SA>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_13>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_14>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_15> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/879> ;
+    skos:definition "GOES IMAGER (12-15)"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "GOES-Imager-12-15"@en ;
+    skos:scopeNote "GOES IMAGER (12-15)"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_goesImager811> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_08>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_09>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_09_bk>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_10>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_10_SA>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_11> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/217> ;
+    skos:definition "GOES IMAGER (8-11)"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "GOES-Imager-8-11"@en ;
+    skos:scopeNote "GOES IMAGER (8-11)"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gome> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/166> ;
+    skos:definition "Global Monitoring of Atmospheric Ozone"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "GOME"@en ;
+    skos:scopeNote "Global Monitoring of Atmospheric Ozone"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gome2> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/167> ;
+    skos:definition "Global Monitoring of Atmospheric Ozone 2"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "GOME-2"@en ;
+    skos:scopeNote "Global Monitoring of Atmospheric Ozone 2"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gomos> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/168> ;
+    skos:definition "Global Ozone Monitoring by Occultation of Stars"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "GOMOS"@en ;
+    skos:scopeNote "Global Ozone Monitoring by Occultation of Stars"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_grace> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_grace> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/269>,
+        <https://www.wmo-sat.info/oscar/instruments/view/469> ;
+    skos:altLabel "GRACE"@en ;
+    skos:definition "GRACE instrument"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "GRACE instrument"@en ;
+    skos:scopeNote "GRACE instrument"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus6> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/181> ;
+    skos:definition "High-Resolution Infra-Red Sounder"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "HIRS"@en ;
+    skos:scopeNote "High-Resolution Infra-Red Sounder"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs2> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_10>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_11>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_12>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_13>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_14>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_6>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_7>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_8>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_9>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_tiros_n> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/182> ;
+    skos:definition "High-Resolution Infra-Red Sounder / 2"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "HIRS/2"@en ;
+    skos:scopeNote "High-Resolution Infra-Red Sounder / 2"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs3> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/183> ;
+    skos:definition "High-Resolution Infra-Red Sounder / 3"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "HIRS/3"@en ;
+    skos:scopeNote "High-Resolution Infra-Red Sounder / 3"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs4> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/184> ;
+    skos:definition "High-Resolution Infra-Red Sounder /4"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "HIRS/4"@en ;
+    skos:scopeNote "High-Resolution Infra-Red Sounder /4"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hrs> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot5> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/193> ;
+    skos:definition "High-Resolution Stereoscope"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "HRS"@en ;
+    skos:scopeNote "High-Resolution Stereoscope"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_iasi> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/207> ;
+    skos:definition "Infra-Red Atmospheric Sounding Interferometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "IASI"@en ;
+    skos:scopeNote "Infra-Red Atmospheric Sounding Interferometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_imagerMtsat2> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari-7> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/imager_mtsat_2> ;
+    skos:definition "MTSAT-2 Imager"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "IMAGER (MTSAT-2)"@en ;
+    skos:scopeNote "MTSAT-2 Imager"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_jami> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari-6> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/236> ;
+    skos:definition "Japanese Advanced Meteorological Imager"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "JAMI"@en ;
+    skos:scopeNote "Japanese Advanced Meteorological Imager"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_meris> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/277> ;
+    skos:definition "Medium-Spectral Resolution, Imaging Spectrometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "MERIS"@en ;
+    skos:scopeNote "Medium-Spectral Resolution, Imaging Spectrometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mipas> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/286> ;
+    skos:definition "Michelson Interferometer for Passive Atmospheric Sounding"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "MIPAS"@en ;
+    skos:scopeNote "Michelson Interferometer for Passive Atmospheric Sounding"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_miras> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_smos> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/287> ;
+    skos:definition "Microwave Imaging Radiometer using Aperture Synthesis"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "MIRAS"@en ;
+    skos:scopeNote "Microwave Imaging Radiometer using Aperture Synthesis"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_modis> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_terra> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/296> ;
+    skos:definition "Moderate Resolution Imaging Spectroradiometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "MODIS"@en ;
+    skos:scopeNote "Moderate Resolution Imaging Spectroradiometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2a>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2b> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/312> ;
+    skos:altLabel "MSI"@en ;
+    skos:definition "Multi-Spectral Instrument (Sentinel-2)"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "MSI (Sentinel-2)"@en ;
+    skos:scopeNote "Multi-Spectral Instrument (Sentinel-2)"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mss> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_3>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_4>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_5> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/316> ;
+    skos:definition "Multi-Spectral Scanner"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "MSS"@en ;
+    skos:scopeNote "Multi-Spectral Scanner"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mviri> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3_adc>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3_xadc>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_4>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_5>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_5_iodc>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_6>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_6_iodc>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_7>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_7_iodc> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/337> ;
+    skos:definition "Meteosat Visible Infra-red Imager"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "MVIRI"@en ;
+    skos:scopeNote "Meteosat Visible Infra-red Imager"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mwri> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3A>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3B>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3C>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3D>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3F> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/350> ;
+    skos:definition "Micro-Wave Radiation Imager"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "MWRI"@en ;
+    skos:scopeNote "Micro-Wave Radiation Imager"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_nra> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_topexPoseidon> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/1016> ;
+    skos:altLabel "TOPEX"@en ;
+    skos:definition "NASA Radar Altimeter"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "NRA"@en ;
+    skos:scopeNote "NASA Radar Altimeter"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_oco> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_oco2> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/368> ;
+    skos:definition "Orbiting Carbon Observatory"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "OCO"@en ;
+    skos:scopeNote "Orbiting Carbon Observatory"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_olci> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/374> ;
+    skos:definition "Ocean and Land Colour Imager"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "OLCI"@en ;
+    skos:scopeNote "Ocean and Land Colour Imager"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_oli> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_8> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/375> ;
+    skos:definition "Operational Land Image"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "OLI"@en ;
+    skos:scopeNote "Operational Land Image"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_omi> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_aura> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/377> ;
+    skos:definition "Ozone Monitoring Instrument"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "OMI"@en ;
+    skos:scopeNote "Ozone Monitoring Instrument"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_osiris> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_odin> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/383> ;
+    skos:definition "Optical Spectrograph and Infra-Red Imager System"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "OSIRIS"@en ;
+    skos:scopeNote "Optical Spectrograph and Infra-Red Imager System"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_alos> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/387> ;
+    skos:definition "Phased Array type L-band Synthetic Aperture Radar"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "PALSAR"@en ;
+    skos:scopeNote "Phased Array type L-band Synthetic Aperture Radar"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar2> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_alos-2> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/388> ;
+    skos:definition "Phased Array type L-band Synthetic Aperture Radar – 2"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "PALSAR-2"@en ;
+    skos:scopeNote "Phased Array type L-band Synthetic Aperture Radar – 2"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_polder> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_parasol> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/405> ;
+    skos:definition "POLarization and Directionality of the Earth's Reflectances"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "POLDER"@en ;
+    skos:scopeNote "POLarization and Directionality of the Earth's Reflectances"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon2> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason1> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/406> ;
+    skos:definition "Poseidon 2"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "Poseidon-2"@en ;
+    skos:scopeNote "Poseidon 2"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon3> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason2> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/407> ;
+    skos:definition "Poseidon 3"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "Poseidon-3"@en ;
+    skos:scopeNote "Poseidon 3"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon3b> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason3> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/408> ;
+    skos:definition "Poseidon 3b"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "Poseidon-3B"@en ;
+    skos:scopeNote "Poseidon 3b"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon4> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6a>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6b> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/poseidon_4> ;
+    skos:definition "Poseidon-4"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "Poseidon-4"@en ;
+    skos:scopeNote "Poseidon-4"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/415> ;
+    skos:definition "Radar Altimeter"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "RA"@en ;
+    skos:scopeNote "Radar Altimeter"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra2> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/416> ;
+    skos:definition "Radar Altimeter"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "RA-2"@en ;
+    skos:scopeNote "Radar Altimeter"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sar2000> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_csk1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_csk2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_csk3>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_csk4> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/447> ;
+    skos:definition "Synthetic Aperture Radar 2000 (X-band)"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SAR-2000"@en ;
+    skos:scopeNote "Synthetic Aperture Radar 2000 (X-band)"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarRadarSat2> a cci:sensor,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/445> ;
+    skos:definition "Synthetic Aperture Radar (C-band)"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SAR (RadarSat-2)"@en ;
+    skos:scopeNote "Synthetic Aperture Radar (C-band)"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarX> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_tandem_X>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_terraSar_X>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_tsx_ng> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/459> ;
+    skos:definition "Synthetic Aperture Radar X-band"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SAR-X"@en ;
+    skos:scopeNote "Synthetic Aperture Radar X-band"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarcS1> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1a>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1b> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/450> ;
+    skos:definition "Synthetic Aperture Radar (C-band)"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SAR-C (Sentinel-1)"@en ;
+    skos:scopeNote "Synthetic Aperture Radar (C-band)"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sciamachy> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/477>,
+        <http://www.wmo-sat.info/oscar/instruments/view/478> ;
+    skos:definition "SCanning Imaging Absorption spectroMeter for AtmosphericCHartographY"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SCIAMACHY"@en ;
+    skos:scopeNote "SCanning Imaging Absorption spectroMeter for AtmosphericCHartographY"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_seaWiFs> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_orbview2> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/481> ;
+    skos:definition "Sea-viewing Wide Field-of-view Sensor"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SeaWiFS"@en ;
+    skos:scopeNote "Sea-viewing Wide Field-of-view Sensor"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_seviri> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_10>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_11>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_8>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_9> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/503> ;
+    skos:definition "Spinning Enhanced Visible and Infrared Imager"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SEVIRI"@en ;
+    skos:scopeNote "Spinning Enhanced Visible and Infrared Imager"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_siral> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_cryosat2> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/509> ;
+    skos:definition "SAR Interferometer Radar Altimeter"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SIRAL"@en ;
+    skos:scopeNote "SAR Interferometer Radar Altimeter"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_slstr> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/518> ;
+    skos:definition "Sea and Land Surface Temperature Radiometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SLSTR"@en ;
+    skos:scopeNote "Sea and Land Surface Temperature Radiometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smap> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_smap> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/521> ;
+    skos:definition "Soil Moisture Active-Passive (intended as payload)"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SMAP"@en ;
+    skos:scopeNote "Soil Moisture Active-Passive (intended as payload)"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smmr> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus7> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/522> ;
+    skos:definition "Scanning Multichannel Microwave Radiometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SMMR"@en ;
+    skos:scopeNote "Scanning Multichannel Microwave Radiometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smr> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_odin> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/524> ;
+    skos:definition "Sub-Millimetre Radiometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SMR"@en ;
+    skos:scopeNote "Sub-Millimetre Radiometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sral> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/530> ;
+    skos:definition "Synthetic Aperture Radar Altimeter"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SRAL"@en ;
+    skos:scopeNote "Synthetic Aperture Radar Altimeter"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssalt> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_topexPoseidon> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/531> ;
+    skos:altLabel "Poseidon-1"@en ;
+    skos:definition "Single-frequency Solid-state Altimeter"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SSALT"@en ;
+    skos:scopeNote "Single-frequency Solid-state Altimeter"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssmI> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F08>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F10>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F11>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F12>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F13>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F14>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F15> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/533> ;
+    skos:altLabel "SSMI"@en ;
+    skos:definition "Special Sensor Microwave Imager"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SSM/I"@en ;
+    skos:scopeNote "Special Sensor Microwave Imager"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssmiS> a cci:sensor,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/536> ;
+    skos:altLabel "SSMIS"@en ;
+    skos:definition "Special Sensor Microwave Imager Sounder"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SSMI/S"@en ;
+    skos:scopeNote "Special Sensor Microwave Imager Sounder"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoCai> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/553> ;
+    skos:definition "Thermal And Near-infrared Sensor for carbon Observation Cloud and Aerosol Imager"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "TANSO-CAI"@en ;
+    skos:scopeNote "Thermal And Near-infrared Sensor for carbon Observation Cloud and Aerosol Imager"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoFts> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/554> ;
+    skos:definition "Thermal And Near-infrared Sensor for carbon Observation Fourier Transform Spectrometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "TANSO-FTS"@en ;
+    skos:scopeNote "Thermal And Near-infrared Sensor for carbon Observation Fourier Transform Spectrometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoFts2> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat-2> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/tanso_fts_2> ;
+    skos:definition "Thermal And Near infrared Sensor for carbon Observations - Fourier Transform Spectrometer / 2"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "TANSO-FTS-2"@en ;
+    skos:scopeNote "Thermal And Near infrared Sensor for carbon Observations - Fourier Transform Spectrometer / 2"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tirs> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_8> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/567> ;
+    skos:definition "Thermal Infrared Sensor"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "TIRS"@en ;
+    skos:scopeNote "Thermal Infrared Sensor"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tm> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_4>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_5>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_7> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/568> ;
+    skos:definition "Thematic Mapper"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "TM"@en ;
+    skos:scopeNote "Thematic Mapper"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tmi> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_trmm> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/569> ;
+    skos:definition "TRMM Microwave Imager"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "TMI"@en ;
+    skos:scopeNote "TRMM Microwave Imager"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_toms> a cci:sensor,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/571> ;
+    skos:definition "Total Ozone Mapping Spectrometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "TOMS"@en ;
+    skos:scopeNote "Total Ozone Mapping Spectrometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tropomi> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel5p> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/586> ;
+    skos:definition "Tropospheric Monitoring Instrument"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "TROPOMI"@en ;
+    skos:scopeNote "Tropospheric Monitoring Instrument"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_unspecified> a cci:sensor,
+        skos:Concept ;
+    skos:definition "Unspecified sensor"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "Unspecified"@en ;
+    skos:scopeNote "Unspecified sensor"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_vegetation> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot4>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot5> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/594> ;
+    skos:altLabel "Végétation"@en ;
+    skos:definition "Vegetation observation"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "VEGETATION"@en ;
+    skos:scopeNote "Vegetation observation"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_vegetationP> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_probaV> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/961> ;
+    skos:altLabel "Vegetation-P"@en ;
+    skos:definition "Végétation for PROBA"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "Végétation-P"@en ;
+    skos:scopeNote "Végétation for PROBA"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_viirs> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_snpp> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/604> ;
+    skos:definition "Visible/Infrared Imager Radiometer Suite"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "VIIRS"@en ;
+    skos:scopeNote "Visible/Infrared Imager Radiometer Suite"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_virr> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3A>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3B>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3C> ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/virr_fy_3> ;
+    skos:altLabel "VIRR (FY-3)"@en ;
+    skos:definition "Visible and Infra-Red Radiometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "VIRR"@en ;
+    skos:scopeNote "Visible and Infra-Red Radiometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_windSat> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_coriolis> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/623> ;
+    skos:definition "Polarimetric microwave radiometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "WindSat"@en ;
+    skos:scopeNote "Polarimetric microwave radiometer"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+cci-scheme:sensor a skos:ConceptScheme ;
+    dc:creator "Science and Technology Facilities Council" ;
+    dc:date "2025-05-08" ;
+    dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
+    dc:publisher "STFC"@en ;
+    dc:rights "This work is licensed under a BSD license."@en ;
+    dc:title "Sensor" ;
+    rdfs:comment "This concept scheme represents the sensors used by the CCI project" ;
+    owl:versionInfo "0.0.1" ;
+    skos:definition "The sensors that have been used in the collection of the data for the ESA Climate Change Initiative (CCI)."@en ;
+    skos:hasTopConcept <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aatsr>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_abi>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aceFts>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_airs>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_altika>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amisar>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amiscat>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsr2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsre>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsua>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsub>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aquarius>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_asar>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ascat>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aster>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_atsr>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_atsr2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr3>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_esmrNim5>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_esmrNim6>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_etmplus>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gfora>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_glas>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gmi>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_goesImager1215>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_goesImager811>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gome>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gome2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gomos>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_grace>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs3>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs4>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hrs>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_iasi>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_imagerMtsat2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_jami>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_meris>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mipas>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_miras>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_modis>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mss>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mviri>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mwri>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_nra>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_oco>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_olci>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_oli>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_omi>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_osiris>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_polder>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon3>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon3b>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon4>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sar2000>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarRadarSat2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarX>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarcS1>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sciamachy>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_seaWiFs>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_seviri>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_siral>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_slstr>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smap>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smmr>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smr>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sral>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssalt>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssmI>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssmiS>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoCai>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoFts>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoFts2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tirs>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tm>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tmi>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_toms>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tropomi>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_unspecified>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_vegetation>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_vegetationP>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_viirs>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_virr>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_windSat> ;
+    skos:prefLabel "Sensor"@en .
+

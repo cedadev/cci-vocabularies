@@ -1,0 +1,211 @@
+[
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#platformGrp",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA NESDIS Geostationary Operational Environmental Satellite system"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_1st"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_3rd"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_2nd"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "GOES"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA NESDIS Geostationary Operational Environmental Satellite system"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#platformGrp",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA NOAA Environmental satellite programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_3rd"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "NOAA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA NOAA Environmental satellite programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#platformGrp",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "US Defense Meteorological Satellite Program"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D1"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "DMSP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "US Defense Meteorological Satellite Program"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/elements/1.1/creator": [
+      {
+        "@value": "Science and Technology Facilities Council"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/date": [
+      {
+        "@value": "2025-04-07"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/description": [
+      {
+        "@value": "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/publisher": [
+      {
+        "@language": "en",
+        "@value": "STFC"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/rights": [
+      {
+        "@language": "en",
+        "@value": "This work is licensed under a BSD license."
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "@value": "Platform Group"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "This concept scheme represents the platforms used by the CCI project"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "0.0.1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI). A group consists of a number of <a href=#platformPrg>programmes</a>"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Platform Group"
+      }
+    ]
+  }
+]

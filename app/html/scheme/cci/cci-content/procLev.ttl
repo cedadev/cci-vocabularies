@@ -1,0 +1,178 @@
+@prefix cci: <http://vocab.ceda.ac.uk/ontology/cci#> .
+@prefix cci-scheme: <http://vocab.ceda.ac.uk/scheme/cci/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://vocab.ceda.ac.uk/collection/cci/procLev/proc_ind> a cci:procLev,
+        skos:Concept ;
+    skos:altLabel "IND"@en ;
+    skos:definition "Indicators derived from satellite data."@en ;
+    skos:inScheme cci-scheme:procLev ;
+    skos:prefLabel "Indicator"@en ;
+    skos:scopeNote "Indicators derived from satellite data."@en ;
+    skos:topConceptOf cci-scheme:procLev .
+
+<http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level0> a cci:procLev,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.ghrsst.org/> ;
+    skos:altLabel "L0"@en ;
+    skos:definition "Unprocessed instrument and payload data at full resolution. CCI does not make recommendations regarding formats or content for data at this processing level."@en ;
+    skos:inScheme cci-scheme:procLev ;
+    skos:prefLabel "Level 0"@en ;
+    skos:scopeNote "Unprocessed instrument and payload data at full resolution. CCI does not make recommendations regarding formats or content for data at this processing level."@en ;
+    skos:topConceptOf cci-scheme:procLev .
+
+<http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level4> a cci:procLev,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.ghrsst.org/> ;
+    skos:altLabel "L4"@en ;
+    skos:definition "Data sets created from the analysis of lower level data that result in gridded, gap-free products."@en ;
+    skos:inScheme cci-scheme:procLev ;
+    skos:prefLabel "Level 4"@en ;
+    skos:scopeNote "Data sets created from the analysis of lower level data that result in gridded, gap-free products."@en ;
+    skos:topConceptOf cci-scheme:procLev .
+
+<http://vocab.ceda.ac.uk/collection/cci/procLev/proc_unspecified> a cci:procLev,
+        skos:Concept ;
+    skos:altLabel "Unspecified"@en ;
+    skos:definition "Unspecified"@en ;
+    skos:inScheme cci-scheme:procLev ;
+    skos:prefLabel "Unspecified"@en ;
+    skos:scopeNote "Unspecified"@en ;
+    skos:topConceptOf cci-scheme:procLev .
+
+<http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A> a cci:procLev,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.ghrsst.org/> ;
+    skos:altLabel "L1A"@en ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1> ;
+    skos:definition "Reconstructed unprocessed instrument data at full resolution, time referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters, computed and appended, but not applied, to L0 data."@en ;
+    skos:inScheme cci-scheme:procLev ;
+    skos:prefLabel "Level 1A"@en ;
+    skos:scopeNote "Reconstructed unprocessed instrument data at full resolution, time referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters, computed and appended, but not applied, to L0 data."@en ;
+    skos:topConceptOf cci-scheme:procLev .
+
+<http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B> a cci:procLev,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.ghrsst.org/> ;
+    skos:altLabel "L1B"@en ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1> ;
+    skos:definition "Level 1A data that have been processed to sensor units."@en ;
+    skos:inScheme cci-scheme:procLev ;
+    skos:prefLabel "Level 1B"@en ;
+    skos:scopeNote "Level 1A data that have been processed to sensor units."@en ;
+    skos:topConceptOf cci-scheme:procLev .
+
+<http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C> a cci:procLev,
+        skos:Concept ;
+    skos:altLabel "L1C"@en ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1> ;
+    skos:definition "Level 1b data that have been further processed, e.g. by correcting radiances or by mapping onto a spatial grid, prior to deriving geophysical variables from the data."@en ;
+    skos:inScheme cci-scheme:procLev ;
+    skos:prefLabel "Level 1C"@en ;
+    skos:scopeNote "Level 1b data that have been further processed, e.g. by correcting radiances or by mapping onto a spatial grid, prior to deriving geophysical variables from the data."@en ;
+    skos:topConceptOf cci-scheme:procLev .
+
+<http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2> a cci:procLev,
+        skos:Concept ;
+    rdfs:seeAlso <http://wiki.ieee-earth.org/@api/deki/files/7/=Handbook_0802.pdf> ;
+    skos:altLabel "L2"@en ;
+    skos:definition "Retrieved environmental variables at the same resolution and location as the level 1 source"@en ;
+    skos:inScheme cci-scheme:procLev ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P> ;
+    skos:prefLabel "Level 2"@en ;
+    skos:scopeNote "Retrieved environmental variables at the same resolution and location as the level 1 source"@en ;
+    skos:topConceptOf cci-scheme:procLev .
+
+<http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P> a cci:procLev,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.ghrsst.org/> ;
+    skos:altLabel "L2P"@en ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2> ;
+    skos:definition "Geophysical variables derived from Level 1 source data at the same resolution and location as the level 1 data, typically in a satellite projection with geographic information. These data form the fundamental basis for higher level CCI products."@en ;
+    skos:inScheme cci-scheme:procLev ;
+    skos:prefLabel "Level 2 Pre-processing"@en ;
+    skos:scopeNote "Geophysical variables derived from Level 1 source data at the same resolution and location as the level 1 data, typically in a satellite projection with geographic information. These data form the fundamental basis for higher level CCI products."@en ;
+    skos:topConceptOf cci-scheme:procLev .
+
+<http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C> a cci:procLev,
+        skos:Concept ;
+    skos:altLabel "L3C"@en ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3> ;
+    skos:definition "Collated (L3C): Observations combined from a single instrument into a space-time grid."@en ;
+    skos:inScheme cci-scheme:procLev ;
+    skos:prefLabel "Level 3C"@en ;
+    skos:scopeNote "Collated (L3C): Observations combined from a single instrument into a space-time grid."@en ;
+    skos:topConceptOf cci-scheme:procLev .
+
+<http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S> a cci:procLev,
+        skos:Concept ;
+    skos:altLabel "L3S"@en ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3> ;
+    skos:definition "Super-collated (L3S): observations combined from multiple instruments into a space-time grid."@en ;
+    skos:inScheme cci-scheme:procLev ;
+    skos:prefLabel "Level 3S"@en ;
+    skos:scopeNote "Super-collated (L3S): observations combined from multiple instruments into a space-time grid."@en ;
+    skos:topConceptOf cci-scheme:procLev .
+
+<http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U> a cci:procLev,
+        skos:Concept ;
+    skos:altLabel "L3U"@en ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3> ;
+    skos:definition "Uncollated (L3U): L2 data granules remapped to a space grid without combining any observations from overlapping orbits."@en ;
+    skos:inScheme cci-scheme:procLev ;
+    skos:prefLabel "Level 3U"@en ;
+    skos:scopeNote "Uncollated (L3U): L2 data granules remapped to a space grid without combining any observations from overlapping orbits."@en ;
+    skos:topConceptOf cci-scheme:procLev .
+
+<http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1> a cci:procLev,
+        skos:Concept ;
+    skos:altLabel "L1"@en ;
+    skos:inScheme cci-scheme:procLev ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C> ;
+    skos:prefLabel "Level 1"@en ;
+    skos:topConceptOf cci-scheme:procLev .
+
+<http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3> a cci:procLev,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.ghrsst.org/> ;
+    skos:altLabel "L3"@en ;
+    skos:definition "Level 2 variables mapped on a defined grid with reduced requirements for ancillary data. Three types of L3 products are defined."@en ;
+    skos:inScheme cci-scheme:procLev ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U> ;
+    skos:prefLabel "Level 3"@en ;
+    skos:scopeNote "Level 2 variables mapped on a defined grid with reduced requirements for ancillary data. Three types of L3 products are defined."@en ;
+    skos:topConceptOf cci-scheme:procLev .
+
+cci-scheme:procLev a skos:ConceptScheme ;
+    dc:creator "Science and Technology Facilities Council" ;
+    dc:date "2025-05-08" ;
+    dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
+    dc:publisher "STFC"@en ;
+    dc:rights "This work is licensed under a BSD license."@en ;
+    dc:title "Processing Level" ;
+    rdfs:comment "This concept scheme represents the processing levels used by the CCI project" ;
+    owl:versionInfo "0.0.1" ;
+    skos:definition "The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI)."@en ;
+    skos:hasTopConcept <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_ind>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level0>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level4>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_unspecified> ;
+    skos:prefLabel "Processing Level"@en .
+

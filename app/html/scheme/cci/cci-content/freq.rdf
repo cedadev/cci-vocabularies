@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/scheme/cci/freq">
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/freq_3hr"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/freq_13yr"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/freq_mon"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/freq_clim"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/freq_week"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/freq_yr"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/freq_hr"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/freq_sat_orb"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/freq_15day"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/freq_day"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/feq_min"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/freq_5yr"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/freq_5day"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/freq_sec"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/freq_8day"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/freq_10day"/>
+    <skos:hasTopConcept rdf:resource="http://vocab.ceda.ac.uk/collection/cci/freq/freq_unspecified"/>
+    <dc:title>Frequency</dc:title>
+    <dc:creator>Science and Technology Facilities Council</dc:creator>
+    <skos:prefLabel xml:lang="en">Frequency</skos:prefLabel>
+    <dc:date>2025-05-08</dc:date>
+    <dc:description>&lt;p&gt;The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: &lt;a href=../dataType&gt;data type&lt;/a&gt;, &lt;a href=..//ecv&gt;ecv&lt;/a&gt;, &lt;a href=../scheme/cci/freq&gt;frequency&lt;/a&gt;, &lt;a href=../org&gt;institutes&lt;/a&gt;, &lt;a href=../platform&gt;platforms&lt;/a&gt;, &lt;a href=../platformGrp&gt;platform groups&lt;/a&gt;, &lt;a href=../platformProg&gt;platform programmes&lt;/a&gt;, &lt;a href=../procLev&gt;processing levels&lt;/a&gt;, &lt;a href=../product&gt;products&lt;/a&gt;, &lt;a href=../project&gt;projects&lt;/a&gt;,  and &lt;a href=../sensor&gt;sensors&lt;/a&gt;. The use of a concept scheme allows easy navigation up and down the tree.&lt;/p&gt;&lt;p&gt;As well as being concepts, all of the concepts are also named individuals of the &lt;a href=../../../ontology/cci&gt;CCI Ontology&lt;/a&gt; classes.&lt;/p&gt;</dc:description>
+    <dc:publisher xml:lang="en">STFC</dc:publisher>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdfs:comment>This concept scheme represents the frequencies used by the CCI project</rdfs:comment>
+    <skos:definition xml:lang="en">Temporal frequencies of data from the ESA Climate Change Initiative (CCI).</skos:definition>
+    <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
+    <owl:versionInfo>0.0.1</owl:versionInfo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/freq_mon">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <skos:altLabel xml:lang="en">P1M</skos:altLabel>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <skos:prefLabel xml:lang="en">month</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/freq_15day">
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <skos:altLabel xml:lang="en">P15D</skos:altLabel>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">15 days</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/freq_clim">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <skos:prefLabel xml:lang="en">climatology</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <skos:altLabel xml:lang="en">CLIM</skos:altLabel>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/feq_min">
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <skos:altLabel xml:lang="en">P0DT0H1M</skos:altLabel>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <skos:prefLabel xml:lang="en">minute</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/freq_13yr">
+    <skos:prefLabel xml:lang="en">13 years</skos:prefLabel>
+    <skos:altLabel xml:lang="en">P13Y</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/freq_3hr">
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <skos:prefLabel xml:lang="en">3 hours</skos:prefLabel>
+    <skos:altLabel xml:lang="en">P0DT3H</skos:altLabel>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/freq_10day">
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="en">P10D</skos:altLabel>
+    <skos:prefLabel xml:lang="en">10 days</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/freq_5day">
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">5 days</skos:prefLabel>
+    <skos:altLabel xml:lang="en">P5D</skos:altLabel>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/freq_yr">
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">year</skos:prefLabel>
+    <skos:altLabel xml:lang="en">P1Y</skos:altLabel>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/freq_day">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <skos:prefLabel xml:lang="en">day</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <skos:altLabel xml:lang="en">P1D</skos:altLabel>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/freq_unspecified">
+    <skos:prefLabel xml:lang="en">unspecified</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/freq_8day">
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <skos:prefLabel xml:lang="en">8 days</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="en">P8D</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/freq_5yr">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <skos:altLabel xml:lang="en">P5Y</skos:altLabel>
+    <skos:prefLabel xml:lang="en">5 years</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/freq_week">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <skos:prefLabel xml:lang="en">week</skos:prefLabel>
+    <skos:altLabel xml:lang="en">P7D</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/freq_hr">
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="en">P0DT1H</skos:altLabel>
+    <skos:prefLabel xml:lang="en">hour</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/freq_sec">
+    <skos:prefLabel xml:lang="en">second</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <skos:altLabel xml:lang="en">P0DT0H0M1S</skos:altLabel>
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/freq/freq_sat_orb">
+    <skos:topConceptOf rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+    <rdf:type rdf:resource="http://vocab.ceda.ac.uk/ontology/cci#freq"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">satellite orbit frequency</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://vocab.ceda.ac.uk/scheme/cci/freq"/>
+  </rdf:Description>
+</rdf:RDF>

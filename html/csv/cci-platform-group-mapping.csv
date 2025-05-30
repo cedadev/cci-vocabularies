@@ -1,0 +1,10 @@
+URI 1`URI 1 has <relationship> URI 2`URI 2`URI 2 has <relationship> URI 1
+plat_dmsp`narrower`plat_dmsp_5D1`broader
+plat_dmsp`narrower`plat_dmsp_5D2`broader
+plat_dmsp`narrower`plat_dmsp_5D3`broader
+plat_goes`narrower`plat_goes_1st`broader
+plat_goes`narrower`plat_goes_2nd`broader
+plat_goes`narrower`plat_goes_3rd`broader
+plat_noaa`narrower`plat_noaa_3rd`broader
+plat_noaa`narrower`plat_noaa_4th`broader
+plat_noaa`narrower`plat_noaa_5th`broader

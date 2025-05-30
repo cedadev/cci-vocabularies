@@ -1,0 +1,4817 @@
+[
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/lakes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "LK_PRODUCTS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lakes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "multiple lake products"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "multiple lake products"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "multiple lake products"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/soil-moisture/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SWIS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "soil water index degree of saturation absolute"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "soil water index degree of saturation absolute"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "soil water index degree of saturation absolute"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-ice/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SICONC"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "sea ice concentration"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "sea ice concentration"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "sea ice concentration"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-level/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "MSLTR"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "mean sea level trends"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "mean sea level trends"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "mean sea level trends"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/soil-moisture/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SSMVA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "surface soil moisture volumetric anomalies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "surface soil moisture volumetric anomalies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "surface soil moisture volumetric anomalies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/ocean-colour/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "NLW"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "normalised water leaving radiance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "normalised water leaving radiance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "normalised water leaving radiance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/land-cover/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "Map"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "land cover map"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "land cover map"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "land cover map"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/high-resolution-land-cover"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "UNCERT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "land cover uncertainty maps"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "uncertainty"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "land cover uncertainty maps"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.esa-icesheets-cci.org/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "IV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "ice sheet velocity"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ice sheet velocity"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "ice sheet velocity"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/ocean-colour/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "v"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "backscattering by particulate matter"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "backscattering by particulate matter"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "backscattering by particulate matter"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-level/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "MSL"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "mean sea level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "mean sea level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "mean sea level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/ghgs"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "CH4"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ghg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "column-averaged dry air mole fraction of CH4"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "column-averaged dry air mole fraction of CH4"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "column-averaged dry air mole fraction of CH4"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "CTT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "cloud top temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "cloud top temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "cloud top temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-surface-salinity"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SSS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_salinity"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "sea surface salinity"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "sea surface salinity"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "sea surface salinity"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/permafrost"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "GTD"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "ground temperature at a certain depth"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ground temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "ground temperature at a certain depth"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/snow"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SCFG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "snow cover fraction - snow on ground"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "snow cover fraction - snow on ground"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "snow cover fraction - snow on ground"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-level/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SLA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "sea level anomaly"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "sea level anomaly"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "sea level anomaly"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/soil-moisture/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SSMS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "surface soil moisture degree of saturation absolute"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "surface soil moisture degree of saturation absolute"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "surface soil moisture degree of saturation absolute"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "CTP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "cloud top pressure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "cloud top pressure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "cloud top pressure"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/aerosol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "AEX"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "stratospheric aerosol extinction profile"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "stratospheric aerosol extinction profile"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "stratospheric aerosol extinction profile"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/permafrost"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "PFR"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "permafrost extent (fraction)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "permafrost extent"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "permafrost extent (fraction)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/land-cover/"
+      },
+      {
+        "@id": "https://climate.esa.int/projects/fire"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "BA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_fire"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "burned area"
+      },
+      {
+        "@language": "en",
+        "@value": "condition fire (burned area)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "condition fire (burned area)"
+      },
+      {
+        "@language": "en",
+        "@value": "burned area"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "condition fire (burned area)"
+      },
+      {
+        "@language": "en",
+        "@value": "burned area"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/ozone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "TC"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "ozone total column"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ozone total column"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "ozone total column"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/land-surface-temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "LST"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lst"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "land surface temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "land surface temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "land surface temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/ocean-colour/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "IOP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "inherent optical properties"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "inherent optical properties"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "inherent optical properties"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/ocean-colour/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "K_490"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "spectral attenuation coefficient for downwelling irradiance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "spectral attenuation coefficient for downwelling irradiance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "spectral attenuation coefficient for downwelling irradiance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "CER"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "cloud effective radius"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "cloud effective radius"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "cloud effective radius"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/land-cover/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "LAI"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "leaf area Index"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "leaf area Index"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "leaf area Index"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-state/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SWH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaState"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "significant wave height"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "significant wave height"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "significant wave height"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/land-cover/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "Snow"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "condition snow"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "condition snow"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "condition snow"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/snow"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SCFV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "snow cover fraction  - viewable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "snow cover fraction - viewable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "snow cover fraction  - viewable"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-surface-temperature/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SSTskin"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "sea surface skin temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "sea surface skin temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "sea surface skin temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/ocean-colour/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "RRS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "remote sensing reflectance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "remote sensing reflectance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "remote sensing reflectance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/en/projects/river-discharge/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "WL"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_riverDischarge"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "water level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "water level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "water level"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.esa-icesheets-cci.org/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "GMB"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "gravimetric mass balance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "gravimetric mass balance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "gravimetric mass balance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-level/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SSH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "corrected sea surface height"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "corrected sea surface height"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "corrected sea surface height"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "CFC"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "cloud cover"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "cloud cover"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "cloud cover"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "LWP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "cloud liquid water path"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "cloud liquid water path"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "cloud liquid water path"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.esa-icesheets-cci.org/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "CFL"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "glacier calving front location"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "glacier calving front location"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "glacier calving front location"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/soil-moisture/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SWISA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "soil water index degree of saturation anomalie"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "soil water index degree of saturation anomalie"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "soil water index degree of saturation anomalie"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/land-cover/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "Alb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "condition albedo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "condition albedo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "condition albedo"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "CLD_PRODUCTS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "multiple cloud products"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "multiple cloud products"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "multiple cloud products"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/land-cover"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "PFT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "plant functional types"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "plant functional types"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "plant functional types"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/high-resolution-land-cover"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "CHANGE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "land cover change uncertainty maps"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "land cover change"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "land cover change uncertainty maps"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "ALL"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "all"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "all"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "all"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-level/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "MSLA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "maps of sea level anomalies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "maps of sea level anomalies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "maps of sea level anomalies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-level/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "ADT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "absolute dynamic topography"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "absolute dynamic topography"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "absolute dynamic topography"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.esa-icesheets-cci.org/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SEC"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "ice sheet surface elevation change"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ice sheet surface elevation change"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "ice sheet surface elevation change"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "CTH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "cloud top height"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "cloud top height"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "cloud top height"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-ice/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SIEXTENT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "sea ice extent"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "sea ice extent"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "sea ice extent"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/glaciers"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "GA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "glacier area"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "glacier area"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "glacier area"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/elements/1.1/creator": [
+      {
+        "@value": "Science and Technology Facilities Council"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/date": [
+      {
+        "@value": "2025-04-07"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/description": [
+      {
+        "@value": "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/publisher": [
+      {
+        "@language": "en",
+        "@value": "STFC"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/rights": [
+      {
+        "@language": "en",
+        "@value": "This work is licensed under a BSD license."
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "@value": "Geophysical Quantity"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "This concept scheme represents the data types used by the CCI project"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "0.0.1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The main data type in a data set used by the ESA Climate Change Initiative (CCI)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Geophysical Quantity"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-surface-temperature/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SSTint"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "sea surface temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "sea surface temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "sea surface temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-surface-temperature/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SSTdepth"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "sea water temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "sea water temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "sea water temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/ocean-colour/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "CHLOR_A"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "phytoplankton chlorophyll-a concentration"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "phytoplankton chlorophyll-a concentration"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "phytoplankton chlorophyll-a concentration"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/soil-moisture/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SSMSA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "surface soil moisture degree of saturation anomalies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "surface soil moisture degree of saturation anomalies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "surface soil moisture degree of saturation anomalies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.esa-icesheets-cci.org/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "GLL"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "glacier grounding line location"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "glacier grounding line location"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "glacier grounding line location"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/aerosol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "AER_PRODUCTS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "multiple aerosol products"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "multiple aerosol products"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "multiple aerosol products"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "JCH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "joint cloud physical properties"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "joint cloud physical properties"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "joint cloud physical properties"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/land-cover/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SR"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "surface reflectance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "surface reflectance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "surface reflectance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/en/projects/vegetation-parameters/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "VP_PRODUCTS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_vegParam"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "vegetation parameters"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "vegetation parameters"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "vegetation parameters"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "COT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "cloud optical thickness"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "cloud optical thickness"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "cloud optical thickness"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/ghgs"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "CO2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ghg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "column-averaged dry air mole fraction of CO2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "column-averaged dry air mole fraction of CO2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "column-averaged dry air mole fraction of CO2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/aerosol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "ATY"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "aerosol type"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "aerosol type"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "aerosol type"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/ozone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "LP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "ozone limb profile"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ozone limb profile"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "ozone limb profile"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/ocean-colour/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "BB"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "total backscattering"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "total backscattering"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "total backscattering"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/ocean-colour/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "OC_PRODUCTS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "multiple products (chla, nlw, IOPs, etc)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "multiple products (chla, nlw, IOPs, etc)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "multiple products (chla, nlw, IOPs, etc)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-level/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "MSLAMPH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "mean sea level amplitude and phase"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "mean sea level amplitude and phase"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "mean sea level amplitude and phase"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-surface-temperature/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SSTfnd"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "sea surface foundation temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "sea surface foundation temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "sea surface foundation temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "IWP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "cloud ice water path"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "cloud ice water path"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "cloud ice water path"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/ocean-colour/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "ADG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "absorption by coloured dissolved organic matter"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "absorption by coloured dissolved organic matter"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "absorption by coloured dissolved organic matter"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/soil-moisture/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SSMV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "surface soil moisture volumetric absolutes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "surface soil moisture volumetric absolutes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "surface soil moisture volumetric absolutes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/aerosol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "AOD"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "aerosol optical depth"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "aerosol optical depth"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "aerosol optical depth"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-surface-temperature/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SSTsubskin"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "sea surface subskin temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "sea surface subskin temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "sea surface subskin temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/ocean-colour/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "ATOT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "total absorption"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "total absorption"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "total absorption"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/water-vapour"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "TCWV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_waterVapour"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "total column water vapour"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "total column water vapour"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "total column water vapour"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/land-cover/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "WB"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "condition water (water bodies)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "condition water (water bodies)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "condition water (water bodies)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/ocean-colour/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "APH"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "absorption by phytoplankton"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "absorption by phytoplankton"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "absorption by phytoplankton"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/sea-ice/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SITHICK"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "sea ice thickness"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "sea ice thickness"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "sea ice thickness"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/aerosol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "AAI"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "absorbing aerosol index"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "absorbing aerosol index"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "absorbing aerosol index"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/biomass"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "AGB"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_biomass"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "above-ground biomass"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "above-ground biomass"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "above-ground biomass"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/land-cover/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "NDVI"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "condition normalised difference vegetation index"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "condition normalised difference vegetation index"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "condition normalised difference vegetation index"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/soil-moisture/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SWIVA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "soil water index volumetric anomalies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "soil water index volumetric anomalies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "soil water index volumetric anomalies"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/soil-moisture/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SWIV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "soil water index volumetric absolute"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "soil water index volumetric absolute"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "soil water index volumetric absolute"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "UNSPECIFIED"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/land-cover/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "LCCS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "land cover classification system"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "land cover classification system"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "land cover classification system"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/ozone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "NP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "ozone nadir profile"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ozone nadir profile"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "ozone nadir profile"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/permafrost"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "ALT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "active layer thickness"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "active layer thickness"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "active layer thickness"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#dataType"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://climate.esa.int/projects/snow"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SWE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "snow water equivalent"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "snow water equivalent"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "snow water equivalent"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+      }
+    ]
+  }
+]

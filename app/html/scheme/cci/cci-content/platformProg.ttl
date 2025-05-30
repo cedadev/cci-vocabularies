@@ -1,0 +1,732 @@
+@prefix cci: <http://vocab.ceda.ac.uk/ontology/cci#> .
+@prefix cci-scheme: <http://vocab.ceda.ac.uk/scheme/cci/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_alos_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/7> ;
+    skos:altLabel "ALOS"@en ;
+    skos:definition "JAXA Advanced Land Observation Satellite Programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_alos>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_alos-2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_alos-3> ;
+    skos:prefLabel "ALOS Programme"@en ;
+    skos:scopeNote "JAXA Advanced Land Observation Satellite Programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_coriolis_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/25> ;
+    skos:definition "DoD NASA"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_coriolis> ;
+    skos:prefLabel "Coriolis"@en ;
+    skos:scopeNote "DoD NASA"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_cryosat_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/29> ;
+    skos:definition "ESA CryoSat Programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_cryosat2> ;
+    skos:prefLabel "CryoSat Programme"@en ;
+    skos:scopeNote "ESA CryoSat Programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_csk_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/27> ;
+    skos:definition "COSMO-SkyMed programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_csk1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_csk2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_csk3>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_csk4> ;
+    skos:prefLabel "COSMO-SkyMed"@en ;
+    skos:scopeNote "COSMO-SkyMed programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D1> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/33> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp> ;
+    skos:definition "US Defense Meteorological Satellite Program Block 5D-1"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F01>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F02>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F03>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F04>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F05> ;
+    skos:prefLabel "DMSP Block 5D-1"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program Block 5D-1"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/34> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp> ;
+    skos:definition "US Defense Meteorological Satellite Program Block 5D-2"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F06>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F07>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F08>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F09>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F10>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F11>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F12>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F13>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F14> ;
+    skos:prefLabel "DMSP Block 5D-2"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program Block 5D-2"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/35> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp> ;
+    skos:definition "US Defense Meteorological Satellite Program Block 5D-3"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F15>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F16>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F17>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F18>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F19>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_S20> ;
+    skos:prefLabel "DMSP Block 5D-3"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program Block 5D-3"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_envisat_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/42> ;
+    skos:definition "ESA"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat> ;
+    skos:prefLabel "Environmental Satellite"@en ;
+    skos:scopeNote "ESA"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_eos> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/43> ;
+    skos:definition "NASA A-Train  Earth Observing System Satellite"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_aura>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_terra> ;
+    skos:prefLabel "EOS"@en ;
+    skos:scopeNote "NASA A-Train  Earth Observing System Satellite"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_ers> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/47> ;
+    skos:definition "ESA European Remote Sensing Satellite"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2> ;
+    skos:prefLabel "ERS"@en ;
+    skos:scopeNote "ESA European Remote Sensing Satellite"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_fengyun3> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/53> ;
+    skos:altLabel "Fengyun"@en ;
+    skos:definition "CMA Feng-Yun - 3"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3A>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3B>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3C>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3D>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3E>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3F>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3G> ;
+    skos:prefLabel "Feng-Yun 3"@en ;
+    skos:scopeNote "CMA Feng-Yun - 3"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gcom> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/57> ;
+    skos:definition "NASA Global Change Observation Mission for Water (\"Shizuku\")"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW3> ;
+    skos:prefLabel "GCOM"@en ;
+    skos:scopeNote "NASA Global Change Observation Mission for Water (\"Shizuku\")"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_geodetic> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/59> ;
+    skos:definition "NASA Geodetic Satellite"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_geosat>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gfo> ;
+    skos:prefLabel "Geodetic"@en ;
+    skos:scopeNote "NASA Geodetic Satellite"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_1st> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/63> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes> ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite - 1st generation"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_01>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_02>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_03>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_04>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_05>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_06>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_07> ;
+    skos:prefLabel "GOES 1st Gen"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite - 1st generation"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_2nd> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/64> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes> ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite - 2nd generation"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_08>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_09>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_09_bk>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_10>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_10_SA>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_11>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_12>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_12_SA>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_13>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_14>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_15> ;
+    skos:prefLabel "GOES 2nd Gen"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite - 2nd generation"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_3rd> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/65> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes> ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite - 3rd generation"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_16>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_17>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_T>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_U> ;
+    skos:prefLabel "GOES 3rd Gen"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite - 3rd generation"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gosat_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/66> ;
+    skos:altLabel "GOSAT"@en ;
+    skos:definition "JAXA Greenhouse gas Observing Satellite"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat-2> ;
+    skos:prefLabel "GOSAT-Programme"@en ;
+    skos:scopeNote "JAXA Greenhouse gas Observing Satellite"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gpm_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/gpm> ;
+    skos:definition "Global Precipitation Measurement mission Programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gpm> ;
+    skos:prefLabel "Global Precipitation Measurement mission"@en ;
+    skos:scopeNote "Global Precipitation Measurement mission Programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_grace_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/68> ;
+    skos:definition "NASA Gravity Recovery and Climate Experiment Programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_grace> ;
+    skos:prefLabel "GRACE Programme"@en ;
+    skos:scopeNote "NASA Gravity Recovery and Climate Experiment Programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/71> ;
+    skos:definition "JMA Himawari 2nd generation (Multifunction Transport Satellite)"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari-6>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari-7> ;
+    skos:prefLabel "Himawari"@en ;
+    skos:scopeNote "JMA Himawari 2nd generation (Multifunction Transport Satellite)"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_icesat_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/77> ;
+    skos:altLabel "ICESat"@en ;
+    skos:definition "NASA Ice Cloud and land Elevation Satellite"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat-2> ;
+    skos:prefLabel "ICESat Programme"@en ;
+    skos:scopeNote "NASA Ice Cloud and land Elevation Satellite"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jason> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/85> ;
+    skos:definition "NASA Joint Altimetry Satellite Oceanography Network"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason3> ;
+    skos:prefLabel "JASON"@en ;
+    skos:scopeNote "NASA Joint Altimetry Satellite Oceanography Network"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jpss_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/87> ;
+    skos:altLabel "JPSS"@en ;
+    skos:definition "NASA/NOAA Joint Polar Satellite System"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_snpp> ;
+    skos:prefLabel "Joint Polar Satellite System"@en ;
+    skos:scopeNote "NASA/NOAA Joint Polar Satellite System"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/92> ;
+    skos:definition "NASA/USGS Satellite imagery of Earth"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_3>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_4>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_5>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_6>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_7> ;
+    skos:prefLabel "Landsat"@en ;
+    skos:scopeNote "NASA/USGS Satellite imagery of Earth"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat_dcm> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/94> ;
+    skos:definition "NASA/USGS Satellite imagery of Earth"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_8> ;
+    skos:prefLabel "Landsat Data Continuity Mission"@en ;
+    skos:scopeNote "NASA/USGS Satellite imagery of Earth"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_metop> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/44> ;
+    skos:definition "ESA/EUMETSAT Meteorological operational Polar System satellite"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC> ;
+    skos:prefLabel "Metop"@en ;
+    skos:scopeNote "ESA/EUMETSAT Meteorological operational Polar System satellite"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_mfg_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/101> ;
+    skos:definition "EUMETSAT/ ESA Meteosat First Generation"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3_adc>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3_xadc>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_4>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_5>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_5_iodc>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_6>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_6_iodc>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_7>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_7_iodc> ;
+    skos:prefLabel "Meteosat First Generation"@en ;
+    skos:scopeNote "EUMETSAT/ ESA Meteosat First Generation"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_msg> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/102> ;
+    skos:definition "ESA Meteosat Second Generation"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_10>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_11>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_8>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_9> ;
+    skos:prefLabel "MSG"@en ;
+    skos:scopeNote "ESA Meteosat Second Generation"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_nimbus> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/108> ;
+    skos:definition "NASA Nimbus Research-and-development satellite programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus3>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus4>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus5>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus6>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus7> ;
+    skos:prefLabel "Nimbus"@en ;
+    skos:scopeNote "NASA Nimbus Research-and-development satellite programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_3rd> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/110> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa> ;
+    skos:definition "NASA NOAA Environmental satellites 3rd Generation"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_3>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_4>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_5> ;
+    skos:prefLabel "NOAA-3rd"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellites 3rd Generation"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/111> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa> ;
+    skos:definition "NASA NOAA Environmental satellites 4th Generation"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_10>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_11>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_12>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_13>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_14>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_6>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_7>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_8>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_9>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_tiros_n> ;
+    skos:prefLabel "NOAA-4th"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellites 4th Generation"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/112> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa> ;
+    skos:definition "NASA NOAA Environmental satellites 5th Generation"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19> ;
+    skos:prefLabel "NOAA-5th"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellites 5th Generation"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_oco_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/115> ;
+    skos:definition "NASA Orbiting Carbon Observatory programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_oco2> ;
+    skos:prefLabel "Orbiting Carbon Observatory"@en ;
+    skos:scopeNote "NASA Orbiting Carbon Observatory programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_odin_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/117> ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_odin> ;
+    skos:prefLabel "Odin"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_orbview2_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/144> ;
+    skos:altLabel "SeaStar"@en ;
+    skos:definition "GeoEye OrbView-2 (former: SeaStar)"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_orbview2> ;
+    skos:prefLabel "Orbview-2"@en ;
+    skos:scopeNote "GeoEye OrbView-2 (former: SeaStar)"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_parasol_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/121> ;
+    skos:definition "CNES Polarisation et Anisotropie des Réflectances au sommet de l'Atmosphère couplées avec un Satellite d'Observation emportant un Lidar"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_parasol> ;
+    skos:prefLabel "PARASOL"@en ;
+    skos:scopeNote "CNES Polarisation et Anisotropie des Réflectances au sommet de l'Atmosphère couplées avec un Satellite d'Observation emportant un Lidar"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_proba_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/127> ;
+    skos:altLabel "PROBA"@en ;
+    skos:definition "Project for On-Board Autonomy (PROBA) programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_probaV> ;
+    skos:prefLabel "Project for On-Board Autonomy"@en ;
+    skos:scopeNote "Project for On-Board Autonomy (PROBA) programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_radarsat_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/129> ;
+    skos:definition "RadarSat Programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_radarsat2> ;
+    skos:prefLabel "RadarSat"@en ;
+    skos:scopeNote "RadarSat Programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_s5p_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/148> ;
+    skos:definition "ESA Sentinel-5 precursor programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel5p> ;
+    skos:prefLabel "Sentinel-5 precursor"@en ;
+    skos:scopeNote "ESA Sentinel-5 precursor programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sac_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/137> ;
+    skos:altLabel "SAC"@en ;
+    skos:definition "Satélite de Aplicaciones Cientificas"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sac_d> ;
+    skos:prefLabel "Satélite de Aplicaciones Cientificas"@en ;
+    skos:scopeNote "Satélite de Aplicaciones Cientificas"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_saral_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/139> ;
+    skos:definition "CNES Satellite with ARgos and AltiKa"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_saral> ;
+    skos:prefLabel "SARAL Programme"@en ;
+    skos:scopeNote "CNES Satellite with ARgos and AltiKa"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_scisat_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/141> ;
+    skos:definition "CSA NASA Science Satellite / Atmospheric Chemistry Experiment"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_scisat> ;
+    skos:prefLabel "SCISAT"@en ;
+    skos:scopeNote "CSA NASA Science Satellite / Atmospheric Chemistry Experiment"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel1_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/145> ;
+    skos:definition "Sentinel 1 programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1a>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1b> ;
+    skos:prefLabel "Sentinel-1"@en ;
+    skos:scopeNote "Sentinel 1 programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel2_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/146> ;
+    skos:definition "Sentinel 2 programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2a>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2b> ;
+    skos:prefLabel "Sentinel-2"@en ;
+    skos:scopeNote "Sentinel 2 programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel3_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/147> ;
+    skos:definition "Sentinel 3 programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b> ;
+    skos:prefLabel "Sentinel-3"@en ;
+    skos:scopeNote "Sentinel 3 programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel6_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/sentinel_6> ;
+    skos:definition "Sentinel 6 programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6a>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6b> ;
+    skos:prefLabel "Sentinel-6"@en ;
+    skos:scopeNote "Sentinel 6 programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_smap_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/151> ;
+    skos:definition "Soil Moisture Active – Passive"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_smap> ;
+    skos:prefLabel "SMAP"@en ;
+    skos:scopeNote "Soil Moisture Active – Passive"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_smos_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/153> ;
+    skos:definition "ESA Soil Moisture and Ocean Salinity"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_smos> ;
+    skos:prefLabel "Soil Moisture and Ocean Salinity"@en ;
+    skos:scopeNote "ESA Soil Moisture and Ocean Salinity"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/156> ;
+    skos:definition "Satellite Pour l’Observation de la Terre"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot3>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot4>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot5> ;
+    skos:prefLabel "SPOT"@en ;
+    skos:scopeNote "Satellite Pour l’Observation de la Terre"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot_prog_follow> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/157> ;
+    skos:definition "Satellite Pour l’Observation de la Terre - Follow-on"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot6>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot7> ;
+    skos:prefLabel "SPOT Follow-on"@en ;
+    skos:scopeNote "Satellite Pour l’Observation de la Terre - Follow-on"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_terraSAR> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/164> ;
+    skos:definition "DLR X-band SAR programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_hrws_sar>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_tandem_X>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_terraSar_X>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_tsx_ng> ;
+    skos:prefLabel "TerraSAR"@en ;
+    skos:scopeNote "DLR X-band SAR programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_topexPoseidon_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/169> ;
+    skos:definition "NASA CNES Topography Experiment + Poseidon"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_topexPoseidon> ;
+    skos:prefLabel "Topex/Poseidon"@en ;
+    skos:scopeNote "NASA CNES Topography Experiment + Poseidon"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_trmm_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/171> ;
+    skos:definition "NASA JAXA Tropical Rainfall Measuring Mission"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_trmm> ;
+    skos:prefLabel "TRMM"@en ;
+    skos:scopeNote "NASA JAXA Tropical Rainfall Measuring Mission"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+cci-scheme:platformProg a skos:ConceptScheme ;
+    dc:creator "Science and Technology Facilities Council" ;
+    dc:date "2025-05-08" ;
+    dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
+    dc:publisher "STFC"@en ;
+    dc:rights "This work is licensed under a BSD license."@en ;
+    dc:title "Platform Programme" ;
+    rdfs:comment "This concept scheme represents the platforms used by the CCI project" ;
+    owl:versionInfo "0.0.1" ;
+    skos:definition "The platform programmes that have been used in the collection of data for the ESA Climate Change Initiative (CCI). A programme consists of a number of <a href=#platform>platforms</a>"@en ;
+    skos:hasTopConcept <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_alos_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_coriolis_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_cryosat_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_csk_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D1>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_envisat_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_eos>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_ers>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_fengyun3>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gcom>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_geodetic>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_1st>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_2nd>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_3rd>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gosat_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gpm_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_grace_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_icesat_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jason>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jpss_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat_dcm>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_metop>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_mfg_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_msg>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_nimbus>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_3rd>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_oco_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_odin_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_orbview2_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_parasol_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_proba_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_radarsat_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_s5p_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sac_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_saral_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_scisat_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel1_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel2_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel3_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel6_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_smap_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_smos_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot_prog_follow>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_terraSAR>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_topexPoseidon_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_trmm_prog> ;
+    skos:prefLabel "Platform Programme"@en .
+

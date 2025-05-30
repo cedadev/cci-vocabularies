@@ -1,0 +1,357 @@
+@prefix mapa: <http://vocab.ceda.ac.uk/collection/cci/dataType/> .
+@prefix mapb: <http://vocab.ceda.ac.uk/collection/cci/ecv/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+mapa:dtype_aod skos:broader mapb:cciecv_aerosol .
+
+mapb:cciecv_aerosol skos:narrower mapa:dtype_aod .
+
+mapa:dtype_aai skos:broader mapb:cciecv_aerosol .
+
+mapb:cciecv_aerosol skos:narrower mapa:dtype_aai .
+
+mapa:dtype_aex skos:broader mapb:cciecv_aerosol .
+
+mapb:cciecv_aerosol skos:narrower mapa:dtype_aex .
+
+mapa:dtype_aty skos:broader mapb:cciecv_aerosol .
+
+mapb:cciecv_aerosol skos:narrower mapa:dtype_aty .
+
+mapa:dtype_aerProd skos:broader mapb:cciecv_aerosol .
+
+mapb:cciecv_aerosol skos:narrower mapa:dtype_aerProd .
+
+mapa:dtype_cfc skos:broader mapb:cciecv_cloud .
+
+mapb:cciecv_cloud skos:narrower mapa:dtype_cfc .
+
+mapa:dtype_ctp skos:broader mapb:cciecv_cloud .
+
+mapb:cciecv_cloud skos:narrower mapa:dtype_ctp .
+
+mapa:dtype_cth skos:broader mapb:cciecv_cloud .
+
+mapb:cciecv_cloud skos:narrower mapa:dtype_cth .
+
+mapa:dtype_ctt skos:broader mapb:cciecv_cloud .
+
+mapb:cciecv_cloud skos:narrower mapa:dtype_ctt .
+
+mapa:dtype_cot skos:broader mapb:cciecv_cloud .
+
+mapb:cciecv_cloud skos:narrower mapa:dtype_cot .
+
+mapa:dtype_cer skos:broader mapb:cciecv_cloud .
+
+mapb:cciecv_cloud skos:narrower mapa:dtype_cer .
+
+mapa:dtype_lwp skos:broader mapb:cciecv_cloud .
+
+mapb:cciecv_cloud skos:narrower mapa:dtype_lwp .
+
+mapa:dtype_iwp skos:broader mapb:cciecv_cloud .
+
+mapb:cciecv_cloud skos:narrower mapa:dtype_iwp .
+
+mapa:dtype_jch skos:broader mapb:cciecv_cloud .
+
+mapb:cciecv_cloud skos:narrower mapa:dtype_jch .
+
+mapa:dtype_cldProd skos:broader mapb:cciecv_cloud .
+
+mapb:cciecv_cloud skos:narrower mapa:dtype_cldProd .
+
+mapa:dtype_ba skos:broader mapb:cciecv_fire .
+
+mapb:cciecv_fire skos:narrower mapa:dtype_ba .
+
+mapa:dtype_co2 skos:broader mapb:cciecv_ghg .
+
+mapb:cciecv_ghg skos:narrower mapa:dtype_co2 .
+
+mapa:dtype_ch4 skos:broader mapb:cciecv_ghg .
+
+mapb:cciecv_ghg skos:narrower mapa:dtype_ch4 .
+
+mapa:dtype_ga skos:broader mapb:cciecv_glaciers .
+
+mapb:cciecv_glaciers skos:narrower mapa:dtype_ga .
+
+mapa:dtype_gmb skos:broader mapb:cciecv_glaciers .
+
+mapb:cciecv_glaciers skos:narrower mapa:dtype_gmb .
+
+mapa:dtype_sec skos:broader mapb:cciecv_iceSheet .
+
+mapb:cciecv_iceSheet skos:narrower mapa:dtype_sec .
+
+mapa:dtype_iv skos:broader mapb:cciecv_iceSheet .
+
+mapb:cciecv_iceSheet skos:narrower mapa:dtype_iv .
+
+mapa:dtype_cfl skos:broader mapb:cciecv_iceSheet .
+
+mapb:cciecv_iceSheet skos:narrower mapa:dtype_cfl .
+
+mapa:dtype_gll skos:broader mapb:cciecv_iceSheet .
+
+mapb:cciecv_iceSheet skos:narrower mapa:dtype_gll .
+
+mapa:dtype_lccs skos:broader mapb:cciecv_landCov .
+
+mapb:cciecv_landCov skos:narrower mapa:dtype_lccs .
+
+mapa:dtype_map skos:broader mapb:cciecv_landCov .
+
+mapb:cciecv_landCov skos:narrower mapa:dtype_map .
+
+mapa:dtype_ba skos:broader mapb:cciecv_landCov .
+
+mapb:cciecv_landCov skos:narrower mapa:dtype_ba .
+
+mapa:dtype_wb skos:broader mapb:cciecv_landCov .
+
+mapb:cciecv_landCov skos:narrower mapa:dtype_wb .
+
+mapa:dtype_snow skos:broader mapb:cciecv_landCov .
+
+mapb:cciecv_landCov skos:narrower mapa:dtype_snow .
+
+mapa:dtype_ndvi skos:broader mapb:cciecv_landCov .
+
+mapb:cciecv_landCov skos:narrower mapa:dtype_ndvi .
+
+mapa:dtype_alb skos:broader mapb:cciecv_landCov .
+
+mapb:cciecv_landCov skos:narrower mapa:dtype_alb .
+
+mapa:dtype_lai skos:broader mapb:cciecv_landCov .
+
+mapb:cciecv_landCov skos:narrower mapa:dtype_lai .
+
+mapa:dtype_sr skos:broader mapb:cciecv_landCov .
+
+mapb:cciecv_landCov skos:narrower mapa:dtype_sr .
+
+mapa:dtype_ocProd skos:broader mapb:cciecv_oceanCol .
+
+mapb:cciecv_oceanCol skos:narrower mapa:dtype_ocProd .
+
+mapa:dtype_chlorA skos:broader mapb:cciecv_oceanCol .
+
+mapb:cciecv_oceanCol skos:narrower mapa:dtype_chlorA .
+
+mapa:dtype_nlw skos:broader mapb:cciecv_oceanCol .
+
+mapb:cciecv_oceanCol skos:narrower mapa:dtype_nlw .
+
+mapa:dtype_rrs skos:broader mapb:cciecv_oceanCol .
+
+mapb:cciecv_oceanCol skos:narrower mapa:dtype_rrs .
+
+mapa:dtype_k_490 skos:broader mapb:cciecv_oceanCol .
+
+mapb:cciecv_oceanCol skos:narrower mapa:dtype_k_490 .
+
+mapa:dtype_atot skos:broader mapb:cciecv_oceanCol .
+
+mapb:cciecv_oceanCol skos:narrower mapa:dtype_atot .
+
+mapa:dtype_bb skos:broader mapb:cciecv_oceanCol .
+
+mapb:cciecv_oceanCol skos:narrower mapa:dtype_bb .
+
+mapa:dtype_adg skos:broader mapb:cciecv_oceanCol .
+
+mapb:cciecv_oceanCol skos:narrower mapa:dtype_adg .
+
+mapa:dtype_v skos:broader mapb:cciecv_oceanCol .
+
+mapb:cciecv_oceanCol skos:narrower mapa:dtype_v .
+
+mapa:dtype_aph skos:broader mapb:cciecv_oceanCol .
+
+mapb:cciecv_oceanCol skos:narrower mapa:dtype_aph .
+
+mapa:dtype_iop skos:broader mapb:cciecv_oceanCol .
+
+mapb:cciecv_oceanCol skos:narrower mapa:dtype_iop .
+
+mapa:dtype_tc skos:broader mapb:cciecv_ozone .
+
+mapb:cciecv_ozone skos:narrower mapa:dtype_tc .
+
+mapa:dtype_np skos:broader mapb:cciecv_ozone .
+
+mapb:cciecv_ozone skos:narrower mapa:dtype_np .
+
+mapa:dtype_lp skos:broader mapb:cciecv_ozone .
+
+mapb:cciecv_ozone skos:narrower mapa:dtype_lp .
+
+mapa:dtype_sic skos:broader mapb:cciecv_seaIce .
+
+mapb:cciecv_seaIce skos:narrower mapa:dtype_sic .
+
+mapa:dtype_sit skos:broader mapb:cciecv_seaIce .
+
+mapb:cciecv_seaIce skos:narrower mapa:dtype_sit .
+
+mapa:dtype_sie skos:broader mapb:cciecv_seaIce .
+
+mapb:cciecv_seaIce skos:narrower mapa:dtype_sie .
+
+mapa:dtype_ssh skos:broader mapb:cciecv_seaLevel .
+
+mapb:cciecv_seaLevel skos:narrower mapa:dtype_ssh .
+
+mapa:dtype_sla skos:broader mapb:cciecv_seaLevel .
+
+mapb:cciecv_seaLevel skos:narrower mapa:dtype_sla .
+
+mapa:dtype_adt skos:broader mapb:cciecv_seaLevel .
+
+mapb:cciecv_seaLevel skos:narrower mapa:dtype_adt .
+
+mapa:dtype_msla skos:broader mapb:cciecv_seaLevel .
+
+mapb:cciecv_seaLevel skos:narrower mapa:dtype_msla .
+
+mapa:dtype_msl skos:broader mapb:cciecv_seaLevel .
+
+mapb:cciecv_seaLevel skos:narrower mapa:dtype_msl .
+
+mapa:dtype_msltr skos:broader mapb:cciecv_seaLevel .
+
+mapb:cciecv_seaLevel skos:narrower mapa:dtype_msltr .
+
+mapa:dtype_mslamph skos:broader mapb:cciecv_seaLevel .
+
+mapb:cciecv_seaLevel skos:narrower mapa:dtype_mslamph .
+
+mapa:dtype_sstInt skos:broader mapb:cciecv_sst .
+
+mapb:cciecv_sst skos:narrower mapa:dtype_sstInt .
+
+mapa:dtype_sstSkin skos:broader mapb:cciecv_sst .
+
+mapb:cciecv_sst skos:narrower mapa:dtype_sstSkin .
+
+mapa:dtype_sstSubsk skos:broader mapb:cciecv_sst .
+
+mapb:cciecv_sst skos:narrower mapa:dtype_sstSubsk .
+
+mapa:dtype_sstDepth skos:broader mapb:cciecv_sst .
+
+mapb:cciecv_sst skos:narrower mapa:dtype_sstDepth .
+
+mapa:dtype_sstFnd skos:broader mapb:cciecv_sst .
+
+mapb:cciecv_sst skos:narrower mapa:dtype_sstFnd .
+
+mapa:dtype_ssmv skos:broader mapb:cciecv_soilMst .
+
+mapb:cciecv_soilMst skos:narrower mapa:dtype_ssmv .
+
+mapa:dtype_ssmva skos:broader mapb:cciecv_soilMst .
+
+mapb:cciecv_soilMst skos:narrower mapa:dtype_ssmva .
+
+mapa:dtype_ssms skos:broader mapb:cciecv_soilMst .
+
+mapb:cciecv_soilMst skos:narrower mapa:dtype_ssms .
+
+mapa:dtype_ssmsa skos:broader mapb:cciecv_soilMst .
+
+mapb:cciecv_soilMst skos:narrower mapa:dtype_ssmsa .
+
+mapa:dtype_swiv skos:broader mapb:cciecv_soilMst .
+
+mapb:cciecv_soilMst skos:narrower mapa:dtype_swiv .
+
+mapa:dtype_swiva skos:broader mapb:cciecv_soilMst .
+
+mapb:cciecv_soilMst skos:narrower mapa:dtype_swiva .
+
+mapa:dtype_swis skos:broader mapb:cciecv_soilMst .
+
+mapb:cciecv_soilMst skos:narrower mapa:dtype_swis .
+
+mapa:dtype_swisa skos:broader mapb:cciecv_soilMst .
+
+mapb:cciecv_soilMst skos:narrower mapa:dtype_swisa .
+
+mapa:dtype_lkProds skos:broader mapb:cciecv_lakes .
+
+mapb:cciecv_lakes skos:narrower mapa:dtype_lkProds .
+
+mapa:dtype_sss skos:broader mapb:cciecv_salinity .
+
+mapb:cciecv_salinity skos:narrower mapa:dtype_sss .
+
+mapa:dtype_swh skos:broader mapb:cciecv_seaState .
+
+mapb:cciecv_seaState skos:narrower mapa:dtype_swh .
+
+mapa:dtype_gmb skos:broader mapb:cciecv_iceSheet .
+
+mapb:cciecv_iceSheet skos:narrower mapa:dtype_gmb .
+
+mapa:dtype_gtd skos:broader mapb:cciecv_permafrost .
+
+mapb:cciecv_permafrost skos:narrower mapa:dtype_gtd .
+
+mapa:dtype_agb skos:broader mapb:cciecv_biomass .
+
+mapb:cciecv_biomass skos:narrower mapa:dtype_agb .
+
+mapa:dtype_pfr skos:broader mapb:cciecv_permafrost .
+
+mapb:cciecv_permafrost skos:narrower mapa:dtype_pfr .
+
+mapa:dtype_alt skos:broader mapb:cciecv_permafrost .
+
+mapb:cciecv_permafrost skos:narrower mapa:dtype_alt .
+
+mapa:dtype_swe skos:broader mapb:cciecv_snow .
+
+mapb:cciecv_snow skos:narrower mapa:dtype_swe .
+
+mapa:dtype_scfv skos:broader mapb:cciecv_snow .
+
+mapb:cciecv_snow skos:narrower mapa:dtype_scfv .
+
+mapa:dtype_scfg skos:broader mapb:cciecv_snow .
+
+mapb:cciecv_snow skos:narrower mapa:dtype_scfg .
+
+mapa:dtype_tcwv skos:broader mapb:cciecv_waterVapour .
+
+mapb:cciecv_waterVapour skos:narrower mapa:dtype_tcwv .
+
+mapa:dtype_lst skos:broader mapb:cciecv_lst .
+
+mapb:cciecv_lst skos:narrower mapa:dtype_lst .
+
+mapa:dtype_pft skos:broader mapb:cciecv_landCov .
+
+mapb:cciecv_landCov skos:narrower mapa:dtype_pft .
+
+mapa:dtype_uncert skos:broader mapb:cciecv_landCov .
+
+mapb:cciecv_landCov skos:narrower mapa:dtype_uncert .
+
+mapa:dtype_vp skos:broader mapb:cciecv_vegParam .
+
+mapb:cciecv_vegParam skos:narrower mapa:dtype_vp .
+
+mapa:dtype_wl skos:broader mapb:cciecv_riverDischarge .
+
+mapb:cciecv_riverDischarge skos:narrower mapa:dtype_wl .
+
+mapa:dtype_lcchange skos:broader mapb:cciecv_landCov .
+
+mapb:cciecv_landCov skos:narrower mapa:dtype_lcchange .
+

@@ -1,0 +1,1239 @@
+@prefix cci_org_concept: <http://vocab.ceda.ac.uk/collection/cci/org/> .
+@prefix cci_ontology: <http://vocab.ceda.ac.uk/ontology/cci#> .
+@prefix cci_org_coll: <http://vocab.ceda.ac.uk/collection/cci/org> .
+@prefix cci_org_scheme: <http://vocab.ceda.ac.uk/scheme/cci/org> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+#
+# concepts
+#
+
+cci_org_concept:org01 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Aristotle University of Thessalonikii"@en ;
+    skos:altLabel "AUTH"@en ;
+    rdfs:seeAlso <http://isni.org/isni/121525373> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org01 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org01 .
+
+cci_org_concept:org02 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Atmospheric, Oceanic and Planetary Physics, University of Oxford"@en ;
+    skos:altLabel "AOPP"@en ;
+    rdfs:seeAlso <http://isni.org/isni/419368948> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org02 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org02 .
+
+cci_org_concept:org03 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Belgian Institute for Space Aeronomy"@en ;
+    skos:altLabel "BIRA"@en ;
+    rdfs:seeAlso <http://isni.org/isni/122893389> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org03 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org03 .
+
+cci_org_concept:org04 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Brockmann Consult GmbH"@en ;
+    skos:altLabel "BC"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org04 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org04 .
+
+cci_org_concept:org05 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Centre National de la Recherche Scientific"@en ;
+    skos:altLabel "CNRS"@en ;
+    rdfs:seeAlso <http://isni.org/isni/121129282> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org05 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org05 .
+
+cci_org_concept:org06 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Centre National d'Etudes Spatiales"@en ;
+    skos:altLabel "CNES"@en ;
+    rdfs:seeAlso <http://isni.org/isni/121584330> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org06 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org06 .
+
+cci_org_concept:org07 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Chalmers University of Technology, Göteberg, Sweden"@en ;
+    skos:altLabel "CHA"@en ;
+    rdfs:seeAlso <http://isni.org/isni/122425235> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org07 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org07 .
+
+cci_org_concept:org08 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Collecte Localisation Satellites"@en ;
+    skos:altLabel "CLS"@en ;
+    rdfs:seeAlso <http://isni.org/isni/106573633> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org08 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org08 .
+
+cci_org_concept:org09 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Department of Geography, University of Zurich"@en ;
+    skos:altLabel "GIUZ"@en ;
+    rdfs:seeAlso <http://isni.org/isni/419370650> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org09 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org09 .
+
+cci_org_concept:org10 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Department of Geosciences, University of Oslo"@en ;
+    skos:altLabel "GUIO"@en ;
+    rdfs:seeAlso <http://isni.org/isni/406109007> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org10 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org10 .
+
+cci_org_concept:org11 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Deutscher Wetterdienst"@en ;
+    skos:altLabel "DWD"@en ;
+    rdfs:seeAlso <http://isni.org/isni/123217956> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org11 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org11 .
+
+cci_org_concept:org12 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Deutsches Zentrum fuer Luft- und Raumfahrt"@en ;
+    skos:altLabel "DLR"@en ;
+    rdfs:seeAlso <http://isni.org/isni/89837915> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org12 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org12 .
+
+cci_org_concept:org13 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "DTU Space"@en ;
+    skos:altLabel "DTU-S"@en ;
+    rdfs:seeAlso <http://isni.org/isni/000000040618578X> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org13 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org13 .
+
+cci_org_concept:org14 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "ENVironmental Earth Observation IT GmbH"@en ;
+    skos:altLabel "ENVEO"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org14 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org14 .
+
+cci_org_concept:org15 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "European Space Agency"@en ;
+    skos:altLabel "ESA"@en ;
+    rdfs:seeAlso <http://isni.org/isni/406236946> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org15 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org15 .
+
+cci_org_concept:org16 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Finnish Meteorological Institute"@en ;
+    skos:altLabel "FMI"@en ;
+    rdfs:seeAlso <http://isni.org/isni/122538678> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org16 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org16 .
+
+cci_org_concept:org17 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Freie Universitaet Berlin"@en ;
+    skos:altLabel "FUB"@en ;
+    rdfs:seeAlso <http://isni.org/isni/91164836> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org17 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org17 .
+
+cci_org_concept:org18 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Gamma Remote Sensing"@en ;
+    skos:altLabel "Gamma"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org18 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org18 .
+
+cci_org_concept:org19 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "The Geological Survey of Denmark and Greenland"@en ;
+    skos:altLabel "GEUS"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org19 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org19 .
+
+cci_org_concept:org20 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "GMV"@en ;
+    skos:altLabel "GMV"@en ;
+    rdfs:seeAlso <http://isni.org/isni/106814708> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org20 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org20 .
+
+cci_org_concept:org21 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Helmholtz-Zentrum Geesthacht"@en ;
+    skos:altLabel "HZG"@en ;
+    rdfs:seeAlso <http://isni.org/isni/446732899> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org21 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org21 .
+
+cci_org_concept:org22 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "HYGEOS"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org22 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org22 .
+
+cci_org_concept:org23 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "ICARE"@en ;
+    rdfs:seeAlso <http://isni.org/isni/404050603> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org23 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org23 .
+
+cci_org_concept:org24 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Institut für Meterologie und Klimaforschung, KIT and Instituto de Astrofisca de Andalucia, Granada"@en ;
+    skos:altLabel "IMKIAA"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org24 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org24 .
+
+cci_org_concept:org25 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Institut für Meterologie und Klimaforschung, KIT, Karlsruhe"@en ;
+    skos:altLabel "IMK"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org25 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org25 .
+
+cci_org_concept:org26 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Institute for Atmospheric and Climate Science"@en ;
+    skos:altLabel "IAC"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org26 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org26 .
+
+cci_org_concept:org27 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Institute for Environment and Sustainability"@en ;
+    skos:altLabel "IES-JRC"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org27 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org27 .
+
+cci_org_concept:org28 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Institute of Environmental Physics"@en ;
+    skos:altLabel "IUP"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org28 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org28 .
+
+cci_org_concept:org29 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Instituto de Astrofisca de Andalucia, Granada"@en ;
+    skos:altLabel "IAA"@en ;
+    rdfs:seeAlso <http://isni.org/isni/417937043> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org29 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org29 .
+
+cci_org_concept:org30 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Instituto Nacional de Investigacion y Tecnologia Agraria y Alimentaria"@en ;
+    skos:altLabel "INIA"@en ;
+    rdfs:seeAlso <http://isni.org/isni/000000012300669X> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org30 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org30 .
+
+cci_org_concept:org31 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Instituto Superior de Agronomia"@en ;
+    skos:altLabel "ISA"@en ;
+    rdfs:seeAlso <http://isni.org/isni/122154586> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org31 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org31 .
+
+cci_org_concept:org32 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "International Centre for Integrated Mountain Development"@en ;
+    skos:altLabel "ICIMOD"@en ;
+    rdfs:seeAlso <http://isni.org/isni/403820442> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org32 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org32 .
+
+cci_org_concept:org33 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Juelich Forschungszentrum"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org33 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org33 .
+
+cci_org_concept:org34 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Kommission fuer Erdmessung und Glaziologie"@en ;
+    skos:altLabel "KEG"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org34 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org34 .
+
+cci_org_concept:org35 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Laboratoire Atmospheres, Milieux, Observations Spatiales"@en ;
+    skos:altLabel "LATMOS"@en ;
+    rdfs:seeAlso <http://isni.org/isni/104563087> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org35 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org35 .
+
+cci_org_concept:org36 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Laboratoire d'Etudes en Géophysique et  Océanographie Spatiales"@en ;
+    skos:altLabel "LEGOS"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org36 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org36 .
+
+cci_org_concept:org37 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Laboratoire d'Optique Atmosphérique"@en ;
+    skos:altLabel "LOA"@en ;
+    rdfs:seeAlso <http://isni.org/isni/403683740> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org37 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org37 .
+
+cci_org_concept:org38 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Laboratoire des Sciences du Climat et L'Environement"@en ;
+    skos:altLabel "LSCE"@en ;
+    rdfs:seeAlso <http://isni.org/isni/105849722> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org38 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org38 .
+
+cci_org_concept:org39 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Max-Planck Institute for Meteorology"@en ;
+    skos:altLabel "MPI-M"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org39 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org39 .
+
+cci_org_concept:org40 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Met Office Hadley Centre"@en ;
+    skos:altLabel "MOHC"@en ;
+    skos:definition "UKMO"@en ;
+    skos:scopeNote "UKMO"@en ;
+    rdfs:seeAlso <http://isni.org/isni/405133830> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org40 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org40 .
+
+cci_org_concept:org41 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Meteo Swiss"@en ;
+    rdfs:seeAlso <http://isni.org/isni/120343615> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org41 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org41 .
+
+cci_org_concept:org42 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Nansen Environmental and Remote Sensing Center"@en ;
+    skos:altLabel "NERSC"@en ;
+    rdfs:seeAlso <http://isni.org/isni/122289878> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org42 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org42 .
+
+cci_org_concept:org43 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "National Snow and Ice Data Center"@en ;
+    skos:altLabel "NSIDC"@en ;
+    rdfs:seeAlso <http://isni.org/isni/000000012204386X> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org43 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org43 .
+
+cci_org_concept:org44 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Netherlands Institute for Space Research"@en ;
+    skos:altLabel "SRON"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org44 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org44 .
+
+cci_org_concept:org45 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Norwegian Institute for Air Research"@en ;
+    skos:altLabel "NILU"@en ;
+    rdfs:seeAlso <http://isni.org/isni/98886866> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org45 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org45 .
+
+cci_org_concept:org46 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Norwegian Meteorological Institute"@en ;
+    skos:altLabel "MetNo"@en ;
+    rdfs:seeAlso <http://isni.org/isni/102261499> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org46 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org46 .
+
+cci_org_concept:org47 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Norwegian Water Resources and Energy Directorate"@en ;
+    skos:altLabel "NVE"@en ;
+    rdfs:seeAlso <http://isni.org/isni/122367549> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org47 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org47 .
+
+cci_org_concept:org48 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Paul-Scherrer-Institut"@en ;
+    skos:altLabel "PSI"@en ;
+    rdfs:seeAlso <http://isni.org/isni/110907501> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org48 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org48 .
+
+cci_org_concept:org49 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Plymouth Marine Laboratory"@en ;
+    skos:altLabel "PML"@en ;
+    rdfs:seeAlso <http://isni.org/isni/121062153> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org49 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org49 .
+
+cci_org_concept:org50 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Royal Meteorological Institute of Belgium"@en ;
+    skos:altLabel "RMIB"@en ;
+    rdfs:seeAlso <http://isni.org/isni/110892733> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org50 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org50 .
+
+cci_org_concept:org51 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Royal Netherlands Meteorological Institute"@en ;
+    skos:altLabel "KNMI"@en ;
+    rdfs:seeAlso <http://isni.org/isni/417979868> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org51 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org51 .
+
+cci_org_concept:org52 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Rutherford Appleton Laboratory"@en ;
+    skos:altLabel "RAL"@en ;
+    rdfs:seeAlso <http://isni.org/isni/122375485> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org52 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org52 .
+
+cci_org_concept:org53 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "School of Earth and Environment, University of Leeds"@en ;
+    skos:altLabel "SEEL"@en ;
+    rdfs:seeAlso <http://isni.org/isni/446804119> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org53 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org53 .
+
+cci_org_concept:org54 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "School of Geographical Sciences, University of Bristol"@en ;
+    skos:altLabel "SGS"@en ;
+    rdfs:seeAlso <http://isni.org/isni/403720564> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org54 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org54 .
+
+cci_org_concept:org55 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Science [&] Technology AS"@en ;
+    skos:altLabel "S[&]T"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org55 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org55 .
+
+cci_org_concept:org56 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Swansea University"@en ;
+    rdfs:seeAlso <http://isni.org/isni/106588800> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org56 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org56 .
+
+cci_org_concept:org57 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Swiss Federal Laboratories for Material Testing and Research"@en ;
+    skos:altLabel "EMPA"@en ;
+    rdfs:seeAlso <http://isni.org/isni/123313059> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org57 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org57 .
+
+cci_org_concept:org58 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Universite Catholique de Louvain"@en ;
+    skos:altLabel "UCL"@en ;
+    rdfs:seeAlso <http://isni.org/isni/123232283> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org58 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org58 .
+
+cci_org_concept:org59 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Alcala"@en ;
+    skos:altLabel "UAH"@en ;
+    rdfs:seeAlso <http://isni.org/isni/419370239> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org59 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org59 .
+
+cci_org_concept:org60 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Athens"@en ;
+    skos:altLabel "NKUA"@en ;
+    rdfs:seeAlso <http://isni.org/isni/121663573> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org60 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org60 .
+
+cci_org_concept:org61 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Bremen"@en ;
+    rdfs:seeAlso <http://isni.org/isni/122974381> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org61 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org61 .
+
+cci_org_concept:org62 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Cambridge"@en ;
+    rdfs:seeAlso <http://isni.org/isni/121885934> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org62 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org62 .
+
+cci_org_concept:org63 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Edinburgh"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org63 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org63 .
+
+cci_org_concept:org64 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Jena"@en ;
+    skos:altLabel "UJENA"@en ;
+    rdfs:seeAlso <http://isni.org/isni/119424776> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org64 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org64 .
+
+cci_org_concept:org65 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Leicester"@en ;
+    rdfs:seeAlso <http://isni.org/isni/419368411> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org65 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org65 .
+
+cci_org_concept:org66 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Leeds"@en ;
+    skos:altLabel "UL"@en ;
+    rdfs:seeAlso <http://isni.org/isni/419368403> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org66 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org66 .
+
+cci_org_concept:org67 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Saskatchewan, Canada"@en ;
+    skos:altLabel "SASK"@en ;
+    rdfs:seeAlso <http://isni.org/isni/419369246> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org67 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org67 .
+
+cci_org_concept:org68 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of York"@en ;
+    skos:altLabel "UoY"@en ;
+    rdfs:seeAlso <http://isni.org/isni/419369668> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org68 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org68 .
+
+cci_org_concept:org69 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Zurich"@en ;
+    skos:altLabel "UZH"@en ;
+    rdfs:seeAlso <http://isni.org/isni/419370650> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org69 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org69 .
+
+cci_org_concept:org70 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Vienna University of Technology"@en ;
+    skos:altLabel "TU Wien"@en ;
+    rdfs:seeAlso <http://isni.org/isni/419370669> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org70 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org70 .
+
+cci_org_concept:org71 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "VU University Amsterdam"@en ;
+    skos:altLabel "VUA"@en ;
+    rdfs:seeAlso <http://isni.org/isni/417549227> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org71 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org71 .
+
+cci_org_concept:org72 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Wageningen University"@en ;
+    rdfs:seeAlso <http://isni.org/isni/122848633> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org72 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org72 .
+
+cci_org_concept:org73 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "World Glacier Monitoring Service"@en ;
+    skos:altLabel "WGMS"@en ;
+    rdfs:seeAlso <http://isni.org/isni/109421088> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org73 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org73 .
+
+cci_org_concept:org74 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "ESACCI_SST"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org74 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org74 .
+
+cci_org_concept:org75 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "British Antarctic Survey"@en ;
+    skos:altLabel "BAS"@en ;
+    rdfs:seeAlso <http://isni.org/isni/405983800> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org75 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org75 .
+
+cci_org_concept:org76 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Deutschen Zentrums für Luft- und Raumfahrt, Institut für Methodik der Fernerkundung"@en ;
+    skos:altLabel "DLR-IMF"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org76 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org76 .
+
+cci_org_concept:org77 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Danish Meteorological Institute"@en ;
+    skos:altLabel "DMI"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org77 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org77 .
+
+cci_org_concept:org78 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "DTU-Space, Department of Geodynamics"@en ;
+    skos:altLabel "DTU-GDK"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org78 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org78 .
+
+cci_org_concept:org79 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "DTU-Space, Department of Microwaves and Remote Sensing"@en ;
+    skos:altLabel "DTU-MRS"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org79 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org79 .
+
+cci_org_concept:org80 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Niels Bohr Institute"@en ;
+    skos:altLabel "NBI"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org80 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org80 .
+
+cci_org_concept:org81 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Technische Universität Dresden"@en ;
+    skos:altLabel "TUDr"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org81 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org81 .
+
+cci_org_concept:org82 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Technische Universität München"@en ;
+    skos:altLabel "TUM"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org82 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org82 .
+
+cci_org_concept:org83 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University College London"@en ;
+    skos:altLabel "UCLON"@en ;
+    rdfs:seeAlso <http://isni.org/isni/121901201> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org83 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org83 .
+
+cci_org_concept:org84 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Leeds, Centre for Polar Observation and Modelling"@en ;
+    skos:altLabel "UL-CPOM"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org84 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org84 .
+
+cci_org_concept:org85 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Leeds, School of Earth and Environment"@en ;
+    skos:altLabel "UL-SEE"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org85 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org85 .
+
+cci_org_concept:org86 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung"@en ;
+    skos:altLabel "AWI"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org86 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org86 .
+
+cci_org_concept:org87 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "ACRI-ST"@en ;
+    skos:altLabel "ACRI-ST"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org87 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org87 .
+
+cci_org_concept:org88 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "LOCEAN"@en ;
+    skos:altLabel "LOCEAN"@en ;
+    rdfs:seeAlso <http://isni.org/isni/107285406> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org88 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org88 .
+
+cci_org_concept:org89 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Institut Francais de Recherche pour l'Exploitation de la mer / CERSAT"@en ;
+    skos:altLabel "IFREMER/CERSAT"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org89 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org89 .
+
+cci_org_concept:org90 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Transmissivity B.V. / VanderSat B.V."@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org90 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org90 .
+
+cci_org_concept:org91 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Reading"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org91 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org91 .
+
+cci_org_concept:org92 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "H2O Geomatics"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org92 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org92 .
+
+cci_org_concept:org93 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Deutsches Fernerkundungsdatenzentrum"@en ;
+    skos:altLabel "DFD"@en ;
+    rdfs:seeAlso <http://isni.org/isni/405502827> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org93 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org93 .
+
+cci_org_concept:org94 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Laboratoire de Meteorologie Dynamique"@en ;
+    skos:altLabel "LMD"@en ;
+    rdfs:seeAlso <http://isni.org/isni/403850473> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org94 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org94 .
+
+cci_org_concept:org95 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Universite Libre de Bruxelles"@en ;
+    skos:altLabel "ULB"@en ;
+    rdfs:seeAlso <http://isni.org/isni/123486355> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org95 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org95 .
+
+cci_org_concept:org96 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Université de Toulouse"@en ;
+    rdfs:seeAlso <http://isni.org/isni/123531689> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org96 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org96 .
+
+cci_org_concept:org97 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Institut de Recherche pour le Développement"@en ;
+    skos:altLabel "IRD"@en ;
+    rdfs:seeAlso <http://isni.org/isni/122879528> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org97 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org97 .
+
+cci_org_concept:org98 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Bern"@en ;
+    rdfs:seeAlso <http://isni.org/isni/404779832> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org98 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org98 .
+
+cci_org_concept:org99 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Estellus"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org99 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org99 .
+
+cci_org_concept:org100 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Norwegian Computing Center"@en ;
+    skos:altLabel "NCC"@en ;
+    rdfs:seeAlso <http://isni.org/isni/107301058> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org100 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org100 .
+
+cci_org_concept:org101 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Planet Labs"@en ;
+    rdfs:seeAlso <http://isni.org/isni/493345234> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org101 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org101 .
+
+cci_org_concept:org102 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Centre d'Etudes Spatiales de la Biosphère"@en ;
+    skos:altLabel "CESBIO"@en ;
+    rdfs:seeAlso <http://isni.org/isni/403828364> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org102 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org102 .
+
+cci_org_concept:org103 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "EODC Gmbh"@en ;
+    skos:altLabel "EODC"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org103 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org103 .
+
+cci_org_concept:org104 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "VITO"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org104 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org104 .
+
+cci_org_concept:org105 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Hydro Matters"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org105 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org105 .
+
+cci_org_concept:org106 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "EOLA"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org106 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org106 .
+
+cci_org_concept:org107 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Trento"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org107 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org107 .
+

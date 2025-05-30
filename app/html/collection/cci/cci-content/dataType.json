@@ -1,0 +1,328 @@
+[
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://purl.org/dc/elements/1.1/creator": [
+      {
+        "@value": "Science and Technology Facilities Council"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/date": [
+      {
+        "@value": "2025-05-08"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/description": [
+      {
+        "@value": "The main data type in a data set used by the ESA Climate Change Initiative (CCI)."
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/publisher": [
+      {
+        "@language": "en",
+        "@value": "STFC"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/rights": [
+      {
+        "@language": "en",
+        "@value": "This work is licensed under a BSD license."
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "@value": "Geophysical Quantity"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "This collection represents the data types used by the CCI project"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "0.0.1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The main data type in a data set used by the ESA Climate Change Initiative (CCI)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Geophysical Quantity"
+      }
+    ]
+  }
+]

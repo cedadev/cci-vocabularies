@@ -1,0 +1,596 @@
+[
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_5yr",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#freq"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "P5Y"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "5 years"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_sec",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#freq"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "P0DT0H0M1S"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "second"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_yr",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#freq",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "P1Y"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "year"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_13yr",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#freq"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "P13Y"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "13 years"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_5day",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#freq",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "P5D"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "5 days"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_unspecified",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#freq",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_hr",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#freq",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "P0DT1H"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "hour"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_mon",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#freq"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "P1M"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "month"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_15day",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#freq",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "P15D"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "15 days"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_clim",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#freq"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "CLIM"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "climatology"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/feq_min",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#freq"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "P0DT0H1M"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "minute"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_3hr",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#freq",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "P0DT3H"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "3 hours"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/elements/1.1/creator": [
+      {
+        "@value": "Science and Technology Facilities Council"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/date": [
+      {
+        "@value": "2025-05-08"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/description": [
+      {
+        "@value": "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/publisher": [
+      {
+        "@language": "en",
+        "@value": "STFC"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/rights": [
+      {
+        "@language": "en",
+        "@value": "This work is licensed under a BSD license."
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "@value": "Frequency"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "This concept scheme represents the frequencies used by the CCI project"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "0.0.1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Temporal frequencies of data from the ESA Climate Change Initiative (CCI)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_3hr"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_13yr"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_mon"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_clim"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_week"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_yr"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_hr"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_sat_orb"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_15day"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_day"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/feq_min"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_5yr"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_5day"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_sec"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_8day"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_10day"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Frequency"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_8day",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#freq",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "P8D"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "8 days"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_10day",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#freq",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "P10D"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "10 days"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_day",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#freq"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "P1D"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "day"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_sat_orb",
+    "@type": [
+      "http://vocab.ceda.ac.uk/ontology/cci#freq",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "satellite orbit frequency"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  },
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_week",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "http://vocab.ceda.ac.uk/ontology/cci#freq"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "P7D"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "week"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+      }
+    ]
+  }
+]
