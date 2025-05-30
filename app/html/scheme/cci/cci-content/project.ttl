@@ -8,91 +8,91 @@
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_aerosol> a cci:project,
         skos:Concept ;
     skos:altLabel "AEROSOL"@en ;
-    skos:definition "Aerosol properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Aerosol project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "aerosol"@en ;
-    skos:scopeNote "Aerosol properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Aerosol project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_biomass> a cci:project,
         skos:Concept ;
     skos:altLabel "BIOMASS"@en ;
-    skos:definition "Above-ground biomass climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Biomass project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "above-ground biomass"@en ;
-    skos:scopeNote "Above-ground biomass climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Biomass project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_cloud> a cci:project,
         skos:Concept ;
     skos:altLabel "CLOUD"@en ;
-    skos:definition "Cloud properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Cloud project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "cloud"@en ;
-    skos:scopeNote "Cloud properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Cloud project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_fire> a cci:project,
         skos:Concept ;
     skos:altLabel "FIRE"@en ;
-    skos:definition "Fire disturbance (burned area) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Fire project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "fire"@en ;
-    skos:scopeNote "Fire disturbance (burned area) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Fire project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ghg> a cci:project,
         skos:Concept ;
     skos:altLabel "GHG"@en ;
-    skos:definition "Greenhouse gasses (carbon dioxide and methane) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Greenhouse gases project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "greenhouse gases"@en ;
-    skos:scopeNote "Greenhouse gasses (carbon dioxide and methane) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Greenhouse gases project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_glaciers> a cci:project,
         skos:Concept ;
     skos:altLabel "GLACIERS"@en ;
-    skos:definition "Glacier inventory climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Glaciers project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "glaciers"@en ;
-    skos:scopeNote "Glacier inventory climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Glaciers project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_iceSheet> a cci:project,
         skos:Concept ;
     skos:altLabel "ICESHEETS"@en ;
-    skos:definition "Ice sheets climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Ice Sheets project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "ice sheets"@en ;
-    skos:scopeNote "Ice sheets climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Ice Sheets project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_lakes> a cci:project,
         skos:Concept ;
     skos:altLabel "LAKES"@en ;
-    skos:definition "Lakes climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Lakes project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "lakes"@en ;
-    skos:scopeNote "Lakes climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Lakes project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_landCov> a cci:project,
         skos:Concept ;
     skos:altLabel "LC"@en ;
-    skos:definition "Land cover climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Land Cover project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "land cover"@en ;
-    skos:scopeNote "Land cover climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Land Cover project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_landSurfTemp> a cci:project,
         skos:Concept ;
     skos:altLabel "LST"@en ;
-    skos:definition "Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Land Surface Temperature project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "land surface temperature"@en ;
-    skos:scopeNote "Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Land Surface Temperature project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol> a cci:project,
@@ -107,46 +107,55 @@
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone> a cci:project,
         skos:Concept ;
     skos:altLabel "OZONE"@en ;
-    skos:definition "Ozone climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "ozone"@en ;
-    skos:scopeNote "Ozone climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost> a cci:project,
         skos:Concept ;
     skos:altLabel "PERMAFROST"@en ;
-    skos:definition "Permafrost climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Permafrost project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "permafrost"@en ;
-    skos:scopeNote "Permafrost climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Permafrost project"@en ;
+    skos:topConceptOf cci-scheme:project .
+
+<http://vocab.ceda.ac.uk/collection/cci/project/cciproject_reccap2> a cci:project,
+        skos:Concept ;
+    skos:altLabel "RECCAP-2"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) RECCAP-2 project"@en ;
+    skos:inScheme cci-scheme:project ;
+    skos:prefLabel "RECCAP2"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) RECCAP-2 project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge> a cci:project,
         skos:Concept ;
     skos:altLabel "RD"@en ;
-    skos:definition "River discharge climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) River Discharge project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "river discharge"@en ;
-    skos:scopeNote "River discharge climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) River Discharge project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity> a cci:project,
         skos:Concept ;
     skos:altLabel "SEASURFACESALINITY"@en ;
-    skos:definition "Sea Surface Salinity climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Salinity project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "sea surface salinity"@en ;
-    skos:scopeNote "Sea Surface Salinity climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Salinity project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaIce> a cci:project,
         skos:Concept ;
     skos:altLabel "SEAICE"@en ;
-    skos:definition "Sea ice climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Ice project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "sea ice"@en ;
-    skos:scopeNote "Sea ice climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Ice project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel> a cci:project,
@@ -158,63 +167,72 @@
     skos:scopeNote "Sea level climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
     skos:topConceptOf cci-scheme:project .
 
+<http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevelBudgetClos> a cci:project,
+        skos:Concept ;
+    skos:altLabel "SLBC"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure"@en ;
+    skos:inScheme cci-scheme:project ;
+    skos:prefLabel "sea level budget closure"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure"@en ;
+    skos:topConceptOf cci-scheme:project .
+
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaState> a cci:project,
         skos:Concept ;
     skos:altLabel "SEASTATE"@en ;
-    skos:definition "Sea state climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea State project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "sea state"@en ;
-    skos:scopeNote "Sea state climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea State project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow> a cci:project,
         skos:Concept ;
     skos:altLabel "SNOW"@en ;
-    skos:definition "Snow climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Snow project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "snow"@en ;
-    skos:scopeNote "Snow climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Snow project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst> a cci:project,
         skos:Concept ;
     skos:altLabel "SOILMOISTURE"@en ;
-    skos:definition "Soil moisture climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Soil Moisture project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "soil moisture"@en ;
-    skos:scopeNote "Soil moisture climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Soil Moisture project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_sst> a cci:project,
         skos:Concept ;
     skos:altLabel "SST"@en ;
-    skos:definition "Sea surface temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Surface Temperature project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "sea surface temperature"@en ;
-    skos:scopeNote "Sea surface temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Surface Temperature project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_vegParam> a cci:project,
         skos:Concept ;
     skos:altLabel "VEGETATION"@en ;
-    skos:definition "Vegetation Parameters climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Vegetation Parameters project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "vegetation parameters"@en ;
-    skos:scopeNote "Vegetation Parameters climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Vegetation Parameters project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_waterVapour> a cci:project,
         skos:Concept ;
     skos:altLabel "WATERVAPOUR"@en ;
-    skos:definition "Water vapour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Water Vapour project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "water vapour"@en ;
-    skos:scopeNote "Water vapour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Water Vapour project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 cci-scheme:project a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -235,10 +253,12 @@ cci-scheme:project a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost>,
+        <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_reccap2>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaIce>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel>,
+        <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevelBudgetClos>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaState>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst>,

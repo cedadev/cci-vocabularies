@@ -1501,7 +1501,7 @@ cci_platform_coll: skos:member cci_platform_concept:plat_noaa_19 .
 
 cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_19 .
 
-cci_platform_concept:plat_odin a skos:Concept, cci_ontology:platform;
+cci_platform_concept:plat_noaa_19 a skos:Concept, cci_ontology:platform;
     skos:inScheme cci_platform_scheme: ;
     skos:prefLabel "ODIN"@en ;
     skos:definition "OHB Sweden Astrophysics and Aeronomy satellite"@en ;
@@ -1510,9 +1510,9 @@ cci_platform_concept:plat_odin a skos:Concept, cci_ontology:platform;
     skos:topConceptOf cci_platform_scheme: ;
 .
 
-cci_platform_coll: skos:member cci_platform_concept:plat_odin .
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_19 .
 
-cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_odin .
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_19 .
 
 cci_platform_concept:plat_orbview2 a skos:Concept, cci_ontology:platform;
     skos:inScheme cci_platform_scheme: ;
@@ -2231,4 +2231,56 @@ cci_platform_concept:plat_sentinel6b a skos:Concept, cci_ontology:platform;
 cci_platform_coll: skos:member cci_platform_concept:plat_sentinel6b .
 
 cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sentinel6b .
+
+cci_platform_concept:plat_erbs a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "ERBS"@en ;
+    skos:definition "Earth Radiation Budget Satellite"@en ;
+    skos:scopeNote "Earth Radiation Budget Satellite"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/erbs> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_erbs .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_erbs .
+
+cci_platform_concept:plat_uars a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "UARS"@en ;
+    skos:definition "Upper Atmosphere Research Satellite"@en ;
+    skos:scopeNote "Upper Atmosphere Research Satellite"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/uars> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_uars .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_uars .
+
+cci_platform_concept:plat_meteor_3m a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteor-3M"@en ;
+    skos:definition "Meteor-3M"@en ;
+    skos:scopeNote "Meteor-3M"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/meteor_3m> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteor_3m .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteor_3m .
+
+cci_platform_concept:plat_iss_SAGEIII a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "ISS Sage-III"@en ;
+    skos:definition "Stratospheric Aerosol and Gas Experiment III on the International Space Station"@en ;
+    skos:scopeNote "Stratospheric Aerosol and Gas Experiment III on the International Space Station"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/iss_sage_iii> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_iss_SAGEIII .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_iss_SAGEIII .
 

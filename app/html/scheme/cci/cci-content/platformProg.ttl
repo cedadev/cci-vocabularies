@@ -123,6 +123,17 @@
     skos:scopeNote "NASA A-Train  Earth Observing System Satellite"@en ;
     skos:topConceptOf cci-scheme:platformProg .
 
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_erbs_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/erbs> ;
+    skos:altLabel "ERBS"@en ;
+    skos:definition "Earth Radiation Budget Satellite programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_erbs> ;
+    skos:prefLabel "Earth Radiation Budget Satellite"@en ;
+    skos:scopeNote "Earth Radiation Budget Satellite programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
 <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_ers> a cci:platformProg,
         skos:Concept ;
     rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/47> ;
@@ -281,6 +292,17 @@
     skos:scopeNote "NASA Ice Cloud and land Elevation Satellite"@en ;
     skos:topConceptOf cci-scheme:platformProg .
 
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_iss_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/iss> ;
+    skos:altLabel "ISS"@en ;
+    skos:definition "International Space Station"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_iss_SAGEIII> ;
+    skos:prefLabel "International Space Station"@en ;
+    skos:scopeNote "International Space Station"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
 <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jason> a cci:platformProg,
         skos:Concept ;
     rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/85> ;
@@ -328,6 +350,16 @@
     skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_8> ;
     skos:prefLabel "Landsat Data Continuity Mission"@en ;
     skos:scopeNote "NASA/USGS Satellite imagery of Earth"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_meteor3m_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/meteor_3m> ;
+    skos:definition "Meteor-3M programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteor_3m> ;
+    skos:prefLabel "Meteor-3M"@en ;
+    skos:scopeNote "Meteor-3M programme"@en ;
     skos:topConceptOf cci-scheme:platformProg .
 
 <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_metop> a cci:platformProg,
@@ -665,9 +697,20 @@
     skos:scopeNote "NASA JAXA Tropical Rainfall Measuring Mission"@en ;
     skos:topConceptOf cci-scheme:platformProg .
 
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_uars_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/uars> ;
+    skos:altLabel "UARS"@en ;
+    skos:definition "Upper Atmosphere Research Satellite programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_uars> ;
+    skos:prefLabel "Upper Atmosphere Research Satellite"@en ;
+    skos:scopeNote "Upper Atmosphere Research Satellite programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
 cci-scheme:platformProg a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -684,6 +727,7 @@ cci-scheme:platformProg a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_envisat_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_eos>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_erbs_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_ers>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_fengyun3>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gcom>,
@@ -696,10 +740,12 @@ cci-scheme:platformProg a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_grace_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_icesat_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_iss_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jason>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jpss_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat_dcm>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_meteor3m_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_metop>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_mfg_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_msg>,
@@ -727,6 +773,7 @@ cci-scheme:platformProg a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot_prog_follow>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_terraSAR>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_topexPoseidon_prog>,
-        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_trmm_prog> ;
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_trmm_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_uars_prog> ;
     skos:prefLabel "Platform Programme"@en .
 

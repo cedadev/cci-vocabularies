@@ -1233,3 +1233,94 @@ cci_sensor_coll: skos:member cci_sensor_concept:sens_poseidon4 .
 
 cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_poseidon4 .
 
+cci_sensor_concept:sens_sageII a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SAGE-II"@en ;
+    skos:definition "Stratospheric Aerosol and Gas Experiment - II"@en ;
+    skos:scopeNote "Stratospheric Aerosol and Gas Experiment - II"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/sage_ii> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_sageII .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_sageII .
+
+cci_sensor_concept:sens_mls a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "MLS"@en ;
+    skos:definition "Microwave Limb Sounder on UARS"@en ;
+    skos:scopeNote "Microwave Limb Sounder on UARS"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/mls> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_mls .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_mls .
+
+cci_sensor_concept:sens_mlsAura a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "MLS (EOS-AURA)"@en ;
+    skos:definition "Microwave Limb Sounder on EOS AURA"@en ;
+    skos:scopeNote "Microwave Limb Sounder on EOS AURA"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/mls_eos_aura> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_mlsAura .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_mlsAura .
+
+cci_sensor_concept:sens_poam a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "POAM"@en ;
+    skos:definition "Polar Ozone and Aerosol Measurement"@en ;
+    skos:scopeNote "Polar Ozone and Aerosol Measurement"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/poam> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_poam .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_poam .
+
+cci_sensor_concept:sens_sageIII a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "SAGE-III"@en ;
+    skos:definition "Stratospheric Aerosol and Gas Experiment - III"@en ;
+    skos:scopeNote "Stratospheric Aerosol and Gas Experiment - III"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/sage_iii> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_sageIII .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_sageIII .
+
+cci_sensor_concept:sens_haloe a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "HALOE"@en ;
+    skos:definition "Halogen Occultation Experiment"@en ;
+    skos:scopeNote "Halogen Occultation Experiment"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/haloe> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_haloe .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_haloe .
+
+cci_sensor_concept:sens_maestro a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "MAESTRO"@en ;
+    skos:definition "Measurements of Aerosol Extinction in the Stratosphere and Troposphere retrieved by Occultation"@en ;
+    skos:scopeNote "Measurements of Aerosol Extinction in the Stratosphere and Troposphere retrieved by Occultation"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/maestro> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_maestro .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_maestro .
+

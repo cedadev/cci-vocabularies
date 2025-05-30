@@ -6,7 +6,7 @@
 
 cci-collection:sensor a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "The sensors that have been used in the collection of the data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -46,6 +46,7 @@ cci-collection:sensor a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gome2>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gomos>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_grace>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_haloe>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs2>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs3>,
@@ -54,9 +55,12 @@ cci-collection:sensor a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_iasi>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_imagerMtsat2>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_jami>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_maestro>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_meris>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mipas>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_miras>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mls>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mlsAura>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_modis>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mss>,
@@ -70,6 +74,7 @@ cci-collection:sensor a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_osiris>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poam>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_polder>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon2>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon3>,
@@ -77,6 +82,8 @@ cci-collection:sensor a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon4>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageII>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageIII>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sar2000>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarRadarSat2>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarX>,

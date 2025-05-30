@@ -8,7 +8,7 @@
 
 cci-collection:dataType a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "The main data type in a data set used by the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -108,7 +108,7 @@ cci-collection:dataType a skos:Collection ;
 
 cci-collection:ecv a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "The Essential Climate Variable (ECVs) in the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -143,7 +143,7 @@ cci-collection:ecv a skos:Collection ;
 
 cci-collection:freq a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "Temporal frequencies of data from the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -172,7 +172,7 @@ cci-collection:freq a skos:Collection ;
 
 cci-collection:org a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "Organisations (institutions) that are involved in production of data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -291,7 +291,7 @@ cci-collection:org a skos:Collection ;
 
 cci-collection:platform a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "The platforms that have been used in the collection of data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -338,6 +338,7 @@ cci-collection:platform a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F19>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_S20>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_erbs>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW1>,
@@ -376,6 +377,7 @@ cci-collection:platform a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_hrws_sar>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat-2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_iss_SAGEIII>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason1>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason2>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason3>,
@@ -390,6 +392,7 @@ cci-collection:platform a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteor_3m>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_1>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_10>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_11>,
@@ -433,7 +436,6 @@ cci-collection:platform a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_8>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_9>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_oco2>,
-        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_odin>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_orbview2>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_parasol>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_probaV>,
@@ -467,12 +469,13 @@ cci-collection:platform a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_topexPoseidon>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_trmm>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_tsx_ng>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_uars>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_unspecified> ;
     skos:prefLabel "Platform"@en .
 
 cci-collection:platformGrp a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -487,7 +490,7 @@ cci-collection:platformGrp a skos:Collection ;
 
 cci-collection:platformProg a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "The platform programmes that have been used in the collection of data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -504,6 +507,7 @@ cci-collection:platformProg a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_envisat_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_eos>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_erbs_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_ers>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_fengyun3>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gcom>,
@@ -516,10 +520,12 @@ cci-collection:platformProg a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_grace_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_icesat_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_iss_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jason>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jpss_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat_dcm>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_meteor3m_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_metop>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_mfg_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_msg>,
@@ -547,12 +553,13 @@ cci-collection:platformProg a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot_prog_follow>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_terraSAR>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_topexPoseidon_prog>,
-        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_trmm_prog> ;
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_trmm_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_uars_prog> ;
     skos:prefLabel "Platform Programme"@en .
 
 cci-collection:procLev a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -578,7 +585,7 @@ cci-collection:procLev a skos:Collection ;
 
 cci-collection:product a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "The different products that are produced within the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -784,7 +791,7 @@ cci-collection:product a skos:Collection ;
 
 cci-collection:project a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "The different projects within the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -805,10 +812,12 @@ cci-collection:project a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost>,
+        <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_reccap2>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaIce>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel>,
+        <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevelBudgetClos>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaState>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst>,
@@ -819,7 +828,7 @@ cci-collection:project a skos:Collection ;
 
 cci-collection:sensor a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "The sensors that have been used in the collection of the data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -859,6 +868,7 @@ cci-collection:sensor a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gome2>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gomos>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_grace>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_haloe>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs2>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs3>,
@@ -867,9 +877,12 @@ cci-collection:sensor a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_iasi>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_imagerMtsat2>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_jami>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_maestro>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_meris>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mipas>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_miras>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mls>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mlsAura>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_modis>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mss>,
@@ -883,6 +896,7 @@ cci-collection:sensor a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_osiris>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poam>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_polder>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon2>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon3>,
@@ -890,6 +904,8 @@ cci-collection:sensor a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon4>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageII>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageIII>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sar2000>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarRadarSat2>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarX>,
@@ -3245,91 +3261,91 @@ cci-collection:sensor a skos:Collection ;
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_aerosol> a cci:project,
         skos:Concept ;
     skos:altLabel "AEROSOL"@en ;
-    skos:definition "Aerosol properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Aerosol project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "aerosol"@en ;
-    skos:scopeNote "Aerosol properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Aerosol project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_biomass> a cci:project,
         skos:Concept ;
     skos:altLabel "BIOMASS"@en ;
-    skos:definition "Above-ground biomass climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Biomass project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "above-ground biomass"@en ;
-    skos:scopeNote "Above-ground biomass climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Biomass project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_cloud> a cci:project,
         skos:Concept ;
     skos:altLabel "CLOUD"@en ;
-    skos:definition "Cloud properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Cloud project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "cloud"@en ;
-    skos:scopeNote "Cloud properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Cloud project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_fire> a cci:project,
         skos:Concept ;
     skos:altLabel "FIRE"@en ;
-    skos:definition "Fire disturbance (burned area) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Fire project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "fire"@en ;
-    skos:scopeNote "Fire disturbance (burned area) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Fire project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ghg> a cci:project,
         skos:Concept ;
     skos:altLabel "GHG"@en ;
-    skos:definition "Greenhouse gasses (carbon dioxide and methane) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Greenhouse gases project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "greenhouse gases"@en ;
-    skos:scopeNote "Greenhouse gasses (carbon dioxide and methane) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Greenhouse gases project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_glaciers> a cci:project,
         skos:Concept ;
     skos:altLabel "GLACIERS"@en ;
-    skos:definition "Glacier inventory climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Glaciers project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "glaciers"@en ;
-    skos:scopeNote "Glacier inventory climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Glaciers project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_iceSheet> a cci:project,
         skos:Concept ;
     skos:altLabel "ICESHEETS"@en ;
-    skos:definition "Ice sheets climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Ice Sheets project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "ice sheets"@en ;
-    skos:scopeNote "Ice sheets climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Ice Sheets project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_lakes> a cci:project,
         skos:Concept ;
     skos:altLabel "LAKES"@en ;
-    skos:definition "Lakes climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Lakes project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "lakes"@en ;
-    skos:scopeNote "Lakes climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Lakes project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_landCov> a cci:project,
         skos:Concept ;
     skos:altLabel "LC"@en ;
-    skos:definition "Land cover climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Land Cover project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "land cover"@en ;
-    skos:scopeNote "Land cover climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Land Cover project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_landSurfTemp> a cci:project,
         skos:Concept ;
     skos:altLabel "LST"@en ;
-    skos:definition "Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Land Surface Temperature project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "land surface temperature"@en ;
-    skos:scopeNote "Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Land Surface Temperature project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol> a cci:project,
@@ -3344,46 +3360,55 @@ cci-collection:sensor a skos:Collection ;
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone> a cci:project,
         skos:Concept ;
     skos:altLabel "OZONE"@en ;
-    skos:definition "Ozone climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "ozone"@en ;
-    skos:scopeNote "Ozone climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost> a cci:project,
         skos:Concept ;
     skos:altLabel "PERMAFROST"@en ;
-    skos:definition "Permafrost climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Permafrost project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "permafrost"@en ;
-    skos:scopeNote "Permafrost climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Permafrost project"@en ;
+    skos:topConceptOf cci-scheme:project .
+
+<http://vocab.ceda.ac.uk/collection/cci/project/cciproject_reccap2> a cci:project,
+        skos:Concept ;
+    skos:altLabel "RECCAP-2"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) RECCAP-2 project"@en ;
+    skos:inScheme cci-scheme:project ;
+    skos:prefLabel "RECCAP2"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) RECCAP-2 project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge> a cci:project,
         skos:Concept ;
     skos:altLabel "RD"@en ;
-    skos:definition "River discharge climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) River Discharge project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "river discharge"@en ;
-    skos:scopeNote "River discharge climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) River Discharge project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity> a cci:project,
         skos:Concept ;
     skos:altLabel "SEASURFACESALINITY"@en ;
-    skos:definition "Sea Surface Salinity climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Salinity project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "sea surface salinity"@en ;
-    skos:scopeNote "Sea Surface Salinity climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Salinity project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaIce> a cci:project,
         skos:Concept ;
     skos:altLabel "SEAICE"@en ;
-    skos:definition "Sea ice climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Ice project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "sea ice"@en ;
-    skos:scopeNote "Sea ice climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Ice project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel> a cci:project,
@@ -3395,58 +3420,67 @@ cci-collection:sensor a skos:Collection ;
     skos:scopeNote "Sea level climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
     skos:topConceptOf cci-scheme:project .
 
+<http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevelBudgetClos> a cci:project,
+        skos:Concept ;
+    skos:altLabel "SLBC"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure"@en ;
+    skos:inScheme cci-scheme:project ;
+    skos:prefLabel "sea level budget closure"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure"@en ;
+    skos:topConceptOf cci-scheme:project .
+
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaState> a cci:project,
         skos:Concept ;
     skos:altLabel "SEASTATE"@en ;
-    skos:definition "Sea state climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea State project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "sea state"@en ;
-    skos:scopeNote "Sea state climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea State project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow> a cci:project,
         skos:Concept ;
     skos:altLabel "SNOW"@en ;
-    skos:definition "Snow climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Snow project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "snow"@en ;
-    skos:scopeNote "Snow climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Snow project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst> a cci:project,
         skos:Concept ;
     skos:altLabel "SOILMOISTURE"@en ;
-    skos:definition "Soil moisture climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Soil Moisture project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "soil moisture"@en ;
-    skos:scopeNote "Soil moisture climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Soil Moisture project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_sst> a cci:project,
         skos:Concept ;
     skos:altLabel "SST"@en ;
-    skos:definition "Sea surface temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Surface Temperature project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "sea surface temperature"@en ;
-    skos:scopeNote "Sea surface temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Surface Temperature project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_vegParam> a cci:project,
         skos:Concept ;
     skos:altLabel "VEGETATION"@en ;
-    skos:definition "Vegetation Parameters climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Vegetation Parameters project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "vegetation parameters"@en ;
-    skos:scopeNote "Vegetation Parameters climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Vegetation Parameters project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_waterVapour> a cci:project,
         skos:Concept ;
     skos:altLabel "WATERVAPOUR"@en ;
-    skos:definition "Water vapour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Water Vapour project"@en ;
     skos:inScheme cci-scheme:project ;
     skos:prefLabel "water vapour"@en ;
-    skos:scopeNote "Water vapour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Water Vapour project"@en ;
     skos:topConceptOf cci-scheme:project .
 
 <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_etmplus> a cci:sensor,
@@ -4874,6 +4908,10 @@ cci-collection:sensor a skos:Collection ;
     skos:scopeNote "NASA NOAA Environmental satellite 5"@en ;
     skos:topConceptOf cci-scheme:platform .
 
+<http://vocab.ceda.ac.uk/collection/cci/platform/plat_odin> cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_osiris>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smr> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_odin_prog> .
+
 <http://vocab.ceda.ac.uk/collection/cci/platform/plat_radarsat2> a cci:platform,
         skos:Concept ;
     rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/367> ;
@@ -4965,6 +5003,17 @@ cci-collection:sensor a skos:Collection ;
     skos:scopeNote "ESA"@en ;
     skos:topConceptOf cci-scheme:platformProg .
 
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_erbs_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/erbs> ;
+    skos:altLabel "ERBS"@en ;
+    skos:definition "Earth Radiation Budget Satellite programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_erbs> ;
+    skos:prefLabel "Earth Radiation Budget Satellite"@en ;
+    skos:scopeNote "Earth Radiation Budget Satellite programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
 <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gpm_prog> a cci:platformProg,
         skos:Concept ;
     rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/gpm> ;
@@ -4983,6 +5032,17 @@ cci-collection:sensor a skos:Collection ;
     skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_grace> ;
     skos:prefLabel "GRACE Programme"@en ;
     skos:scopeNote "NASA Gravity Recovery and Climate Experiment Programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_iss_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/iss> ;
+    skos:altLabel "ISS"@en ;
+    skos:definition "International Space Station"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_iss_SAGEIII> ;
+    skos:prefLabel "International Space Station"@en ;
+    skos:scopeNote "International Space Station"@en ;
     skos:topConceptOf cci-scheme:platformProg .
 
 <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jpss_prog> a cci:platformProg,
@@ -5004,6 +5064,16 @@ cci-collection:sensor a skos:Collection ;
     skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_8> ;
     skos:prefLabel "Landsat Data Continuity Mission"@en ;
     skos:scopeNote "NASA/USGS Satellite imagery of Earth"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_meteor3m_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/meteor_3m> ;
+    skos:definition "Meteor-3M programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteor_3m> ;
+    skos:prefLabel "Meteor-3M"@en ;
+    skos:scopeNote "Meteor-3M programme"@en ;
     skos:topConceptOf cci-scheme:platformProg .
 
 <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_oco_prog> a cci:platformProg,
@@ -5145,6 +5215,17 @@ cci-collection:sensor a skos:Collection ;
     skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_trmm> ;
     skos:prefLabel "TRMM"@en ;
     skos:scopeNote "NASA JAXA Tropical Rainfall Measuring Mission"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
+<http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_uars_prog> a cci:platformProg,
+        skos:Concept ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/uars> ;
+    skos:altLabel "UARS"@en ;
+    skos:definition "Upper Atmosphere Research Satellite programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/platform/plat_uars> ;
+    skos:prefLabel "Upper Atmosphere Research Satellite"@en ;
+    skos:scopeNote "Upper Atmosphere Research Satellite programme"@en ;
     skos:topConceptOf cci-scheme:platformProg .
 
 <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A> a cci:procLev,
@@ -5414,6 +5495,16 @@ cci-collection:sensor a skos:Collection ;
     skos:scopeNote "GRACE instrument"@en ;
     skos:topConceptOf cci-scheme:sensor .
 
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_haloe> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_uars> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/haloe> ;
+    skos:definition "Halogen Occultation Experiment"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "HALOE"@en ;
+    skos:scopeNote "Halogen Occultation Experiment"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
 <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs> a cci:sensor,
         skos:Concept ;
     cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus6> ;
@@ -5454,6 +5545,16 @@ cci-collection:sensor a skos:Collection ;
     skos:scopeNote "Japanese Advanced Meteorological Imager"@en ;
     skos:topConceptOf cci-scheme:sensor .
 
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_maestro> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_scisat> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/maestro> ;
+    skos:definition "Measurements of Aerosol Extinction in the Stratosphere and Troposphere retrieved by Occultation"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "MAESTRO"@en ;
+    skos:scopeNote "Measurements of Aerosol Extinction in the Stratosphere and Troposphere retrieved by Occultation"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
 <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_meris> a cci:sensor,
         skos:Concept ;
     cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat> ;
@@ -5482,6 +5583,26 @@ cci-collection:sensor a skos:Collection ;
     skos:inScheme cci-scheme:sensor ;
     skos:prefLabel "MIRAS"@en ;
     skos:scopeNote "Microwave Imaging Radiometer using Aperture Synthesis"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mls> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_uars> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/mls> ;
+    skos:definition "Microwave Limb Sounder on UARS"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "MLS"@en ;
+    skos:scopeNote "Microwave Limb Sounder on UARS"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mlsAura> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_aura> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/mls_eos_aura> ;
+    skos:definition "Microwave Limb Sounder on EOS AURA"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "MLS (EOS-AURA)"@en ;
+    skos:scopeNote "Microwave Limb Sounder on EOS AURA"@en ;
     skos:topConceptOf cci-scheme:sensor .
 
 <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_nra> a cci:sensor,
@@ -5555,6 +5676,16 @@ cci-collection:sensor a skos:Collection ;
     skos:scopeNote "Phased Array type L-band Synthetic Aperture Radar – 2"@en ;
     skos:topConceptOf cci-scheme:sensor .
 
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poam> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot4> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/poam> ;
+    skos:definition "Polar Ozone and Aerosol Measurement"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "POAM"@en ;
+    skos:scopeNote "Polar Ozone and Aerosol Measurement"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
 <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_polder> a cci:sensor,
         skos:Concept ;
     cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_parasol> ;
@@ -5603,6 +5734,16 @@ cci-collection:sensor a skos:Collection ;
     skos:inScheme cci-scheme:sensor ;
     skos:prefLabel "RA-2"@en ;
     skos:scopeNote "Radar Altimeter"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageII> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_erbs> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/sage_ii> ;
+    skos:definition "Stratospheric Aerosol and Gas Experiment - II"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SAGE-II"@en ;
+    skos:scopeNote "Stratospheric Aerosol and Gas Experiment - II"@en ;
     skos:topConceptOf cci-scheme:sensor .
 
 <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sciamachy> a cci:sensor,
@@ -5729,6 +5870,7 @@ cci-collection:sensor a skos:Collection ;
 
 <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_toms> a cci:sensor,
         skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus7> ;
     rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/571> ;
     skos:definition "Total Ozone Mapping Spectrometer"@en ;
     skos:inScheme cci-scheme:sensor ;
@@ -5884,17 +6026,6 @@ cci:platformGrp a owl:Class ;
     skos:scopeNote "JAXA Advanced Land Observation Satellite 2"@en ;
     skos:topConceptOf cci-scheme:platform .
 
-<http://vocab.ceda.ac.uk/collection/cci/platform/plat_aura> a cci:platform,
-        skos:Concept ;
-    cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_omi> ;
-    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/80> ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_eos> ;
-    skos:definition "NASA  Earth Observing System Satellite"@en ;
-    skos:inScheme cci-scheme:platform ;
-    skos:prefLabel "Aura"@en ;
-    skos:scopeNote "NASA  Earth Observing System Satellite"@en ;
-    skos:topConceptOf cci-scheme:platform .
-
 <http://vocab.ceda.ac.uk/collection/cci/platform/plat_coriolis> a cci:platform,
         skos:Concept ;
     cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_windSat> ;
@@ -6036,6 +6167,17 @@ cci:platformGrp a owl:Class ;
     skos:inScheme cci-scheme:platform ;
     skos:prefLabel "DMSP-F15"@en ;
     skos:scopeNote "US Defense Meteorological Satellite Program – F15"@en ;
+    skos:topConceptOf cci-scheme:platform .
+
+<http://vocab.ceda.ac.uk/collection/cci/platform/plat_erbs> a cci:platform,
+        skos:Concept ;
+    cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageII> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/erbs> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_erbs_prog> ;
+    skos:definition "Earth Radiation Budget Satellite"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "ERBS"@en ;
+    skos:scopeNote "Earth Radiation Budget Satellite"@en ;
     skos:topConceptOf cci-scheme:platform .
 
 <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW1> a cci:platform,
@@ -6300,6 +6442,17 @@ cci:platformGrp a owl:Class ;
     skos:scopeNote "NASA Ice, Cloud and land Elevation Satellite"@en ;
     skos:topConceptOf cci-scheme:platform .
 
+<http://vocab.ceda.ac.uk/collection/cci/platform/plat_iss_SAGEIII> a cci:platform,
+        skos:Concept ;
+    cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageIII> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/iss_sage_iii> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_iss_prog> ;
+    skos:definition "Stratospheric Aerosol and Gas Experiment III on the International Space Station"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "ISS Sage-III"@en ;
+    skos:scopeNote "Stratospheric Aerosol and Gas Experiment III on the International Space Station"@en ;
+    skos:topConceptOf cci-scheme:platform .
+
 <http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason1> a cci:platform,
         skos:Concept ;
     cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon2> ;
@@ -6376,6 +6529,17 @@ cci:platformGrp a owl:Class ;
     skos:inScheme cci-scheme:platform ;
     skos:prefLabel "Landsat-7"@en ;
     skos:scopeNote "NASA Landsat"@en ;
+    skos:topConceptOf cci-scheme:platform .
+
+<http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteor_3m> a cci:platform,
+        skos:Concept ;
+    cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageIII> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/meteor_3m> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_meteor3m_prog> ;
+    skos:definition "Meteor-3M"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "Meteor-3M"@en ;
+    skos:scopeNote "Meteor-3M"@en ;
     skos:topConceptOf cci-scheme:platform .
 
 <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_1> a cci:platform,
@@ -6569,18 +6733,6 @@ cci:platformGrp a owl:Class ;
     skos:scopeNote "NASA Research-and-development satellite 5"@en ;
     skos:topConceptOf cci-scheme:platform .
 
-<http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus7> a cci:platform,
-        skos:Concept ;
-    cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smmr>,
-        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_toms> ;
-    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/321> ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_nimbus> ;
-    skos:definition "NASA Research-and-development satellite 7"@en ;
-    skos:inScheme cci-scheme:platform ;
-    skos:prefLabel "Nimbus-7"@en ;
-    skos:scopeNote "NASA Research-and-development satellite 7"@en ;
-    skos:topConceptOf cci-scheme:platform .
-
 <http://vocab.ceda.ac.uk/collection/cci/platform/plat_oco2> a cci:platform,
         skos:Concept ;
     cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_oco> ;
@@ -6646,17 +6798,6 @@ cci:platformGrp a owl:Class ;
     skos:inScheme cci-scheme:platform ;
     skos:prefLabel "SARAL"@en ;
     skos:scopeNote "CNES Satellite with ARGOS and AltiKa"@en ;
-    skos:topConceptOf cci-scheme:platform .
-
-<http://vocab.ceda.ac.uk/collection/cci/platform/plat_scisat> a cci:platform,
-        skos:Concept ;
-    cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aceFts> ;
-    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/393> ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_scisat_prog> ;
-    skos:definition "CSA Science Satellite"@en ;
-    skos:inScheme cci-scheme:platform ;
-    skos:prefLabel "SCISAT-1"@en ;
-    skos:scopeNote "CSA Science Satellite"@en ;
     skos:topConceptOf cci-scheme:platform .
 
 <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1a> a cci:platform,
@@ -6768,17 +6909,6 @@ cci:platformGrp a owl:Class ;
     skos:inScheme cci-scheme:platform ;
     skos:prefLabel "SNPP"@en ;
     skos:scopeNote "Suomi National Polar-orbiting Partnership"@en ;
-    skos:topConceptOf cci-scheme:platform .
-
-<http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot4> a cci:platform,
-        skos:Concept ;
-    cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_vegetation> ;
-    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/415> ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot> ;
-    skos:definition "CNES Satellite Pour l'Observation de la Terre 4"@en ;
-    skos:inScheme cci-scheme:platform ;
-    skos:prefLabel "SPOT-4"@en ;
-    skos:scopeNote "CNES Satellite Pour l'Observation de la Terre 4"@en ;
     skos:topConceptOf cci-scheme:platform .
 
 <http://vocab.ceda.ac.uk/collection/cci/platform/plat_tandem_X> a cci:platform,
@@ -7038,6 +7168,17 @@ cci:platformGrp a owl:Class ;
     skos:scopeNote "Radar Altimeter"@en ;
     skos:topConceptOf cci-scheme:sensor .
 
+<http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageIII> a cci:sensor,
+        skos:Concept ;
+    cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_iss_SAGEIII>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteor_3m> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/sage_iii> ;
+    skos:definition "Stratospheric Aerosol and Gas Experiment - III"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SAGE-III"@en ;
+    skos:scopeNote "Stratospheric Aerosol and Gas Experiment - III"@en ;
+    skos:topConceptOf cci-scheme:sensor .
+
 <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarcS1> a cci:sensor,
         skos:Concept ;
     cci:hasPlatform <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1a>,
@@ -7177,6 +7318,18 @@ cci:platformGrp a owl:Class ;
     skos:scopeNote "CMA Feng-Yun – 3C"@en ;
     skos:topConceptOf cci-scheme:platform .
 
+<http://vocab.ceda.ac.uk/collection/cci/platform/plat_aura> a cci:platform,
+        skos:Concept ;
+    cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mlsAura>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_omi> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/80> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_eos> ;
+    skos:definition "NASA  Earth Observing System Satellite"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "Aura"@en ;
+    skos:scopeNote "NASA  Earth Observing System Satellite"@en ;
+    skos:topConceptOf cci-scheme:platform .
+
 <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat> a cci:platform,
         skos:Concept ;
     cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoCai>,
@@ -7235,6 +7388,18 @@ cci:platformGrp a owl:Class ;
     skos:inScheme cci-scheme:platform ;
     skos:prefLabel "Nimbus-6"@en ;
     skos:scopeNote "NASA Research-and-development satellite 6"@en ;
+    skos:topConceptOf cci-scheme:platform .
+
+<http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus7> a cci:platform,
+        skos:Concept ;
+    cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smmr>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_toms> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/321> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_nimbus> ;
+    skos:definition "NASA Research-and-development satellite 7"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "Nimbus-7"@en ;
+    skos:scopeNote "NASA Research-and-development satellite 7"@en ;
     skos:topConceptOf cci-scheme:platform .
 
 <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_10> a cci:platform,
@@ -7345,16 +7510,28 @@ cci:platformGrp a owl:Class ;
     skos:scopeNote "NASA NOAA Environmental satellite 9"@en ;
     skos:topConceptOf cci-scheme:platform .
 
-<http://vocab.ceda.ac.uk/collection/cci/platform/plat_odin> a cci:platform,
+<http://vocab.ceda.ac.uk/collection/cci/platform/plat_scisat> a cci:platform,
         skos:Concept ;
-    cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_osiris>,
-        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smr> ;
-    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/348> ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_odin_prog> ;
-    skos:definition "OHB Sweden Astrophysics and Aeronomy satellite"@en ;
+    cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aceFts>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_maestro> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/393> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_scisat_prog> ;
+    skos:definition "CSA Science Satellite"@en ;
     skos:inScheme cci-scheme:platform ;
-    skos:prefLabel "ODIN"@en ;
-    skos:scopeNote "OHB Sweden Astrophysics and Aeronomy satellite"@en ;
+    skos:prefLabel "SCISAT-1"@en ;
+    skos:scopeNote "CSA Science Satellite"@en ;
+    skos:topConceptOf cci-scheme:platform .
+
+<http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot4> a cci:platform,
+        skos:Concept ;
+    cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poam>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_vegetation> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/415> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot> ;
+    skos:definition "CNES Satellite Pour l'Observation de la Terre 4"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "SPOT-4"@en ;
+    skos:scopeNote "CNES Satellite Pour l'Observation de la Terre 4"@en ;
     skos:topConceptOf cci-scheme:platform .
 
 <http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot5> a cci:platform,
@@ -7391,6 +7568,18 @@ cci:platformGrp a owl:Class ;
     skos:inScheme cci-scheme:platform ;
     skos:prefLabel "Topex/Poseidon"@en ;
     skos:scopeNote "CNES/NASA Ocean surface topography satellite"@en ;
+    skos:topConceptOf cci-scheme:platform .
+
+<http://vocab.ceda.ac.uk/collection/cci/platform/plat_uars> a cci:platform,
+        skos:Concept ;
+    cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_haloe>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mls> ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/uars> ;
+    skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_uars_prog> ;
+    skos:definition "Upper Atmosphere Research Satellite"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "UARS"@en ;
+    skos:scopeNote "Upper Atmosphere Research Satellite"@en ;
     skos:topConceptOf cci-scheme:platform .
 
 <http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp> a cci:platformGrp,
@@ -7649,12 +7838,16 @@ cci:platformGrp a owl:Class ;
     cci:hasSensor <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsua>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr3>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs4> ;
-    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/341> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/341>,
+        <http://www.wmo-sat.info/oscar/satellites/view/348> ;
     skos:broader <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th> ;
-    skos:definition "NASA NOAA Environmental satellite 19"@en ;
+    skos:definition "NASA NOAA Environmental satellite 19"@en,
+        "OHB Sweden Astrophysics and Aeronomy satellite"@en ;
     skos:inScheme cci-scheme:platform ;
-    skos:prefLabel "NOAA-19"@en ;
-    skos:scopeNote "NASA NOAA Environmental satellite 19"@en ;
+    skos:prefLabel "NOAA-19"@en,
+        "ODIN"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 19"@en,
+        "OHB Sweden Astrophysics and Aeronomy satellite"@en ;
     skos:topConceptOf cci-scheme:platform .
 
 <http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a> a cci:platform,
@@ -7951,7 +8144,7 @@ cci:platformGrp a owl:Class ;
 
 cci-scheme:platformGrp a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -8298,7 +8491,7 @@ cci: a owl:Ontology,
         skos:ConceptScheme ;
     rdfs:label "CCI Ontology" ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "<h4>OWL Classes</h4>There are currently 11 classes in the ontology, each of which represents an entry in the DRS as well a two object properties to link sensors and platforms.<h5>OWL Classes</h5><p><img src=classes.svg><p></p><h4>Concept Schemes</h4><p>The named individuals of each class are also represented as concepts in SKOS concept schemes: <a href=../../../scheme/cci/dataType>data type</a>, <a href=../../../scheme/cci/ecv>ecv</a>, <a href=../../../scheme/cci/freq>frequency</a>, <a href=../../../scheme/cci/org>institutes</a>, <a href=../../../scheme/cci/platform>platforms</a>, <a href=../../../scheme/cci/platformGrp>platform groups</a>, <a href=../../../scheme/cci/platformProg>platform programmes</a>, <a href=../../../scheme/cci/procLev>processing levels</a>, <a href=../../../scheme/cci/product>products</a>, <a href=../../../scheme/cci/project>projects</a>,, and <a href=../../../scheme/cci/sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree as well as providing relationships to concepts from other DRS. As well as relationships between sensors and platforms, each ECV concept is related to one or more data type concepts.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=../../../scheme/cci/conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=../../../scheme/cci/conceptSchemeUp.svg /><h4>Collections</h4><p>The named individuals of each class are also represented as members in SKOS collections: <a href=../../../collection/cci/dataType>data type</a>, <a href=../../../collection/cci/ecv>ecv</a>, <a href=../../../collection/cci/freq>frequency</a>, <a href=../../../collection/cci/org>institutes</a>, <a href=../../../collection/cci/platform>platforms</a>, <a href=../../../scheme/cci/platformGrp>platform groups</a>, <a href=../../../scheme/cci/platformProg>platform programs</a>, <a href=../../../collection/cci/procLev>processing levels</a>, <a href=../../../collection/cci/product>products</a>, <a href=../../../collection/cci/project>projects</a>,  and <a href=../../../collection/cci/sensor>sensors</a>. As well as relationships between sensors and platforms, each ECV concept is related to one or more data type concepts.</p><h5>SKOS Collections</h5><img src=../../../collection/cci/collection.svg />" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -8538,7 +8731,7 @@ cci:project a owl:Class ;
 
 cci-scheme:procLev a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -8564,7 +8757,7 @@ cci-scheme:procLev a skos:ConceptScheme ;
 
 cci-scheme:freq a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -8593,7 +8786,7 @@ cci-scheme:freq a skos:ConceptScheme ;
 
 cci-scheme:ecv a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -8628,7 +8821,7 @@ cci-scheme:ecv a skos:ConceptScheme ;
 
 cci-scheme:project a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -8649,10 +8842,12 @@ cci-scheme:project a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost>,
+        <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_reccap2>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaIce>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel>,
+        <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevelBudgetClos>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaState>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow>,
         <http://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst>,
@@ -8683,7 +8878,7 @@ cci:org a owl:Class ;
 
 cci-scheme:platformProg a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -8700,6 +8895,7 @@ cci-scheme:platformProg a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_envisat_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_eos>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_erbs_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_ers>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_fengyun3>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gcom>,
@@ -8712,10 +8908,12 @@ cci-scheme:platformProg a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_grace_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_icesat_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_iss_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jason>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jpss_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat_dcm>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_meteor3m_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_metop>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_mfg_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_msg>,
@@ -8743,7 +8941,8 @@ cci-scheme:platformProg a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot_prog_follow>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_terraSAR>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_topexPoseidon_prog>,
-        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_trmm_prog> ;
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_trmm_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_uars_prog> ;
     skos:prefLabel "Platform Programme"@en .
 
 cci:platform a owl:Class ;
@@ -8753,7 +8952,7 @@ cci:platform a owl:Class ;
 
 cci-scheme:dataType a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -8851,9 +9050,14 @@ cci-scheme:dataType a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> ;
     skos:prefLabel "Geophysical Quantity"@en .
 
+cci:product a owl:Class ;
+    rdfs:label "Product" ;
+    dc:description "The different products that are produced within the ESA Climate Change Initiative (CCI)." ;
+    rdfs:isDefinedBy cci: .
+
 cci-scheme:sensor a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -8893,6 +9097,7 @@ cci-scheme:sensor a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gome2>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gomos>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_grace>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_haloe>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs2>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs3>,
@@ -8901,9 +9106,12 @@ cci-scheme:sensor a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_iasi>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_imagerMtsat2>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_jami>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_maestro>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_meris>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mipas>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_miras>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mls>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mlsAura>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_modis>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mss>,
@@ -8917,6 +9125,7 @@ cci-scheme:sensor a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_osiris>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poam>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_polder>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon2>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon3>,
@@ -8924,6 +9133,8 @@ cci-scheme:sensor a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon4>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra2>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageII>,
+        <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageIII>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sar2000>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarRadarSat2>,
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarX>,
@@ -8956,14 +9167,9 @@ cci-scheme:sensor a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/sensor/sens_windSat> ;
     skos:prefLabel "Sensor"@en .
 
-cci:product a owl:Class ;
-    rdfs:label "Product" ;
-    dc:description "The different products that are produced within the ESA Climate Change Initiative (CCI)." ;
-    rdfs:isDefinedBy cci: .
-
 cci-scheme:org a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -9082,7 +9288,7 @@ cci-scheme:org a skos:ConceptScheme ;
 
 cci-scheme:platform a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -9129,6 +9335,7 @@ cci-scheme:platform a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F19>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_S20>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_erbs>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW1>,
@@ -9167,6 +9374,7 @@ cci-scheme:platform a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_hrws_sar>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat-2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_iss_SAGEIII>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason1>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason2>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason3>,
@@ -9181,6 +9389,7 @@ cci-scheme:platform a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteor_3m>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_1>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_10>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_11>,
@@ -9224,7 +9433,6 @@ cci-scheme:platform a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_8>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_9>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_oco2>,
-        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_odin>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_orbview2>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_parasol>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_probaV>,
@@ -9258,12 +9466,13 @@ cci-scheme:platform a skos:ConceptScheme ;
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_topexPoseidon>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_trmm>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_tsx_ng>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_uars>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_unspecified> ;
     skos:prefLabel "Platform"@en .
 
 cci-scheme:product a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;

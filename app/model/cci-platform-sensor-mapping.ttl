@@ -362,6 +362,8 @@ mapb:sens_smmr cci:hasPlatform mapa:plat_nimbus7 .
 
 mapa:plat_nimbus7 cci:hasSensor mapb:sens_toms .
 
+mapb:sens_toms cci:hasPlatform mapa:plat_nimbus7 .
+
 mapa:plat_noaa_6 cci:hasSensor mapb:sens_avhrr .
 
 mapb:sens_avhrr cci:hasPlatform mapa:plat_noaa_6 .
@@ -469,6 +471,10 @@ mapb:sens_polder cci:hasPlatform mapa:plat_parasol .
 mapa:plat_scisat cci:hasSensor mapb:sens_aceFts .
 
 mapb:sens_aceFts cci:hasPlatform mapa:plat_scisat .
+
+mapa:plat_scisat cci:hasSensor mapb:sens_maestro .
+
+mapb:sens_maestro cci:hasPlatform mapa:plat_scisat .
 
 mapa:plat_spot4 cci:hasSensor mapb:sens_vegetation .
 
@@ -773,4 +779,32 @@ mapb:sens_poseidon4 cci:hasPlatform mapa:plat_sentinel6a .
 mapa:plat_sentinel6b cci:hasSensor mapb:sens_poseidon4 .
 
 mapb:sens_poseidon4 cci:hasPlatform mapa:plat_sentinel6b .
+
+mapa:plat_erbs cci:hasSensor mapb:sens_sageII .
+
+mapb:sens_sageII cci:hasPlatform mapa:plat_erbs .
+
+mapa:plat_uars cci:hasSensor mapb:sens_mls .
+
+mapb:sens_mls cci:hasPlatform mapa:plat_uars .
+
+mapa:plat_aura cci:hasSensor mapb:sens_mlsAura .
+
+mapb:sens_mlsAura cci:hasPlatform mapa:plat_aura .
+
+mapa:plat_spot4 cci:hasSensor mapb:sens_poam .
+
+mapb:sens_poam cci:hasPlatform mapa:plat_spot4 .
+
+mapa:plat_meteor_3m cci:hasSensor mapb:sens_sageIII .
+
+mapb:sens_sageIII cci:hasPlatform mapa:plat_meteor_3m .
+
+mapa:plat_iss_SAGEIII cci:hasSensor mapb:sens_sageIII .
+
+mapb:sens_sageIII cci:hasPlatform mapa:plat_iss_SAGEIII .
+
+mapa:plat_uars cci:hasSensor mapb:sens_haloe .
+
+mapb:sens_haloe cci:hasPlatform mapa:plat_uars .
 

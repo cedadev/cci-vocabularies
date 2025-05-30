@@ -167,3 +167,7 @@ plat_csk_prog`narrower`plat_csk4`broader
 plat_gpm_prog`narrower`plat_gpm`broader
 plat_sentinel6_prog`narrower`plat_sentinel6a`broader
 plat_sentinel6_prog`narrower`plat_sentinel6b`broader
+plat_erbs_prog`narrower`plat_erbs`broader
+plat_uars_prog`narrower`plat_uars`broader
+plat_meteor3m_prog`narrower`plat_meteor_3m`broader
+plat_iss_prog`narrower`plat_iss_SAGEIII`broader

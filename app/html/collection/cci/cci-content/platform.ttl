@@ -6,7 +6,7 @@
 
 cci-collection:platform a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "The platforms that have been used in the collection of data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -53,6 +53,7 @@ cci-collection:platform a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F19>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_S20>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_erbs>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW1>,
@@ -91,6 +92,7 @@ cci-collection:platform a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_hrws_sar>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat-2>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_iss_SAGEIII>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason1>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason2>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason3>,
@@ -105,6 +107,7 @@ cci-collection:platform a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteor_3m>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_1>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_10>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_11>,
@@ -148,7 +151,6 @@ cci-collection:platform a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_8>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_9>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_oco2>,
-        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_odin>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_orbview2>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_parasol>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_probaV>,
@@ -182,6 +184,7 @@ cci-collection:platform a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_topexPoseidon>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_trmm>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_tsx_ng>,
+        <http://vocab.ceda.ac.uk/collection/cci/platform/plat_uars>,
         <http://vocab.ceda.ac.uk/collection/cci/platform/plat_unspecified> ;
     skos:prefLabel "Platform"@en .
 

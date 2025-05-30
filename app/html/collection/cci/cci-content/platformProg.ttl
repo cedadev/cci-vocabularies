@@ -6,7 +6,7 @@
 
 cci-collection:platformProg a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "The platform programmes that have been used in the collection of data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -23,6 +23,7 @@ cci-collection:platformProg a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_envisat_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_eos>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_erbs_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_ers>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_fengyun3>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gcom>,
@@ -35,10 +36,12 @@ cci-collection:platformProg a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_grace_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_icesat_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_iss_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jason>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jpss_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat_dcm>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_meteor3m_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_metop>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_mfg_prog>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_msg>,
@@ -66,6 +69,7 @@ cci-collection:platformProg a skos:Collection ;
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot_prog_follow>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_terraSAR>,
         <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_topexPoseidon_prog>,
-        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_trmm_prog> ;
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_trmm_prog>,
+        <http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_uars_prog> ;
     skos:prefLabel "Platform Programme"@en .
 

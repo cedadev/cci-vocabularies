@@ -675,3 +675,19 @@ mapa:plat_sentinel6_prog skos:narrower mapb:plat_sentinel6b .
 
 mapb:plat_sentinel6b skos:broader mapa:plat_sentinel6_prog .
 
+mapa:plat_erbs_prog skos:narrower mapb:plat_erbs .
+
+mapb:plat_erbs skos:broader mapa:plat_erbs_prog .
+
+mapa:plat_uars_prog skos:narrower mapb:plat_uars .
+
+mapb:plat_uars skos:broader mapa:plat_uars_prog .
+
+mapa:plat_meteor3m_prog skos:narrower mapb:plat_meteor_3m .
+
+mapb:plat_meteor_3m skos:broader mapa:plat_meteor3m_prog .
+
+mapa:plat_iss_prog skos:narrower mapb:plat_iss_SAGEIII .
+
+mapb:plat_iss_SAGEIII skos:broader mapa:plat_iss_prog .
+

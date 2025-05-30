@@ -52,3 +52,7 @@ plat_oco_prog`Orbiting Carbon Observatory``NASA Orbiting Carbon Observatory prog
 plat_csk_prog`COSMO-SkyMed``COSMO-SkyMed programme`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/27
 plat_gpm_prog`Global Precipitation Measurement mission``Global Precipitation Measurement mission Programme`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/gpm
 plat_sentinel6_prog`Sentinel-6``Sentinel 6 programme`https://space.oscar.wmo.int/satelliteprogrammes/view/sentinel_6
+plat_erbs_prog`Earth Radiation Budget Satellite`ERBS`Earth Radiation Budget Satellite programme`https://space.oscar.wmo.int/satelliteprogrammes/view/erbs
+plat_uars_prog`Upper Atmosphere Research Satellite`UARS`Upper Atmosphere Research Satellite programme`https://space.oscar.wmo.int/satelliteprogrammes/view/uars
+plat_meteor3m_prog`Meteor-3M``Meteor-3M programme`https://space.oscar.wmo.int/satelliteprogrammes/view/meteor_3m
+plat_iss_prog`International Space Station`ISS`International Space Station`https://space.oscar.wmo.int/satelliteprogrammes/view/iss

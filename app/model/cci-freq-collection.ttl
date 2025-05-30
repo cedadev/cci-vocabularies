@@ -14,7 +14,7 @@
     rdfs:comment "This collection represents the frequencies used by the CCI project" ;
     dc:creator "Science and Technology Facilities Council" ;
     owl:versionInfo "0.0.1";
-    dc:date "2025-05-08" ;
+    dc:date "2025-05-30" ;
     dc:description "Temporal frequencies of data from the ESA Climate Change Initiative (CCI)." ;
     .
 

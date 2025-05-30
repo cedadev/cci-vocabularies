@@ -107,19 +107,11 @@ COLLECTION_MAP[GRIB] = GRIB_COLLECTION
 COLLECTION_MAP[GLOSSARY] = GLOSSARY_COLLECTION
 
 BASE_PATH = os.environ.get("BASE_PATH") or os.path.abspath(os.path.dirname(__file__))
-DATA_DIRECTORY = os.path.join(BASE_PATH, "..", "data")
 
-if os.environ.get("DEPLOY_PATH"):
-    DEPLOY_PATH     = os.environ.get("DEPLOY_PATH")
-    HTML_SOURCE     = os.path.join(BASE_PATH, "..", "html")
-    os.system(f'cp -R {HTML_SOURCE} {DEPLOY_PATH}')
-
-    CSV_DIRECTORY   = os.path.join(DEPLOY_PATH, "csv")
-    HTML_DIRECTORY  = os.path.join(DEPLOY_PATH, "html")
-    MODEL_DIRECTORY = os.path.join(DEPLOY_PATH, "model")
-else:
-    os.path.join(BASE_PATH, "..", "csv")
-    os.path.join(BASE_PATH, "..", "html")
-    os.path.join(BASE_PATH, "..", "model")
+DATA_DIRECTORY  = os.path.join(BASE_PATH, "..","data")
+HTML_SOURCE     = os.path.join(BASE_PATH, "..","app", "html")
+CSV_DIRECTORY   = os.path.join(BASE_PATH, "..","app", "csv")
+HTML_DIRECTORY  = os.path.join(BASE_PATH, "..","app", "html")
+MODEL_DIRECTORY = os.path.join(BASE_PATH, "..","app", "model")
 
 CITO = "http://purl.org/spar/cito/"

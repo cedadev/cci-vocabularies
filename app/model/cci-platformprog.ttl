@@ -707,3 +707,58 @@ cci_platformProg_coll: skos:member cci_platformProg_concept:plat_sentinel6_prog 
 
 cci_platformProg_scheme: skos:hasTopConcept cci_platformProg_concept:plat_sentinel6_prog .
 
+cci_platformProg_concept:plat_erbs_prog a skos:Concept, cci_ontology:platformProg;
+    skos:inScheme cci_platformProg_scheme: ;
+    skos:prefLabel "Earth Radiation Budget Satellite"@en ;
+    skos:altLabel "ERBS"@en ;
+    skos:definition "Earth Radiation Budget Satellite programme"@en ;
+    skos:scopeNote "Earth Radiation Budget Satellite programme"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/erbs> ;
+    skos:topConceptOf cci_platformProg_scheme: ;
+.
+
+cci_platformProg_coll: skos:member cci_platformProg_concept:plat_erbs_prog .
+
+cci_platformProg_scheme: skos:hasTopConcept cci_platformProg_concept:plat_erbs_prog .
+
+cci_platformProg_concept:plat_uars_prog a skos:Concept, cci_ontology:platformProg;
+    skos:inScheme cci_platformProg_scheme: ;
+    skos:prefLabel "Upper Atmosphere Research Satellite"@en ;
+    skos:altLabel "UARS"@en ;
+    skos:definition "Upper Atmosphere Research Satellite programme"@en ;
+    skos:scopeNote "Upper Atmosphere Research Satellite programme"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/uars> ;
+    skos:topConceptOf cci_platformProg_scheme: ;
+.
+
+cci_platformProg_coll: skos:member cci_platformProg_concept:plat_uars_prog .
+
+cci_platformProg_scheme: skos:hasTopConcept cci_platformProg_concept:plat_uars_prog .
+
+cci_platformProg_concept:plat_meteor3m_prog a skos:Concept, cci_ontology:platformProg;
+    skos:inScheme cci_platformProg_scheme: ;
+    skos:prefLabel "Meteor-3M"@en ;
+    skos:definition "Meteor-3M programme"@en ;
+    skos:scopeNote "Meteor-3M programme"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/meteor_3m> ;
+    skos:topConceptOf cci_platformProg_scheme: ;
+.
+
+cci_platformProg_coll: skos:member cci_platformProg_concept:plat_meteor3m_prog .
+
+cci_platformProg_scheme: skos:hasTopConcept cci_platformProg_concept:plat_meteor3m_prog .
+
+cci_platformProg_concept:plat_iss_prog a skos:Concept, cci_ontology:platformProg;
+    skos:inScheme cci_platformProg_scheme: ;
+    skos:prefLabel "International Space Station"@en ;
+    skos:altLabel "ISS"@en ;
+    skos:definition "International Space Station"@en ;
+    skos:scopeNote "International Space Station"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/iss> ;
+    skos:topConceptOf cci_platformProg_scheme: ;
+.
+
+cci_platformProg_coll: skos:member cci_platformProg_concept:plat_iss_prog .
+
+cci_platformProg_scheme: skos:hasTopConcept cci_platformProg_concept:plat_iss_prog .
+
