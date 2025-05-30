@@ -1,0 +1,193 @@
+URI`Pref Label`Alt Label`Definition`See Also
+prod_aatsr`AATSR```
+prod_aatsrEn`AATSR_ENVISAT``Data from AATSR on Envisat`
+prod_aatsrEns`AATSR-ENVISAT-ENS```
+prod_aatsrEnsdaily`AATSR-ENVISAT-ENS_DAILY```
+prod_aatsrEnsmonthly`AATSR-ENVISAT-ENS_MONTHLY```
+prod_aatsrEnsannual`AATSR-ENVISAT-ENS_ANNUAL```
+prod_aFS`ACE_FTS_SCISAT```
+prod_active`ACTIVE```
+prod_adv`ADV```
+prod_aergom`AERGOM```
+prod_alamo`ALAMO```
+prod_amsr`AMSR```
+prod_amsr25E`AMSR_25kmEASE2```
+prod_amsr50E`AMSR_50kmEASE2```
+prod_atsr1`ATSR1```
+prod_atsr2`ATSR2`ATSR-2``
+prod_atsr2Aatsr`ATSR2-AATSR```
+prod_atsr2Er2`ATSR2_ERS2```
+prod_atsr2ens`ATSR2-ENVISAT-ENS```
+prod_atsr2ensdaily`ATSR2-ENVISAT-ENS_DAILY```
+prod_atsr2ensmonthly`ATSR2-ENVISAT-ENS_MONTHLY```
+prod_atsr2ensannual`ATSR2-ENVISAT-ENS_ANNUAL```
+prod_avhrrMg`AVHRR_MERGED``Data from AVHRR, more than one platform`
+prod_avhrrNoaa`AVHRR_NOAA```
+prod_avhrr07G`AVHRR07_G```
+prod_avhrr09G`AVHRR09_G```
+prod_avhrr11G`AVHRR11_G```
+prod_avhrr12G`AVHRR12_G```
+prod_avhrr14G`AVHRR14_G```
+prod_avhrr15G`AVHRR15_G```
+prod_avhrr16G`AVHRR16_G```
+prod_avhrr17G`AVHRR17_G```
+prod_avhrr18G`AVHRR18_G```
+prod_avhrr19G`AVHRR19_G```
+prod_avhrrAm`AVHRR-AM```
+prod_avhrrPm`AVHRR-PM```
+prod_avhrrLtdr`AVHRR-LTDR```
+prod_avhrrmtag`AVHRRMTA_G```
+prod_besd`BESD``Data from the GHG BESD algorithm`
+prod_CryoSat2`CryoSat-2```
+prod_comb`COMBINED```
+prod_emma`EMMA``Data from the GHG EMMA algorithm`
+prod_envisat`Envisat```
+prod_eraModBias`ERA5_MODISLST_BIASCORRECTED``Permafrost dataset`
+prod_ers1`ERS-1```
+prod_ers2`ERS-2```
+prod_focal`FOCAL``Data from the GHG FOCAL algorithm`
+prod_gfo`GFO```
+prod_gmp`GMPEREAN```
+prod_gmpe`GMPE```
+prod_gomEn`GOMOS_ENVISAT```
+prod_gosat`GOSAT```
+prod_iasDLRImars`IASI_METOPA-DLR-IMARS``Aerosol data from IASI Metop-A using the DLR IMARS algorithm`
+prod_iasiLMDaero`IASI-METOPA-LMDAERO``Aerosol data from IASI Metop-A produced by LMD`
+prod_iasiMAPIR`IASI-METOPA-MAPIR``Aerosol data from IASI Metop-A using the MAPIR algorithm`
+prod_iasiULB`IASI-METOPA-ULB``Aersols data from IASI Metop-A produced by ULB`
+prod_imap`IMAP``Data from the GHG IMAP algorithm`
+prod_Jason1`Jason-1```
+prod_Jason2`Jason-2```
+prod_Jason3`Jason-3```
+prod_map`Map```
+prod_merged`MERGED``Data from more than one platform and/or sensor`
+prod_merg7dayDaily`MERGED_OI_7DAY_RUNNINGMEAN_DAILY_25km``Daily 7 day running mean from merged satellite data (salinity product)`
+prod_mergMon15day25km`MERGED_OI_Monthly_CENTRED_15Day_25km``15 day rolling monthly average from merged satellite data (salinity product)`
+prod_medSea`MED_SEA``Mediterranean sea`
+prod_merris`MERIS```
+prod_merris_envisat`MERIS_ENVISAT```
+prod_meAaEn`MERISAATSR_ENVISAT```
+prod_miEn`MIPAS_ENVISAT```
+prod_modAqu`MODIS_AQUA```
+prod_modis`MODIS```
+prod_modMg`MODIS_MERGED```
+prod_modTe`MODIS_TERRA```
+prod_modlstCryo`MODISLST_CRYOGRID``Permafrost dataset`
+prod_msaai`MSAAI```
+prod_msi`MSI```
+prod_msUvai`MS_UVAI```
+prod_multi1d`MULTI_1D```
+prod_multi1m`MULTI_1M```
+prod_mzm`MZM```
+prod_nInd`N_INDIAN``Northern Indian Oceean`
+prod_neAtl`NE_ATL``NE Atlantic`
+prod_nh`NH```
+prod_nh25kmease2`NH25KMEASE2```
+prod_ocfp`OCFP``Data from the GHG OCFP algorithm`
+prod_ocpr`OCPR``Data from the GHG OCPR algorithm`
+prod_opera`OPERA``Data from OPERA analysis`
+prod_orac`ORAC``Data from Oxford RAL Aerosol and Cloud algorithm`
+prod_osOd`OSIRIS_ODIN```
+prod_ostia`OSTIA```
+prod_parGrasp`PARASOL-GRASP```
+prod_passive`PASSIVE```
+prod_sAust`S_AUSTRALIA``South Australia`
+prod_saral`Saral```
+prod_sciam`SCIAMACHY```
+prod_sciamEn`SCIAMACHY_ENVISAT```
+prod_seAsia`SE_ASIA``South-east Asia`
+prod_sh`SH```
+prod_sh50kmease2`SH50KMEASE2```
+prod_smm`SMM```
+prod_smrOd`SMR_ODIN```
+prod_srfp`SRFP``Data from the GHG SRFP algorithm`
+prod_srpr`SRPR``Data from the GHG SRPR algorithm`
+prod_ssmi`SSMI```
+prod_su`SU```
+prod_topexPos`Topex-Poseidon```
+prod_var`VARIOUS```
+prod_wAfrica`WAFRICA``West Africa`
+prod_wfmd`WFMD``Data from the GHG WFMD algorithm`
+prod_change`CHANGE```
+prod_tcwvLand05`TCWV_land_05deg``0.5 degree total column water vapour over land`
+prod_tcwvLand005`TCWV_land_005deg``0.05deg total column water vapour over land`
+prod_ssmiS`SSMI_SSMIS``data derived from SSMI on DSMP-F13 and SSMI/S on DSMP-F17`
+prod_modA`MODISA``derived from MODIS aqua`
+prod_modT`MODIST``derived from MODIS terra`
+prod_atsr_2`ATSR_2``derived from ATSR-2 on ERS_2`
+prod_atsr3`ATSR_3``derived from AATSR on ENVISAT`
+prod_slstrA`SLSTRA``derived from SLSTR on Sentinel3A`
+prod_slstrB`SLSTRB``derived from SLSTR on Sentinel3B`
+prod_ircdr`IRCDR```
+prod_irmgp`IRMGP```
+prod_syn`SYN```
+prod_nimEsmrNH`NIMBUS5_ESMR-EASE2_NH```
+prod_nimEsmrSH`NIMBUS5_ESMR-EASE2_SH```
+prod_unspecified`UNSPECIFIED``unspecified product name`
+prod_combAdj`COMBINED_ADJUSTED```
+prod_reSSMINH`RE_SSMI_12.5kmEASE2-NH```
+prod_reSSMISH`RE_SSMI_12.5kmEASE2-SH```
+prod_clim`Climatology```
+prod_cl01A01`CL01-A01``CL01 layer from high resolution land cover for region A01 - Tiles`
+prod_cl01A01Mos`CL01-A01MOSAIC``CL01 layer from high resolution land cover for region A01 - Mosaics`
+prod_cl01A02`CL01-A02``CL01 layer from high resolution land cover for region A02 - Tiles`
+prod_cl01A02Mos`CL01-A02MOSAIC``CL01 layer from high resolution land cover for region A02 - Mosaics`
+prod_cl01A03`CL01-A03``CL01 layer from high resolution land cover for region A03 - Tiles`
+prod_cl01A03Mos`CL01-A03MOSAIC``CL01 layer from high resolution land cover for region A03 - Mosaics`
+prod_CL02A01`CL02-A01``CL02 layer from high resolution land cover for region A01 - Tiles`
+prod_CL02A01Mos`CL02-A01MOSAIC``CL02 layer from high resolution land cover for region A01 - Mosaics`
+prod_CL02A02`CL02-A02``CL02 layer from high resolution land cover for region A02 - Tiles`
+prod_CL02A02Mos`CL02-A02MOSAIC``CL02 layer from high resolution land cover for region A02 - Mosaics`
+prod_CL02A03`CL02-A03``CL02 layer from high resolution land cover for region A03 - Tiles`
+prod_CL02A03Mos`CL02-A03MOSAIC``CL02 layer from high resolution land cover for region A03 - Mosaics`
+prod_IQIXA01`IQIX-A01``IQIX layer from high resolution land cover for region A01 - Tiles`
+prod_IQIXA01Mos`IQIX-A01MOSAIC``IQIX layer from high resolution land cover for region A01 - Mosaics`
+prod_IQIXA02`IQIX-A02``IQIX layer from high resolution land cover for region A02 - Tiles`
+prod_IQIXA02Mos`IQIX-A02MOSAIC``IQIX layer from high resolution land cover for region A02 - Mosaics`
+prod_IQIXA03`IQIX-A03``IQIX layer from high resolution land cover for region A03 - Tiles`
+prod_IQIXA03Mos`IQIX-A03MOSAIC``IQIX layer from high resolution land cover for region A03 - Mosaics`
+prod_PS01A01`PS01-A01``PS01 layer from high resolution land cover for region A01 - Tiles`
+prod_PS01A01Mos`PS01-A01MOSAIC``PS01 layer from high resolution land cover for region A01 - Mosaics`
+prod_PS01A02`PS01-A02``PS01 layer from high resolution land cover for region A02 - Tiles`
+prod_PS01A02Mos`PS01-A02MOSAIC``PS01 layer from high resolution land cover for region A02 - Mosaics`
+prod_PS01A03`PS01-A03``PS01 layer from high resolution land cover for region A03 - Tiles`
+prod_PS01A03Mos`PS01-A03MOSAIC``PS01 layer from high resolution land cover for region A03 - Mosaics`
+prod_PS02A01`PS02-A01``PS02 layer from high resolution land cover for region A01 - Tiles`
+prod_PS02A01Mos`PS02-A01MOSAIC``PS02 layer from high resolution land cover for region A01 - Mosaics`
+prod_PS02A02`PS02-A02``PS02 layer from high resolution land cover for region A02 - Tiles`
+prod_PS02A02Mos`PS02-A02MOSAIC``PS02 layer from high resolution land cover for region A02 - Mosaics`
+prod_PS02A03`PS02-A03``PS02 layer from high resolution land cover for region A03 - Tiles`
+prod_PS02A03Mos`PS02-A03MOSAIC``PS02 layer from high resolution land cover for region A03 - Mosaics`
+prod_PolMerg7dayNh`POLAR-MERGED_OI_7DAY_RUNNINGMEAN_DAILY_25kmEASE2-NH``Daily 7 day running mean on a 25km EASE2 grid for the NH (salinity product)`
+prod_PolMerg7daySh`POLAR-MERGED_OI_7DAY_RUNNINGMEAN_DAILY_25kmEASE2-SH``Daily 7 day running mean on a 25km EASE2 grid for the SH (salinity product)`
+prod_GlobMerg7day`GLOBAL-MERGED_OI_7DAY_RUNNINGMEAN_DAILY_0.25deg``Daily 7 day running mean on a globl 0.25 degree grid for the SH (salinity product)`
+prod_GlobMergCent`GLOBAL-MERGED_OI_Monthly_CENTRED_15Day_0.25deg``Monthly running mean on a global 0.25degree grid`
+prod_PolMergCentNH`POLAR-MERGED_OI_Monthly_CENTRED_15Day_25kmEASE2-NH``Monthly running mean on a global 0.25degree grid`
+prod_PolMergCentSH`POLAR-MERGED_OI_Monthly_CENTRED_15Day_25kmEASE2-SH``Monthly running mean on a global 0.25degree grid`
+prod_AvhrMa`AVHRMA```
+prod_Diff`DIFF```
+prod_HRLC10A01`HRLC10-A01``high resolution land cover static product for region A01`
+prod_HRLC10A02`HRLC10-A02``high resolution land cover static product for region A02`
+prod_HRLC10A03`HRLC10-A03``high resolution land cover static product for region A03`
+prod_HRLC30A01`HRLC30-A01``high resolution land cover historical map product for region A01`
+prod_HRLC30A02`HRLC30-A02``high resolution land cover historical map product for region A02`
+prod_HRLC30A03`HRLC30-A03``high resolution land cover historical map product for region A03`
+prod_HRLCC30A01`HRLCC30-A01``high resolution land cover historical change product for region A01`
+prod_HRLCC30A02`HRLCC30-A02``high resolution land cover historical change product for region A02`
+prod_HRLCC30A03`HRLCC30-A03``high resolution land cover historical change product for region A03`
+prod_AvhrrMetopA`AVHRR_METOPA```
+prod_AvhrrMetopB`AVHRR_METOPB```
+prod_AvhrrMetopC`AVHRR_METOPC```
+prod_AvhrrNoaa10`AVHRR_NOAA10```
+prod_AvhrrNoaa11`AVHRR_NOAA11```
+prod_AvhrrNoaa12`AVHRR_NOAA12```
+prod_AvhrrNoaa14`AVHRR_NOAA14```
+prod_AvhrrNoaa16`AVHRR_NOAA16```
+prod_AvhrrNoaa17`AVHRR_NOAA17```
+prod_AvhrrNoaa18`AVHRR_NOAA18```
+prod_AvhrrNoaa19`AVHRR_NOAA19```
+prod_AvhrrNoaa6`AVHRR_NOAA6```
+prod_AvhrrNoaa7`AVHRR_NOAA7```
+prod_AvhrrNoaa8`AVHRR_NOAA8```
+prod_AvhrrNoaa9`AVHRR_NOAA9```
+prod_AvhrrTirosN`AVHRR_TIROSN```

@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cci-vocabularies"
-dynamic = ["version"]
 version = "1.0"
 dependencies = [
   "openpyxl",
   "pandas",
-  "rdflib-jsonld",
+  "rdflib (>=6.0.1)",
 ]
+requires-python = ">=3.9,<4.0"
 
 [project.scripts]
 cci-vocab = "vocabularies.all:main"

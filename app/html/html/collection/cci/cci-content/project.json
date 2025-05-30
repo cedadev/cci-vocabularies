@@ -1,0 +1,133 @@
+[
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/project",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://purl.org/dc/elements/1.1/creator": [
+      {
+        "@value": "Science and Technology Facilities Council"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/date": [
+      {
+        "@value": "2025-04-07"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/description": [
+      {
+        "@value": "The different projects within the ESA Climate Change Initiative (CCI)."
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/publisher": [
+      {
+        "@language": "en",
+        "@value": "STFC"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/rights": [
+      {
+        "@language": "en",
+        "@value": "This work is licensed under a BSD license."
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "@value": "Project"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "This collection represents the projects within the CCI project"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "0.0.1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The different projects within the ESA Climate Change Initiative (CCI)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_iceSheet"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_cloud"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_vegParam"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_aerosol"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_glaciers"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_lakes"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ghg"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_biomass"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_sst"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_landSurfTemp"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_waterVapour"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_fire"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_landCov"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaState"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaIce"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Project"
+      }
+    ]
+  }
+]

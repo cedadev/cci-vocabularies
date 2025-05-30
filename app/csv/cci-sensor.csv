@@ -1,0 +1,101 @@
+URI`Pref Label`Alt Label`Definition`See Also
+sens_aatsr`AATSR``Advanced Along-Track Scanning Radiometer`http://www.wmo-sat.info/oscar/instruments/view/2
+sens_aceFts`ACE-FTS``Advanced Composition Explorer Fourier Transform Spectrometer`http://www.wmo-sat.info/oscar/instruments/view/6
+sens_airs`AIRS``Atmospheric Infra-Red Sounder`http://www.wmo-sat.info/oscar/instruments/view/16
+sens_amisar`AMI-SAR``Active Microwave Instrument - Synthetic Aperture Antenna`http://www.wmo-sat.info/oscar/instruments/view/23
+sens_amiscat`AMI-SCAT`AMI-WS`Active Microwave Instrument – Scatterometer`http://www.wmo-sat.info/oscar/instruments/view/24
+sens_amsr2`AMSR2``Advanced Microwave Scanning Radiometer`http://www.wmo-sat.info/oscar/instruments/view/28
+sens_amsre`AMSRE``Advanced Microwave Scanning Radiometer for Earth Observation from Space`http://www.wmo-sat.info/oscar/instruments/view/29
+sens_amsua`AMSU-A``Advanced microwave sounding unit – A`http://www.wmo-sat.info/oscar/instruments/view/30
+sens_amsub`AMSU-B``Advanced microwave sounding unit – B`http://www.wmo-sat.info/oscar/instruments/view/33
+sens_asar`ASAR``Advanced Synthetic Aperture Radar`http://www.wmo-sat.info/oscar/instruments/view/44
+sens_ascat`ASCAT``Advanced SCATterometer`http://www.wmo-sat.info/oscar/instruments/view/47
+sens_aster`ASTER``Advanced Spaceborne Thermal Emission and Reflection Radiometer`http://www.wmo-sat.info/oscar/instruments/view/50
+sens_atsr`ATSR``Along Track Scanning Radiometer`http://www.wmo-sat.info/oscar/instruments/view/55
+sens_atsr2`ATSR-2``Along Track Scanning Radiometer – 2`http://www.wmo-sat.info/oscar/instruments/view/56
+sens_avhrr`AVHRR``Advanced Very High Resolution Radiometer`http://www.wmo-sat.info/oscar/instruments/view/60
+sens_avhrr2`AVHRR-2``Advanced Very High Resolution Radiometer / 2`http://www.wmo-sat.info/oscar/instruments/view/61
+sens_avhrr3`AVHRR-3``Advanced Very High Resolution Radiometer / 3`http://www.wmo-sat.info/oscar/instruments/view/62
+sens_etmplus`ETM+``Enhanced Thematic Mapper Plus`http://www.wmo-sat.info/oscar/instruments/view/136
+sens_gfora`GFO-RA``Geosat Follow-On`http://www.wmo-sat.info/oscar/instruments/view/154
+sens_glas`GLAS``Geoscience Laser Altimeter System`http://www.wmo-sat.info/oscar/instruments/view/155
+sens_goesImager811`GOES-Imager-8-11``GOES IMAGER (8-11)`http://www.wmo-sat.info/oscar/instruments/view/217
+sens_goesImager1215`GOES-Imager-12-15``GOES IMAGER (12-15)`http://www.wmo-sat.info/oscar/instruments/view/879
+sens_gome`GOME``Global Monitoring of Atmospheric Ozone`http://www.wmo-sat.info/oscar/instruments/view/166
+sens_gome2`GOME-2``Global Monitoring of Atmospheric Ozone 2`http://www.wmo-sat.info/oscar/instruments/view/167
+sens_gomos`GOMOS``Global Ozone Monitoring by Occultation of Stars`http://www.wmo-sat.info/oscar/instruments/view/168
+sens_hrs`HRS``High-Resolution Stereoscope`http://www.wmo-sat.info/oscar/instruments/view/193
+sens_iasi`IASI``Infra-Red Atmospheric Sounding Interferometer`http://www.wmo-sat.info/oscar/instruments/view/207
+sens_jami`JAMI``Japanese Advanced Meteorological Imager`http://www.wmo-sat.info/oscar/instruments/view/236
+sens_meris`MERIS``Medium-Spectral Resolution, Imaging Spectrometer`http://www.wmo-sat.info/oscar/instruments/view/277
+sens_mipas`MIPAS``Michelson Interferometer for Passive Atmospheric Sounding`http://www.wmo-sat.info/oscar/instruments/view/286
+sens_modis`MODIS``Moderate Resolution Imaging Spectroradiometer`http://www.wmo-sat.info/oscar/instruments/view/296
+sens_mss`MSS``Multi-Spectral Scanner`http://www.wmo-sat.info/oscar/instruments/view/316
+sens_mwri`MWRI``Micro-Wave Radiation Imager`http://www.wmo-sat.info/oscar/instruments/view/350
+sens_oli`OLI``Operational Land Image`http://www.wmo-sat.info/oscar/instruments/view/375
+sens_omi`OMI``Ozone Monitoring Instrument`http://www.wmo-sat.info/oscar/instruments/view/377
+sens_osiris`OSIRIS``Optical Spectrograph and Infra-Red Imager System`http://www.wmo-sat.info/oscar/instruments/view/383
+sens_palsar`PALSAR``Phased Array type L-band Synthetic Aperture Radar`http://www.wmo-sat.info/oscar/instruments/view/387
+sens_polder`POLDER``POLarization and Directionality of the Earth's Reflectances`http://www.wmo-sat.info/oscar/instruments/view/405
+sens_ssalt`SSALT`Poseidon-1`Single-frequency Solid-state Altimeter`http://www.wmo-sat.info/oscar/instruments/view/531
+sens_poseidon2`Poseidon-2``Poseidon 2`http://www.wmo-sat.info/oscar/instruments/view/406
+sens_poseidon3`Poseidon-3``Poseidon 3`http://www.wmo-sat.info/oscar/instruments/view/407
+sens_ra`RA``Radar Altimeter`http://www.wmo-sat.info/oscar/instruments/view/415
+sens_ra2`RA-2``Radar Altimeter`http://www.wmo-sat.info/oscar/instruments/view/416
+sens_sarX`SAR-X``Synthetic Aperture Radar X-band`http://www.wmo-sat.info/oscar/instruments/view/459
+sens_sciamachy`SCIAMACHY``SCanning Imaging Absorption spectroMeter for AtmosphericCHartographY`http://www.wmo-sat.info/oscar/instruments/view/477 http://www.wmo-sat.info/oscar/instruments/view/478
+sens_seaWiFs`SeaWiFS``Sea-viewing Wide Field-of-view Sensor`http://www.wmo-sat.info/oscar/instruments/view/481
+sens_seviri`SEVIRI``Spinning Enhanced Visible and Infrared Imager`http://www.wmo-sat.info/oscar/instruments/view/503
+sens_smmr`SMMR``Scanning Multichannel Microwave Radiometer`http://www.wmo-sat.info/oscar/instruments/view/522
+sens_smr`SMR``Sub-Millimetre Radiometer`http://www.wmo-sat.info/oscar/instruments/view/524
+sens_ssmI`SSM/I`SSMI`Special Sensor Microwave Imager`http://www.wmo-sat.info/oscar/instruments/view/533
+sens_ssmiS`SSMI/S`SSMIS`Special Sensor Microwave Imager Sounder`http://www.wmo-sat.info/oscar/instruments/view/536
+sens_tansoCai`TANSO-CAI``Thermal And Near-infrared Sensor for carbon Observation Cloud and Aerosol Imager`http://www.wmo-sat.info/oscar/instruments/view/553
+sens_tansoFts`TANSO-FTS``Thermal And Near-infrared Sensor for carbon Observation Fourier Transform Spectrometer`http://www.wmo-sat.info/oscar/instruments/view/554
+sens_tirs`TIRS``Thermal Infrared Sensor`http://www.wmo-sat.info/oscar/instruments/view/567
+sens_tm`TM``Thematic Mapper`http://www.wmo-sat.info/oscar/instruments/view/568
+sens_tmi`TMI``TRMM Microwave Imager`http://www.wmo-sat.info/oscar/instruments/view/569
+sens_vegetation`VEGETATION`Végétation`Vegetation observation`http://www.wmo-sat.info/oscar/instruments/view/594
+sens_windSat`WindSat``Polarimetric microwave radiometer`http://www.wmo-sat.info/oscar/instruments/view/623
+sens_altika`AltiKa``CNES Ka-band Altimeter`https://www.wmo-sat.info/oscar/instruments/view/21
+sens_viirs`VIIRS``Visible/Infrared Imager Radiometer Suite`https://www.wmo-sat.info/oscar/instruments/view/604
+sens_siral`SIRAL``SAR Interferometer Radar Altimeter`https://www.wmo-sat.info/oscar/instruments/view/509
+sens_miras`MIRAS``Microwave Imaging Radiometer using Aperture Synthesis`https://www.wmo-sat.info/oscar/instruments/view/287
+sens_mviri`MVIRI``Meteosat Visible Infra-red Imager`https://www.wmo-sat.info/oscar/instruments/view/337
+sens_hirs`HIRS``High-Resolution Infra-Red Sounder`https://www.wmo-sat.info/oscar/instruments/view/181
+sens_hirs2`HIRS/2``High-Resolution Infra-Red Sounder / 2`https://www.wmo-sat.info/oscar/instruments/view/182
+sens_hirs3`HIRS/3``High-Resolution Infra-Red Sounder / 3`https://www.wmo-sat.info/oscar/instruments/view/183
+sens_hirs4`HIRS/4``High-Resolution Infra-Red Sounder /4`https://www.wmo-sat.info/oscar/instruments/view/184
+sens_sarcS1`SAR-C (Sentinel-1)``Synthetic Aperture Radar (C-band)`https://www.wmo-sat.info/oscar/instruments/view/450
+sens_vegetationP`Végétation-P`Vegetation-P`Végétation for PROBA`https://www.wmo-sat.info/oscar/instruments/view/961
+sens_msi`MSI (Sentinel-2)`MSI`Multi-Spectral Instrument (Sentinel-2)`https://www.wmo-sat.info/oscar/instruments/view/312
+sens_smap`SMAP``Soil Moisture Active-Passive (intended as payload)`https://www.wmo-sat.info/oscar/instruments/view/521
+sens_palsar2`PALSAR-2``Phased Array type L-band Synthetic Aperture Radar – 2`https://www.wmo-sat.info/oscar/instruments/view/388
+sens_poseidon3b`Poseidon-3B``Poseidon 3b`https://www.wmo-sat.info/oscar/instruments/view/408
+sens_sarRadarSat2`SAR (RadarSat-2)``Synthetic Aperture Radar (C-band)`http://www.wmo-sat.info/oscar/instruments/view/445
+sens_aquarius`Aquarius``Aquarius`https://www.wmo-sat.info/oscar/instruments/view/41
+sens_toms`TOMS``Total Ozone Mapping Spectrometer`https://www.wmo-sat.info/oscar/instruments/view/571
+sens_nra`NRA`TOPEX`NASA Radar Altimeter`https://www.wmo-sat.info/oscar/instruments/view/1016
+sens_grace`GRACE instrument`GRACE`GRACE instrument`https://www.wmo-sat.info/oscar/instruments/view/469 https://www.wmo-sat.info/oscar/instruments/view/269
+sens_tropomi`TROPOMI``Tropospheric Monitoring Instrument`https://www.wmo-sat.info/oscar/instruments/view/586
+sens_oco`OCO``Orbiting Carbon Observatory`https://www.wmo-sat.info/oscar/instruments/view/368
+sens_sral`SRAL``Synthetic Aperture Radar Altimeter`https://www.wmo-sat.info/oscar/instruments/view/530
+sens_olci`OLCI``Ocean and Land Colour Imager`https://www.wmo-sat.info/oscar/instruments/view/374
+sens_slstr`SLSTR``Sea and Land Surface Temperature Radiometer`https://www.wmo-sat.info/oscar/instruments/view/518
+sens_unspecified`Unspecified``Unspecified sensor`
+sens_sar2000`SAR-2000``Synthetic Aperture Radar 2000 (X-band)`https://www.wmo-sat.info/oscar/instruments/view/447
+sens_gmi`GMI`GMI (core)`GPM Microwave Imager`https://www.wmo-sat.info/oscar/instruments/view/gmi_core
+sens_virr`VIRR`VIRR (FY-3)`Visible and Infra-Red Radiometer`https://www.wmo-sat.info/oscar/instruments/view/virr_fy_3
+sens_imagerMtsat2`IMAGER (MTSAT-2)``MTSAT-2 Imager`https://space.oscar.wmo.int/instruments/view/imager_mtsat_2
+sens_abi`ABI``Advanced Baseline Imager`https://space.oscar.wmo.int/instruments/view/abi
+sens_esmrNim5`ESMR (Nimbus-5)``Electrically Scanning Microwave Radiometer (Nimbus-6)`https://space.oscar.wmo.int/instruments/view/esmr_nimbus_5
+sens_esmrNim6`ESMR (Nimbus-6)``Electrically Scanning Microwave Radiometer (Nimbus-5)`https://space.oscar.wmo.int/instruments/view/esmr_nimbus_6
+sens_tansoFts2`TANSO-FTS-2``Thermal And Near infrared Sensor for carbon Observations - Fourier Transform Spectrometer / 2`https://space.oscar.wmo.int/instruments/view/tanso_fts_2
+sens_poseidon4`Poseidon-4``Poseidon-4`https://space.oscar.wmo.int/instruments/view/poseidon_4
+sens_sageII`SAGE-II``Stratospheric Aerosol and Gas Experiment - II`https://space.oscar.wmo.int/instruments/view/sage_ii
+sens_mls`MLS``Microwave Limb Sounder on UARS`https://space.oscar.wmo.int/instruments/view/mls
+sens_mlsAura`MLS (EOS-AURA)``Microwave Limb Sounder on EOS AURA`https://space.oscar.wmo.int/instruments/view/mls_eos_aura
+sens_poam`POAM``Polar Ozone and Aerosol Measurement `https://space.oscar.wmo.int/instruments/view/poam
+sens_sageIII`SAGE-III``Stratospheric Aerosol and Gas Experiment - III`https://space.oscar.wmo.int/instruments/view/sage_iii
+sens_haloe`HALOE``Halogen Occultation Experiment`https://space.oscar.wmo.int/instruments/view/haloe
+sens_maestro`MAESTRO``Measurements of Aerosol Extinction in the Stratosphere and Troposphere retrieved by Occultation`https://space.oscar.wmo.int/instruments/view/maestro

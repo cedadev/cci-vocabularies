@@ -1,0 +1,693 @@
+@prefix mapa: <http://vocab.ceda.ac.uk/collection/cci/platformProg/> .
+@prefix mapb: <http://vocab.ceda.ac.uk/collection/cci/platform/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+mapa:plat_alos_prog skos:narrower mapb:plat_alos .
+
+mapb:plat_alos skos:broader mapa:plat_alos_prog .
+
+mapa:plat_alos_prog skos:narrower mapb:plat_alos-2 .
+
+mapb:plat_alos-2 skos:broader mapa:plat_alos_prog .
+
+mapa:plat_alos_prog skos:narrower mapb:plat_alos-3 .
+
+mapb:plat_alos-3 skos:broader mapa:plat_alos_prog .
+
+mapa:plat_coriolis_prog skos:narrower mapb:plat_coriolis .
+
+mapb:plat_coriolis skos:broader mapa:plat_coriolis_prog .
+
+mapa:plat_dmsp_5D1 skos:narrower mapb:plat_dmsp_F01 .
+
+mapb:plat_dmsp_F01 skos:broader mapa:plat_dmsp_5D1 .
+
+mapa:plat_dmsp_5D1 skos:narrower mapb:plat_dmsp_F02 .
+
+mapb:plat_dmsp_F02 skos:broader mapa:plat_dmsp_5D1 .
+
+mapa:plat_dmsp_5D1 skos:narrower mapb:plat_dmsp_F03 .
+
+mapb:plat_dmsp_F03 skos:broader mapa:plat_dmsp_5D1 .
+
+mapa:plat_dmsp_5D1 skos:narrower mapb:plat_dmsp_F04 .
+
+mapb:plat_dmsp_F04 skos:broader mapa:plat_dmsp_5D1 .
+
+mapa:plat_dmsp_5D1 skos:narrower mapb:plat_dmsp_F05 .
+
+mapb:plat_dmsp_F05 skos:broader mapa:plat_dmsp_5D1 .
+
+mapa:plat_dmsp_5D2 skos:narrower mapb:plat_dmsp_F06 .
+
+mapb:plat_dmsp_F06 skos:broader mapa:plat_dmsp_5D2 .
+
+mapa:plat_dmsp_5D2 skos:narrower mapb:plat_dmsp_F07 .
+
+mapb:plat_dmsp_F07 skos:broader mapa:plat_dmsp_5D2 .
+
+mapa:plat_dmsp_5D2 skos:narrower mapb:plat_dmsp_F08 .
+
+mapb:plat_dmsp_F08 skos:broader mapa:plat_dmsp_5D2 .
+
+mapa:plat_dmsp_5D2 skos:narrower mapb:plat_dmsp_F09 .
+
+mapb:plat_dmsp_F09 skos:broader mapa:plat_dmsp_5D2 .
+
+mapa:plat_dmsp_5D2 skos:narrower mapb:plat_dmsp_F10 .
+
+mapb:plat_dmsp_F10 skos:broader mapa:plat_dmsp_5D2 .
+
+mapa:plat_dmsp_5D2 skos:narrower mapb:plat_dmsp_F11 .
+
+mapb:plat_dmsp_F11 skos:broader mapa:plat_dmsp_5D2 .
+
+mapa:plat_dmsp_5D2 skos:narrower mapb:plat_dmsp_F12 .
+
+mapb:plat_dmsp_F12 skos:broader mapa:plat_dmsp_5D2 .
+
+mapa:plat_dmsp_5D2 skos:narrower mapb:plat_dmsp_F13 .
+
+mapb:plat_dmsp_F13 skos:broader mapa:plat_dmsp_5D2 .
+
+mapa:plat_dmsp_5D2 skos:narrower mapb:plat_dmsp_F14 .
+
+mapb:plat_dmsp_F14 skos:broader mapa:plat_dmsp_5D2 .
+
+mapa:plat_dmsp_5D3 skos:narrower mapb:plat_dmsp_F15 .
+
+mapb:plat_dmsp_F15 skos:broader mapa:plat_dmsp_5D3 .
+
+mapa:plat_dmsp_5D3 skos:narrower mapb:plat_dmsp_F16 .
+
+mapb:plat_dmsp_F16 skos:broader mapa:plat_dmsp_5D3 .
+
+mapa:plat_dmsp_5D3 skos:narrower mapb:plat_dmsp_F17 .
+
+mapb:plat_dmsp_F17 skos:broader mapa:plat_dmsp_5D3 .
+
+mapa:plat_dmsp_5D3 skos:narrower mapb:plat_dmsp_F18 .
+
+mapb:plat_dmsp_F18 skos:broader mapa:plat_dmsp_5D3 .
+
+mapa:plat_dmsp_5D3 skos:narrower mapb:plat_dmsp_F19 .
+
+mapb:plat_dmsp_F19 skos:broader mapa:plat_dmsp_5D3 .
+
+mapa:plat_dmsp_5D3 skos:narrower mapb:plat_dmsp_S20 .
+
+mapb:plat_dmsp_S20 skos:broader mapa:plat_dmsp_5D3 .
+
+mapa:plat_envisat_prog skos:narrower mapb:plat_envisat .
+
+mapb:plat_envisat skos:broader mapa:plat_envisat_prog .
+
+mapa:plat_eos skos:narrower mapb:plat_aqua .
+
+mapb:plat_aqua skos:broader mapa:plat_eos .
+
+mapa:plat_eos skos:narrower mapb:plat_aura .
+
+mapb:plat_aura skos:broader mapa:plat_eos .
+
+mapa:plat_eos skos:narrower mapb:plat_terra .
+
+mapb:plat_terra skos:broader mapa:plat_eos .
+
+mapa:plat_ers skos:narrower mapb:plat_ers1 .
+
+mapb:plat_ers1 skos:broader mapa:plat_ers .
+
+mapa:plat_ers skos:narrower mapb:plat_ers2 .
+
+mapb:plat_ers2 skos:broader mapa:plat_ers .
+
+mapa:plat_fengyun3 skos:narrower mapb:plat_FY-3A .
+
+mapb:plat_FY-3A skos:broader mapa:plat_fengyun3 .
+
+mapa:plat_fengyun3 skos:narrower mapb:plat_FY-3B .
+
+mapb:plat_FY-3B skos:broader mapa:plat_fengyun3 .
+
+mapa:plat_fengyun3 skos:narrower mapb:plat_FY-3C .
+
+mapb:plat_FY-3C skos:broader mapa:plat_fengyun3 .
+
+mapa:plat_fengyun3 skos:narrower mapb:plat_FY-3D .
+
+mapb:plat_FY-3D skos:broader mapa:plat_fengyun3 .
+
+mapa:plat_fengyun3 skos:narrower mapb:plat_FY-3E .
+
+mapb:plat_FY-3E skos:broader mapa:plat_fengyun3 .
+
+mapa:plat_fengyun3 skos:narrower mapb:plat_FY-3F .
+
+mapb:plat_FY-3F skos:broader mapa:plat_fengyun3 .
+
+mapa:plat_fengyun3 skos:narrower mapb:plat_FY-3G .
+
+mapb:plat_FY-3G skos:broader mapa:plat_fengyun3 .
+
+mapa:plat_gcom skos:narrower mapb:plat_gcomW1 .
+
+mapb:plat_gcomW1 skos:broader mapa:plat_gcom .
+
+mapa:plat_gcom skos:narrower mapb:plat_gcomW2 .
+
+mapb:plat_gcomW2 skos:broader mapa:plat_gcom .
+
+mapa:plat_gcom skos:narrower mapb:plat_gcomW3 .
+
+mapb:plat_gcomW3 skos:broader mapa:plat_gcom .
+
+mapa:plat_geodetic skos:narrower mapb:plat_geosat .
+
+mapb:plat_geosat skos:broader mapa:plat_geodetic .
+
+mapa:plat_geodetic skos:narrower mapb:plat_gfo .
+
+mapb:plat_gfo skos:broader mapa:plat_geodetic .
+
+mapa:plat_goes_1st skos:narrower mapb:plat_goes_01 .
+
+mapb:plat_goes_01 skos:broader mapa:plat_goes_1st .
+
+mapa:plat_goes_1st skos:narrower mapb:plat_goes_02 .
+
+mapb:plat_goes_02 skos:broader mapa:plat_goes_1st .
+
+mapa:plat_goes_1st skos:narrower mapb:plat_goes_03 .
+
+mapb:plat_goes_03 skos:broader mapa:plat_goes_1st .
+
+mapa:plat_goes_1st skos:narrower mapb:plat_goes_04 .
+
+mapb:plat_goes_04 skos:broader mapa:plat_goes_1st .
+
+mapa:plat_goes_1st skos:narrower mapb:plat_goes_05 .
+
+mapb:plat_goes_05 skos:broader mapa:plat_goes_1st .
+
+mapa:plat_goes_1st skos:narrower mapb:plat_goes_06 .
+
+mapb:plat_goes_06 skos:broader mapa:plat_goes_1st .
+
+mapa:plat_goes_1st skos:narrower mapb:plat_goes_07 .
+
+mapb:plat_goes_07 skos:broader mapa:plat_goes_1st .
+
+mapa:plat_goes_2nd skos:narrower mapb:plat_goes_08 .
+
+mapb:plat_goes_08 skos:broader mapa:plat_goes_2nd .
+
+mapa:plat_goes_2nd skos:narrower mapb:plat_goes_09 .
+
+mapb:plat_goes_09 skos:broader mapa:plat_goes_2nd .
+
+mapa:plat_goes_2nd skos:narrower mapb:plat_goes_09_bk .
+
+mapb:plat_goes_09_bk skos:broader mapa:plat_goes_2nd .
+
+mapa:plat_goes_2nd skos:narrower mapb:plat_goes_10 .
+
+mapb:plat_goes_10 skos:broader mapa:plat_goes_2nd .
+
+mapa:plat_goes_2nd skos:narrower mapb:plat_goes_10_SA .
+
+mapb:plat_goes_10_SA skos:broader mapa:plat_goes_2nd .
+
+mapa:plat_goes_2nd skos:narrower mapb:plat_goes_11 .
+
+mapb:plat_goes_11 skos:broader mapa:plat_goes_2nd .
+
+mapa:plat_goes_2nd skos:narrower mapb:plat_goes_12 .
+
+mapb:plat_goes_12 skos:broader mapa:plat_goes_2nd .
+
+mapa:plat_goes_2nd skos:narrower mapb:plat_goes_12_SA .
+
+mapb:plat_goes_12_SA skos:broader mapa:plat_goes_2nd .
+
+mapa:plat_goes_2nd skos:narrower mapb:plat_goes_13 .
+
+mapb:plat_goes_13 skos:broader mapa:plat_goes_2nd .
+
+mapa:plat_goes_2nd skos:narrower mapb:plat_goes_14 .
+
+mapb:plat_goes_14 skos:broader mapa:plat_goes_2nd .
+
+mapa:plat_goes_2nd skos:narrower mapb:plat_goes_15 .
+
+mapb:plat_goes_15 skos:broader mapa:plat_goes_2nd .
+
+mapa:plat_goes_3rd skos:narrower mapb:plat_goes_16 .
+
+mapb:plat_goes_16 skos:broader mapa:plat_goes_3rd .
+
+mapa:plat_goes_3rd skos:narrower mapb:plat_goes_17 .
+
+mapb:plat_goes_17 skos:broader mapa:plat_goes_3rd .
+
+mapa:plat_goes_3rd skos:narrower mapb:plat_goes_T .
+
+mapb:plat_goes_T skos:broader mapa:plat_goes_3rd .
+
+mapa:plat_goes_3rd skos:narrower mapb:plat_goes_U .
+
+mapb:plat_goes_U skos:broader mapa:plat_goes_3rd .
+
+mapa:plat_gosat_prog skos:narrower mapb:plat_gosat .
+
+mapb:plat_gosat skos:broader mapa:plat_gosat_prog .
+
+mapa:plat_gosat_prog skos:narrower mapb:plat_gosat-2 .
+
+mapb:plat_gosat-2 skos:broader mapa:plat_gosat_prog .
+
+mapa:plat_himawari skos:narrower mapb:plat_himawari-6 .
+
+mapb:plat_himawari-6 skos:broader mapa:plat_himawari .
+
+mapa:plat_himawari skos:narrower mapb:plat_himawari-7 .
+
+mapb:plat_himawari-7 skos:broader mapa:plat_himawari .
+
+mapa:plat_icesat_prog skos:narrower mapb:plat_icesat .
+
+mapb:plat_icesat skos:broader mapa:plat_icesat_prog .
+
+mapa:plat_icesat_prog skos:narrower mapb:plat_icesat-2 .
+
+mapb:plat_icesat-2 skos:broader mapa:plat_icesat_prog .
+
+mapa:plat_jason skos:narrower mapb:plat_jason1 .
+
+mapb:plat_jason1 skos:broader mapa:plat_jason .
+
+mapa:plat_jason skos:narrower mapb:plat_jason2 .
+
+mapb:plat_jason2 skos:broader mapa:plat_jason .
+
+mapa:plat_jason skos:narrower mapb:plat_jason3 .
+
+mapb:plat_jason3 skos:broader mapa:plat_jason .
+
+mapa:plat_landsat skos:narrower mapb:plat_landsat_1 .
+
+mapb:plat_landsat_1 skos:broader mapa:plat_landsat .
+
+mapa:plat_landsat skos:narrower mapb:plat_landsat_2 .
+
+mapb:plat_landsat_2 skos:broader mapa:plat_landsat .
+
+mapa:plat_landsat skos:narrower mapb:plat_landsat_3 .
+
+mapb:plat_landsat_3 skos:broader mapa:plat_landsat .
+
+mapa:plat_landsat skos:narrower mapb:plat_landsat_4 .
+
+mapb:plat_landsat_4 skos:broader mapa:plat_landsat .
+
+mapa:plat_landsat skos:narrower mapb:plat_landsat_5 .
+
+mapb:plat_landsat_5 skos:broader mapa:plat_landsat .
+
+mapa:plat_landsat skos:narrower mapb:plat_landsat_6 .
+
+mapb:plat_landsat_6 skos:broader mapa:plat_landsat .
+
+mapa:plat_landsat skos:narrower mapb:plat_landsat_7 .
+
+mapb:plat_landsat_7 skos:broader mapa:plat_landsat .
+
+mapa:plat_landsat_dcm skos:narrower mapb:plat_landsat_8 .
+
+mapb:plat_landsat_8 skos:broader mapa:plat_landsat_dcm .
+
+mapa:plat_metop skos:narrower mapb:plat_metOpA .
+
+mapb:plat_metOpA skos:broader mapa:plat_metop .
+
+mapa:plat_metop skos:narrower mapb:plat_metOpB .
+
+mapb:plat_metOpB skos:broader mapa:plat_metop .
+
+mapa:plat_metop skos:narrower mapb:plat_metOpC .
+
+mapb:plat_metOpC skos:broader mapa:plat_metop .
+
+mapa:plat_msg skos:narrower mapb:plat_meteosat_8 .
+
+mapb:plat_meteosat_8 skos:broader mapa:plat_msg .
+
+mapa:plat_msg skos:narrower mapb:plat_meteosat_9 .
+
+mapb:plat_meteosat_9 skos:broader mapa:plat_msg .
+
+mapa:plat_msg skos:narrower mapb:plat_meteosat_10 .
+
+mapb:plat_meteosat_10 skos:broader mapa:plat_msg .
+
+mapa:plat_msg skos:narrower mapb:plat_meteosat_11 .
+
+mapb:plat_meteosat_11 skos:broader mapa:plat_msg .
+
+mapa:plat_nimbus skos:narrower mapb:plat_nimbus1 .
+
+mapb:plat_nimbus1 skos:broader mapa:plat_nimbus .
+
+mapa:plat_nimbus skos:narrower mapb:plat_nimbus2 .
+
+mapb:plat_nimbus2 skos:broader mapa:plat_nimbus .
+
+mapa:plat_nimbus skos:narrower mapb:plat_nimbus3 .
+
+mapb:plat_nimbus3 skos:broader mapa:plat_nimbus .
+
+mapa:plat_nimbus skos:narrower mapb:plat_nimbus4 .
+
+mapb:plat_nimbus4 skos:broader mapa:plat_nimbus .
+
+mapa:plat_nimbus skos:narrower mapb:plat_nimbus5 .
+
+mapb:plat_nimbus5 skos:broader mapa:plat_nimbus .
+
+mapa:plat_nimbus skos:narrower mapb:plat_nimbus6 .
+
+mapb:plat_nimbus6 skos:broader mapa:plat_nimbus .
+
+mapa:plat_nimbus skos:narrower mapb:plat_nimbus7 .
+
+mapb:plat_nimbus7 skos:broader mapa:plat_nimbus .
+
+mapa:plat_noaa_3rd skos:narrower mapb:plat_noaa_1 .
+
+mapb:plat_noaa_1 skos:broader mapa:plat_noaa_3rd .
+
+mapa:plat_noaa_3rd skos:narrower mapb:plat_noaa_2 .
+
+mapb:plat_noaa_2 skos:broader mapa:plat_noaa_3rd .
+
+mapa:plat_noaa_3rd skos:narrower mapb:plat_noaa_3 .
+
+mapb:plat_noaa_3 skos:broader mapa:plat_noaa_3rd .
+
+mapa:plat_noaa_3rd skos:narrower mapb:plat_noaa_4 .
+
+mapb:plat_noaa_4 skos:broader mapa:plat_noaa_3rd .
+
+mapa:plat_noaa_3rd skos:narrower mapb:plat_noaa_5 .
+
+mapb:plat_noaa_5 skos:broader mapa:plat_noaa_3rd .
+
+mapa:plat_noaa_4th skos:narrower mapb:plat_noaa_6 .
+
+mapb:plat_noaa_6 skos:broader mapa:plat_noaa_4th .
+
+mapa:plat_noaa_4th skos:narrower mapb:plat_noaa_7 .
+
+mapb:plat_noaa_7 skos:broader mapa:plat_noaa_4th .
+
+mapa:plat_noaa_4th skos:narrower mapb:plat_noaa_8 .
+
+mapb:plat_noaa_8 skos:broader mapa:plat_noaa_4th .
+
+mapa:plat_noaa_4th skos:narrower mapb:plat_noaa_9 .
+
+mapb:plat_noaa_9 skos:broader mapa:plat_noaa_4th .
+
+mapa:plat_noaa_4th skos:narrower mapb:plat_noaa_10 .
+
+mapb:plat_noaa_10 skos:broader mapa:plat_noaa_4th .
+
+mapa:plat_noaa_4th skos:narrower mapb:plat_noaa_11 .
+
+mapb:plat_noaa_11 skos:broader mapa:plat_noaa_4th .
+
+mapa:plat_noaa_4th skos:narrower mapb:plat_noaa_12 .
+
+mapb:plat_noaa_12 skos:broader mapa:plat_noaa_4th .
+
+mapa:plat_noaa_4th skos:narrower mapb:plat_noaa_13 .
+
+mapb:plat_noaa_13 skos:broader mapa:plat_noaa_4th .
+
+mapa:plat_noaa_4th skos:narrower mapb:plat_noaa_14 .
+
+mapb:plat_noaa_14 skos:broader mapa:plat_noaa_4th .
+
+mapa:plat_noaa_5th skos:narrower mapb:plat_noaa_15 .
+
+mapb:plat_noaa_15 skos:broader mapa:plat_noaa_5th .
+
+mapa:plat_noaa_5th skos:narrower mapb:plat_noaa_16 .
+
+mapb:plat_noaa_16 skos:broader mapa:plat_noaa_5th .
+
+mapa:plat_noaa_5th skos:narrower mapb:plat_noaa_17 .
+
+mapb:plat_noaa_17 skos:broader mapa:plat_noaa_5th .
+
+mapa:plat_noaa_5th skos:narrower mapb:plat_noaa_18 .
+
+mapb:plat_noaa_18 skos:broader mapa:plat_noaa_5th .
+
+mapa:plat_noaa_5th skos:narrower mapb:plat_noaa_19 .
+
+mapb:plat_noaa_19 skos:broader mapa:plat_noaa_5th .
+
+mapa:plat_odin_prog skos:narrower mapb:plat_odin .
+
+mapb:plat_odin skos:broader mapa:plat_odin_prog .
+
+mapa:plat_orbview2_prog skos:narrower mapb:plat_orbview2 .
+
+mapb:plat_orbview2 skos:broader mapa:plat_orbview2_prog .
+
+mapa:plat_parasol_prog skos:narrower mapb:plat_parasol .
+
+mapb:plat_parasol skos:broader mapa:plat_parasol_prog .
+
+mapa:plat_scisat_prog skos:narrower mapb:plat_scisat .
+
+mapb:plat_scisat skos:broader mapa:plat_scisat_prog .
+
+mapa:plat_spot skos:narrower mapb:plat_spot1 .
+
+mapb:plat_spot1 skos:broader mapa:plat_spot .
+
+mapa:plat_spot skos:narrower mapb:plat_spot2 .
+
+mapb:plat_spot2 skos:broader mapa:plat_spot .
+
+mapa:plat_spot skos:narrower mapb:plat_spot3 .
+
+mapb:plat_spot3 skos:broader mapa:plat_spot .
+
+mapa:plat_spot skos:narrower mapb:plat_spot4 .
+
+mapb:plat_spot4 skos:broader mapa:plat_spot .
+
+mapa:plat_spot skos:narrower mapb:plat_spot5 .
+
+mapb:plat_spot5 skos:broader mapa:plat_spot .
+
+mapa:plat_spot_prog_follow skos:narrower mapb:plat_spot6 .
+
+mapb:plat_spot6 skos:broader mapa:plat_spot_prog_follow .
+
+mapa:plat_spot_prog_follow skos:narrower mapb:plat_spot7 .
+
+mapb:plat_spot7 skos:broader mapa:plat_spot_prog_follow .
+
+mapa:plat_topexPoseidon_prog skos:narrower mapb:plat_topexPoseidon .
+
+mapb:plat_topexPoseidon skos:broader mapa:plat_topexPoseidon_prog .
+
+mapa:plat_trmm_prog skos:narrower mapb:plat_trmm .
+
+mapb:plat_trmm skos:broader mapa:plat_trmm_prog .
+
+mapa:plat_terraSAR skos:narrower mapb:plat_hrws_sar .
+
+mapb:plat_hrws_sar skos:broader mapa:plat_terraSAR .
+
+mapa:plat_terraSAR skos:narrower mapb:plat_tsx_ng .
+
+mapb:plat_tsx_ng skos:broader mapa:plat_terraSAR .
+
+mapa:plat_terraSAR skos:narrower mapb:plat_tandem_X .
+
+mapb:plat_tandem_X skos:broader mapa:plat_terraSAR .
+
+mapa:plat_terraSAR skos:narrower mapb:plat_terraSar_X .
+
+mapb:plat_terraSar_X skos:broader mapa:plat_terraSAR .
+
+mapa:plat_sentinel1_prog skos:narrower mapb:plat_sentinel1a .
+
+mapb:plat_sentinel1a skos:broader mapa:plat_sentinel1_prog .
+
+mapa:plat_sentinel1_prog skos:narrower mapb:plat_sentinel1b .
+
+mapb:plat_sentinel1b skos:broader mapa:plat_sentinel1_prog .
+
+mapa:plat_sentinel2_prog skos:narrower mapb:plat_sentinel2a .
+
+mapb:plat_sentinel2a skos:broader mapa:plat_sentinel2_prog .
+
+mapa:plat_sentinel2_prog skos:narrower mapb:plat_sentinel2b .
+
+mapb:plat_sentinel2b skos:broader mapa:plat_sentinel2_prog .
+
+mapa:plat_sentinel3_prog skos:narrower mapb:plat_sentinel3a .
+
+mapb:plat_sentinel3a skos:broader mapa:plat_sentinel3_prog .
+
+mapa:plat_sentinel3_prog skos:narrower mapb:plat_sentinel3b .
+
+mapb:plat_sentinel3b skos:broader mapa:plat_sentinel3_prog .
+
+mapa:plat_saral_prog skos:narrower mapb:plat_saral .
+
+mapb:plat_saral skos:broader mapa:plat_saral_prog .
+
+mapa:plat_grace_prog skos:narrower mapb:plat_grace .
+
+mapb:plat_grace skos:broader mapa:plat_grace_prog .
+
+mapa:plat_cryosat_prog skos:narrower mapb:plat_cryosat2 .
+
+mapb:plat_cryosat2 skos:broader mapa:plat_cryosat_prog .
+
+mapa:plat_jpss_prog skos:narrower mapb:plat_snpp .
+
+mapb:plat_snpp skos:broader mapa:plat_jpss_prog .
+
+mapa:plat_smos_prog skos:narrower mapb:plat_smos .
+
+mapb:plat_smos skos:broader mapa:plat_smos_prog .
+
+mapa:plat_mfg_prog skos:narrower mapb:plat_meteosat_1 .
+
+mapb:plat_meteosat_1 skos:broader mapa:plat_mfg_prog .
+
+mapa:plat_mfg_prog skos:narrower mapb:plat_meteosat_2 .
+
+mapb:plat_meteosat_2 skos:broader mapa:plat_mfg_prog .
+
+mapa:plat_mfg_prog skos:narrower mapb:plat_meteosat_3 .
+
+mapb:plat_meteosat_3 skos:broader mapa:plat_mfg_prog .
+
+mapa:plat_mfg_prog skos:narrower mapb:plat_meteosat_3_adc .
+
+mapb:plat_meteosat_3_adc skos:broader mapa:plat_mfg_prog .
+
+mapa:plat_mfg_prog skos:narrower mapb:plat_meteosat_3_xadc .
+
+mapb:plat_meteosat_3_xadc skos:broader mapa:plat_mfg_prog .
+
+mapa:plat_mfg_prog skos:narrower mapb:plat_meteosat_4 .
+
+mapb:plat_meteosat_4 skos:broader mapa:plat_mfg_prog .
+
+mapa:plat_mfg_prog skos:narrower mapb:plat_meteosat_5 .
+
+mapb:plat_meteosat_5 skos:broader mapa:plat_mfg_prog .
+
+mapa:plat_mfg_prog skos:narrower mapb:plat_meteosat_5_iodc .
+
+mapb:plat_meteosat_5_iodc skos:broader mapa:plat_mfg_prog .
+
+mapa:plat_mfg_prog skos:narrower mapb:plat_meteosat_6 .
+
+mapb:plat_meteosat_6 skos:broader mapa:plat_mfg_prog .
+
+mapa:plat_mfg_prog skos:narrower mapb:plat_meteosat_6_iodc .
+
+mapb:plat_meteosat_6_iodc skos:broader mapa:plat_mfg_prog .
+
+mapa:plat_mfg_prog skos:narrower mapb:plat_meteosat_7 .
+
+mapb:plat_meteosat_7 skos:broader mapa:plat_mfg_prog .
+
+mapa:plat_mfg_prog skos:narrower mapb:plat_meteosat_7_iodc .
+
+mapb:plat_meteosat_7_iodc skos:broader mapa:plat_mfg_prog .
+
+mapa:plat_noaa_4th skos:narrower mapb:plat_tiros_n .
+
+mapb:plat_tiros_n skos:broader mapa:plat_noaa_4th .
+
+mapa:plat_sac_prog skos:narrower mapb:plat_sac_d .
+
+mapb:plat_sac_d skos:broader mapa:plat_sac_prog .
+
+mapa:plat_proba_prog skos:narrower mapb:plat_probaV .
+
+mapb:plat_probaV skos:broader mapa:plat_proba_prog .
+
+mapa:plat_smap_prog skos:narrower mapb:plat_smap .
+
+mapb:plat_smap skos:broader mapa:plat_smap_prog .
+
+mapa:plat_radarsat_prog skos:narrower mapb:plat_radarsat2 .
+
+mapb:plat_radarsat2 skos:broader mapa:plat_radarsat_prog .
+
+mapa:plat_s5p_prog skos:narrower mapb:plat_sentinel5p .
+
+mapb:plat_sentinel5p skos:broader mapa:plat_s5p_prog .
+
+mapa:plat_oco_prog skos:narrower mapb:plat_oco2 .
+
+mapb:plat_oco2 skos:broader mapa:plat_oco_prog .
+
+mapa:plat_csk_prog skos:narrower mapb:plat_csk1 .
+
+mapb:plat_csk1 skos:broader mapa:plat_csk_prog .
+
+mapa:plat_csk_prog skos:narrower mapb:plat_csk2 .
+
+mapb:plat_csk2 skos:broader mapa:plat_csk_prog .
+
+mapa:plat_csk_prog skos:narrower mapb:plat_csk3 .
+
+mapb:plat_csk3 skos:broader mapa:plat_csk_prog .
+
+mapa:plat_csk_prog skos:narrower mapb:plat_csk4 .
+
+mapb:plat_csk4 skos:broader mapa:plat_csk_prog .
+
+mapa:plat_gpm_prog skos:narrower mapb:plat_gpm .
+
+mapb:plat_gpm skos:broader mapa:plat_gpm_prog .
+
+mapa:plat_sentinel6_prog skos:narrower mapb:plat_sentinel6a .
+
+mapb:plat_sentinel6a skos:broader mapa:plat_sentinel6_prog .
+
+mapa:plat_sentinel6_prog skos:narrower mapb:plat_sentinel6b .
+
+mapb:plat_sentinel6b skos:broader mapa:plat_sentinel6_prog .
+
+mapa:plat_erbs_prog skos:narrower mapb:plat_erbs .
+
+mapb:plat_erbs skos:broader mapa:plat_erbs_prog .
+
+mapa:plat_uars_prog skos:narrower mapb:plat_uars .
+
+mapb:plat_uars skos:broader mapa:plat_uars_prog .
+
+mapa:plat_meteor3m_prog skos:narrower mapb:plat_meteor_3m .
+
+mapb:plat_meteor_3m skos:broader mapa:plat_meteor3m_prog .
+
+mapa:plat_iss_prog skos:narrower mapb:plat_iss_SAGEIII .
+
+mapb:plat_iss_SAGEIII skos:broader mapa:plat_iss_prog .
+

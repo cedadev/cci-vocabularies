@@ -1,0 +1,385 @@
+@prefix cci: <http://vocab.ceda.ac.uk/ontology/cci#> .
+@prefix cci-scheme: <http://vocab.ceda.ac.uk/scheme/cci/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "AEROSOL"@en ;
+    skos:definition "Aerosol properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrowMatch <http://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericCompositionOzoneAndAerosol>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0763/> ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty> ;
+    skos:prefLabel "aerosol"@en ;
+    skos:scopeNote "Aerosol properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_biomass> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "BIOMASS"@en ;
+    skos:definition "Above-ground biomass climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb> ;
+    skos:prefLabel "above-ground biomass"@en ;
+    skos:scopeNote "Above-ground biomass climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "CLOUD"@en ;
+    skos:definition "Cloud properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrowMatch <http://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericUpperairCloudProperties>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/72YUKQJR/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/BBAD2149/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/BBAD2158/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/BBAD2159/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/CF12N184/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0018/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0025/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0704/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0745/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0746/> ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp> ;
+    skos:prefLabel "cloud"@en ;
+    skos:scopeNote "Cloud properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_fire> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "FIRE"@en ;
+    skos:closeMatch <http://vocab.ceda.ac.uk/collection/gcos/ecv/terrestrialFireDisturbance> ;
+    skos:definition "Fire disturbance (burned area) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CEDABECC/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/GACJJFFJ/> ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> ;
+    skos:prefLabel "fire"@en ;
+    skos:scopeNote "Fire disturbance (burned area) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ghg> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "GHG"@en ;
+    skos:definition "Greenhouse gasses (carbon dioxide and methane) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrowMatch <http://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericCompositionCarbonDioxide>,
+        <http://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericCompositionMethane>,
+        <http://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericCompositionOtherLonglivedGreenhouseGases>,
+        <http://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericUpperairWaterVapour> ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2> ;
+    skos:prefLabel "greenhouse gases"@en ;
+    skos:scopeNote "Greenhouse gasses (carbon dioxide and methane) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "GLACIERS"@en ;
+    skos:broadMatch <http://vocab.ceda.ac.uk/collection/gcos/ecv/terrestrialGlaciersAndIceCaps> ;
+    skos:definition "Glacier inventory climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0576/> ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb> ;
+    skos:prefLabel "glaciers"@en ;
+    skos:scopeNote "Glacier inventory climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "ICESHEETS"@en ;
+    skos:closeMatch <http://vocab.ceda.ac.uk/collection/gcos/ecv/terrestrialIceSheets> ;
+    skos:definition "Ice sheets climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec> ;
+    skos:prefLabel "ice sheets"@en ;
+    skos:scopeNote "Ice sheets climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lakes> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "LAKES"@en ;
+    skos:definition "Lakes climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds> ;
+    skos:prefLabel "lakes"@en ;
+    skos:scopeNote "Lakes climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "LC"@en ;
+    skos:closeMatch <http://vocab.ceda.ac.uk/collection/gcos/ecv/terrestrialLandCover> ;
+    skos:definition "Land cover climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb> ;
+    skos:prefLabel "land cover"@en ;
+    skos:scopeNote "Land cover climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landSurfTemp> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "LST"@en ;
+    skos:definition "Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:prefLabel "land surface temperature"@en ;
+    skos:scopeNote "Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "OC"@en ;
+    skos:closeMatch <http://vocab.ceda.ac.uk/collection/gcos/ecv/oceanicSurfaceOceanColour> ;
+    skos:definition "Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CF14N7/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0062/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0064/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0065/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/CFV13N26/> ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v> ;
+    skos:prefLabel "ocean colour"@en ;
+    skos:scopeNote "Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "OZONE"@en ;
+    skos:definition "Ozone climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrowMatch <http://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericCompositionOzoneAndAerosol>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/CF12N499/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0513/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/IDDFFADF/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/IFDIAFIF/> ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc> ;
+    skos:prefLabel "ozone"@en ;
+    skos:scopeNote "Ozone climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "PERMAFROST"@en ;
+    skos:definition "Permafrost climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr> ;
+    skos:prefLabel "permafrost"@en ;
+    skos:scopeNote "Permafrost climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_riverDischarge> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "RD"@en ;
+    skos:definition "River discharge climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> ;
+    skos:prefLabel "river discharge"@en ;
+    skos:scopeNote "River discharge climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_salinity> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "SEASURFACESALINITY"@en ;
+    skos:definition "Sea Surface Salinity climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss> ;
+    skos:prefLabel "sea surface salinity"@en ;
+    skos:scopeNote "Sea Surface Salinity climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "SEAICE"@en ;
+    skos:closeMatch <http://vocab.ceda.ac.uk/collection/gcos/ecv/oceanicSurfaceSeaIce> ;
+    skos:definition "Sea ice climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0424/> ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit> ;
+    skos:prefLabel "sea ice"@en ;
+    skos:scopeNote "Sea ice climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "SEALEVEL"@en ;
+    skos:closeMatch <http://vocab.ceda.ac.uk/collection/gcos/ecv/oceanicSurfaceSeaLevel> ;
+    skos:definition "Sea level climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0375/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0632/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/EJ5JLPG7/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/RQ2Q233Z/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/SHGEIZRR/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/XRCBF7SB/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/ZSDAR2KM/> ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh> ;
+    skos:prefLabel "sea level"@en ;
+    skos:scopeNote "Sea level climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaState> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "SEASTATE"@en ;
+    skos:definition "Sea state climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh> ;
+    skos:prefLabel "sea state"@en ;
+    skos:scopeNote "Sea state climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "SNOW"@en ;
+    skos:definition "Snow climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe> ;
+    skos:prefLabel "snow"@en ;
+    skos:scopeNote "Snow climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "SOILMOISTURE"@en ;
+    skos:closeMatch <http://vocab.ceda.ac.uk/collection/gcos/ecv/terrestrialSoilMoisture> ;
+    skos:definition "Soil moisture climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva> ;
+    skos:prefLabel "soil moisture"@en ;
+    skos:scopeNote "Soil moisture climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "SST"@en ;
+    skos:closeMatch <http://vocab.ceda.ac.uk/collection/gcos/ecv/oceanicSurfaceSeaSurfaceTemperature> ;
+    skos:definition "Sea surface temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrowMatch <http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/>,
+        <http://vocab.nerc.ac.uk/collection/P07/current/CFV9N2/> ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin>,
+        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk> ;
+    skos:prefLabel "sea surface temperature"@en ;
+    skos:scopeNote "Sea surface temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_vegParam> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "VEGETATION"@en ;
+    skos:definition "Vegetation Parameters climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp> ;
+    skos:prefLabel "vegetation parameters"@en ;
+    skos:scopeNote "Vegetation Parameters climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_waterVapour> a cci:ecv,
+        skos:Concept ;
+    skos:altLabel "WATERVAPOUR"@en ;
+    skos:definition "Water vapour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrower <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv> ;
+    skos:prefLabel "water vapour"@en ;
+    skos:scopeNote "Water vapour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+cci-scheme:ecv a skos:ConceptScheme ;
+    dc:creator "Science and Technology Facilities Council" ;
+    dc:date "2025-05-30" ;
+    dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
+    dc:publisher "STFC"@en ;
+    dc:rights "This work is licensed under a BSD license."@en ;
+    dc:title "ECV" ;
+    rdfs:comment "This concept scheme represents the ECVs used by the CCI project" ;
+    owl:versionInfo "0.0.1" ;
+    skos:definition "The Essential Climate Variable (ECVs) in the ESA Climate Change Initiative (<a href=http://cci.esa.int/> CCI </a>)."@en ;
+    skos:hasTopConcept <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_biomass>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_fire>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ghg>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lakes>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landSurfTemp>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_riverDischarge>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_salinity>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaState>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_vegParam>,
+        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_waterVapour> ;
+    skos:prefLabel "ECV"@en .
+

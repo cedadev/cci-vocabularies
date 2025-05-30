@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/ecv">
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_riverDischarge"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landSurfTemp"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lakes"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_waterVapour"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_vegParam"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_salinity"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ghg"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_fire"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_biomass"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaState"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst"/>
+    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers"/>
+    <dc:description>The Essential Climate Variable (ECVs) in the ESA Climate Change Initiative (CCI).</dc:description>
+    <dc:creator>Science and Technology Facilities Council</dc:creator>
+    <rdfs:comment>This collection represents the ECVs used by the CCI project</rdfs:comment>
+    <dc:publisher xml:lang="en">STFC</dc:publisher>
+    <owl:versionInfo>0.0.1</owl:versionInfo>
+    <dc:title>ECV</dc:title>
+    <skos:definition xml:lang="en">The Essential Climate Variable (ECVs) in the ESA Climate Change Initiative (CCI).</skos:definition>
+    <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <skos:prefLabel xml:lang="en">ECV</skos:prefLabel>
+    <dc:date>2025-05-30</dc:date>
+  </rdf:Description>
+</rdf:RDF>

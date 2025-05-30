@@ -1,0 +1,32 @@
+@prefix cci-collection: <http://vocab.ceda.ac.uk/collection/cci/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+cci-collection:procLev a skos:Collection ;
+    dc:creator "Science and Technology Facilities Council" ;
+    dc:date "2025-05-30" ;
+    dc:description "The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI)." ;
+    dc:publisher "STFC"@en ;
+    dc:rights "This work is licensed under a BSD license."@en ;
+    dc:title "Processing Level" ;
+    rdfs:comment "This collection represents the processing levels used by the CCI project" ;
+    owl:versionInfo "0.0.1" ;
+    skos:definition "The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI)."@en ;
+    skos:member <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_ind>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level0>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level4>,
+        <http://vocab.ceda.ac.uk/collection/cci/procLev/proc_unspecified> ;
+    skos:prefLabel "Processing Level"@en .
+

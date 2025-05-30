@@ -1,0 +1,20 @@
+@prefix cci-project-collection: <http://vocab.ceda.ac.uk/collection/cci/project> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+<http://vocab.ceda.ac.uk/collection/cci/project> a skos:Collection ;
+    skos:prefLabel "Project"@en ;
+    skos:definition "The different projects within the ESA Climate Change Initiative (CCI)."@en ;
+    dc:title "Project" ;
+    dc:rights "This work is licensed under a BSD license."@en ;
+    dc:publisher "STFC"@en ;
+    rdfs:comment "This collection represents the projects within the CCI project" ;
+    dc:creator "Science and Technology Facilities Council" ;
+    owl:versionInfo "0.0.1";
+    dc:date "2025-05-30" ;
+    dc:description "The different projects within the ESA Climate Change Initiative (CCI)." ;
+    .
+

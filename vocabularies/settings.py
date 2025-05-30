@@ -106,10 +106,12 @@ COLLECTION_MAP[GCOS] = GCOS_COLLECTION
 COLLECTION_MAP[GRIB] = GRIB_COLLECTION
 COLLECTION_MAP[GLOSSARY] = GLOSSARY_COLLECTION
 
-BASE_PATH = os.path.abspath(os.path.dirname(__file__))
-CSV_DIRECTORY = os.path.join(BASE_PATH, "..", "csv")
-DATA_DIRECTORY = os.path.join(BASE_PATH, "..", "data")
-HTML_DIRECTORY = os.path.join(BASE_PATH, "..", "html")
-MODEL_DIRECTORY = os.path.join(BASE_PATH, "..", "model")
+BASE_PATH = os.environ.get("BASE_PATH") or os.path.abspath(os.path.dirname(__file__))
+
+DATA_DIRECTORY  = os.path.join(BASE_PATH, "..","data")
+HTML_SOURCE     = os.path.join(BASE_PATH, "..","app", "html")
+CSV_DIRECTORY   = os.path.join(BASE_PATH, "..","app", "csv")
+HTML_DIRECTORY  = os.path.join(BASE_PATH, "..","app", "html")
+MODEL_DIRECTORY = os.path.join(BASE_PATH, "..","app", "model")
 
 CITO = "http://purl.org/spar/cito/"

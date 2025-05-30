@@ -1,0 +1,54 @@
+URI`Pref Label`Alt Label`Definition`See Also
+plat_alos_prog`ALOS Programme`ALOS`JAXA Advanced Land Observation Satellite Programme`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/7
+plat_coriolis_prog`Coriolis``DoD NASA`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/25
+plat_dmsp_5D1`DMSP Block 5D-1``US Defense Meteorological Satellite Program Block 5D-1`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/33
+plat_dmsp_5D2`DMSP Block 5D-2``US Defense Meteorological Satellite Program Block 5D-2`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/34
+plat_dmsp_5D3`DMSP Block 5D-3``US Defense Meteorological Satellite Program Block 5D-3`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/35
+plat_envisat_prog`Environmental Satellite``ESA`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/42
+plat_eos`EOS``NASA A-Train  Earth Observing System Satellite`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/43
+plat_ers`ERS``ESA European Remote Sensing Satellite`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/47
+plat_fengyun3`Feng-Yun 3`Fengyun`CMA Feng-Yun - 3`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/53
+plat_gcom`GCOM``"NASA Global Change Observation Mission for Water (\""Shizuku\"")"`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/57
+plat_geodetic`Geodetic``NASA Geodetic Satellite`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/59
+plat_goes_1st`GOES 1st Gen``NASA Geostationary Operational Environmental Satellite - 1st generation`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/63
+plat_goes_2nd`GOES 2nd Gen``NASA Geostationary Operational Environmental Satellite - 2nd generation`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/64
+plat_goes_3rd`GOES 3rd Gen``NASA Geostationary Operational Environmental Satellite - 3rd generation`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/65
+plat_gosat_prog`GOSAT-Programme`GOSAT`JAXA Greenhouse gas Observing Satellite`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/66
+plat_himawari`Himawari``JMA Himawari 2nd generation (Multifunction Transport Satellite)`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/71
+plat_icesat_prog`ICESat Programme`ICESat`NASA Ice Cloud and land Elevation Satellite`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/77
+plat_jason`JASON``NASA Joint Altimetry Satellite Oceanography Network`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/85
+plat_landsat`Landsat``NASA/USGS Satellite imagery of Earth`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/92
+plat_landsat_dcm`Landsat Data Continuity Mission``NASA/USGS Satellite imagery of Earth`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/94
+plat_metop`Metop``ESA/EUMETSAT Meteorological operational Polar System satellite`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/44
+plat_msg`MSG``ESA Meteosat Second Generation`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/102
+plat_nimbus`Nimbus``NASA Nimbus Research-and-development satellite programme`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/108
+plat_noaa_3rd`NOAA-3rd``NASA NOAA Environmental satellites 3rd Generation`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/110
+plat_noaa_4th`NOAA-4th``NASA NOAA Environmental satellites 4th Generation`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/111
+plat_noaa_5th`NOAA-5th``NASA NOAA Environmental satellites 5th Generation`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/112
+plat_odin_prog`Odin```http://www.wmo-sat.info/oscar/satelliteprogrammes/view/117
+plat_orbview2_prog`Orbview-2`SeaStar`GeoEye OrbView-2 (former: SeaStar)`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/144
+plat_parasol_prog`PARASOL``CNES Polarisation et Anisotropie des Réflectances au sommet de l'Atmosphère couplées avec un Satellite d'Observation emportant un Lidar`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/121
+plat_scisat_prog`SCISAT``CSA NASA Science Satellite / Atmospheric Chemistry Experiment`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/141
+plat_spot`SPOT``Satellite Pour l’Observation de la Terre`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/156
+plat_spot_prog_follow`SPOT Follow-on``Satellite Pour l’Observation de la Terre - Follow-on`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/157
+plat_terraSAR`TerraSAR``DLR X-band SAR programme`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/164
+plat_topexPoseidon_prog`Topex/Poseidon``NASA CNES Topography Experiment + Poseidon`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/169
+plat_trmm_prog`TRMM``NASA JAXA Tropical Rainfall Measuring Mission`http://www.wmo-sat.info/oscar/satelliteprogrammes/view/171
+plat_sentinel1_prog`Sentinel-1``Sentinel 1 programme`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/145
+plat_sentinel2_prog`Sentinel-2``Sentinel 2 programme`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/146
+plat_sentinel3_prog`Sentinel-3``Sentinel 3 programme`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/147
+plat_saral_prog`SARAL Programme``CNES Satellite with ARgos and AltiKa`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/139
+plat_grace_prog`GRACE Programme``NASA Gravity Recovery and Climate Experiment Programme`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/68
+plat_cryosat_prog`CryoSat Programme``ESA CryoSat Programme`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/29
+plat_jpss_prog`Joint Polar Satellite System`JPSS`NASA/NOAA Joint Polar Satellite System`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/87
+plat_smos_prog`Soil Moisture and Ocean Salinity``ESA Soil Moisture and Ocean Salinity`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/153
+plat_mfg_prog`Meteosat First Generation``EUMETSAT/ ESA Meteosat First Generation`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/101
+plat_radarsat_prog`RadarSat``RadarSat Programme`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/129
+plat_sac_prog`Satélite de Aplicaciones Cientificas`SAC`Satélite de Aplicaciones Cientificas`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/137
+plat_smap_prog`SMAP``Soil Moisture Active – Passive`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/151
+plat_proba_prog`Project for On-Board Autonomy`PROBA`Project for On-Board Autonomy (PROBA) programme`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/127
+plat_s5p_prog`Sentinel-5 precursor``ESA Sentinel-5 precursor programme`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/148
+plat_oco_prog`Orbiting Carbon Observatory``NASA Orbiting Carbon Observatory programme`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/115
+plat_csk_prog`COSMO-SkyMed``COSMO-SkyMed programme`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/27
+plat_gpm_prog`Global Precipitation Measurement mission``Global Precipitation Measurement mission Programme`https://www.wmo-sat.info/oscar/satelliteprogrammes/view/gpm
+plat_sentinel6_prog`Sentinel-6``Sentinel 6 programme`https://space.oscar.wmo.int/satelliteprogrammes/view/sentinel_6

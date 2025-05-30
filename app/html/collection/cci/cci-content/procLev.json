@@ -1,0 +1,106 @@
+[
+  {
+    "@id": "http://vocab.ceda.ac.uk/collection/cci/procLev",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Collection"
+    ],
+    "http://purl.org/dc/elements/1.1/creator": [
+      {
+        "@value": "Science and Technology Facilities Council"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/date": [
+      {
+        "@value": "2025-05-30"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/description": [
+      {
+        "@value": "The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI)."
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/publisher": [
+      {
+        "@language": "en",
+        "@value": "STFC"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/rights": [
+      {
+        "@language": "en",
+        "@value": "This work is licensed under a BSD license."
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "@value": "Processing Level"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "This collection represents the processing levels used by the CCI project"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "0.0.1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI)."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#member": [
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/procLev/proc_ind"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/procLev/proc_unspecified"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level4"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level0"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"
+      },
+      {
+        "@id": "http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Processing Level"
+      }
+    ]
+  }
+]

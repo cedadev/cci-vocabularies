@@ -1,0 +1,33 @@
+@prefix mapa: <http://vocab.ceda.ac.uk/collection/cci/procLev/> .
+@prefix mapb: <http://vocab.ceda.ac.uk/collection/cci/procLev/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+mapa:proc_level1 skos:narrower mapb:proc_level1A .
+
+mapb:proc_level1A skos:broader mapa:proc_level1 .
+
+mapa:proc_level1 skos:narrower mapb:proc_level1B .
+
+mapb:proc_level1B skos:broader mapa:proc_level1 .
+
+mapa:proc_level1 skos:narrower mapb:proc_level1C .
+
+mapb:proc_level1C skos:broader mapa:proc_level1 .
+
+mapa:proc_level2 skos:narrower mapb:proc_level2P .
+
+mapb:proc_level2P skos:broader mapa:proc_level2 .
+
+mapa:proc_level3 skos:narrower mapb:proc_level3U .
+
+mapb:proc_level3U skos:broader mapa:proc_level3 .
+
+mapa:proc_level3 skos:narrower mapb:proc_level3C .
+
+mapb:proc_level3C skos:broader mapa:proc_level3 .
+
+mapa:proc_level3 skos:narrower mapb:proc_level3S .
+
+mapb:proc_level3S skos:broader mapa:proc_level3 .
+

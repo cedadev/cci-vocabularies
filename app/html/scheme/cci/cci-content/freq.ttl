@@ -1,0 +1,153 @@
+@prefix cci: <http://vocab.ceda.ac.uk/ontology/cci#> .
+@prefix cci-scheme: <http://vocab.ceda.ac.uk/scheme/cci/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/feq_min> a cci:freq,
+        skos:Concept ;
+    skos:altLabel "P0DT0H1M"@en ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "minute"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/freq_10day> a cci:freq,
+        skos:Concept ;
+    skos:altLabel "P10D"@en ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "10 days"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/freq_13yr> a cci:freq,
+        skos:Concept ;
+    skos:altLabel "P13Y"@en ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "13 years"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/freq_15day> a cci:freq,
+        skos:Concept ;
+    skos:altLabel "P15D"@en ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "15 days"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/freq_3hr> a cci:freq,
+        skos:Concept ;
+    skos:altLabel "P0DT3H"@en ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "3 hours"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/freq_5day> a cci:freq,
+        skos:Concept ;
+    skos:altLabel "P5D"@en ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "5 days"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/freq_5yr> a cci:freq,
+        skos:Concept ;
+    skos:altLabel "P5Y"@en ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "5 years"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/freq_8day> a cci:freq,
+        skos:Concept ;
+    skos:altLabel "P8D"@en ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "8 days"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/freq_clim> a cci:freq,
+        skos:Concept ;
+    skos:altLabel "CLIM"@en ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "climatology"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/freq_day> a cci:freq,
+        skos:Concept ;
+    skos:altLabel "P1D"@en ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "day"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/freq_hr> a cci:freq,
+        skos:Concept ;
+    skos:altLabel "P0DT1H"@en ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "hour"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/freq_mon> a cci:freq,
+        skos:Concept ;
+    skos:altLabel "P1M"@en ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "month"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/freq_sat_orb> a cci:freq,
+        skos:Concept ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "satellite orbit frequency"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/freq_sec> a cci:freq,
+        skos:Concept ;
+    skos:altLabel "P0DT0H0M1S"@en ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "second"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/freq_unspecified> a cci:freq,
+        skos:Concept ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "unspecified"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/freq_week> a cci:freq,
+        skos:Concept ;
+    skos:altLabel "P7D"@en ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "week"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+<http://vocab.ceda.ac.uk/collection/cci/freq/freq_yr> a cci:freq,
+        skos:Concept ;
+    skos:altLabel "P1Y"@en ;
+    skos:inScheme cci-scheme:freq ;
+    skos:prefLabel "year"@en ;
+    skos:topConceptOf cci-scheme:freq .
+
+cci-scheme:freq a skos:ConceptScheme ;
+    dc:creator "Science and Technology Facilities Council" ;
+    dc:date "2025-05-30" ;
+    dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
+    dc:publisher "STFC"@en ;
+    dc:rights "This work is licensed under a BSD license."@en ;
+    dc:title "Frequency" ;
+    rdfs:comment "This concept scheme represents the frequencies used by the CCI project" ;
+    owl:versionInfo "0.0.1" ;
+    skos:definition "Temporal frequencies of data from the ESA Climate Change Initiative (CCI)."@en ;
+    skos:hasTopConcept <http://vocab.ceda.ac.uk/collection/cci/freq/feq_min>,
+        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_10day>,
+        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_13yr>,
+        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_15day>,
+        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_3hr>,
+        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_5day>,
+        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_5yr>,
+        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_8day>,
+        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_clim>,
+        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_day>,
+        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_hr>,
+        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_mon>,
+        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_sat_orb>,
+        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_sec>,
+        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_unspecified>,
+        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_week>,
+        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_yr> ;
+    skos:prefLabel "Frequency"@en .
+

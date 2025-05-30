@@ -1,0 +1,2471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>The CCI Sensor Collection</title>
+<link href="../../../vocab.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="head">
+<h1>The CCI Sensor Collection</h1>
+<dl>
+<dt>IRI:</dt>
+<dd><a href="http://vocab.ceda.ac.uk/collection/cci/sensor">http://vocab.ceda.ac.uk/collection/cci/sensor</a></dd>
+</dl>
+<dl>
+<dt>Date:</dt>
+<dd>2025-05-30</dd>
+<dt>Current Version:</dt>
+<dd>0.0.1</dd>
+</dl>
+<dl>
+<dt>Authors:</dt>
+<dd>Science and Technology Facilities Council</dd>
+</dl>
+<dl>
+<dt>Publisher:</dt>
+<dd>STFC</dd>
+</dl>
+<dl>
+<dt>Other visualisations:</dt>
+<dd>Collection source <a href="http://vocab.ceda.ac.uk/collection/cci/cci-content/sensor.json">json</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/cci-content/sensor.rdf">rdf</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/cci-content/sensor.ttl">ttl</a></dd>
+<dd><a href="http://vocab.ceda.ac.uk/sparql">SPARQL endpoint</a>, dataset:vocab, graph:http://vocab.ceda.ac.uk/vocab/data/cci</dd>
+</dl>
+<div class="copyright">
+<span class="markdown">This work is licensed under a BSD license.</span>
+</div>
+<hr />
+
+<h2>Abstract</h2>
+<span class="markdown">This collection represents the sensors used by the CCI project</span>
+<div id="introduction">
+<h2>Introduction</h2>
+<span class="markdown">The sensors that have been used in the collection of the data for the ESA Climate Change Initiative (CCI).</span>
+</div>
+<div id="toc">
+<div id="members">
+<h2>Collection Members</h2>
+<ul class="hlist">
+<li><a href="#sens_aatsr" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aatsr">AATSR</a></li>
+<li><a href="#sens_abi" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_abi">ABI</a></li>
+<li><a href="#sens_aceFts" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aceFts">ACE-FTS</a></li>
+<li><a href="#sens_airs" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_airs">AIRS</a></li>
+<li><a href="#sens_amisar" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amisar">AMI-SAR</a></li>
+<li><a href="#sens_amiscat" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amiscat">AMI-SCAT</a></li>
+<li><a href="#sens_amsr2" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsr2">AMSR2</a></li>
+<li><a href="#sens_amsre" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsre">AMSRE</a></li>
+<li><a href="#sens_amsua" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsua">AMSU-A</a></li>
+<li><a href="#sens_amsub" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsub">AMSU-B</a></li>
+<li><a href="#sens_asar" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_asar">ASAR</a></li>
+<li><a href="#sens_ascat" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ascat">ASCAT</a></li>
+<li><a href="#sens_aster" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aster">ASTER</a></li>
+<li><a href="#sens_atsr" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_atsr">ATSR</a></li>
+<li><a href="#sens_atsr2" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_atsr2">ATSR-2</a></li>
+<li><a href="#sens_avhrr" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr">AVHRR</a></li>
+<li><a href="#sens_avhrr2" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr2">AVHRR-2</a></li>
+<li><a href="#sens_avhrr3" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr3">AVHRR-3</a></li>
+<li><a href="#sens_altika" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_altika">AltiKa</a></li>
+<li><a href="#sens_aquarius" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aquarius">Aquarius</a></li>
+<li><a href="#sens_esmrNim5" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_esmrNim5">ESMR (Nimbus-5)</a></li>
+<li><a href="#sens_esmrNim6" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_esmrNim6">ESMR (Nimbus-6)</a></li>
+<li><a href="#sens_etmplus" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_etmplus">ETM+</a></li>
+<li><a href="#sens_gfora" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gfora">GFO-RA</a></li>
+<li><a href="#sens_glas" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_glas">GLAS</a></li>
+<li><a href="#sens_gmi" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gmi">GMI</a></li>
+<li><a href="#sens_goesImager1215" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_goesImager1215">GOES-Imager-12-15</a></li>
+<li><a href="#sens_goesImager811" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_goesImager811">GOES-Imager-8-11</a></li>
+<li><a href="#sens_gome" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gome">GOME</a></li>
+<li><a href="#sens_gome2" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gome2">GOME-2</a></li>
+<li><a href="#sens_gomos" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gomos">GOMOS</a></li>
+<li><a href="#sens_grace" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_grace">GRACE instrument</a></li>
+<li><a href="#sens_haloe" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_haloe">HALOE</a></li>
+<li><a href="#sens_hirs" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs">HIRS</a></li>
+<li><a href="#sens_hirs2" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs2">HIRS/2</a></li>
+<li><a href="#sens_hirs3" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs3">HIRS/3</a></li>
+<li><a href="#sens_hirs4" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs4">HIRS/4</a></li>
+<li><a href="#sens_hrs" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hrs">HRS</a></li>
+<li><a href="#sens_iasi" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_iasi">IASI</a></li>
+<li><a href="#sens_imagerMtsat2" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_imagerMtsat2">IMAGER (MTSAT-2)</a></li>
+<li><a href="#sens_jami" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_jami">JAMI</a></li>
+<li><a href="#sens_maestro" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_maestro">MAESTRO</a></li>
+<li><a href="#sens_meris" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_meris">MERIS</a></li>
+<li><a href="#sens_mipas" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mipas">MIPAS</a></li>
+<li><a href="#sens_miras" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_miras">MIRAS</a></li>
+<li><a href="#sens_mls" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mls">MLS</a></li>
+<li><a href="#sens_mlsAura" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mlsAura">MLS (EOS-AURA)</a></li>
+<li><a href="#sens_modis" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_modis">MODIS</a></li>
+<li><a href="#sens_msi" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi">MSI (Sentinel-2)</a></li>
+<li><a href="#sens_mss" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mss">MSS</a></li>
+<li><a href="#sens_mviri" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mviri">MVIRI</a></li>
+<li><a href="#sens_mwri" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mwri">MWRI</a></li>
+<li><a href="#sens_nra" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_nra">NRA</a></li>
+<li><a href="#sens_oco" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_oco">OCO</a></li>
+<li><a href="#sens_olci" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_olci">OLCI</a></li>
+<li><a href="#sens_oli" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_oli">OLI</a></li>
+<li><a href="#sens_omi" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_omi">OMI</a></li>
+<li><a href="#sens_osiris" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_osiris">OSIRIS</a></li>
+<li><a href="#sens_palsar" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar">PALSAR</a></li>
+<li><a href="#sens_palsar2" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar2">PALSAR-2</a></li>
+<li><a href="#sens_poam" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poam">POAM</a></li>
+<li><a href="#sens_polder" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_polder">POLDER</a></li>
+<li><a href="#sens_poseidon2" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon2">Poseidon-2</a></li>
+<li><a href="#sens_poseidon3" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon3">Poseidon-3</a></li>
+<li><a href="#sens_poseidon3b" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon3b">Poseidon-3B</a></li>
+<li><a href="#sens_poseidon4" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon4">Poseidon-4</a></li>
+<li><a href="#sens_ra" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra">RA</a></li>
+<li><a href="#sens_ra2" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra2">RA-2</a></li>
+<li><a href="#sens_sageII" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageII">SAGE-II</a></li>
+<li><a href="#sens_sageIII" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageIII">SAGE-III</a></li>
+<li><a href="#sens_sarRadarSat2" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarRadarSat2">SAR (RadarSat-2)</a></li>
+<li><a href="#sens_sar2000" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sar2000">SAR-2000</a></li>
+<li><a href="#sens_sarcS1" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarcS1">SAR-C (Sentinel-1)</a></li>
+<li><a href="#sens_sarX" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarX">SAR-X</a></li>
+<li><a href="#sens_sciamachy" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sciamachy">SCIAMACHY</a></li>
+<li><a href="#sens_seviri" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_seviri">SEVIRI</a></li>
+<li><a href="#sens_siral" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_siral">SIRAL</a></li>
+<li><a href="#sens_slstr" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_slstr">SLSTR</a></li>
+<li><a href="#sens_smap" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smap">SMAP</a></li>
+<li><a href="#sens_smmr" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smmr">SMMR</a></li>
+<li><a href="#sens_smr" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smr">SMR</a></li>
+<li><a href="#sens_sral" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sral">SRAL</a></li>
+<li><a href="#sens_ssalt" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssalt">SSALT</a></li>
+<li><a href="#sens_ssmI" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssmI">SSM/I</a></li>
+<li><a href="#sens_ssmiS" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssmiS">SSMI/S</a></li>
+<li><a href="#sens_seaWiFs" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_seaWiFs">SeaWiFS</a></li>
+<li><a href="#sens_tansoCai" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoCai">TANSO-CAI</a></li>
+<li><a href="#sens_tansoFts" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoFts">TANSO-FTS</a></li>
+<li><a href="#sens_tansoFts2" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoFts2">TANSO-FTS-2</a></li>
+<li><a href="#sens_tirs" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tirs">TIRS</a></li>
+<li><a href="#sens_tm" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tm">TM</a></li>
+<li><a href="#sens_tmi" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tmi">TMI</a></li>
+<li><a href="#sens_toms" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_toms">TOMS</a></li>
+<li><a href="#sens_tropomi" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tropomi">TROPOMI</a></li>
+<li><a href="#sens_unspecified" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_unspecified">Unspecified</a></li>
+<li><a href="#sens_vegetation" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_vegetation">VEGETATION</a></li>
+<li><a href="#sens_viirs" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_viirs">VIIRS</a></li>
+<li><a href="#sens_virr" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_virr">VIRR</a></li>
+<li><a href="#sens_vegetationP" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_vegetationP">Végétation-P</a></li>
+<li><a href="#sens_windSat" title="http://vocab.ceda.ac.uk/collection/cci/sensor/sens_windSat">WindSat</a></li>
+</ul>
+<div id="sens_aatsr" class="entity">
+<h3>AATSR<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aatsr</p>
+<div class="comment">
+<span class="markdown">Advanced Along-Track Scanning Radiometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat">Envisat</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/2" title="http://www.wmo-sat.info/oscar/instruments/view/2">http://www.wmo-sat.info/oscar/instruments/view/2</a></dd>
+</dl>
+</div></div>
+<div id="sens_abi" class="entity">
+<h3>ABI<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_abi</p>
+<div class="comment">
+<span class="markdown">Advanced Baseline Imager</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_16" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_16">GOES-16</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_17" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_17">GOES-17</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://space.oscar.wmo.int/instruments/view/abi" title="https://space.oscar.wmo.int/instruments/view/abi">https://space.oscar.wmo.int/instruments/view/abi</a></dd>
+</dl>
+</div></div>
+<div id="sens_aceFts" class="entity">
+<h3>ACE-FTS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aceFts</p>
+<div class="comment">
+<span class="markdown">Advanced Composition Explorer Fourier Transform Spectrometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_scisat" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_scisat">SCISAT-1</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/6" title="http://www.wmo-sat.info/oscar/instruments/view/6">http://www.wmo-sat.info/oscar/instruments/view/6</a></dd>
+</dl>
+</div></div>
+<div id="sens_airs" class="entity">
+<h3>AIRS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_airs</p>
+<div class="comment">
+<span class="markdown">Atmospheric Infra-Red Sounder</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua">Aqua</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/16" title="http://www.wmo-sat.info/oscar/instruments/view/16">http://www.wmo-sat.info/oscar/instruments/view/16</a></dd>
+</dl>
+</div></div>
+<div id="sens_amisar" class="entity">
+<h3>AMI-SAR<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amisar</p>
+<div class="comment">
+<span class="markdown">Active Microwave Instrument - Synthetic Aperture Antenna</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1">ERS-1</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2">ERS-2</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/23" title="http://www.wmo-sat.info/oscar/instruments/view/23">http://www.wmo-sat.info/oscar/instruments/view/23</a></dd>
+</dl>
+</div></div>
+<div id="sens_amiscat" class="entity">
+<h3>AMI-SCAT<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amiscat</p>
+<div class="comment">
+<span class="markdown">Active Microwave Instrument – Scatterometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+AMI-WS</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1">ERS-1</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2">ERS-2</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/24" title="http://www.wmo-sat.info/oscar/instruments/view/24">http://www.wmo-sat.info/oscar/instruments/view/24</a></dd>
+</dl>
+</div></div>
+<div id="sens_amsr2" class="entity">
+<h3>AMSR2<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsr2</p>
+<div class="comment">
+<span class="markdown">Advanced Microwave Scanning Radiometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW1" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW1">GCOM-W1</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW2" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW2">GCOM-W2</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW3" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW3">GCOM-W3</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/28" title="http://www.wmo-sat.info/oscar/instruments/view/28">http://www.wmo-sat.info/oscar/instruments/view/28</a></dd>
+</dl>
+</div></div>
+<div id="sens_amsre" class="entity">
+<h3>AMSRE<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsre</p>
+<div class="comment">
+<span class="markdown">Advanced Microwave Scanning Radiometer for Earth Observation from Space</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua">Aqua</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/29" title="http://www.wmo-sat.info/oscar/instruments/view/29">http://www.wmo-sat.info/oscar/instruments/view/29</a></dd>
+</dl>
+</div></div>
+<div id="sens_amsua" class="entity">
+<h3>AMSU-A<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsua</p>
+<div class="comment">
+<span class="markdown">Advanced microwave sounding unit – A</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua">Aqua</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA">Metop-A</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB">Metop-B</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC">Metop-C</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15">NOAA-15</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16">NOAA-16</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17">NOAA-17</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18">NOAA-18</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19">NOAA-19</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/30" title="http://www.wmo-sat.info/oscar/instruments/view/30">http://www.wmo-sat.info/oscar/instruments/view/30</a></dd>
+</dl>
+</div></div>
+<div id="sens_amsub" class="entity">
+<h3>AMSU-B<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsub</p>
+<div class="comment">
+<span class="markdown">Advanced microwave sounding unit – B</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15">NOAA-15</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16">NOAA-16</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17">NOAA-17</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/33" title="http://www.wmo-sat.info/oscar/instruments/view/33">http://www.wmo-sat.info/oscar/instruments/view/33</a></dd>
+</dl>
+</div></div>
+<div id="sens_asar" class="entity">
+<h3>ASAR<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_asar</p>
+<div class="comment">
+<span class="markdown">Advanced Synthetic Aperture Radar</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat">Envisat</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/44" title="http://www.wmo-sat.info/oscar/instruments/view/44">http://www.wmo-sat.info/oscar/instruments/view/44</a></dd>
+</dl>
+</div></div>
+<div id="sens_ascat" class="entity">
+<h3>ASCAT<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ascat</p>
+<div class="comment">
+<span class="markdown">Advanced SCATterometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA">Metop-A</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB">Metop-B</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC">Metop-C</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/47" title="http://www.wmo-sat.info/oscar/instruments/view/47">http://www.wmo-sat.info/oscar/instruments/view/47</a></dd>
+</dl>
+</div></div>
+<div id="sens_aster" class="entity">
+<h3>ASTER<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aster</p>
+<div class="comment">
+<span class="markdown">Advanced Spaceborne Thermal Emission and Reflection Radiometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_terra" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_terra">Terra</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/50" title="http://www.wmo-sat.info/oscar/instruments/view/50">http://www.wmo-sat.info/oscar/instruments/view/50</a></dd>
+</dl>
+</div></div>
+<div id="sens_atsr" class="entity">
+<h3>ATSR<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_atsr</p>
+<div class="comment">
+<span class="markdown">Along Track Scanning Radiometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1">ERS-1</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/55" title="http://www.wmo-sat.info/oscar/instruments/view/55">http://www.wmo-sat.info/oscar/instruments/view/55</a></dd>
+</dl>
+</div></div>
+<div id="sens_atsr2" class="entity">
+<h3>ATSR-2<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_atsr2</p>
+<div class="comment">
+<span class="markdown">Along Track Scanning Radiometer – 2</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2">ERS-2</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/56" title="http://www.wmo-sat.info/oscar/instruments/view/56">http://www.wmo-sat.info/oscar/instruments/view/56</a></dd>
+</dl>
+</div></div>
+<div id="sens_avhrr" class="entity">
+<h3>AVHRR<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr</p>
+<div class="comment">
+<span class="markdown">Advanced Very High Resolution Radiometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_10" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_10">NOAA-10</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_6" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_6">NOAA-6</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_8" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_8">NOAA-8</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/60" title="http://www.wmo-sat.info/oscar/instruments/view/60">http://www.wmo-sat.info/oscar/instruments/view/60</a></dd>
+</dl>
+</div></div>
+<div id="sens_avhrr2" class="entity">
+<h3>AVHRR-2<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr2</p>
+<div class="comment">
+<span class="markdown">Advanced Very High Resolution Radiometer / 2</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_11" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_11">NOAA-11</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_12" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_12">NOAA-12</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_13" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_13">NOAA-13</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_14" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_14">NOAA-14</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_7" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_7">NOAA-7</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_9" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_9">NOAA-9</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/61" title="http://www.wmo-sat.info/oscar/instruments/view/61">http://www.wmo-sat.info/oscar/instruments/view/61</a></dd>
+</dl>
+</div></div>
+<div id="sens_avhrr3" class="entity">
+<h3>AVHRR-3<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr3</p>
+<div class="comment">
+<span class="markdown">Advanced Very High Resolution Radiometer / 3</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA">Metop-A</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB">Metop-B</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC">Metop-C</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15">NOAA-15</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16">NOAA-16</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17">NOAA-17</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18">NOAA-18</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19">NOAA-19</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/62" title="http://www.wmo-sat.info/oscar/instruments/view/62">http://www.wmo-sat.info/oscar/instruments/view/62</a></dd>
+</dl>
+</div></div>
+<div id="sens_altika" class="entity">
+<h3>AltiKa<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_altika</p>
+<div class="comment">
+<span class="markdown">CNES Ka-band Altimeter</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_saral" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_saral">SARAL</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/21" title="https://www.wmo-sat.info/oscar/instruments/view/21">https://www.wmo-sat.info/oscar/instruments/view/21</a></dd>
+</dl>
+</div></div>
+<div id="sens_aquarius" class="entity">
+<h3>Aquarius<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aquarius</p>
+<div class="comment">
+<span class="markdown">Aquarius</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sac_d" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sac_d">SAC-D</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/41" title="https://www.wmo-sat.info/oscar/instruments/view/41">https://www.wmo-sat.info/oscar/instruments/view/41</a></dd>
+</dl>
+</div></div>
+<div id="sens_esmrNim5" class="entity">
+<h3>ESMR (Nimbus-5)<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_esmrNim5</p>
+<div class="comment">
+<span class="markdown">Electrically Scanning Microwave Radiometer (Nimbus-6)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus5" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus5">Nimbus-5</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://space.oscar.wmo.int/instruments/view/esmr_nimbus_5" title="https://space.oscar.wmo.int/instruments/view/esmr_nimbus_5">https://space.oscar.wmo.int/instruments/view/esmr_nimbus_5</a></dd>
+</dl>
+</div></div>
+<div id="sens_esmrNim6" class="entity">
+<h3>ESMR (Nimbus-6)<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_esmrNim6</p>
+<div class="comment">
+<span class="markdown">Electrically Scanning Microwave Radiometer (Nimbus-5)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus6" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus6">Nimbus-6</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://space.oscar.wmo.int/instruments/view/esmr_nimbus_6" title="https://space.oscar.wmo.int/instruments/view/esmr_nimbus_6">https://space.oscar.wmo.int/instruments/view/esmr_nimbus_6</a></dd>
+</dl>
+</div></div>
+<div id="sens_etmplus" class="entity">
+<h3>ETM+<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_etmplus</p>
+<div class="comment">
+<span class="markdown">Enhanced Thematic Mapper Plus</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/136" title="http://www.wmo-sat.info/oscar/instruments/view/136">http://www.wmo-sat.info/oscar/instruments/view/136</a></dd>
+</dl>
+</div></div>
+<div id="sens_gfora" class="entity">
+<h3>GFO-RA<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gfora</p>
+<div class="comment">
+<span class="markdown">Geosat Follow-On</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_gfo" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_gfo">GFO</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/154" title="http://www.wmo-sat.info/oscar/instruments/view/154">http://www.wmo-sat.info/oscar/instruments/view/154</a></dd>
+</dl>
+</div></div>
+<div id="sens_glas" class="entity">
+<h3>GLAS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_glas</p>
+<div class="comment">
+<span class="markdown">Geoscience Laser Altimeter System</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat">ICESat</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/155" title="http://www.wmo-sat.info/oscar/instruments/view/155">http://www.wmo-sat.info/oscar/instruments/view/155</a></dd>
+</dl>
+</div></div>
+<div id="sens_gmi" class="entity">
+<h3>GMI<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gmi</p>
+<div class="comment">
+<span class="markdown">GPM Microwave Imager</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+GMI (core)</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_gpm" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_gpm">GPM Core</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/gmi_core" title="https://www.wmo-sat.info/oscar/instruments/view/gmi_core">https://www.wmo-sat.info/oscar/instruments/view/gmi_core</a></dd>
+</dl>
+</div></div>
+<div id="sens_goesImager1215" class="entity">
+<h3>GOES-Imager-12-15<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_goesImager1215</p>
+<div class="comment">
+<span class="markdown">GOES IMAGER (12-15)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_12" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_12">GOES-12</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_12_SA" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_12_SA">GOES 12 S. America</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_13" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_13">GOES-13</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_14" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_14">GOES-14</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_15" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_15">GOES-15</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/879" title="http://www.wmo-sat.info/oscar/instruments/view/879">http://www.wmo-sat.info/oscar/instruments/view/879</a></dd>
+</dl>
+</div></div>
+<div id="sens_goesImager811" class="entity">
+<h3>GOES-Imager-8-11<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_goesImager811</p>
+<div class="comment">
+<span class="markdown">GOES IMAGER (8-11)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_08" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_08">GOES-8</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_09" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_09">GOES-9</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_09_bk" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_09_bk">GOES-9 Backup</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_10" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_10">GOES-10</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_10_SA" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_10_SA">GOES-10 S. America</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_11" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_11">GOES-11</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/217" title="http://www.wmo-sat.info/oscar/instruments/view/217">http://www.wmo-sat.info/oscar/instruments/view/217</a></dd>
+</dl>
+</div></div>
+<div id="sens_gome" class="entity">
+<h3>GOME<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gome</p>
+<div class="comment">
+<span class="markdown">Global Monitoring of Atmospheric Ozone</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2">ERS-2</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/166" title="http://www.wmo-sat.info/oscar/instruments/view/166">http://www.wmo-sat.info/oscar/instruments/view/166</a></dd>
+</dl>
+</div></div>
+<div id="sens_gome2" class="entity">
+<h3>GOME-2<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gome2</p>
+<div class="comment">
+<span class="markdown">Global Monitoring of Atmospheric Ozone 2</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA">Metop-A</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB">Metop-B</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC">Metop-C</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/167" title="http://www.wmo-sat.info/oscar/instruments/view/167">http://www.wmo-sat.info/oscar/instruments/view/167</a></dd>
+</dl>
+</div></div>
+<div id="sens_gomos" class="entity">
+<h3>GOMOS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gomos</p>
+<div class="comment">
+<span class="markdown">Global Ozone Monitoring by Occultation of Stars</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat">Envisat</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/168" title="http://www.wmo-sat.info/oscar/instruments/view/168">http://www.wmo-sat.info/oscar/instruments/view/168</a></dd>
+</dl>
+</div></div>
+<div id="sens_grace" class="entity">
+<h3>GRACE instrument<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_grace</p>
+<div class="comment">
+<span class="markdown">GRACE instrument</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+GRACE</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_grace" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_grace">GRACE</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/269" title="https://www.wmo-sat.info/oscar/instruments/view/269">https://www.wmo-sat.info/oscar/instruments/view/269</a>, <a href="https://www.wmo-sat.info/oscar/instruments/view/469" title="https://www.wmo-sat.info/oscar/instruments/view/469">https://www.wmo-sat.info/oscar/instruments/view/469</a></dd>
+</dl>
+</div></div>
+<div id="sens_haloe" class="entity">
+<h3>HALOE<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_haloe</p>
+<div class="comment">
+<span class="markdown">Halogen Occultation Experiment</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_uars" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_uars">UARS</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://space.oscar.wmo.int/instruments/view/haloe" title="https://space.oscar.wmo.int/instruments/view/haloe">https://space.oscar.wmo.int/instruments/view/haloe</a></dd>
+</dl>
+</div></div>
+<div id="sens_hirs" class="entity">
+<h3>HIRS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs</p>
+<div class="comment">
+<span class="markdown">High-Resolution Infra-Red Sounder</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus6" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus6">Nimbus-6</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/181" title="https://www.wmo-sat.info/oscar/instruments/view/181">https://www.wmo-sat.info/oscar/instruments/view/181</a></dd>
+</dl>
+</div></div>
+<div id="sens_hirs2" class="entity">
+<h3>HIRS/2<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs2</p>
+<div class="comment">
+<span class="markdown">High-Resolution Infra-Red Sounder / 2</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_10" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_10">NOAA-10</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_11" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_11">NOAA-11</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_12" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_12">NOAA-12</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_13" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_13">NOAA-13</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_14" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_14">NOAA-14</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_6" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_6">NOAA-6</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_7" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_7">NOAA-7</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_8" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_8">NOAA-8</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_9" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_9">NOAA-9</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_tiros_n" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_tiros_n">TIROS-N</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/182" title="https://www.wmo-sat.info/oscar/instruments/view/182">https://www.wmo-sat.info/oscar/instruments/view/182</a></dd>
+</dl>
+</div></div>
+<div id="sens_hirs3" class="entity">
+<h3>HIRS/3<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs3</p>
+<div class="comment">
+<span class="markdown">High-Resolution Infra-Red Sounder / 3</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15">NOAA-15</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16">NOAA-16</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17">NOAA-17</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/183" title="https://www.wmo-sat.info/oscar/instruments/view/183">https://www.wmo-sat.info/oscar/instruments/view/183</a></dd>
+</dl>
+</div></div>
+<div id="sens_hirs4" class="entity">
+<h3>HIRS/4<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs4</p>
+<div class="comment">
+<span class="markdown">High-Resolution Infra-Red Sounder /4</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA">Metop-A</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB">Metop-B</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18">NOAA-18</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19">NOAA-19</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/184" title="https://www.wmo-sat.info/oscar/instruments/view/184">https://www.wmo-sat.info/oscar/instruments/view/184</a></dd>
+</dl>
+</div></div>
+<div id="sens_hrs" class="entity">
+<h3>HRS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hrs</p>
+<div class="comment">
+<span class="markdown">High-Resolution Stereoscope</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot5" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot5">SPOT-5</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/193" title="http://www.wmo-sat.info/oscar/instruments/view/193">http://www.wmo-sat.info/oscar/instruments/view/193</a></dd>
+</dl>
+</div></div>
+<div id="sens_iasi" class="entity">
+<h3>IASI<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_iasi</p>
+<div class="comment">
+<span class="markdown">Infra-Red Atmospheric Sounding Interferometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA">Metop-A</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB">Metop-B</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC">Metop-C</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/207" title="http://www.wmo-sat.info/oscar/instruments/view/207">http://www.wmo-sat.info/oscar/instruments/view/207</a></dd>
+</dl>
+</div></div>
+<div id="sens_imagerMtsat2" class="entity">
+<h3>IMAGER (MTSAT-2)<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_imagerMtsat2</p>
+<div class="comment">
+<span class="markdown">MTSAT-2 Imager</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari-7" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari-7">Himawari-7</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://space.oscar.wmo.int/instruments/view/imager_mtsat_2" title="https://space.oscar.wmo.int/instruments/view/imager_mtsat_2">https://space.oscar.wmo.int/instruments/view/imager_mtsat_2</a></dd>
+</dl>
+</div></div>
+<div id="sens_jami" class="entity">
+<h3>JAMI<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_jami</p>
+<div class="comment">
+<span class="markdown">Japanese Advanced Meteorological Imager</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari-6" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari-6">Himawari-6</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/236" title="http://www.wmo-sat.info/oscar/instruments/view/236">http://www.wmo-sat.info/oscar/instruments/view/236</a></dd>
+</dl>
+</div></div>
+<div id="sens_maestro" class="entity">
+<h3>MAESTRO<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_maestro</p>
+<div class="comment">
+<span class="markdown">Measurements of Aerosol Extinction in the Stratosphere and Troposphere retrieved by Occultation</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_scisat" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_scisat">SCISAT-1</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://space.oscar.wmo.int/instruments/view/maestro" title="https://space.oscar.wmo.int/instruments/view/maestro">https://space.oscar.wmo.int/instruments/view/maestro</a></dd>
+</dl>
+</div></div>
+<div id="sens_meris" class="entity">
+<h3>MERIS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_meris</p>
+<div class="comment">
+<span class="markdown">Medium-Spectral Resolution, Imaging Spectrometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat">Envisat</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/277" title="http://www.wmo-sat.info/oscar/instruments/view/277">http://www.wmo-sat.info/oscar/instruments/view/277</a></dd>
+</dl>
+</div></div>
+<div id="sens_mipas" class="entity">
+<h3>MIPAS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mipas</p>
+<div class="comment">
+<span class="markdown">Michelson Interferometer for Passive Atmospheric Sounding</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat">Envisat</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/286" title="http://www.wmo-sat.info/oscar/instruments/view/286">http://www.wmo-sat.info/oscar/instruments/view/286</a></dd>
+</dl>
+</div></div>
+<div id="sens_miras" class="entity">
+<h3>MIRAS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_miras</p>
+<div class="comment">
+<span class="markdown">Microwave Imaging Radiometer using Aperture Synthesis</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_smos" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_smos">SMOS</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/287" title="https://www.wmo-sat.info/oscar/instruments/view/287">https://www.wmo-sat.info/oscar/instruments/view/287</a></dd>
+</dl>
+</div></div>
+<div id="sens_mls" class="entity">
+<h3>MLS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mls</p>
+<div class="comment">
+<span class="markdown">Microwave Limb Sounder on UARS</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_uars" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_uars">UARS</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://space.oscar.wmo.int/instruments/view/mls" title="https://space.oscar.wmo.int/instruments/view/mls">https://space.oscar.wmo.int/instruments/view/mls</a></dd>
+</dl>
+</div></div>
+<div id="sens_mlsAura" class="entity">
+<h3>MLS (EOS-AURA)<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mlsAura</p>
+<div class="comment">
+<span class="markdown">Microwave Limb Sounder on EOS AURA</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_aura" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_aura">Aura</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://space.oscar.wmo.int/instruments/view/mls_eos_aura" title="https://space.oscar.wmo.int/instruments/view/mls_eos_aura">https://space.oscar.wmo.int/instruments/view/mls_eos_aura</a></dd>
+</dl>
+</div></div>
+<div id="sens_modis" class="entity">
+<h3>MODIS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_modis</p>
+<div class="comment">
+<span class="markdown">Moderate Resolution Imaging Spectroradiometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua">Aqua</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_terra" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_terra">Terra</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/296" title="http://www.wmo-sat.info/oscar/instruments/view/296">http://www.wmo-sat.info/oscar/instruments/view/296</a></dd>
+</dl>
+</div></div>
+<div id="sens_msi" class="entity">
+<h3>MSI (Sentinel-2)<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi</p>
+<div class="comment">
+<span class="markdown">Multi-Spectral Instrument (Sentinel-2)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+MSI</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2a" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2a">Sentinel-2A</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2b" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2b">Sentinel-2B</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/312" title="https://www.wmo-sat.info/oscar/instruments/view/312">https://www.wmo-sat.info/oscar/instruments/view/312</a></dd>
+</dl>
+</div></div>
+<div id="sens_mss" class="entity">
+<h3>MSS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mss</p>
+<div class="comment">
+<span class="markdown">Multi-Spectral Scanner</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_1" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_1">Landsat-1</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_2" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_2">Landsat-2</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_3" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_3">Landsat-3</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_4" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_4">Landsat-4</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_5" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_5">Landsat-5</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/316" title="http://www.wmo-sat.info/oscar/instruments/view/316">http://www.wmo-sat.info/oscar/instruments/view/316</a></dd>
+</dl>
+</div></div>
+<div id="sens_mviri" class="entity">
+<h3>MVIRI<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mviri</p>
+<div class="comment">
+<span class="markdown">Meteosat Visible Infra-red Imager</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_1" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_1">Meteosat-1</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_2" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_2">Meteosat-2</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3">Meteosat-3</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3_adc" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3_adc">Meteosat-3 (ADC)</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3_xadc" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3_xadc">Meteosat-3 (X-ADC)</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_4" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_4">Meteosat-4</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_5" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_5">Meteosat-5</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_5_iodc" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_5_iodc">Meteosat-5 (IODC)</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_6" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_6">Meteosat-6</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_6_iodc" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_6_iodc">Meteosat-6 (IODC)</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_7" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_7">Meteosat-7</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_7_iodc" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_7_iodc">Meteosat-7 (IODC)</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/337" title="https://www.wmo-sat.info/oscar/instruments/view/337">https://www.wmo-sat.info/oscar/instruments/view/337</a></dd>
+</dl>
+</div></div>
+<div id="sens_mwri" class="entity">
+<h3>MWRI<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mwri</p>
+<div class="comment">
+<span class="markdown">Micro-Wave Radiation Imager</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3A" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3A">FY-3A</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3B" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3B">FY-3B</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3C" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3C">FY-3C</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3D" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3D">FY-3D</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3F" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3F">FY-3F</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/350" title="http://www.wmo-sat.info/oscar/instruments/view/350">http://www.wmo-sat.info/oscar/instruments/view/350</a></dd>
+</dl>
+</div></div>
+<div id="sens_nra" class="entity">
+<h3>NRA<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_nra</p>
+<div class="comment">
+<span class="markdown">NASA Radar Altimeter</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+TOPEX</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_topexPoseidon" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_topexPoseidon">Topex/Poseidon</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/1016" title="https://www.wmo-sat.info/oscar/instruments/view/1016">https://www.wmo-sat.info/oscar/instruments/view/1016</a></dd>
+</dl>
+</div></div>
+<div id="sens_oco" class="entity">
+<h3>OCO<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_oco</p>
+<div class="comment">
+<span class="markdown">Orbiting Carbon Observatory</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_oco2" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_oco2">OCO-2</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/368" title="https://www.wmo-sat.info/oscar/instruments/view/368">https://www.wmo-sat.info/oscar/instruments/view/368</a></dd>
+</dl>
+</div></div>
+<div id="sens_olci" class="entity">
+<h3>OLCI<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_olci</p>
+<div class="comment">
+<span class="markdown">Ocean and Land Colour Imager</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a">Sentinel-3A</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b">Sentinel-3B</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/374" title="https://www.wmo-sat.info/oscar/instruments/view/374">https://www.wmo-sat.info/oscar/instruments/view/374</a></dd>
+</dl>
+</div></div>
+<div id="sens_oli" class="entity">
+<h3>OLI<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_oli</p>
+<div class="comment">
+<span class="markdown">Operational Land Image</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_8" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_8">Landsat-8</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/375" title="http://www.wmo-sat.info/oscar/instruments/view/375">http://www.wmo-sat.info/oscar/instruments/view/375</a></dd>
+</dl>
+</div></div>
+<div id="sens_omi" class="entity">
+<h3>OMI<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_omi</p>
+<div class="comment">
+<span class="markdown">Ozone Monitoring Instrument</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_aura" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_aura">Aura</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/377" title="http://www.wmo-sat.info/oscar/instruments/view/377">http://www.wmo-sat.info/oscar/instruments/view/377</a></dd>
+</dl>
+</div></div>
+<div id="sens_osiris" class="entity">
+<h3>OSIRIS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_osiris</p>
+<div class="comment">
+<span class="markdown">Optical Spectrograph and Infra-Red Imager System</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_odin" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_odin">http://vocab.ceda.ac.uk/collection/cci/platform/plat_odin</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/383" title="http://www.wmo-sat.info/oscar/instruments/view/383">http://www.wmo-sat.info/oscar/instruments/view/383</a></dd>
+</dl>
+</div></div>
+<div id="sens_palsar" class="entity">
+<h3>PALSAR<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar</p>
+<div class="comment">
+<span class="markdown">Phased Array type L-band Synthetic Aperture Radar</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_alos" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_alos">ALOS</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/387" title="http://www.wmo-sat.info/oscar/instruments/view/387">http://www.wmo-sat.info/oscar/instruments/view/387</a></dd>
+</dl>
+</div></div>
+<div id="sens_palsar2" class="entity">
+<h3>PALSAR-2<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar2</p>
+<div class="comment">
+<span class="markdown">Phased Array type L-band Synthetic Aperture Radar – 2</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_alos-2" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_alos-2">ALOS-2</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/388" title="https://www.wmo-sat.info/oscar/instruments/view/388">https://www.wmo-sat.info/oscar/instruments/view/388</a></dd>
+</dl>
+</div></div>
+<div id="sens_poam" class="entity">
+<h3>POAM<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poam</p>
+<div class="comment">
+<span class="markdown">Polar Ozone and Aerosol Measurement</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot4" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot4">SPOT-4</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://space.oscar.wmo.int/instruments/view/poam" title="https://space.oscar.wmo.int/instruments/view/poam">https://space.oscar.wmo.int/instruments/view/poam</a></dd>
+</dl>
+</div></div>
+<div id="sens_polder" class="entity">
+<h3>POLDER<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_polder</p>
+<div class="comment">
+<span class="markdown">POLarization and Directionality of the Earth's Reflectances</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_parasol" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_parasol">PARASOL</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/405" title="http://www.wmo-sat.info/oscar/instruments/view/405">http://www.wmo-sat.info/oscar/instruments/view/405</a></dd>
+</dl>
+</div></div>
+<div id="sens_poseidon2" class="entity">
+<h3>Poseidon-2<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon2</p>
+<div class="comment">
+<span class="markdown">Poseidon 2</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason1" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason1">Jason-1</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/406" title="http://www.wmo-sat.info/oscar/instruments/view/406">http://www.wmo-sat.info/oscar/instruments/view/406</a></dd>
+</dl>
+</div></div>
+<div id="sens_poseidon3" class="entity">
+<h3>Poseidon-3<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon3</p>
+<div class="comment">
+<span class="markdown">Poseidon 3</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason2" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason2">Jason-2</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/407" title="http://www.wmo-sat.info/oscar/instruments/view/407">http://www.wmo-sat.info/oscar/instruments/view/407</a></dd>
+</dl>
+</div></div>
+<div id="sens_poseidon3b" class="entity">
+<h3>Poseidon-3B<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon3b</p>
+<div class="comment">
+<span class="markdown">Poseidon 3b</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason3" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_jason3">Jason-3</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/408" title="https://www.wmo-sat.info/oscar/instruments/view/408">https://www.wmo-sat.info/oscar/instruments/view/408</a></dd>
+</dl>
+</div></div>
+<div id="sens_poseidon4" class="entity">
+<h3>Poseidon-4<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon4</p>
+<div class="comment">
+<span class="markdown">Poseidon-4</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6a" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6a">Sentinel-6A</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6b" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6b">Sentinel-6B</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://space.oscar.wmo.int/instruments/view/poseidon_4" title="https://space.oscar.wmo.int/instruments/view/poseidon_4">https://space.oscar.wmo.int/instruments/view/poseidon_4</a></dd>
+</dl>
+</div></div>
+<div id="sens_ra" class="entity">
+<h3>RA<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra</p>
+<div class="comment">
+<span class="markdown">Radar Altimeter</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1">ERS-1</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2">ERS-2</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/415" title="http://www.wmo-sat.info/oscar/instruments/view/415">http://www.wmo-sat.info/oscar/instruments/view/415</a></dd>
+</dl>
+</div></div>
+<div id="sens_ra2" class="entity">
+<h3>RA-2<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra2</p>
+<div class="comment">
+<span class="markdown">Radar Altimeter</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat">Envisat</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/416" title="http://www.wmo-sat.info/oscar/instruments/view/416">http://www.wmo-sat.info/oscar/instruments/view/416</a></dd>
+</dl>
+</div></div>
+<div id="sens_sageII" class="entity">
+<h3>SAGE-II<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageII</p>
+<div class="comment">
+<span class="markdown">Stratospheric Aerosol and Gas Experiment - II</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_erbs" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_erbs">ERBS</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://space.oscar.wmo.int/instruments/view/sage_ii" title="https://space.oscar.wmo.int/instruments/view/sage_ii">https://space.oscar.wmo.int/instruments/view/sage_ii</a></dd>
+</dl>
+</div></div>
+<div id="sens_sageIII" class="entity">
+<h3>SAGE-III<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageIII</p>
+<div class="comment">
+<span class="markdown">Stratospheric Aerosol and Gas Experiment - III</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_iss_SAGEIII" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_iss_SAGEIII">ISS Sage-III</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteor_3m" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteor_3m">Meteor-3M</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://space.oscar.wmo.int/instruments/view/sage_iii" title="https://space.oscar.wmo.int/instruments/view/sage_iii">https://space.oscar.wmo.int/instruments/view/sage_iii</a></dd>
+</dl>
+</div></div>
+<div id="sens_sarRadarSat2" class="entity">
+<h3>SAR (RadarSat-2)<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarRadarSat2</p>
+<div class="comment">
+<span class="markdown">Synthetic Aperture Radar (C-band)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/445" title="http://www.wmo-sat.info/oscar/instruments/view/445">http://www.wmo-sat.info/oscar/instruments/view/445</a></dd>
+</dl>
+</div></div>
+<div id="sens_sar2000" class="entity">
+<h3>SAR-2000<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sar2000</p>
+<div class="comment">
+<span class="markdown">Synthetic Aperture Radar 2000 (X-band)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_csk1" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_csk1">CSK-1</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_csk2" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_csk2">CSK-2</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_csk3" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_csk3">CSK-3</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_csk4" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_csk4">CSK-4</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/447" title="https://www.wmo-sat.info/oscar/instruments/view/447">https://www.wmo-sat.info/oscar/instruments/view/447</a></dd>
+</dl>
+</div></div>
+<div id="sens_sarcS1" class="entity">
+<h3>SAR-C (Sentinel-1)<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarcS1</p>
+<div class="comment">
+<span class="markdown">Synthetic Aperture Radar (C-band)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1a" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1a">Sentinel-1A</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1b" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1b">Sentinel-1B</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/450" title="https://www.wmo-sat.info/oscar/instruments/view/450">https://www.wmo-sat.info/oscar/instruments/view/450</a></dd>
+</dl>
+</div></div>
+<div id="sens_sarX" class="entity">
+<h3>SAR-X<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarX</p>
+<div class="comment">
+<span class="markdown">Synthetic Aperture Radar X-band</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_tandem_X" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_tandem_X">TanDEM-X</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_terraSar_X" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_terraSar_X">TerraSar-X</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_tsx_ng" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_tsx_ng">TSX-NG</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/459" title="http://www.wmo-sat.info/oscar/instruments/view/459">http://www.wmo-sat.info/oscar/instruments/view/459</a></dd>
+</dl>
+</div></div>
+<div id="sens_sciamachy" class="entity">
+<h3>SCIAMACHY<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sciamachy</p>
+<div class="comment">
+<span class="markdown">SCanning Imaging Absorption spectroMeter for AtmosphericCHartographY</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat">Envisat</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/477" title="http://www.wmo-sat.info/oscar/instruments/view/477">http://www.wmo-sat.info/oscar/instruments/view/477</a>, <a href="http://www.wmo-sat.info/oscar/instruments/view/478" title="http://www.wmo-sat.info/oscar/instruments/view/478">http://www.wmo-sat.info/oscar/instruments/view/478</a></dd>
+</dl>
+</div></div>
+<div id="sens_seviri" class="entity">
+<h3>SEVIRI<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_seviri</p>
+<div class="comment">
+<span class="markdown">Spinning Enhanced Visible and Infrared Imager</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_10" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_10">Meteosat-10</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_11" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_11">Meteosat-11</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_8" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_8">Meteosat-8</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_9" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_9">Meteosat-9</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/503" title="http://www.wmo-sat.info/oscar/instruments/view/503">http://www.wmo-sat.info/oscar/instruments/view/503</a></dd>
+</dl>
+</div></div>
+<div id="sens_siral" class="entity">
+<h3>SIRAL<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_siral</p>
+<div class="comment">
+<span class="markdown">SAR Interferometer Radar Altimeter</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_cryosat2" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_cryosat2">CryoSat-2</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/509" title="https://www.wmo-sat.info/oscar/instruments/view/509">https://www.wmo-sat.info/oscar/instruments/view/509</a></dd>
+</dl>
+</div></div>
+<div id="sens_slstr" class="entity">
+<h3>SLSTR<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_slstr</p>
+<div class="comment">
+<span class="markdown">Sea and Land Surface Temperature Radiometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a">Sentinel-3A</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b">Sentinel-3B</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/518" title="https://www.wmo-sat.info/oscar/instruments/view/518">https://www.wmo-sat.info/oscar/instruments/view/518</a></dd>
+</dl>
+</div></div>
+<div id="sens_smap" class="entity">
+<h3>SMAP<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smap</p>
+<div class="comment">
+<span class="markdown">Soil Moisture Active-Passive (intended as payload)</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_smap" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_smap">SMAP</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/521" title="https://www.wmo-sat.info/oscar/instruments/view/521">https://www.wmo-sat.info/oscar/instruments/view/521</a></dd>
+</dl>
+</div></div>
+<div id="sens_smmr" class="entity">
+<h3>SMMR<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smmr</p>
+<div class="comment">
+<span class="markdown">Scanning Multichannel Microwave Radiometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus7" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus7">Nimbus-7</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/522" title="http://www.wmo-sat.info/oscar/instruments/view/522">http://www.wmo-sat.info/oscar/instruments/view/522</a></dd>
+</dl>
+</div></div>
+<div id="sens_smr" class="entity">
+<h3>SMR<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smr</p>
+<div class="comment">
+<span class="markdown">Sub-Millimetre Radiometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_odin" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_odin">http://vocab.ceda.ac.uk/collection/cci/platform/plat_odin</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/524" title="http://www.wmo-sat.info/oscar/instruments/view/524">http://www.wmo-sat.info/oscar/instruments/view/524</a></dd>
+</dl>
+</div></div>
+<div id="sens_sral" class="entity">
+<h3>SRAL<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sral</p>
+<div class="comment">
+<span class="markdown">Synthetic Aperture Radar Altimeter</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a">Sentinel-3A</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b">Sentinel-3B</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/530" title="https://www.wmo-sat.info/oscar/instruments/view/530">https://www.wmo-sat.info/oscar/instruments/view/530</a></dd>
+</dl>
+</div></div>
+<div id="sens_ssalt" class="entity">
+<h3>SSALT<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssalt</p>
+<div class="comment">
+<span class="markdown">Single-frequency Solid-state Altimeter</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+Poseidon-1</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_topexPoseidon" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_topexPoseidon">Topex/Poseidon</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/531" title="http://www.wmo-sat.info/oscar/instruments/view/531">http://www.wmo-sat.info/oscar/instruments/view/531</a></dd>
+</dl>
+</div></div>
+<div id="sens_ssmI" class="entity">
+<h3>SSM/I<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssmI</p>
+<div class="comment">
+<span class="markdown">Special Sensor Microwave Imager</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+SSMI</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F08" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F08">DMSP-F08</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F10" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F10">DMSP-F10</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F11" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F11">DMSP-F11</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F12" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F12">DMSP-F12</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F13" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F13">DMSP-F13</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F14" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F14">DMSP-F14</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F15" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F15">DMSP-F15</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/533" title="http://www.wmo-sat.info/oscar/instruments/view/533">http://www.wmo-sat.info/oscar/instruments/view/533</a></dd>
+</dl>
+</div></div>
+<div id="sens_ssmiS" class="entity">
+<h3>SSMI/S<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssmiS</p>
+<div class="comment">
+<span class="markdown">Special Sensor Microwave Imager Sounder</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+SSMIS</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/536" title="http://www.wmo-sat.info/oscar/instruments/view/536">http://www.wmo-sat.info/oscar/instruments/view/536</a></dd>
+</dl>
+</div></div>
+<div id="sens_seaWiFs" class="entity">
+<h3>SeaWiFS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_seaWiFs</p>
+<div class="comment">
+<span class="markdown">Sea-viewing Wide Field-of-view Sensor</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_orbview2" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_orbview2">Orbview-2</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/481" title="http://www.wmo-sat.info/oscar/instruments/view/481">http://www.wmo-sat.info/oscar/instruments/view/481</a></dd>
+</dl>
+</div></div>
+<div id="sens_tansoCai" class="entity">
+<h3>TANSO-CAI<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoCai</p>
+<div class="comment">
+<span class="markdown">Thermal And Near-infrared Sensor for carbon Observation Cloud and Aerosol Imager</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat">GOSAT</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/553" title="http://www.wmo-sat.info/oscar/instruments/view/553">http://www.wmo-sat.info/oscar/instruments/view/553</a></dd>
+</dl>
+</div></div>
+<div id="sens_tansoFts" class="entity">
+<h3>TANSO-FTS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoFts</p>
+<div class="comment">
+<span class="markdown">Thermal And Near-infrared Sensor for carbon Observation Fourier Transform Spectrometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat">GOSAT</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/554" title="http://www.wmo-sat.info/oscar/instruments/view/554">http://www.wmo-sat.info/oscar/instruments/view/554</a></dd>
+</dl>
+</div></div>
+<div id="sens_tansoFts2" class="entity">
+<h3>TANSO-FTS-2<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoFts2</p>
+<div class="comment">
+<span class="markdown">Thermal And Near infrared Sensor for carbon Observations - Fourier Transform Spectrometer / 2</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat-2" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat-2">GOSAT-2</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://space.oscar.wmo.int/instruments/view/tanso_fts_2" title="https://space.oscar.wmo.int/instruments/view/tanso_fts_2">https://space.oscar.wmo.int/instruments/view/tanso_fts_2</a></dd>
+</dl>
+</div></div>
+<div id="sens_tirs" class="entity">
+<h3>TIRS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tirs</p>
+<div class="comment">
+<span class="markdown">Thermal Infrared Sensor</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_8" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_8">Landsat-8</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/567" title="http://www.wmo-sat.info/oscar/instruments/view/567">http://www.wmo-sat.info/oscar/instruments/view/567</a></dd>
+</dl>
+</div></div>
+<div id="sens_tm" class="entity">
+<h3>TM<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tm</p>
+<div class="comment">
+<span class="markdown">Thematic Mapper</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_4" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_4">Landsat-4</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_5" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_5">Landsat-5</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_7" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_7">Landsat-7</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/568" title="http://www.wmo-sat.info/oscar/instruments/view/568">http://www.wmo-sat.info/oscar/instruments/view/568</a></dd>
+</dl>
+</div></div>
+<div id="sens_tmi" class="entity">
+<h3>TMI<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tmi</p>
+<div class="comment">
+<span class="markdown">TRMM Microwave Imager</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_trmm" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_trmm">TRMM</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/569" title="http://www.wmo-sat.info/oscar/instruments/view/569">http://www.wmo-sat.info/oscar/instruments/view/569</a></dd>
+</dl>
+</div></div>
+<div id="sens_toms" class="entity">
+<h3>TOMS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_toms</p>
+<div class="comment">
+<span class="markdown">Total Ozone Mapping Spectrometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus7" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus7">Nimbus-7</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/571" title="https://www.wmo-sat.info/oscar/instruments/view/571">https://www.wmo-sat.info/oscar/instruments/view/571</a></dd>
+</dl>
+</div></div>
+<div id="sens_tropomi" class="entity">
+<h3>TROPOMI<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tropomi</p>
+<div class="comment">
+<span class="markdown">Tropospheric Monitoring Instrument</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel5p" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel5p">Sentinel-5P</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/586" title="https://www.wmo-sat.info/oscar/instruments/view/586">https://www.wmo-sat.info/oscar/instruments/view/586</a></dd>
+</dl>
+</div></div>
+<div id="sens_unspecified" class="entity">
+<h3>Unspecified<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_unspecified</p>
+<div class="comment">
+<span class="markdown">Unspecified sensor</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+</dl>
+</div></div>
+<div id="sens_vegetation" class="entity">
+<h3>VEGETATION<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_vegetation</p>
+<div class="comment">
+<span class="markdown">Vegetation observation</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+Végétation</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot4" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot4">SPOT-4</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot5" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_spot5">SPOT-5</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/594" title="http://www.wmo-sat.info/oscar/instruments/view/594">http://www.wmo-sat.info/oscar/instruments/view/594</a></dd>
+</dl>
+</div></div>
+<div id="sens_viirs" class="entity">
+<h3>VIIRS<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_viirs</p>
+<div class="comment">
+<span class="markdown">Visible/Infrared Imager Radiometer Suite</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_snpp" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_snpp">SNPP</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/604" title="https://www.wmo-sat.info/oscar/instruments/view/604">https://www.wmo-sat.info/oscar/instruments/view/604</a></dd>
+</dl>
+</div></div>
+<div id="sens_virr" class="entity">
+<h3>VIRR<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_virr</p>
+<div class="comment">
+<span class="markdown">Visible and Infra-Red Radiometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+VIRR (FY-3)</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3A" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3A">FY-3A</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3B" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3B">FY-3B</a>, <a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3C" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3C">FY-3C</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/virr_fy_3" title="https://www.wmo-sat.info/oscar/instruments/view/virr_fy_3">https://www.wmo-sat.info/oscar/instruments/view/virr_fy_3</a></dd>
+</dl>
+</div></div>
+<div id="sens_vegetationP" class="entity">
+<h3>Végétation-P<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_vegetationP</p>
+<div class="comment">
+<span class="markdown">Végétation for PROBA</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>has alternative label</dt>
+<dd>
+Vegetation-P</dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_probaV" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_probaV">PROBA-V</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="https://www.wmo-sat.info/oscar/instruments/view/961" title="https://www.wmo-sat.info/oscar/instruments/view/961">https://www.wmo-sat.info/oscar/instruments/view/961</a></dd>
+</dl>
+</div></div>
+<div id="sens_windSat" class="entity">
+<h3>WindSat<span class="backlink">back to <a href="#toc">ToC</a> or <a href="#members">Members ToC</a></span></h3>
+<p><strong>IRI:</strong> http://vocab.ceda.ac.uk/collection/cci/sensor/sens_windSat</p>
+<div class="comment">
+<span class="markdown">Polarimetric microwave radiometer</span></div><div class="description">
+<dl>
+<dt>type</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/ontology/cci#sensor" title="http://vocab.ceda.ac.uk/ontology/cci#sensor">Sensor</a>, <a href="http://www.w3.org/2004/02/skos/core#Concept" title="http://www.w3.org/2004/02/skos/core#Concept">http://www.w3.org/2004/02/skos/core#Concept</a></dd>
+<dt>is top concept in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>is in scheme</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/scheme/cci/sensor" title="http://vocab.ceda.ac.uk/scheme/cci/sensor">Sensor</a></dd>
+<dt>has platform</dt>
+<dd>
+<a href="http://vocab.ceda.ac.uk/collection/cci/platform/plat_coriolis" title="http://vocab.ceda.ac.uk/collection/cci/platform/plat_coriolis">Coriolis</a></dd>
+<dt>see also</dt>
+<dd>
+<a href="http://www.wmo-sat.info/oscar/instruments/view/623" title="http://www.wmo-sat.info/oscar/instruments/view/623">http://www.wmo-sat.info/oscar/instruments/view/623</a></dd>
+</dl>
+</div></div>
+</div>
+</div>
+</body>

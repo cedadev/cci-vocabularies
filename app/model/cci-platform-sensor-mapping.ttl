@@ -1,0 +1,810 @@
+@prefix mapa: <http://vocab.ceda.ac.uk/collection/cci/platform/> .
+@prefix mapb: <http://vocab.ceda.ac.uk/collection/cci/sensor/> .
+@prefix cci: <http://vocab.ceda.ac.uk/ontology/cci#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+mapa:plat_alos cci:hasSensor mapb:sens_palsar .
+
+mapb:sens_palsar cci:hasPlatform mapa:plat_alos .
+
+mapa:plat_aqua cci:hasSensor mapb:sens_airs .
+
+mapb:sens_airs cci:hasPlatform mapa:plat_aqua .
+
+mapa:plat_aqua cci:hasSensor mapb:sens_amsua .
+
+mapb:sens_amsua cci:hasPlatform mapa:plat_aqua .
+
+mapa:plat_aqua cci:hasSensor mapb:sens_amsre .
+
+mapb:sens_amsre cci:hasPlatform mapa:plat_aqua .
+
+mapa:plat_aqua cci:hasSensor mapb:sens_modis .
+
+mapb:sens_modis cci:hasPlatform mapa:plat_aqua .
+
+mapa:plat_aura cci:hasSensor mapb:sens_omi .
+
+mapb:sens_omi cci:hasPlatform mapa:plat_aura .
+
+mapa:plat_coriolis cci:hasSensor mapb:sens_windSat .
+
+mapb:sens_windSat cci:hasPlatform mapa:plat_coriolis .
+
+mapa:plat_dmsp_F08 cci:hasSensor mapb:sens_ssmI .
+
+mapb:sens_ssmI cci:hasPlatform mapa:plat_dmsp_F08 .
+
+mapa:plat_dmsp_F10 cci:hasSensor mapb:sens_ssmI .
+
+mapb:sens_ssmI cci:hasPlatform mapa:plat_dmsp_F10 .
+
+mapa:plat_dmsp_F11 cci:hasSensor mapb:sens_ssmI .
+
+mapb:sens_ssmI cci:hasPlatform mapa:plat_dmsp_F11 .
+
+mapa:plat_dmsp_F12 cci:hasSensor mapb:sens_ssmI .
+
+mapb:sens_ssmI cci:hasPlatform mapa:plat_dmsp_F12 .
+
+mapa:plat_dmsp_F13 cci:hasSensor mapb:sens_ssmI .
+
+mapb:sens_ssmI cci:hasPlatform mapa:plat_dmsp_F13 .
+
+mapa:plat_dmsp_F14 cci:hasSensor mapb:sens_ssmI .
+
+mapb:sens_ssmI cci:hasPlatform mapa:plat_dmsp_F14 .
+
+mapa:plat_dmsp_F15 cci:hasSensor mapb:sens_ssmI .
+
+mapb:sens_ssmI cci:hasPlatform mapa:plat_dmsp_F15 .
+
+mapa:plat_envisat cci:hasSensor mapb:sens_asar .
+
+mapb:sens_asar cci:hasPlatform mapa:plat_envisat .
+
+mapa:plat_envisat cci:hasSensor mapb:sens_gomos .
+
+mapb:sens_gomos cci:hasPlatform mapa:plat_envisat .
+
+mapa:plat_envisat cci:hasSensor mapb:sens_sciamachy .
+
+mapb:sens_sciamachy cci:hasPlatform mapa:plat_envisat .
+
+mapa:plat_envisat cci:hasSensor mapb:sens_ra2 .
+
+mapb:sens_ra2 cci:hasPlatform mapa:plat_envisat .
+
+mapa:plat_envisat cci:hasSensor mapb:sens_meris .
+
+mapb:sens_meris cci:hasPlatform mapa:plat_envisat .
+
+mapa:plat_envisat cci:hasSensor mapb:sens_aatsr .
+
+mapb:sens_aatsr cci:hasPlatform mapa:plat_envisat .
+
+mapa:plat_envisat cci:hasSensor mapb:sens_mipas .
+
+mapb:sens_mipas cci:hasPlatform mapa:plat_envisat .
+
+mapa:plat_ers1 cci:hasSensor mapb:sens_amisar .
+
+mapb:sens_amisar cci:hasPlatform mapa:plat_ers1 .
+
+mapa:plat_ers1 cci:hasSensor mapb:sens_amiscat .
+
+mapb:sens_amiscat cci:hasPlatform mapa:plat_ers1 .
+
+mapa:plat_ers1 cci:hasSensor mapb:sens_atsr .
+
+mapb:sens_atsr cci:hasPlatform mapa:plat_ers1 .
+
+mapa:plat_ers1 cci:hasSensor mapb:sens_ra .
+
+mapb:sens_ra cci:hasPlatform mapa:plat_ers1 .
+
+mapa:plat_ers2 cci:hasSensor mapb:sens_amisar .
+
+mapb:sens_amisar cci:hasPlatform mapa:plat_ers2 .
+
+mapa:plat_ers2 cci:hasSensor mapb:sens_amiscat .
+
+mapb:sens_amiscat cci:hasPlatform mapa:plat_ers2 .
+
+mapa:plat_ers2 cci:hasSensor mapb:sens_atsr2 .
+
+mapb:sens_atsr2 cci:hasPlatform mapa:plat_ers2 .
+
+mapa:plat_ers2 cci:hasSensor mapb:sens_gome .
+
+mapb:sens_gome cci:hasPlatform mapa:plat_ers2 .
+
+mapa:plat_ers2 cci:hasSensor mapb:sens_ra .
+
+mapb:sens_ra cci:hasPlatform mapa:plat_ers2 .
+
+mapa:plat_FY-3A cci:hasSensor mapb:sens_mwri .
+
+mapb:sens_mwri cci:hasPlatform mapa:plat_FY-3A .
+
+mapa:plat_FY-3B cci:hasSensor mapb:sens_mwri .
+
+mapb:sens_mwri cci:hasPlatform mapa:plat_FY-3B .
+
+mapa:plat_FY-3C cci:hasSensor mapb:sens_mwri .
+
+mapb:sens_mwri cci:hasPlatform mapa:plat_FY-3C .
+
+mapa:plat_FY-3D cci:hasSensor mapb:sens_mwri .
+
+mapb:sens_mwri cci:hasPlatform mapa:plat_FY-3D .
+
+mapa:plat_FY-3F cci:hasSensor mapb:sens_mwri .
+
+mapb:sens_mwri cci:hasPlatform mapa:plat_FY-3F .
+
+mapa:plat_gcomW1 cci:hasSensor mapb:sens_amsr2 .
+
+mapb:sens_amsr2 cci:hasPlatform mapa:plat_gcomW1 .
+
+mapa:plat_gcomW2 cci:hasSensor mapb:sens_amsr2 .
+
+mapb:sens_amsr2 cci:hasPlatform mapa:plat_gcomW2 .
+
+mapa:plat_gcomW3 cci:hasSensor mapb:sens_amsr2 .
+
+mapb:sens_amsr2 cci:hasPlatform mapa:plat_gcomW3 .
+
+mapa:plat_gfo cci:hasSensor mapb:sens_gfora .
+
+mapb:sens_gfora cci:hasPlatform mapa:plat_gfo .
+
+mapa:plat_goes_08 cci:hasSensor mapb:sens_goesImager811 .
+
+mapb:sens_goesImager811 cci:hasPlatform mapa:plat_goes_08 .
+
+mapa:plat_goes_09 cci:hasSensor mapb:sens_goesImager811 .
+
+mapb:sens_goesImager811 cci:hasPlatform mapa:plat_goes_09 .
+
+mapa:plat_goes_09_bk cci:hasSensor mapb:sens_goesImager811 .
+
+mapb:sens_goesImager811 cci:hasPlatform mapa:plat_goes_09_bk .
+
+mapa:plat_goes_10 cci:hasSensor mapb:sens_goesImager811 .
+
+mapb:sens_goesImager811 cci:hasPlatform mapa:plat_goes_10 .
+
+mapa:plat_goes_10_SA cci:hasSensor mapb:sens_goesImager811 .
+
+mapb:sens_goesImager811 cci:hasPlatform mapa:plat_goes_10_SA .
+
+mapa:plat_goes_11 cci:hasSensor mapb:sens_goesImager811 .
+
+mapb:sens_goesImager811 cci:hasPlatform mapa:plat_goes_11 .
+
+mapa:plat_goes_12 cci:hasSensor mapb:sens_goesImager1215 .
+
+mapb:sens_goesImager1215 cci:hasPlatform mapa:plat_goes_12 .
+
+mapa:plat_goes_12_SA cci:hasSensor mapb:sens_goesImager1215 .
+
+mapb:sens_goesImager1215 cci:hasPlatform mapa:plat_goes_12_SA .
+
+mapa:plat_goes_13 cci:hasSensor mapb:sens_goesImager1215 .
+
+mapb:sens_goesImager1215 cci:hasPlatform mapa:plat_goes_13 .
+
+mapa:plat_goes_14 cci:hasSensor mapb:sens_goesImager1215 .
+
+mapb:sens_goesImager1215 cci:hasPlatform mapa:plat_goes_14 .
+
+mapa:plat_goes_15 cci:hasSensor mapb:sens_goesImager1215 .
+
+mapb:sens_goesImager1215 cci:hasPlatform mapa:plat_goes_15 .
+
+mapa:plat_goes_16 cci:hasSensor mapb:sens_abi .
+
+mapb:sens_abi cci:hasPlatform mapa:plat_goes_16 .
+
+mapa:plat_goes_17 cci:hasSensor mapb:sens_abi .
+
+mapb:sens_abi cci:hasPlatform mapa:plat_goes_17 .
+
+mapa:plat_gosat cci:hasSensor mapb:sens_tansoCai .
+
+mapb:sens_tansoCai cci:hasPlatform mapa:plat_gosat .
+
+mapa:plat_gosat cci:hasSensor mapb:sens_tansoFts .
+
+mapb:sens_tansoFts cci:hasPlatform mapa:plat_gosat .
+
+mapa:plat_himawari-6 cci:hasSensor mapb:sens_jami .
+
+mapb:sens_jami cci:hasPlatform mapa:plat_himawari-6 .
+
+mapa:plat_icesat cci:hasSensor mapb:sens_glas .
+
+mapb:sens_glas cci:hasPlatform mapa:plat_icesat .
+
+mapa:plat_jason1 cci:hasSensor mapb:sens_poseidon2 .
+
+mapb:sens_poseidon2 cci:hasPlatform mapa:plat_jason1 .
+
+mapa:plat_jason2 cci:hasSensor mapb:sens_poseidon3 .
+
+mapb:sens_poseidon3 cci:hasPlatform mapa:plat_jason2 .
+
+mapa:plat_landsat_1 cci:hasSensor mapb:sens_mss .
+
+mapb:sens_mss cci:hasPlatform mapa:plat_landsat_1 .
+
+mapa:plat_landsat_2 cci:hasSensor mapb:sens_mss .
+
+mapb:sens_mss cci:hasPlatform mapa:plat_landsat_2 .
+
+mapa:plat_landsat_3 cci:hasSensor mapb:sens_mss .
+
+mapb:sens_mss cci:hasPlatform mapa:plat_landsat_3 .
+
+mapa:plat_landsat_4 cci:hasSensor mapb:sens_mss .
+
+mapb:sens_mss cci:hasPlatform mapa:plat_landsat_4 .
+
+mapa:plat_landsat_4 cci:hasSensor mapb:sens_tm .
+
+mapb:sens_tm cci:hasPlatform mapa:plat_landsat_4 .
+
+mapa:plat_landsat_5 cci:hasSensor mapb:sens_mss .
+
+mapb:sens_mss cci:hasPlatform mapa:plat_landsat_5 .
+
+mapa:plat_landsat_5 cci:hasSensor mapb:sens_tm .
+
+mapb:sens_tm cci:hasPlatform mapa:plat_landsat_5 .
+
+mapa:plat_landsat_7 cci:hasSensor mapb:sens_tm .
+
+mapb:sens_tm cci:hasPlatform mapa:plat_landsat_7 .
+
+mapa:plat_landsat_8 cci:hasSensor mapb:sens_tirs .
+
+mapb:sens_tirs cci:hasPlatform mapa:plat_landsat_8 .
+
+mapa:plat_landsat_8 cci:hasSensor mapb:sens_oli .
+
+mapb:sens_oli cci:hasPlatform mapa:plat_landsat_8 .
+
+mapa:plat_meteosat_10 cci:hasSensor mapb:sens_seviri .
+
+mapb:sens_seviri cci:hasPlatform mapa:plat_meteosat_10 .
+
+mapa:plat_meteosat_11 cci:hasSensor mapb:sens_seviri .
+
+mapb:sens_seviri cci:hasPlatform mapa:plat_meteosat_11 .
+
+mapa:plat_meteosat_8 cci:hasSensor mapb:sens_seviri .
+
+mapb:sens_seviri cci:hasPlatform mapa:plat_meteosat_8 .
+
+mapa:plat_meteosat_9 cci:hasSensor mapb:sens_seviri .
+
+mapb:sens_seviri cci:hasPlatform mapa:plat_meteosat_9 .
+
+mapa:plat_metOpA cci:hasSensor mapb:sens_amsua .
+
+mapb:sens_amsua cci:hasPlatform mapa:plat_metOpA .
+
+mapa:plat_metOpA cci:hasSensor mapb:sens_ascat .
+
+mapb:sens_ascat cci:hasPlatform mapa:plat_metOpA .
+
+mapa:plat_metOpA cci:hasSensor mapb:sens_avhrr3 .
+
+mapb:sens_avhrr3 cci:hasPlatform mapa:plat_metOpA .
+
+mapa:plat_metOpA cci:hasSensor mapb:sens_gome2 .
+
+mapb:sens_gome2 cci:hasPlatform mapa:plat_metOpA .
+
+mapa:plat_metOpA cci:hasSensor mapb:sens_iasi .
+
+mapb:sens_iasi cci:hasPlatform mapa:plat_metOpA .
+
+mapa:plat_metOpA cci:hasSensor mapb:sens_hirs4 .
+
+mapb:sens_hirs4 cci:hasPlatform mapa:plat_metOpA .
+
+mapa:plat_metOpB cci:hasSensor mapb:sens_ascat .
+
+mapb:sens_ascat cci:hasPlatform mapa:plat_metOpB .
+
+mapa:plat_metOpB cci:hasSensor mapb:sens_iasi .
+
+mapb:sens_iasi cci:hasPlatform mapa:plat_metOpB .
+
+mapa:plat_metOpB cci:hasSensor mapb:sens_gome2 .
+
+mapb:sens_gome2 cci:hasPlatform mapa:plat_metOpB .
+
+mapa:plat_metOpB cci:hasSensor mapb:sens_avhrr3 .
+
+mapb:sens_avhrr3 cci:hasPlatform mapa:plat_metOpB .
+
+mapa:plat_metOpB cci:hasSensor mapb:sens_amsua .
+
+mapb:sens_amsua cci:hasPlatform mapa:plat_metOpB .
+
+mapa:plat_metOpC cci:hasSensor mapb:sens_iasi .
+
+mapb:sens_iasi cci:hasPlatform mapa:plat_metOpC .
+
+mapa:plat_metOpC cci:hasSensor mapb:sens_ascat .
+
+mapb:sens_ascat cci:hasPlatform mapa:plat_metOpC .
+
+mapa:plat_metOpC cci:hasSensor mapb:sens_amsua .
+
+mapb:sens_amsua cci:hasPlatform mapa:plat_metOpC .
+
+mapa:plat_metOpC cci:hasSensor mapb:sens_gome2 .
+
+mapb:sens_gome2 cci:hasPlatform mapa:plat_metOpC .
+
+mapa:plat_metOpC cci:hasSensor mapb:sens_avhrr3 .
+
+mapb:sens_avhrr3 cci:hasPlatform mapa:plat_metOpC .
+
+mapa:plat_nimbus7 cci:hasSensor mapb:sens_smmr .
+
+mapb:sens_smmr cci:hasPlatform mapa:plat_nimbus7 .
+
+mapa:plat_nimbus7 cci:hasSensor mapb:sens_toms .
+
+mapb:sens_toms cci:hasPlatform mapa:plat_nimbus7 .
+
+mapa:plat_noaa_6 cci:hasSensor mapb:sens_avhrr .
+
+mapb:sens_avhrr cci:hasPlatform mapa:plat_noaa_6 .
+
+mapa:plat_noaa_7 cci:hasSensor mapb:sens_avhrr2 .
+
+mapb:sens_avhrr2 cci:hasPlatform mapa:plat_noaa_7 .
+
+mapa:plat_noaa_8 cci:hasSensor mapb:sens_avhrr .
+
+mapb:sens_avhrr cci:hasPlatform mapa:plat_noaa_8 .
+
+mapa:plat_noaa_9 cci:hasSensor mapb:sens_avhrr2 .
+
+mapb:sens_avhrr2 cci:hasPlatform mapa:plat_noaa_9 .
+
+mapa:plat_noaa_10 cci:hasSensor mapb:sens_avhrr .
+
+mapb:sens_avhrr cci:hasPlatform mapa:plat_noaa_10 .
+
+mapa:plat_noaa_11 cci:hasSensor mapb:sens_avhrr2 .
+
+mapb:sens_avhrr2 cci:hasPlatform mapa:plat_noaa_11 .
+
+mapa:plat_noaa_12 cci:hasSensor mapb:sens_avhrr2 .
+
+mapb:sens_avhrr2 cci:hasPlatform mapa:plat_noaa_12 .
+
+mapa:plat_noaa_13 cci:hasSensor mapb:sens_avhrr2 .
+
+mapb:sens_avhrr2 cci:hasPlatform mapa:plat_noaa_13 .
+
+mapa:plat_noaa_14 cci:hasSensor mapb:sens_avhrr2 .
+
+mapb:sens_avhrr2 cci:hasPlatform mapa:plat_noaa_14 .
+
+mapa:plat_noaa_15 cci:hasSensor mapb:sens_avhrr3 .
+
+mapb:sens_avhrr3 cci:hasPlatform mapa:plat_noaa_15 .
+
+mapa:plat_noaa_15 cci:hasSensor mapb:sens_amsua .
+
+mapb:sens_amsua cci:hasPlatform mapa:plat_noaa_15 .
+
+mapa:plat_noaa_15 cci:hasSensor mapb:sens_amsub .
+
+mapb:sens_amsub cci:hasPlatform mapa:plat_noaa_15 .
+
+mapa:plat_noaa_16 cci:hasSensor mapb:sens_avhrr3 .
+
+mapb:sens_avhrr3 cci:hasPlatform mapa:plat_noaa_16 .
+
+mapa:plat_noaa_16 cci:hasSensor mapb:sens_amsua .
+
+mapb:sens_amsua cci:hasPlatform mapa:plat_noaa_16 .
+
+mapa:plat_noaa_16 cci:hasSensor mapb:sens_amsub .
+
+mapb:sens_amsub cci:hasPlatform mapa:plat_noaa_16 .
+
+mapa:plat_noaa_17 cci:hasSensor mapb:sens_amsua .
+
+mapb:sens_amsua cci:hasPlatform mapa:plat_noaa_17 .
+
+mapa:plat_noaa_17 cci:hasSensor mapb:sens_amsub .
+
+mapb:sens_amsub cci:hasPlatform mapa:plat_noaa_17 .
+
+mapa:plat_noaa_17 cci:hasSensor mapb:sens_avhrr3 .
+
+mapb:sens_avhrr3 cci:hasPlatform mapa:plat_noaa_17 .
+
+mapa:plat_noaa_18 cci:hasSensor mapb:sens_amsua .
+
+mapb:sens_amsua cci:hasPlatform mapa:plat_noaa_18 .
+
+mapa:plat_noaa_18 cci:hasSensor mapb:sens_avhrr3 .
+
+mapb:sens_avhrr3 cci:hasPlatform mapa:plat_noaa_18 .
+
+mapa:plat_noaa_19 cci:hasSensor mapb:sens_amsua .
+
+mapb:sens_amsua cci:hasPlatform mapa:plat_noaa_19 .
+
+mapa:plat_noaa_19 cci:hasSensor mapb:sens_avhrr3 .
+
+mapb:sens_avhrr3 cci:hasPlatform mapa:plat_noaa_19 .
+
+mapa:plat_odin cci:hasSensor mapb:sens_osiris .
+
+mapb:sens_osiris cci:hasPlatform mapa:plat_odin .
+
+mapa:plat_odin cci:hasSensor mapb:sens_smr .
+
+mapb:sens_smr cci:hasPlatform mapa:plat_odin .
+
+mapa:plat_orbview2 cci:hasSensor mapb:sens_seaWiFs .
+
+mapb:sens_seaWiFs cci:hasPlatform mapa:plat_orbview2 .
+
+mapa:plat_parasol cci:hasSensor mapb:sens_polder .
+
+mapb:sens_polder cci:hasPlatform mapa:plat_parasol .
+
+mapa:plat_scisat cci:hasSensor mapb:sens_aceFts .
+
+mapb:sens_aceFts cci:hasPlatform mapa:plat_scisat .
+
+mapa:plat_scisat cci:hasSensor mapb:sens_maestro .
+
+mapb:sens_maestro cci:hasPlatform mapa:plat_scisat .
+
+mapa:plat_spot4 cci:hasSensor mapb:sens_vegetation .
+
+mapb:sens_vegetation cci:hasPlatform mapa:plat_spot4 .
+
+mapa:plat_spot5 cci:hasSensor mapb:sens_vegetation .
+
+mapb:sens_vegetation cci:hasPlatform mapa:plat_spot5 .
+
+mapa:plat_spot5 cci:hasSensor mapb:sens_hrs .
+
+mapb:sens_hrs cci:hasPlatform mapa:plat_spot5 .
+
+mapa:plat_terra cci:hasSensor mapb:sens_modis .
+
+mapb:sens_modis cci:hasPlatform mapa:plat_terra .
+
+mapa:plat_terra cci:hasSensor mapb:sens_aster .
+
+mapb:sens_aster cci:hasPlatform mapa:plat_terra .
+
+mapa:plat_topexPoseidon cci:hasSensor mapb:sens_nra .
+
+mapb:sens_nra cci:hasPlatform mapa:plat_topexPoseidon .
+
+mapa:plat_topexPoseidon cci:hasSensor mapb:sens_ssalt .
+
+mapb:sens_ssalt cci:hasPlatform mapa:plat_topexPoseidon .
+
+mapa:plat_trmm cci:hasSensor mapb:sens_tmi .
+
+mapb:sens_tmi cci:hasPlatform mapa:plat_trmm .
+
+mapa:plat_terraSar_X cci:hasSensor mapb:sens_sarX .
+
+mapb:sens_sarX cci:hasPlatform mapa:plat_terraSar_X .
+
+mapa:plat_tandem_X cci:hasSensor mapb:sens_sarX .
+
+mapb:sens_sarX cci:hasPlatform mapa:plat_tandem_X .
+
+mapa:plat_tsx_ng cci:hasSensor mapb:sens_sarX .
+
+mapb:sens_sarX cci:hasPlatform mapa:plat_tsx_ng .
+
+mapa:plat_saral cci:hasSensor mapb:sens_altika .
+
+mapb:sens_altika cci:hasPlatform mapa:plat_saral .
+
+mapa:plat_snpp cci:hasSensor mapb:sens_viirs .
+
+mapb:sens_viirs cci:hasPlatform mapa:plat_snpp .
+
+mapa:plat_cryosat2 cci:hasSensor mapb:sens_siral .
+
+mapb:sens_siral cci:hasPlatform mapa:plat_cryosat2 .
+
+mapa:plat_smos cci:hasSensor mapb:sens_miras .
+
+mapb:sens_miras cci:hasPlatform mapa:plat_smos .
+
+mapa:plat_meteosat_1 cci:hasSensor mapb:sens_mviri .
+
+mapb:sens_mviri cci:hasPlatform mapa:plat_meteosat_1 .
+
+mapa:plat_meteosat_2 cci:hasSensor mapb:sens_mviri .
+
+mapb:sens_mviri cci:hasPlatform mapa:plat_meteosat_2 .
+
+mapa:plat_meteosat_3 cci:hasSensor mapb:sens_mviri .
+
+mapb:sens_mviri cci:hasPlatform mapa:plat_meteosat_3 .
+
+mapa:plat_meteosat_3_adc cci:hasSensor mapb:sens_mviri .
+
+mapb:sens_mviri cci:hasPlatform mapa:plat_meteosat_3_adc .
+
+mapa:plat_meteosat_3_xadc cci:hasSensor mapb:sens_mviri .
+
+mapb:sens_mviri cci:hasPlatform mapa:plat_meteosat_3_xadc .
+
+mapa:plat_meteosat_4 cci:hasSensor mapb:sens_mviri .
+
+mapb:sens_mviri cci:hasPlatform mapa:plat_meteosat_4 .
+
+mapa:plat_meteosat_5 cci:hasSensor mapb:sens_mviri .
+
+mapb:sens_mviri cci:hasPlatform mapa:plat_meteosat_5 .
+
+mapa:plat_meteosat_5_iodc cci:hasSensor mapb:sens_mviri .
+
+mapb:sens_mviri cci:hasPlatform mapa:plat_meteosat_5_iodc .
+
+mapa:plat_meteosat_6 cci:hasSensor mapb:sens_mviri .
+
+mapb:sens_mviri cci:hasPlatform mapa:plat_meteosat_6 .
+
+mapa:plat_meteosat_6_iodc cci:hasSensor mapb:sens_mviri .
+
+mapb:sens_mviri cci:hasPlatform mapa:plat_meteosat_6_iodc .
+
+mapa:plat_meteosat_7 cci:hasSensor mapb:sens_mviri .
+
+mapb:sens_mviri cci:hasPlatform mapa:plat_meteosat_7 .
+
+mapa:plat_meteosat_7_iodc cci:hasSensor mapb:sens_mviri .
+
+mapb:sens_mviri cci:hasPlatform mapa:plat_meteosat_7_iodc .
+
+mapa:plat_nimbus6 cci:hasSensor mapb:sens_hirs .
+
+mapb:sens_hirs cci:hasPlatform mapa:plat_nimbus6 .
+
+mapa:plat_noaa_8 cci:hasSensor mapb:sens_hirs2 .
+
+mapb:sens_hirs2 cci:hasPlatform mapa:plat_noaa_8 .
+
+mapa:plat_noaa_9 cci:hasSensor mapb:sens_hirs2 .
+
+mapb:sens_hirs2 cci:hasPlatform mapa:plat_noaa_9 .
+
+mapa:plat_noaa_10 cci:hasSensor mapb:sens_hirs2 .
+
+mapb:sens_hirs2 cci:hasPlatform mapa:plat_noaa_10 .
+
+mapa:plat_noaa_11 cci:hasSensor mapb:sens_hirs2 .
+
+mapb:sens_hirs2 cci:hasPlatform mapa:plat_noaa_11 .
+
+mapa:plat_noaa_12 cci:hasSensor mapb:sens_hirs2 .
+
+mapb:sens_hirs2 cci:hasPlatform mapa:plat_noaa_12 .
+
+mapa:plat_noaa_13 cci:hasSensor mapb:sens_hirs2 .
+
+mapb:sens_hirs2 cci:hasPlatform mapa:plat_noaa_13 .
+
+mapa:plat_noaa_14 cci:hasSensor mapb:sens_hirs2 .
+
+mapb:sens_hirs2 cci:hasPlatform mapa:plat_noaa_14 .
+
+mapa:plat_tiros_n cci:hasSensor mapb:sens_hirs2 .
+
+mapb:sens_hirs2 cci:hasPlatform mapa:plat_tiros_n .
+
+mapa:plat_noaa_6 cci:hasSensor mapb:sens_hirs2 .
+
+mapb:sens_hirs2 cci:hasPlatform mapa:plat_noaa_6 .
+
+mapa:plat_noaa_7 cci:hasSensor mapb:sens_hirs2 .
+
+mapb:sens_hirs2 cci:hasPlatform mapa:plat_noaa_7 .
+
+mapa:plat_noaa_15 cci:hasSensor mapb:sens_hirs3 .
+
+mapb:sens_hirs3 cci:hasPlatform mapa:plat_noaa_15 .
+
+mapa:plat_noaa_16 cci:hasSensor mapb:sens_hirs3 .
+
+mapb:sens_hirs3 cci:hasPlatform mapa:plat_noaa_16 .
+
+mapa:plat_noaa_17 cci:hasSensor mapb:sens_hirs3 .
+
+mapb:sens_hirs3 cci:hasPlatform mapa:plat_noaa_17 .
+
+mapa:plat_noaa_18 cci:hasSensor mapb:sens_hirs4 .
+
+mapb:sens_hirs4 cci:hasPlatform mapa:plat_noaa_18 .
+
+mapa:plat_noaa_19 cci:hasSensor mapb:sens_hirs4 .
+
+mapb:sens_hirs4 cci:hasPlatform mapa:plat_noaa_19 .
+
+mapa:plat_metOpB cci:hasSensor mapb:sens_hirs4 .
+
+mapb:sens_hirs4 cci:hasPlatform mapa:plat_metOpB .
+
+mapa:plat_sentinel1b cci:hasSensor mapb:sens_sarcS1 .
+
+mapb:sens_sarcS1 cci:hasPlatform mapa:plat_sentinel1b .
+
+mapa:plat_alos-2 cci:hasSensor mapb:sens_palsar2 .
+
+mapb:sens_palsar2 cci:hasPlatform mapa:plat_alos-2 .
+
+mapa:plat_smap cci:hasSensor mapb:sens_smap .
+
+mapb:sens_smap cci:hasPlatform mapa:plat_smap .
+
+mapa:plat_jason3 cci:hasSensor mapb:sens_poseidon3b .
+
+mapb:sens_poseidon3b cci:hasPlatform mapa:plat_jason3 .
+
+mapa:plat_grace cci:hasSensor mapb:sens_grace .
+
+mapb:sens_grace cci:hasPlatform mapa:plat_grace .
+
+mapa:plat_sentinel2b cci:hasSensor mapb:sens_msi .
+
+mapb:sens_msi cci:hasPlatform mapa:plat_sentinel2b .
+
+mapa:plat_sentinel2a cci:hasSensor mapb:sens_msi .
+
+mapb:sens_msi cci:hasPlatform mapa:plat_sentinel2a .
+
+mapa:plat_sentinel1a cci:hasSensor mapb:sens_sarcS1 .
+
+mapb:sens_sarcS1 cci:hasPlatform mapa:plat_sentinel1a .
+
+mapa:plat_probaV cci:hasSensor mapb:sens_vegetationP .
+
+mapb:sens_vegetationP cci:hasPlatform mapa:plat_probaV .
+
+mapa:plat_sac_d cci:hasSensor mapb:sens_aquarius .
+
+mapb:sens_aquarius cci:hasPlatform mapa:plat_sac_d .
+
+mapa:plat_sentinel5p cci:hasSensor mapb:sens_tropomi .
+
+mapb:sens_tropomi cci:hasPlatform mapa:plat_sentinel5p .
+
+mapa:plat_oco2 cci:hasSensor mapb:sens_oco .
+
+mapb:sens_oco cci:hasPlatform mapa:plat_oco2 .
+
+mapa:plat_sentinel3a cci:hasSensor mapb:sens_sral .
+
+mapb:sens_sral cci:hasPlatform mapa:plat_sentinel3a .
+
+mapa:plat_sentinel3a cci:hasSensor mapb:sens_olci .
+
+mapb:sens_olci cci:hasPlatform mapa:plat_sentinel3a .
+
+mapa:plat_sentinel3a cci:hasSensor mapb:sens_slstr .
+
+mapb:sens_slstr cci:hasPlatform mapa:plat_sentinel3a .
+
+mapa:plat_sentinel3b cci:hasSensor mapb:sens_sral .
+
+mapb:sens_sral cci:hasPlatform mapa:plat_sentinel3b .
+
+mapa:plat_sentinel3b cci:hasSensor mapb:sens_olci .
+
+mapb:sens_olci cci:hasPlatform mapa:plat_sentinel3b .
+
+mapa:plat_sentinel3b cci:hasSensor mapb:sens_slstr .
+
+mapb:sens_slstr cci:hasPlatform mapa:plat_sentinel3b .
+
+mapa:plat_csk1 cci:hasSensor mapb:sens_sar2000 .
+
+mapb:sens_sar2000 cci:hasPlatform mapa:plat_csk1 .
+
+mapa:plat_csk2 cci:hasSensor mapb:sens_sar2000 .
+
+mapb:sens_sar2000 cci:hasPlatform mapa:plat_csk2 .
+
+mapa:plat_csk3 cci:hasSensor mapb:sens_sar2000 .
+
+mapb:sens_sar2000 cci:hasPlatform mapa:plat_csk3 .
+
+mapa:plat_csk4 cci:hasSensor mapb:sens_sar2000 .
+
+mapb:sens_sar2000 cci:hasPlatform mapa:plat_csk4 .
+
+mapa:plat_gpm cci:hasSensor mapb:sens_gmi .
+
+mapb:sens_gmi cci:hasPlatform mapa:plat_gpm .
+
+mapa:plat_FY-3A cci:hasSensor mapb:sens_virr .
+
+mapb:sens_virr cci:hasPlatform mapa:plat_FY-3A .
+
+mapa:plat_FY-3B cci:hasSensor mapb:sens_virr .
+
+mapb:sens_virr cci:hasPlatform mapa:plat_FY-3B .
+
+mapa:plat_FY-3C cci:hasSensor mapb:sens_virr .
+
+mapb:sens_virr cci:hasPlatform mapa:plat_FY-3C .
+
+mapa:plat_himawari-7 cci:hasSensor mapb:sens_imagerMtsat2 .
+
+mapb:sens_imagerMtsat2 cci:hasPlatform mapa:plat_himawari-7 .
+
+mapa:plat_nimbus5 cci:hasSensor mapb:sens_esmrNim5 .
+
+mapb:sens_esmrNim5 cci:hasPlatform mapa:plat_nimbus5 .
+
+mapa:plat_nimbus6 cci:hasSensor mapb:sens_esmrNim6 .
+
+mapb:sens_esmrNim6 cci:hasPlatform mapa:plat_nimbus6 .
+
+mapa:plat_gosat-2 cci:hasSensor mapb:sens_tansoFts2 .
+
+mapb:sens_tansoFts2 cci:hasPlatform mapa:plat_gosat-2 .
+
+mapa:plat_sentinel6a cci:hasSensor mapb:sens_poseidon4 .
+
+mapb:sens_poseidon4 cci:hasPlatform mapa:plat_sentinel6a .
+
+mapa:plat_sentinel6b cci:hasSensor mapb:sens_poseidon4 .
+
+mapb:sens_poseidon4 cci:hasPlatform mapa:plat_sentinel6b .
+
+mapa:plat_erbs cci:hasSensor mapb:sens_sageII .
+
+mapb:sens_sageII cci:hasPlatform mapa:plat_erbs .
+
+mapa:plat_uars cci:hasSensor mapb:sens_mls .
+
+mapb:sens_mls cci:hasPlatform mapa:plat_uars .
+
+mapa:plat_aura cci:hasSensor mapb:sens_mlsAura .
+
+mapb:sens_mlsAura cci:hasPlatform mapa:plat_aura .
+
+mapa:plat_spot4 cci:hasSensor mapb:sens_poam .
+
+mapb:sens_poam cci:hasPlatform mapa:plat_spot4 .
+
+mapa:plat_meteor_3m cci:hasSensor mapb:sens_sageIII .
+
+mapb:sens_sageIII cci:hasPlatform mapa:plat_meteor_3m .
+
+mapa:plat_iss_SAGEIII cci:hasSensor mapb:sens_sageIII .
+
+mapb:sens_sageIII cci:hasPlatform mapa:plat_iss_SAGEIII .
+
+mapa:plat_uars cci:hasSensor mapb:sens_haloe .
+
+mapb:sens_haloe cci:hasPlatform mapa:plat_uars .
+

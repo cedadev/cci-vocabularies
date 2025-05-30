@@ -1,0 +1,2234 @@
+@prefix cci_platform_concept: <http://vocab.ceda.ac.uk/collection/cci/platform/> .
+@prefix cci_ontology: <http://vocab.ceda.ac.uk/ontology/cci#> .
+@prefix cci_platform_coll: <http://vocab.ceda.ac.uk/collection/cci/platform> .
+@prefix cci_platform_scheme: <http://vocab.ceda.ac.uk/scheme/cci/platform> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+#
+# concepts
+#
+
+cci_platform_concept:plat_alos a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "ALOS"@en ;
+    skos:definition "JAXA Advanced Land Observation Satellite"@en ;
+    skos:scopeNote "JAXA Advanced Land Observation Satellite"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/5> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_alos .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_alos .
+
+cci_platform_concept:plat_alos-2 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "ALOS-2"@en ;
+    skos:definition "JAXA Advanced Land Observation Satellite 2"@en ;
+    skos:scopeNote "JAXA Advanced Land Observation Satellite 2"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/6> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_alos-2 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_alos-2 .
+
+cci_platform_concept:plat_alos-3 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "ALOS-3"@en ;
+    skos:definition "JAXA Advanced Land Observation Satellite 3"@en ;
+    skos:scopeNote "JAXA Advanced Land Observation Satellite 3"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/7> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_alos-3 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_alos-3 .
+
+cci_platform_concept:plat_aqua a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Aqua"@en ;
+    skos:definition "NASA Earth Observing System Satellite"@en ;
+    skos:scopeNote "NASA Earth Observing System Satellite"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/79> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_aqua .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_aqua .
+
+cci_platform_concept:plat_aura a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Aura"@en ;
+    skos:definition "NASA  Earth Observing System Satellite"@en ;
+    skos:scopeNote "NASA  Earth Observing System Satellite"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/80> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_aura .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_aura .
+
+cci_platform_concept:plat_coriolis a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Coriolis"@en ;
+    skos:definition "US Naval Research Laboratory Satellite"@en ;
+    skos:scopeNote "US Naval Research Laboratory Satellite"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/36> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_coriolis .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_coriolis .
+
+cci_platform_concept:plat_dmsp_F01 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F01"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F01"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F01"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/48> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F01 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F01 .
+
+cci_platform_concept:plat_dmsp_F02 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F02"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F02"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F02"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/49> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F02 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F02 .
+
+cci_platform_concept:plat_dmsp_F03 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F03"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F03"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F03"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/50> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F03 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F03 .
+
+cci_platform_concept:plat_dmsp_F04 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F04"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F04"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F04"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/51> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F04 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F04 .
+
+cci_platform_concept:plat_dmsp_F05 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F05"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F05"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F05"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/52> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F05 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F05 .
+
+cci_platform_concept:plat_dmsp_F06 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F06"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F06"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F06"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/53> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F06 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F06 .
+
+cci_platform_concept:plat_dmsp_F07 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F07"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F07"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F07"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/54> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F07 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F07 .
+
+cci_platform_concept:plat_dmsp_F08 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F08"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F08"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F08"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/55> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F08 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F08 .
+
+cci_platform_concept:plat_dmsp_F09 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F09"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F09"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F09"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/56> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F09 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F09 .
+
+cci_platform_concept:plat_dmsp_F10 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F10"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F10"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F10"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/57> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F10 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F10 .
+
+cci_platform_concept:plat_dmsp_F11 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F11"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F11"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F11"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/58> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F11 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F11 .
+
+cci_platform_concept:plat_dmsp_F12 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F12"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F12"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F12"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/59> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F12 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F12 .
+
+cci_platform_concept:plat_dmsp_F13 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F13"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F13"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F13"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/60> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F13 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F13 .
+
+cci_platform_concept:plat_dmsp_F14 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F14"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F14"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F14"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/61> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F14 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F14 .
+
+cci_platform_concept:plat_dmsp_F15 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F15"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F15"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F15"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/62> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F15 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F15 .
+
+cci_platform_concept:plat_dmsp_F16 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F16"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F16"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F16"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/63> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F16 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F16 .
+
+cci_platform_concept:plat_dmsp_F17 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F17"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F17"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F17"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/64> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F17 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F17 .
+
+cci_platform_concept:plat_dmsp_F18 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F18"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F18"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F18"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/65> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F18 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F18 .
+
+cci_platform_concept:plat_dmsp_F19 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-F19"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – F19"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – F19"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/66> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_F19 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_F19 .
+
+cci_platform_concept:plat_dmsp_S20 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "DMSP-S20"@en ;
+    skos:definition "US Defense Meteorological Satellite Program – S20"@en ;
+    skos:scopeNote "US Defense Meteorological Satellite Program – S20"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/67> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_dmsp_S20 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_dmsp_S20 .
+
+cci_platform_concept:plat_envisat a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Envisat"@en ;
+    skos:definition "ESA Environmental Satellite"@en ;
+    skos:scopeNote "ESA Environmental Satellite"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/78> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_envisat .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_envisat .
+
+cci_platform_concept:plat_ers1 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "ERS-1"@en ;
+    skos:definition "ESA European Remote Sensing Satellite 1"@en ;
+    skos:scopeNote "ESA European Remote Sensing Satellite 1"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/89> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_ers1 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_ers1 .
+
+cci_platform_concept:plat_ers2 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "ERS-2"@en ;
+    skos:definition "ESA European Remote Sensing Satellite 2"@en ;
+    skos:scopeNote "ESA European Remote Sensing Satellite 2"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/90> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_ers2 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_ers2 .
+
+cci_platform_concept:plat_FY-3A a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "FY-3A"@en ;
+    skos:altLabel "Feng-Yun - 3A"@en ;
+    skos:definition "CMA Feng-Yun – 3A"@en ;
+    skos:scopeNote "CMA Feng-Yun – 3A"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/113> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_FY-3A .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_FY-3A .
+
+cci_platform_concept:plat_FY-3B a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "FY-3B"@en ;
+    skos:altLabel "Feng-Yun - 3B"@en ;
+    skos:definition "CMA Feng-Yun – 3B"@en ;
+    skos:scopeNote "CMA Feng-Yun – 3B"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/114> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_FY-3B .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_FY-3B .
+
+cci_platform_concept:plat_FY-3C a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "FY-3C"@en ;
+    skos:altLabel "Feng-Yun - 3C"@en ;
+    skos:definition "CMA Feng-Yun – 3C"@en ;
+    skos:scopeNote "CMA Feng-Yun – 3C"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/115> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_FY-3C .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_FY-3C .
+
+cci_platform_concept:plat_FY-3D a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "FY-3D"@en ;
+    skos:altLabel "Feng-Yun - 3D"@en ;
+    skos:definition "CMA Feng-Yun – 3D"@en ;
+    skos:scopeNote "CMA Feng-Yun – 3D"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/116> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_FY-3D .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_FY-3D .
+
+cci_platform_concept:plat_FY-3E a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "FY-3E"@en ;
+    skos:altLabel "Feng-Yun - 3E"@en ;
+    skos:definition "CMA Feng-Yun – 3E"@en ;
+    skos:scopeNote "CMA Feng-Yun – 3E"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/117> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_FY-3E .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_FY-3E .
+
+cci_platform_concept:plat_FY-3F a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "FY-3F"@en ;
+    skos:altLabel "Feng-Yun - 3F"@en ;
+    skos:definition "CMA Feng-Yun – 3F"@en ;
+    skos:scopeNote "CMA Feng-Yun – 3F"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/118> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_FY-3F .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_FY-3F .
+
+cci_platform_concept:plat_FY-3G a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "FY-3G"@en ;
+    skos:altLabel "Feng-Yun - 3G"@en ;
+    skos:definition "CMA Feng-Yun – 3G"@en ;
+    skos:scopeNote "CMA Feng-Yun – 3G"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/119> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_FY-3G .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_FY-3G .
+
+cci_platform_concept:plat_gcomW1 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GCOM-W1"@en ;
+    skos:definition "NASA Global Change Observation Mission for Water – 1"@en ;
+    skos:scopeNote "NASA Global Change Observation Mission for Water – 1"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/130> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_gcomW1 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_gcomW1 .
+
+cci_platform_concept:plat_gcomW2 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GCOM-W2"@en ;
+    skos:definition "NASA Global Change Observation Mission for Water – 2"@en ;
+    skos:scopeNote "NASA Global Change Observation Mission for Water – 2"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/131> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_gcomW2 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_gcomW2 .
+
+cci_platform_concept:plat_gcomW3 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GCOM-W3"@en ;
+    skos:definition "NASA Global Change Observation Mission for Water – 3"@en ;
+    skos:scopeNote "NASA Global Change Observation Mission for Water – 3"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/132> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_gcomW3 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_gcomW3 .
+
+cci_platform_concept:plat_geosat a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GEOSat"@en ;
+    skos:definition "NASA GEOSat"@en ;
+    skos:scopeNote "NASA GEOSat"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/133> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_geosat .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_geosat .
+
+cci_platform_concept:plat_gfo a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GFO"@en ;
+    skos:definition "US Geosat Follow-On Satellite"@en ;
+    skos:scopeNote "US Geosat Follow-On Satellite"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/134> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_gfo .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_gfo .
+
+cci_platform_concept:plat_goes_01 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-1"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 01"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 01"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/137> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_01 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_01 .
+
+cci_platform_concept:plat_goes_02 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-2"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 02"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 02"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/138> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_02 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_02 .
+
+cci_platform_concept:plat_goes_03 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-3"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 03"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 03"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/139> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_03 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_03 .
+
+cci_platform_concept:plat_goes_04 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-4"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 04"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 04"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/140> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_04 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_04 .
+
+cci_platform_concept:plat_goes_05 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-5"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 05"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 05"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/141> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_05 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_05 .
+
+cci_platform_concept:plat_goes_06 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-6"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 06"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 06"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/142> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_06 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_06 .
+
+cci_platform_concept:plat_goes_07 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-7"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 07"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 07"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/143> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_07 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_07 .
+
+cci_platform_concept:plat_goes_08 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-8"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 08"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 08"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/144> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_08 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_08 .
+
+cci_platform_concept:plat_goes_09 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-9"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 09"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 09"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/145> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_09 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_09 .
+
+cci_platform_concept:plat_goes_09_bk a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-9 Backup"@en ;
+    skos:altLabel "GOES 09 Backup"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 09  GMS Backup"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 09  GMS Backup"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/536> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_09_bk .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_09_bk .
+
+cci_platform_concept:plat_goes_10 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-10"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 10"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 10"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/146> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_10 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_10 .
+
+cci_platform_concept:plat_goes_10_SA a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-10 S. America"@en ;
+    skos:altLabel "GOES 10 South America"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 10 South America"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 10 South America"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/537> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_10_SA .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_10_SA .
+
+cci_platform_concept:plat_goes_11 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-11"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 11"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 11"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/147> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_11 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_11 .
+
+cci_platform_concept:plat_goes_12 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-12"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 12"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 12"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/148> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_12 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_12 .
+
+cci_platform_concept:plat_goes_12_SA a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES 12 S. America"@en ;
+    skos:altLabel "GOES 12 South America"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 12 South America"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 12 South America"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/538> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_12_SA .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_12_SA .
+
+cci_platform_concept:plat_goes_13 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-13"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 13"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 13"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/149> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_13 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_13 .
+
+cci_platform_concept:plat_goes_14 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-14"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 14"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 14"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/150> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_14 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_14 .
+
+cci_platform_concept:plat_goes_15 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-15"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 15"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 15"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/151> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_15 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_15 .
+
+cci_platform_concept:plat_goes_16 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-16"@en ;
+    skos:altLabel "GOES-R"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 16"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 16"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/goes_16> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_16 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_16 .
+
+cci_platform_concept:plat_goes_17 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-17"@en ;
+    skos:altLabel "GOES-S"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – 17"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – 17"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/goes_17> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_17 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_17 .
+
+cci_platform_concept:plat_goes_T a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-T"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – T"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – T"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/665> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_T .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_T .
+
+cci_platform_concept:plat_goes_U a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOES-U"@en ;
+    skos:definition "NASA Geostationary Operational Environmental Satellite – U"@en ;
+    skos:scopeNote "NASA Geostationary Operational Environmental Satellite – U"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/666> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_goes_U .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_goes_U .
+
+cci_platform_concept:plat_gosat a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOSAT"@en ;
+    skos:definition "JAXA Greenhouse gas Observing Satellite"@en ;
+    skos:scopeNote "JAXA Greenhouse gas Observing Satellite"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/154> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_gosat .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_gosat .
+
+cci_platform_concept:plat_gosat-2 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GOSAT-2"@en ;
+    skos:altLabel "GOSAT"@en ;
+    skos:definition "JAXA Greenhouse gas Observing Satellite – 2"@en ;
+    skos:scopeNote "JAXA Greenhouse gas Observing Satellite – 2"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/155> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_gosat-2 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_gosat-2 .
+
+cci_platform_concept:plat_himawari-6 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Himawari-6"@en ;
+    skos:altLabel "MTSAT1R"@en ;
+    skos:definition "JMA Meteorological Satellite"@en ;
+    skos:scopeNote "JMA Meteorological Satellite"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/165> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_himawari-6 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_himawari-6 .
+
+cci_platform_concept:plat_himawari-7 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Himawari-7"@en ;
+    skos:altLabel "MTSAT2"@en ;
+    skos:definition "JMA Meteorological Satellite"@en ;
+    skos:scopeNote "JMA Meteorological Satellite"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/166> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_himawari-7 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_himawari-7 .
+
+cci_platform_concept:plat_icesat a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "ICESat"@en ;
+    skos:definition "NASA Ice, Cloud and land Elevation Satellite"@en ;
+    skos:scopeNote "NASA Ice, Cloud and land Elevation Satellite"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/177> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_icesat .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_icesat .
+
+cci_platform_concept:plat_icesat-2 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "ICESat-2"@en ;
+    skos:definition "NASA Ice, Cloud and land Elevation Satellite"@en ;
+    skos:scopeNote "NASA Ice, Cloud and land Elevation Satellite"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/178> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_icesat-2 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_icesat-2 .
+
+cci_platform_concept:plat_jason1 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Jason-1"@en ;
+    skos:definition "NASA Joint Altimetry Satellite Oceanography Network – 1"@en ;
+    skos:scopeNote "NASA Joint Altimetry Satellite Oceanography Network – 1"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/204> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_jason1 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_jason1 .
+
+cci_platform_concept:plat_jason2 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Jason-2"@en ;
+    skos:definition "NASA Joint Altimetry Satellite Oceanography Network – 2"@en ;
+    skos:scopeNote "NASA Joint Altimetry Satellite Oceanography Network – 2"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/205> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_jason2 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_jason2 .
+
+cci_platform_concept:plat_jason3 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Jason-3"@en ;
+    skos:definition "NASA Joint Altimetry Satellite Oceanography Network – 3"@en ;
+    skos:scopeNote "NASA Joint Altimetry Satellite Oceanography Network – 3"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/206> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_jason3 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_jason3 .
+
+cci_platform_concept:plat_landsat_1 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Landsat-1"@en ;
+    skos:altLabel "Landsat ERTS"@en ;
+    skos:definition "NASA Landsat"@en ;
+    skos:scopeNote "NASA Landsat"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/219> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_landsat_1 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_landsat_1 .
+
+cci_platform_concept:plat_landsat_2 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Landsat-2"@en ;
+    skos:definition "NASA Landsat"@en ;
+    skos:scopeNote "NASA Landsat"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/220> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_landsat_2 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_landsat_2 .
+
+cci_platform_concept:plat_landsat_3 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Landsat-3"@en ;
+    skos:definition "NASA Landsat"@en ;
+    skos:scopeNote "NASA Landsat"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/221> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_landsat_3 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_landsat_3 .
+
+cci_platform_concept:plat_landsat_4 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Landsat-4"@en ;
+    skos:definition "NASA Landsat"@en ;
+    skos:scopeNote "NASA Landsat"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/222> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_landsat_4 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_landsat_4 .
+
+cci_platform_concept:plat_landsat_5 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Landsat-5"@en ;
+    skos:definition "NASA Landsat"@en ;
+    skos:scopeNote "NASA Landsat"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/223> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_landsat_5 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_landsat_5 .
+
+cci_platform_concept:plat_landsat_6 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Landsat-6"@en ;
+    skos:definition "NASA Landsat"@en ;
+    skos:scopeNote "NASA Landsat"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/224> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_landsat_6 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_landsat_6 .
+
+cci_platform_concept:plat_landsat_7 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Landsat-7"@en ;
+    skos:definition "NASA Landsat"@en ;
+    skos:scopeNote "NASA Landsat"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/225> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_landsat_7 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_landsat_7 .
+
+cci_platform_concept:plat_landsat_8 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Landsat-8"@en ;
+    skos:definition "NASA Landsat"@en ;
+    skos:scopeNote "NASA Landsat"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/227> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_landsat_8 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_landsat_8 .
+
+cci_platform_concept:plat_meteosat_8 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteosat-8"@en ;
+    skos:altLabel "MSG-1"@en ;
+    skos:definition "ESA Meteosat-8"@en ;
+    skos:scopeNote "ESA Meteosat-8"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/302> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteosat_8 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteosat_8 .
+
+cci_platform_concept:plat_meteosat_9 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteosat-9"@en ;
+    skos:altLabel "MSG-2"@en ;
+    skos:definition "ESA Meteosat-9"@en ;
+    skos:scopeNote "ESA Meteosat-9"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/303> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteosat_9 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteosat_9 .
+
+cci_platform_concept:plat_meteosat_10 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteosat-10"@en ;
+    skos:altLabel "MSG-3"@en ;
+    skos:definition "ESA Meteosat-10"@en ;
+    skos:scopeNote "ESA Meteosat-10"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/304> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteosat_10 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteosat_10 .
+
+cci_platform_concept:plat_meteosat_11 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteosat-11"@en ;
+    skos:altLabel "MSG-4"@en ;
+    skos:definition "ESA Meteosat-11"@en ;
+    skos:scopeNote "ESA Meteosat-11"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/305> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteosat_11 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteosat_11 .
+
+cci_platform_concept:plat_metOpA a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Metop-A"@en ;
+    skos:definition "ESA/EUMETSAT Meteorological operational Polar System satellite - A"@en ;
+    skos:scopeNote "ESA/EUMETSAT Meteorological operational Polar System satellite - A"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/306> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_metOpA .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_metOpA .
+
+cci_platform_concept:plat_metOpB a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Metop-B"@en ;
+    skos:definition "ESA/EUMETSAT Meteorological operational Polar System satellite – B"@en ;
+    skos:scopeNote "ESA/EUMETSAT Meteorological operational Polar System satellite – B"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/307> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_metOpB .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_metOpB .
+
+cci_platform_concept:plat_metOpC a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Metop-C"@en ;
+    skos:definition "ESA/EUMETSAT Meteorological operational Polar System satellite – C"@en ;
+    skos:scopeNote "ESA/EUMETSAT Meteorological operational Polar System satellite – C"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/308> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_metOpC .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_metOpC .
+
+cci_platform_concept:plat_nimbus1 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Nimbus-1"@en ;
+    skos:definition "NASA Research-and-development satellite 1"@en ;
+    skos:scopeNote "NASA Research-and-development satellite 1"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/315> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_nimbus1 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_nimbus1 .
+
+cci_platform_concept:plat_nimbus2 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Nimbus-2"@en ;
+    skos:definition "NASA Research-and-development satellite 2"@en ;
+    skos:scopeNote "NASA Research-and-development satellite 2"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/316> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_nimbus2 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_nimbus2 .
+
+cci_platform_concept:plat_nimbus3 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Nimbus-3"@en ;
+    skos:definition "NASA Research-and-development satellite 3"@en ;
+    skos:scopeNote "NASA Research-and-development satellite 3"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/317> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_nimbus3 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_nimbus3 .
+
+cci_platform_concept:plat_nimbus4 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Nimbus-4"@en ;
+    skos:definition "NASA Research-and-development satellite 4"@en ;
+    skos:scopeNote "NASA Research-and-development satellite 4"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/318> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_nimbus4 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_nimbus4 .
+
+cci_platform_concept:plat_nimbus5 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Nimbus-5"@en ;
+    skos:definition "NASA Research-and-development satellite 5"@en ;
+    skos:scopeNote "NASA Research-and-development satellite 5"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/319> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_nimbus5 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_nimbus5 .
+
+cci_platform_concept:plat_nimbus6 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Nimbus-6"@en ;
+    skos:definition "NASA Research-and-development satellite 6"@en ;
+    skos:scopeNote "NASA Research-and-development satellite 6"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/320> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_nimbus6 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_nimbus6 .
+
+cci_platform_concept:plat_nimbus7 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Nimbus-7"@en ;
+    skos:definition "NASA Research-and-development satellite 7"@en ;
+    skos:scopeNote "NASA Research-and-development satellite 7"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/321> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_nimbus7 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_nimbus7 .
+
+cci_platform_concept:plat_noaa_1 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-1"@en ;
+    skos:definition "NASA NOAA Environmental satellite 1"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 1"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/323> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_1 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_1 .
+
+cci_platform_concept:plat_noaa_2 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-2"@en ;
+    skos:definition "NASA NOAA Environmental satellite 2"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 2"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/324> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_2 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_2 .
+
+cci_platform_concept:plat_noaa_3 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-3"@en ;
+    skos:definition "NASA NOAA Environmental satellite 3"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 3"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/325> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_3 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_3 .
+
+cci_platform_concept:plat_noaa_4 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-4"@en ;
+    skos:definition "NASA NOAA Environmental satellite 4"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 4"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/326> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_4 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_4 .
+
+cci_platform_concept:plat_noaa_5 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-5"@en ;
+    skos:definition "NASA NOAA Environmental satellite 5"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 5"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/327> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_5 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_5 .
+
+cci_platform_concept:plat_noaa_6 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-6"@en ;
+    skos:definition "NASA NOAA Environmental satellite 6"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 6"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/328> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_6 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_6 .
+
+cci_platform_concept:plat_noaa_7 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-7"@en ;
+    skos:definition "NASA NOAA Environmental satellite 7"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 7"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/329> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_7 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_7 .
+
+cci_platform_concept:plat_noaa_8 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-8"@en ;
+    skos:definition "NASA NOAA Environmental satellite 8"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 8"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/330> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_8 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_8 .
+
+cci_platform_concept:plat_noaa_9 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-9"@en ;
+    skos:definition "NASA NOAA Environmental satellite 9"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 9"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/331> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_9 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_9 .
+
+cci_platform_concept:plat_noaa_10 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-10"@en ;
+    skos:definition "NASA NOAA Environmental satellite 10"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 10"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/332> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_10 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_10 .
+
+cci_platform_concept:plat_noaa_11 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-11"@en ;
+    skos:definition "NASA NOAA Environmental satellite 11"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 11"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/333> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_11 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_11 .
+
+cci_platform_concept:plat_noaa_12 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-12"@en ;
+    skos:definition "NASA NOAA Environmental satellite 12"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 12"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/334> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_12 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_12 .
+
+cci_platform_concept:plat_noaa_13 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-13"@en ;
+    skos:definition "NASA NOAA Environmental satellite 13"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 13"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/335> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_13 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_13 .
+
+cci_platform_concept:plat_noaa_14 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-14"@en ;
+    skos:definition "NASA NOAA Environmental satellite 14"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 14"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/336> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_14 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_14 .
+
+cci_platform_concept:plat_noaa_15 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-15"@en ;
+    skos:definition "NASA NOAA Environmental satellite 15"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 15"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/337> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_15 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_15 .
+
+cci_platform_concept:plat_noaa_16 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-16"@en ;
+    skos:definition "NASA NOAA Environmental satellite 16"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 16"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/338> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_16 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_16 .
+
+cci_platform_concept:plat_noaa_17 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-17"@en ;
+    skos:definition "NASA NOAA Environmental satellite 17"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 17"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/339> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_17 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_17 .
+
+cci_platform_concept:plat_noaa_18 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-18"@en ;
+    skos:definition "NASA NOAA Environmental satellite 18"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 18"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/340> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_18 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_18 .
+
+cci_platform_concept:plat_noaa_19 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-19"@en ;
+    skos:definition "NASA NOAA Environmental satellite 19"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 19"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/341> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_19 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_19 .
+
+cci_platform_concept:plat_odin a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "ODIN"@en ;
+    skos:definition "OHB Sweden Astrophysics and Aeronomy satellite"@en ;
+    skos:scopeNote "OHB Sweden Astrophysics and Aeronomy satellite"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/348> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_odin .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_odin .
+
+cci_platform_concept:plat_orbview2 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Orbview-2"@en ;
+    skos:altLabel "SeaStar"@en ;
+    skos:definition "OIC USA Ocean Imaging satellite"@en ;
+    skos:scopeNote "OIC USA Ocean Imaging satellite"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/395> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_orbview2 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_orbview2 .
+
+cci_platform_concept:plat_parasol a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "PARASOL"@en ;
+    skos:definition "CNES Polarization & Anisotropy of Reflectances for Atmospheric Sciences coupled with Observations from a Lidar"@en ;
+    skos:scopeNote "CNES Polarization & Anisotropy of Reflectances for Atmospheric Sciences coupled with Observations from a Lidar"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/359> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_parasol .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_parasol .
+
+cci_platform_concept:plat_scisat a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "SCISAT-1"@en ;
+    skos:definition "CSA Science Satellite"@en ;
+    skos:scopeNote "CSA Science Satellite"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/393> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_scisat .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_scisat .
+
+cci_platform_concept:plat_spot1 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "SPOT-1"@en ;
+    skos:definition "CNES Satellite Pour l'Observation de la Terre 1"@en ;
+    skos:scopeNote "CNES Satellite Pour l'Observation de la Terre 1"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/412> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_spot1 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_spot1 .
+
+cci_platform_concept:plat_spot2 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "SPOT-2"@en ;
+    skos:definition "CNES Satellite Pour l'Observation de la Terre 2"@en ;
+    skos:scopeNote "CNES Satellite Pour l'Observation de la Terre 2"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/413> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_spot2 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_spot2 .
+
+cci_platform_concept:plat_spot3 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "SPOT-3"@en ;
+    skos:definition "CNES Satellite Pour l'Observation de la Terre 3"@en ;
+    skos:scopeNote "CNES Satellite Pour l'Observation de la Terre 3"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/414> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_spot3 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_spot3 .
+
+cci_platform_concept:plat_spot4 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "SPOT-4"@en ;
+    skos:definition "CNES Satellite Pour l'Observation de la Terre 4"@en ;
+    skos:scopeNote "CNES Satellite Pour l'Observation de la Terre 4"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/415> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_spot4 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_spot4 .
+
+cci_platform_concept:plat_spot5 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "SPOT-5"@en ;
+    skos:definition "CNES Satellite Pour l'Observation de la Terre 5"@en ;
+    skos:scopeNote "CNES Satellite Pour l'Observation de la Terre 5"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/416> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_spot5 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_spot5 .
+
+cci_platform_concept:plat_spot6 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "SPOT-6"@en ;
+    skos:definition "CNES Satellite Pour l'Observation de la Terre 6"@en ;
+    skos:scopeNote "CNES Satellite Pour l'Observation de la Terre 6"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/417> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_spot6 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_spot6 .
+
+cci_platform_concept:plat_spot7 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "SPOT-7"@en ;
+    skos:definition "CNES Satellite Pour l'Observation de la Terre 7"@en ;
+    skos:scopeNote "CNES Satellite Pour l'Observation de la Terre 7"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/418> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_spot7 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_spot7 .
+
+cci_platform_concept:plat_terra a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Terra"@en ;
+    skos:definition "NASA Earth Observing System Satellite"@en ;
+    skos:scopeNote "NASA Earth Observing System Satellite"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/81> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_terra .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_terra .
+
+cci_platform_concept:plat_topexPoseidon a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Topex/Poseidon"@en ;
+    skos:definition "CNES/NASA Ocean surface topography satellite"@en ;
+    skos:scopeNote "CNES/NASA Ocean surface topography satellite"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/443> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_topexPoseidon .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_topexPoseidon .
+
+cci_platform_concept:plat_trmm a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "TRMM"@en ;
+    skos:definition "NASA Tropical Rainfall Measuring Mission"@en ;
+    skos:scopeNote "NASA Tropical Rainfall Measuring Mission"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/445> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_trmm .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_trmm .
+
+cci_platform_concept:plat_hrws_sar a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "HRWS-SAR"@en ;
+    skos:definition "DLR HRWS-SAR"@en ;
+    skos:scopeNote "DLR HRWS-SAR"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/638> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_hrws_sar .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_hrws_sar .
+
+cci_platform_concept:plat_tsx_ng a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "TSX-NG"@en ;
+    skos:definition "DLR TSX-NG"@en ;
+    skos:scopeNote "DLR TSX-NG"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/428> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_tsx_ng .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_tsx_ng .
+
+cci_platform_concept:plat_tandem_X a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "TanDEM-X"@en ;
+    skos:definition "DLR TanDEM-X"@en ;
+    skos:scopeNote "DLR TanDEM-X"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/426> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_tandem_X .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_tandem_X .
+
+cci_platform_concept:plat_terraSar_X a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "TerraSar-X"@en ;
+    skos:definition "DLR TerraSar-X"@en ;
+    skos:scopeNote "DLR TerraSar-X"@en ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/427> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_terraSar_X .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_terraSar_X .
+
+cci_platform_concept:plat_cryosat2 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "CryoSat-2"@en ;
+    skos:definition "ESA Operational satellite CryoSat-2"@en ;
+    skos:scopeNote "ESA Operational satellite CryoSat-2"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/39> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_cryosat2 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_cryosat2 .
+
+cci_platform_concept:plat_sentinel1a a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Sentinel-1A"@en ;
+    skos:definition "Sentinel 1 programme, 1st flight"@en ;
+    skos:scopeNote "Sentinel 1 programme, 1st flight"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/396> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_sentinel1a .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sentinel1a .
+
+cci_platform_concept:plat_sentinel1b a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Sentinel-1B"@en ;
+    skos:definition "Sentinel 1 programme, 2nd flight"@en ;
+    skos:scopeNote "Sentinel 1 programme, 2nd flight"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/397> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_sentinel1b .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sentinel1b .
+
+cci_platform_concept:plat_sentinel2a a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Sentinel-2A"@en ;
+    skos:definition "Sentinel 2 programme, 1st flight"@en ;
+    skos:scopeNote "Sentinel 2 programme, 1st flight"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/398> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_sentinel2a .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sentinel2a .
+
+cci_platform_concept:plat_sentinel2b a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Sentinel-2B"@en ;
+    skos:definition "Sentinel 2 programme, 2nd flight"@en ;
+    skos:scopeNote "Sentinel 2 programme, 2nd flight"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/399> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_sentinel2b .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sentinel2b .
+
+cci_platform_concept:plat_sentinel3a a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Sentinel-3A"@en ;
+    skos:definition "Sentinel 3 programme, 1st flight"@en ;
+    skos:scopeNote "Sentinel 3 programme, 1st flight"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/400> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_sentinel3a .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sentinel3a .
+
+cci_platform_concept:plat_sentinel3b a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Sentinel-3B"@en ;
+    skos:definition "Sentinel 3 programme, 2nd flight"@en ;
+    skos:scopeNote "Sentinel 3 programme, 2nd flight"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/401> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_sentinel3b .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sentinel3b .
+
+cci_platform_concept:plat_saral a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "SARAL"@en ;
+    skos:definition "CNES Satellite with ARGOS and AltiKa"@en ;
+    skos:scopeNote "CNES Satellite with ARGOS and AltiKa"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/390> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_saral .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_saral .
+
+cci_platform_concept:plat_grace a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GRACE"@en ;
+    skos:definition "NASA Gravity Recovery and Climate Experiment"@en ;
+    skos:scopeNote "NASA Gravity Recovery and Climate Experiment"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/158> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_grace .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_grace .
+
+cci_platform_concept:plat_snpp a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "SNPP"@en ;
+    skos:altLabel "Suomi NPP"@en ;
+    skos:definition "Suomi National Polar-orbiting Partnership"@en ;
+    skos:scopeNote "Suomi National Polar-orbiting Partnership"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/342> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_snpp .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_snpp .
+
+cci_platform_concept:plat_smos a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "SMOS"@en ;
+    skos:definition "ESA Soil Moisture and Ocean Salinity Satellite"@en ;
+    skos:scopeNote "ESA Soil Moisture and Ocean Salinity Satellite"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/408> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_smos .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_smos .
+
+cci_platform_concept:plat_meteosat_1 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteosat-1"@en ;
+    skos:definition "EUMETSAT /ESA Meteosat-1"@en ;
+    skos:scopeNote "EUMETSAT /ESA Meteosat-1"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/295> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteosat_1 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteosat_1 .
+
+cci_platform_concept:plat_meteosat_2 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteosat-2"@en ;
+    skos:definition "EUMETSAT /ESA Meteosat-2"@en ;
+    skos:scopeNote "EUMETSAT /ESA Meteosat-2"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/296> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteosat_2 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteosat_2 .
+
+cci_platform_concept:plat_meteosat_3 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteosat-3"@en ;
+    skos:definition "EUMETSAT/ESA Meteosat-3"@en ;
+    skos:scopeNote "EUMETSAT/ESA Meteosat-3"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/297> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteosat_3 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteosat_3 .
+
+cci_platform_concept:plat_meteosat_3_adc a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteosat-3 (ADC)"@en ;
+    skos:definition "EUMETSAT/ ESA Meteosat-3 (Atlantic Data Coverage)"@en ;
+    skos:scopeNote "EUMETSAT/ ESA Meteosat-3 (Atlantic Data Coverage)"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/531> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteosat_3_adc .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteosat_3_adc .
+
+cci_platform_concept:plat_meteosat_3_xadc a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteosat-3 (X-ADC)"@en ;
+    skos:definition "EUMETSAT/ESA Meteosat-3 (Extended Atlantic Data Coverage)"@en ;
+    skos:scopeNote "EUMETSAT/ESA Meteosat-3 (Extended Atlantic Data Coverage)"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/532> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteosat_3_xadc .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteosat_3_xadc .
+
+cci_platform_concept:plat_meteosat_4 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteosat-4"@en ;
+    skos:definition "EUMETSAT/ESA Meteosat-4"@en ;
+    skos:scopeNote "EUMETSAT/ESA Meteosat-4"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/298> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteosat_4 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteosat_4 .
+
+cci_platform_concept:plat_meteosat_5 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteosat-5"@en ;
+    skos:definition "EUMETSAT/ESA Meteosat-5"@en ;
+    skos:scopeNote "EUMETSAT/ESA Meteosat-5"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/299> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteosat_5 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteosat_5 .
+
+cci_platform_concept:plat_meteosat_5_iodc a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteosat-5 (IODC)"@en ;
+    skos:definition "EUMETSAT/ESA Meteosat-5 (Indian Ocean Data Coverage)"@en ;
+    skos:scopeNote "EUMETSAT/ESA Meteosat-5 (Indian Ocean Data Coverage)"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/533> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteosat_5_iodc .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteosat_5_iodc .
+
+cci_platform_concept:plat_meteosat_6 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteosat-6"@en ;
+    skos:definition "EUMETSAT/ESA Meteosat-6"@en ;
+    skos:scopeNote "EUMETSAT/ESA Meteosat-6"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/300> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteosat_6 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteosat_6 .
+
+cci_platform_concept:plat_meteosat_6_iodc a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteosat-6 (IODC)"@en ;
+    skos:definition "EUMETSAT/ESA Meteosat-6 (Indian Ocean Data Coverage)"@en ;
+    skos:scopeNote "EUMETSAT/ESA Meteosat-6 (Indian Ocean Data Coverage)"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/534> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteosat_6_iodc .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteosat_6_iodc .
+
+cci_platform_concept:plat_meteosat_7 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteosat-7"@en ;
+    skos:definition "EUMETSAT/ESA Meteosat-7"@en ;
+    skos:scopeNote "EUMETSAT/ESA Meteosat-7"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/535> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteosat_7 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteosat_7 .
+
+cci_platform_concept:plat_meteosat_7_iodc a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Meteosat-7 (IODC)"@en ;
+    skos:definition "EUMETSAT/ESA Meteosat-7 (Indian Ocean Data Coverage)"@en ;
+    skos:scopeNote "EUMETSAT/ESA Meteosat-7 (Indian Ocean Data Coverage)"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/301> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_meteosat_7_iodc .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_meteosat_7_iodc .
+
+cci_platform_concept:plat_tiros_n a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "TIROS-N"@en ;
+    skos:definition "Television and Infra-Red Observation Satellite - N"@en ;
+    skos:scopeNote "Television and Infra-Red Observation Satellite - N"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/441> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_tiros_n .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_tiros_n .
+
+cci_platform_concept:plat_smap a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "SMAP"@en ;
+    skos:definition "Soil Moisture Active-Passive"@en ;
+    skos:scopeNote "Soil Moisture Active-Passive"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/406> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_smap .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_smap .
+
+cci_platform_concept:plat_probaV a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "PROBA-V"@en ;
+    skos:definition "Project for On-Board Autonomy – Végétation"@en ;
+    skos:scopeNote "Project for On-Board Autonomy – Végétation"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/562> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_probaV .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_probaV .
+
+cci_platform_concept:plat_radarsat2 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "RadarSat-2"@en ;
+    skos:altLabel "RADARSAT-2"@en ;
+    skos:definition "RadarSat-2"@en ;
+    skos:scopeNote "RadarSat-2"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/367> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_radarsat2 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_radarsat2 .
+
+cci_platform_concept:plat_sac_d a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "SAC-D"@en ;
+    skos:definition "Satélite de Aplicaciones Cientificas - D"@en ;
+    skos:scopeNote "Satélite de Aplicaciones Cientificas - D"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/385> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_sac_d .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sac_d .
+
+cci_platform_concept:plat_unspecified a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Unspecified"@en ;
+    skos:definition "Unspecified platform"@en ;
+    skos:scopeNote "Unspecified platform"@en ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_unspecified .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_unspecified .
+
+cci_platform_concept:plat_sentinel5p a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Sentinel-5P"@en ;
+    skos:definition "Sentinel-5 precursor"@en ;
+    skos:scopeNote "Sentinel-5 precursor"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/402> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_sentinel5p .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sentinel5p .
+
+cci_platform_concept:plat_oco2 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "OCO-2"@en ;
+    skos:definition "Orbiting Carbon Observatory – 2"@en ;
+    skos:scopeNote "Orbiting Carbon Observatory – 2"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/347> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_oco2 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_oco2 .
+
+cci_platform_concept:plat_csk1 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "CSK-1"@en ;
+    skos:definition "COSMO-SkyMed-1"@en ;
+    skos:scopeNote "COSMO-SkyMed-1"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/42> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_csk1 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_csk1 .
+
+cci_platform_concept:plat_csk2 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "CSK-2"@en ;
+    skos:definition "COSMO-SkyMed-2"@en ;
+    skos:scopeNote "COSMO-SkyMed-2"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/43> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_csk2 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_csk2 .
+
+cci_platform_concept:plat_csk3 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "CSK-3"@en ;
+    skos:definition "COSMO-SkyMed-3"@en ;
+    skos:scopeNote "COSMO-SkyMed-3"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/44> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_csk3 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_csk3 .
+
+cci_platform_concept:plat_csk4 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "CSK-4"@en ;
+    skos:definition "COSMO-SkyMed-4"@en ;
+    skos:scopeNote "COSMO-SkyMed-4"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/45> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_csk4 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_csk4 .
+
+cci_platform_concept:plat_gpm a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "GPM Core"@en ;
+    skos:altLabel "GPM Core Observatory"@en ;
+    skos:definition "Global Precipitation Mission -  Core Observatory"@en ;
+    skos:scopeNote "Global Precipitation Mission -  Core Observatory"@en ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/gpm_core_observatory> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_gpm .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_gpm .
+
+cci_platform_concept:plat_sentinel6a a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Sentinel-6A"@en ;
+    skos:definition "Sentinel 6 programme, 1st flight"@en ;
+    skos:scopeNote "Sentinel 6 programme, 1st flight"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_6a> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_sentinel6a .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sentinel6a .
+
+cci_platform_concept:plat_sentinel6b a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Sentinel-6B"@en ;
+    skos:definition "Sentinel 6 programme, 2nd flight"@en ;
+    skos:scopeNote "Sentinel 6 programme, 2nd flight"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_6b> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_sentinel6b .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sentinel6b .
+

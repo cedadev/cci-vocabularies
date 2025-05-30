@@ -1,0 +1,339 @@
+@prefix cci_project_concept: <http://vocab.ceda.ac.uk/collection/cci/project/> .
+@prefix cci_ontology: <http://vocab.ceda.ac.uk/ontology/cci#> .
+@prefix cci_project_coll: <http://vocab.ceda.ac.uk/collection/cci/project> .
+@prefix cci_project_scheme: <http://vocab.ceda.ac.uk/scheme/cci/project> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+#
+# concepts
+#
+
+cci_project_concept:cciproject_aerosol a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "aerosol"@en ;
+    skos:altLabel "AEROSOL"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Aerosol project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Aerosol project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_aerosol .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_aerosol .
+
+cci_project_concept:cciproject_cloud a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "cloud"@en ;
+    skos:altLabel "CLOUD"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Cloud project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Cloud project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_cloud .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_cloud .
+
+cci_project_concept:cciproject_fire a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "fire"@en ;
+    skos:altLabel "FIRE"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Fire project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Fire project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_fire .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_fire .
+
+cci_project_concept:cciproject_ghg a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "greenhouse gases"@en ;
+    skos:altLabel "GHG"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Greenhouse gases project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Greenhouse gases project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_ghg .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_ghg .
+
+cci_project_concept:cciproject_glaciers a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "glaciers"@en ;
+    skos:altLabel "GLACIERS"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Glaciers project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Glaciers project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_glaciers .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_glaciers .
+
+cci_project_concept:cciproject_landCov a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "land cover"@en ;
+    skos:altLabel "LC"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Land Cover project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Land Cover project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_landCov .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_landCov .
+
+cci_project_concept:cciproject_oceanCol a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "ocean colour"@en ;
+    skos:altLabel "OC"@en ;
+    skos:definition "Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_oceanCol .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_oceanCol .
+
+cci_project_concept:cciproject_ozone a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "ozone"@en ;
+    skos:altLabel "OZONE"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_ozone .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_ozone .
+
+cci_project_concept:cciproject_seaLevel a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "sea level"@en ;
+    skos:altLabel "SEALEVEL"@en ;
+    skos:definition "Sea level climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "Sea level climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_seaLevel .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_seaLevel .
+
+cci_project_concept:cciproject_sst a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "sea surface temperature"@en ;
+    skos:altLabel "SST"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Surface Temperature project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Surface Temperature project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_sst .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_sst .
+
+cci_project_concept:cciproject_soilMst a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "soil moisture"@en ;
+    skos:altLabel "SOILMOISTURE"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Soil Moisture project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Soil Moisture project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_soilMst .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_soilMst .
+
+cci_project_concept:cciproject_iceSheet a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "ice sheets"@en ;
+    skos:altLabel "ICESHEETS"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Ice Sheets project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Ice Sheets project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_iceSheet .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_iceSheet .
+
+cci_project_concept:cciproject_seaIce a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "sea ice"@en ;
+    skos:altLabel "SEAICE"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Ice project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Ice project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_seaIce .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_seaIce .
+
+cci_project_concept:cciproject_biomass a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "above-ground biomass"@en ;
+    skos:altLabel "BIOMASS"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Biomass project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Biomass project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_biomass .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_biomass .
+
+cci_project_concept:cciproject_permafrost a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "permafrost"@en ;
+    skos:altLabel "PERMAFROST"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Permafrost project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Permafrost project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_permafrost .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_permafrost .
+
+cci_project_concept:cciproject_salinity a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "sea surface salinity"@en ;
+    skos:altLabel "SEASURFACESALINITY"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Salinity project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Salinity project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_salinity .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_salinity .
+
+cci_project_concept:cciproject_seaState a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "sea state"@en ;
+    skos:altLabel "SEASTATE"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea State project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea State project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_seaState .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_seaState .
+
+cci_project_concept:cciproject_snow a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "snow"@en ;
+    skos:altLabel "SNOW"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Snow project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Snow project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_snow .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_snow .
+
+cci_project_concept:cciproject_waterVapour a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "water vapour"@en ;
+    skos:altLabel "WATERVAPOUR"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Water Vapour project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Water Vapour project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_waterVapour .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_waterVapour .
+
+cci_project_concept:cciproject_landSurfTemp a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "land surface temperature"@en ;
+    skos:altLabel "LST"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Land Surface Temperature project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Land Surface Temperature project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_landSurfTemp .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_landSurfTemp .
+
+cci_project_concept:cciproject_lakes a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "lakes"@en ;
+    skos:altLabel "LAKES"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Lakes project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Lakes project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_lakes .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_lakes .
+
+cci_project_concept:cciproject_vegParam a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "vegetation parameters"@en ;
+    skos:altLabel "VEGETATION"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Vegetation Parameters project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Vegetation Parameters project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_vegParam .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_vegParam .
+
+cci_project_concept:cciproject_riverDischarge a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "river discharge"@en ;
+    skos:altLabel "RD"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) River Discharge project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) River Discharge project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_riverDischarge .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_riverDischarge .
+
+cci_project_concept:cciproject_reccap2 a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "RECCAP2"@en ;
+    skos:altLabel "RECCAP-2"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) RECCAP-2 project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) RECCAP-2 project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_reccap2 .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_reccap2 .
+
+cci_project_concept:cciproject_seaLevelBudgetClos a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "sea level budget closure"@en ;
+    skos:altLabel "SLBC"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_seaLevelBudgetClos .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_seaLevelBudgetClos .
+
