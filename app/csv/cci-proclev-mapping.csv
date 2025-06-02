@@ -1,8 +1,0 @@
-URI 1`URI 1 has <relationship> URI 2`URI 2`URI 2 has <relationship> URI 1
-proc_level1`narrower`proc_level1A`broader
-proc_level1`narrower`proc_level1B`broader
-proc_level1`narrower`proc_level1C`broader
-proc_level2`narrower`proc_level2P`broader
-proc_level3`narrower`proc_level3U`broader
-proc_level3`narrower`proc_level3C`broader
-proc_level3`narrower`proc_level3S`broader

@@ -1,11 +1,11 @@
-@prefix cci-org-collection: <http://vocab.ceda.ac.uk/collection/cci/org> .
+@prefix cci-org-collection: <https://vocab.ceda.ac.uk/collection/cci/org> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 
-<http://vocab.ceda.ac.uk/collection/cci/org> a skos:Collection ;
+<https://vocab.ceda.ac.uk/collection/cci/org> a skos:Collection ;
     skos:prefLabel "Institute"@en ;
     skos:definition "Organisations (institutions) that are involved in production of data for the ESA Climate Change Initiative (CCI)."@en ;
     dc:title "Institute" ;
@@ -14,7 +14,7 @@
     rdfs:comment "This collection represents the organisations in the CCI project" ;
     dc:creator "Science and Technology Facilities Council" ;
     owl:versionInfo "0.0.1";
-    dc:date "2025-05-30" ;
+    dc:date "2025-06-02" ;
     dc:description "Organisations (institutions) that are involved in production of data for the ESA Climate Change Initiative (CCI)." ;
     .
 

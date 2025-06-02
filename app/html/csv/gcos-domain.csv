@@ -1,0 +1,9 @@
+URI`Pref Label`Alt Label`Definition`See Also`Hierarchy Level
+atmospheric`atmospheric``GCOS Essential Climate Variable domain``1
+terrestrial`terrestrial``GCOS Essential Climate Variable domain``1
+oceanic`oceanic``GCOS Essential Climate Variable domain``1
+atmosphericSurface`atmospheric surface``GCOS Essential Climate Variable sub-domain: Including measurements at standardized, but globally varying heights in close proximity to the surface``2
+atmosphericUpperair`atmospheric upper-air``GCOS Essential Climate Variable sub-domain: Up to the stratopause``2
+atmosphericComposition`atmospheric composition``GCOS Essential Climate Variable sub-domain:``2
+oceanicSurface`oceanic surface``GCOS Essential Climate Variable sub-domain``2
+oceanicSubsurface`oceanic sub-surface``GCOS Essential Climate Variable sub-domain: Including measurements within the surface mixed layer, usually within the upper 15m``2

@@ -1,9 +1,55 @@
 [
   {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept",
-      "http://vocab.ceda.ac.uk/ontology/cci#platformGrp"
+      "https://vocab.ceda.ac.uk/ontology/cci#platformGrp"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "US Defense Meteorological Satellite Program"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "DMSP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "US Defense Meteorological Satellite Program"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformGrp"
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
@@ -13,18 +59,18 @@
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_3rd"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_3rd"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_1st"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_1st"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_2nd"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_2nd"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -41,12 +87,12 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp"
       }
     ]
   },
   {
-    "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp",
+    "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
     ],
@@ -57,7 +103,7 @@
     ],
     "http://purl.org/dc/elements/1.1/date": [
       {
-        "@value": "2025-05-30"
+        "@value": "2025-06-02"
       }
     ],
     "http://purl.org/dc/elements/1.1/description": [
@@ -100,13 +146,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -117,10 +163,10 @@
     ]
   },
   {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept",
-      "http://vocab.ceda.ac.uk/ontology/cci#platformGrp"
+      "https://vocab.ceda.ac.uk/ontology/cci#platformGrp"
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
@@ -130,18 +176,18 @@
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_3rd"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_3rd"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -158,53 +204,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp",
-    "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#platformGrp",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "US Defense Meteorological Satellite Program"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D1"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "DMSP"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "US Defense Meteorological Satellite Program"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp"
       }
     ]
   }

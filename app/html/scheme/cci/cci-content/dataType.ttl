@@ -1,89 +1,89 @@
-@prefix cci: <http://vocab.ceda.ac.uk/ontology/cci#> .
-@prefix cci-scheme: <http://vocab.ceda.ac.uk/scheme/cci/> .
+@prefix cci: <https://vocab.ceda.ac.uk/ontology/cci#> .
+@prefix cci-scheme: <https://vocab.ceda.ac.uk/scheme/cci/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/aerosol> ;
     skos:altLabel "AAI"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol> ;
     skos:definition "absorbing aerosol index"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "absorbing aerosol index"@en ;
     skos:scopeNote "absorbing aerosol index"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
     skos:altLabel "ADG"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
     skos:definition "absorption by coloured dissolved organic matter"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "absorption by coloured dissolved organic matter"@en ;
     skos:scopeNote "absorption by coloured dissolved organic matter"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-level/> ;
     skos:altLabel "ADT"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel> ;
     skos:definition "absolute dynamic topography"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "absolute dynamic topography"@en ;
     skos:scopeNote "absolute dynamic topography"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/aerosol> ;
     skos:altLabel "AER_PRODUCTS"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol> ;
     skos:definition "multiple aerosol products"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "multiple aerosol products"@en ;
     skos:scopeNote "multiple aerosol products"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/aerosol> ;
     skos:altLabel "AEX"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol> ;
     skos:definition "stratospheric aerosol extinction profile"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "stratospheric aerosol extinction profile"@en ;
     skos:scopeNote "stratospheric aerosol extinction profile"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/biomass> ;
     skos:altLabel "AGB"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_biomass> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_biomass> ;
     skos:definition "above-ground biomass"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "above-ground biomass"@en ;
     skos:scopeNote "above-ground biomass"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
     skos:altLabel "Alb"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
     skos:definition "condition albedo"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "condition albedo"@en ;
     skos:scopeNote "condition albedo"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all> a skos:Concept,
+        cci:dataType ;
     skos:altLabel "ALL"@en ;
     skos:definition "all"@en ;
     skos:inScheme cci-scheme:dataType ;
@@ -91,68 +91,68 @@
     skos:scopeNote "all"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/permafrost> ;
     skos:altLabel "ALT"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost> ;
     skos:definition "active layer thickness"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "active layer thickness"@en ;
     skos:scopeNote "active layer thickness"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/aerosol> ;
     skos:altLabel "AOD"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol> ;
     skos:definition "aerosol optical depth"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "aerosol optical depth"@en ;
     skos:scopeNote "aerosol optical depth"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
     skos:altLabel "APH"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
     skos:definition "absorption by phytoplankton"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "absorption by phytoplankton"@en ;
     skos:scopeNote "absorption by phytoplankton"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
     skos:altLabel "ATOT"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
     skos:definition "total absorption"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "total absorption"@en ;
     skos:scopeNote "total absorption"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/aerosol> ;
     skos:altLabel "ATY"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol> ;
     skos:definition "aerosol type"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "aerosol type"@en ;
     skos:scopeNote "aerosol type"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/fire>,
         <https://climate.esa.int/projects/land-cover/> ;
     skos:altLabel "BA"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_fire>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_fire>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
     skos:definition "burned area"@en,
         "condition fire (burned area)"@en ;
     skos:inScheme cci-scheme:dataType ;
@@ -162,768 +162,768 @@
         "condition fire (burned area)"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
     skos:altLabel "BB"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
     skos:definition "total backscattering"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "total backscattering"@en ;
     skos:scopeNote "total backscattering"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
     skos:altLabel "CER"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
     skos:definition "cloud effective radius"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "cloud effective radius"@en ;
     skos:scopeNote "cloud effective radius"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
     skos:altLabel "CFC"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
     skos:definition "cloud cover"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "cloud cover"@en ;
     skos:scopeNote "cloud cover"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <http://www.esa-icesheets-cci.org/> ;
     skos:altLabel "CFL"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet> ;
     skos:definition "glacier calving front location"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "glacier calving front location"@en ;
     skos:scopeNote "glacier calving front location"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ghgs> ;
     skos:altLabel "CH4"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ghg> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ghg> ;
     skos:definition "column-averaged dry air mole fraction of CH4"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "column-averaged dry air mole fraction of CH4"@en ;
     skos:scopeNote "column-averaged dry air mole fraction of CH4"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
     skos:altLabel "CHLOR_A"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
     skos:definition "phytoplankton chlorophyll-a concentration"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "phytoplankton chlorophyll-a concentration"@en ;
     skos:scopeNote "phytoplankton chlorophyll-a concentration"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
     skos:altLabel "CLD_PRODUCTS"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
     skos:definition "multiple cloud products"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "multiple cloud products"@en ;
     skos:scopeNote "multiple cloud products"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ghgs> ;
     skos:altLabel "CO2"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ghg> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ghg> ;
     skos:definition "column-averaged dry air mole fraction of CO2"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "column-averaged dry air mole fraction of CO2"@en ;
     skos:scopeNote "column-averaged dry air mole fraction of CO2"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
     skos:altLabel "COT"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
     skos:definition "cloud optical thickness"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "cloud optical thickness"@en ;
     skos:scopeNote "cloud optical thickness"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
     skos:altLabel "CTH"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
     skos:definition "cloud top height"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "cloud top height"@en ;
     skos:scopeNote "cloud top height"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
     skos:altLabel "CTP"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
     skos:definition "cloud top pressure"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "cloud top pressure"@en ;
     skos:scopeNote "cloud top pressure"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
     skos:altLabel "CTT"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
     skos:definition "cloud top temperature"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "cloud top temperature"@en ;
     skos:scopeNote "cloud top temperature"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/glaciers> ;
     skos:altLabel "GA"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers> ;
     skos:definition "glacier area"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "glacier area"@en ;
     skos:scopeNote "glacier area"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <http://www.esa-icesheets-cci.org/> ;
     skos:altLabel "GLL"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet> ;
     skos:definition "glacier grounding line location"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "glacier grounding line location"@en ;
     skos:scopeNote "glacier grounding line location"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <http://www.esa-icesheets-cci.org/> ;
     skos:altLabel "GMB"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet> ;
     skos:definition "gravimetric mass balance"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "gravimetric mass balance"@en ;
     skos:scopeNote "gravimetric mass balance"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/permafrost> ;
     skos:altLabel "GTD"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost> ;
     skos:definition "ground temperature at a certain depth"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "ground temperature"@en ;
     skos:scopeNote "ground temperature at a certain depth"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
     skos:altLabel "IOP"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
     skos:definition "inherent optical properties"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "inherent optical properties"@en ;
     skos:scopeNote "inherent optical properties"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <http://www.esa-icesheets-cci.org/> ;
     skos:altLabel "IV"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet> ;
     skos:definition "ice sheet velocity"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "ice sheet velocity"@en ;
     skos:scopeNote "ice sheet velocity"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
     skos:altLabel "IWP"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
     skos:definition "cloud ice water path"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "cloud ice water path"@en ;
     skos:scopeNote "cloud ice water path"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
     skos:altLabel "JCH"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
     skos:definition "joint cloud physical properties"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "joint cloud physical properties"@en ;
     skos:scopeNote "joint cloud physical properties"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
     skos:altLabel "K_490"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
     skos:definition "spectral attenuation coefficient for downwelling irradiance"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "spectral attenuation coefficient for downwelling irradiance"@en ;
     skos:scopeNote "spectral attenuation coefficient for downwelling irradiance"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
     skos:altLabel "LAI"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
     skos:definition "leaf area Index"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "leaf area Index"@en ;
     skos:scopeNote "leaf area Index"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/high-resolution-land-cover> ;
     skos:altLabel "CHANGE"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
     skos:definition "land cover change uncertainty maps"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "land cover change"@en ;
     skos:scopeNote "land cover change uncertainty maps"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
     skos:altLabel "LCCS"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
     skos:definition "land cover classification system"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "land cover classification system"@en ;
     skos:scopeNote "land cover classification system"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/lakes> ;
     skos:altLabel "LK_PRODUCTS"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lakes> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lakes> ;
     skos:definition "multiple lake products"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "multiple lake products"@en ;
     skos:scopeNote "multiple lake products"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ozone> ;
     skos:altLabel "LP"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone> ;
     skos:definition "ozone limb profile"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "ozone limb profile"@en ;
     skos:scopeNote "ozone limb profile"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/land-surface-temperature> ;
     skos:altLabel "LST"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lst> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lst> ;
     skos:definition "land surface temperature"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "land surface temperature"@en ;
     skos:scopeNote "land surface temperature"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/cloud> ;
     skos:altLabel "LWP"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud> ;
     skos:definition "cloud liquid water path"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "cloud liquid water path"@en ;
     skos:scopeNote "cloud liquid water path"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
     skos:altLabel "Map"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
     skos:definition "land cover map"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "land cover map"@en ;
     skos:scopeNote "land cover map"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-level/> ;
     skos:altLabel "MSL"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel> ;
     skos:definition "mean sea level"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "mean sea level"@en ;
     skos:scopeNote "mean sea level"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-level/> ;
     skos:altLabel "MSLA"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel> ;
     skos:definition "maps of sea level anomalies"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "maps of sea level anomalies"@en ;
     skos:scopeNote "maps of sea level anomalies"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-level/> ;
     skos:altLabel "MSLAMPH"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel> ;
     skos:definition "mean sea level amplitude and phase"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "mean sea level amplitude and phase"@en ;
     skos:scopeNote "mean sea level amplitude and phase"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-level/> ;
     skos:altLabel "MSLTR"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel> ;
     skos:definition "mean sea level trends"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "mean sea level trends"@en ;
     skos:scopeNote "mean sea level trends"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
     skos:altLabel "NDVI"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
     skos:definition "condition normalised difference vegetation index"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "condition normalised difference vegetation index"@en ;
     skos:scopeNote "condition normalised difference vegetation index"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
     skos:altLabel "NLW"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
     skos:definition "normalised water leaving radiance"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "normalised water leaving radiance"@en ;
     skos:scopeNote "normalised water leaving radiance"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ozone> ;
     skos:altLabel "NP"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone> ;
     skos:definition "ozone nadir profile"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "ozone nadir profile"@en ;
     skos:scopeNote "ozone nadir profile"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
     skos:altLabel "OC_PRODUCTS"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
     skos:definition "multiple products (chla, nlw, IOPs, etc)"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "multiple products (chla, nlw, IOPs, etc)"@en ;
     skos:scopeNote "multiple products (chla, nlw, IOPs, etc)"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/permafrost> ;
     skos:altLabel "PFR"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost> ;
     skos:definition "permafrost extent (fraction)"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "permafrost extent"@en ;
     skos:scopeNote "permafrost extent (fraction)"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/land-cover> ;
     skos:altLabel "PFT"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
     skos:definition "plant functional types"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "plant functional types"@en ;
     skos:scopeNote "plant functional types"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
     skos:altLabel "RRS"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
     skos:definition "remote sensing reflectance"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "remote sensing reflectance"@en ;
     skos:scopeNote "remote sensing reflectance"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/snow> ;
     skos:altLabel "SCFG"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow> ;
     skos:definition "snow cover fraction - snow on ground"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "snow cover fraction - snow on ground"@en ;
     skos:scopeNote "snow cover fraction - snow on ground"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/snow> ;
     skos:altLabel "SCFV"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow> ;
     skos:definition "snow cover fraction  - viewable"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "snow cover fraction - viewable"@en ;
     skos:scopeNote "snow cover fraction  - viewable"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <http://www.esa-icesheets-cci.org/> ;
     skos:altLabel "SEC"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet> ;
     skos:definition "ice sheet surface elevation change"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "ice sheet surface elevation change"@en ;
     skos:scopeNote "ice sheet surface elevation change"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-ice/> ;
     skos:altLabel "SICONC"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce> ;
     skos:definition "sea ice concentration"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "sea ice concentration"@en ;
     skos:scopeNote "sea ice concentration"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-ice/> ;
     skos:altLabel "SIEXTENT"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce> ;
     skos:definition "sea ice extent"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "sea ice extent"@en ;
     skos:scopeNote "sea ice extent"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-ice/> ;
     skos:altLabel "SITHICK"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce> ;
     skos:definition "sea ice thickness"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "sea ice thickness"@en ;
     skos:scopeNote "sea ice thickness"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-level/> ;
     skos:altLabel "SLA"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel> ;
     skos:definition "sea level anomaly"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "sea level anomaly"@en ;
     skos:scopeNote "sea level anomaly"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
     skos:altLabel "Snow"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
     skos:definition "condition snow"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "condition snow"@en ;
     skos:scopeNote "condition snow"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
     skos:altLabel "SR"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
     skos:definition "surface reflectance"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "surface reflectance"@en ;
     skos:scopeNote "surface reflectance"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-level/> ;
     skos:altLabel "SSH"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel> ;
     skos:definition "corrected sea surface height"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "corrected sea surface height"@en ;
     skos:scopeNote "corrected sea surface height"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/soil-moisture/> ;
     skos:altLabel "SSMS"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> ;
     skos:definition "surface soil moisture degree of saturation absolute"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "surface soil moisture degree of saturation absolute"@en ;
     skos:scopeNote "surface soil moisture degree of saturation absolute"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/soil-moisture/> ;
     skos:altLabel "SSMSA"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> ;
     skos:definition "surface soil moisture degree of saturation anomalies"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "surface soil moisture degree of saturation anomalies"@en ;
     skos:scopeNote "surface soil moisture degree of saturation anomalies"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/soil-moisture/> ;
     skos:altLabel "SSMV"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> ;
     skos:definition "surface soil moisture volumetric absolutes"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "surface soil moisture volumetric absolutes"@en ;
     skos:scopeNote "surface soil moisture volumetric absolutes"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/soil-moisture/> ;
     skos:altLabel "SSMVA"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> ;
     skos:definition "surface soil moisture volumetric anomalies"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "surface soil moisture volumetric anomalies"@en ;
     skos:scopeNote "surface soil moisture volumetric anomalies"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-surface-salinity> ;
     skos:altLabel "SSS"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_salinity> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_salinity> ;
     skos:definition "sea surface salinity"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "sea surface salinity"@en ;
     skos:scopeNote "sea surface salinity"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-surface-temperature/> ;
     skos:altLabel "SSTdepth"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst> ;
     skos:definition "sea water temperature"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "sea water temperature"@en ;
     skos:scopeNote "sea water temperature"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-surface-temperature/> ;
     skos:altLabel "SSTfnd"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst> ;
     skos:definition "sea surface foundation temperature"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "sea surface foundation temperature"@en ;
     skos:scopeNote "sea surface foundation temperature"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-surface-temperature/> ;
     skos:altLabel "SSTint"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst> ;
     skos:definition "sea surface temperature"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "sea surface temperature"@en ;
     skos:scopeNote "sea surface temperature"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-surface-temperature/> ;
     skos:altLabel "SSTskin"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst> ;
     skos:definition "sea surface skin temperature"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "sea surface skin temperature"@en ;
     skos:scopeNote "sea surface skin temperature"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-surface-temperature/> ;
     skos:altLabel "SSTsubskin"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst> ;
     skos:definition "sea surface subskin temperature"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "sea surface subskin temperature"@en ;
     skos:scopeNote "sea surface subskin temperature"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/snow> ;
     skos:altLabel "SWE"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow> ;
     skos:definition "snow water equivalent"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "snow water equivalent"@en ;
     skos:scopeNote "snow water equivalent"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/sea-state/> ;
     skos:altLabel "SWH"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaState> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaState> ;
     skos:definition "significant wave height"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "significant wave height"@en ;
     skos:scopeNote "significant wave height"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/soil-moisture/> ;
     skos:altLabel "SWIS"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> ;
     skos:definition "soil water index degree of saturation absolute"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "soil water index degree of saturation absolute"@en ;
     skos:scopeNote "soil water index degree of saturation absolute"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/soil-moisture/> ;
     skos:altLabel "SWISA"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> ;
     skos:definition "soil water index degree of saturation anomalie"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "soil water index degree of saturation anomalie"@en ;
     skos:scopeNote "soil water index degree of saturation anomalie"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/soil-moisture/> ;
     skos:altLabel "SWIV"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> ;
     skos:definition "soil water index volumetric absolute"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "soil water index volumetric absolute"@en ;
     skos:scopeNote "soil water index volumetric absolute"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/soil-moisture/> ;
     skos:altLabel "SWIVA"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst> ;
     skos:definition "soil water index volumetric anomalies"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "soil water index volumetric anomalies"@en ;
     skos:scopeNote "soil water index volumetric anomalies"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ozone> ;
     skos:altLabel "TC"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone> ;
     skos:definition "ozone total column"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "ozone total column"@en ;
     skos:scopeNote "ozone total column"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/water-vapour> ;
     skos:altLabel "TCWV"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_waterVapour> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_waterVapour> ;
     skos:definition "total column water vapour"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "total column water vapour"@en ;
     skos:scopeNote "total column water vapour"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/high-resolution-land-cover> ;
     skos:altLabel "UNCERT"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
     skos:definition "land cover uncertainty maps"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "uncertainty"@en ;
     skos:scopeNote "land cover uncertainty maps"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified> a skos:Concept,
+        cci:dataType ;
     skos:altLabel "UNSPECIFIED"@en ;
     skos:definition "unspecified"@en ;
     skos:inScheme cci-scheme:dataType ;
@@ -931,44 +931,44 @@
     skos:scopeNote "unspecified"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
     skos:altLabel "v"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol> ;
     skos:definition "backscattering by particulate matter"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "backscattering by particulate matter"@en ;
     skos:scopeNote "backscattering by particulate matter"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/en/projects/vegetation-parameters/> ;
     skos:altLabel "VP_PRODUCTS"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_vegParam> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_vegParam> ;
     skos:definition "vegetation parameters"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "vegetation parameters"@en ;
     skos:scopeNote "vegetation parameters"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/land-cover/> ;
     skos:altLabel "WB"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov> ;
     skos:definition "condition water (water bodies)"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "condition water (water bodies)"@en ;
     skos:scopeNote "condition water (water bodies)"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
-<http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> a cci:dataType,
-        skos:Concept ;
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> a skos:Concept,
+        cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/en/projects/river-discharge/> ;
     skos:altLabel "WL"@en ;
-    skos:broader <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_riverDischarge> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_riverDischarge> ;
     skos:definition "water level"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "water level"@en ;
@@ -977,7 +977,7 @@
 
 cci-scheme:dataType a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-30" ;
+    dc:date "2025-06-02" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -985,93 +985,93 @@ cci-scheme:dataType a skos:ConceptScheme ;
     rdfs:comment "This concept scheme represents the data types used by the CCI project" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "The main data type in a data set used by the ESA Climate Change Initiative (CCI)."@en ;
-    skos:hasTopConcept <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb>,
-        <http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> ;
+    skos:hasTopConcept <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_unspecified>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl> ;
     skos:prefLabel "Geophysical Quantity"@en .
 

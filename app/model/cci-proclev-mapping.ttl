@@ -1,5 +1,5 @@
-@prefix mapa: <http://vocab.ceda.ac.uk/collection/cci/procLev/> .
-@prefix mapb: <http://vocab.ceda.ac.uk/collection/cci/procLev/> .
+@prefix mapa: <https://vocab.ceda.ac.uk/collection/cci/procLev/> .
+@prefix mapb: <https://vocab.ceda.ac.uk/collection/cci/procLev/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 

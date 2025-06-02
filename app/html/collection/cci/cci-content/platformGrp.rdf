@@ -6,20 +6,20 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/platformGrp">
-    <skos:definition xml:lang="en">The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI).</skos:definition>
-    <dc:creator>Science and Technology Facilities Council</dc:creator>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-    <dc:title>Platform Group</dc:title>
-    <dc:publisher xml:lang="en">STFC</dc:publisher>
-    <skos:prefLabel xml:lang="en">Platform Group</skos:prefLabel>
-    <rdfs:comment>This collection represents the platform groups used by the CCI project</rdfs:comment>
-    <dc:date>2025-05-30</dc:date>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/platformGrp">
     <owl:versionInfo>0.0.1</owl:versionInfo>
     <dc:description>The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI).</dc:description>
+    <dc:date>2025-06-02</dc:date>
+    <dc:creator>Science and Technology Facilities Council</dc:creator>
+    <skos:prefLabel xml:lang="en">Platform Group</skos:prefLabel>
+    <skos:definition xml:lang="en">The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI).</skos:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
     <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"/>
+    <dc:title>Platform Group</dc:title>
+    <rdfs:comment>This collection represents the platform groups used by the CCI project</rdfs:comment>
+    <dc:publisher xml:lang="en">STFC</dc:publisher>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"/>
   </rdf:Description>
 </rdf:RDF>

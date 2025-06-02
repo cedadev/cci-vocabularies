@@ -1,6 +1,6 @@
-@prefix mapa: <http://vocab.ceda.ac.uk/collection/cci/platform/> .
-@prefix mapb: <http://vocab.ceda.ac.uk/collection/cci/sensor/> .
-@prefix cci: <http://vocab.ceda.ac.uk/ontology/cci#> .
+@prefix mapa: <https://vocab.ceda.ac.uk/collection/cci/platform/> .
+@prefix mapb: <https://vocab.ceda.ac.uk/collection/cci/sensor/> .
+@prefix cci: <https://vocab.ceda.ac.uk/ontology/cci#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 

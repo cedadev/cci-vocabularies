@@ -1,5 +1,5 @@
-@prefix cci_ontology: <http://vocab.ceda.ac.uk/ontology/cci#> .
-@prefix cci-freq: <http://vocab.ceda.ac.uk/scheme/cci/freq> .
+@prefix cci_ontology: <https://vocab.ceda.ac.uk/ontology/cci#> .
+@prefix cci-freq: <https://vocab.ceda.ac.uk/scheme/cci/freq> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -18,7 +18,7 @@ cci-freq: a skos:ConceptScheme ;
     rdfs:comment "This concept scheme represents the frequencies used by the CCI project" ;
     dc:creator "Science and Technology Facilities Council" ;
     owl:versionInfo "0.0.1";
-    dc:date "2025-05-30" ;
+    dc:date "2025-06-02" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     .
 

@@ -1,4 +1,4 @@
-@prefix cci-collection: <http://vocab.ceda.ac.uk/collection/cci/> .
+@prefix cci-collection: <https://vocab.ceda.ac.uk/collection/cci/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -6,7 +6,7 @@
 
 cci-collection:ecv a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-30" ;
+    dc:date "2025-06-02" ;
     dc:description "The Essential Climate Variable (ECVs) in the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -14,28 +14,28 @@ cci-collection:ecv a skos:Collection ;
     rdfs:comment "This collection represents the ECVs used by the CCI project" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "The Essential Climate Variable (ECVs) in the ESA Climate Change Initiative (CCI)."@en ;
-    skos:member <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_biomass>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_fire>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ghg>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lakes>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landSurfTemp>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_riverDischarge>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_salinity>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaState>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_vegParam>,
-        <http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_waterVapour> ;
+    skos:member <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_biomass>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_fire>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ghg>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lakes>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landSurfTemp>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_riverDischarge>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_salinity>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaState>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_vegParam>,
+        <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_waterVapour> ;
     skos:prefLabel "ECV"@en .
 
