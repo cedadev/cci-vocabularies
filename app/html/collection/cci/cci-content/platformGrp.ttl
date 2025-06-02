@@ -1,4 +1,4 @@
-@prefix cci-collection: <http://vocab.ceda.ac.uk/collection/cci/> .
+@prefix cci-collection: <https://vocab.ceda.ac.uk/collection/cci/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -6,7 +6,7 @@
 
 cci-collection:platformGrp a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-30" ;
+    dc:date "2025-06-02" ;
     dc:description "The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -14,8 +14,8 @@ cci-collection:platformGrp a skos:Collection ;
     rdfs:comment "This collection represents the platform groups used by the CCI project" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI)."@en ;
-    skos:member <http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp>,
-        <http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes>,
-        <http://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa> ;
+    skos:member <https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp>,
+        <https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes>,
+        <https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa> ;
     skos:prefLabel "Platform Group"@en .
 

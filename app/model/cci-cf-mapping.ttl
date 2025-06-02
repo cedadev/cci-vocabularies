@@ -1,4 +1,4 @@
-@prefix cci: <http://vocab.ceda.ac.uk/collection/cci/ecv/> .
+@prefix cci: <https://vocab.ceda.ac.uk/collection/cci/ecv/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 

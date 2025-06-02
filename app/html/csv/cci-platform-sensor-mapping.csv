@@ -88,7 +88,7 @@ plat_metOpC`hasSensor`sens_amsua`hasPlatform
 plat_metOpC`hasSensor`sens_gome2`hasPlatform
 plat_metOpC`hasSensor`sens_avhrr3`hasPlatform
 plat_nimbus7`hasSensor`sens_smmr`hasPlatform
-plat_nimbus7`hasSensor`sens_toms`
+plat_nimbus7`hasSensor`sens_toms`hasPlatform
 plat_noaa_6`hasSensor`sens_avhrr`hasPlatform
 plat_noaa_7`hasSensor`sens_avhrr2`hasPlatform
 plat_noaa_8`hasSensor`sens_avhrr`hasPlatform
@@ -116,6 +116,7 @@ plat_odin`hasSensor`sens_smr`hasPlatform
 plat_orbview2`hasSensor`sens_seaWiFs`hasPlatform
 plat_parasol`hasSensor`sens_polder`hasPlatform
 plat_scisat`hasSensor`sens_aceFts`hasPlatform
+plat_scisat`hasSensor`sens_maestro`hasPlatform
 plat_spot4`hasSensor`sens_vegetation`hasPlatform
 plat_spot5`hasSensor`sens_vegetation`hasPlatform
 plat_spot5`hasSensor`sens_hrs`hasPlatform
@@ -192,3 +193,10 @@ plat_nimbus6`hasSensor`sens_esmrNim6`hasPlatform
 plat_gosat-2`hasSensor`sens_tansoFts2`hasPlatform
 plat_sentinel6a`hasSensor`sens_poseidon4`hasPlatform
 plat_sentinel6b`hasSensor`sens_poseidon4`hasPlatform
+plat_erbs`hasSensor`sens_sageII`hasPlatform
+plat_uars`hasSensor`sens_mls`hasPlatform
+plat_aura`hasSensor`sens_mlsAura`hasPlatform
+plat_spot4`hasSensor`sens_poam`hasPlatform
+plat_meteor_3m`hasSensor`sens_sageIII`hasPlatform
+plat_iss_SAGEIII`hasSensor`sens_sageIII`hasPlatform
+plat_uars`hasSensor`sens_haloe`hasPlatform

@@ -6,31 +6,31 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="http://vocab.ceda.ac.uk/collection/cci/procLev">
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_ind"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_unspecified"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level4"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level0"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"/>
-    <skos:member rdf:resource="http://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C"/>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/procLev">
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/procLev/proc_ind"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/procLev/proc_unspecified"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level4"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level0"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-    <skos:definition xml:lang="en">The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI).</skos:definition>
-    <rdfs:comment>This collection represents the processing levels used by the CCI project</rdfs:comment>
     <dc:title>Processing Level</dc:title>
+    <dc:date>2025-06-02</dc:date>
     <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
-    <dc:creator>Science and Technology Facilities Council</dc:creator>
-    <skos:prefLabel xml:lang="en">Processing Level</skos:prefLabel>
-    <dc:description>The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI).</dc:description>
-    <dc:date>2025-05-30</dc:date>
     <owl:versionInfo>0.0.1</owl:versionInfo>
+    <dc:description>The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI).</dc:description>
+    <skos:prefLabel xml:lang="en">Processing Level</skos:prefLabel>
     <dc:publisher xml:lang="en">STFC</dc:publisher>
+    <dc:creator>Science and Technology Facilities Council</dc:creator>
+    <rdfs:comment>This collection represents the processing levels used by the CCI project</rdfs:comment>
+    <skos:definition xml:lang="en">The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI).</skos:definition>
   </rdf:Description>
 </rdf:RDF>

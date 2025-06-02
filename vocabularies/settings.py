@@ -11,16 +11,16 @@ SPARQL_PORT = "3030"
 
 SPARQL_DATASET = "vocab"
 
-SPARQL_UPDATE = "http://%s:%s/%s/%s" % (
+SPARQL_UPDATE = "https://%s:%s/%s/%s" % (
     SPARQL_HOST_NAME,
     SPARQL_PORT,
     SPARQL_DATASET,
     "update",
 )
-SPARQL_QUERY = "http://%s/%s" % (SPARQL_HOST_NAME, "sparql")
-SPARQL_GRAPH = "http://%s/%s/data" % (SPARQL_HOST_NAME, SPARQL_DATASET)
+SPARQL_QUERY = "https://%s/%s" % (SPARQL_HOST_NAME, "sparql")
+SPARQL_GRAPH = "https://%s/%s/data" % (SPARQL_HOST_NAME, SPARQL_DATASET)
 
-NERC_SERVER = "http://vocab.nerc.ac.uk/collection"
+NERC_SERVER = "https://vocab.nerc.ac.uk/collection"
 
 CCI = "cci"
 C4I = "climate4impact"
@@ -43,7 +43,7 @@ DISPLAY_NAME_MAP[GCOS] = "GCOS"
 DISPLAY_NAME_MAP[GRIB] = "GRIB"
 DISPLAY_NAME_MAP[GLOSSARY] = "Glossary"
 
-NAME_SPACE = "http://%s" % SPARQL_HOST_NAME
+NAME_SPACE = "https://%s" % SPARQL_HOST_NAME
 
 # CCI_NAME_SPACE = '%s/%s#' % (NAME_SPACE, CCI)
 # C4I_NAME_SPACE = '%s/%s#' % (NAME_SPACE, C4I)
@@ -109,8 +109,9 @@ COLLECTION_MAP[GLOSSARY] = GLOSSARY_COLLECTION
 BASE_PATH = os.environ.get("BASE_PATH") or os.path.abspath(os.path.dirname(__file__))
 
 DATA_DIRECTORY  = os.path.join(BASE_PATH, "..","data")
-HTML_SOURCE     = os.path.join(BASE_PATH, "..","app", "html")
-CSV_DIRECTORY   = os.path.join(BASE_PATH, "..","app", "csv")
+APP_DIRECTORY   = os.path.join(BASE_PATH, "..","app")
+HTML_SOURCE     = os.path.join(BASE_PATH, "..","html")
+CSV_DIRECTORY   = os.path.join(BASE_PATH, "..","csv")
 HTML_DIRECTORY  = os.path.join(BASE_PATH, "..","app", "html")
 MODEL_DIRECTORY = os.path.join(BASE_PATH, "..","app", "model")
 

@@ -1,5 +1,6 @@
 import csv
 import os
+import requests
 from xml.sax._exceptions import SAXParseException
 
 from rdflib import Graph, URIRef
@@ -42,13 +43,24 @@ class Helper:
 
     def __init__(self):
         graph = Graph()
-        source = "http://vocab.nerc.ac.uk/collection/P07/current/"
+        
+        source = "http://vocab.nerc.ac.uk/collection/P07/current/?_profile=nvs&_mediatype=application/rdf+xml"
+        r = requests.get(source)
+        if r.status_code == 200:
+            with open('request.xml','w') as f:
+                f.write(r.text)
+        else:
+            print(f'ERROR loading NERC vocab from {source}')
+            print(f'ERROR: {r.status_code} with request')
+
+        source = 'request.xml'
         try:
-            graph.parse(location=source, format="application/rdf+xml")
+            graph.parse(location=source)#, format="application/rdf+xml")
         except SAXParseException as ex:
             print(f"ERROR loading NERC vocab from {source}")
             print(f"ERROR: {ex}")
         self.GRAPH_STORE[NERC] = graph
+        os.system('rm request.xml')
 
     def get_alt_label(self, graph_name, uri):
         statement = (

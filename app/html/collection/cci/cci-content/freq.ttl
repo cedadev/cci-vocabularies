@@ -1,4 +1,4 @@
-@prefix cci-collection: <http://vocab.ceda.ac.uk/collection/cci/> .
+@prefix cci-collection: <https://vocab.ceda.ac.uk/collection/cci/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -6,7 +6,7 @@
 
 cci-collection:freq a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-05-30" ;
+    dc:date "2025-06-02" ;
     dc:description "Temporal frequencies of data from the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -14,22 +14,22 @@ cci-collection:freq a skos:Collection ;
     rdfs:comment "This collection represents the frequencies used by the CCI project" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "Temporal frequencies of data from the ESA Climate Change Initiative (CCI)."@en ;
-    skos:member <http://vocab.ceda.ac.uk/collection/cci/freq/feq_min>,
-        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_10day>,
-        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_13yr>,
-        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_15day>,
-        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_3hr>,
-        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_5day>,
-        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_5yr>,
-        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_8day>,
-        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_clim>,
-        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_day>,
-        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_hr>,
-        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_mon>,
-        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_sat_orb>,
-        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_sec>,
-        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_unspecified>,
-        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_week>,
-        <http://vocab.ceda.ac.uk/collection/cci/freq/freq_yr> ;
+    skos:member <https://vocab.ceda.ac.uk/collection/cci/freq/feq_min>,
+        <https://vocab.ceda.ac.uk/collection/cci/freq/freq_10day>,
+        <https://vocab.ceda.ac.uk/collection/cci/freq/freq_13yr>,
+        <https://vocab.ceda.ac.uk/collection/cci/freq/freq_15day>,
+        <https://vocab.ceda.ac.uk/collection/cci/freq/freq_3hr>,
+        <https://vocab.ceda.ac.uk/collection/cci/freq/freq_5day>,
+        <https://vocab.ceda.ac.uk/collection/cci/freq/freq_5yr>,
+        <https://vocab.ceda.ac.uk/collection/cci/freq/freq_8day>,
+        <https://vocab.ceda.ac.uk/collection/cci/freq/freq_clim>,
+        <https://vocab.ceda.ac.uk/collection/cci/freq/freq_day>,
+        <https://vocab.ceda.ac.uk/collection/cci/freq/freq_hr>,
+        <https://vocab.ceda.ac.uk/collection/cci/freq/freq_mon>,
+        <https://vocab.ceda.ac.uk/collection/cci/freq/freq_sat_orb>,
+        <https://vocab.ceda.ac.uk/collection/cci/freq/freq_sec>,
+        <https://vocab.ceda.ac.uk/collection/cci/freq/freq_unspecified>,
+        <https://vocab.ceda.ac.uk/collection/cci/freq/freq_week>,
+        <https://vocab.ceda.ac.uk/collection/cci/freq/freq_yr> ;
     skos:prefLabel "Frequency"@en .
 

@@ -1,6 +1,6 @@
 [
   {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/freq",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/freq",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Collection"
     ],
@@ -11,7 +11,7 @@
     ],
     "http://purl.org/dc/elements/1.1/date": [
       {
-        "@value": "2025-05-30"
+        "@value": "2025-06-02"
       }
     ],
     "http://purl.org/dc/elements/1.1/description": [
@@ -54,55 +54,55 @@
     ],
     "http://www.w3.org/2004/02/skos/core#member": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_day"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/freq_day"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_5yr"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/freq_10day"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_3hr"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/freq_sec"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_hr"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/freq_hr"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_unspecified"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/freq_unspecified"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_mon"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/freq_5yr"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_sec"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/feq_min"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_5day"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/freq_8day"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_sat_orb"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/freq_sat_orb"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_15day"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/freq_week"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/feq_min"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/freq_15day"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_clim"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/freq_yr"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_week"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/freq_13yr"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_10day"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/freq_clim"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_13yr"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/freq_5day"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_8day"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/freq_3hr"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/freq/freq_yr"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/freq/freq_mon"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [

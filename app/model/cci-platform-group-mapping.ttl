@@ -1,5 +1,5 @@
-@prefix mapa: <http://vocab.ceda.ac.uk/collection/cci/platformGrp/> .
-@prefix mapb: <http://vocab.ceda.ac.uk/collection/cci/platformProg/> .
+@prefix mapa: <https://vocab.ceda.ac.uk/collection/cci/platformGrp/> .
+@prefix mapb: <https://vocab.ceda.ac.uk/collection/cci/platformProg/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 

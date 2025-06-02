@@ -1,6 +1,6 @@
 [
   {
-    "@id": "http://vocab.ceda.ac.uk/ontology/cci#",
+    "@id": "https://vocab.ceda.ac.uk/ontology/cci#",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme",
       "http://www.w3.org/2002/07/owl#Ontology"
@@ -12,7 +12,7 @@
     ],
     "http://purl.org/dc/elements/1.1/date": [
       {
-        "@value": "2025-05-30"
+        "@value": "2025-06-02"
       }
     ],
     "http://purl.org/dc/elements/1.1/description": [
@@ -54,37 +54,37 @@
     ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/dataType"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/dataType"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformProg"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/org"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/org"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/procLev"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/product"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/product"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/freq"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/freq"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/platform"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platform"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/sensor"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/sensor"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/project"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
       }
     ]
   }

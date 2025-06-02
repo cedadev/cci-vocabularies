@@ -1,558 +1,8 @@
 [
   {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov",
     "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "SEAICE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#closeMatch": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/gcos/ecv/oceanicSurfaceSeaIce"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Sea ice climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0424/"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "sea ice"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Sea ice climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "SST"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#closeMatch": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/gcos/ecv/oceanicSurfaceSeaSurfaceTemperature"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Sea surface temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFV9N2/"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "sea surface temperature"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Sea surface temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_fire",
-    "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "FIRE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#closeMatch": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/gcos/ecv/terrestrialFireDisturbance"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Fire disturbance (burned area) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/GACJJFFJ/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CEDABECC/"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "fire"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Fire disturbance (burned area) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost",
-    "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "PERMAFROST"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Permafrost climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "permafrost"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Permafrost climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers",
-    "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "GLACIERS"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broadMatch": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/gcos/ecv/terrestrialGlaciersAndIceCaps"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Glacier inventory climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0576/"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "glaciers"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Glacier inventory climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaState",
-    "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "SEASTATE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Sea state climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "sea state"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Sea state climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lakes",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "LAKES"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Lakes climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "lakes"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Lakes climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_waterVapour",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "WATERVAPOUR"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Water vapour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "water vapour"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Water vapour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_vegParam",
-    "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "VEGETATION"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Vegetation Parameters climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "vegetation parameters"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Vegetation Parameters climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ghg",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "GHG"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Greenhouse gasses (carbon dioxide and methane) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericCompositionOtherLonglivedGreenhouseGases"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericCompositionCarbonDioxide"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericUpperairWaterVapour"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericCompositionMethane"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "greenhouse gases"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Greenhouse gasses (carbon dioxide and methane) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov",
-    "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
@@ -563,7 +13,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#closeMatch": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/gcos/ecv/terrestrialLandCover"
+        "@id": "https://vocab.ceda.ac.uk/collection/gcos/ecv/terrestrialLandCover"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -574,45 +24,45 @@
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wb"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pft"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alb"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lai"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_map"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_uncert"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lccs"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lcchange"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -629,252 +79,512 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
       }
     ]
   },
   {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol",
     "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "ICESHEETS"
+        "@value": "AEROSOL"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Aerosol properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0763/"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericCompositionOzoneAndAerosol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "aerosol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Aerosol properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "GLACIERS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broadMatch": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/gcos/ecv/terrestrialGlaciersAndIceCaps"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Glacier inventory climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0576/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ga"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "glaciers"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Glacier inventory climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SEAICE"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#closeMatch": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/gcos/ecv/terrestrialIceSheets"
+        "@id": "https://vocab.ceda.ac.uk/collection/gcos/ecv/oceanicSurfaceSeaIce"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Ice sheets climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+        "@value": "Sea ice climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0424/"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sic"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sie"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "ice sheets"
+        "@value": "sea ice"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "Ice sheets climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+        "@value": "Sea ice climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
       }
     ]
   },
   {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_waterVapour",
     "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "CLOUD"
+        "@value": "WATERVAPOUR"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Cloud properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+        "@value": "Water vapour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0746/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0745/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/BBAD2149/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0025/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/BBAD2158/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0018/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0704/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/BBAD2159/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/72YUKQJR/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CF12N184/"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericUpperairCloudProperties"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tcwv"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "cloud"
+        "@value": "water vapour"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "Cloud properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+        "@value": "Water vapour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
       }
     ]
   },
   {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv"
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "OZONE"
+        "@value": "SNOW"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Ozone climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+        "@value": "Snow climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CF12N499/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/IDDFFADF/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0513/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/IFDIAFIF/"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericCompositionOzoneAndAerosol"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "ozone"
+        "@value": "snow"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "Ozone climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+        "@value": "Snow climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
       }
     ]
   },
   {
-    "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_salinity",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SEASURFACESALINITY"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Sea Surface Salinity climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "sea surface salinity"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Sea Surface Salinity climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SST"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/gcos/ecv/oceanicSurfaceSeaSurfaceTemperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Sea surface temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFV9N2/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0335/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstDepth"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSubsk"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstInt"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstFnd"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sstSkin"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "sea surface temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Sea surface temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "OC"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/gcos/ecv/oceanicSurfaceOceanColour"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CF14N7/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFV13N26/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0064/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0065/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0062/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ocean colour"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
     ],
@@ -885,7 +595,7 @@
     ],
     "http://purl.org/dc/elements/1.1/date": [
       {
-        "@value": "2025-05-30"
+        "@value": "2025-06-02"
       }
     ],
     "http://purl.org/dc/elements/1.1/description": [
@@ -928,73 +638,73 @@
     ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ghg"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lakes"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_vegParam"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_biomass"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_riverDischarge"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lakes"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_waterVapour"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaState"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landSurfTemp"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_waterVapour"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_vegParam"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_salinity"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landSurfTemp"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ghg"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_fire"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_fire"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaState"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_biomass"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_salinity"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_riverDischarge"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -1005,214 +715,9 @@
     ]
   },
   {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landSurfTemp",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst",
     "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "LST"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "land surface temperature"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow",
-    "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "SNOW"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Snow climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swe"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfv"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_scfg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "snow"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Snow climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol",
-    "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "AEROSOL"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Aerosol properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0763/"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericCompositionOzoneAndAerosol"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aerProd"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aai"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aty"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aod"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aex"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "aerosol"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Aerosol properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_riverDischarge",
-    "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "RD"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "River discharge climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "river discharge"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "River discharge climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst",
-    "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
@@ -1223,7 +728,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#closeMatch": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/gcos/ecv/terrestrialSoilMoisture"
+        "@id": "https://vocab.ceda.ac.uk/collection/gcos/ecv/terrestrialSoilMoisture"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -1234,33 +739,33 @@
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiva"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmsa"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swis"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swiv"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swisa"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmva"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssmv"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -1277,15 +782,182 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
       }
     ]
   },
   {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_fire",
     "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
       "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "FIRE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/gcos/ecv/terrestrialFireDisturbance"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Fire disturbance (burned area) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/GACJJFFJ/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CEDABECC/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ba"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "fire"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Fire disturbance (burned area) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "CLOUD"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Cloud properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0745/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0704/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/72YUKQJR/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0746/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0025/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/BBAD2149/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CF12N184/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/BBAD2158/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/BBAD2159/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0018/"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericUpperairCloudProperties"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cldProd"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfc"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cth"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lwp"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cer"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cot"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctp"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ctt"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Cloud properties climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
@@ -1295,7 +967,7 @@
     ],
     "http://www.w3.org/2004/02/skos/core#closeMatch": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/gcos/ecv/oceanicSurfaceSeaLevel"
+        "@id": "https://vocab.ceda.ac.uk/collection/gcos/ecv/oceanicSurfaceSeaLevel"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
@@ -1306,53 +978,53 @@
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#narrowMatch": [
       {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/EJ5JLPG7/"
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/RQ2Q233Z/"
       },
       {
         "@id": "http://vocab.nerc.ac.uk/collection/P07/current/SHGEIZRR/"
       },
       {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/XRCBF7SB/"
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0632/"
       },
       {
         "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0375/"
       },
       {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/EJ5JLPG7/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/XRCBF7SB/"
+      },
+      {
         "@id": "http://vocab.nerc.ac.uk/collection/P07/current/ZSDAR2KM/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0632/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/RQ2Q233Z/"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msl"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msla"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adt"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -1369,158 +1041,60 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
       }
     ]
   },
   {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_salinity",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_riverDischarge",
     "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
-      "http://www.w3.org/2004/02/skos/core#Concept"
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "SEASURFACESALINITY"
+        "@value": "RD"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Sea Surface Salinity climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+        "@value": "River discharge climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sss"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_wl"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "sea surface salinity"
+        "@value": "river discharge"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "Sea Surface Salinity climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+        "@value": "River discharge climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
       }
     ]
   },
   {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_biomass",
     "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "OC"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#closeMatch": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/gcos/ecv/oceanicSurfaceOceanColour"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0065/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CF14N7/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFV13N26/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0064/"
-      },
-      {
-        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0062/"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_aph"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_v"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_adg"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_atot"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_k_490"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_chlorA"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_rrs"
-      },
-      {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_bb"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "ocean colour"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
-      }
-    ]
-  },
-  {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_biomass",
-    "@type": [
-      "http://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
@@ -1537,12 +1111,12 @@
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_agb"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -1559,7 +1133,433 @@
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
       {
-        "@id": "http://vocab.ceda.ac.uk/scheme/cci/ecv"
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "OZONE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Ozone climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CFSN0513/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/IDDFFADF/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/CF12N499/"
+      },
+      {
+        "@id": "http://vocab.nerc.ac.uk/collection/P07/current/IFDIAFIF/"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericCompositionOzoneAndAerosol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_tc"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lp"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ozone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Ozone climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "ICESHEETS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#closeMatch": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/gcos/ecv/terrestrialIceSheets"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Ice sheets climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_cfl"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sec"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ice sheets"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Ice sheets climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaState",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SEASTATE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Sea state climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_swh"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "sea state"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Sea state climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_vegParam",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "VEGETATION"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Vegetation Parameters climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_vp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "vegetation parameters"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Vegetation Parameters climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "PERMAFROST"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Permafrost climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_alt"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "permafrost"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Permafrost climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lakes",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "LAKES"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Lakes climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "lakes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Lakes climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ghg",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "GHG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Greenhouse gasses (carbon dioxide and methane) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrowMatch": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericCompositionOtherLonglivedGreenhouseGases"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericCompositionMethane"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericUpperairWaterVapour"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/gcos/ecv/atmosphericCompositionCarbonDioxide"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ch4"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_co2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "greenhouse gases"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Greenhouse gasses (carbon dioxide and methane) climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landSurfTemp",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#ecv",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "LST"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "land surface temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/ecv"
       }
     ]
   }

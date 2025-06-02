@@ -1,6 +1,6 @@
 [
   {
-    "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Collection"
     ],
@@ -11,7 +11,7 @@
     ],
     "http://purl.org/dc/elements/1.1/date": [
       {
-        "@value": "2025-05-30"
+        "@value": "2025-06-02"
       }
     ],
     "http://purl.org/dc/elements/1.1/description": [
@@ -54,304 +54,304 @@
     ],
     "http://www.w3.org/2004/02/skos/core#member": [
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarRadarSat2"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_etmplus"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gome"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_smr"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarX"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_modis"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_esmrNim5"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sral"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon3"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_virr"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_smmr"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mlsAura"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_tm"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_viirs"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr2"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_glas"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gome2"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_tropomi"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mls"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr3"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_maestro"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra2"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon3"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_atsr"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr2"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_windSat"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ascat"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs2"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageII"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr3"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_jami"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_siral"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smr"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_mviri"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_vegetationP"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarcS1"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_goesImager1215"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_abi"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon2"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsre"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sar2000"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageIII"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_polder"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_mipas"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_unspecified"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_gfora"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_iasi"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoCai"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_atsr2"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_vegetation"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon4"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_gomos"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_modis"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_maestro"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoCai"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_aceFts"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsr2"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs3"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarcS1"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_gmi"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aquarius"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sral"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tropomi"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_tmi"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssmiS"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs4"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tmi"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_seaWiFs"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs2"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_mwri"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar2"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssmI"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_miras"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_goesImager811"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_amisar"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mipas"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poam"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_polder"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gfora"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_tirs"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_etmplus"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_olci"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra2"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_asar"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssalt"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsub"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mwri"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_palsar2"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_olci"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsr2"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_glas"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_altika"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_vegetation"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssmI"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_miras"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoFts"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsre"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_amiscat"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarRadarSat2"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_meris"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_vegetationP"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_haloe"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_ascat"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gomos"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_aatsr"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon3b"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_oli"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsua"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_haloe"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoFts"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon3b"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs3"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageII"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mss"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_aquarius"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_grace"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_viirs"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tm"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_gome"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smmr"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_omi"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_seviri"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_oco"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_abi"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_atsr2"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_ra"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sar2000"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_airs"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_hrs"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hrs"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_imagerMtsat2"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_oli"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sciamachy"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_slstr"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_esmrNim6"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_osiris"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_grace"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_imagerMtsat2"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarX"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aceFts"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_nra"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_omi"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_seviri"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sciamachy"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_toms"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_toms"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_mlsAura"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsub"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssalt"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_oco"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_osiris"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_asar"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_smap"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_windSat"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_mls"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amisar"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoFts2"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_smap"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_esmrNim5"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aster"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsua"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_esmrNim6"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_iasi"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_aatsr"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_virr"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_altika"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon2"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_sageIII"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_goesImager811"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_mviri"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssmiS"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_seaWiFs"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_gome2"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_amiscat"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tirs"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_mss"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_nra"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_airs"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_siral"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_slstr"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_atsr"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_meris"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_aster"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_tansoFts2"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_unspecified"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_jami"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon4"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_hirs4"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_goesImager1215"
       },
       {
-        "@id": "http://vocab.ceda.ac.uk/collection/cci/sensor/sens_gmi"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/sensor/sens_poam"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
