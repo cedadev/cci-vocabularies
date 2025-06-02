@@ -54,475 +54,427 @@
     ],
     "http://www.w3.org/2004/02/skos/core#member": [
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_5"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_11"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_8"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_cryosat2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_grace"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1b"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_13"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_uars"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_4"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F10"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_jason1"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F18"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3_xadc"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3A"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3_adc"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_scisat"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel5p"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gfo"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F12"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_10"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot4"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_1"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2a"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_1"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_09"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3D"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_jason2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_8"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_10"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat-2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW3"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sac_d"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6a"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk4"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_14"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_11"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_16"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk1"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F13"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_trmm"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_7"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3G"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_9"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_S20"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_smap"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F03"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_6"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3B"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_06"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteor_3m"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_aura"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_smos"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_3"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus1"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_10"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F07"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F01"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_08"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F14"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_4"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F04"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_12"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_12"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_probaV"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_7"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_snpp"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_07"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_2"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_orbview2"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_U"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari-7"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari-6"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_09"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_geosat"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_tiros_n"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_5"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_tsx_ng"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_saral"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_6"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus4"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_1"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_01"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_09_bk"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_parasol"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_5"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot3"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_terra"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_04"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6b"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_11"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F19"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_9"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_03"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_12_SA"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F02"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F15"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3C"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot6"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F09"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3E"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_7"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_14"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_alos"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus3"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_unspecified"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_alos-2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_hrws_sar"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_terraSar_X"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_jason3"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F11"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot7"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_oco2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gpm"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_6_iodc"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F05"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3F"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F16"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot1"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_10_SA"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus6"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2b"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_13"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat-2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_coriolis"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus7"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F06"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_5_iodc"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_T"
-      },
-      {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_6"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F17"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus4"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_tandem_X"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_3"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_05"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_7"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_8"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_12"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_2"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F08"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_17"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3G"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F02"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3_xadc"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_11"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_U"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat-2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_hrws_sar"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_01"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_oco2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_09_bk"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F13"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_9"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_7_iodc"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot4"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F19"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_13"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3E"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_4"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F10"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F06"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_alos"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_7"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3_adc"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F09"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F07"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_1"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_alos-2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteor_3m"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot6"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_6"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_15"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3D"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus7"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_14"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_smap"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_16"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_5_iodc"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_trmm"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_1"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_probaV"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_8"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_geosat"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F01"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_12_SA"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus6"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_erbs"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_5"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot7"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_6_iodc"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_03"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_uars"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_aura"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_10_SA"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3B"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_11"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F03"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F18"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F05"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3A"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F16"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_7"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_08"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_radarsat2"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1a"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_saral"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_11"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_scisat"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sac_d"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_6"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_iss_SAGEIII"
       },
       {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_tiros_n"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19"
+      },
+      {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW1"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_7_iodc"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_17"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_06"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_alos-3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_terraSar_X"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_tsx_ng"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2b"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_S20"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_10"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gfo"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_topexPoseidon"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk1"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_jason1"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2a"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F15"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus1"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_jason3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_5"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_10"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_13"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3C"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6a"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus5"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_terra"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_07"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot1"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F17"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_coriolis"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F04"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_jason2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_T"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_8"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_4"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1b"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_smos"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_02"
@@ -531,43 +483,91 @@
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot5"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk3"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_9"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_15"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_14"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_topexPoseidon"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_4"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari-7"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6b"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_alos-3"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_04"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_erbs"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_cryosat2"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus5"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus2"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F08"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel5p"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_unspecified"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_parasol"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_05"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_tandem_X"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3F"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_12"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_4"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat-2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari-6"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_grace"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_8"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk4"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F12"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_5"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_snpp"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_1"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F11"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1a"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_10"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gpm"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F14"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [

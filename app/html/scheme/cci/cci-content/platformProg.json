@@ -1,9 +1,89 @@
 [
   {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_2nd",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/64"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA Geostationary Operational Environmental Satellite - 2nd generation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_12"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_15"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_14"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_09_bk"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_10"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_12_SA"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_13"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_10_SA"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_09"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_08"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_11"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "GOES 2nd Gen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA Geostationary Operational Environmental Satellite - 2nd generation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
     "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat",
     "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
@@ -26,22 +106,22 @@
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_2"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_3"
-      },
-      {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_7"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_5"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_6"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_4"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_1"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_4"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_6"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_landsat_5"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -63,143 +143,20 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_odin_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/117"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_odin"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Odin"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gpm_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/gpm"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Global Precipitation Measurement mission Programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gpm"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Global Precipitation Measurement mission"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Global Precipitation Measurement mission Programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_grace_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/68"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA Gravity Recovery and Climate Experiment Programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_grace"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "GRACE Programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA Gravity Recovery and Climate Experiment Programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel6_prog",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept",
       "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/71"
+        "@id": "https://space.oscar.wmo.int/satelliteprogrammes/view/sentinel_6"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "JMA Himawari 2nd generation (Multifunction Transport Satellite)"
+        "@value": "Sentinel 6 programme"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -209,398 +166,22 @@
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari-7"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6b"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari-6"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6a"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Himawari"
+        "@value": "Sentinel-6"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "JMA Himawari 2nd generation (Multifunction Transport Satellite)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_eos",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/43"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA A-Train  Earth Observing System Satellite"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_aura"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_terra"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "EOS"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA A-Train  Earth Observing System Satellite"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_ers",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/47"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "ESA European Remote Sensing Satellite"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "ERS"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "ESA European Remote Sensing Satellite"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_3rd",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/110"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA NOAA Environmental satellites 3rd Generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_3"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_4"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_5"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_1"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_2"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "NOAA-3rd"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA NOAA Environmental satellites 3rd Generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_s5p_prog",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/148"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "ESA Sentinel-5 precursor programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel5p"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Sentinel-5 precursor"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "ESA Sentinel-5 precursor programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_msg",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/102"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "ESA Meteosat Second Generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_8"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_9"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_10"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_11"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "MSG"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "ESA Meteosat Second Generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/112"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA NOAA Environmental satellites 5th Generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "NOAA-5th"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA NOAA Environmental satellites 5th Generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_terraSAR",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/164"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "DLR X-band SAR programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_tandem_X"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_hrws_sar"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_terraSar_X"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_tsx_ng"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "TerraSAR"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "DLR X-band SAR programme"
+        "@value": "Sentinel 6 programme"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -612,8 +193,8 @@
   {
     "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel2_prog",
     "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
@@ -658,20 +239,14 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_saral_prog",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_odin_prog",
     "@type": [
       "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/139"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "CNES Satellite with ARgos and AltiKa"
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/117"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -681,1175 +256,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_saral"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_odin"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "SARAL Programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "CNES Satellite with ARgos and AltiKa"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot_prog_follow",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/157"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Satellite Pour l’Observation de la Terre - Follow-on"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot7"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot6"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "SPOT Follow-on"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Satellite Pour l’Observation de la Terre - Follow-on"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_smap_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/151"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Soil Moisture Active – Passive"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_smap"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "SMAP"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Soil Moisture Active – Passive"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/35"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "US Defense Meteorological Satellite Program Block 5D-3"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F16"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F19"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F15"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F17"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F18"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_S20"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "DMSP Block 5D-3"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "US Defense Meteorological Satellite Program Block 5D-3"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_alos_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/7"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "ALOS"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "JAXA Advanced Land Observation Satellite Programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_alos"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_alos-2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_alos-3"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "ALOS Programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "JAXA Advanced Land Observation Satellite Programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_orbview2_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/144"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "SeaStar"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "GeoEye OrbView-2 (former: SeaStar)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_orbview2"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Orbview-2"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "GeoEye OrbView-2 (former: SeaStar)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_meteor3m_prog",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://space.oscar.wmo.int/satelliteprogrammes/view/meteor_3m"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Meteor-3M programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteor_3m"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Meteor-3M"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Meteor-3M programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_topexPoseidon_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/169"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA CNES Topography Experiment + Poseidon"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_topexPoseidon"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Topex/Poseidon"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA CNES Topography Experiment + Poseidon"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_oco_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/115"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA Orbiting Carbon Observatory programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_oco2"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Orbiting Carbon Observatory"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA Orbiting Carbon Observatory programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_scisat_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/141"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "CSA NASA Science Satellite / Atmospheric Chemistry Experiment"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_scisat"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "SCISAT"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "CSA NASA Science Satellite / Atmospheric Chemistry Experiment"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_2nd",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/64"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA Geostationary Operational Environmental Satellite - 2nd generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_12"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_09"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_09_bk"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_14"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_15"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_11"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_10_SA"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_12_SA"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_13"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_10"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_08"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "GOES 2nd Gen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA Geostationary Operational Environmental Satellite - 2nd generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_fengyun3",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/53"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "Fengyun"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "CMA Feng-Yun - 3"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3B"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3E"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3G"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3C"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3A"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3F"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3D"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Feng-Yun 3"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "CMA Feng-Yun - 3"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/111"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA NOAA Environmental satellites 4th Generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_tiros_n"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_11"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_7"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_9"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_12"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_13"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_6"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_14"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_8"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_10"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "NOAA-4th"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA NOAA Environmental satellites 4th Generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_iss_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://space.oscar.wmo.int/satelliteprogrammes/view/iss"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "ISS"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "International Space Station"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_iss_SAGEIII"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "International Space Station"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "International Space Station"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_icesat_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/77"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "ICESat"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA Ice Cloud and land Elevation Satellite"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat-2"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "ICESat Programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA Ice Cloud and land Elevation Satellite"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_1st",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/63"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA Geostationary Operational Environmental Satellite - 1st generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_07"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_05"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_02"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_01"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_04"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_03"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_06"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "GOES 1st Gen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA Geostationary Operational Environmental Satellite - 1st generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_cryosat_prog",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/29"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "ESA CryoSat Programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_cryosat2"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "CryoSat Programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "ESA CryoSat Programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gcom",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/57"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA Global Change Observation Mission for Water (\"Shizuku\")"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW1"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW3"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "GCOM"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA Global Change Observation Mission for Water (\"Shizuku\")"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_erbs_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://space.oscar.wmo.int/satelliteprogrammes/view/erbs"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "ERBS"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Earth Radiation Budget Satellite programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_erbs"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Earth Radiation Budget Satellite"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Earth Radiation Budget Satellite programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_3rd",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/65"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA Geostationary Operational Environmental Satellite - 3rd generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_17"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_U"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_16"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_T"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "GOES 3rd Gen"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA Geostationary Operational Environmental Satellite - 3rd generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gosat_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/66"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "GOSAT"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "JAXA Greenhouse gas Observing Satellite"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat-2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "GOSAT-Programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "JAXA Greenhouse gas Observing Satellite"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jpss_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/87"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "JPSS"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA/NOAA Joint Polar Satellite System"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_snpp"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Joint Polar Satellite System"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA/NOAA Joint Polar Satellite System"
+        "@value": "Odin"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -1861,8 +274,8 @@
   {
     "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat_dcm",
     "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
@@ -1904,671 +317,10 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_mfg_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/101"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "EUMETSAT/ ESA Meteosat First Generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_4"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_6"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_1"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3_xadc"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3_adc"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_5"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_7_iodc"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_5_iodc"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_7"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_6_iodc"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Meteosat First Generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "EUMETSAT/ ESA Meteosat First Generation"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_proba_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/127"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "PROBA"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Project for On-Board Autonomy (PROBA) programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_probaV"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Project for On-Board Autonomy"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Project for On-Board Autonomy (PROBA) programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_smos_prog",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/153"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "ESA Soil Moisture and Ocean Salinity"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_smos"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Soil Moisture and Ocean Salinity"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "ESA Soil Moisture and Ocean Salinity"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel6_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://space.oscar.wmo.int/satelliteprogrammes/view/sentinel_6"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Sentinel 6 programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6a"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6b"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Sentinel-6"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Sentinel 6 programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_metop",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/44"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "ESA/EUMETSAT Meteorological operational Polar System satellite"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Metop"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "ESA/EUMETSAT Meteorological operational Polar System satellite"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D1",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/33"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "US Defense Meteorological Satellite Program Block 5D-1"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F01"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F03"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F05"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F02"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F04"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "DMSP Block 5D-1"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "US Defense Meteorological Satellite Program Block 5D-1"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel3_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/147"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Sentinel 3 programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Sentinel-3"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Sentinel 3 programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/34"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "US Defense Meteorological Satellite Program Block 5D-2"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F11"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F08"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F09"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F10"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F13"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F07"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F14"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F12"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F06"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "DMSP Block 5D-2"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "US Defense Meteorological Satellite Program Block 5D-2"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_radarsat_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/129"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "RadarSat Programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_radarsat2"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "RadarSat"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "RadarSat Programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_csk_prog",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/27"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "COSMO-SkyMed programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk3"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk4"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk1"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "COSMO-SkyMed"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "COSMO-SkyMed programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/156"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Satellite Pour l’Observation de la Terre"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot4"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot5"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot3"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot1"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "SPOT"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Satellite Pour l’Observation de la Terre"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel1_prog",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/145"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Sentinel 1 programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1a"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1b"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Sentinel-1"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Sentinel 1 programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
     "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jason",
     "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
@@ -2616,26 +368,150 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sac_prog",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_3rd",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept",
       "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/137"
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/110"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA NOAA Environmental satellites 3rd Generation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_4"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_5"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "NOAA-3rd"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA NOAA Environmental satellites 3rd Generation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/112"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA NOAA Environmental satellites 5th Generation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_17"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_15"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_16"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "NOAA-5th"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA NOAA Environmental satellites 5th Generation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_icesat_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/77"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "SAC"
+        "@value": "ICESat"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Satélite de Aplicaciones Cientificas"
+        "@value": "NASA Ice Cloud and land Elevation Satellite"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -2645,127 +521,22 @@
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sac_d"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat-2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_icesat"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Satélite de Aplicaciones Cientificas"
+        "@value": "ICESat Programme"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "Satélite de Aplicaciones Cientificas"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_parasol_prog",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/121"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "CNES Polarisation et Anisotropie des Réflectances au sommet de l'Atmosphère couplées avec un Satellite d'Observation emportant un Lidar"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_parasol"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "PARASOL"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "CNES Polarisation et Anisotropie des Réflectances au sommet de l'Atmosphère couplées avec un Satellite d'Observation emportant un Lidar"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_nimbus",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/108"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA Nimbus Research-and-development satellite programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus1"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus3"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus6"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus5"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus4"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus7"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Nimbus"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA Nimbus Research-and-development satellite programme"
+        "@value": "NASA Ice Cloud and land Elevation Satellite"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -2829,175 +600,175 @@
     ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat_dcm"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gcom"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_geodetic"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D1"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_nimbus"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_s5p_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_smos_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gosat_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_icesat_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jpss_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_proba_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_envisat_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_3rd"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_1st"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel6_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_metop"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_saral_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_odin_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel1_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_terraSAR"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_meteor3m_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel2_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_parasol_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gcom"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_ers"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel3_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_scisat_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_smap_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_trmm_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_erbs_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_coriolis_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_msg"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_3rd"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_oco_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_topexPoseidon_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_iss_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jason"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_mfg_prog"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_alos_prog"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot_prog_follow"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_uars_prog"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_trmm_prog"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_grace_prog"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_smos_prog"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_alos_prog"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_radarsat_prog"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_ers"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_cryosat_prog"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_coriolis_prog"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_2nd"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_eos"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_topexPoseidon_prog"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_oco_prog"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_orbview2_prog"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sac_prog"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_envisat_prog"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gpm_prog"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_eos"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_proba_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_metop"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_erbs_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_smap_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_uars_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel6_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_mfg_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_2nd"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jpss_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_s5p_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_grace_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat_dcm"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel2_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_cryosat_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_icesat_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_terraSAR"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_3rd"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_msg"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_nimbus"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel3_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_parasol_prog"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_csk_prog"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_3rd"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_fengyun3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_meteor3m_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D1"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_odin_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_scisat_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_1st"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_iss_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_csk_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_radarsat_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jason"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gosat_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sac_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel1_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gpm_prog"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_saral_prog"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -3008,20 +779,25 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_coriolis_prog",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3",
     "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/25"
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/35"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "DoD NASA"
+        "@value": "US Defense Meteorological Satellite Program Block 5D-3"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -3031,19 +807,934 @@
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_coriolis"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F15"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F16"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F18"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F19"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_S20"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F17"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Coriolis"
+        "@value": "DMSP Block 5D-3"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "DoD NASA"
+        "@value": "US Defense Meteorological Satellite Program Block 5D-3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/34"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "US Defense Meteorological Satellite Program Block 5D-2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F12"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F11"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F09"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F14"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F13"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F08"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F10"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F06"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F07"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "DMSP Block 5D-2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "US Defense Meteorological Satellite Program Block 5D-2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_oco_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/115"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA Orbiting Carbon Observatory programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_oco2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Orbiting Carbon Observatory"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA Orbiting Carbon Observatory programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/111"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA NOAA Environmental satellites 4th Generation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_10"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_6"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_7"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_11"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_9"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_14"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_12"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_8"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_tiros_n"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_13"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "NOAA-4th"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA NOAA Environmental satellites 4th Generation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_meteor3m_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://space.oscar.wmo.int/satelliteprogrammes/view/meteor_3m"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Meteor-3M programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteor_3m"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Meteor-3M"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Meteor-3M programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gpm_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/gpm"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Global Precipitation Measurement mission Programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gpm"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Global Precipitation Measurement mission"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Global Precipitation Measurement mission Programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_smos_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/153"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "ESA Soil Moisture and Ocean Salinity"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_smos"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Soil Moisture and Ocean Salinity"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "ESA Soil Moisture and Ocean Salinity"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_terraSAR",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/164"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "DLR X-band SAR programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_tandem_X"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_hrws_sar"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_terraSar_X"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_tsx_ng"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "TerraSAR"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "DLR X-band SAR programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_smap_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/151"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Soil Moisture Active – Passive"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_smap"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "SMAP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Soil Moisture Active – Passive"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_csk_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/27"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "COSMO-SkyMed programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk1"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk4"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "COSMO-SkyMed"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "COSMO-SkyMed programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_proba_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/127"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "PROBA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Project for On-Board Autonomy (PROBA) programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_probaV"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Project for On-Board Autonomy"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Project for On-Board Autonomy (PROBA) programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_alos_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/7"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "ALOS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "JAXA Advanced Land Observation Satellite Programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_alos-2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_alos"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_alos-3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ALOS Programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "JAXA Advanced Land Observation Satellite Programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_msg",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/102"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "ESA Meteosat Second Generation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_11"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_10"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_9"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_8"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "MSG"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "ESA Meteosat Second Generation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_s5p_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/148"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "ESA Sentinel-5 precursor programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel5p"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Sentinel-5 precursor"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "ESA Sentinel-5 precursor programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_1st",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/63"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA Geostationary Operational Environmental Satellite - 1st generation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_07"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_03"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_02"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_04"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_01"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_06"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_05"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "GOES 1st Gen"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA Geostationary Operational Environmental Satellite - 1st generation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel3_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/147"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Sentinel 3 programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Sentinel-3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Sentinel 3 programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_geodetic",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/59"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA Geodetic Satellite"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gfo"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_geosat"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Geodetic"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA Geodetic Satellite"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_saral_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/139"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "CNES Satellite with ARgos and AltiKa"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_saral"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "SARAL Programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "CNES Satellite with ARgos and AltiKa"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -3098,20 +1789,20 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_geodetic",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept",
       "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/59"
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/156"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "NASA Geodetic Satellite"
+        "@value": "Satellite Pour l’Observation de la Terre"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -3121,22 +1812,178 @@
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_geosat"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot1"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gfo"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot5"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot4"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Geodetic"
+        "@value": "SPOT"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "NASA Geodetic Satellite"
+        "@value": "Satellite Pour l’Observation de la Terre"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gcom",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/57"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA Global Change Observation Mission for Water (\"Shizuku\")"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gcomW1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "GCOM"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA Global Change Observation Mission for Water (\"Shizuku\")"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_envisat_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/42"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "ESA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Environmental Satellite"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "ESA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_orbview2_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/144"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SeaStar"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "GeoEye OrbView-2 (former: SeaStar)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_orbview2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Orbview-2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "GeoEye OrbView-2 (former: SeaStar)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -3148,8 +1995,8 @@
   {
     "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_uars_prog",
     "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#platformProg",
-      "http://www.w3.org/2004/02/skos/core#Concept"
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
@@ -3197,20 +2044,25 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_envisat_prog",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_3rd",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept",
       "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
-        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/42"
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/65"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "ESA"
+        "@value": "NASA Geostationary Operational Environmental Satellite - 3rd generation"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -3220,19 +2072,1167 @@
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_envisat"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_T"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_16"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_U"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_17"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Environmental Satellite"
+        "@value": "GOES 3rd Gen"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "ESA"
+        "@value": "NASA Geostationary Operational Environmental Satellite - 3rd generation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D1",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/33"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "US Defense Meteorological Satellite Program Block 5D-1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F05"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F01"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F04"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F03"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_dmsp_F02"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "DMSP Block 5D-1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "US Defense Meteorological Satellite Program Block 5D-1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jpss_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/87"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "JPSS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA/NOAA Joint Polar Satellite System"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_snpp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Joint Polar Satellite System"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA/NOAA Joint Polar Satellite System"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sac_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/137"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SAC"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Satélite de Aplicaciones Cientificas"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sac_d"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Satélite de Aplicaciones Cientificas"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Satélite de Aplicaciones Cientificas"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_iss_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://space.oscar.wmo.int/satelliteprogrammes/view/iss"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "ISS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "International Space Station"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_iss_SAGEIII"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "International Space Station"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "International Space Station"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot_prog_follow",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/157"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Satellite Pour l’Observation de la Terre - Follow-on"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot6"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot7"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "SPOT Follow-on"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Satellite Pour l’Observation de la Terre - Follow-on"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_metop",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/44"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "ESA/EUMETSAT Meteorological operational Polar System satellite"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpA"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpC"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_metOpB"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Metop"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "ESA/EUMETSAT Meteorological operational Polar System satellite"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_ers",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/47"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "ESA European Remote Sensing Satellite"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_ers1"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_ers2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ERS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "ESA European Remote Sensing Satellite"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_coriolis_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/25"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "DoD NASA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_coriolis"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Coriolis"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "DoD NASA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_nimbus",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/108"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA Nimbus Research-and-development satellite programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus1"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus6"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus4"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus5"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_nimbus7"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Nimbus"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA Nimbus Research-and-development satellite programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gosat_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/66"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "GOSAT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "JAXA Greenhouse gas Observing Satellite"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_gosat-2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "GOSAT-Programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "JAXA Greenhouse gas Observing Satellite"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_parasol_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/121"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "CNES Polarisation et Anisotropie des Réflectances au sommet de l'Atmosphère couplées avec un Satellite d'Observation emportant un Lidar"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_parasol"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "PARASOL"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "CNES Polarisation et Anisotropie des Réflectances au sommet de l'Atmosphère couplées avec un Satellite d'Observation emportant un Lidar"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_mfg_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/101"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "EUMETSAT/ ESA Meteosat First Generation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_4"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_7_iodc"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_5_iodc"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_6_iodc"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_7"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_5"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3_adc"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_6"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_1"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_3_xadc"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Meteosat First Generation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "EUMETSAT/ ESA Meteosat First Generation"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_cryosat_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/29"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "ESA CryoSat Programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_cryosat2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "CryoSat Programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "ESA CryoSat Programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel1_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/145"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Sentinel 1 programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1a"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1b"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Sentinel-1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Sentinel 1 programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_topexPoseidon_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/169"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA CNES Topography Experiment + Poseidon"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_topexPoseidon"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Topex/Poseidon"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA CNES Topography Experiment + Poseidon"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_fengyun3",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/53"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "Fengyun"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "CMA Feng-Yun - 3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3B"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3A"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3G"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3F"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3D"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3E"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_FY-3C"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Feng-Yun 3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "CMA Feng-Yun - 3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_grace_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/68"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA Gravity Recovery and Climate Experiment Programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_grace"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "GRACE Programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA Gravity Recovery and Climate Experiment Programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_eos",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/43"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA A-Train  Earth Observing System Satellite"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_aura"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_terra"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "EOS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA A-Train  Earth Observing System Satellite"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_scisat_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/141"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "CSA NASA Science Satellite / Atmospheric Chemistry Experiment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_scisat"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "SCISAT"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "CSA NASA Science Satellite / Atmospheric Chemistry Experiment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_erbs_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://space.oscar.wmo.int/satelliteprogrammes/view/erbs"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "ERBS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Earth Radiation Budget Satellite programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_erbs"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Earth Radiation Budget Satellite"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Earth Radiation Budget Satellite programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_radarsat_prog",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.wmo-sat.info/oscar/satelliteprogrammes/view/129"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "RadarSat Programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_radarsat2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "RadarSat"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "RadarSat Programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#platformProg"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://www.wmo-sat.info/oscar/satelliteprogrammes/view/71"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "JMA Himawari 2nd generation (Multifunction Transport Satellite)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformProg"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari-7"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari-6"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Himawari"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "JMA Himawari 2nd generation (Multifunction Transport Satellite)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [

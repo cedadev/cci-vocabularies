@@ -24,7 +24,8 @@ def create_directories():
     os.makedirs(f'{APP_DIRECTORY}/html/scheme/cci/cci-content')
 
     os.system(f'cp -r {CSV_DIRECTORY}/* {APP_DIRECTORY}/html/csv')
-    os.system(f'cp -r {HTML_SOURCE}/error_pages {APP_DIRECTORY}/html/error_pages')
+
+    os.system(f'cp -r {HTML_SOURCE}/* {APP_DIRECTORY}/html')
 
 def _generate(deploy):
 
