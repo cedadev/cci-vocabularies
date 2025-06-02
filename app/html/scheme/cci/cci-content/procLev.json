@@ -1,342 +1,5 @@
 [
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#procLev",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.ghrsst.org/"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "L3"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Level 2 variables mapped on a defined grid with reduced requirements for ancillary data. Three types of L3 products are defined."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Level 3"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Level 2 variables mapped on a defined grid with reduced requirements for ancillary data. Three types of L3 products are defined."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#procLev"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.ghrsst.org/"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "L1A"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Reconstructed unprocessed instrument data at full resolution, time referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters, computed and appended, but not applied, to L0 data."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Level 1A"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Reconstructed unprocessed instrument data at full resolution, time referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters, computed and appended, but not applied, to L0 data."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#procLev",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "https://www.ghrsst.org/"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "L1B"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Level 1A data that have been processed to sensor units."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Level 1B"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Level 1A data that have been processed to sensor units."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#procLev",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "L1"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Level 1"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#procLev"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "L3S"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#broader": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Super-collated (L3S): observations combined from multiple instruments into a space-time grid."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Level 3S"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Super-collated (L3S): observations combined from multiple instruments into a space-time grid."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#procLev",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
-      {
-        "@id": "http://wiki.ieee-earth.org/@api/deki/files/7/=Handbook_0802.pdf"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "L2"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Retrieved environmental variables at the same resolution and location as the level 1 source"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Level 2"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Retrieved environmental variables at the same resolution and location as the level 1 source"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_unspecified",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#procLev"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "Unspecified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Unspecified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Unspecified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Unspecified"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
-      }
-    ]
-  },
-  {
     "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C",
     "@type": [
       "https://vocab.ceda.ac.uk/ontology/cci#procLev",
@@ -429,21 +92,26 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_ind",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3",
     "@type": [
       "https://vocab.ceda.ac.uk/ontology/cci#procLev",
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.ghrsst.org/"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "IND"
+        "@value": "L3"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Indicators derived from satellite data."
+        "@value": "Level 2 variables mapped on a defined grid with reduced requirements for ancillary data. Three types of L3 products are defined."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -451,16 +119,27 @@
         "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
       }
     ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U"
+      }
+    ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Indicator"
+        "@value": "Level 3"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "Indicators derived from satellite data."
+        "@value": "Level 2 variables mapped on a defined grid with reduced requirements for ancillary data. Three types of L3 products are defined."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -472,8 +151,8 @@
   {
     "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level0",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#procLev"
+      "https://vocab.ceda.ac.uk/ontology/cci#procLev",
+      "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
       {
@@ -516,7 +195,139 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level4",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#procLev"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "L1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Level 1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#procLev",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://wiki.ieee-earth.org/@api/deki/files/7/=Handbook_0802.pdf"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "L2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Retrieved environmental variables at the same resolution and location as the level 1 source"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Level 2"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Retrieved environmental variables at the same resolution and location as the level 1 source"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_ind",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#procLev",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "IND"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Indicators derived from satellite data."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Indicator"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Indicators derived from satellite data."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B",
     "@type": [
       "https://vocab.ceda.ac.uk/ontology/cci#procLev",
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -529,59 +340,18 @@
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "L4"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Data sets created from the analysis of lower level data that result in gridded, gap-free products."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "Level 4"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Data sets created from the analysis of lower level data that result in gridded, gap-free products."
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#procLev",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "L3U"
+        "@value": "L1B"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#broader": [
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "Uncollated (L3U): L2 data granules remapped to a space grid without combining any observations from overlapping orbits."
+        "@value": "Level 1A data that have been processed to sensor units."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -592,13 +362,13 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "Level 3U"
+        "@value": "Level 1B"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "Uncollated (L3U): L2 data granules remapped to a space grid without combining any observations from overlapping orbits."
+        "@value": "Level 1A data that have been processed to sensor units."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -662,34 +432,25 @@
     ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level4"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level0"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_ind"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_unspecified"
       },
       {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C"
+      },
+      {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level0"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level4"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2"
@@ -698,16 +459,66 @@
         "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B"
       },
       {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S"
+      },
+      {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_ind"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
         "@value": "Processing Level"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_unspecified",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#procLev",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "Unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Unspecified"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
       }
     ]
   },
@@ -754,6 +565,195 @@
       {
         "@language": "en",
         "@value": "Geophysical variables derived from Level 1 source data at the same resolution and location as the level 1 data, typically in a satellite projection with geographic information. These data form the fundamental basis for higher level CCI products."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#procLev",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.ghrsst.org/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "L1A"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Reconstructed unprocessed instrument data at full resolution, time referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters, computed and appended, but not applied, to L0 data."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Level 1A"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Reconstructed unprocessed instrument data at full resolution, time referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters, computed and appended, but not applied, to L0 data."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#procLev",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "L3U"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Uncollated (L3U): L2 data granules remapped to a space grid without combining any observations from overlapping orbits."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Level 3U"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Uncollated (L3U): L2 data granules remapped to a space grid without combining any observations from overlapping orbits."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level4",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#procLev"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://www.ghrsst.org/"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "L4"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Data sets created from the analysis of lower level data that result in gridded, gap-free products."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Level 4"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Data sets created from the analysis of lower level data that result in gridded, gap-free products."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#procLev",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "L3S"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "Super-collated (L3S): observations combined from multiple instruments into a space-time grid."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/procLev"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Level 3S"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "Super-collated (L3S): observations combined from multiple instruments into a space-time grid."
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
