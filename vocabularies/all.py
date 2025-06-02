@@ -12,8 +12,24 @@ from vocabularies import generate_html_scheme
 from vocabularies import generate_rdf
 from vocabularies import validate_csv
 
+from .settings import APP_DIRECTORY, CSV_DIRECTORY, HTML_SOURCE
+
+def create_directories():
+    import os
+    os.system(f'rm -rf {APP_DIRECTORY}/')
+    os.makedirs(f'{APP_DIRECTORY}/html/ontology/cci/cci-content')
+    os.makedirs(f'{APP_DIRECTORY}/html/collection/cci/cci-content')
+    os.makedirs(f'{APP_DIRECTORY}/html/csv')
+    os.makedirs(f'{APP_DIRECTORY}/html/error_pages')
+    os.makedirs(f'{APP_DIRECTORY}/html/scheme/cci/cci-content')
+
+    os.system(f'cp -r {CSV_DIRECTORY}/* {APP_DIRECTORY}/html/csv')
+    os.system(f'cp -r {HTML_SOURCE}/error_pages {APP_DIRECTORY}/html/error_pages')
 
 def _generate(deploy):
+
+    print('Creating directories')
+    create_directories()
     print(f"{time.strftime('%H:%M:%S')} generate_csv")
     generate_csv.generate()
     print(f"{time.strftime('%H:%M:%S')} validate csv")
@@ -32,8 +48,6 @@ def _generate(deploy):
     if deploy is True:
         print(f"{time.strftime('%H:%M:%S')} deploy_rdf")
         deploy_rdf.deploy()
-
-    print("\nUse the `vocab_upload.sh` script to update the web pages on the Vocab Server\n")
 
 
 def _parse_command_line(argv):
