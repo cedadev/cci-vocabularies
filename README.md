@@ -56,4 +56,13 @@ git commit -m "Update message for what has changed with source files"
 
 ## Updating the Vocab Server
 
-Redeploy the vocab server application via Gitlab (to either the rancher cluster or OTC) with the new commit hash from your new version, which should be inserted into the Dockerfile as the new image version.
+Redeploy the vocab server application via Gitlab (to either the rancher cluster or OTC):
+- Test locally before any deployments can happen:
+
+- Create a github release (vX.X.X) for your new version. Click on 'releases' to the right of this window on the front page of the repo and follow instructions for creating a new release.
+
+- On gitlab, in the `.gitlab-ci.yml` file, set the APP_VERSION to your new release (note: GIT VERSION adds the `v` so you just set the number for APP_VERSION.
+
+- Push to gitlab and the staging version will be redeployed with your changed version.
+
+- Contact Daniel Westwood or Rhys Evans for deployment to OTC as the process is more involved.
