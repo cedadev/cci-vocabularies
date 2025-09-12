@@ -7,33 +7,33 @@
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
   <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/freq">
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_day"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_10day"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_sec"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_hr"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_unspecified"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_5yr"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/feq_min"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_8day"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_sat_orb"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_week"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_15day"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_yr"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_13yr"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_clim"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_5day"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_3hr"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_mon"/>
-    <owl:versionInfo>0.0.1</owl:versionInfo>
-    <dc:description>Temporal frequencies of data from the ESA Climate Change Initiative (CCI).</dc:description>
-    <dc:publisher xml:lang="en">STFC</dc:publisher>
-    <dc:creator>Science and Technology Facilities Council</dc:creator>
     <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
-    <dc:title>Frequency</dc:title>
-    <dc:date>2025-06-02</dc:date>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
     <rdfs:comment>This collection represents the frequencies used by the CCI project</rdfs:comment>
-    <skos:prefLabel xml:lang="en">Frequency</skos:prefLabel>
     <skos:definition xml:lang="en">Temporal frequencies of data from the ESA Climate Change Initiative (CCI).</skos:definition>
+    <owl:versionInfo>0.0.1</owl:versionInfo>
+    <dc:date>2025-09-12</dc:date>
+    <dc:publisher xml:lang="en">STFC</dc:publisher>
+    <dc:title>Frequency</dc:title>
+    <skos:prefLabel xml:lang="en">Frequency</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <dc:description>Temporal frequencies of data from the ESA Climate Change Initiative (CCI).</dc:description>
+    <dc:creator>Science and Technology Facilities Council</dc:creator>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/feq_min"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_sat_orb"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_15day"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_hr"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_3hr"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_10day"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_unspecified"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_13yr"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_mon"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_5day"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_day"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_week"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_sec"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_5yr"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_clim"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_8day"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/freq/freq_yr"/>
   </rdf:Description>
 </rdf:RDF>

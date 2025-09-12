@@ -648,6 +648,10 @@ mapa:plat_noaa_19 cci:hasSensor mapb:sens_hirs4 .
 
 mapb:sens_hirs4 cci:hasPlatform mapa:plat_noaa_19 .
 
+mapa:plat_noaa_20 cci:hasSensor mapb:sens_viirs .
+
+mapb:sens_viirs cci:hasPlatform mapa:plat_noaa_20 .
+
 mapa:plat_metOpB cci:hasSensor mapb:sens_hirs4 .
 
 mapb:sens_hirs4 cci:hasPlatform mapa:plat_metOpB .

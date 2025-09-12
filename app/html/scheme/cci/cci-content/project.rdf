@@ -6,292 +6,292 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_waterVapour">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_sst">
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Surface Temperature project</skos:definition>
+    <skos:prefLabel xml:lang="en">sea surface temperature</skos:prefLabel>
     <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:altLabel xml:lang="en">WATERVAPOUR</skos:altLabel>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Water Vapour project</skos:definition>
-    <skos:prefLabel xml:lang="en">water vapour</skos:prefLabel>
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Water Vapour project</skos:scopeNote>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Surface Temperature project</skos:scopeNote>
+    <skos:altLabel xml:lang="en">SST</skos:altLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost">
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <skos:altLabel xml:lang="en">PERMAFROST</skos:altLabel>
-    <skos:prefLabel xml:lang="en">permafrost</skos:prefLabel>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Permafrost project</skos:definition>
+    <skos:scopeNote xml:lang="en">Sea level climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">sea level</skos:prefLabel>
+    <skos:altLabel xml:lang="en">SEALEVEL</skos:altLabel>
     <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Permafrost project</skos:scopeNote>
+    <skos:definition xml:lang="en">Sea level climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</skos:definition>
     <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaState">
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
     <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea State project</skos:scopeNote>
     <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea State project</skos:definition>
     <skos:altLabel xml:lang="en">SEASTATE</skos:altLabel>
     <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
     <skos:prefLabel xml:lang="en">sea state</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol">
-    <skos:altLabel xml:lang="en">OC</skos:altLabel>
-    <skos:prefLabel xml:lang="en">ocean colour</skos:prefLabel>
-    <skos:definition xml:lang="en">Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</skos:definition>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:scopeNote xml:lang="en">Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</skos:scopeNote>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_fire">
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Fire project</skos:definition>
     <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:altLabel xml:lang="en">FIRE</skos:altLabel>
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Fire project</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">fire</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_cloud">
+    <skos:prefLabel xml:lang="en">cloud</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:altLabel xml:lang="en">CLOUD</skos:altLabel>
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Cloud project</skos:scopeNote>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Cloud project</skos:definition>
   </rdf:Description>
   <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_iceSheet">
     <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Ice Sheets project</skos:scopeNote>
     <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Ice Sheets project</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
     <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Ice Sheets project</skos:definition>
-    <skos:altLabel xml:lang="en">ICESHEETS</skos:altLabel>
     <skos:prefLabel xml:lang="en">ice sheets</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ICESHEETS</skos:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://vocab.ceda.ac.uk/scheme/cci/project">
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone"/>
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost"/>
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_iceSheet"/>
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_fire"/>
     <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaIce"/>
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_waterVapour"/>
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_vegParam"/>
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_biomass"/>
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst"/>
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_landSurfTemp"/>
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity"/>
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_glaciers"/>
     <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_sst"/>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity"/>
     <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevelBudgetClos"/>
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol"/>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_landSurfTemp"/>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge"/>
     <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_lakes"/>
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_ghg"/>
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_landCov"/>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone"/>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow"/>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst"/>
     <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaState"/>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_glaciers"/>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_landCov"/>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_cloud"/>
     <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel"/>
     <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_reccap2"/>
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow"/>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost"/>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_vegParam"/>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_biomass"/>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_ghg"/>
     <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_aerosol"/>
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge"/>
-    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_cloud"/>
-    <skos:prefLabel xml:lang="en">Project</skos:prefLabel>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol"/>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_iceSheet"/>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_waterVapour"/>
+    <skos:hasTopConcept rdf:resource="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_fire"/>
+    <dc:date>2025-09-12</dc:date>
     <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    <skos:definition xml:lang="en">The different projects within the ESA Climate Change Initiative (CCI).</skos:definition>
-    <dc:creator>Science and Technology Facilities Council</dc:creator>
-    <dc:title>Project</dc:title>
     <dc:publisher xml:lang="en">STFC</dc:publisher>
+    <skos:prefLabel xml:lang="en">Project</skos:prefLabel>
     <dc:description>&lt;p&gt;The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: &lt;a href=../dataType&gt;data type&lt;/a&gt;, &lt;a href=..//ecv&gt;ecv&lt;/a&gt;, &lt;a href=../scheme/cci/freq&gt;frequency&lt;/a&gt;, &lt;a href=../org&gt;institutes&lt;/a&gt;, &lt;a href=../platform&gt;platforms&lt;/a&gt;, &lt;a href=../platformGrp&gt;platform groups&lt;/a&gt;, &lt;a href=../platformProg&gt;platform programmes&lt;/a&gt;, &lt;a href=../procLev&gt;processing levels&lt;/a&gt;, &lt;a href=../product&gt;products&lt;/a&gt;, &lt;a href=../project&gt;projects&lt;/a&gt;,  and &lt;a href=../sensor&gt;sensors&lt;/a&gt;. The use of a concept scheme allows easy navigation up and down the tree.&lt;/p&gt;&lt;p&gt;As well as being concepts, all of the concepts are also named individuals of the &lt;a href=../../../ontology/cci&gt;CCI Ontology&lt;/a&gt; classes.&lt;/p&gt;</dc:description>
+    <skos:definition xml:lang="en">The different projects within the ESA Climate Change Initiative (CCI).</skos:definition>
+    <dc:title>Project</dc:title>
     <rdfs:comment>This concept scheme represents the projects in the CCI project</rdfs:comment>
-    <dc:date>2025-06-02</dc:date>
+    <dc:creator>Science and Technology Facilities Council</dc:creator>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <owl:versionInfo>0.0.1</owl:versionInfo>
   </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_aerosol">
-    <skos:altLabel xml:lang="en">AEROSOL</skos:altLabel>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Aerosol project</skos:definition>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Aerosol project</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">aerosol</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_landCov">
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <skos:altLabel xml:lang="en">LC</skos:altLabel>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Land Cover project</skos:definition>
-    <skos:prefLabel xml:lang="en">land cover</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Land Cover project</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_sst">
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:prefLabel xml:lang="en">sea surface temperature</skos:prefLabel>
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Surface Temperature project</skos:definition>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Surface Temperature project</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:altLabel xml:lang="en">SST</skos:altLabel>
-  </rdf:Description>
   <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_reccap2">
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) RECCAP-2 project</skos:scopeNote>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) RECCAP-2 project</skos:definition>
     <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="en">RECCAP-2</skos:altLabel>
     <skos:prefLabel xml:lang="en">RECCAP2</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:altLabel xml:lang="en">RECCAP-2</skos:altLabel>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) RECCAP-2 project</skos:definition>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) RECCAP-2 project</skos:scopeNote>
     <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel">
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow">
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Snow project</skos:scopeNote>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <skos:altLabel xml:lang="en">SEALEVEL</skos:altLabel>
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:definition xml:lang="en">Sea level climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</skos:definition>
-    <skos:scopeNote xml:lang="en">Sea level climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">sea level</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone">
-    <skos:prefLabel xml:lang="en">ozone</skos:prefLabel>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level project</skos:definition>
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level project</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:altLabel xml:lang="en">OZONE</skos:altLabel>
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_lakes">
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Lakes project</skos:definition>
-    <skos:altLabel xml:lang="en">LAKES</skos:altLabel>
-    <skos:prefLabel xml:lang="en">lakes</skos:prefLabel>
     <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
     <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Lakes project</skos:scopeNote>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Snow project</skos:definition>
+    <skos:altLabel xml:lang="en">SNOW</skos:altLabel>
+    <skos:prefLabel xml:lang="en">snow</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_ghg">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Greenhouse gases project</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:altLabel xml:lang="en">GHG</skos:altLabel>
     <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:prefLabel xml:lang="en">greenhouse gases</skos:prefLabel>
     <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Greenhouse gases project</skos:definition>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity">
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:prefLabel xml:lang="en">greenhouse gases</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Greenhouse gases project</skos:scopeNote>
     <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:altLabel xml:lang="en">SEASURFACESALINITY</skos:altLabel>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Salinity project</skos:scopeNote>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Salinity project</skos:definition>
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:prefLabel xml:lang="en">sea surface salinity</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaIce">
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Ice project</skos:definition>
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="en">SEAICE</skos:altLabel>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Ice project</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:prefLabel xml:lang="en">sea ice</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst">
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="en">SOILMOISTURE</skos:altLabel>
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:prefLabel xml:lang="en">soil moisture</skos:prefLabel>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Soil Moisture project</skos:definition>
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Soil Moisture project</skos:scopeNote>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_glaciers">
-    <skos:prefLabel xml:lang="en">glaciers</skos:prefLabel>
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:altLabel xml:lang="en">GLACIERS</skos:altLabel>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Glaciers project</skos:definition>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Glaciers project</skos:scopeNote>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_landSurfTemp">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:altLabel xml:lang="en">LST</skos:altLabel>
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Land Surface Temperature project</skos:definition>
-    <skos:prefLabel xml:lang="en">land surface temperature</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Land Surface Temperature project</skos:scopeNote>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevelBudgetClos">
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="en">SLBC</skos:altLabel>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure</skos:definition>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">sea level budget closure</skos:prefLabel>
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_vegParam">
-    <skos:altLabel xml:lang="en">VEGETATION</skos:altLabel>
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Vegetation Parameters project</skos:definition>
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:prefLabel xml:lang="en">vegetation parameters</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Vegetation Parameters project</skos:scopeNote>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_fire">
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:altLabel xml:lang="en">FIRE</skos:altLabel>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Fire project</skos:definition>
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Fire project</skos:scopeNote>
-    <skos:prefLabel xml:lang="en">fire</skos:prefLabel>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_cloud">
-    <skos:altLabel xml:lang="en">CLOUD</skos:altLabel>
-    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Cloud project</skos:definition>
-    <skos:prefLabel xml:lang="en">cloud</skos:prefLabel>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Cloud project</skos:scopeNote>
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:altLabel xml:lang="en">GHG</skos:altLabel>
   </rdf:Description>
   <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge">
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) River Discharge project</skos:definition>
     <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:prefLabel xml:lang="en">river discharge</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
     <skos:altLabel xml:lang="en">RD</skos:altLabel>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) River Discharge project</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst">
+    <skos:prefLabel xml:lang="en">soil moisture</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Soil Moisture project</skos:scopeNote>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Soil Moisture project</skos:definition>
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:altLabel xml:lang="en">SOILMOISTURE</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol">
+    <skos:prefLabel xml:lang="en">ocean colour</skos:prefLabel>
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</skos:scopeNote>
+    <skos:definition xml:lang="en">Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)</skos:definition>
+    <skos:altLabel xml:lang="en">OC</skos:altLabel>
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_landCov">
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="en">LC</skos:altLabel>
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:prefLabel xml:lang="en">land cover</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Land Cover project</skos:scopeNote>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Land Cover project</skos:definition>
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity">
+    <skos:altLabel xml:lang="en">SEASURFACESALINITY</skos:altLabel>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Salinity project</skos:scopeNote>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) River Discharge project</skos:scopeNote>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) River Discharge project</skos:definition>
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
     <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Salinity project</skos:definition>
+    <skos:prefLabel xml:lang="en">sea surface salinity</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_waterVapour">
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+    <skos:prefLabel xml:lang="en">water vapour</skos:prefLabel>
+    <skos:altLabel xml:lang="en">WATERVAPOUR</skos:altLabel>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Water Vapour project</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Water Vapour project</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost">
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:prefLabel xml:lang="en">permafrost</skos:prefLabel>
+    <skos:altLabel xml:lang="en">PERMAFROST</skos:altLabel>
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Permafrost project</skos:scopeNote>
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Permafrost project</skos:definition>
   </rdf:Description>
   <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_biomass">
     <skos:prefLabel xml:lang="en">above-ground biomass</skos:prefLabel>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Biomass project</skos:definition>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
     <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Biomass project</skos:scopeNote>
-    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
     <skos:altLabel xml:lang="en">BIOMASS</skos:altLabel>
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Biomass project</skos:definition>
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow">
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_glaciers">
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Glaciers project</skos:scopeNote>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Glaciers project</skos:definition>
+    <skos:altLabel xml:lang="en">GLACIERS</skos:altLabel>
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:prefLabel xml:lang="en">glaciers</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevelBudgetClos">
+    <skos:prefLabel xml:lang="en">sea level budget closure</skos:prefLabel>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
-    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
-    <skos:altLabel xml:lang="en">SNOW</skos:altLabel>
-    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Snow project</skos:scopeNote>
-    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Snow project</skos:definition>
-    <skos:prefLabel xml:lang="en">snow</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure</skos:scopeNote>
     <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure</skos:definition>
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:altLabel xml:lang="en">SLBC</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_lakes">
+    <skos:prefLabel xml:lang="en">lakes</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Lakes project</skos:definition>
+    <skos:altLabel xml:lang="en">LAKES</skos:altLabel>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Lakes project</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaIce">
+    <skos:altLabel xml:lang="en">SEAICE</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Ice project</skos:scopeNote>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Ice project</skos:definition>
+    <skos:prefLabel xml:lang="en">sea ice</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_vegParam">
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+    <skos:prefLabel xml:lang="en">vegetation parameters</skos:prefLabel>
+    <skos:altLabel xml:lang="en">VEGETATION</skos:altLabel>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Vegetation Parameters project</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Vegetation Parameters project</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_landSurfTemp">
+    <skos:altLabel xml:lang="en">LST</skos:altLabel>
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Land Surface Temperature project</skos:scopeNote>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Land Surface Temperature project</skos:definition>
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:prefLabel xml:lang="en">land surface temperature</skos:prefLabel>
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_aerosol">
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Aerosol project</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:prefLabel xml:lang="en">aerosol</skos:prefLabel>
+    <skos:altLabel xml:lang="en">AEROSOL</skos:altLabel>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Aerosol project</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone">
+    <skos:topConceptOf rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <skos:inScheme rdf:resource="https://vocab.ceda.ac.uk/scheme/cci/project"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="https://vocab.ceda.ac.uk/ontology/cci#project"/>
+    <skos:altLabel xml:lang="en">OZONE</skos:altLabel>
+    <skos:scopeNote xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level project</skos:scopeNote>
+    <skos:definition xml:lang="en">The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level project</skos:definition>
+    <skos:prefLabel xml:lang="en">ozone</skos:prefLabel>
   </rdf:Description>
 </rdf:RDF>

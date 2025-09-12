@@ -691,3 +691,7 @@ mapa:plat_iss_prog skos:narrower mapb:plat_iss_SAGEIII .
 
 mapb:plat_iss_SAGEIII skos:broader mapa:plat_iss_prog .
 
+mapa:plat_jpss_prog skos:narrower mapb:plat_noaa_20 .
+
+mapb:plat_noaa_20 skos:broader mapa:plat_jpss_prog .
+

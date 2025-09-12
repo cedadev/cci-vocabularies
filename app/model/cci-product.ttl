@@ -2119,3 +2119,27 @@ cci_product_coll: skos:member cci_product_concept:prod_nimEsmrLCorSH .
 
 cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_nimEsmrLCorSH .
 
+cci_product_concept:prod_viirs0 a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "VIIRS0"@en ;
+    skos:definition "VIIRS sensor onboard SNPP"@en ;
+    skos:scopeNote "VIIRS sensor onboard SNPP"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_viirs0 .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_viirs0 .
+
+cci_product_concept:prod_viirs1 a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "VIIRS1"@en ;
+    skos:definition "VIIRS sensor onboard NOAA-20"@en ;
+    skos:scopeNote "VIIRS sensor onboard NOAA-20"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_viirs1 .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_viirs1 .
+

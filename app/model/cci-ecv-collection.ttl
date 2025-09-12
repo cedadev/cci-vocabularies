@@ -14,7 +14,7 @@
     rdfs:comment "This collection represents the ECVs used by the CCI project" ;
     dc:creator "Science and Technology Facilities Council" ;
     owl:versionInfo "0.0.1";
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "The Essential Climate Variable (ECVs) in the ESA Climate Change Initiative (CCI)." ;
     .
 

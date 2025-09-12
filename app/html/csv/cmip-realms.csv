@@ -1,9 +1,0 @@
-URI`Pref Label`Alt Label`Description`See Also`Hierarchy Level
-cmipAtmos`cmip atmos``CMIP5 modelling realm: Atmosphere``1
-cmipOcean`cmip ocean``CMIP5 modelling realm: Ocean``1
-cmipLand`cmip land``CMIP5 modelling realm: Land``1
-cmipAtmosChem`cmip atmosChem``CMIP5 modelling realm: Atmospheric Chemistry``2
-cmipAerosol`cmip aerosol``CMIP5 modelling realm: Aerosol``2
-cmipSeaIce`cmip seaIce``CMIP5 modelling realm: Sea ice``2
-cmipOcnBgchem`cmip ocnBgchem``CMIP5 modelling realm: Ocean Biogeochemistry``2
-cmipLandIce`cmip landIce``CMIP5 modelling realm: Land ice``2

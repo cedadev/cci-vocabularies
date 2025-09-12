@@ -1,9 +1,0 @@
-CMIP URI`CMIP has <relationship> GRIB`GRIB URI`GRIB has <relationship> CMIP
-cmipAtmos`closeMatch`gribMeteorology`closeMatch
-cmipOcean`closeMatch`gribOceanography`closeMatch
-cmipLand`closeMatch`gribLandSurface`closeMatch
-cmipAtmosChem`broadMatch`gribMeteorology`narrowMatch
-cmipAerosol`broadMatch`gribMeteorology`narrowMatch
-cmipSeaIce`broadMatch`gribOceanography`narrowMatch
-cmipOcnBgchem`broadMatch`gribOceanography`narrowMatch
-cmipLandIce`broadMatch`gribLandSurface`narrowMatch

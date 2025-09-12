@@ -1,6 +1,0 @@
-URI 1`URI 1 has <relationship> URI 2`URI 2`URI 2 has <relationship> URI 1
-cmipAtmos`narrower`cmipAtmosChem`broader
-cmipAtmos`narrower`cmipAerosol`broader
-cmipOcean`narrower`cmipSeaIce`broader
-cmipOcean`narrower`cmipOcnBgchem`broader
-cmipLand`narrower`cmipLandIce`broader
