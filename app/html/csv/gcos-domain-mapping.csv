@@ -1,6 +1,0 @@
-URI 1`URI 1 has <relationship> URI 2`URI 2`URI 2 has <relationship> URI 1
-atmosphericSurface`broaderTransitive`atmospheric`narrowerTransitive
-atmosphericUpperair`broaderTransitive`atmospheric`narrowerTransitive
-atmosphericComposition`broaderTransitive`atmospheric`narrowerTransitive
-oceanicSurface`broaderTransitive`oceanic`narrowerTransitive
-oceanicSubsurface`broaderTransitive`oceanic`narrowerTransitive

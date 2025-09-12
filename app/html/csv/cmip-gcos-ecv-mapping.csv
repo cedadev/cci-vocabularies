@@ -1,4 +1,0 @@
-CMIP URI`CMIP has <relationship> GCOS`GCOS URI`GCOS has <relationship> CMIP
-cmipSeaIce`closeMatch`oceanicSurfaceSeaIce`closeMatch
-cmipLandIce`narrowMatch`terrestrialIceSheets`broadMatch
-cmipLandIce`narrowMatch`terrestrialGlaciersAndIceCaps`broadMatch

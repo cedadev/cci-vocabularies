@@ -2284,3 +2284,16 @@ cci_platform_coll: skos:member cci_platform_concept:plat_iss_SAGEIII .
 
 cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_iss_SAGEIII .
 
+cci_platform_concept:plat_noaa_20 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "NOAA-20"@en ;
+    skos:definition "NASA NOAA Environmental satellite 20"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 20"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/noaa_20> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_noaa_20 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_20 .
+

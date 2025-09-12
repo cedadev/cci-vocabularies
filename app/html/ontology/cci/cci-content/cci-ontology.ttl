@@ -8,7 +8,7 @@
 
 cci-collection:dataType a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "The main data type in a data set used by the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -108,7 +108,7 @@ cci-collection:dataType a skos:Collection ;
 
 cci-collection:ecv a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "The Essential Climate Variable (ECVs) in the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -143,7 +143,7 @@ cci-collection:ecv a skos:Collection ;
 
 cci-collection:freq a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "Temporal frequencies of data from the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -172,7 +172,7 @@ cci-collection:freq a skos:Collection ;
 
 cci-collection:org a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "Organisations (institutions) that are involved in production of data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -291,7 +291,7 @@ cci-collection:org a skos:Collection ;
 
 cci-collection:platform a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "The platforms that have been used in the collection of data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -428,6 +428,7 @@ cci-collection:platform a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_2>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_20>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_3>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_4>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_5>,
@@ -475,7 +476,7 @@ cci-collection:platform a skos:Collection ;
 
 cci-collection:platformGrp a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -490,7 +491,7 @@ cci-collection:platformGrp a skos:Collection ;
 
 cci-collection:platformProg a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "The platform programmes that have been used in the collection of data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -559,7 +560,7 @@ cci-collection:platformProg a skos:Collection ;
 
 cci-collection:procLev a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "The different processing levels of satellite observational data that are used within the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -585,7 +586,7 @@ cci-collection:procLev a skos:Collection ;
 
 cci-collection:product a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "The different products that are produced within the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -785,13 +786,15 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_topexPos>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_unspecified>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_var>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_viirs0>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_viirs1>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_wAfrica>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_wfmd> ;
     skos:prefLabel "Product String"@en .
 
 cci-collection:project a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "The different projects within the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -828,7 +831,7 @@ cci-collection:project a skos:Collection ;
 
 cci-collection:sensor a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "The sensors that have been used in the collection of the data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -3242,6 +3245,22 @@ cci-collection:sensor a skos:Collection ;
     skos:prefLabel "VARIOUS"@en ;
     skos:topConceptOf cci-scheme:product .
 
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_viirs0> a skos:Concept,
+        cci:product ;
+    skos:definition "VIIRS sensor onboard SNPP"@en ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "VIIRS0"@en ;
+    skos:scopeNote "VIIRS sensor onboard SNPP"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_viirs1> a skos:Concept,
+        cci:product ;
+    skos:definition "VIIRS sensor onboard NOAA-20"@en ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "VIIRS1"@en ;
+    skos:scopeNote "VIIRS sensor onboard NOAA-20"@en ;
+    skos:topConceptOf cci-scheme:product .
+
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_wAfrica> a skos:Concept,
         cci:product ;
     skos:definition "West Africa"@en ;
@@ -5045,17 +5064,6 @@ cci-collection:sensor a skos:Collection ;
     skos:scopeNote "International Space Station"@en ;
     skos:topConceptOf cci-scheme:platformProg .
 
-<https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jpss_prog> a skos:Concept,
-        cci:platformProg ;
-    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/87> ;
-    skos:altLabel "JPSS"@en ;
-    skos:definition "NASA/NOAA Joint Polar Satellite System"@en ;
-    skos:inScheme cci-scheme:platformProg ;
-    skos:narrower <https://vocab.ceda.ac.uk/collection/cci/platform/plat_snpp> ;
-    skos:prefLabel "Joint Polar Satellite System"@en ;
-    skos:scopeNote "NASA/NOAA Joint Polar Satellite System"@en ;
-    skos:topConceptOf cci-scheme:platformProg .
-
 <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat_dcm> a skos:Concept,
         cci:platformProg ;
     rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/94> ;
@@ -5899,16 +5907,6 @@ cci-collection:sensor a skos:Collection ;
     skos:topConceptOf cci-scheme:sensor ;
     cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_probaV> .
 
-<https://vocab.ceda.ac.uk/collection/cci/sensor/sens_viirs> a skos:Concept,
-        cci:sensor ;
-    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/604> ;
-    skos:definition "Visible/Infrared Imager Radiometer Suite"@en ;
-    skos:inScheme cci-scheme:sensor ;
-    skos:prefLabel "VIIRS"@en ;
-    skos:scopeNote "Visible/Infrared Imager Radiometer Suite"@en ;
-    skos:topConceptOf cci-scheme:sensor ;
-    cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_snpp> .
-
 <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_windSat> a skos:Concept,
         cci:sensor ;
     rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/623> ;
@@ -6733,6 +6731,17 @@ cci:platformGrp a owl:Class ;
     skos:topConceptOf cci-scheme:platform ;
     cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_esmrNim5> .
 
+<https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_20> a skos:Concept,
+        cci:platform ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/noaa_20> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jpss_prog> ;
+    skos:definition "NASA NOAA Environmental satellite 20"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "NOAA-20"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 20"@en ;
+    skos:topConceptOf cci-scheme:platform ;
+    cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_viirs> .
+
 <https://vocab.ceda.ac.uk/collection/cci/platform/plat_oco2> a skos:Concept,
         cci:platform ;
     rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/347> ;
@@ -7023,6 +7032,18 @@ cci:platformGrp a owl:Class ;
     skos:scopeNote "NASA Ice Cloud and land Elevation Satellite"@en ;
     skos:topConceptOf cci-scheme:platformProg .
 
+<https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jpss_prog> a skos:Concept,
+        cci:platformProg ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/87> ;
+    skos:altLabel "JPSS"@en ;
+    skos:definition "NASA/NOAA Joint Polar Satellite System"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_20>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_snpp> ;
+    skos:prefLabel "Joint Polar Satellite System"@en ;
+    skos:scopeNote "NASA/NOAA Joint Polar Satellite System"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
 <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel1_prog> a skos:Concept,
         cci:platformProg ;
     rdfs:seeAlso <https://www.wmo-sat.info/oscar/satelliteprogrammes/view/145> ;
@@ -7223,6 +7244,17 @@ cci:platformGrp a owl:Class ;
     skos:topConceptOf cci-scheme:sensor ;
     cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot4>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot5> .
+
+<https://vocab.ceda.ac.uk/collection/cci/sensor/sens_viirs> a skos:Concept,
+        cci:sensor ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/604> ;
+    skos:definition "Visible/Infrared Imager Radiometer Suite"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "VIIRS"@en ;
+    skos:scopeNote "Visible/Infrared Imager Radiometer Suite"@en ;
+    skos:topConceptOf cci-scheme:sensor ;
+    cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_20>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_snpp> .
 
 <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone> a skos:Concept,
         cci:ecv ;
@@ -8144,7 +8176,7 @@ cci:platformGrp a owl:Class ;
 
 cci-scheme:platformGrp a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -8491,7 +8523,7 @@ cci: a owl:Ontology,
         skos:ConceptScheme ;
     rdfs:label "CCI Ontology" ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "<h4>OWL Classes</h4>There are currently 11 classes in the ontology, each of which represents an entry in the DRS as well a two object properties to link sensors and platforms.<h5>OWL Classes</h5><p><img src=classes.svg><p></p><h4>Concept Schemes</h4><p>The named individuals of each class are also represented as concepts in SKOS concept schemes: <a href=../../../scheme/cci/dataType>data type</a>, <a href=../../../scheme/cci/ecv>ecv</a>, <a href=../../../scheme/cci/freq>frequency</a>, <a href=../../../scheme/cci/org>institutes</a>, <a href=../../../scheme/cci/platform>platforms</a>, <a href=../../../scheme/cci/platformGrp>platform groups</a>, <a href=../../../scheme/cci/platformProg>platform programmes</a>, <a href=../../../scheme/cci/procLev>processing levels</a>, <a href=../../../scheme/cci/product>products</a>, <a href=../../../scheme/cci/project>projects</a>,, and <a href=../../../scheme/cci/sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree as well as providing relationships to concepts from other DRS. As well as relationships between sensors and platforms, each ECV concept is related to one or more data type concepts.</p><h5>SKOS Navigation Down the Concept Scheme</h5><img src=../../../scheme/cci/conceptSchemeDown.svg /><h5>SKOS Navigation Up the Concept Scheme</h5><img src=../../../scheme/cci/conceptSchemeUp.svg /><h4>Collections</h4><p>The named individuals of each class are also represented as members in SKOS collections: <a href=../../../collection/cci/dataType>data type</a>, <a href=../../../collection/cci/ecv>ecv</a>, <a href=../../../collection/cci/freq>frequency</a>, <a href=../../../collection/cci/org>institutes</a>, <a href=../../../collection/cci/platform>platforms</a>, <a href=../../../scheme/cci/platformGrp>platform groups</a>, <a href=../../../scheme/cci/platformProg>platform programs</a>, <a href=../../../collection/cci/procLev>processing levels</a>, <a href=../../../collection/cci/product>products</a>, <a href=../../../collection/cci/project>projects</a>,  and <a href=../../../collection/cci/sensor>sensors</a>. As well as relationships between sensors and platforms, each ECV concept is related to one or more data type concepts.</p><h5>SKOS Collections</h5><img src=../../../collection/cci/collection.svg />" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -8731,7 +8763,7 @@ cci:project a owl:Class ;
 
 cci-scheme:procLev a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -8757,7 +8789,7 @@ cci-scheme:procLev a skos:ConceptScheme ;
 
 cci-scheme:freq a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -8786,7 +8818,7 @@ cci-scheme:freq a skos:ConceptScheme ;
 
 cci-scheme:ecv a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -8821,7 +8853,7 @@ cci-scheme:ecv a skos:ConceptScheme ;
 
 cci-scheme:project a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -8878,7 +8910,7 @@ cci:org a owl:Class ;
 
 cci-scheme:platformProg a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -8952,7 +8984,7 @@ cci:platform a owl:Class ;
 
 cci-scheme:dataType a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -9057,7 +9089,7 @@ cci:product a owl:Class ;
 
 cci-scheme:sensor a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -9169,7 +9201,7 @@ cci-scheme:sensor a skos:ConceptScheme ;
 
 cci-scheme:org a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -9288,7 +9320,7 @@ cci-scheme:org a skos:ConceptScheme ;
 
 cci-scheme:platform a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -9425,6 +9457,7 @@ cci-scheme:platform a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_2>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_20>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_3>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_4>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_5>,
@@ -9472,7 +9505,7 @@ cci-scheme:platform a skos:ConceptScheme ;
 
 cci-scheme:product a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-06-02" ;
+    dc:date "2025-09-12" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -9672,6 +9705,8 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_topexPos>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_unspecified>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_var>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_viirs0>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_viirs1>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_wAfrica>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_wfmd> ;
     skos:prefLabel "Product"@en .
