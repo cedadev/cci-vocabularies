@@ -311,3 +311,16 @@ cci_ecv_coll: skos:member cci_ecv_concept:cciecv_riverDischarge .
 
 cci_ecv_scheme: skos:hasTopConcept cci_ecv_concept:cciecv_riverDischarge .
 
+cci_ecv_concept:cciecv_other a skos:Concept, cci_ontology:ecv;
+    skos:inScheme cci_ecv_scheme: ;
+    skos:prefLabel "other"@en ;
+    skos:altLabel "OTHER"@en ;
+    skos:definition "Includes all other data that do not correspond to one of the listed ECV's"@en ;
+    skos:scopeNote "Includes all other data that do not correspond to one of the listed ECV's"@en ;
+    skos:topConceptOf cci_ecv_scheme: ;
+.
+
+cci_ecv_coll: skos:member cci_ecv_concept:cciecv_other .
+
+cci_ecv_scheme: skos:hasTopConcept cci_ecv_concept:cciecv_other .
+
