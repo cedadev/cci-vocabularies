@@ -14,7 +14,7 @@
     rdfs:comment "This collection represents the products used by the CCI project" ;
     dc:creator "Science and Technology Facilities Council" ;
     owl:versionInfo "0.0.1";
-    dc:date "2025-09-17" ;
+    dc:date "2025-10-23" ;
     dc:description "The different products that are produced within the ESA Climate Change Initiative (CCI)." ;
     .
 

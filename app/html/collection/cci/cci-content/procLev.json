@@ -11,7 +11,7 @@
     ],
     "http://purl.org/dc/elements/1.1/date": [
       {
-        "@value": "2025-09-17"
+        "@value": "2025-10-23"
       }
     ],
     "http://purl.org/dc/elements/1.1/description": [
@@ -54,7 +54,28 @@
     ],
     "http://www.w3.org/2004/02/skos/core#member": [
       {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"
+      },
+      {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2P"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level0"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_ind"
@@ -63,34 +84,13 @@
         "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_unspecified"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3U"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level0"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level2"
-      },
-      {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1B"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3S"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level4"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1A"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level3C"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/procLev/proc_level1C"

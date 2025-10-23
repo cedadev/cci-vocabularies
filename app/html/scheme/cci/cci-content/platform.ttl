@@ -1447,16 +1447,12 @@
 
 <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19> a skos:Concept,
         cci:platform ;
-    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/341>,
-        <http://www.wmo-sat.info/oscar/satellites/view/348> ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/341> ;
     skos:broader <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th> ;
-    skos:definition "NASA NOAA Environmental satellite 19"@en,
-        "OHB Sweden Astrophysics and Aeronomy satellite"@en ;
+    skos:definition "NASA NOAA Environmental satellite 19"@en ;
     skos:inScheme cci-scheme:platform ;
-    skos:prefLabel "NOAA-19"@en,
-        "ODIN"@en ;
-    skos:scopeNote "NASA NOAA Environmental satellite 19"@en,
-        "OHB Sweden Astrophysics and Aeronomy satellite"@en ;
+    skos:prefLabel "NOAA-19"@en ;
+    skos:scopeNote "NASA NOAA Environmental satellite 19"@en ;
     skos:topConceptOf cci-scheme:platform ;
     cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_amsua>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_avhrr3>,
@@ -1571,6 +1567,18 @@
     skos:scopeNote "Orbiting Carbon Observatory – 2"@en ;
     skos:topConceptOf cci-scheme:platform ;
     cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_oco> .
+
+<https://vocab.ceda.ac.uk/collection/cci/platform/plat_odin> a skos:Concept,
+        cci:platform ;
+    rdfs:seeAlso <http://www.wmo-sat.info/oscar/satellites/view/348> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_odin_prog> ;
+    skos:definition "OHB Sweden Astrophysics and Aeronomy satellite"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "ODIN"@en ;
+    skos:scopeNote "OHB Sweden Astrophysics and Aeronomy satellite"@en ;
+    skos:topConceptOf cci-scheme:platform ;
+    cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_osiris>,
+        <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_smr> .
 
 <https://vocab.ceda.ac.uk/collection/cci/platform/plat_orbview2> a skos:Concept,
         cci:platform ;
@@ -1963,7 +1971,7 @@
 
 cci-scheme:platform a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-09-17" ;
+    dc:date "2025-10-23" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -2109,6 +2117,7 @@ cci-scheme:platform a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_8>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_9>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_oco2>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_odin>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_orbview2>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_parasol>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_probaV>,

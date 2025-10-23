@@ -11,7 +11,7 @@
     ],
     "http://purl.org/dc/elements/1.1/date": [
       {
-        "@value": "2025-09-17"
+        "@value": "2025-10-23"
       }
     ],
     "http://purl.org/dc/elements/1.1/description": [
@@ -54,7 +54,46 @@
     ],
     "http://www.w3.org/2004/02/skos/core#member": [
       {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_vegParam"
+      },
+      {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ghg"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lakes"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_biomass"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_other"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaState"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landSurfTemp"
@@ -63,67 +102,28 @@
         "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_snow"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_salinity"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lakes"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_other"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_riverDischarge"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_iceSheet"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_waterVapour"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaState"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_ozone"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaLevel"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_fire"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_soilMst"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_glaciers"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_permafrost"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_biomass"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_sst"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_oceanCol"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_vegParam"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol"
-      },
-      {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_cloud"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_riverDischarge"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_seaIce"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_salinity"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landCov"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_waterVapour"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [

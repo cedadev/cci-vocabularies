@@ -1501,7 +1501,7 @@ cci_platform_coll: skos:member cci_platform_concept:plat_noaa_19 .
 
 cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_19 .
 
-cci_platform_concept:plat_noaa_19 a skos:Concept, cci_ontology:platform;
+cci_platform_concept:plat_odin a skos:Concept, cci_ontology:platform;
     skos:inScheme cci_platform_scheme: ;
     skos:prefLabel "ODIN"@en ;
     skos:definition "OHB Sweden Astrophysics and Aeronomy satellite"@en ;
@@ -1510,9 +1510,9 @@ cci_platform_concept:plat_noaa_19 a skos:Concept, cci_ontology:platform;
     skos:topConceptOf cci_platform_scheme: ;
 .
 
-cci_platform_coll: skos:member cci_platform_concept:plat_noaa_19 .
+cci_platform_coll: skos:member cci_platform_concept:plat_odin .
 
-cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_19 .
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_odin .
 
 cci_platform_concept:plat_orbview2 a skos:Concept, cci_ontology:platform;
     skos:inScheme cci_platform_scheme: ;

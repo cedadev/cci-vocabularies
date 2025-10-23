@@ -6,7 +6,7 @@
 
 cci-collection:platform a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-09-17" ;
+    dc:date "2025-10-23" ;
     dc:description "The platforms that have been used in the collection of data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -152,6 +152,7 @@ cci-collection:platform a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_8>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_9>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_oco2>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_odin>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_orbview2>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_parasol>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_probaV>,
