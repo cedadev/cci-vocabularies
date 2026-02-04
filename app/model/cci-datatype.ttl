@@ -1256,3 +1256,17 @@ cci_dataType_coll: skos:member cci_dataType_concept:dtype_lcchange .
 
 cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_lcchange .
 
+cci_dataType_concept:dtype_co a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "carbon monoxide"@en ;
+    skos:altLabel "CO"@en ;
+    skos:definition "carbon monoxide"@en ;
+    skos:scopeNote "carbon monoxide"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/precursors-for-aerosols-and-ozone/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_co .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_co .
+

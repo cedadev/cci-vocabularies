@@ -1237,3 +1237,14 @@ cci_org_coll: skos:member cci_org_concept:org107 .
 
 cci_org_scheme: skos:hasTopConcept cci_org_concept:org107 .
 
+cci_org_concept:org109 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Porto"@en ;
+    rdfs:seeAlso <http://isni.org/isni/121739996> ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org109 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org109 .
+

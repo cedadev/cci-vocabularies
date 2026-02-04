@@ -6,7 +6,7 @@
 
 cci-collection:project a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-10-23" ;
+    dc:date "2026-02-04" ;
     dc:description "The different projects within the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -27,6 +27,7 @@ cci-collection:project a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol>,
         <https://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone>,
         <https://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost>,
+        <https://vocab.ceda.ac.uk/collection/cci/project/cciproject_prec>,
         <https://vocab.ceda.ac.uk/collection/cci/project/cciproject_reccap2>,
         <https://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge>,
         <https://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity>,

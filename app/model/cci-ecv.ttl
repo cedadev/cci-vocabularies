@@ -311,6 +311,19 @@ cci_ecv_coll: skos:member cci_ecv_concept:cciecv_riverDischarge .
 
 cci_ecv_scheme: skos:hasTopConcept cci_ecv_concept:cciecv_riverDischarge .
 
+cci_ecv_concept:cciecv_prec a skos:Concept, cci_ontology:ecv;
+    skos:inScheme cci_ecv_scheme: ;
+    skos:prefLabel "precursors for aerosols and ozone"@en ;
+    skos:altLabel "PREC"@en ;
+    skos:definition "Precursors for aerosols and ozone climate data records produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:scopeNote "Precursors for aerosols and ozone climate data records produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci_ecv_scheme: ;
+.
+
+cci_ecv_coll: skos:member cci_ecv_concept:cciecv_prec .
+
+cci_ecv_scheme: skos:hasTopConcept cci_ecv_concept:cciecv_prec .
+
 cci_ecv_concept:cciecv_other a skos:Concept, cci_ontology:ecv;
     skos:inScheme cci_ecv_scheme: ;
     skos:prefLabel "other"@en ;

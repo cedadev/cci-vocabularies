@@ -112,7 +112,7 @@ plat_noaa_16`NOAA-16``NASA NOAA Environmental satellite 16`http://www.wmo-sat.in
 plat_noaa_17`NOAA-17``NASA NOAA Environmental satellite 17`http://www.wmo-sat.info/oscar/satellites/view/339
 plat_noaa_18`NOAA-18``NASA NOAA Environmental satellite 18`http://www.wmo-sat.info/oscar/satellites/view/340
 plat_noaa_19`NOAA-19``NASA NOAA Environmental satellite 19`http://www.wmo-sat.info/oscar/satellites/view/341
-plat_noaa_19`ODIN``OHB Sweden Astrophysics and Aeronomy satellite`http://www.wmo-sat.info/oscar/satellites/view/348
+plat_odin`ODIN``OHB Sweden Astrophysics and Aeronomy satellite`http://www.wmo-sat.info/oscar/satellites/view/348
 plat_orbview2`Orbview-2`SeaStar`OIC USA Ocean Imaging satellite`http://www.wmo-sat.info/oscar/satellites/view/395
 plat_parasol`PARASOL``CNES Polarization & Anisotropy of Reflectances for Atmospheric Sciences coupled with Observations from a Lidar`http://www.wmo-sat.info/oscar/satellites/view/359
 plat_scisat`SCISAT-1``CSA Science Satellite`http://www.wmo-sat.info/oscar/satellites/view/393

@@ -6,7 +6,7 @@
 
 cci-collection:sensor a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-10-23" ;
+    dc:date "2026-02-04" ;
     dc:description "The sensors that have been used in the collection of the data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -62,6 +62,7 @@ cci-collection:sensor a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_mls>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_mlsAura>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_modis>,
+        <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_mopitt>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_mss>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_mviri>,

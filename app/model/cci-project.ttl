@@ -328,12 +328,25 @@ cci_project_concept:cciproject_seaLevelBudgetClos a skos:Concept, cci_ontology:p
     skos:inScheme cci_project_scheme: ;
     skos:prefLabel "sea level budget closure"@en ;
     skos:altLabel "SLBC"@en ;
-    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure"@en ;
-    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure project"@en ;
     skos:topConceptOf cci_project_scheme: ;
 .
 
 cci_project_coll: skos:member cci_project_concept:cciproject_seaLevelBudgetClos .
 
 cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_seaLevelBudgetClos .
+
+cci_project_concept:cciproject_prec a skos:Concept, cci_ontology:project;
+    skos:inScheme cci_project_scheme: ;
+    skos:prefLabel "precursors for aerosols and ozone"@en ;
+    skos:altLabel "PREC"@en ;
+    skos:definition "The European Space Agency (ESA) Climate Change Initiative CCI Precursors for Aerosols and Ozone project"@en ;
+    skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative CCI Precursors for Aerosols and Ozone project"@en ;
+    skos:topConceptOf cci_project_scheme: ;
+.
+
+cci_project_coll: skos:member cci_project_concept:cciproject_prec .
+
+cci_project_scheme: skos:hasTopConcept cci_project_concept:cciproject_prec .
 

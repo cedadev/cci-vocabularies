@@ -812,3 +812,7 @@ mapa:plat_uars cci:hasSensor mapb:sens_haloe .
 
 mapb:sens_haloe cci:hasPlatform mapa:plat_uars .
 
+mapa:plat_terra cci:hasSensor mapb:sens_mopitt .
+
+mapb:sens_mopitt cci:hasPlatform mapa:plat_terra .
+

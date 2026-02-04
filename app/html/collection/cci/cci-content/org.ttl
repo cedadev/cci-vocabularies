@@ -6,7 +6,7 @@
 
 cci-collection:org a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2025-10-23" ;
+    dc:date "2026-02-04" ;
     dc:description "Organisations (institutions) that are involved in production of data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -32,6 +32,7 @@ cci-collection:org a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/org/org105>,
         <https://vocab.ceda.ac.uk/collection/cci/org/org106>,
         <https://vocab.ceda.ac.uk/collection/cci/org/org107>,
+        <https://vocab.ceda.ac.uk/collection/cci/org/org109>,
         <https://vocab.ceda.ac.uk/collection/cci/org/org11>,
         <https://vocab.ceda.ac.uk/collection/cci/org/org12>,
         <https://vocab.ceda.ac.uk/collection/cci/org/org13>,

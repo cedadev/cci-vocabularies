@@ -7,73 +7,73 @@
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
   <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/platformProg">
-    <dc:description>The platform programmes that have been used in the collection of data for the ESA Climate Change Initiative (CCI).</dc:description>
-    <skos:definition xml:lang="en">The platform programmes that have been used in the collection of data for the ESA Climate Change Initiative (CCI).</skos:definition>
-    <dc:creator>Science and Technology Facilities Council</dc:creator>
-    <skos:prefLabel xml:lang="en">Platform Programme</skos:prefLabel>
-    <dc:publisher xml:lang="en">STFC</dc:publisher>
-    <dc:title>Platform Programme</dc:title>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-    <dc:date>2025-10-23</dc:date>
     <rdfs:comment>This collection represents the platform programmes used by the CCI project</rdfs:comment>
     <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
+    <dc:title>Platform Programme</dc:title>
+    <dc:description>The platform programmes that have been used in the collection of data for the ESA Climate Change Initiative (CCI).</dc:description>
+    <dc:date>2026-02-04</dc:date>
+    <skos:definition xml:lang="en">The platform programmes that have been used in the collection of data for the ESA Climate Change Initiative (CCI).</skos:definition>
+    <skos:prefLabel xml:lang="en">Platform Programme</skos:prefLabel>
     <owl:versionInfo>0.0.1</owl:versionInfo>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_saral_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_coriolis_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_metop"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gpm_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_1st"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_msg"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_iss_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_orbview2_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_parasol_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_grace_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_smos_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_radarsat_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat_dcm"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_proba_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jason"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_mfg_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_scisat_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel2_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jpss_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_icesat_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gcom"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel1_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3"/>
+    <dc:publisher xml:lang="en">STFC</dc:publisher>
+    <dc:creator>Science and Technology Facilities Council</dc:creator>
     <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_trmm_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_cryosat_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_odin_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gosat_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_fengyun3"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel6_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_topexPoseidon_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel3_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_3rd"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_geodetic"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_alos_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_terraSAR"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_saral_prog"/>
     <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_3rd"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_smap_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sac_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_envisat_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_csk_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_ers"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_grace_prog"/>
     <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot_prog_follow"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_meteor3m_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_uars_prog"/>
     <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_nimbus"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_envisat_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_radarsat_prog"/>
     <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_2nd"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D1"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_eos"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_s5p_prog"/>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_oco_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_topexPoseidon_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_smap_prog"/>
     <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_erbs_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_icesat_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel6_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_3rd"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gosat_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gpm_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel1_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_msg"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_coriolis_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_parasol_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_proba_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_scisat_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gcom"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_metop"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_s5p_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sac_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_iss_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_geodetic"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_orbview2_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jason"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_1st"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_oco_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_ers"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_uars_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_cryosat_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_spot"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_terraSAR"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_smos_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_meteor3m_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel2_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_csk_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_eos"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_sentinel3_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_odin_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_landsat_dcm"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_alos_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_mfg_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_fengyun3"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jpss_prog"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D1"/>
   </rdf:Description>
 </rdf:RDF>

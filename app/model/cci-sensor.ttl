@@ -1324,3 +1324,16 @@ cci_sensor_coll: skos:member cci_sensor_concept:sens_maestro .
 
 cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_maestro .
 
+cci_sensor_concept:sens_mopitt a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "MOPITT"@en ;
+    skos:definition "Measurement Of Pollution In The Troposphere"@en ;
+    skos:scopeNote "Measurement Of Pollution In The Troposphere"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/mopitt> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sens_mopitt .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_mopitt .
+

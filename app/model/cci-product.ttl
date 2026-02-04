@@ -2143,3 +2143,13 @@ cci_product_coll: skos:member cci_product_concept:prod_viirs1 .
 
 cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_viirs1 .
 
+cci_product_concept:prod_iasiMopittLatmos1M a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "IASI_MOPITT_MERGED_LATMOS-180x360_1M"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_iasiMopittLatmos1M .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_iasiMopittLatmos1M .
+

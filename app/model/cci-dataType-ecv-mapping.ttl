@@ -355,3 +355,7 @@ mapa:dtype_lcchange skos:broader mapb:cciecv_landCov .
 
 mapb:cciecv_landCov skos:narrower mapa:dtype_lcchange .
 
+mapa:dtype_co skos:broader mapb:cciecv_prec .
+
+mapb:cciecv_prec skos:narrower mapa:dtype_co .
+
