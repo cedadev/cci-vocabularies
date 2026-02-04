@@ -1236,6 +1236,12 @@
     skos:scopeNote "derived from SLSTR on Sentinel3B"@en ;
     skos:topConceptOf cci-scheme:product .
 
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_slstrS3> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "SLSTR_S3"@en ;
+    skos:topConceptOf cci-scheme:product .
+
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_smm> a skos:Concept,
         cci:product ;
     skos:inScheme cci-scheme:product ;
@@ -1548,6 +1554,7 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_sh50kmease2>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_slstrA>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_slstrB>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_slstrS3>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_smm>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_smrOd>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_srfp>,

@@ -2153,3 +2153,13 @@ cci_product_coll: skos:member cci_product_concept:prod_iasiMopittLatmos1M .
 
 cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_iasiMopittLatmos1M .
 
+cci_product_concept:prod_slstrS3 a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "SLSTR_S3"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_slstrS3 .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_slstrS3 .
+

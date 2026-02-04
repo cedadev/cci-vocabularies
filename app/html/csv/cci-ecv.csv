@@ -22,4 +22,5 @@ cciecv_landSurfTemp`land surface temperature`LST`Land Surface Temperature climat
 cciecv_lakes`lakes`LAKES`Lakes climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)`
 cciecv_vegParam`vegetation parameters`VEGETATION`Vegetation Parameters climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)`
 cciecv_riverDischarge`river discharge`RD`River discharge climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)`
+cciecv_prec`precursors for aerosols and ozone`PREC`Precursors for aerosols and ozone climate data records produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)`
 cciecv_other`other`OTHER`Includes all other data that do not correspond to one of the listed ECV's`

@@ -194,6 +194,7 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_sh50kmease2>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_slstrA>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_slstrB>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_slstrS3>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_smm>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_smrOd>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_srfp>,

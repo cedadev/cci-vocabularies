@@ -88,3 +88,4 @@ dtype_vp`vegetation parameters`VP_PRODUCTS`vegetation parameters`https://climate
 dtype_uncert`uncertainty`UNCERT`land cover uncertainty maps`https://climate.esa.int/projects/high-resolution-land-cover`
 dtype_wl`water level`WL`water level`https://climate.esa.int/en/projects/river-discharge/`
 dtype_lcchange`land cover change`CHANGE`land cover change uncertainty maps`https://climate.esa.int/projects/high-resolution-land-cover`
+dtype_co`carbon monoxide`CO`carbon monoxide`https://climate.esa.int/projects/precursors-for-aerosols-and-ozone/`

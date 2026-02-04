@@ -87,3 +87,4 @@ dtype_uncert`broader`cciecv_landCov`narrower
 dtype_vp`broader`cciecv_vegParam`narrower
 dtype_wl`broader`cciecv_riverDischarge`narrower
 dtype_lcchange`broader`cciecv_landCov`narrower
+dtype_co`broader`cciecv_prec`narrower

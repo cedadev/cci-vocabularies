@@ -1,20 +1,20 @@
 [
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_biomass",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#project"
+      "https://vocab.ceda.ac.uk/ontology/cci#project",
+      "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "BIOMASS"
+        "@value": "SNOW"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Biomass project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Snow project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -25,13 +25,13 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "above-ground biomass"
+        "@value": "snow"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Biomass project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Snow project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -41,21 +41,21 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_landCov",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#project"
+      "https://vocab.ceda.ac.uk/ontology/cci#project",
+      "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "RD"
+        "@value": "LC"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) River Discharge project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Land Cover project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -66,13 +66,13 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "river discharge"
+        "@value": "land cover"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) River Discharge project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Land Cover project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -82,21 +82,21 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_reccap2",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#project"
+      "https://vocab.ceda.ac.uk/ontology/cci#project",
+      "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "SEASURFACESALINITY"
+        "@value": "RECCAP-2"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Salinity project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) RECCAP-2 project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -107,13 +107,218 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "sea surface salinity"
+        "@value": "RECCAP2"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Salinity project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) RECCAP-2 project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_sst",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#project"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SST"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Surface Temperature project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "sea surface temperature"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Surface Temperature project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_cloud",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#project",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "CLOUD"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Cloud project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "cloud"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Cloud project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#project",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "PERMAFROST"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Permafrost project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "permafrost"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Permafrost project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#project"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "OZONE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ozone"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#project",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "SOILMOISTURE"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Soil Moisture project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "soil moisture"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Soil Moisture project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -164,7 +369,7 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_prec",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevelBudgetClos",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept",
       "https://vocab.ceda.ac.uk/ontology/cci#project"
@@ -172,13 +377,13 @@
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "PREC"
+        "@value": "SLBC"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative CCI Precursors for Aerosols and Ozone project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -189,13 +394,13 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "precursors for aerosols and ozone"
+        "@value": "sea level budget closure"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative CCI Precursors for Aerosols and Ozone project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -205,89 +410,7 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_fire",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#project",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "FIRE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Fire project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "fire"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Fire project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaState",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#project",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "SEASTATE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea State project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "sea state"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea State project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_landCov",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept",
       "https://vocab.ceda.ac.uk/ontology/cci#project"
@@ -295,13 +418,13 @@
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "LC"
+        "@value": "OC"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Land Cover project"
+        "@value": "Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -312,13 +435,13 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "land cover"
+        "@value": "ocean colour"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Land Cover project"
+        "@value": "Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -328,7 +451,48 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#project",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "RD"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) River Discharge project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "river discharge"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) River Discharge project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_lakes",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept",
       "https://vocab.ceda.ac.uk/ontology/cci#project"
@@ -336,13 +500,13 @@
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "SOILMOISTURE"
+        "@value": "LAKES"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Soil Moisture project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Lakes project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -353,136 +517,13 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "soil moisture"
+        "@value": "lakes"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Soil Moisture project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaIce",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#project",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "SEAICE"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Ice project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "sea ice"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Ice project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#project",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "SEALEVEL"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Sea level climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "sea level"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Sea level climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#project",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "SNOW"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Snow project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "snow"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Snow project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Lakes project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -546,82 +587,82 @@
     ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_reccap2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_biomass"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_iceSheet"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaState"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_fire"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_vegParam"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_prec"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_sst"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_glaciers"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaIce"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_landSurfTemp"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_aerosol"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_waterVapour"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_landCov"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevelBudgetClos"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaIce"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_lakes"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_ghg"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_sst"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity"
       },
       {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_lakes"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_vegParam"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_soilMst"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_iceSheet"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_biomass"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_fire"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_reccap2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevelBudgetClos"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_snow"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_prec"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_aerosol"
+      },
+      {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_cloud"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_riverDischarge"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_glaciers"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaState"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_waterVapour"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_ghg"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_landCov"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -632,133 +673,10 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_oceanCol",
-    "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#project",
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "OC"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "ocean colour"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "Ocean colour climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevelBudgetClos",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#project"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "SLBC"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "sea level budget closure"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level budget closure project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_ghg",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#project"
-    ],
-    "http://www.w3.org/2004/02/skos/core#altLabel": [
-      {
-        "@language": "en",
-        "@value": "GHG"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Greenhouse gases project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "greenhouse gases"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Greenhouse gases project"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
-      }
-    ]
-  },
-  {
     "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_landSurfTemp",
     "@type": [
-      "https://vocab.ceda.ac.uk/ontology/cci#project",
-      "http://www.w3.org/2004/02/skos/core#Concept"
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://vocab.ceda.ac.uk/ontology/cci#project"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
@@ -796,7 +714,7 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_iceSheet",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_ghg",
     "@type": [
       "https://vocab.ceda.ac.uk/ontology/cci#project",
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -804,13 +722,13 @@
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "ICESHEETS"
+        "@value": "GHG"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Ice Sheets project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Greenhouse gases project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -821,13 +739,13 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "ice sheets"
+        "@value": "greenhouse gases"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Ice Sheets project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Greenhouse gases project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -837,7 +755,7 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_cloud",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaLevel",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept",
       "https://vocab.ceda.ac.uk/ontology/cci#project"
@@ -845,13 +763,13 @@
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "CLOUD"
+        "@value": "SEALEVEL"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Cloud project"
+        "@value": "Sea level climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -862,13 +780,13 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "cloud"
+        "@value": "sea level"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Cloud project"
+        "@value": "Sea level climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -878,7 +796,7 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_vegParam",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaIce",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept",
       "https://vocab.ceda.ac.uk/ontology/cci#project"
@@ -886,13 +804,13 @@
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "VEGETATION"
+        "@value": "SEAICE"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Vegetation Parameters project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Ice project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -903,13 +821,13 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "vegetation parameters"
+        "@value": "sea ice"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Vegetation Parameters project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Ice project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -919,7 +837,7 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_sst",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_prec",
     "@type": [
       "https://vocab.ceda.ac.uk/ontology/cci#project",
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -927,13 +845,13 @@
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "SST"
+        "@value": "PREC"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Surface Temperature project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative CCI Precursors for Aerosols and Ozone project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -944,13 +862,13 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "sea surface temperature"
+        "@value": "precursors for aerosols and ozone"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Surface Temperature project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative CCI Precursors for Aerosols and Ozone project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -960,21 +878,21 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_ozone",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_salinity",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#project"
+      "https://vocab.ceda.ac.uk/ontology/cci#project",
+      "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "OZONE"
+        "@value": "SEASURFACESALINITY"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Salinity project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -985,13 +903,13 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "ozone"
+        "@value": "sea surface salinity"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea Level project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Salinity project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -1001,21 +919,21 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_lakes",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_seaState",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#project"
+      "https://vocab.ceda.ac.uk/ontology/cci#project",
+      "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "LAKES"
+        "@value": "SEASTATE"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Lakes project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea State project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1026,13 +944,13 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "lakes"
+        "@value": "sea state"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Lakes project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Sea State project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -1044,8 +962,8 @@
   {
     "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_glaciers",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#project"
+      "https://vocab.ceda.ac.uk/ontology/cci#project",
+      "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
@@ -1083,21 +1001,21 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_reccap2",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_biomass",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#project"
+      "https://vocab.ceda.ac.uk/ontology/cci#project",
+      "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "RECCAP-2"
+        "@value": "BIOMASS"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) RECCAP-2 project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Biomass project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1108,13 +1026,54 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "RECCAP2"
+        "@value": "above-ground biomass"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) RECCAP-2 project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Biomass project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_vegParam",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#project",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "VEGETATION"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Vegetation Parameters project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "vegetation parameters"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Vegetation Parameters project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [
@@ -1165,7 +1124,7 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_permafrost",
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_fire",
     "@type": [
       "https://vocab.ceda.ac.uk/ontology/cci#project",
       "http://www.w3.org/2004/02/skos/core#Concept"
@@ -1173,13 +1132,13 @@
     "http://www.w3.org/2004/02/skos/core#altLabel": [
       {
         "@language": "en",
-        "@value": "PERMAFROST"
+        "@value": "FIRE"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Permafrost project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Fire project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -1190,13 +1149,54 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en",
-        "@value": "permafrost"
+        "@value": "fire"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#scopeNote": [
       {
         "@language": "en",
-        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Permafrost project"
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Fire project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/project/cciproject_iceSheet",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#project",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "@language": "en",
+        "@value": "ICESHEETS"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Ice Sheets project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/project"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "ice sheets"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "The European Space Agency (ESA) Climate Change Initiative (CCI) Ice Sheets project"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf": [

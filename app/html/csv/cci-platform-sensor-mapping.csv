@@ -201,3 +201,4 @@ plat_spot4`hasSensor`sens_poam`hasPlatform
 plat_meteor_3m`hasSensor`sens_sageIII`hasPlatform
 plat_iss_SAGEIII`hasSensor`sens_sageIII`hasPlatform
 plat_uars`hasSensor`sens_haloe`hasPlatform
+plat_terra`hasSensor`sens_mopitt`hasPlatform
