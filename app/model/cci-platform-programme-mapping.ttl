@@ -695,3 +695,11 @@ mapa:plat_jpss_prog skos:narrower mapb:plat_noaa_20 .
 
 mapb:plat_noaa_20 skos:broader mapa:plat_jpss_prog .
 
+mapa:plat_himawari3rd skos:narrower mapb:plat_himawari8 .
+
+mapb:plat_himawari8 skos:broader mapa:plat_himawari3rd .
+
+mapa:plat_himawari3rd skos:narrower mapb:plat_himawari9 .
+
+mapb:plat_himawari9 skos:broader mapa:plat_himawari3rd .
+

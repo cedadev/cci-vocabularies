@@ -2163,3 +2163,93 @@ cci_product_coll: skos:member cci_product_concept:prod_slstrS3 .
 
 cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_slstrS3 .
 
+cci_product_concept:prod_avhr15 a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "AVHR15-0.05deg_1DAILY"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_avhr15 .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_avhr15 .
+
+cci_product_concept:prod_avhr16 a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "AVHR16-0.05deg_1DAILY"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_avhr16 .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_avhr16 .
+
+cci_product_concept:prod_avhr17 a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "AVHR17-0.05deg_1DAILY"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_avhr17 .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_avhr17 .
+
+cci_product_concept:prod_avhr18 a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "AVHR18-0.05deg_1DAILY"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_avhr18 .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_avhr18 .
+
+cci_product_concept:prod_avhr19 a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "AVHR19-0.05deg_1DAILY"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_avhr19 .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_avhr19 .
+
+cci_product_concept:prod_mtsat0-05degMon a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "MTSAT1-0.05deg_1MONTHLY"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_mtsat0-05degMon .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_mtsat0-05degMon .
+
+cci_product_concept:prod_mtsat0-05deg a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "MTSAT1-0.05deg"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_mtsat0-05deg .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_mtsat0-05deg .
+
+cci_product_concept:prod_goes12_0-05 a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "GOES12-0.05deg"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_goes12_0-05 .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_goes12_0-05 .
+
+cci_product_concept:prod_goes12_0-05Mon a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "GOES12-0.05deg_1MONTHLY"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_goes12_0-05Mon .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_goes12_0-05Mon .
+

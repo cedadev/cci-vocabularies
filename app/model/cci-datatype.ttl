@@ -1270,3 +1270,17 @@ cci_dataType_coll: skos:member cci_dataType_concept:dtype_co .
 
 cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_co .
 
+cci_dataType_concept:dtype_nh3 a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "ammonia"@en ;
+    skos:altLabel "NH3"@en ;
+    skos:definition "ammonia"@en ;
+    skos:scopeNote "ammonia"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/precursors-for-aerosols-and-ozone/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_nh3 .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_nh3 .
+

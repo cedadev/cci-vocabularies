@@ -6,7 +6,7 @@
 
 cci-collection:dataType a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2026-02-04" ;
+    dc:date "2026-03-03" ;
     dc:description "The main data type in a data set used by the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -63,6 +63,7 @@ cci-collection:dataType a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_mslamph>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_msltr>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nh3>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd>,

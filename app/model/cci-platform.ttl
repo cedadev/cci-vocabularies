@@ -2297,3 +2297,29 @@ cci_platform_coll: skos:member cci_platform_concept:plat_noaa_20 .
 
 cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_noaa_20 .
 
+cci_platform_concept:plat_himawari8 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Himawari-8"@en ;
+    skos:definition "Himawari-8"@en ;
+    skos:scopeNote "Himawari-8"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/himawari_8> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_himawari8 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_himawari8 .
+
+cci_platform_concept:plat_himawari9 a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Himawari-9"@en ;
+    skos:definition "Himawari-9"@en ;
+    skos:scopeNote "Himawari-9"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/himawari_9> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_himawari9 .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_himawari9 .
+

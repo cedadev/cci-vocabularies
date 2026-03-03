@@ -816,3 +816,11 @@ mapa:plat_terra cci:hasSensor mapb:sens_mopitt .
 
 mapb:sens_mopitt cci:hasPlatform mapa:plat_terra .
 
+mapa:plat_himawari8 cci:hasSensor mapb:sens_ahi .
+
+mapb:sens_ahi cci:hasPlatform mapa:plat_himawari8 .
+
+mapa:plat_himawari9 cci:hasSensor mapb:sens_ahi .
+
+mapb:sens_ahi cci:hasPlatform mapa:plat_himawari9 .
+

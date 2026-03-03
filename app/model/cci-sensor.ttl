@@ -1337,3 +1337,16 @@ cci_sensor_coll: skos:member cci_sensor_concept:sens_mopitt .
 
 cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_mopitt .
 
+cci_sensor_concept:sen_ahi a skos:Concept, cci_ontology:sensor;
+    skos:inScheme cci_sensor_scheme: ;
+    skos:prefLabel "AHI"@en ;
+    skos:definition "Advanced Himawari Imager"@en ;
+    skos:scopeNote "Advanced Himawari Imager"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/ahi> ;
+    skos:topConceptOf cci_sensor_scheme: ;
+.
+
+cci_sensor_coll: skos:member cci_sensor_concept:sen_ahi .
+
+cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sen_ahi .
+

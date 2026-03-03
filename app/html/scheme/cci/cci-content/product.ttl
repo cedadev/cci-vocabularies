@@ -600,6 +600,36 @@
     skos:scopeNote "derived from ATSR-2 on ERS_2"@en ;
     skos:topConceptOf cci-scheme:product .
 
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_avhr15> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "AVHR15-0.05deg_1DAILY"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_avhr16> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "AVHR16-0.05deg_1DAILY"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_avhr17> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "AVHR17-0.05deg_1DAILY"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_avhr18> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "AVHR18-0.05deg_1DAILY"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_avhr19> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "AVHR19-0.05deg_1DAILY"@en ;
+    skos:topConceptOf cci-scheme:product .
+
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr07G> a skos:Concept,
         cci:product ;
     skos:inScheme cci-scheme:product ;
@@ -838,6 +868,18 @@
     skos:prefLabel "GMPE"@en ;
     skos:topConceptOf cci-scheme:product .
 
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_goes12_0-05> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "GOES12-0.05deg"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_goes12_0-05Mon> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "GOES12-0.05deg_1MONTHLY"@en ;
+    skos:topConceptOf cci-scheme:product .
+
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_gomEn> a skos:Concept,
         cci:product ;
     skos:inScheme cci-scheme:product ;
@@ -1034,6 +1076,18 @@
         cci:product ;
     skos:inScheme cci-scheme:product ;
     skos:prefLabel "MSI"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_mtsat0-05deg> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "MTSAT1-0.05deg"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_mtsat0-05degMon> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "MTSAT1-0.05deg_1MONTHLY"@en ;
     skos:topConceptOf cci-scheme:product .
 
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_multi1d> a skos:Concept,
@@ -1366,7 +1420,7 @@
 
 cci-scheme:product a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2026-02-04" ;
+    dc:date "2026-03-03" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -1459,6 +1513,11 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_atsr2ensmonthly>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_atsr3>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_atsr_2>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhr15>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhr16>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhr17>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhr18>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhr19>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr07G>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr09G>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr11G>,
@@ -1495,6 +1554,8 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gfo>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gmp>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gmpe>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_goes12_0-05>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_goes12_0-05Mon>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gomEn>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gosat>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_iasDLRImars>,
@@ -1524,6 +1585,8 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_msUvai>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_msaai>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_msi>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_mtsat0-05deg>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_mtsat0-05degMon>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_multi1d>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_multi1m>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_mzm>,

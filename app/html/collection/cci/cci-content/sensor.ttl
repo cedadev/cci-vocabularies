@@ -6,7 +6,7 @@
 
 cci-collection:sensor a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2026-02-04" ;
+    dc:date "2026-03-03" ;
     dc:description "The sensors that have been used in the collection of the data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -14,7 +14,8 @@ cci-collection:sensor a skos:Collection ;
     rdfs:comment "This collection represents the sensors used by the CCI project" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "The sensors that have been used in the collection of the data for the ESA Climate Change Initiative (CCI)."@en ;
-    skos:member <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_aatsr>,
+    skos:member <https://vocab.ceda.ac.uk/collection/cci/sensor/sen_ahi>,
+        <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_aatsr>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_abi>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_aceFts>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_airs>,

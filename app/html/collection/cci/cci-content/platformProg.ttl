@@ -6,7 +6,7 @@
 
 cci-collection:platformProg a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2026-02-04" ;
+    dc:date "2026-03-03" ;
     dc:description "The platform programmes that have been used in the collection of data for the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -35,6 +35,7 @@ cci-collection:platformProg a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_gpm_prog>,
         <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_grace_prog>,
         <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari>,
+        <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari3rd_prog>,
         <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_icesat_prog>,
         <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_iss_prog>,
         <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_jason>,

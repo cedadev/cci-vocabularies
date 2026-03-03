@@ -762,3 +762,16 @@ cci_platformProg_coll: skos:member cci_platformProg_concept:plat_iss_prog .
 
 cci_platformProg_scheme: skos:hasTopConcept cci_platformProg_concept:plat_iss_prog .
 
+cci_platformProg_concept:plat_himawari3rd_prog a skos:Concept, cci_ontology:platformProg;
+    skos:inScheme cci_platformProg_scheme: ;
+    skos:prefLabel "Himawari 3rd Generation"@en ;
+    skos:definition "Himawari 3rd Generation programme"@en ;
+    skos:scopeNote "Himawari 3rd Generation programme"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/himawari_3rd_generation> ;
+    skos:topConceptOf cci_platformProg_scheme: ;
+.
+
+cci_platformProg_coll: skos:member cci_platformProg_concept:plat_himawari3rd_prog .
+
+cci_platformProg_scheme: skos:hasTopConcept cci_platformProg_concept:plat_himawari3rd_prog .
+
