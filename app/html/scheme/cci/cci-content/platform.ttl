@@ -844,7 +844,7 @@
 <https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari8> a skos:Concept,
         cci:platform ;
     rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/himawari_8> ;
-    skos:broader <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari3rd> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari3rd_prog> ;
     skos:definition "Himawari-8"@en ;
     skos:inScheme cci-scheme:platform ;
     skos:prefLabel "Himawari-8"@en ;
@@ -855,7 +855,7 @@
 <https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari9> a skos:Concept,
         cci:platform ;
     rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/himawari_9> ;
-    skos:broader <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari3rd> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari3rd_prog> ;
     skos:definition "Himawari-9"@en ;
     skos:inScheme cci-scheme:platform ;
     skos:prefLabel "Himawari-9"@en ;

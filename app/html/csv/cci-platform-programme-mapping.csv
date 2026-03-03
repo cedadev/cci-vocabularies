@@ -172,3 +172,5 @@ plat_uars_prog`narrower`plat_uars`broader
 plat_meteor3m_prog`narrower`plat_meteor_3m`broader
 plat_iss_prog`narrower`plat_iss_SAGEIII`broader
 plat_jpss_prog`narrower`plat_noaa_20`broader
+plat_himawari3rd`narrower`plat_himawari8`broader
+plat_himawari3rd`narrower`plat_himawari9`broader

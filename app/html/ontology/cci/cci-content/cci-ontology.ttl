@@ -861,10 +861,10 @@ cci-collection:sensor a skos:Collection ;
     rdfs:comment "This collection represents the sensors used by the CCI project" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "The sensors that have been used in the collection of the data for the ESA Climate Change Initiative (CCI)."@en ;
-    skos:member <https://vocab.ceda.ac.uk/collection/cci/sensor/sen_ahi>,
-        <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_aatsr>,
+    skos:member <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_aatsr>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_abi>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_aceFts>,
+        <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_ahi>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_airs>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_altika>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_amisar>,
@@ -965,8 +965,6 @@ cci-collection:sensor a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_windSat> ;
     skos:prefLabel "Sensor"@en .
 
-<https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lst> skos:narrower <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst> .
-
 <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_all> a skos:Concept,
         cci:dataType ;
     skos:altLabel "ALL"@en ;
@@ -984,15 +982,6 @@ cci-collection:sensor a skos:Collection ;
     skos:prefLabel "unspecified"@en ;
     skos:scopeNote "unspecified"@en ;
     skos:topConceptOf cci-scheme:dataType .
-
-<https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landSurfTemp> a skos:Concept,
-        cci:ecv ;
-    skos:altLabel "LST"@en ;
-    skos:definition "Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
-    skos:inScheme cci-scheme:ecv ;
-    skos:prefLabel "land surface temperature"@en ;
-    skos:scopeNote "Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
-    skos:topConceptOf cci-scheme:ecv .
 
 <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_other> a skos:Concept,
         cci:ecv ;
@@ -1939,18 +1928,6 @@ cci-collection:sensor a skos:Collection ;
     skos:prefLabel "Unspecified"@en ;
     skos:scopeNote "Unspecified platform"@en ;
     skos:topConceptOf cci-scheme:platform .
-
-<https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari3rd> skos:narrower <https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari8>,
-        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari9> .
-
-<https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari3rd_prog> a skos:Concept,
-        cci:platformProg ;
-    rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/himawari_3rd_generation> ;
-    skos:definition "Himawari 3rd Generation programme"@en ;
-    skos:inScheme cci-scheme:platformProg ;
-    skos:prefLabel "Himawari 3rd Generation"@en ;
-    skos:scopeNote "Himawari 3rd Generation programme"@en ;
-    skos:topConceptOf cci-scheme:platformProg .
 
 <https://vocab.ceda.ac.uk/collection/cci/procLev/proc_ind> a skos:Concept,
         cci:procLev ;
@@ -3637,18 +3614,6 @@ cci-collection:sensor a skos:Collection ;
     skos:scopeNote "The European Space Agency (ESA) Climate Change Initiative (CCI) Water Vapour project"@en ;
     skos:topConceptOf cci-scheme:project .
 
-<https://vocab.ceda.ac.uk/collection/cci/sensor/sen_ahi> a skos:Concept,
-        cci:sensor ;
-    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/ahi> ;
-    skos:definition "Advanced Himawari Imager"@en ;
-    skos:inScheme cci-scheme:sensor ;
-    skos:prefLabel "AHI"@en ;
-    skos:scopeNote "Advanced Himawari Imager"@en ;
-    skos:topConceptOf cci-scheme:sensor .
-
-<https://vocab.ceda.ac.uk/collection/cci/sensor/sens_ahi> cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari8>,
-        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari9> .
-
 <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_etmplus> a skos:Concept,
         cci:sensor ;
     rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/136> ;
@@ -4107,7 +4072,7 @@ cci-collection:sensor a skos:Collection ;
         cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/land-surface-temperature> ;
     skos:altLabel "LST"@en ;
-    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lst> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landSurfTemp> ;
     skos:definition "land surface temperature"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "land surface temperature"@en ;
@@ -4662,6 +4627,16 @@ cci-collection:sensor a skos:Collection ;
     skos:narrower <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lkProds> ;
     skos:prefLabel "lakes"@en ;
     skos:scopeNote "Lakes climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:topConceptOf cci-scheme:ecv .
+
+<https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landSurfTemp> a skos:Concept,
+        cci:ecv ;
+    skos:altLabel "LST"@en ;
+    skos:definition "Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
+    skos:inScheme cci-scheme:ecv ;
+    skos:narrower <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst> ;
+    skos:prefLabel "land surface temperature"@en ;
+    skos:scopeNote "Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
     skos:topConceptOf cci-scheme:ecv .
 
 <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_riverDischarge> a skos:Concept,
@@ -6618,7 +6593,7 @@ cci:platformGrp a owl:Class ;
 <https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari8> a skos:Concept,
         cci:platform ;
     rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/himawari_8> ;
-    skos:broader <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari3rd> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari3rd_prog> ;
     skos:definition "Himawari-8"@en ;
     skos:inScheme cci-scheme:platform ;
     skos:prefLabel "Himawari-8"@en ;
@@ -6629,7 +6604,7 @@ cci:platformGrp a owl:Class ;
 <https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari9> a skos:Concept,
         cci:platform ;
     rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/himawari_9> ;
-    skos:broader <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari3rd> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari3rd_prog> ;
     skos:definition "Himawari-9"@en ;
     skos:inScheme cci-scheme:platform ;
     skos:prefLabel "Himawari-9"@en ;
@@ -7228,6 +7203,17 @@ cci:platformGrp a owl:Class ;
     skos:scopeNote "JMA Himawari 2nd generation (Multifunction Transport Satellite)"@en ;
     skos:topConceptOf cci-scheme:platformProg .
 
+<https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_himawari3rd_prog> a skos:Concept,
+        cci:platformProg ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/himawari_3rd_generation> ;
+    skos:definition "Himawari 3rd Generation programme"@en ;
+    skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari8>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari9> ;
+    skos:prefLabel "Himawari 3rd Generation"@en ;
+    skos:scopeNote "Himawari 3rd Generation programme"@en ;
+    skos:topConceptOf cci-scheme:platformProg .
+
 <https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_icesat_prog> a skos:Concept,
         cci:platformProg ;
     rdfs:seeAlso <http://www.wmo-sat.info/oscar/satelliteprogrammes/view/77> ;
@@ -7317,6 +7303,17 @@ cci:platformGrp a owl:Class ;
     skos:topConceptOf cci-scheme:sensor ;
     cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_16>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_goes_17> .
+
+<https://vocab.ceda.ac.uk/collection/cci/sensor/sens_ahi> a skos:Concept,
+        cci:sensor ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/ahi> ;
+    skos:definition "Advanced Himawari Imager"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "AHI"@en ;
+    skos:scopeNote "Advanced Himawari Imager"@en ;
+    skos:topConceptOf cci-scheme:sensor ;
+    cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari8>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari9> .
 
 <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_amisar> a skos:Concept,
         cci:sensor ;
@@ -9315,10 +9312,10 @@ cci-scheme:sensor a skos:ConceptScheme ;
     rdfs:comment "This concept scheme represents the sensors used by the CCI project" ;
     owl:versionInfo "0.0.1" ;
     skos:definition "The sensors that have been used in the collection of the data for the ESA Climate Change Initiative (CCI)."@en ;
-    skos:hasTopConcept <https://vocab.ceda.ac.uk/collection/cci/sensor/sen_ahi>,
-        <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_aatsr>,
+    skos:hasTopConcept <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_aatsr>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_abi>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_aceFts>,
+        <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_ahi>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_airs>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_altika>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_amisar>,

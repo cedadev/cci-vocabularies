@@ -154,6 +154,7 @@
     skos:altLabel "LST"@en ;
     skos:definition "Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
     skos:inScheme cci-scheme:ecv ;
+    skos:narrower <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_lst> ;
     skos:prefLabel "land surface temperature"@en ;
     skos:scopeNote "Land Surface Temperature climate data record produced from satellite data as part of the European Space Agency (ESA) Climate Change Initiative (CCI)"@en ;
     skos:topConceptOf cci-scheme:ecv .

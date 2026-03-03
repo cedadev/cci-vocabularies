@@ -202,3 +202,5 @@ plat_meteor_3m`hasSensor`sens_sageIII`hasPlatform
 plat_iss_SAGEIII`hasSensor`sens_sageIII`hasPlatform
 plat_uars`hasSensor`sens_haloe`hasPlatform
 plat_terra`hasSensor`sens_mopitt`hasPlatform
+plat_himawari8`hasSensor`sens_ahi`hasPlatform
+plat_himawari9`hasSensor`sens_ahi`hasPlatform

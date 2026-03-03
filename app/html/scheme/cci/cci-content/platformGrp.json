@@ -1,5 +1,97 @@
 [
   {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#platformGrp",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "US Defense Meteorological Satellite Program"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D1"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "DMSP"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "US Defense Meteorological Satellite Program"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+      }
+    ]
+  },
+  {
+    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa",
+    "@type": [
+      "https://vocab.ceda.ac.uk/ontology/cci#platformGrp",
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "NASA NOAA Environmental satellite programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_3rd"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "NOAA"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@language": "en",
+        "@value": "NASA NOAA Environmental satellite programme"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp"
+      }
+    ]
+  },
+  {
     "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -57,10 +149,10 @@
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -71,102 +163,10 @@
     ]
   },
   {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#platformGrp"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "US Defense Meteorological Satellite Program"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D2"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D1"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_dmsp_5D3"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "DMSP"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "US Defense Meteorological Satellite Program"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp"
-      }
-    ]
-  },
-  {
-    "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#platformGrp"
-    ],
-    "http://www.w3.org/2004/02/skos/core#definition": [
-      {
-        "@language": "en",
-        "@value": "NASA NOAA Environmental satellite programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#narrower": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_3rd"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_5th"
-      },
-      {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_noaa_4th"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en",
-        "@value": "NOAA"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#scopeNote": [
-      {
-        "@language": "en",
-        "@value": "NASA NOAA Environmental satellite programme"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
-      {
-        "@id": "https://vocab.ceda.ac.uk/scheme/cci/platformGrp"
-      }
-    ]
-  },
-  {
     "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes",
     "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept",
-      "https://vocab.ceda.ac.uk/ontology/cci#platformGrp"
+      "https://vocab.ceda.ac.uk/ontology/cci#platformGrp",
+      "http://www.w3.org/2004/02/skos/core#Concept"
     ],
     "http://www.w3.org/2004/02/skos/core#definition": [
       {
@@ -181,13 +181,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#narrower": [
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_2nd"
-      },
-      {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_1st"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_3rd"
+      },
+      {
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformProg/plat_goes_2nd"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [

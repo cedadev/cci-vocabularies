@@ -285,6 +285,8 @@
     rdfs:seeAlso <https://space.oscar.wmo.int/satelliteprogrammes/view/himawari_3rd_generation> ;
     skos:definition "Himawari 3rd Generation programme"@en ;
     skos:inScheme cci-scheme:platformProg ;
+    skos:narrower <https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari8>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_himawari9> ;
     skos:prefLabel "Himawari 3rd Generation"@en ;
     skos:scopeNote "Himawari 3rd Generation programme"@en ;
     skos:topConceptOf cci-scheme:platformProg .

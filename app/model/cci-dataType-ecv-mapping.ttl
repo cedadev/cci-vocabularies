@@ -331,9 +331,9 @@ mapa:dtype_tcwv skos:broader mapb:cciecv_waterVapour .
 
 mapb:cciecv_waterVapour skos:narrower mapa:dtype_tcwv .
 
-mapa:dtype_lst skos:broader mapb:cciecv_lst .
+mapa:dtype_lst skos:broader mapb:cciecv_landSurfTemp .
 
-mapb:cciecv_lst skos:narrower mapa:dtype_lst .
+mapb:cciecv_landSurfTemp skos:narrower mapa:dtype_lst .
 
 mapa:dtype_pft skos:broader mapb:cciecv_landCov .
 

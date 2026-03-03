@@ -197,3 +197,12 @@ prod_viirs0`VIIRS0``VIIRS sensor onboard SNPP`
 prod_viirs1`VIIRS1``VIIRS sensor onboard NOAA-20`
 prod_iasiMopittLatmos1M`IASI_MOPITT_MERGED_LATMOS-180x360_1M```
 prod_slstrS3`SLSTR_S3```
+prod_avhr15`AVHR15-0.05deg_1DAILY```
+prod_avhr16`AVHR16-0.05deg_1DAILY```
+prod_avhr17`AVHR17-0.05deg_1DAILY```
+prod_avhr18`AVHR18-0.05deg_1DAILY```
+prod_avhr19`AVHR19-0.05deg_1DAILY```
+prod_mtsat0-05degMon`MTSAT1-0.05deg_1MONTHLY```
+prod_mtsat0-05deg`MTSAT1-0.05deg```
+prod_goes12_0-05`GOES12-0.05deg```
+prod_goes12_0-05Mon`GOES12-0.05deg_1MONTHLY```

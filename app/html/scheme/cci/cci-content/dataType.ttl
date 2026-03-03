@@ -464,7 +464,7 @@
         cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/land-surface-temperature> ;
     skos:altLabel "LST"@en ;
-    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_lst> ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_landSurfTemp> ;
     skos:definition "land surface temperature"@en ;
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "land surface temperature"@en ;
