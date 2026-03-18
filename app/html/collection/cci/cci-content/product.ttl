@@ -6,7 +6,7 @@
 
 cci-collection:product a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2026-03-03" ;
+    dc:date "2026-03-18" ;
     dc:description "The different products that are produced within the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -89,6 +89,10 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_amsr>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_amsr25E>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_amsr50E>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_anniIasiMerg>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_anniIasiMetA>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_anniIasiMetB>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_anniIasiMetC>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_atsr1>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_atsr2>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_atsr2Aatsr>,

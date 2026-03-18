@@ -81,7 +81,7 @@ dtype_swe`broader`cciecv_snow`narrower
 dtype_scfv`broader`cciecv_snow`narrower
 dtype_scfg`broader`cciecv_snow`narrower
 dtype_tcwv`broader`cciecv_waterVapour`narrower
-dtype_lst`broader`cciecv_lst`narrower
+dtype_lst`broader`cciecv_landSurfTemp`narrower
 dtype_pft`broader`cciecv_landCov`narrower
 dtype_uncert`broader`cciecv_landCov`narrower
 dtype_vp`broader`cciecv_vegParam`narrower

@@ -2253,3 +2253,43 @@ cci_product_coll: skos:member cci_product_concept:prod_goes12_0-05Mon .
 
 cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_goes12_0-05Mon .
 
+cci_product_concept:prod_anniIasiMerg a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "ANNI-IASI_MERGED"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_anniIasiMerg .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_anniIasiMerg .
+
+cci_product_concept:prod_anniIasiMetA a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "ANNI-IASI_METOPA"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_anniIasiMetA .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_anniIasiMetA .
+
+cci_product_concept:prod_anniIasiMetB a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "ANNI-IASI_METOPB"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_anniIasiMetB .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_anniIasiMetB .
+
+cci_product_concept:prod_anniIasiMetC a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "ANNI-IASI_METOPC"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_anniIasiMetC .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_anniIasiMetC .
+
