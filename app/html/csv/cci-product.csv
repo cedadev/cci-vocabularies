@@ -206,3 +206,7 @@ prod_mtsat0-05degMon`MTSAT1-0.05deg_1MONTHLY```
 prod_mtsat0-05deg`MTSAT1-0.05deg```
 prod_goes12_0-05`GOES12-0.05deg```
 prod_goes12_0-05Mon`GOES12-0.05deg_1MONTHLY```
+prod_anniIasiMerg`ANNI-IASI_MERGED```
+prod_anniIasiMetA`ANNI-IASI_METOPA```
+prod_anniIasiMetB`ANNI-IASI_METOPB```
+prod_anniIasiMetC`ANNI-IASI_METOPC```
