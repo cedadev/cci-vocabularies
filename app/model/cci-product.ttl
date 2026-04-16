@@ -2293,3 +2293,23 @@ cci_product_coll: skos:member cci_product_concept:prod_anniIasiMetC .
 
 cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_anniIasiMetC .
 
+cci_product_concept:prod_tropomiBira a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "TROPOMI_S5P_BIRA-1440x2880_1M"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_tropomiBira .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_tropomiBira .
+
+cci_product_concept:prod_tropomiKnmi a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "TROPOMI_KNMI-0900x1800_1M"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_tropomiKnmi .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_tropomiKnmi .
+
