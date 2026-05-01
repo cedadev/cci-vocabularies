@@ -350,6 +350,17 @@
     skos:scopeNote "ground temperature at a certain depth"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_hcho> a skos:Concept,
+        cci:dataType ;
+    rdfs:seeAlso <https://climate.esa.int/projects/precursors-for-aerosols-and-ozone/> ;
+    skos:altLabel "HCHO"@en ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_prec> ;
+    skos:definition "formaldehyde"@en ;
+    skos:inScheme cci-scheme:dataType ;
+    skos:prefLabel "formaldehyde"@en ;
+    skos:scopeNote "formaldehyde"@en ;
+    skos:topConceptOf cci-scheme:dataType .
+
 <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop> a skos:Concept,
         cci:dataType ;
     rdfs:seeAlso <https://climate.esa.int/projects/ocean-colour/> ;
@@ -568,6 +579,17 @@
     skos:inScheme cci-scheme:dataType ;
     skos:prefLabel "normalised water leaving radiance"@en ;
     skos:scopeNote "normalised water leaving radiance"@en ;
+    skos:topConceptOf cci-scheme:dataType .
+
+<https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_no2> a skos:Concept,
+        cci:dataType ;
+    rdfs:seeAlso <https://climate.esa.int/projects/precursors-for-aerosols-and-ozone/> ;
+    skos:altLabel "NO2"@en ;
+    skos:broader <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_prec> ;
+    skos:definition "nitrogen dioxide"@en ;
+    skos:inScheme cci-scheme:dataType ;
+    skos:prefLabel "nitrogen dioxide"@en ;
+    skos:scopeNote "nitrogen dioxide"@en ;
     skos:topConceptOf cci-scheme:dataType .
 
 <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np> a skos:Concept,
@@ -999,7 +1021,7 @@
 
 cci-scheme:dataType a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2026-04-16" ;
+    dc:date "2026-05-01" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -1038,6 +1060,7 @@ cci-scheme:dataType a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gll>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gmb>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_hcho>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp>,
@@ -1058,6 +1081,7 @@ cci-scheme:dataType a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ndvi>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nh3>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_nlw>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_no2>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_np>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ocProd>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_pfr>,

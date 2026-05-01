@@ -1284,3 +1284,31 @@ cci_dataType_coll: skos:member cci_dataType_concept:dtype_nh3 .
 
 cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_nh3 .
 
+cci_dataType_concept:dtype_no2 a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "nitrogen dioxide"@en ;
+    skos:altLabel "NO2"@en ;
+    skos:definition "nitrogen dioxide"@en ;
+    skos:scopeNote "nitrogen dioxide"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/precursors-for-aerosols-and-ozone/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_no2 .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_no2 .
+
+cci_dataType_concept:dtype_hcho a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "formaldehyde"@en ;
+    skos:altLabel "HCHO"@en ;
+    skos:definition "formaldehyde"@en ;
+    skos:scopeNote "formaldehyde"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/precursors-for-aerosols-and-ozone/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_hcho .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_hcho .
+

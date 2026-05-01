@@ -363,3 +363,11 @@ mapa:dtype_nh3 skos:broader mapb:cciecv_prec .
 
 mapb:cciecv_prec skos:narrower mapa:dtype_nh3 .
 
+mapa:dtype_no2 skos:broader mapb:cciecv_prec .
+
+mapb:cciecv_prec skos:narrower mapa:dtype_no2 .
+
+mapa:dtype_hcho skos:broader mapb:cciecv_prec .
+
+mapb:cciecv_prec skos:narrower mapa:dtype_hcho .
+
