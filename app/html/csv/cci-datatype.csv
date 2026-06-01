@@ -90,3 +90,5 @@ dtype_wl`water level`WL`water level`https://climate.esa.int/en/projects/river-di
 dtype_lcchange`land cover change`CHANGE`land cover change uncertainty maps`https://climate.esa.int/projects/high-resolution-land-cover`
 dtype_co`carbon monoxide`CO`carbon monoxide`https://climate.esa.int/projects/precursors-for-aerosols-and-ozone/`
 dtype_nh3`ammonia`NH3`ammonia`https://climate.esa.int/projects/precursors-for-aerosols-and-ozone/`
+dtype_no2`nitrogen dioxide`NO2`nitrogen dioxide`https://climate.esa.int/projects/precursors-for-aerosols-and-ozone/`
+dtype_hcho`formaldehyde`HCHO`formaldehyde`https://climate.esa.int/projects/precursors-for-aerosols-and-ozone/`

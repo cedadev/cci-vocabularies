@@ -89,3 +89,5 @@ dtype_wl`broader`cciecv_riverDischarge`narrower
 dtype_lcchange`broader`cciecv_landCov`narrower
 dtype_co`broader`cciecv_prec`narrower
 dtype_nh3`broader`cciecv_prec`narrower
+dtype_no2`broader`cciecv_prec`narrower
+dtype_hcho`broader`cciecv_prec`narrower

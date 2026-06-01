@@ -2313,3 +2313,15 @@ cci_product_coll: skos:member cci_product_concept:prod_tropomiKnmi .
 
 cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_tropomiKnmi .
 
+cci_product_concept:prod_mrHar a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "mr_har"@en ;
+    skos:definition "medirum resolution harmonised product from Fire_cci"@en ;
+    skos:scopeNote "medirum resolution harmonised product from Fire_cci"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_mrHar .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_mrHar .
+

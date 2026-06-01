@@ -7,19 +7,19 @@
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
   <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/platformGrp">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-    <rdfs:comment>This collection represents the platform groups used by the CCI project</rdfs:comment>
-    <dc:date>2026-05-01</dc:date>
+    <dc:date>2026-06-01</dc:date>
     <dc:description>The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI).</dc:description>
-    <skos:prefLabel xml:lang="en">Platform Group</skos:prefLabel>
     <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
+    <dc:title>Platform Group</dc:title>
+    <skos:prefLabel xml:lang="en">Platform Group</skos:prefLabel>
+    <skos:definition xml:lang="en">The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI).</skos:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
     <dc:creator>Science and Technology Facilities Council</dc:creator>
     <dc:publisher xml:lang="en">STFC</dc:publisher>
-    <dc:title>Platform Group</dc:title>
-    <skos:definition xml:lang="en">The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI).</skos:definition>
     <owl:versionInfo>0.0.1</owl:versionInfo>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"/>
+    <rdfs:comment>This collection represents the platform groups used by the CCI project</rdfs:comment>
     <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"/>
     <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"/>
   </rdf:Description>
 </rdf:RDF>
