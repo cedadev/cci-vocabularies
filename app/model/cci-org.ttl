@@ -1260,3 +1260,24 @@ cci_org_coll: skos:member cci_org_concept:org110 .
 
 cci_org_scheme: skos:hasTopConcept cci_org_concept:org110 .
 
+cci_org_concept:org111 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "Institut Français pour la Recherche et l Exploitation de la MER, Laboratoire d'Océanographie Physique et Spatiale"@en ;
+    skos:altLabel "IFREMER-LOPS"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org111 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org111 .
+
+cci_org_concept:org112 a skos:Concept, cci_ontology:org;
+    skos:inScheme cci_org_scheme: ;
+    skos:prefLabel "University of Hawaii"@en ;
+    skos:topConceptOf cci_org_scheme: ;
+.
+
+cci_org_coll: skos:member cci_org_concept:org112 .
+
+cci_org_scheme: skos:hasTopConcept cci_org_concept:org112 .
+

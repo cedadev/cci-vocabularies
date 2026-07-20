@@ -6,7 +6,7 @@
 
 cci-collection:product a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2026-06-01" ;
+    dc:date "2026-07-20" ;
     dc:description "The different products that are produced within the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -147,6 +147,7 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_goes12_0-05>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_goes12_0-05Mon>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gomEn>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_gomeBira0180x03601M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gosat>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_iasDLRImars>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_iasiLMDaero>,
@@ -191,6 +192,12 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_nimEsmrSH>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_ocfp>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_ocpr>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_omi0091x0144>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_omi0180x0360>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_omi0360x0720>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_omi0900x1800>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_omiBira0720x14401D>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_omiBira1440x28001M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_opera>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_orac>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_osOd>,
@@ -199,6 +206,15 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_passive>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_reSSMINH>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_reSSMISH>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1aEw>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1aQUACH>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1aSarWVdlr>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bEw>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bQUACH>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bSarWVdlr>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3_A>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3_B>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s6>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_sAust>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_saral>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_sciam>,
@@ -220,6 +236,7 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_tcwvLand005>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_tcwvLand05>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_topexPos>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_tropemiBira0720x14401D>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_tropomiBira>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_tropomiKnmi>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_unspecified>,

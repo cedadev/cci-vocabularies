@@ -371,3 +371,11 @@ mapa:dtype_hcho skos:broader mapb:cciecv_prec .
 
 mapb:cciecv_prec skos:narrower mapa:dtype_hcho .
 
+mapa:dtype_issp skos:broader mapb:cciecv_seaState .
+
+mapb:cciecv_seaState skos:narrower mapa:dtype_issp .
+
+mapa:dtype_so2 skos:broader mapb:cciecv_prec .
+
+mapb:cciecv_prec skos:narrower mapa:dtype_so2 .
+

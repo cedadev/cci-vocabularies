@@ -892,6 +892,7 @@ cci_sensor_scheme: skos:hasTopConcept cci_sensor_concept:sens_hirs4 .
 cci_sensor_concept:sens_sarcS1 a skos:Concept, cci_ontology:sensor;
     skos:inScheme cci_sensor_scheme: ;
     skos:prefLabel "SAR-C (Sentinel-1)"@en ;
+    skos:altLabel "SAR-C"@en ;
     skos:definition "Synthetic Aperture Radar (C-band)"@en ;
     skos:scopeNote "Synthetic Aperture Radar (C-band)"@en ;
     rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/450> ;

@@ -910,6 +910,12 @@
     skos:prefLabel "GOMOS_ENVISAT"@en ;
     skos:topConceptOf cci-scheme:product .
 
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_gomeBira0180x03601M> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "GOME_ERS2_BIRA-0180x0360_1M"@en ;
+    skos:topConceptOf cci-scheme:product .
+
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_gosat> a skos:Concept,
         cci:product ;
     skos:inScheme cci-scheme:product ;
@@ -1208,6 +1214,42 @@
     skos:scopeNote "Data from the GHG OCPR algorithm"@en ;
     skos:topConceptOf cci-scheme:product .
 
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_omi0091x0144> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "AURA_OMI_KNMI-0091x0144_1M"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_omi0180x0360> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "AURA_OMI_KNMI-0180x0360_1M"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_omi0360x0720> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "AURA_OMI_KNMI-0360x0720_1M"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_omi0900x1800> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "AURA_OMI_KNMI-0900x1800_1M"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_omiBira0720x14401D> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "OMI_AURA_BIRA-0720x1440_1D"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_omiBira1440x28001M> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "OMI_AURA_BIRA-1440x2880_1M"@en ;
+    skos:topConceptOf cci-scheme:product .
+
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_opera> a skos:Concept,
         cci:product ;
     skos:definition "Data from OPERA analysis"@en ;
@@ -1258,6 +1300,62 @@
         cci:product ;
     skos:inScheme cci-scheme:product ;
     skos:prefLabel "RE_SSMI_12.5kmEASE2-SH"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s1aEw> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "S1A_EW"@en,
+        "S1A_IW"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s1aQUACH> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "Sentinel-1A-QUACH2020_v3.2"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s1aSarWVdlr> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "Sentinel-1A_SARWV-DLR2021.1"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bEw> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "S1B_EW"@en,
+        "S1B_IW"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bQUACH> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "Sentinel-1B-QUACH2020_v3.3"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bSarWVdlr> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "Sentinel-1B_SARWV-DLR2021.2"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s3_A> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "Sentinel-3_A"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s3_B> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "Sentinel-3_B"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s6> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "Sentinel-6_A"@en ;
     skos:topConceptOf cci-scheme:product .
 
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_sAust> a skos:Concept,
@@ -1404,6 +1502,12 @@
     skos:prefLabel "Topex-Poseidon"@en ;
     skos:topConceptOf cci-scheme:product .
 
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_tropemiBira0720x14401D> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "TROPOMI_S5P_BIRA-0720x1440_1D"@en ;
+    skos:topConceptOf cci-scheme:product .
+
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_tropomiBira> a skos:Concept,
         cci:product ;
     skos:inScheme cci-scheme:product ;
@@ -1464,7 +1568,7 @@
 
 cci-scheme:product a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2026-06-01" ;
+    dc:date "2026-07-20" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -1605,6 +1709,7 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_goes12_0-05>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_goes12_0-05Mon>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gomEn>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_gomeBira0180x03601M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gosat>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_iasDLRImars>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_iasiLMDaero>,
@@ -1649,6 +1754,12 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_nimEsmrSH>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_ocfp>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_ocpr>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_omi0091x0144>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_omi0180x0360>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_omi0360x0720>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_omi0900x1800>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_omiBira0720x14401D>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_omiBira1440x28001M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_opera>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_orac>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_osOd>,
@@ -1657,6 +1768,15 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_passive>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_reSSMINH>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_reSSMISH>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1aEw>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1aQUACH>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1aSarWVdlr>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bEw>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bQUACH>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bSarWVdlr>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3_A>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3_B>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s6>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_sAust>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_saral>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_sciam>,
@@ -1678,6 +1798,7 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_tcwvLand005>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_tcwvLand05>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_topexPos>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_tropemiBira0720x14401D>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_tropomiBira>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_tropomiKnmi>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_unspecified>,

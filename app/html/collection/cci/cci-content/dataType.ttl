@@ -6,7 +6,7 @@
 
 cci-collection:dataType a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2026-06-01" ;
+    dc:date "2026-07-20" ;
     dc:description "The main data type in a data set used by the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -47,6 +47,7 @@ cci-collection:dataType a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_gtd>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_hcho>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iop>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_issp>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iv>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_iwp>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_jch>,
@@ -80,6 +81,7 @@ cci-collection:dataType a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sit>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sla>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_snow>,
+        <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_so2>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_sr>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssh>,
         <https://vocab.ceda.ac.uk/collection/cci/dataType/dtype_ssms>,

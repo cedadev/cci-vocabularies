@@ -1312,3 +1312,31 @@ cci_dataType_coll: skos:member cci_dataType_concept:dtype_hcho .
 
 cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_hcho .
 
+cci_dataType_concept:dtype_so2 a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "sulphur dioxide"@en ;
+    skos:altLabel "SO2"@en ;
+    skos:definition "sulphur dioxide"@en ;
+    skos:scopeNote "sulphur dioxide"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/precursors-for-aerosols-and-ozone/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_so2 .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_so2 .
+
+cci_dataType_concept:dtype_issp a skos:Concept, cci_ontology:dataType;
+    skos:inScheme cci_dataType_scheme: ;
+    skos:prefLabel "integrated sea state parameters"@en ;
+    skos:altLabel "ISSP"@en ;
+    skos:definition "integrated sea state parameters"@en ;
+    skos:scopeNote "integrated sea state parameters"@en ;
+    rdfs:seeAlso <https://climate.esa.int/projects/sea-state/> ;
+    skos:topConceptOf cci_dataType_scheme: ;
+.
+
+cci_dataType_coll: skos:member cci_dataType_concept:dtype_issp .
+
+cci_dataType_scheme: skos:hasTopConcept cci_dataType_concept:dtype_issp .
+

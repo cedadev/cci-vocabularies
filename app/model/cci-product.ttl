@@ -2325,3 +2325,193 @@ cci_product_coll: skos:member cci_product_concept:prod_mrHar .
 
 cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_mrHar .
 
+cci_product_concept:prod_s1aEw a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "S1A_EW"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_s1aEw .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s1aEw .
+
+cci_product_concept:prod_s1bEw a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "S1B_EW"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_s1bEw .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s1bEw .
+
+cci_product_concept:prod_s1aSarWVdlr a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "Sentinel-1A_SARWV-DLR2021.1"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_s1aSarWVdlr .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s1aSarWVdlr .
+
+cci_product_concept:prod_s1bSarWVdlr a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "Sentinel-1B_SARWV-DLR2021.2"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_s1bSarWVdlr .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s1bSarWVdlr .
+
+cci_product_concept:prod_s1aQUACH a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "Sentinel-1A-QUACH2020_v3.2"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_s1aQUACH .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s1aQUACH .
+
+cci_product_concept:prod_s1bQUACH a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "Sentinel-1B-QUACH2020_v3.3"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_s1bQUACH .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s1bQUACH .
+
+cci_product_concept:prod_s1aEw a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "S1A_IW"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_s1aEw .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s1aEw .
+
+cci_product_concept:prod_s1bEw a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "S1B_IW"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_s1bEw .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s1bEw .
+
+cci_product_concept:prod_s3_A a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "Sentinel-3_A"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_s3_A .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s3_A .
+
+cci_product_concept:prod_s3_B a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "Sentinel-3_B"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_s3_B .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s3_B .
+
+cci_product_concept:prod_s6 a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "Sentinel-6_A"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_s6 .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s6 .
+
+cci_product_concept:prod_omi0900x1800 a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "AURA_OMI_KNMI-0900x1800_1M"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_omi0900x1800 .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_omi0900x1800 .
+
+cci_product_concept:prod_omi0360x0720 a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "AURA_OMI_KNMI-0360x0720_1M"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_omi0360x0720 .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_omi0360x0720 .
+
+cci_product_concept:prod_omi0180x0360 a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "AURA_OMI_KNMI-0180x0360_1M"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_omi0180x0360 .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_omi0180x0360 .
+
+cci_product_concept:prod_omi0091x0144 a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "AURA_OMI_KNMI-0091x0144_1M"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_omi0091x0144 .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_omi0091x0144 .
+
+cci_product_concept:prod_tropemiBira0720x14401D a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "TROPOMI_S5P_BIRA-0720x1440_1D"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_tropemiBira0720x14401D .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_tropemiBira0720x14401D .
+
+cci_product_concept:prod_gomeBira0180x03601M a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "GOME_ERS2_BIRA-0180x0360_1M"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_gomeBira0180x03601M .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_gomeBira0180x03601M .
+
+cci_product_concept:prod_omiBira0720x14401D a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "OMI_AURA_BIRA-0720x1440_1D"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_omiBira0720x14401D .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_omiBira0720x14401D .
+
+cci_product_concept:prod_omiBira1440x28001M a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "OMI_AURA_BIRA-1440x2880_1M"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_omiBira1440x28001M .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_omiBira1440x28001M .
+
