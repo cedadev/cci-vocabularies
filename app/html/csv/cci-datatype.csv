@@ -92,3 +92,5 @@ dtype_co`carbon monoxide`CO`carbon monoxide`https://climate.esa.int/projects/pre
 dtype_nh3`ammonia`NH3`ammonia`https://climate.esa.int/projects/precursors-for-aerosols-and-ozone/`
 dtype_no2`nitrogen dioxide`NO2`nitrogen dioxide`https://climate.esa.int/projects/precursors-for-aerosols-and-ozone/`
 dtype_hcho`formaldehyde`HCHO`formaldehyde`https://climate.esa.int/projects/precursors-for-aerosols-and-ozone/`
+dtype_so2`sulphur dioxide`SO2`sulphur dioxide`https://climate.esa.int/projects/precursors-for-aerosols-and-ozone/`
+dtype_issp`integrated sea state parameters`ISSP`integrated sea state parameters`https://climate.esa.int/projects/sea-state/`

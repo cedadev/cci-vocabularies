@@ -2385,25 +2385,25 @@ cci_product_coll: skos:member cci_product_concept:prod_s1bQUACH .
 
 cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s1bQUACH .
 
-cci_product_concept:prod_s1aEw a skos:Concept, cci_ontology:product;
+cci_product_concept:prod_s1aIw a skos:Concept, cci_ontology:product;
     skos:inScheme cci_product_scheme: ;
     skos:prefLabel "S1A_IW"@en ;
     skos:topConceptOf cci_product_scheme: ;
 .
 
-cci_product_coll: skos:member cci_product_concept:prod_s1aEw .
+cci_product_coll: skos:member cci_product_concept:prod_s1aIw .
 
-cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s1aEw .
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s1aIw .
 
-cci_product_concept:prod_s1bEw a skos:Concept, cci_ontology:product;
+cci_product_concept:prod_s1bIw a skos:Concept, cci_ontology:product;
     skos:inScheme cci_product_scheme: ;
     skos:prefLabel "S1B_IW"@en ;
     skos:topConceptOf cci_product_scheme: ;
 .
 
-cci_product_coll: skos:member cci_product_concept:prod_s1bEw .
+cci_product_coll: skos:member cci_product_concept:prod_s1bIw .
 
-cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s1bEw .
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s1bIw .
 
 cci_product_concept:prod_s3_A a skos:Concept, cci_ontology:product;
     skos:inScheme cci_product_scheme: ;

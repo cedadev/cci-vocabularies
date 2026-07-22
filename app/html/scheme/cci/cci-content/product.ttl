@@ -1305,8 +1305,13 @@
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1aEw> a skos:Concept,
         cci:product ;
     skos:inScheme cci-scheme:product ;
-    skos:prefLabel "S1A_EW"@en,
-        "S1A_IW"@en ;
+    skos:prefLabel "S1A_EW"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s1aIw> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "S1A_IW"@en ;
     skos:topConceptOf cci-scheme:product .
 
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1aQUACH> a skos:Concept,
@@ -1324,8 +1329,13 @@
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bEw> a skos:Concept,
         cci:product ;
     skos:inScheme cci-scheme:product ;
-    skos:prefLabel "S1B_EW"@en,
-        "S1B_IW"@en ;
+    skos:prefLabel "S1B_EW"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bIw> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "S1B_IW"@en ;
     skos:topConceptOf cci-scheme:product .
 
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bQUACH> a skos:Concept,
@@ -1568,7 +1578,7 @@
 
 cci-scheme:product a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2026-07-20" ;
+    dc:date "2026-07-22" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -1769,9 +1779,11 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_reSSMINH>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_reSSMISH>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1aEw>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1aIw>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1aQUACH>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1aSarWVdlr>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bEw>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bIw>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bQUACH>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bSarWVdlr>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3_A>,

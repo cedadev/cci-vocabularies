@@ -91,3 +91,5 @@ dtype_co`broader`cciecv_prec`narrower
 dtype_nh3`broader`cciecv_prec`narrower
 dtype_no2`broader`cciecv_prec`narrower
 dtype_hcho`broader`cciecv_prec`narrower
+dtype_issp`broader`cciecv_seaState`narrower
+dtype_so2`broader`cciecv_prec`narrower

@@ -66,7 +66,7 @@ sens_hirs`HIRS``High-Resolution Infra-Red Sounder`https://www.wmo-sat.info/oscar
 sens_hirs2`HIRS/2``High-Resolution Infra-Red Sounder / 2`https://www.wmo-sat.info/oscar/instruments/view/182
 sens_hirs3`HIRS/3``High-Resolution Infra-Red Sounder / 3`https://www.wmo-sat.info/oscar/instruments/view/183
 sens_hirs4`HIRS/4``High-Resolution Infra-Red Sounder /4`https://www.wmo-sat.info/oscar/instruments/view/184
-sens_sarcS1`SAR-C (Sentinel-1)``Synthetic Aperture Radar (C-band)`https://www.wmo-sat.info/oscar/instruments/view/450
+sens_sarcS1`SAR-C (Sentinel-1)`SAR-C`Synthetic Aperture Radar (C-band)`https://www.wmo-sat.info/oscar/instruments/view/450
 sens_vegetationP`Végétation-P`Vegetation-P`Végétation for PROBA`https://www.wmo-sat.info/oscar/instruments/view/961
 sens_msi`MSI (Sentinel-2)`MSI`Multi-Spectral Instrument (Sentinel-2)`https://www.wmo-sat.info/oscar/instruments/view/312
 sens_smap`SMAP``Soil Moisture Active-Passive (intended as payload)`https://www.wmo-sat.info/oscar/instruments/view/521
