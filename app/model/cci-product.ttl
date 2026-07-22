@@ -2357,7 +2357,7 @@ cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s1aSarWVdlr .
 
 cci_product_concept:prod_s1bSarWVdlr a skos:Concept, cci_ontology:product;
     skos:inScheme cci_product_scheme: ;
-    skos:prefLabel "Sentinel-1B_SARWV-DLR2021.2"@en ;
+    skos:prefLabel "Sentinel-1B_SARWV-DLR2021.1"@en ;
     skos:topConceptOf cci_product_scheme: ;
 .
 
@@ -2377,7 +2377,7 @@ cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s1aQUACH .
 
 cci_product_concept:prod_s1bQUACH a skos:Concept, cci_ontology:product;
     skos:inScheme cci_product_scheme: ;
-    skos:prefLabel "Sentinel-1B-QUACH2020_v3.3"@en ;
+    skos:prefLabel "Sentinel-1B-QUACH2020_v3.2"@en ;
     skos:topConceptOf cci_product_scheme: ;
 .
 

@@ -219,8 +219,8 @@ prod_s1aSarWVdlr`Sentinel-1A_SARWV-DLR2021.1```
 prod_s1bSarWVdlr`Sentinel-1B_SARWV-DLR2021.2```
 prod_s1aQUACH`Sentinel-1A-QUACH2020_v3.2```
 prod_s1bQUACH`Sentinel-1B-QUACH2020_v3.3```
-prod_s1aEw`S1A_IW```
-prod_s1bEw`S1B_IW```
+prod_s1aIw`S1A_IW```
+prod_s1bIw`S1B_IW```
 prod_s3_A`Sentinel-3_A```
 prod_s3_B`Sentinel-3_B```
 prod_s6`Sentinel-6_A```

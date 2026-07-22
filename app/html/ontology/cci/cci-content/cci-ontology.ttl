@@ -3348,13 +3348,13 @@ cci-collection:sensor a skos:Collection ;
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bQUACH> a skos:Concept,
         cci:product ;
     skos:inScheme cci-scheme:product ;
-    skos:prefLabel "Sentinel-1B-QUACH2020_v3.3"@en ;
+    skos:prefLabel "Sentinel-1B-QUACH2020_v3.2"@en ;
     skos:topConceptOf cci-scheme:product .
 
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bSarWVdlr> a skos:Concept,
         cci:product ;
     skos:inScheme cci-scheme:product ;
-    skos:prefLabel "Sentinel-1B_SARWV-DLR2021.2"@en ;
+    skos:prefLabel "Sentinel-1B_SARWV-DLR2021.1"@en ;
     skos:topConceptOf cci-scheme:product .
 
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3_A> a skos:Concept,
