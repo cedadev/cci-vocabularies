@@ -2,9 +2,9 @@
 
 Representation of ESA CCI vocabularies in SKOS and OWL
 
-**Latest Update 30/05/2025** This repository is now `pre-built` before being updated in rancher. To update this repository, make any changes to data files as normal, then run the `cci-vocab` command. This will auto-generate all necessary static webpages based on your changes. You can then recommit the `app/` folder which contains those newly built files, as well as your other changes. Once these changes have all been committed, the repository can be redeployed on the Kubernetes staging cluster by going to `gitlab.ceda.ac.uk/cedadev/cci-vocab-server` and updating the commit hash used by the Dockerfile.
+**Latest Update 22/07/2026** This repository now serves content which is pulled directly into the deployed pods on Rancher or OTC. To update the content served in the pods, make any changes to data files as normal, then run the `cci-vocab` command. This will auto-generate all necessary static webpages based on your changes. You can then recommit the `app/` folder which contains those newly built files, as well as your other changes. Once these changes have all been committed and exist on the `master` branch, the command to update the individual pods on Rancher can be implemented. See the OTC helm charts repo on the CEDA gitlab for details.
 
-Alternatively for a more standardised deployment regiment, create a git release at `github.com/cedadev/cci-vocabularies`, following the format vX.Y.Z where:
+For a more standardised deployment regiment, create a git release at `github.com/cedadev/cci-vocabularies`, following the format vX.Y.Z where:
 - Z is for small bug fixes/typos/syntax issues
 - Y is for added content (new entries in spreadsheets etc.)
 - X is for 'version-breaking' changes, eg the addition of a brand new facet or a whole new page of links.
