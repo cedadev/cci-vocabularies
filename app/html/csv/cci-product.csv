@@ -216,11 +216,11 @@ prod_mrHar`mr_har``medirum resolution harmonised product from Fire_cci`
 prod_s1aEw`S1A_EW```
 prod_s1bEw`S1B_EW```
 prod_s1aSarWVdlr`Sentinel-1A_SARWV-DLR2021.1```
-prod_s1bSarWVdlr`Sentinel-1B_SARWV-DLR2021.2```
+prod_s1bSarWVdlr`Sentinel-1B_SARWV-DLR2021.1```
 prod_s1aQUACH`Sentinel-1A-QUACH2020_v3.2```
-prod_s1bQUACH`Sentinel-1B-QUACH2020_v3.3```
-prod_s1aIw`S1A_IW```
-prod_s1bIw`S1B_IW```
+prod_s1bQUACH`Sentinel-1B-QUACH2020_v3.2```
+prod_s1aEw`S1A_IW```
+prod_s1bEw`S1B_IW```
 prod_s3_A`Sentinel-3_A```
 prod_s3_B`Sentinel-3_B```
 prod_s6`Sentinel-6_A```
@@ -232,3 +232,11 @@ prod_tropemiBira0720x14401D`TROPOMI_S5P_BIRA-0720x1440_1D```
 prod_gomeBira0180x03601M`GOME_ERS2_BIRA-0180x0360_1M```
 prod_omiBira0720x14401D`OMI_AURA_BIRA-0720x1440_1D```
 prod_omiBira1440x28001M`OMI_AURA_BIRA-1440x2880_1M```
+prod_ers2Gome1DLR0180x03601M`ERS2_GOME1_DLR-0180x0360_1M```
+prod_ers2Gome1DLR0360x07201M`ERS2_GOME1_DLR-0360x0720_1M```
+prod_envisatSciaDLR0180x03601M`ENVISAT_SCIAMACHY_DLR-0180x0360_1M```
+prod_envisatSciaDLR0360x07201M`ENVISAT_SCIAMACHY_DLR-0360x0720_1M```
+prod_s5pTropomiKnmi0900x18001M`S5P_TROPOMI_KNMI-0900x1800_1M```
+prod_s5pTropomiKnmi0180x03601M`S5P_TROPOMI_KNMI-0180x0360_1M```
+prod_s5pTropomiKnmi0360x07201M`S5P_TROPOMI_KNMI-0360x0720_1M```
+prod_s5pTropomiKnmi0091x01441M`S5P_TROPOMI_KNMI-0091x0144_1M```

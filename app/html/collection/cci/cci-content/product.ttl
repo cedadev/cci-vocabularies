@@ -6,7 +6,7 @@
 
 cci-collection:product a skos:Collection ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2026-07-22" ;
+    dc:date "2026-08-19" ;
     dc:description "The different products that are produced within the ESA Climate Change Initiative (CCI)." ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -137,9 +137,13 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_combAdj>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_emma>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_envisat>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_envisatSciaDLR0180x03601M>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_envisatSciaDLR0360x07201M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_eraModBias>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_ers1>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_ers2>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_ers2Gome1DLR0180x03601M>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_ers2Gome1DLR0360x07201M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_focal>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gfo>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gmp>,
@@ -216,6 +220,10 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bSarWVdlr>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3_A>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3_B>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0091x01441M>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0180x03601M>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0360x07201M>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0900x18001M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s6>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_sAust>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_saral>,

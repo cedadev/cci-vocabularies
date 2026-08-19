@@ -846,6 +846,18 @@
     skos:prefLabel "Envisat"@en ;
     skos:topConceptOf cci-scheme:product .
 
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_envisatSciaDLR0180x03601M> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "ENVISAT_SCIAMACHY_DLR-0180x0360_1M"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_envisatSciaDLR0360x07201M> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "ENVISAT_SCIAMACHY_DLR-0360x0720_1M"@en ;
+    skos:topConceptOf cci-scheme:product .
+
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_eraModBias> a skos:Concept,
         cci:product ;
     skos:definition "Permafrost dataset"@en ;
@@ -864,6 +876,18 @@
         cci:product ;
     skos:inScheme cci-scheme:product ;
     skos:prefLabel "ERS-2"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_ers2Gome1DLR0180x03601M> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "ERS2_GOME1_DLR-0180x0360_1M"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_ers2Gome1DLR0360x07201M> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "ERS2_GOME1_DLR-0360x0720_1M"@en ;
     skos:topConceptOf cci-scheme:product .
 
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_focal> a skos:Concept,
@@ -1362,6 +1386,30 @@
     skos:prefLabel "Sentinel-3_B"@en ;
     skos:topConceptOf cci-scheme:product .
 
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0091x01441M> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "S5P_TROPOMI_KNMI-0091x0144_1M"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0180x03601M> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "S5P_TROPOMI_KNMI-0180x0360_1M"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0360x07201M> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "S5P_TROPOMI_KNMI-0360x0720_1M"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0900x18001M> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "S5P_TROPOMI_KNMI-0900x1800_1M"@en ;
+    skos:topConceptOf cci-scheme:product .
+
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_s6> a skos:Concept,
         cci:product ;
     skos:inScheme cci-scheme:product ;
@@ -1578,7 +1626,7 @@
 
 cci-scheme:product a skos:ConceptScheme ;
     dc:creator "Science and Technology Facilities Council" ;
-    dc:date "2026-07-22" ;
+    dc:date "2026-08-19" ;
     dc:description "<p>The CCI concept schemes are used to define concepts within an element of a Directory Reference Scheme. There are currently 11 concept schemes defined: <a href=../dataType>data type</a>, <a href=..//ecv>ecv</a>, <a href=../scheme/cci/freq>frequency</a>, <a href=../org>institutes</a>, <a href=../platform>platforms</a>, <a href=../platformGrp>platform groups</a>, <a href=../platformProg>platform programmes</a>, <a href=../procLev>processing levels</a>, <a href=../product>products</a>, <a href=../project>projects</a>,  and <a href=../sensor>sensors</a>. The use of a concept scheme allows easy navigation up and down the tree.</p><p>As well as being concepts, all of the concepts are also named individuals of the <a href=../../../ontology/cci>CCI Ontology</a> classes.</p>" ;
     dc:publisher "STFC"@en ;
     dc:rights "This work is licensed under a BSD license."@en ;
@@ -1709,9 +1757,13 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_combAdj>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_emma>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_envisat>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_envisatSciaDLR0180x03601M>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_envisatSciaDLR0360x07201M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_eraModBias>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_ers1>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_ers2>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_ers2Gome1DLR0180x03601M>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_ers2Gome1DLR0360x07201M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_focal>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gfo>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gmp>,
@@ -1788,6 +1840,10 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bSarWVdlr>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3_A>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3_B>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0091x01441M>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0180x03601M>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0360x07201M>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0900x18001M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s6>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_sAust>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_saral>,
