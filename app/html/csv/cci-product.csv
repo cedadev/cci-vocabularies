@@ -240,3 +240,13 @@ prod_s5pTropomiKnmi0900x18001M`S5P_TROPOMI_KNMI-0900x1800_1M```
 prod_s5pTropomiKnmi0180x03601M`S5P_TROPOMI_KNMI-0180x0360_1M```
 prod_s5pTropomiKnmi0360x07201M`S5P_TROPOMI_KNMI-0360x0720_1M```
 prod_s5pTropomiKnmi0091x01441M`S5P_TROPOMI_KNMI-0091x0144_1M```
+prod_goes1213Mon`GOES12_13-0.05deg```
+prod_goes1213`GOES12_13-0.05deg_1MONTHLY```
+prod_goes16`GOES16-0.05deg```
+prod_goes16Mon`GOES16-0.05deg_1MONTHLY```
+prod_mtsatMon`MTSAT1_2-0.05deg_1MONTHLY```
+prod_mtsat`MTSAT1_2-0.05deg```
+prod_hmwr8Mon`HMWR8-0.05deg_1MONTHLY```
+prod_hmwr8`HMWR8-0.05deg```
+prod_hmwr9Mon`HMWR9-0.05deg_1MONTHLY```
+prod_hmwr9Mon`HMWR9-0.05deg```

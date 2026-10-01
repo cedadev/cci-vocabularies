@@ -2685,13 +2685,13 @@ cci_product_coll: skos:member cci_product_concept:prod_hmwr9Mon .
 
 cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_hmwr9Mon .
 
-cci_product_concept:prod_hmwr9Mon a skos:Concept, cci_ontology:product;
+cci_product_concept:prod_hmwr9 a skos:Concept, cci_ontology:product;
     skos:inScheme cci_product_scheme: ;
     skos:prefLabel "HMWR9-0.05deg"@en ;
     skos:topConceptOf cci_product_scheme: ;
 .
 
-cci_product_coll: skos:member cci_product_concept:prod_hmwr9Mon .
+cci_product_coll: skos:member cci_product_concept:prod_hmwr9 .
 
-cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_hmwr9Mon .
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_hmwr9 .
 

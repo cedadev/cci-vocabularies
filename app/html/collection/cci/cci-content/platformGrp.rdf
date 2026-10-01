@@ -7,19 +7,19 @@
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
   <rdf:Description rdf:about="https://vocab.ceda.ac.uk/collection/cci/platformGrp">
-    <dc:title>Platform Group</dc:title>
-    <owl:versionInfo>0.0.1</owl:versionInfo>
-    <dc:description>The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI).</dc:description>
-    <dc:creator>Science and Technology Facilities Council</dc:creator>
-    <dc:date>2026-09-30</dc:date>
-    <rdfs:comment>This collection represents the platform groups used by the CCI project</rdfs:comment>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
-    <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
     <skos:prefLabel xml:lang="en">Platform Group</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+    <dc:date>2026-10-01</dc:date>
     <skos:definition xml:lang="en">The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI).</skos:definition>
+    <owl:versionInfo>0.0.1</owl:versionInfo>
     <dc:publisher xml:lang="en">STFC</dc:publisher>
-    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"/>
+    <dc:description>The platform groups that have been used in the collection of data for the ESA Climate Change Initiative (CCI).</dc:description>
+    <dc:title>Platform Group</dc:title>
+    <dc:rights xml:lang="en">This work is licensed under a BSD license.</dc:rights>
+    <dc:creator>Science and Technology Facilities Council</dc:creator>
+    <rdfs:comment>This collection represents the platform groups used by the CCI project</rdfs:comment>
     <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"/>
+    <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"/>
     <skos:member rdf:resource="https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"/>
   </rdf:Description>
 </rdf:RDF>
