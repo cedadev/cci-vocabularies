@@ -2323,3 +2323,81 @@ cci_platform_coll: skos:member cci_platform_concept:plat_himawari9 .
 
 cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_himawari9 .
 
+cci_platform_concept:plat_sentinel1c a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Sentinel-1C"@en ;
+    skos:definition "Sentinel 1 programme, 3rd flight"@en ;
+    skos:scopeNote "Sentinel 1 programme, 3rd flight"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_1c> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_sentinel1c .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sentinel1c .
+
+cci_platform_concept:plat_sentinel1d a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Sentinel-1D"@en ;
+    skos:definition "Sentinel 1 programme, 4th flight"@en ;
+    skos:scopeNote "Sentinel 1 programme, 4th flight"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_1d> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_sentinel1d .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sentinel1d .
+
+cci_platform_concept:plat_sentinel2c a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Sentinel-2C"@en ;
+    skos:definition "Sentinel 2 programme, 3rd flight"@en ;
+    skos:scopeNote "Sentinel 2 programme, 3rd flight"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_2c> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_sentinel2c .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sentinel2c .
+
+cci_platform_concept:plat_sentinel2d a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Sentinel-2D"@en ;
+    skos:definition "Sentinel 2 programme, 4th flight"@en ;
+    skos:scopeNote "Sentinel 2 programme, 4th flight"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_2d> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_sentinel2d .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sentinel2d .
+
+cci_platform_concept:plat_sentinel3c a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Sentinel-3C"@en ;
+    skos:definition "Sentinel 3 programme, 3rd flight"@en ;
+    skos:scopeNote "Sentinel 3 programme, 3rd flight"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_3c> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_sentinel3c .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sentinel3c .
+
+cci_platform_concept:plat_sentinel3d a skos:Concept, cci_ontology:platform;
+    skos:inScheme cci_platform_scheme: ;
+    skos:prefLabel "Sentinel-3D"@en ;
+    skos:definition "Sentinel 3 programme, 4th flight"@en ;
+    skos:scopeNote "Sentinel 3 programme, 4th flight"@en ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_3d> ;
+    skos:topConceptOf cci_platform_scheme: ;
+.
+
+cci_platform_coll: skos:member cci_platform_concept:plat_sentinel3d .
+
+cci_platform_scheme: skos:hasTopConcept cci_platform_concept:plat_sentinel3d .
+

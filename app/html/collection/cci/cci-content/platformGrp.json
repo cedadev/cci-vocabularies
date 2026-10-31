@@ -54,13 +54,13 @@
     ],
     "http://www.w3.org/2004/02/skos/core#member": [
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"
       },
       {
         "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_dmsp"
       },
       {
-        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_noaa"
+        "@id": "https://vocab.ceda.ac.uk/collection/cci/platformGrp/plat_goes"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [

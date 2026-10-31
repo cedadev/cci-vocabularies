@@ -578,7 +578,9 @@
     skos:scopeNote "Multi-Spectral Instrument (Sentinel-2)"@en ;
     skos:topConceptOf cci-scheme:sensor ;
     cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2a>,
-        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2b> .
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2d> .
 
 <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_mss> a skos:Concept,
         cci:sensor ;
@@ -659,7 +661,9 @@
     skos:scopeNote "Ocean and Land Colour Imager"@en ;
     skos:topConceptOf cci-scheme:sensor ;
     cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a>,
-        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b> .
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3d> .
 
 <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_oli> a skos:Concept,
         cci:sensor ;
@@ -858,7 +862,9 @@
     skos:scopeNote "Synthetic Aperture Radar (C-band)"@en ;
     skos:topConceptOf cci-scheme:sensor ;
     cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1a>,
-        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1b> .
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1d> .
 
 <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sciamachy> a skos:Concept,
         cci:sensor ;
@@ -913,7 +919,9 @@
     skos:scopeNote "Sea and Land Surface Temperature Radiometer"@en ;
     skos:topConceptOf cci-scheme:sensor ;
     cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a>,
-        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b> .
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3d> .
 
 <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_smap> a skos:Concept,
         cci:sensor ;
@@ -954,7 +962,9 @@
     skos:scopeNote "Synthetic Aperture Radar Altimeter"@en ;
     skos:topConceptOf cci-scheme:sensor ;
     cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a>,
-        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b> .
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3d> .
 
 <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_ssalt> a skos:Concept,
         cci:sensor ;

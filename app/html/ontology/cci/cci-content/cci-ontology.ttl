@@ -461,10 +461,16 @@ cci-collection:platform a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_scisat>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1a>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1d>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2a>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2d>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3d>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel5p>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6a>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6b>,
@@ -704,8 +710,11 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhr17>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhr18>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhr19>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr06G>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr07G>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr08G>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr09G>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr10G>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr11G>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr12G>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr14G>,
@@ -719,7 +728,10 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrrMg>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrrNoaa>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrrPm>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrrmta>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrrmtag>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrrmtb>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_basin>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_besd>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_change>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_cl01A01>,
@@ -731,10 +743,14 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_clim>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_comb>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_combAdj>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_cs25km>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_emma>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_env5km>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_envisat>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_envisatSciaDLR0180x03601M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_envisatSciaDLR0360x07201M>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_er15km>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_er25km>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_eraModBias>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_ers1>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_ers2>,
@@ -742,6 +758,7 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_ers2Gome1DLR0360x07201M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_focal>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gfo>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_gll>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gmp>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gmpe>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_goes1213>,
@@ -753,6 +770,7 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gomEn>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gomeBira0180x03601M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gosat>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_grid>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_hmwr8>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_hmwr8Mon>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_hmwr9>,
@@ -765,6 +783,7 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_imap>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_ircdr>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_irmgp>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_is25km>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_map>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_meAaEn>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_medSea>,
@@ -791,6 +810,8 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_mtsatMon>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_multi1d>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_multi1m>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_multi5km5Year>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_multiAnnCum>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_mzm>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_nInd>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_neAtl>,
@@ -826,6 +847,8 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bSarWVdlr>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3_A>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3_B>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3a5km>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3b5km>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0091x01441M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0180x03601M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0360x07201M>,
@@ -833,6 +856,7 @@ cci-collection:product a skos:Collection ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s6>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_sAust>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_saral>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_sciaBira0180x0360M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_sciam>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_sciamEn>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_seAsia>,
@@ -2679,16 +2703,34 @@ cci-collection:sensor a skos:Collection ;
     skos:prefLabel "AVHR19-0.05deg_1DAILY"@en ;
     skos:topConceptOf cci-scheme:product .
 
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr06G> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "AVHRR06_G"@en ;
+    skos:topConceptOf cci-scheme:product .
+
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr07G> a skos:Concept,
         cci:product ;
     skos:inScheme cci-scheme:product ;
     skos:prefLabel "AVHRR07_G"@en ;
     skos:topConceptOf cci-scheme:product .
 
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr08G> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "AVHRR08_G"@en ;
+    skos:topConceptOf cci-scheme:product .
+
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr09G> a skos:Concept,
         cci:product ;
     skos:inScheme cci-scheme:product ;
     skos:prefLabel "AVHRR09_G"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr10G> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "AVHRR10_G"@en ;
     skos:topConceptOf cci-scheme:product .
 
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr11G> a skos:Concept,
@@ -2771,10 +2813,28 @@ cci-collection:sensor a skos:Collection ;
     skos:prefLabel "AVHRR-PM"@en ;
     skos:topConceptOf cci-scheme:product .
 
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrrmta> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "AVHRRMTA"@en ;
+    skos:topConceptOf cci-scheme:product .
+
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrrmtag> a skos:Concept,
         cci:product ;
     skos:inScheme cci-scheme:product ;
     skos:prefLabel "AVHRRMTA_G"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrrmtb> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "AVHRRMTB"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_basin> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "BASIN"@en ;
     skos:topConceptOf cci-scheme:product .
 
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_besd> a skos:Concept,
@@ -2857,12 +2917,24 @@ cci-collection:sensor a skos:Collection ;
     skos:prefLabel "COMBINED_ADJUSTED"@en ;
     skos:topConceptOf cci-scheme:product .
 
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_cs25km> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "CS2-5KM"@en ;
+    skos:topConceptOf cci-scheme:product .
+
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_emma> a skos:Concept,
         cci:product ;
     skos:definition "Data from the GHG EMMA algorithm"@en ;
     skos:inScheme cci-scheme:product ;
     skos:prefLabel "EMMA"@en ;
     skos:scopeNote "Data from the GHG EMMA algorithm"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_env5km> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "ENV-5KM"@en ;
     skos:topConceptOf cci-scheme:product .
 
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_envisat> a skos:Concept,
@@ -2881,6 +2953,18 @@ cci-collection:sensor a skos:Collection ;
         cci:product ;
     skos:inScheme cci-scheme:product ;
     skos:prefLabel "ENVISAT_SCIAMACHY_DLR-0360x0720_1M"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_er15km> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "ER1-5KM"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_er25km> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "ER2-5KM"@en ;
     skos:topConceptOf cci-scheme:product .
 
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_eraModBias> a skos:Concept,
@@ -2927,6 +3011,12 @@ cci-collection:sensor a skos:Collection ;
         cci:product ;
     skos:inScheme cci-scheme:product ;
     skos:prefLabel "GFO"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_gll> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "GLL"@en ;
     skos:topConceptOf cci-scheme:product .
 
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_gmp> a skos:Concept,
@@ -2993,6 +3083,12 @@ cci-collection:sensor a skos:Collection ;
         cci:product ;
     skos:inScheme cci-scheme:product ;
     skos:prefLabel "GOSAT"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_grid> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "GRID"@en ;
     skos:topConceptOf cci-scheme:product .
 
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_hmwr8> a skos:Concept,
@@ -3075,6 +3171,12 @@ cci-collection:sensor a skos:Collection ;
         cci:product ;
     skos:inScheme cci-scheme:product ;
     skos:prefLabel "IRMGP"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_is25km> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "IS2-5KM"@en ;
     skos:topConceptOf cci-scheme:product .
 
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_map> a skos:Concept,
@@ -3247,6 +3349,18 @@ cci-collection:sensor a skos:Collection ;
         cci:product ;
     skos:inScheme cci-scheme:product ;
     skos:prefLabel "MULTI_1M"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_multi5km5Year> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "MULTIMISSION-5KM-5YEAR-MEANS"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_multiAnnCum> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "MULTIMISSION_ANNUAL_CUMULATIVE_DH_GRID-5KM"@en ;
     skos:topConceptOf cci-scheme:product .
 
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_mzm> a skos:Concept,
@@ -3471,6 +3585,18 @@ cci-collection:sensor a skos:Collection ;
     skos:prefLabel "Sentinel-3_B"@en ;
     skos:topConceptOf cci-scheme:product .
 
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s3a5km> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "S3A-5KM"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_s3b5km> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "S3B-5KM"@en ;
+    skos:topConceptOf cci-scheme:product .
+
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0091x01441M> a skos:Concept,
         cci:product ;
     skos:inScheme cci-scheme:product ;
@@ -3513,6 +3639,12 @@ cci-collection:sensor a skos:Collection ;
         cci:product ;
     skos:inScheme cci-scheme:product ;
     skos:prefLabel "Saral"@en ;
+    skos:topConceptOf cci-scheme:product .
+
+<https://vocab.ceda.ac.uk/collection/cci/product/prod_sciaBira0180x0360M> a skos:Concept,
+        cci:product ;
+    skos:inScheme cci-scheme:product ;
+    skos:prefLabel "SCIAMACHY_ENVISAT_BIRA-0180x0360_1M"@en ;
     skos:topConceptOf cci-scheme:product .
 
 <https://vocab.ceda.ac.uk/collection/cci/product/prod_sciam> a skos:Concept,
@@ -5444,6 +5576,46 @@ cci-collection:sensor a skos:Collection ;
     skos:prefLabel "RadarSat-2"@en ;
     skos:scopeNote "RadarSat-2"@en ;
     skos:topConceptOf cci-scheme:platform .
+
+<https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1c> a skos:Concept,
+        cci:platform ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_1c> ;
+    skos:definition "Sentinel 1 programme, 3rd flight"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "Sentinel-1C"@en ;
+    skos:scopeNote "Sentinel 1 programme, 3rd flight"@en ;
+    skos:topConceptOf cci-scheme:platform ;
+    cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarcS1> .
+
+<https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1d> a skos:Concept,
+        cci:platform ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_1d> ;
+    skos:definition "Sentinel 1 programme, 4th flight"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "Sentinel-1D"@en ;
+    skos:scopeNote "Sentinel 1 programme, 4th flight"@en ;
+    skos:topConceptOf cci-scheme:platform ;
+    cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarcS1> .
+
+<https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2c> a skos:Concept,
+        cci:platform ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_2c> ;
+    skos:definition "Sentinel 2 programme, 3rd flight"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "Sentinel-2C"@en ;
+    skos:scopeNote "Sentinel 2 programme, 3rd flight"@en ;
+    skos:topConceptOf cci-scheme:platform ;
+    cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi> .
+
+<https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2d> a skos:Concept,
+        cci:platform ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_2d> ;
+    skos:definition "Sentinel 2 programme, 4th flight"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "Sentinel-2D"@en ;
+    skos:scopeNote "Sentinel 2 programme, 4th flight"@en ;
+    skos:topConceptOf cci-scheme:platform ;
+    cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi> .
 
 <https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot1> a skos:Concept,
         cci:platform ;
@@ -7712,29 +7884,6 @@ cci:platformGrp a owl:Class ;
     cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_aqua>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_terra> .
 
-<https://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi> a skos:Concept,
-        cci:sensor ;
-    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/312> ;
-    skos:altLabel "MSI"@en ;
-    skos:definition "Multi-Spectral Instrument (Sentinel-2)"@en ;
-    skos:inScheme cci-scheme:sensor ;
-    skos:prefLabel "MSI (Sentinel-2)"@en ;
-    skos:scopeNote "Multi-Spectral Instrument (Sentinel-2)"@en ;
-    skos:topConceptOf cci-scheme:sensor ;
-    cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2a>,
-        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2b> .
-
-<https://vocab.ceda.ac.uk/collection/cci/sensor/sens_olci> a skos:Concept,
-        cci:sensor ;
-    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/374> ;
-    skos:definition "Ocean and Land Colour Imager"@en ;
-    skos:inScheme cci-scheme:sensor ;
-    skos:prefLabel "OLCI"@en ;
-    skos:scopeNote "Ocean and Land Colour Imager"@en ;
-    skos:topConceptOf cci-scheme:sensor ;
-    cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a>,
-        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b> .
-
 <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_poseidon4> a skos:Concept,
         cci:sensor ;
     rdfs:seeAlso <https://space.oscar.wmo.int/instruments/view/poseidon_4> ;
@@ -7767,40 +7916,6 @@ cci:platformGrp a owl:Class ;
     skos:topConceptOf cci-scheme:sensor ;
     cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_iss_SAGEIII>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteor_3m> .
-
-<https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarcS1> a skos:Concept,
-        cci:sensor ;
-    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/450> ;
-    skos:altLabel "SAR-C"@en ;
-    skos:definition "Synthetic Aperture Radar (C-band)"@en ;
-    skos:inScheme cci-scheme:sensor ;
-    skos:prefLabel "SAR-C (Sentinel-1)"@en ;
-    skos:scopeNote "Synthetic Aperture Radar (C-band)"@en ;
-    skos:topConceptOf cci-scheme:sensor ;
-    cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1a>,
-        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1b> .
-
-<https://vocab.ceda.ac.uk/collection/cci/sensor/sens_slstr> a skos:Concept,
-        cci:sensor ;
-    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/518> ;
-    skos:definition "Sea and Land Surface Temperature Radiometer"@en ;
-    skos:inScheme cci-scheme:sensor ;
-    skos:prefLabel "SLSTR"@en ;
-    skos:scopeNote "Sea and Land Surface Temperature Radiometer"@en ;
-    skos:topConceptOf cci-scheme:sensor ;
-    cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a>,
-        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b> .
-
-<https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sral> a skos:Concept,
-        cci:sensor ;
-    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/530> ;
-    skos:definition "Synthetic Aperture Radar Altimeter"@en ;
-    skos:inScheme cci-scheme:sensor ;
-    skos:prefLabel "SRAL"@en ;
-    skos:scopeNote "Synthetic Aperture Radar Altimeter"@en ;
-    skos:topConceptOf cci-scheme:sensor ;
-    cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a>,
-        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b> .
 
 <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_vegetation> a skos:Concept,
         cci:sensor ;
@@ -8134,6 +8249,30 @@ cci:platformGrp a owl:Class ;
     skos:topConceptOf cci-scheme:platform ;
     cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_aceFts>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_maestro> .
+
+<https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3c> a skos:Concept,
+        cci:platform ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_3c> ;
+    skos:definition "Sentinel 3 programme, 3rd flight"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "Sentinel-3C"@en ;
+    skos:scopeNote "Sentinel 3 programme, 3rd flight"@en ;
+    skos:topConceptOf cci-scheme:platform ;
+    cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_olci>,
+        <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_slstr>,
+        <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sral> .
+
+<https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3d> a skos:Concept,
+        cci:platform ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_3d> ;
+    skos:definition "Sentinel 3 programme, 4th flight"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "Sentinel-3D"@en ;
+    skos:scopeNote "Sentinel 3 programme, 4th flight"@en ;
+    skos:topConceptOf cci-scheme:platform ;
+    cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_olci>,
+        <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_slstr>,
+        <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sral> .
 
 <https://vocab.ceda.ac.uk/collection/cci/platform/plat_spot4> a skos:Concept,
         cci:platform ;
@@ -8538,6 +8677,33 @@ cci:platformGrp a owl:Class ;
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_18>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_noaa_19> .
 
+<https://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi> a skos:Concept,
+        cci:sensor ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/312> ;
+    skos:altLabel "MSI"@en ;
+    skos:definition "Multi-Spectral Instrument (Sentinel-2)"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "MSI (Sentinel-2)"@en ;
+    skos:scopeNote "Multi-Spectral Instrument (Sentinel-2)"@en ;
+    skos:topConceptOf cci-scheme:sensor ;
+    cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2a>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2d> .
+
+<https://vocab.ceda.ac.uk/collection/cci/sensor/sens_olci> a skos:Concept,
+        cci:sensor ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/374> ;
+    skos:definition "Ocean and Land Colour Imager"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "OLCI"@en ;
+    skos:scopeNote "Ocean and Land Colour Imager"@en ;
+    skos:topConceptOf cci-scheme:sensor ;
+    cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3d> .
+
 <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sar2000> a skos:Concept,
         cci:sensor ;
     rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/447> ;
@@ -8551,6 +8717,20 @@ cci:platformGrp a owl:Class ;
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk3>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_csk4> .
 
+<https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarcS1> a skos:Concept,
+        cci:sensor ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/450> ;
+    skos:altLabel "SAR-C"@en ;
+    skos:definition "Synthetic Aperture Radar (C-band)"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SAR-C (Sentinel-1)"@en ;
+    skos:scopeNote "Synthetic Aperture Radar (C-band)"@en ;
+    skos:topConceptOf cci-scheme:sensor ;
+    cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1a>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1d> .
+
 <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_seviri> a skos:Concept,
         cci:sensor ;
     rdfs:seeAlso <http://www.wmo-sat.info/oscar/instruments/view/503> ;
@@ -8563,6 +8743,32 @@ cci:platformGrp a owl:Class ;
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_11>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_8>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_meteosat_9> .
+
+<https://vocab.ceda.ac.uk/collection/cci/sensor/sens_slstr> a skos:Concept,
+        cci:sensor ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/518> ;
+    skos:definition "Sea and Land Surface Temperature Radiometer"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SLSTR"@en ;
+    skos:scopeNote "Sea and Land Surface Temperature Radiometer"@en ;
+    skos:topConceptOf cci-scheme:sensor ;
+    cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3d> .
+
+<https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sral> a skos:Concept,
+        cci:sensor ;
+    rdfs:seeAlso <https://www.wmo-sat.info/oscar/instruments/view/530> ;
+    skos:definition "Synthetic Aperture Radar Altimeter"@en ;
+    skos:inScheme cci-scheme:sensor ;
+    skos:prefLabel "SRAL"@en ;
+    skos:scopeNote "Synthetic Aperture Radar Altimeter"@en ;
+    skos:topConceptOf cci-scheme:sensor ;
+    cci:hasPlatform <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3d> .
 
 <https://vocab.ceda.ac.uk/collection/cci/ecv/cciecv_aerosol> a skos:Concept,
         cci:ecv ;
@@ -10086,10 +10292,16 @@ cci-scheme:platform a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_scisat>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1a>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1d>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2a>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2d>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3d>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel5p>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6a>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6b>,
@@ -10218,8 +10430,11 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhr17>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhr18>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhr19>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr06G>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr07G>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr08G>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr09G>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr10G>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr11G>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr12G>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrr14G>,
@@ -10233,7 +10448,10 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrrMg>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrrNoaa>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrrPm>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrrmta>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrrmtag>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_avhrrmtb>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_basin>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_besd>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_change>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_cl01A01>,
@@ -10245,10 +10463,14 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_clim>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_comb>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_combAdj>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_cs25km>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_emma>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_env5km>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_envisat>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_envisatSciaDLR0180x03601M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_envisatSciaDLR0360x07201M>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_er15km>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_er25km>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_eraModBias>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_ers1>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_ers2>,
@@ -10256,6 +10478,7 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_ers2Gome1DLR0360x07201M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_focal>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gfo>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_gll>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gmp>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gmpe>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_goes1213>,
@@ -10267,6 +10490,7 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gomEn>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gomeBira0180x03601M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_gosat>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_grid>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_hmwr8>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_hmwr8Mon>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_hmwr9>,
@@ -10279,6 +10503,7 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_imap>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_ircdr>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_irmgp>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_is25km>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_map>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_meAaEn>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_medSea>,
@@ -10305,6 +10530,8 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_mtsatMon>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_multi1d>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_multi1m>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_multi5km5Year>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_multiAnnCum>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_mzm>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_nInd>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_neAtl>,
@@ -10340,6 +10567,8 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s1bSarWVdlr>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3_A>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3_B>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3a5km>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_s3b5km>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0091x01441M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0180x03601M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s5pTropomiKnmi0360x07201M>,
@@ -10347,6 +10576,7 @@ cci-scheme:product a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_s6>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_sAust>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_saral>,
+        <https://vocab.ceda.ac.uk/collection/cci/product/prod_sciaBira0180x0360M>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_sciam>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_sciamEn>,
         <https://vocab.ceda.ac.uk/collection/cci/product/prod_seAsia>,

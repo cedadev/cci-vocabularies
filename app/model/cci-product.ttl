@@ -2695,3 +2695,183 @@ cci_product_coll: skos:member cci_product_concept:prod_hmwr9 .
 
 cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_hmwr9 .
 
+cci_product_concept:prod_avhrr06G a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "AVHRR06_G"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_avhrr06G .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_avhrr06G .
+
+cci_product_concept:prod_avhrr08G a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "AVHRR08_G"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_avhrr08G .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_avhrr08G .
+
+cci_product_concept:prod_avhrr10G a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "AVHRR10_G"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_avhrr10G .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_avhrr10G .
+
+cci_product_concept:prod_avhrrmtb a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "AVHRRMTB"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_avhrrmtb .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_avhrrmtb .
+
+cci_product_concept:prod_avhrrmta a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "AVHRRMTA"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_avhrrmta .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_avhrrmta .
+
+cci_product_concept:prod_sciaBira0180x0360M a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "SCIAMACHY_ENVISAT_BIRA-0180x0360_1M"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_sciaBira0180x0360M .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_sciaBira0180x0360M .
+
+cci_product_concept:prod_cs25km a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "CS2-5KM"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_cs25km .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_cs25km .
+
+cci_product_concept:prod_env5km a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "ENV-5KM"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_env5km .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_env5km .
+
+cci_product_concept:prod_er15km a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "ER1-5KM"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_er15km .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_er15km .
+
+cci_product_concept:prod_er25km a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "ER2-5KM"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_er25km .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_er25km .
+
+cci_product_concept:prod_is25km a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "IS2-5KM"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_is25km .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_is25km .
+
+cci_product_concept:prod_s3a5km a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "S3A-5KM"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_s3a5km .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s3a5km .
+
+cci_product_concept:prod_s3b5km a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "S3B-5KM"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_s3b5km .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_s3b5km .
+
+cci_product_concept:prod_multi5km5Year a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "MULTIMISSION-5KM-5YEAR-MEANS"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_multi5km5Year .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_multi5km5Year .
+
+cci_product_concept:prod_multiAnnCum a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "MULTIMISSION_ANNUAL_CUMULATIVE_DH_GRID-5KM"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_multiAnnCum .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_multiAnnCum .
+
+cci_product_concept:prod_grid a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "GRID"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_grid .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_grid .
+
+cci_product_concept:prod_basin a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "BASIN"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_basin .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_basin .
+
+cci_product_concept:prod_gll a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "GLL"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_gll .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_gll .
+

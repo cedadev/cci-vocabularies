@@ -824,3 +824,43 @@ mapa:plat_himawari9 cci:hasSensor mapb:sens_ahi .
 
 mapb:sens_ahi cci:hasPlatform mapa:plat_himawari9 .
 
+mapa:plat_sentinel2c cci:hasSensor mapb:sens_msi .
+
+mapb:sens_msi cci:hasPlatform mapa:plat_sentinel2c .
+
+mapa:plat_sentinel2d cci:hasSensor mapb:sens_msi .
+
+mapb:sens_msi cci:hasPlatform mapa:plat_sentinel2d .
+
+mapa:plat_sentinel1c cci:hasSensor mapb:sens_sarcS1 .
+
+mapb:sens_sarcS1 cci:hasPlatform mapa:plat_sentinel1c .
+
+mapa:plat_sentinel1d cci:hasSensor mapb:sens_sarcS1 .
+
+mapb:sens_sarcS1 cci:hasPlatform mapa:plat_sentinel1d .
+
+mapa:plat_sentinel3c cci:hasSensor mapb:sens_sral .
+
+mapb:sens_sral cci:hasPlatform mapa:plat_sentinel3c .
+
+mapa:plat_sentinel3c cci:hasSensor mapb:sens_olci .
+
+mapb:sens_olci cci:hasPlatform mapa:plat_sentinel3c .
+
+mapa:plat_sentinel3c cci:hasSensor mapb:sens_slstr .
+
+mapb:sens_slstr cci:hasPlatform mapa:plat_sentinel3c .
+
+mapa:plat_sentinel3d cci:hasSensor mapb:sens_sral .
+
+mapb:sens_sral cci:hasPlatform mapa:plat_sentinel3d .
+
+mapa:plat_sentinel3d cci:hasSensor mapb:sens_olci .
+
+mapb:sens_olci cci:hasPlatform mapa:plat_sentinel3d .
+
+mapa:plat_sentinel3d cci:hasSensor mapb:sens_slstr .
+
+mapb:sens_slstr cci:hasPlatform mapa:plat_sentinel3d .
+

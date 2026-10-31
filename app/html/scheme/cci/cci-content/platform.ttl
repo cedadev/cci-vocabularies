@@ -1703,6 +1703,26 @@
     skos:topConceptOf cci-scheme:platform ;
     cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarcS1> .
 
+<https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1c> a skos:Concept,
+        cci:platform ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_1c> ;
+    skos:definition "Sentinel 1 programme, 3rd flight"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "Sentinel-1C"@en ;
+    skos:scopeNote "Sentinel 1 programme, 3rd flight"@en ;
+    skos:topConceptOf cci-scheme:platform ;
+    cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarcS1> .
+
+<https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1d> a skos:Concept,
+        cci:platform ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_1d> ;
+    skos:definition "Sentinel 1 programme, 4th flight"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "Sentinel-1D"@en ;
+    skos:scopeNote "Sentinel 1 programme, 4th flight"@en ;
+    skos:topConceptOf cci-scheme:platform ;
+    cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sarcS1> .
+
 <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2a> a skos:Concept,
         cci:platform ;
     rdfs:seeAlso <https://www.wmo-sat.info/oscar/satellites/view/398> ;
@@ -1722,6 +1742,26 @@
     skos:inScheme cci-scheme:platform ;
     skos:prefLabel "Sentinel-2B"@en ;
     skos:scopeNote "Sentinel 2 programme, 2nd flight"@en ;
+    skos:topConceptOf cci-scheme:platform ;
+    cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi> .
+
+<https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2c> a skos:Concept,
+        cci:platform ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_2c> ;
+    skos:definition "Sentinel 2 programme, 3rd flight"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "Sentinel-2C"@en ;
+    skos:scopeNote "Sentinel 2 programme, 3rd flight"@en ;
+    skos:topConceptOf cci-scheme:platform ;
+    cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi> .
+
+<https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2d> a skos:Concept,
+        cci:platform ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_2d> ;
+    skos:definition "Sentinel 2 programme, 4th flight"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "Sentinel-2D"@en ;
+    skos:scopeNote "Sentinel 2 programme, 4th flight"@en ;
     skos:topConceptOf cci-scheme:platform ;
     cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_msi> .
 
@@ -1746,6 +1786,30 @@
     skos:inScheme cci-scheme:platform ;
     skos:prefLabel "Sentinel-3B"@en ;
     skos:scopeNote "Sentinel 3 programme, 2nd flight"@en ;
+    skos:topConceptOf cci-scheme:platform ;
+    cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_olci>,
+        <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_slstr>,
+        <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sral> .
+
+<https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3c> a skos:Concept,
+        cci:platform ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_3c> ;
+    skos:definition "Sentinel 3 programme, 3rd flight"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "Sentinel-3C"@en ;
+    skos:scopeNote "Sentinel 3 programme, 3rd flight"@en ;
+    skos:topConceptOf cci-scheme:platform ;
+    cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_olci>,
+        <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_slstr>,
+        <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_sral> .
+
+<https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3d> a skos:Concept,
+        cci:platform ;
+    rdfs:seeAlso <https://space.oscar.wmo.int/satellites/view/sentinel_3d> ;
+    skos:definition "Sentinel 3 programme, 4th flight"@en ;
+    skos:inScheme cci-scheme:platform ;
+    skos:prefLabel "Sentinel-3D"@en ;
+    skos:scopeNote "Sentinel 3 programme, 4th flight"@en ;
     skos:topConceptOf cci-scheme:platform ;
     cci:hasSensor <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_olci>,
         <https://vocab.ceda.ac.uk/collection/cci/sensor/sens_slstr>,
@@ -2152,10 +2216,16 @@ cci-scheme:platform a skos:ConceptScheme ;
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_scisat>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1a>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel1d>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2a>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel2d>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3a>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3b>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3c>,
+        <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel3d>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel5p>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6a>,
         <https://vocab.ceda.ac.uk/collection/cci/platform/plat_sentinel6b>,
