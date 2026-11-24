@@ -204,3 +204,13 @@ plat_uars`hasSensor`sens_haloe`hasPlatform
 plat_terra`hasSensor`sens_mopitt`hasPlatform
 plat_himawari8`hasSensor`sens_ahi`hasPlatform
 plat_himawari9`hasSensor`sens_ahi`hasPlatform
+plat_sentinel2c`hasSensor`sens_msi`hasPlatform
+plat_sentinel2d`hasSensor`sens_msi`hasPlatform
+plat_sentinel1c`hasSensor`sens_sarcS1`hasPlatform
+plat_sentinel1d`hasSensor`sens_sarcS1`hasPlatform
+plat_sentinel3c`hasSensor`sens_sral`hasPlatform
+plat_sentinel3c`hasSensor`sens_olci`hasPlatform
+plat_sentinel3c`hasSensor`sens_slstr`hasPlatform
+plat_sentinel3d`hasSensor`sens_sral`hasPlatform
+plat_sentinel3d`hasSensor`sens_olci`hasPlatform
+plat_sentinel3d`hasSensor`sens_slstr`hasPlatform

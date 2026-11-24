@@ -175,3 +175,9 @@ plat_iss_SAGEIII`ISS Sage-III``Stratospheric Aerosol and Gas Experiment III on t
 plat_noaa_20`NOAA-20``NASA NOAA Environmental satellite 20`https://space.oscar.wmo.int/satellites/view/noaa_20
 plat_himawari8`Himawari-8``Himawari-8`https://space.oscar.wmo.int/satellites/view/himawari_8
 plat_himawari9`Himawari-9``Himawari-9`https://space.oscar.wmo.int/satellites/view/himawari_9
+plat_sentinel1c`Sentinel-1C``Sentinel 1 programme, 3rd flight`https://space.oscar.wmo.int/satellites/view/sentinel_1c
+plat_sentinel1d`Sentinel-1D``Sentinel 1 programme, 4th flight`https://space.oscar.wmo.int/satellites/view/sentinel_1d
+plat_sentinel2c`Sentinel-2C``Sentinel 2 programme, 3rd flight`https://space.oscar.wmo.int/satellites/view/sentinel_2c
+plat_sentinel2d`Sentinel-2D``Sentinel 2 programme, 4th flight`https://space.oscar.wmo.int/satellites/view/sentinel_2d
+plat_sentinel3c`Sentinel-3C``Sentinel 3 programme, 3rd flight`https://space.oscar.wmo.int/satellites/view/sentinel_3c
+plat_sentinel3d`Sentinel-3D``Sentinel 3 programme, 4th flight`https://space.oscar.wmo.int/satellites/view/sentinel_3d

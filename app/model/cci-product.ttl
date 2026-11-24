@@ -2875,3 +2875,23 @@ cci_product_coll: skos:member cci_product_concept:prod_gll .
 
 cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_gll .
 
+cci_product_concept:prod_amsr2 a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "AMSR2"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_amsr2 .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_amsr2 .
+
+cci_product_concept:prod_amsre a skos:Concept, cci_ontology:product;
+    skos:inScheme cci_product_scheme: ;
+    skos:prefLabel "AMSRE"@en ;
+    skos:topConceptOf cci_product_scheme: ;
+.
+
+cci_product_coll: skos:member cci_product_concept:prod_amsre .
+
+cci_product_scheme: skos:hasTopConcept cci_product_concept:prod_amsre .
+
